@@ -1,0 +1,25 @@
+{
+  "name": "laisiangtho",
+  "version": "0.0.1",
+  "description": "Holy Bible",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laisiangtho/bible.git"
+  },
+  "keywords": [
+    "Holy Bible",
+    "Lai Siangtho"
+  ],
+  "bugs": {
+    "url": "https://github.com/laisiangtho/bible/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "sqlite3": "^4.0.4",
+    "fs-extra": "^7.0.1",
+    "xml2js": "^0.4.19"
+  },
+  "author": "Khen Solomon Lethil",
+  "license": "MIT"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Zolai JSONss",
+    "desc": "Zolai Version",
+    "lang": "zo",
+    "version": 1,
+    "launched": "10/12/18"
+  },
+  {
+    "id": 2,
+    "name": "English",
+    "desc": "King James",
+    "lang": "en",
+    "version": 1,
+    "launched": "10/12/18"
+  },
+  {
+    "id": 3,
+    "name": "Burmese",
+    "desc": "Common Burmese Version",
+    "lang": "my",
+    "version": 1,
+    "launched": "10/12/18"
+  },
+  {
+    "id": 666,
+    "name": "Tmp One",
+    "desc": "...Beta propose, data would not be found!",
+    "lang": "",
+    "version": 1,
+    "launched": "10/12/18"
+  },
+  {
+    "id": 3567,
+    "name": "Tmp Two",
+    "desc": "...Beta propose, data would not be found!",
+    "lang": "",
+    "version": 1,
+    "launched": "10/12/18"
+  }
+]
