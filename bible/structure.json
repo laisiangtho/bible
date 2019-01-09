@@ -1,0 +1,88 @@
+{
+  "info": {
+    "identify": "kjv-1611",
+    "name": "King James Version",
+    "shortname": "KJV1611",
+    "year": 1611,
+    "lang": {
+      "code":"0",
+      "iso":"a",
+      "name":"a"
+    },
+    "version": 1
+  },
+  "note":{
+    "page-break/paragraph":"[/]",
+    "word":"“Sun” «dag» ",
+    "words":"“Khuavak om hen,” «Det bli lys!»"
+  },
+  "lang":{
+    "chapter":"Chapter",
+    "verse":"Verse"
+  },
+  "digit":["0","1","2","3","4","5","6","7","8","9"],
+  "testament":{
+    "1":{
+      "info":{
+        "name": "Old Testament",
+        "shortname": "OT",
+        "desc":""
+      },
+      "other":{
+        "??":""
+      }
+    },
+    "2":{
+      "info":{
+        "name": "New Testament",
+        "shortname": "NT",
+        "desc":""
+      },
+      "other":{
+        "??":""
+      }
+    }
+  },
+  "story": {
+    "1":{
+      "1":{
+        "1":{
+          "title":"?",
+          "text":"...",
+          "other":"?"
+        }
+      }
+    }
+  },
+  "book": {
+    "1":{
+      "info":{
+        "name": "Piancilna",
+        "shortname": "Pian",
+        "abbr":[],
+        "desc": ""
+      },
+      "topic":[
+        {
+          "text": "Van leh lei, leh mihing a kipiansakna",
+          "ref": "Gen.1.1,Gen.2.25"
+        }
+      ],
+      "chapter":{
+        "1":{
+          "verse":{
+            "1":{
+              "text":"?",
+              "title":"?",
+              "ref":"?",
+              "merge":"?"
+            }
+          }
+        },
+        "2":{
+          "verse":""
+        }
+      }
+    }
+  }
+}
