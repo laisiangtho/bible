@@ -176,6 +176,7 @@ databaseStory = function(bId, cId, chapter){
 task.main = function(parentSettings) {
   settings = parentSettings;
   databaseBibleCurrentBook = 0;
+  databaseStoryCurrentBook = 0;
   return new Promise(function(resolve, reject) {
     readJSON().then(function(result){
       databasePrepare(result).then(function(){

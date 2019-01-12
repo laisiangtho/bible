@@ -29,33 +29,6 @@ settings={
   bookSourceJSON: path.resolve(currentDirectory,'json','*.json'),
   bookSourceSQLite: path.resolve(currentDirectory,'ph4','*.SQLite3'),
   bookTargetSQLite: path.resolve(currentDirectory,'sqlite','*.db'),
-  language:{
-    en:{
-      text:"English",
-      local:"English",
-      textdirection: "ltr"
-    },
-    my:{
-      text:"Myanmar",
-      local:"Burmese",
-      textdirection: "ltr"
-    },
-    no:{
-      text:"Norwegian",
-      local:"Norsk",
-      textdirection: "ltr"
-    },
-    sv:{
-      text:"Swedish",
-      local:"SuoSvenskami",
-      textdirection: "ltr"
-    },
-    fi:{
-      text:"Finish",
-      local:"Suomi",
-      textdirection: "ltr"
-    }
-  },
   message:{
     book: function(bId,cId){
       var bTc = (bId < 10)?' ':'';
@@ -155,7 +128,7 @@ taskInitiate=function(){
 },
 taskProcess=function(taskId){
   settings.bookIdentify = taskId;
-  settings.books = bookCollection;
+  settings.bookCollection = bookCollection;
   console.log(`\n..bookIdentify:\x1b[36m ${settings.bookIdentify}\x1b[0m`)
   return task.main(settings).then(function(response){
     bookCollectionUpdate(response,(e) => {

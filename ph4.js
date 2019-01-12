@@ -85,8 +85,8 @@ dbSelectInfo = function() {
         if (o.name == 'description') result.info.description=o.value;
         if (o.name == 'language') {
           result.info.language.name=o.value;
-          if (settings.language.hasOwnProperty(o.value)){
-            var language = settings.language[o.value];
+          if (settings.bookCollection.language.hasOwnProperty(o.value)){
+            var language = settings.bookCollection.language[o.value];
             // result.info.language.text=lang.text;
             // result.info.language.textdirection=lang.textdirection;
             for (const langId in language) {

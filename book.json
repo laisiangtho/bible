@@ -1,7 +1,7 @@
 {
   "name": "Lai Siangtho",
-  "updated": "2019-01-12T05:26:32.606Z",
-  "version": 2,
+  "updated": "2019-01-12T09:28:13.622Z",
+  "version": 3,
   "book": [
     {
       "identify": "tedim1932",
@@ -237,9 +237,9 @@
       "publisher": "Bible 1933/38 – Kirkkoraamattu 1933/38 <br/>\r\n(vapaa tekijänoikeuksista) (free of copyright) <br/>\r\nFinnish Bible Society"
     },
     {
-      "identify": "fi-kinb.1938",
+      "identify": "fi-rk12.2002",
       "name": "",
-      "shortname": "fi-kinb.1938",
+      "shortname": "fi-rk12.2002",
       "year": "",
       "language": {
         "text": "Finish",
@@ -248,8 +248,233 @@
         "local": "Suomi"
       },
       "version": 1,
-      "description": "Kirkkoraamattu 1933/38",
-      "publisher": "Bible 1933/38 – Kirkkoraamattu 1933/38 <br/>\r\n(vapaa tekijänoikeuksista) (free of copyright) <br/>\r\nFinnish Bible Society"
+      "description": "Raamattu Kansalle 2012",
+      "publisher": "© 2012 Raamattu Kansalle ry"
+    },
+    {
+      "identify": "fi-rk12.2002",
+      "name": "",
+      "shortname": "fi-rk12.2002",
+      "year": "",
+      "language": {
+        "text": "Finish",
+        "textdirection": "ltr",
+        "name": "fi",
+        "local": "Suomi"
+      },
+      "version": 1,
+      "description": "Raamattu Kansalle 2012",
+      "publisher": "© 2012 Raamattu Kansalle ry"
+    },
+    {
+      "identify": "sv-sv17.1917",
+      "name": "",
+      "shortname": "sv-sv17.1917",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Svenska 1917",
+      "publisher": "Old Testament, Copyright (C) 1998, Stiftelsen Svenska Folkbibeln, Stockholm. <br/>\nNew Testament, Copyright (C) 1996, 1998, Stiftelsen Svenska Folkbibeln, Stockholm, and Stiftelsen Biblicum, Ljungby"
+    },
+    {
+      "identify": "sv-sv17.1917",
+      "name": "",
+      "shortname": "sv-sv17.1917",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Svenska 1917",
+      "publisher": "Old Testament, Copyright (C) 1998, Stiftelsen Svenska Folkbibeln, Stockholm. <br/>\nNew Testament, Copyright (C) 1996, 1998, Stiftelsen Svenska Folkbibeln, Stockholm, and Stiftelsen Biblicum, Ljungby"
+    },
+    {
+      "identify": "sv-sfb15.2015",
+      "name": "",
+      "shortname": "sv-sfb15.2015",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Svenska Folkbibeln 2015",
+      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+    },
+    {
+      "identify": "sv-sfb15.2015",
+      "name": "",
+      "shortname": "sv-sfb15.2015",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Svenska Folkbibeln 2015",
+      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+    },
+    {
+      "identify": "sv-sfb15.2015",
+      "name": "",
+      "shortname": "sv-sfb15.2015",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Svenska Folkbibeln 2015",
+      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+    },
+    {
+      "identify": "sv-sfb15.2015",
+      "name": "",
+      "shortname": "sv-sfb15.2015",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Svenska Folkbibeln 2015",
+      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+    },
+    {
+      "identify": "sv-sfb15.2015",
+      "name": "",
+      "shortname": "sv-sfb15.2015",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Svenska Folkbibeln 2015",
+      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+    },
+    {
+      "identify": "sv-sfb15.2015",
+      "name": "",
+      "shortname": "sv-sfb15.2015",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Svenska Folkbibeln 2015",
+      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+    },
+    {
+      "identify": "sv-sfb15.2015",
+      "name": "",
+      "shortname": "sv-sfb15.2015",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Svenska Folkbibeln 2015",
+      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+    },
+    {
+      "identify": "sv-sfb15.2015",
+      "name": "",
+      "shortname": "sv-sfb15.2015",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Svenska Folkbibeln 2015",
+      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+    },
+    {
+      "identify": "my-msb.2017",
+      "name": "",
+      "shortname": "my-msb.2017",
+      "year": "",
+      "language": {
+        "text": "Myanmar",
+        "textdirection": "ltr",
+        "name": "my",
+        "local": "Burmese"
+      },
+      "version": 1,
+      "description": "Myanmar Standard Bible",
+      "publisher": "Myanmar Standard Bible <br/>\r\n© 2014, 2017 Global Bible Initiative"
+    },
+    {
+      "identify": "no-nb.2007",
+      "name": "",
+      "shortname": "no-nb.2007",
+      "year": "",
+      "language": {
+        "text": "Norwegian",
+        "textdirection": "ltr",
+        "name": "no",
+        "local": "Norsk"
+      },
+      "version": 1,
+      "description": "Norsk Bibel 88/07",
+      "publisher": "Norsk Bibel AS, 1988, 2007"
+    },
+    {
+      "identify": "sv-sv17.1917",
+      "name": "",
+      "shortname": "sv-sv17.1917",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Svenska 1917",
+      "publisher": "Old Testament, Copyright (C) 1998, Stiftelsen Svenska Folkbibeln, Stockholm. <br/>\nNew Testament, Copyright (C) 1996, 1998, Stiftelsen Svenska Folkbibeln, Stockholm, and Stiftelsen Biblicum, Ljungby"
+    },
+    {
+      "identify": "sv-sv17.1917",
+      "name": "",
+      "shortname": "sv-sv17.1917",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Svenska 1917",
+      "publisher": "Old Testament, Copyright (C) 1998, Stiftelsen Svenska Folkbibeln, Stockholm. <br/>\nNew Testament, Copyright (C) 1996, 1998, Stiftelsen Svenska Folkbibeln, Stockholm, and Stiftelsen Biblicum, Ljungby"
     },
     {
       "identify": "fi-fik38.1938",
@@ -267,9 +492,9 @@
       "publisher": "Bible 1933/38 – Kirkkoraamattu 1933/38 <br/>\r\n(vapaa tekijänoikeuksista) (free of copyright) <br/>\r\nFinnish Bible Society"
     },
     {
-      "identify": "sv-sfb15.2015",
+      "identify": "sv-sfb98.1998",
       "name": "",
-      "shortname": "sv-sfb15.2015",
+      "shortname": "sv-sfb98.1998",
       "year": "",
       "language": {
         "text": "Swedish",
@@ -278,133 +503,133 @@
         "local": "SuoSvenskami"
       },
       "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+      "description": "Svenska Folkbibeln 1998",
+      "publisher": "Old Testament, Copyright (C) 1998, Stiftelsen Svenska Folkbibeln, Stockholm. <br/>\nNew Testament, Copyright (C) 1996, 1998, Stiftelsen Svenska Folkbibeln, Stockholm, and Stiftelsen Biblicum, Ljungby"
     },
     {
-      "identify": "sv-sfb15.2015",
+      "identify": "fi-fik76.1776",
       "name": "",
-      "shortname": "sv-sfb15.2015",
+      "shortname": "fi-fik76.1776",
       "year": "",
       "language": {
-        "text": "Swedish",
+        "text": "Finish",
         "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
+        "name": "fi",
+        "local": "Suomi"
       },
       "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+      "description": "Biblia 1776 ei apokryfikirjoja alaviitteineen",
+      "publisher": "Biblia 1776"
     },
     {
-      "identify": "sv-sfb15.2015",
+      "identify": "fi-kr.1992",
       "name": "",
-      "shortname": "sv-sfb15.2015",
+      "shortname": "fi-kr.1992",
       "year": "",
       "language": {
-        "text": "Swedish",
+        "text": "Finish",
         "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
+        "name": "fi",
+        "local": "Suomi"
       },
       "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+      "description": "Kirkkoraamattu 1992",
+      "publisher": "© Suomennoksen tekijänoikeudet: Kirkon keskusrahasto, Evangelical Lutheran Church of Finland"
     },
     {
-      "identify": "sv-sfb15.2015",
+      "identify": "my-jb.1933",
       "name": "",
-      "shortname": "sv-sfb15.2015",
+      "shortname": "my-jb.1933",
       "year": "",
       "language": {
-        "text": "Swedish",
+        "text": "Myanmar",
         "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
+        "name": "my",
+        "local": "Burmese"
       },
       "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+      "description": "Judson Bible",
+      "publisher": "Judson Bible <br/>\r\n© 1933 McGuire revision (public domain) <br/>\r\nBible Society of Myanmar"
     },
     {
-      "identify": "sv-sfb15.2015",
+      "identify": "my-mcl.2005",
       "name": "",
-      "shortname": "sv-sfb15.2015",
+      "shortname": "my-mcl.2005",
       "year": "",
       "language": {
-        "text": "Swedish",
+        "text": "Myanmar",
         "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
+        "name": "my",
+        "local": "Burmese"
       },
       "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+      "description": "Common Language Bible",
+      "publisher": "Common Language Bible <br/>\r\n© 2005 Bible Society of Myanmar"
     },
     {
-      "identify": "sv-sfb15.2015",
+      "identify": "no-n11.2011",
       "name": "",
-      "shortname": "sv-sfb15.2015",
+      "shortname": "no-n11.2011",
       "year": "",
       "language": {
-        "text": "Swedish",
+        "text": "Norwegian",
         "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
+        "name": "no",
+        "local": "Norsk"
       },
       "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+      "description": "Bibelen 2011 bokmål",
+      "publisher": "© 2011 by The Norwegian Bible Society (Det Norske Bibelselskap). All rights reserved worldwide. \n<p/>© 2011 Det Norske Bibelselskap. Alle rettigheter globalt."
     },
     {
-      "identify": "sv-sfb15.2015",
+      "identify": "no-n11nn.2011",
       "name": "",
-      "shortname": "sv-sfb15.2015",
+      "shortname": "no-n11nn.2011",
       "year": "",
       "language": {
-        "text": "Swedish",
+        "text": "Norwegian",
         "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
+        "name": "nn",
+        "local": "Norsk"
       },
       "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+      "description": "Bibelen 2011 nynorsk",
+      "publisher": "© 2011 by The Norwegian Bible Society (Det Norske Bibelselskap). All rights reserved worldwide. \n<br/>© 2011 Det Norske Bibelselskap. Alle rettar globalt."
     },
     {
-      "identify": "sv-sfb15.2015",
+      "identify": "no-n78.1978",
       "name": "",
-      "shortname": "sv-sfb15.2015",
+      "shortname": "no-n78.1978",
       "year": "",
       "language": {
-        "text": "Swedish",
+        "text": "Norwegian",
         "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
+        "name": "no",
+        "local": "Norsk"
       },
       "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+      "description": "The Bible in Norwegian 1978/85 bokmål",
+      "publisher": "© 1978, 1985 by The Norwegian Bible Society (Det Norske Bibelselskap). \n<p/>© 1978, 1985 Det Norske Bibelselskap. "
     },
     {
-      "identify": "sv-sfb15.2015",
+      "identify": "no-n78nn.1985",
       "name": "",
-      "shortname": "sv-sfb15.2015",
+      "shortname": "no-n78nn.1985",
       "year": "",
       "language": {
-        "text": "Swedish",
+        "text": "Norwegian",
         "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
+        "name": "nn",
+        "local": "Norsk"
       },
       "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+      "description": "Bibelen 1978/85 nynorsk",
+      "publisher": "© 1978, 1985 by The Norwegian Bible Society (Det Norske Bibelselskap). \n<br/>© 1978, 1985 Det Norske Bibelselskap. \n"
     },
     {
-      "identify": "sv-sfb15.2015",
+      "identify": "sv-nub15.2015",
       "name": "",
-      "shortname": "sv-sfb15.2015",
+      "shortname": "sv-nub15.2015",
       "year": "",
       "language": {
         "text": "Swedish",
@@ -413,8 +638,38 @@
         "local": "SuoSvenskami"
       },
       "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
+      "description": "nuBibeln 2015",
+      "publisher": "Swedish Contemporary Bible 2015 – <br/>\r\nnuBibeln (Swedish Contemporary Bible) Copyright © 2015 av Biblica, Inc.® Utgiven med tillstånd från Biblica, Inc.® Alla rättigheter förbehållna över hela världen."
+    },
+    {
+      "identify": "sv-sb00.2000",
+      "name": "",
+      "shortname": "sv-sb00.2000",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Bibel 2000",
+      "publisher": "Bible 2000 Swedish Translation – <br/>\r\nSvenska Bibelsällskapet förvaltar upphovsrätten för Bibel 2000. Mer information på svenska finner du här: <a href=\"http://www.bibelsällskapet.se/om-oss/copyright/\">http://www.bibelsällskapet.se/om-oss/copyright/</a>. <br/>\r\nSwedish Bible Society"
+    },
+    {
+      "identify": "sv-sbd00.2000",
+      "name": "",
+      "shortname": "sv-sbd00.2000",
+      "year": "",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "name": "sv",
+        "local": "SuoSvenskami"
+      },
+      "version": 1,
+      "description": "Bible 2000, Swedish Translation",
+      "publisher": "Bible 2000, Swedish Translation <br/>\r\nSvenska Bibelsällskapet förvaltar upphovsrätten för Bibel 2000. Mer information på svenska finner du här: <a href=\"http://www.bibelsällskapet.se/om-oss/copyright/\">http://www.bibelsällskapet.se/om-oss/copyright/</a>. <br/>\r\nSwedish Bible Society"
     }
   ],
   "collection": {
@@ -457,7 +712,21 @@
       "fi-fik38.1938",
       "sv-sv17.1917",
       "sv-sfb98.1998",
-      "sv-sfb15.2015"
+      "sv-sfb15.2015",
+      "fi-fik76.1776",
+      "fi-kr.1992",
+      "fi-rk12.2002",
+      "my-jb.1933",
+      "my-mcl.2005",
+      "my-msb.2017",
+      "no-n11.2011",
+      "no-n11nn.2011",
+      "no-n78.1978",
+      "no-n78nn.1985",
+      "no-nb.2007",
+      "sv-nub15.2015",
+      "sv-sb00.2000",
+      "sv-sbd00.2000"
     ],
     "sqlite": [
       "kjv1611",
@@ -476,14 +745,73 @@
       "paite1971",
       "sizang1932",
       "web2000",
-      "fi-kinb.1938"
+      "fi-kinb.1938",
+      "fi-fik38.1938",
+      "sv-sv17.1917",
+      "sv-sfb98.1998",
+      "sv-sfb15.2015",
+      "fi-fik76.1776",
+      "fi-kr.1992",
+      "fi-rk12.2002",
+      "my-jb.1933",
+      "my-mcl.2005",
+      "my-msb.2017",
+      "no-n11.2011",
+      "no-n11nn.2011",
+      "no-n78.1978",
+      "no-n78nn.1985",
+      "no-nb.2007",
+      "sv-nub15.2015",
+      "sv-sb00.2000",
+      "sv-sbd00.2000"
     ],
     "ph4": [
       "fi-kinb.1938",
       "fi-fik38.1938",
       "sv-sv17.1917",
       "sv-sfb98.1998",
-      "sv-sfb15.2015"
+      "sv-sfb15.2015",
+      "fi-fik76.1776",
+      "fi-kr.1992",
+      "fi-rk12.2002",
+      "my-jb.1933",
+      "my-mcl.2005",
+      "my-msb.2017",
+      "no-n11.2011",
+      "no-n11nn.2011",
+      "no-n78.1978",
+      "no-n78nn.1985",
+      "no-nb.2007",
+      "sv-nub15.2015",
+      "sv-sb00.2000",
+      "sv-sbd00.2000"
     ]
+  },
+  "language": {
+    "en": {
+      "text": "English",
+      "local": "English",
+      "textdirection": "ltr"
+    },
+    "my": {
+      "text": "Myanmar",
+      "local": "Burmese",
+      "textdirection": "ltr"
+    },
+    "no": {
+      "text": "Norwegian",
+      "local": "Norsk",
+      "textdirection": "ltr"
+    },
+    "sv": {
+      "text": "Swedish",
+      "local": "SuoSvenskami",
+      "textdirection": "ltr"
+    },
+    "fi": {
+      "text": "Finish",
+      "local": "Suomi",
+      "textdirection": "ltr"
+    }
   }
 }
