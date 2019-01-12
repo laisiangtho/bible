@@ -112,31 +112,74 @@ dbSelectBookName = function() {
   return new Promise((resolve, reject) => {
     // WHERE is_present=1 ORDER BY sorting_order ASC
     dbConnection.all("SELECT * FROM books_all",function(e,raw){
-      if (e) return reject(e);
-      raw.sort(function (a, b) {
-        return a.sorting_order - b.sorting_order;
-      }).map(function(item,index){
-        var bId = index+1;
-        result.book[bId]={
-          info:{
-            name: item.long_name,
-            shortname: item.short_name.replace(/\s+/g,'').replace(/\./g,''),
-            abbr:[],
-            desc: item.title
-          },
-          topic:[],
-          chapter:{}
-        }
-        delete item.book_color;
-        delete item.sorting_order;
-        delete item.is_present;
-        delete item.long_name;
-        delete item.short_name;
-        delete item.title;
-        return item.bId = bId;
-      });
-      resolve(raw);
+      if (e) {
+        dbConnection.all("SELECT * FROM books",function(e,raw){
+          if (e) return reject(e);
+          dbSelectBookNameProcess(raw).then(function(r){
+            resolve(r);
+          },function(e){
+            reject(e);
+          })
+        })
+      } else {
+        dbSelectBookNameProcess(raw).then(function(r){
+          resolve(r);
+        },function(e){
+          reject(e);
+        })
+      }
+      // if (e) return reject(e);
+      // raw.sort(function (a, b) {
+      //   return a.sorting_order - b.sorting_order;
+      // }).map(function(item,index){
+      //   var bId = index+1;
+      //   result.book[bId]={
+      //     info:{
+      //       name: item.long_name,
+      //       shortname: item.short_name.replace(/\s+/g,'').replace(/\./g,''),
+      //       abbr:[],
+      //       desc: item.title
+      //     },
+      //     topic:[],
+      //     chapter:{}
+      //   }
+      //   delete item.book_color;
+      //   delete item.sorting_order;
+      //   delete item.is_present;
+      //   delete item.long_name;
+      //   delete item.short_name;
+      //   delete item.title;
+      //   return item.bId = bId;
+      // });
+      // resolve(raw);
     });
+  })
+},
+dbSelectBookNameProcess = function(raw) {
+  return new Promise((resolve, reject) => {
+    raw.sort(function (a, b) {
+      return a.sorting_order - b.sorting_order;
+    }).map(function(item,index){
+      var bId = index+1;
+      result.book[bId]={
+        info:{
+          name: item.long_name,
+          shortname: item.short_name.replace(/\s+/g,'').replace(/\./g,''),
+          abbr:[],
+          desc: item.title
+        },
+        topic:[],
+        chapter:{}
+      }
+      delete item.book_color;
+      delete item.sorting_order;
+      delete item.is_present;
+      delete item.long_name;
+      delete item.short_name;
+      delete item.title;
+      return item.bId = bId;
+    });
+    resolve(raw);
   })
 },
 dbSelectBible = function(taskList) {
@@ -178,10 +221,21 @@ dbSelectBible = function(taskList) {
       });
     });
   };
+  var processStoryReject='';
   var processStory=function(book){
     return new Promise((resolve, reject) => {
       dbConnection.all("SELECT chapter, verse, title FROM stories WHERE book_number=?",[book.book_number],function(e,raw){
-        if (e) return reject(e);
+        if (e) {
+          if (!processStoryReject) {
+            processStoryReject=true;
+            // console.log(e.message,e.code);
+            var message = e.message.toString().replace(e.code,'').replace(/:\s+/,'');
+            console.log(`...skip\x1b[35m ${message}\x1b[0m`);
+            // console.log(`...skip writing\x1b[35m ${e.message}\x1b[0m`);
+            
+          }
+          return resolve();
+        }
         // var tasksChild=[];
         for (const o of raw) {
           if (!result.story.hasOwnProperty(book.bId)) result.story[book.bId]={};

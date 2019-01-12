@@ -87,8 +87,19 @@ taskListFilter={
     if (tasks && bookCollection.collection.hasOwnProperty(args[0]) && bookCollection.collection.hasOwnProperty(tasks)){
       // var src = bookCollection.collection.json, tar = bookCollection.collection.sqlite;
       var src = bookCollection.collection[args[0]], tar = bookCollection.collection[tasks];
-      return src.filter(tS => (tar.indexOf(tS) === -1));
+      return src.filter(tS => (tar.indexOf(tS) === -1)).filter(Boolean);
     }
+  },
+  todo:function(tasks){
+    if (bookCollection.collection.hasOwnProperty(args[0])){
+      var tar = bookCollection.collection[args[0]], src = tasks.split(',').map(e => e.trim()).filter(Boolean);
+      var todo = src.filter(tS => (tar.indexOf(tS) === -1)).filter(Boolean);
+      console.log(`\n..Todo`);
+      console.log(`  ${args[0]}:\x1b[35m ${tar.length}\x1b[0m`);
+      console.log(`  check/todo:\x1b[35m ${src.length}/${todo.length}\x1b[0m`);
+      console.log(`  todo:\x1b[35m ${todo.join(',')}\x1b[0m`);
+    }
+    return [];
   },
   all:function(tasks){
     // NOTE: all
@@ -99,7 +110,7 @@ taskListFilter={
   list:function(tasks){
     // NOTE: list with comma seperated
     if (tasks && /\,/.test(tasks)){
-      return tasks.split(',')
+      return tasks.split(',').map(e => e.trim()).filter(Boolean);
     }
   }
 },
