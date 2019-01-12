@@ -1,8 +1,11 @@
 {
   "name": "laisiangtho",
   "version": "0.0.1",
-  "description": "Holy Bible",
-  "scripts": {},
+  "description": "the Holy Bible in languages",
+  "main": "bible.js",
+  "scripts": {
+    "bible": "node bible"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/laisiangtho/bible.git"
