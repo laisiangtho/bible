@@ -12,16 +12,31 @@ haven`t, doesn`t
 ÆØÅ,æøå
 ```
 
+# task
+
+- taskIdentify
+  - xml
+  - json
+  - ph4 
+- taskName: 
+  - (tedim1932)
+  - fill:
+  - todo:
+  - all:
+  - list:
+- taskOption: 
+  - none/any
 
 ```
-node bible {action:sqlite,json} {task:1} {option:true}
+node bible {taskIdentify} {taskName} {taskOption}
+
 xml: xml->json
 json: json->sqlite
 scan: ?->json
 sqlite: ?
 ```
 
-# json
+# taskIdentify: `json`
 
 ```shell
 node bible json tedim1932
@@ -29,7 +44,7 @@ node bible json fill:sqlite
 node bible json all:sqlite
 ```
 
-# xml
+# taskIdentify: `xml`
 
 ```shell
 node bible xml tedim1932 true
@@ -37,7 +52,7 @@ node bible xml fill:json true
 node bible xml all:json true
 ```
 
-# ph4
+# taskIdentify: `ph4`
 
 ```shell
 node bible ph4 fi-fi42.1642 true
@@ -51,9 +66,10 @@ node bible ph4 list:no-dnb.1930,no-n11.2011,no-n11nn.2011,no-n78.1978,no-n78nn.1
 node bible ph4 list:sv-dnf.2014,sv-kxii.1873,sv-nub15.2015,sv-s17.1917,sv-sb00.2000,sv-sbd00.2000,sv-sfb.1998,sv-sfb15.2015,sv-sfb98.1998,sv-sv17.1917 true
 ```
 
-## todo
+# taskName: `todo`
 
 ```shell
+node bible ph4 todo:
 node bible ph4 todo:fi-fi42.1642,fi-fi42d.1642,fi-fi76.1776,fi-fi76a.1776,fi-fi76d.1776
 ```
 

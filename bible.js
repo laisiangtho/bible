@@ -1,6 +1,7 @@
 var path = require('path');
 var fs = require('fs-extra');
 var args = process.argv.slice(2);
+var taskIdentify=args[0];
 // args.unshift('tmp');
 /**
  * NOTE: node bible {filename:1/2/3} {option:sqlite,json} {true}
@@ -12,23 +13,46 @@ var args = process.argv.slice(2);
  * sqlite: ?
  *  */
 try{
-  var task = require('./0'.replace(0,args[0]));
+  var task = require('./0'.replace(0,taskIdentify));
 } catch(e){
-  console.log(`\n ...\x1b[31m${args[0]}\x1b[0m?`)
+  console.log(`\n ...\x1b[31m${taskIdentify}\x1b[0m?`)
   process.exit(1);
 }
 var currentDirectory = path.dirname(require.main.filename),
 currentPath = process.cwd(),
 bookCollection={},
 bookCollectionJSON= path.resolve(currentDirectory,'book.json'),
+activeDirectory={
+  ph4:{
+    name:'ph4',
+    target:'json',
+    extension:'*.SQLite3'
+  },
+  sqlite:{
+    name:'sqlite',
+    final:true,
+    extension:'*.db'
+  },
+  json:{
+    name:'json',
+    target:'sqlite',
+    extension:'*.json'
+  },
+  xml:{
+    name:'xml',
+    target:'json',
+    extension:'*.xml'
+  }
+},
 settings={
   args: args,
   bookIdentify: '',
   currentDirectory: currentDirectory,
-  bookSourceXML: path.resolve(currentDirectory,'xml','*.xml'),
-  bookSourceJSON: path.resolve(currentDirectory,'json','*.json'),
-  bookSourceSQLite: path.resolve(currentDirectory,'ph4','*.SQLite3'),
-  bookTargetSQLite: path.resolve(currentDirectory,'sqlite','*.db'),
+  bookSourceXML: path.resolve(currentDirectory,activeDirectory.xml.name,activeDirectory.xml.extension),
+  bookSourceJSON: path.resolve(currentDirectory,activeDirectory.json.name,activeDirectory.json.extension),
+  // bookSourcePH4: path.resolve(currentDirectory,'ph4','*.SQLite3'),
+  bookSourcePH4: path.resolve(currentDirectory,activeDirectory.ph4.name,activeDirectory.ph4.extension),
+  bookTargetSQLite: path.resolve(currentDirectory,activeDirectory.sqlite.name,activeDirectory.sqlite.extension),
   message:{
     book: function(bId,cId){
       var bTc = (bId < 10)?' ':'';
@@ -84,27 +108,59 @@ taskList=[],
 taskListFilter={
   fill:function(tasks){
     // NOTE: items that not available in target collection
-    if (tasks && bookCollection.collection.hasOwnProperty(args[0]) && bookCollection.collection.hasOwnProperty(tasks)){
+    if (tasks && bookCollection.collection.hasOwnProperty(taskIdentify) && bookCollection.collection.hasOwnProperty(tasks)){
       // var src = bookCollection.collection.json, tar = bookCollection.collection.sqlite;
-      var src = bookCollection.collection[args[0]], tar = bookCollection.collection[tasks];
+      var src = bookCollection.collection[taskIdentify], tar = bookCollection.collection[tasks];
       return src.filter(tS => (tar.indexOf(tS) === -1)).filter(Boolean);
     }
   },
   todo:function(tasks){
-    if (bookCollection.collection.hasOwnProperty(args[0])){
-      var tar = bookCollection.collection[args[0]], src = tasks.split(',').map(e => e.trim()).filter(Boolean);
-      var todo = src.filter(tS => (tar.indexOf(tS) === -1)).filter(Boolean);
-      console.log(`\n..Todo`);
-      console.log(`  ${args[0]}:\x1b[35m ${tar.length}\x1b[0m`);
-      console.log(`  check/todo:\x1b[35m ${src.length}/${todo.length}\x1b[0m`);
-      console.log(`  todo:\x1b[35m ${todo.join(',')}\x1b[0m`);
+    console.log(`\n..Todo`);
+    if (bookCollection.collection.hasOwnProperty(taskIdentify)){
+      var tar = bookCollection.collection[taskIdentify], src=[];
+      if (tasks) {
+        src = tasks.split(',').map(e => e.trim()).filter(Boolean);
+      } else {
+        // dictionary crossreferences commentaries
+        fs.readdirSync(path.resolve(currentDirectory,activeDirectory[taskIdentify].name)).forEach(file => {
+          if (/dictionary|crossreferences|commentaries/.test(file) == false){
+            var ext = activeDirectory[taskIdentify].extension.replace('*','');
+            src.push(file.replace(ext,''));
+          }
+        })
+      }
+
+      // var tar = bookCollection.collection[taskIdentify], src = tasks.split(',').map(e => e.trim()).filter(Boolean);
+      var todo = src.filter(e => (tar.indexOf(e) === -1)).filter(Boolean);
+
+      console.log(`  ${taskIdentify.toUpperCase()}:\x1b[35m ${tar.length}\x1b[0m`);
+      console.log(`  Check/Todo:\x1b[35m ${src.length}/${todo.length}\x1b[0m`);
+      
+      if (todo.length) {
+        // console.log(`  todo:\x1b[35m ${todo.join(',')}\x1b[0m`);
+        console.log(`\n..Next?`);
+        console.log(`  \x1b[31mnode \x1b[32mbible \x1b[36m${taskIdentify} \x1b[33mlist:\x1b[35m${todo.join(',')} \x1b[31mtrue\x1b[0m`);
+      } 
+
+      var todoTarget = activeDirectory[taskIdentify].target;
+      var dest = bookCollection.collection[todoTarget]
+      var todoDest = src.filter(e => (dest.indexOf(e) === -1)).filter(Boolean);
+      if (todoDest.length){
+
+        var taskIdentifyTarget = (activeDirectory[todoTarget].hasOwnProperty('final'))?taskIdentify:todoTarget;
+
+        console.log(`  Destination:\x1b[35m ${todoDest.length}\x1b[0m`);
+
+        console.log(`\n..Next?`);
+        console.log(`  \x1b[31mnode \x1b[32mbible \x1b[36m${taskIdentifyTarget} \x1b[33mlist:\x1b[35m${todoDest.join(',')} \x1b[0m`);
+      }
     }
     return [];
   },
   all:function(tasks){
     // NOTE: all
-    if (tasks && bookCollection.collection.hasOwnProperty(args[0])){
-      return bookCollection.collection[args[0]];
+    if (tasks && bookCollection.collection.hasOwnProperty(taskIdentify)){
+      return bookCollection.collection[taskIdentify];
     }
   },
   list:function(tasks){
@@ -120,10 +176,10 @@ taskListValidate=function(){
   // node bible xml fill:json 1
   // node bible json fill:sqlite
   // node bible ph4 list:a,b,c,c
-  var taskId = args[1], taskMulti = /:/.test(taskId);
-  taskList=[taskId];
+  var taskCurrent = args[1], taskMulti = /:/.test(taskCurrent);
+  taskList=[taskCurrent];
   if (taskMulti) {
-    var tmp = taskId.split(':');
+    var tmp = taskCurrent.split(':');
     if (taskListFilter.hasOwnProperty(tmp[0])){
       taskList = taskListFilter[tmp[0]](tmp[1]);
     }
@@ -137,8 +193,8 @@ taskInitiate=function(){
     console.log(`\n..Finish!`);
   }
 },
-taskProcess=function(taskId){
-  settings.bookIdentify = taskId;
+taskProcess=function(taskCurrent){
+  settings.bookIdentify = taskCurrent;
   settings.bookCollection = bookCollection;
   console.log(`\n..bookIdentify:\x1b[36m ${settings.bookIdentify}\x1b[0m`)
   return task.main(settings).then(function(response){

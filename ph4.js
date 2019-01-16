@@ -39,7 +39,7 @@ var result={
 },
 readSQLite=function(){
   return new Promise((resolve, reject) => {
-    var db = settings.bookSourceSQLite.replace('*',settings.bookIdentify);
+    var db = settings.bookSourcePH4.replace('*',settings.bookIdentify);
     if (!settings.bookIdentify) return reject(`...\x1b[35m${settings.bookIdentify}\x1b[0m!`);
     fs.exists(db, function(e) {
       if (e){
