@@ -1,5 +1,6 @@
 # makeup
 
+...the Holy Bible in languages!
 
 ```
 ‘Let there be light,’
@@ -14,33 +15,19 @@ haven`t, doesn`t
 
 # task
 
-- taskIdentify
-  - xml
-  - json
-  - ph4 
-- taskName: 
-  - (tedim1932)
-  - fill:
-  - todo:
-  - all:
-  - list:
-- taskOption: 
-  - none/any
+- taskIdentify: `xml`, `json`, `ph4`
+- taskName: `(tedim1932)`, `fill`, `todo:`, `all:`, `list:`
+- taskOption: `none/any`
 
 ```
 node bible {taskIdentify} {taskName} {taskOption}
-
-xml: xml->json
-json: json->sqlite
-scan: ?->json
-sqlite: ?
 ```
 
 # taskIdentify: `json`
 
 ```shell
 node bible json tedim1932
-node bible json fill:sqlite
+node bible json fill
 node bible json all:sqlite
 ```
 
@@ -48,7 +35,8 @@ node bible json all:sqlite
 
 ```shell
 node bible xml tedim1932 true
-node bible xml fill:json true
+node bible xml list:tedim1932 true
+node bible xml fill true
 node bible xml all:json true
 ```
 

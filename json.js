@@ -1,14 +1,15 @@
 const path = require('path'), fs = require('fs-extra'), sqlite3 = require('sqlite3');
 var task = module.exports = {}, settings={};
 
-var readJSON = function(data) {
+var readJSON = function() {
   return new Promise((resolve, reject) => {
-    var tmp = settings.bookSourceJSON.replace('*',settings.bookIdentify);
     if (!settings.bookIdentify) return reject(`...\x1b[35m${settings.bookIdentify}\x1b[0m!`);
-    fs.exists(tmp, function(e) {
+    var bookSourceJSON = path.resolve(settings.rootDirectory,settings.task.json.dirname,settings.task.json.extension.replace('*',settings.bookIdentify));
+
+    fs.exists(bookSourceJSON, function(e) {
       if (e) {
         try {
-          var o=fs.readFileSync(tmp).toString();
+          var o=fs.readFileSync(bookSourceJSON).toString();
           resolve(JSON.parse(o));
         } catch (e) {
           reject(e)
@@ -22,7 +23,7 @@ var readJSON = function(data) {
 databaseConnection = null,
 databasePrepare = function(data){
   return new Promise((resolve, reject) => {
-    var db = settings.bookTargetSQLite.replace('*',settings.bookIdentify);
+    var db = path.resolve(settings.rootDirectory,settings.task.sqlite.dirname,settings.task.sqlite.extension.replace('*',settings.bookIdentify));
 
     fs.unlink(db,function(){
       // databaseConnection = new sqlite3.Database(':memory:');
@@ -181,6 +182,8 @@ task.main = function(parentSettings) {
     readJSON().then(function(result){
       databasePrepare(result).then(function(){
         result.task=['json','sqlite'];
+        // var taskIdentify = settings.taskIdentify, taskTarget = settings.task[taskIdentify].target;
+        // result.task=[taskIdentify,taskTarget];
         resolve(result);
       },function(e){
         reject(e);

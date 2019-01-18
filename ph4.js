@@ -39,8 +39,9 @@ var result={
 },
 readSQLite=function(){
   return new Promise((resolve, reject) => {
-    var db = settings.bookSourcePH4.replace('*',settings.bookIdentify);
     if (!settings.bookIdentify) return reject(`...\x1b[35m${settings.bookIdentify}\x1b[0m!`);
+    var db = path.resolve(settings.rootDirectory,settings.task.ph4.dirname,settings.task.ph4.extension.replace('*',settings.bookIdentify));
+
     fs.exists(db, function(e) {
       if (e){
         dbConnection = new sqlite3.Database(db,sqlite3.OPEN_READONLY);
@@ -85,8 +86,8 @@ dbSelectInfo = function() {
         if (o.name == 'description') result.info.description=o.value;
         if (o.name == 'language') {
           result.info.language.name=o.value;
-          if (settings.bookCollection.language.hasOwnProperty(o.value)){
-            var language = settings.bookCollection.language[o.value];
+          if (settings.bibleCollection.language.hasOwnProperty(o.value)){
+            var language = settings.bibleCollection.language[o.value];
             // result.info.language.text=lang.text;
             // result.info.language.textdirection=lang.textdirection;
             for (const langId in language) {
@@ -269,7 +270,8 @@ dbSelectBible = function(taskList) {
 },
 jsonPrepare = function(data) {
   return new Promise((resolve, reject) => {
-    fs.writeFile(settings.bookSourceJSON.replace('*',settings.bookIdentify), jsonStringify(data),function(error){
+    var bookSourceJSON = path.resolve(settings.rootDirectory,settings.task.json.dirname,settings.task.json.extension.replace('*',settings.bookIdentify));
+    fs.writeFile(bookSourceJSON, jsonStringify(data),function(error){
       if (error) {
         reject(error);
       } else {
@@ -300,6 +302,8 @@ task.main = function(parentSettings) {
         // }
         // sv-sv17.1917,sv-sfb98.1998,sv-sfb15.2015
         result.task=['ph4','json'];
+        // var taskIdentify = settings.taskIdentify, taskTarget = settings.task[taskIdentify].target;
+        // result.task=[taskIdentify,taskTarget];
         resolve(result);
       },function(e){
         reject(e);

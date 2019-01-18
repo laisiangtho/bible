@@ -1,10 +1,13 @@
 {
   "name": "laisiangtho",
-  "version": "5",
+  "version": "6",
   "description": "the Holy Bible in languages",
   "main": "bible.js",
   "scripts": {
     "bible": "node bible"
+  },
+  "bin": {
+    "bible": "./bin/bible.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +19,9 @@
   ],
   "bugs": {
     "url": "https://github.com/laisiangtho/bible/issues"
+  },
+  "bible":{
+    "gd":"1nag5q9V7ykH5mZTbgeiYfj012VP8zmAa"
   },
   "dependencies": {},
   "devDependencies": {

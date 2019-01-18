@@ -15,7 +15,8 @@ var xmlParser = new xml2js.Parser({
 readXML = function(){
   return new Promise(function(resolve, reject) {
     if (!settings.bookIdentify) return reject(`...\x1b[35m${settings.bookIdentify}\x1b[0m!`);
-    fs.readFile(settings.bookSourceXML.replace('*',settings.bookIdentify), function(e, data) {
+    var bookSourceXML = path.resolve(settings.rootDirectory,settings.task.xml.dirname,settings.task.xml.extension.replace('*',settings.bookIdentify));
+    fs.readFile(bookSourceXML, function(e, data) {
       if (e) {
         if (e.code == 'ENOENT') {
           return reject(`...\x1b[35mdoes not\x1b[0m exist!`);
@@ -32,11 +33,13 @@ readXML = function(){
 },
 jsonPrepare = function(data) {
   return new Promise((resolve, reject) => {
-    fs.writeFile(settings.bookSourceJSON.replace('*',settings.bookIdentify), jsonStringify(data),function(error){
+    var bookSourceJSONName = settings.task.json.extension.replace('*',settings.bookIdentify);
+    var bookSourceJSON = path.resolve(settings.rootDirectory,settings.task.json.dirname,bookSourceJSONName);
+    fs.writeFile(bookSourceJSON, jsonStringify(data),function(error){
       if (error) {
         reject(error);
       } else {
-        console.log(`\n...updated\x1b[32m ${settings.bookIdentify}\x1b[0m!`);
+        console.log(`\n...updated\x1b[32m ${bookSourceJSONName}\x1b[0m!`);
         resolve();
       }
     });
@@ -209,8 +212,9 @@ task.main = function(parentSettings) {
     readXML().then(function(result){
       jsonPrepare(result).then(function(){
         result.task=['xml','json'];
+        // var taskIdentify = settings.taskIdentify, taskTarget = settings.task[taskIdentify].target;
+        // result.task=[taskIdentify,taskTarget];
         resolve(result);
-        // resolve(result,['xml','json']);
       },function(e){
         reject(e);
       });

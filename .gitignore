@@ -1,3 +1,8 @@
+# json/
+# ph4/
+# sqlite/
+# xml/
+
 assets/
 node_modules/
 package-lock.json

@@ -1,36 +1,8 @@
 {
   "name": "Lai Siangtho",
-  "updated": "2019-01-12T13:44:13.571Z",
-  "version": 4,
+  "updated": "2019-01-18T17:45:28.365Z",
+  "version": 6,
   "book": [
-    {
-      "identify": "tedim1932",
-      "name": "Lai Siangtho",
-      "shortname": "Tedim",
-      "year": "1932",
-      "language": {
-        "text": "Zolai/Tedim",
-        "textdirection": "ltr",
-        "name": "zo"
-      },
-      "version": "1"
-    },
-    {
-      "identify": "bbe1949",
-      "name": "Bible in Basic English",
-      "shortname": "BBE",
-      "year": "1949",
-      "language": {
-        "text": "English",
-        "textdirection": "ltr",
-        "name": "en"
-      },
-      "version": "1",
-      "description": "The form in which the Bible is given here is not simply another example of the Bible story put into present-day English. The language used is Basic English.\nBasic English, produced by Mr C. K. Ogden of the Orthological Institute, is a simple form of the English language which, with 850 words, is able to give the sense of anything which may be said in English.",
-      "publisher": "FREE BIBLE SOFTWARE GROUP",
-      "contributors": "C.K. Ogden",
-      "copyright": "We believe that this Bible is found in the Public Domain."
-    },
     {
       "identify": "ddb1931",
       "name": "Det Danske Bibel. De Hellige Skrifter",
@@ -102,21 +74,6 @@
       }
     },
     {
-      "identify": "kjv1611",
-      "name": "King James Version",
-      "shortname": "KJV",
-      "year": "1611",
-      "language": {
-        "text": "English",
-        "textdirection": "ltr",
-        "name": "en"
-      },
-      "version": "1",
-      "description": "In 1604, King James I of England authorized that a new translation of the Bible into English be started. It was finished in 1611, just 85 years after the first translation of the New Testament into English appeared (Tyndale, 1526). The Authorized Version, or King James Version, quickly became the standard for English-speaking Protestants. Its flowing language and prose rhythm has had a profound influence on the literature of the past 300 years.",
-      "publisher": "FREE BIBLE SOFTWARE GROUP",
-      "copyright": "We believe that this Bible is found in the Public Domain."
-    },
-    {
       "identify": "luther1912",
       "name": "Luther 1912",
       "shortname": "LUTH1912",
@@ -128,22 +85,6 @@
       },
       "version": "1",
       "description": "Lutherbibel von 1912"
-    },
-    {
-      "identify": "mcl2005",
-      "name": "Myanmar Bible (ခေတ်သုံ)",
-      "shortname": "ခေတ်သုံ",
-      "year": "2005",
-      "language": {
-        "text": "Burmese",
-        "textdirection": "ltr",
-        "name": "my"
-      },
-      "version": "1",
-      "publisher": {
-        "text": "Bible Society of Myanmar",
-        "url": "http://www.myanmarbible.com/"
-      }
     },
     {
       "identify": "mizo1917",
@@ -207,872 +148,62 @@
       "version": "1"
     },
     {
-      "identify": "web2000",
-      "name": "World English Bible",
-      "shortname": "WEB",
-      "year": "2000",
+      "identify": "tedim1932",
+      "name": "Lai Siangtho",
+      "shortname": "Tedim",
+      "year": "1932",
       "language": {
-        "text": "English",
+        "text": "Zolai/Tedim",
         "textdirection": "ltr",
-        "name": "en"
+        "name": "zo"
       },
-      "version": "1",
-      "description": "The WEB Bible as it might apear by the name is being translated specifically for the purpose of being distrubuted over the WEB.",
-      "publisher": "FREE BIBLE SOFTWARE GROUP",
-      "contributors": "Rainbow Missions  PO BOX 1151  LONGMONT CO 80502-1151  USA",
-      "copyright": "We believe that this Bible is found in the Public Domain."
-    },
-    {
-      "identify": "fi1938",
-      "name": "",
-      "shortname": "fi1938",
-      "year": "",
-      "language": {
-        "text": "",
-        "textdirection": "ltr",
-        "name": "fi"
-      },
-      "version": 1,
-      "description": "Kirkkoraamattu 1933/38",
-      "publisher": "Bible 1933/38 – Kirkkoraamattu 1933/38 <br/>\r\n(vapaa tekijänoikeuksista) (free of copyright) <br/>\r\nFinnish Bible Society"
-    },
-    {
-      "identify": "fi-rk12.2002",
-      "name": "",
-      "shortname": "fi-rk12.2002",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Raamattu Kansalle 2012",
-      "publisher": "© 2012 Raamattu Kansalle ry"
-    },
-    {
-      "identify": "fi-rk12.2002",
-      "name": "",
-      "shortname": "fi-rk12.2002",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Raamattu Kansalle 2012",
-      "publisher": "© 2012 Raamattu Kansalle ry"
-    },
-    {
-      "identify": "sv-sv17.1917",
-      "name": "",
-      "shortname": "sv-sv17.1917",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska 1917",
-      "publisher": "Old Testament, Copyright (C) 1998, Stiftelsen Svenska Folkbibeln, Stockholm. <br/>\nNew Testament, Copyright (C) 1996, 1998, Stiftelsen Svenska Folkbibeln, Stockholm, and Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "sv-sv17.1917",
-      "name": "",
-      "shortname": "sv-sv17.1917",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska 1917",
-      "publisher": "Old Testament, Copyright (C) 1998, Stiftelsen Svenska Folkbibeln, Stockholm. <br/>\nNew Testament, Copyright (C) 1996, 1998, Stiftelsen Svenska Folkbibeln, Stockholm, and Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "sv-sfb15.2015",
-      "name": "",
-      "shortname": "sv-sfb15.2015",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "sv-sfb15.2015",
-      "name": "",
-      "shortname": "sv-sfb15.2015",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "sv-sfb15.2015",
-      "name": "",
-      "shortname": "sv-sfb15.2015",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "sv-sfb15.2015",
-      "name": "",
-      "shortname": "sv-sfb15.2015",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "sv-sfb15.2015",
-      "name": "",
-      "shortname": "sv-sfb15.2015",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "sv-sfb15.2015",
-      "name": "",
-      "shortname": "sv-sfb15.2015",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "sv-sfb15.2015",
-      "name": "",
-      "shortname": "sv-sfb15.2015",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "sv-sfb15.2015",
-      "name": "",
-      "shortname": "sv-sfb15.2015",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Folkbibeln 2015",
-      "publisher": "Svenska Folkbibeln 2015\n Reviderad från Svenska Folkbibeln 98 och grundtexten.\n Gamla testamentet © 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm\n Nya testamentet © 1996, 1998, 2015, Stiftelsen Svenska Folkbibeln, Stockholm,\n och Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "my-msb.2017",
-      "name": "",
-      "shortname": "my-msb.2017",
-      "year": "",
-      "language": {
-        "text": "Myanmar",
-        "textdirection": "ltr",
-        "name": "my",
-        "local": "Burmese"
-      },
-      "version": 1,
-      "description": "Myanmar Standard Bible",
-      "publisher": "Myanmar Standard Bible <br/>\r\n© 2014, 2017 Global Bible Initiative"
-    },
-    {
-      "identify": "no-nb.2007",
-      "name": "",
-      "shortname": "no-nb.2007",
-      "year": "",
-      "language": {
-        "text": "Norwegian",
-        "textdirection": "ltr",
-        "name": "no",
-        "local": "Norsk"
-      },
-      "version": 1,
-      "description": "Norsk Bibel 88/07",
-      "publisher": "Norsk Bibel AS, 1988, 2007"
-    },
-    {
-      "identify": "sv-sv17.1917",
-      "name": "",
-      "shortname": "sv-sv17.1917",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska 1917",
-      "publisher": "Old Testament, Copyright (C) 1998, Stiftelsen Svenska Folkbibeln, Stockholm. <br/>\nNew Testament, Copyright (C) 1996, 1998, Stiftelsen Svenska Folkbibeln, Stockholm, and Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "sv-sv17.1917",
-      "name": "",
-      "shortname": "sv-sv17.1917",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska 1917",
-      "publisher": "Old Testament, Copyright (C) 1998, Stiftelsen Svenska Folkbibeln, Stockholm. <br/>\nNew Testament, Copyright (C) 1996, 1998, Stiftelsen Svenska Folkbibeln, Stockholm, and Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "fi-rk12.2002",
-      "name": "",
-      "shortname": "fi-rk12.2002",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Raamattu Kansalle 2012",
-      "publisher": "© 2012 Raamattu Kansalle ry"
-    },
-    {
-      "identify": "sv-sfb98.1998",
-      "name": "",
-      "shortname": "sv-sfb98.1998",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Folkbibeln 1998",
-      "publisher": "Old Testament, Copyright (C) 1998, Stiftelsen Svenska Folkbibeln, Stockholm. <br/>\nNew Testament, Copyright (C) 1996, 1998, Stiftelsen Svenska Folkbibeln, Stockholm, and Stiftelsen Biblicum, Ljungby"
-    },
-    {
-      "identify": "fi-rk12.2002",
-      "name": "",
-      "shortname": "fi-rk12.2002",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Raamattu Kansalle 2012",
-      "publisher": "© 2012 Raamattu Kansalle ry"
-    },
-    {
-      "identify": "fi-rk12.2002",
-      "name": "",
-      "shortname": "fi-rk12.2002",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Raamattu Kansalle 2012",
-      "publisher": "© 2012 Raamattu Kansalle ry"
-    },
-    {
-      "identify": "my-jb.1933",
-      "name": "",
-      "shortname": "my-jb.1933",
-      "year": "",
-      "language": {
-        "text": "Myanmar",
-        "textdirection": "ltr",
-        "name": "my",
-        "local": "Burmese"
-      },
-      "version": 1,
-      "description": "Judson Bible",
-      "publisher": "Judson Bible <br/>\r\n© 1933 McGuire revision (public domain) <br/>\r\nBible Society of Myanmar"
-    },
-    {
-      "identify": "my-mcl.2005",
-      "name": "",
-      "shortname": "my-mcl.2005",
-      "year": "",
-      "language": {
-        "text": "Myanmar",
-        "textdirection": "ltr",
-        "name": "my",
-        "local": "Burmese"
-      },
-      "version": 1,
-      "description": "Common Language Bible",
-      "publisher": "Common Language Bible <br/>\r\n© 2005 Bible Society of Myanmar"
-    },
-    {
-      "identify": "no-n11.2011",
-      "name": "",
-      "shortname": "no-n11.2011",
-      "year": "",
-      "language": {
-        "text": "Norwegian",
-        "textdirection": "ltr",
-        "name": "no",
-        "local": "Norsk"
-      },
-      "version": 1,
-      "description": "Bibelen 2011 bokmål",
-      "publisher": "© 2011 by The Norwegian Bible Society (Det Norske Bibelselskap). All rights reserved worldwide. \n<p/>© 2011 Det Norske Bibelselskap. Alle rettigheter globalt."
-    },
-    {
-      "identify": "no-n11nn.2011",
-      "name": "",
-      "shortname": "no-n11nn.2011",
-      "year": "",
-      "language": {
-        "text": "Norwegian",
-        "textdirection": "ltr",
-        "name": "nn",
-        "local": "Norsk"
-      },
-      "version": 1,
-      "description": "Bibelen 2011 nynorsk",
-      "publisher": "© 2011 by The Norwegian Bible Society (Det Norske Bibelselskap). All rights reserved worldwide. \n<br/>© 2011 Det Norske Bibelselskap. Alle rettar globalt."
-    },
-    {
-      "identify": "no-n78.1978",
-      "name": "",
-      "shortname": "no-n78.1978",
-      "year": "",
-      "language": {
-        "text": "Norwegian",
-        "textdirection": "ltr",
-        "name": "no",
-        "local": "Norsk"
-      },
-      "version": 1,
-      "description": "The Bible in Norwegian 1978/85 bokmål",
-      "publisher": "© 1978, 1985 by The Norwegian Bible Society (Det Norske Bibelselskap). \n<p/>© 1978, 1985 Det Norske Bibelselskap. "
-    },
-    {
-      "identify": "no-n78nn.1985",
-      "name": "",
-      "shortname": "no-n78nn.1985",
-      "year": "",
-      "language": {
-        "text": "Norwegian",
-        "textdirection": "ltr",
-        "name": "nn",
-        "local": "Norsk"
-      },
-      "version": 1,
-      "description": "Bibelen 1978/85 nynorsk",
-      "publisher": "© 1978, 1985 by The Norwegian Bible Society (Det Norske Bibelselskap). \n<br/>© 1978, 1985 Det Norske Bibelselskap. \n"
-    },
-    {
-      "identify": "sv-nub15.2015",
-      "name": "",
-      "shortname": "sv-nub15.2015",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "nuBibeln 2015",
-      "publisher": "Swedish Contemporary Bible 2015 – <br/>\r\nnuBibeln (Swedish Contemporary Bible) Copyright © 2015 av Biblica, Inc.® Utgiven med tillstånd från Biblica, Inc.® Alla rättigheter förbehållna över hela världen."
-    },
-    {
-      "identify": "sv-sb00.2000",
-      "name": "",
-      "shortname": "sv-sb00.2000",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Bibel 2000",
-      "publisher": "Bible 2000 Swedish Translation – <br/>\r\nSvenska Bibelsällskapet förvaltar upphovsrätten för Bibel 2000. Mer information på svenska finner du här: <a href=\"http://www.bibelsällskapet.se/om-oss/copyright/\">http://www.bibelsällskapet.se/om-oss/copyright/</a>. <br/>\r\nSwedish Bible Society"
-    },
-    {
-      "identify": "sv-sbd00.2000",
-      "name": "",
-      "shortname": "sv-sbd00.2000",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Bible 2000, Swedish Translation",
-      "publisher": "Bible 2000, Swedish Translation <br/>\r\nSvenska Bibelsällskapet förvaltar upphovsrätten för Bibel 2000. Mer information på svenska finner du här: <a href=\"http://www.bibelsällskapet.se/om-oss/copyright/\">http://www.bibelsällskapet.se/om-oss/copyright/</a>. <br/>\r\nSwedish Bible Society"
-    },
-    {
-      "identify": "fi-rk12.2002",
-      "name": "",
-      "shortname": "fi-rk12.2002",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Raamattu Kansalle 2012",
-      "publisher": "© 2012 Raamattu Kansalle ry"
-    },
-    {
-      "identify": "fi-rk12.2002",
-      "name": "",
-      "shortname": "fi-rk12.2002",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Raamattu Kansalle 2012",
-      "publisher": "© 2012 Raamattu Kansalle ry"
-    },
-    {
-      "identify": "fi-rk12.2002",
-      "name": "",
-      "shortname": "fi-rk12.2002",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Raamattu Kansalle 2012",
-      "publisher": "© 2012 Raamattu Kansalle ry"
-    },
-    {
-      "identify": "my-burb.1825",
-      "name": "",
-      "shortname": "my-burb.1825",
-      "year": "",
-      "language": {
-        "text": "Myanmar",
-        "textdirection": "ltr",
-        "name": "my",
-        "local": "Burmese"
-      },
-      "version": 1,
-      "description": "Burmese (Myanmar) Bible, 1825"
-    },
-    {
-      "identify": "no-smb.1921",
-      "name": "",
-      "shortname": "no-smb.1921",
-      "year": "",
-      "language": {
-        "text": "Norwegian",
-        "textdirection": "ltr",
-        "name": "nn",
-        "local": "Norsk"
-      },
-      "version": 1,
-      "description": "Studentmållagsbibelen, 1921",
-      "publisher": "<h2>Bibelen</h2> Det Norske Bibelselskap, 1930 <p/> formatert tekst, røde bokstaver utgave"
-    },
-    {
-      "identify": "sv-sfb.1998",
-      "name": "",
-      "shortname": "sv-sfb.1998",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Folkbibeln, 1998",
-      "publisher": "<h2>Svenska Folkbibeln</h2><h3>Old Testament</h3>, Copyright © 1998, <p/>Stiftelsen Svenska Folkbibeln, Stockholm<p/><h3>New Testament</h3>, Copyright © 1996, 1998, <p/>Stiftelsen Svenska Folkbibeln, Stockholm and Stiftelsen Biblicum, Ljungby<p/>röda bokstäver utgåva"
-    },
-    {
-      "identify": "sv-sfb.1998",
-      "name": "",
-      "shortname": "sv-sfb.1998",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Folkbibeln, 1998",
-      "publisher": "<h2>Svenska Folkbibeln</h2><h3>Old Testament</h3>, Copyright © 1998, <p/>Stiftelsen Svenska Folkbibeln, Stockholm<p/><h3>New Testament</h3>, Copyright © 1996, 1998, <p/>Stiftelsen Svenska Folkbibeln, Stockholm and Stiftelsen Biblicum, Ljungby<p/>röda bokstäver utgåva"
-    },
-    {
-      "identify": "fi-fi42.1642",
-      "name": "",
-      "shortname": "fi-fi42.1642",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Coco Pyhä Raamattu 1642"
-    },
-    {
-      "identify": "fi-fi42d.1642",
-      "name": "",
-      "shortname": "fi-fi42d.1642",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Coco Pyhä Raamattu 1642 apokryfit"
-    },
-    {
-      "identify": "fi-fi76.1776",
-      "name": "",
-      "shortname": "fi-fi76.1776",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Biblia 1776"
-    },
-    {
-      "identify": "fi-fi76a.1776",
-      "name": "",
-      "shortname": "fi-fi76a.1776",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Biblia 1776 apokryfit"
-    },
-    {
-      "identify": "fi-fi76d.1776",
-      "name": "",
-      "shortname": "fi-fi76d.1776",
-      "year": "",
-      "language": {
-        "text": "Finish",
-        "textdirection": "ltr",
-        "name": "fi",
-        "local": "Suomi"
-      },
-      "version": 1,
-      "description": "Biblia 1776 alaviitteineen apokryfit"
-    },
-    {
-      "identify": "my-bjb.1840",
-      "name": "",
-      "shortname": "my-bjb.1840",
-      "year": "",
-      "language": {
-        "text": "Myanmar",
-        "textdirection": "ltr",
-        "name": "my",
-        "local": "Burmese"
-      },
-      "version": 1,
-      "description": "Burmese Bible, 1840"
-    },
-    {
-      "identify": "no-dnb.1930",
-      "name": "",
-      "shortname": "no-dnb.1930",
-      "year": "",
-      "language": {
-        "text": "Norwegian",
-        "textdirection": "ltr",
-        "name": "no",
-        "local": "Norsk"
-      },
-      "version": 1,
-      "description": "Bibelen",
-      "publisher": "<h2>Bibelen</h2> Det Norske Bibelselskap, 1930 <p/> formatert tekst, røde bokstaver utgave"
-    },
-    {
-      "identify": "sv-dnf.2014",
-      "name": "",
-      "shortname": "sv-dnf.2014",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Folkbibeln, 1998",
-      "publisher": "<h2>Svenska Folkbibeln</h2><h3>Old Testament</h3>, Copyright © 1998, <p/>Stiftelsen Svenska Folkbibeln, Stockholm<p/><h3>New Testament</h3>, Copyright © 1996, 1998, <p/>Stiftelsen Svenska Folkbibeln, Stockholm and Stiftelsen Biblicum, Ljungby<p/>röda bokstäver utgåva"
-    },
-    {
-      "identify": "sv-kxii.1873",
-      "name": "",
-      "shortname": "sv-kxii.1873",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Svenska Karl XII:s Bibel, 1873",
-      "publisher": "<h2>Svenska Folkbibeln</h2><h3>Old Testament</h3>, Copyright © 1998, <p/>Stiftelsen Svenska Folkbibeln, Stockholm<p/><h3>New Testament</h3>, Copyright © 1996, 1998, <p/>Stiftelsen Svenska Folkbibeln, Stockholm and Stiftelsen Biblicum, Ljungby<p/>röda bokstäver utgåva"
-    },
-    {
-      "identify": "sv-s17.1917",
-      "name": "",
-      "shortname": "sv-s17.1917",
-      "year": "",
-      "language": {
-        "text": "Swedish",
-        "textdirection": "ltr",
-        "name": "sv",
-        "local": "SuoSvenskami"
-      },
-      "version": 1,
-      "description": "Bibeln, 1917",
-      "publisher": " <h2>Bibeln</h2> eller <h3>Den Heliga Skrift</h3> innehallånde Gamla Och Nya Testamentets Kanoniska Böcker <p/> Public Domain <p/> De fyra evangelierna och Apostlagärningarna. av Bibeln. N.T. Svenska. 1917 <p/> Röd brev upplagan"
+      "version": "1"
     }
   ],
   "collection": {
     "xml": [
-      "tedim1932",
-      "bbe1949",
       "ddb1931",
       "dnb1930",
       "falam1973",
       "hakha1920",
       "judson1835",
-      "kjv1611",
       "luther1912",
-      "mcl2005",
       "mizo1917",
       "niv2011",
       "ostervald1877",
       "paite1971",
       "sizang1932",
-      "web2000"
+      "tedim1932"
     ],
     "json": [
-      "tedim1932",
-      "bbe1949",
       "ddb1931",
       "dnb1930",
       "falam1973",
       "hakha1920",
       "judson1835",
-      "kjv1611",
       "luther1912",
-      "mcl2005",
       "mizo1917",
       "niv2011",
       "ostervald1877",
       "paite1971",
       "sizang1932",
-      "web2000",
-      "fi-kinb.1938",
-      "fi-fik38.1938",
-      "sv-sv17.1917",
-      "sv-sfb98.1998",
-      "sv-sfb15.2015",
-      "fi-fik76.1776",
-      "fi-kr.1992",
-      "fi-rk12.2002",
-      "my-jb.1933",
-      "my-mcl.2005",
-      "my-msb.2017",
-      "no-n11.2011",
-      "no-n11nn.2011",
-      "no-n78.1978",
-      "no-n78nn.1985",
-      "no-nb.2007",
-      "sv-nub15.2015",
-      "sv-sb00.2000",
-      "sv-sbd00.2000",
-      "fi-fi42.1642",
-      "fi-fi42d.1642",
-      "fi-fi76.1776",
-      "fi-fi76a.1776",
-      "fi-fi76d.1776",
-      "my-bjb.1840",
-      "my-burb.1825",
-      "no-dnb.1930",
-      "no-smb.1921",
-      "sv-dnf.2014",
-      "sv-kxii.1873",
-      "sv-s17.1917",
-      "sv-sfb.1998"
+      "tedim1932"
     ],
     "sqlite": [
-      "kjv1611",
-      "tedim1932",
       "ddb1931",
-      "bbe1949",
       "dnb1930",
       "falam1973",
       "hakha1920",
       "judson1835",
       "luther1912",
-      "mcl2005",
       "mizo1917",
       "niv2011",
       "ostervald1877",
       "paite1971",
       "sizang1932",
-      "web2000",
-      "fi-kinb.1938",
-      "fi-fik38.1938",
-      "sv-sv17.1917",
-      "sv-sfb98.1998",
-      "sv-sfb15.2015",
-      "fi-fik76.1776",
-      "fi-kr.1992",
-      "fi-rk12.2002",
-      "my-jb.1933",
-      "my-mcl.2005",
-      "my-msb.2017",
-      "no-n11.2011",
-      "no-n11nn.2011",
-      "no-n78.1978",
-      "no-n78nn.1985",
-      "no-nb.2007",
-      "sv-nub15.2015",
-      "sv-sb00.2000",
-      "sv-sbd00.2000",
-      "sv-sfb.1998",
-      "fi-fi42.1642",
-      "fi-fi42d.1642",
-      "fi-fi76.1776",
-      "fi-fi76a.1776",
-      "fi-fi76d.1776",
-      "my-bjb.1840",
-      "my-burb.1825",
-      "no-dnb.1930",
-      "no-smb.1921",
-      "sv-dnf.2014",
-      "sv-kxii.1873",
-      "sv-s17.1917"
+      "tedim1932"
     ],
-    "ph4": [
-      "fi-kinb.1938",
-      "fi-fik38.1938",
-      "sv-sv17.1917",
-      "sv-sfb98.1998",
-      "sv-sfb15.2015",
-      "fi-fik76.1776",
-      "fi-kr.1992",
-      "fi-rk12.2002",
-      "my-jb.1933",
-      "my-mcl.2005",
-      "my-msb.2017",
-      "no-n11.2011",
-      "no-n11nn.2011",
-      "no-n78.1978",
-      "no-n78nn.1985",
-      "no-nb.2007",
-      "sv-nub15.2015",
-      "sv-sb00.2000",
-      "sv-sbd00.2000",
-      "fi-fi42.1642",
-      "fi-fi42d.1642",
-      "fi-fi76.1776",
-      "fi-fi76a.1776",
-      "fi-fi76d.1776",
-      "my-bjb.1840",
-      "my-burb.1825",
-      "no-dnb.1930",
-      "no-smb.1921",
-      "sv-dnf.2014",
-      "sv-kxii.1873",
-      "sv-s17.1917",
-      "sv-sfb.1998"
-    ]
+    "ph4": []
   },
   "language": {
     "en": {
@@ -1090,14 +221,24 @@
       "local": "Norsk",
       "textdirection": "ltr"
     },
+    "da": {
+      "text": "Danish",
+      "local": "Dansk",
+      "textdirection": "ltr"
+    },
     "sv": {
       "text": "Swedish",
-      "local": "SuoSvenskami",
+      "local": "Svensk",
       "textdirection": "ltr"
     },
     "fi": {
       "text": "Finish",
       "local": "Suomi",
+      "textdirection": "ltr"
+    },
+    "zo": {
+      "text": "Zolai",
+      "local": "Zolai",
       "textdirection": "ltr"
     }
   }
