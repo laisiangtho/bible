@@ -17,6 +17,16 @@ settings={
       target:'json',
       extension:'*.SQLite3'
     },
+    koh:{
+      dirname:'koh',
+      target:'json',
+      extension:'*.json'
+    },
+    wbc:{
+      dirname:'wbc',
+      target:'json',
+      extension:'*.json'
+    },
     sqlite:{
       dirname:'sqlite',
       final:true,
@@ -35,8 +45,8 @@ settings={
   },
   message:{
     book: function(bId,cId){
-      var bTc = (bId < 10)?' ':'';
-      process.stdout.write(`\n....\x1b[2mBook\x1b[8m:\x1b[35m${bTc}${bId}\x1b[0m > \x1b[2mchapter\x1b[8m:`);
+      var spaces = (bId < 10)?' ':'';
+      process.stdout.write(`\n....\x1b[2mBook\x1b[8m:\x1b[35m${spaces}${bId}\x1b[0m > \x1b[2mchapter\x1b[8m:`);
       if (cId){
         if (cId instanceof Array){
           this.chapter(cId.join(' '));
@@ -50,6 +60,9 @@ settings={
     },
     unknown: function(item){
       console.log(`\n...\x1b[31m${item}\x1b[0m?`);
+    },
+    standard: function(item){
+      console.log(`\n...\x1b[31m${item}\x1b[0m`);
     }
   }
 },
@@ -95,7 +108,7 @@ bibleCollectionWrite = function(result,callback){
       }
     });
   } else {
-    callback(`...skip writing\x1b[35m ${tmp}\x1b[0m`);
+    callback(`...skip updating\x1b[35m ${tmp}\x1b[0m`);
   }
 },
 task=null,
@@ -134,11 +147,11 @@ taskFilter={
 
       console.log(`  ${taskIdentify.toUpperCase()}:\x1b[35m ${tar.length}\x1b[0m`);
       console.log(`  Items/Todo:\x1b[35m ${src.length}/${todo.length}\x1b[0m`);
-      
+
       if (todo.length) {
         // console.log(`  todo:\x1b[35m ${todo.join(',')}\x1b[0m`);
         console.log(`\n..Next?\n  \x1b[31mnode \x1b[32mbible \x1b[36m${taskIdentify} \x1b[33mlist:\x1b[35m${todo.join(',')} \x1b[31mtrue\x1b[0m`);
-      } 
+      }
 
       var todoTarget = settings.task[taskIdentify].target;
       var dest = bibleCollection.collection[todoTarget]
@@ -198,7 +211,7 @@ taskProcess=function(taskCurrent){
   } else {
     console.log(`\n..bookIdentify: `)
   }
-  
+
   return task.main(settings).then(function(response){
     bibleCollectionWrite(response,(e)=>{
       console.log(e);

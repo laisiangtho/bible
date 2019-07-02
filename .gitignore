@@ -6,5 +6,5 @@
 assets/
 node_modules/
 package-lock.json
-
-sqlite/backup/
+wbc/*.json
+koh/*.json

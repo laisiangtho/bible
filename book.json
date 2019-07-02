@@ -1,12 +1,12 @@
 {
   "name": "Lai Siangtho",
-  "updated": "2019-01-18T17:45:28.365Z",
-  "version": 6,
+  "updated": "2019-07-01T18:48:20.914Z",
+  "version": 158,
   "book": [
     {
       "identify": "ddb1931",
       "name": "Det Danske Bibel. De Hellige Skrifter",
-      "shortname": "DDB31",
+      "shortname": "Danske",
       "year": "1931",
       "language": {
         "text": "Danish",
@@ -21,7 +21,7 @@
     {
       "identify": "dnb1930",
       "name": "Norsk Bibel",
-      "shortname": "DNB1930",
+      "shortname": "Norske",
       "year": "1930",
       "language": {
         "text": "Norwegian/Bokmål",
@@ -58,7 +58,7 @@
     },
     {
       "identify": "judson1835",
-      "name": "Myanmar Bible (ယုဒသန်)",
+      "name": "သမ္မာကျမ်း",
       "shortname": "ယုဒသန်",
       "year": "1835",
       "language": {
@@ -75,8 +75,8 @@
     },
     {
       "identify": "luther1912",
-      "name": "Luther 1912",
-      "shortname": "LUTH1912",
+      "name": "Luther",
+      "shortname": "German",
       "year": "1912",
       "language": {
         "text": "German",
@@ -101,7 +101,7 @@
     {
       "identify": "niv2011",
       "name": "New International Version",
-      "shortname": "NIV2011",
+      "shortname": "NIV",
       "year": "2011",
       "language": {
         "text": "English",
@@ -112,8 +112,8 @@
     },
     {
       "identify": "ostervald1877",
-      "name": "La Bible Ostervald 1877",
-      "shortname": "BO1877",
+      "name": "La Bible Ostervald",
+      "shortname": "French",
       "year": "1877",
       "language": {
         "text": "French",
@@ -158,10 +158,77 @@
         "name": "zo"
       },
       "version": "1"
+    },
+    {
+      "identify": "mara2011",
+      "name": "Khazopa Chabu Pathaipa",
+      "shortname": "Mara",
+      "year": "2011",
+      "language": {
+        "text": "Mara/Chin",
+        "textdirection": "ltr",
+        "name": "ll"
+      },
+      "version": 1,
+      "description": "bihrai paropa nata bihrai thipa : pahlypa",
+      "publisher": "Bible Society of India",
+      "contributors": "",
+      "copyright": ""
+    },
+    {
+      "identify": "mcl2005",
+      "name": "သမ္မာကျမ်း",
+      "shortname": "ခေတ်သုံ",
+      "year": "2005",
+      "language": {
+        "text": "Burmese",
+        "textdirection": "ltr",
+        "name": "my"
+      },
+      "version": "1",
+      "publisher": {
+        "text": "Bible Society of Myanmar",
+        "url": "http://www.myanmarbible.com/"
+      }
+    },
+    {
+      "identify": "matu2009",
+      "name": "Matu Bible",
+      "shortname": "Matu",
+      "year": "2009",
+      "language": {
+        "text": "Matu/Chin",
+        "textdirection": "ltr",
+        "name": "ll"
+      },
+      "version": 1,
+      "description": "",
+      "publisher": "",
+      "contributors": "",
+      "copyright": ""
+    },
+    {
+      "identify": "348",
+      "name": "Jinghpaw Common Language",
+      "shortname": "JCLB",
+      "year": "2009",
+      "language": {
+        "text": "Jinghpaw/Kachin",
+        "textdirection": "ltr",
+        "name": "mkc"
+      },
+      "version": 1,
+      "description": "Jinghpaw Common Language Bible",
+      "publisher": "Bible Society of Myanmar",
+      "contributors": "",
+      "copyright": ""
     }
   ],
   "collection": {
-    "xml": [],
+    "xml": [
+      "mcl2005",
+      "ostervald1877"
+    ],
     "json": [
       "ddb1931",
       "dnb1930",
@@ -174,23 +241,19 @@
       "ostervald1877",
       "paite1971",
       "sizang1932",
-      "tedim1932"
+      "tedim1932",
+      "mara2011",
+      "jclb2009",
+      "mcl2005",
+      "matu2009"
     ],
-    "sqlite": [
-      "ddb1931",
-      "dnb1930",
-      "falam1973",
-      "hakha1920",
-      "judson1835",
-      "luther1912",
-      "mizo1917",
-      "niv2011",
-      "ostervald1877",
-      "paite1971",
-      "sizang1932",
-      "tedim1932"
-    ],
-    "ph4": []
+    "sqlite": [],
+    "ph4": [],
+    "koh": [
+      "mara2011",
+      "jclb2009",
+      "matu2009"
+    ]
   },
   "language": {
     "en": {
