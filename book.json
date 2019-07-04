@@ -1,11 +1,11 @@
 {
   "name": "Lai Siangtho",
-  "updated": "2019-07-01T18:48:20.914Z",
-  "version": 158,
+  "updated": "2019-07-04T09:37:17.250Z",
+  "version": 186,
   "book": [
     {
       "identify": "ddb1931",
-      "name": "Det Danske Bibel. De Hellige Skrifter",
+      "name": "Det Danske Bibel",
       "shortname": "Danske",
       "year": "1931",
       "language": {
@@ -15,7 +15,7 @@
       },
       "version": "1",
       "description": "The electronic edition of this Bible comes from the Danish 1933 edition. The Old Testament is an update from the 1931 edition, and the New Testament is an update from the 1907 edition.",
-      "publisher": "Det Danske Bibelselskab",
+      "publisher": "Det Danske Bibelselskab, De Hellige Skrifter",
       "copyright": "The New Testament is Public Domain."
     },
     {
@@ -227,7 +227,8 @@
   "collection": {
     "xml": [
       "mcl2005",
-      "ostervald1877"
+      "ostervald1877",
+      "ddb1931"
     ],
     "json": [
       "ddb1931",

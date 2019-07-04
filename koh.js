@@ -105,22 +105,22 @@ parseBookEach = function(data){
       const verse = dumpVerse[index].replace(/\s+/g, ' ').trim();
       // NOTE kachin version has some dot ended
       var verseId = verse.split(" ")[0].trim().replace('.','');
+      // var verseTitel = titles.length?titles[0]:'';
 
       if (isNaN(verseId) === false) {
         verses[verseId]={
-          text:verse.substr(verse.indexOf(" ") + 1),
-          title:'',
-          ref:'',
-          merge:''
+          text:verse.substr(verse.indexOf(" ") + 1)
+          // title:'', ref:'', merge:''
         };
+        if (titles.length){
+          verses[verseId].title=titles.pop();
+        }
       } else if (verseId.includes("-")) {
         // NOTE verse merge
         var verseMergeId = verseId.split("-");
         if (isNaN(verseMergeId[0]) === false && isNaN(verseMergeId[1]) === false) {
           verses[verseMergeId[0]]={
             text:verse.substr(verse.indexOf(" ") + 1),
-            title:'',
-            ref:'',
             merge:verseMergeId[1]
           };
           console.log('merge?? -> ',bookName,chapterId,verseId);
@@ -139,7 +139,6 @@ parseBookEach = function(data){
       // };
     }
     result[bookId].chapter[chapterId]={
-      title:titles,
       verse:verses
     };
   }

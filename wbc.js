@@ -49,7 +49,12 @@ initial = function(){
           reject(e);
         });
       } else {
-        resolve(dataLocalJSON);
+        // resolve(dataLocalJSON);
+        parseFinalJSON(dataLocalJSON).then(function(e){
+          resolve(e);
+        },function(e){
+          reject(e);
+        });
       }
     },function(e){
       reject(e);
@@ -294,9 +299,77 @@ writeJSON = function(data) {
       });
     } else {
       settings.message.unknown('Required: info > identify,name,shortname,year for final output!');
+      if (typeof data === 'string'){
+        settings.message.unknown(data);
+        // console.log(data);
+      }
       resolve();
     }
   });
+},
+parseFinalJSON = function(data){
+  return new Promise(function(resolve, reject) {
+    try {
+      var result={
+        info:data.info,
+        note:{},
+        digit:data.digit,
+        language:data.language,
+        testament:data.testament,
+        story:data.story,
+        book:parseBook(data.book)
+      };
+      return resolve(result);
+    } catch (e) {
+      return reject(e);
+    }
+  });
+},
+parseBook = function(data){
+  var result={};
+  for (const bId in data) {
+    if (data.hasOwnProperty(bId)) {
+      const book = data[bId];
+      if (book.hasOwnProperty('chapter')){
+        result[bId]={
+          chapter:{}
+        };
+        for (const cId in book.chapter) {
+          if (book.chapter.hasOwnProperty(cId)) {
+            const chapter = book.chapter[cId];
+            if (chapter.hasOwnProperty('verse')){
+              result[bId].chapter[cId]={
+                verse:{}
+              };
+              for (const vId in chapter.verse) {
+                if (chapter.verse.hasOwnProperty(vId)) {
+                  var newVerse={};
+                  const verse = chapter.verse[vId];
+                  if (verse.text && verse.text !="") {
+                    newVerse.text=verse.text;
+                  } else {
+                    console.log('verse has no text',bId,cId,vId);
+                  }
+                  if (verse.title && verse.title !="") newVerse.title=verse.title;
+                  if (verse.merge && verse.merge !="") newVerse.merge=verse.merge;
+                  if (verse.ref && verse.ref !="") newVerse.ref=verse.ref;
+                  result[bId].chapter[cId].verse[vId]=newVerse;
+                }
+              }
+            } else {
+              console.log('has no verse');
+            }
+          }
+        }
+      } else {
+        console.log('has no chapter');
+      }
+    }
+  }
+  // data.forEach(function(bid){
+  //   console.log('bookid',bid);
+  // });
+  return result;
 };
 // https://www.bible.com/json/bible/languages?filter=
 // https://www.bible.com/json/bible/books/348?filter=
@@ -336,15 +409,8 @@ task.main = function(args) {
   }
 
   return new Promise(function(resolve, reject) {
-    // console.log('bookIdentify',settings.bookIdentify);
-    // console.log('apiDataOnlyOne',settings.apiDataOnlyOne);
-    // console.log('apiData',settings.apiData);
-    // console.log('apiURLChapter',settings.apiURLChapter);
-    // console.log('apiURLBookName',settings.apiURLBookName);
-    // resolve();
     initial().then(function(result){
       writeJSON(result).then(function(r){
-        // console.log(result.book);
         resolve(r);
       },function(e){
         reject(e);
