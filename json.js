@@ -1,195 +1,188 @@
 const path = require('path'), fs = require('fs-extra'), sqlite3 = require('sqlite3');
 var task = module.exports = {}, settings={};
 
-var readJSON = function() {
-  return new Promise((resolve, reject) => {
+var json = {
+  // category:{}
+  fileTask:function(){
+    return path.resolve(settings.rootDirectory,settings.task.json.dirname,settings.task.json.extension.replace('*',settings.bookIdentify));
+  },
+  fileCategory:function(){
+    return path.resolve(settings.rootDirectory,settings.task.json.extension.replace('*','category'));
+  }
+},
+
+readJSON = function() {
+  return new Promise(function(resolve, reject) {
     if (!settings.bookIdentify) return reject(`...\x1b[35m${settings.bookIdentify}\x1b[0m!`);
-    var bookSourceJSON = path.resolve(settings.rootDirectory,settings.task.json.dirname,settings.task.json.extension.replace('*',settings.bookIdentify));
-
-    fs.exists(bookSourceJSON, function(e) {
-      if (e) {
-        try {
-          var o=fs.readFileSync(bookSourceJSON).toString();
-          resolve(JSON.parse(o));
-        } catch (e) {
-          reject(e)
-        }
-      } else {
-        reject(`...\x1b[35mdoes not\x1b[0m exist!`);
-      }
-    });
-  });
-},
-databaseConnection = null,
-databasePrepare = function(data){
-  return new Promise((resolve, reject) => {
-    var db = path.resolve(settings.rootDirectory,settings.task.sqlite.dirname,settings.task.sqlite.extension.replace('*',settings.bookIdentify));
-
-    fs.unlink(db,function(){
-      // databaseConnection = new sqlite3.Database(':memory:');
-      // ,sqlite3.OPEN_READWRITE
-      databaseConnection = new sqlite3.Database(db);
-      // databaseConnection.configure('busyTimeout',1000);
-      databaseConnection.serialize(function() {
-        // NOTE: testament
-        databaseConnection.run("CREATE TABLE IF NOT EXISTS testament (tid INTEGER, name TEXT, shortname TEXT)");
-        // NOTE: book
-        databaseConnection.run("CREATE TABLE IF NOT EXISTS book (bid INTEGER, name TEXT, shortname TEXT, desc TEXT, abbr TEXT)");
-        // NOTE: book
-        databaseConnection.run("CREATE TABLE IF NOT EXISTS story (bid INTEGER, cid INTEGER, vid INTEGER, text TEXT, ref TEXT)");
-        // NOTE: bible -> , merged INTEGER, title TEXT, ref TEXT
-        databaseConnection.run("CREATE TABLE IF NOT EXISTS bible (bid INTEGER, cid INTEGER, vid INTEGER, verse TEXT)");
-        // NOTE: prepare insert
-        databaseInsert(data).then(()=>{
-          resolve()
-        },(e)=>{
-          reject(e);
-        }).then(()=>{
-          databaseConnection.close();
-        })
+    settings.json.read(json.fileCategory()).then(function(category){
+      json.category = category;
+      settings.json.read(json.fileTask()).then(function(e){
+        resolve(e);
+      },function(e){
+        reject(e);
       });
+    },function(e){
+      reject(e);
     });
   });
 },
-databaseInsert = function(value){
-  return new Promise((resolve, reject) => {
-    let taskPrimary = [];
-    taskPrimary.push(databaseTestament(value.testament));
-    taskPrimary.push(databaseBook(value.book));
+writeJSON = function(data) {
+  var indentation = settings.args.length > 2;
+  var tmp = settings.json.stritify(data,indentation);
+  return settings.json.write(json.fileTask(),tmp);
+},
+scanJSON = function(data){
+  return new Promise(function(resolve, reject) {
+    try {
+      var result={
+        info:parseInfo(data.info),
+        note:parseNote(data.note),
+        digit:parseDigit(data.digit),
+        language:parseLanguage(data.language),
+        testament:parseTestament(data.testament),
+        story:parseStory(data.story),
+        book:parseBook(data.book)
+      };
+     return resolve();
+    } catch (e) {
+      return reject(e);
+    }
+  });
+},
+parseInfo = function(data){
+  return data;
+},
+parseNote = function(data){
+  return data;
+},
+parseDigit = function(data){
+  return data;
+},
+parseLanguage = function(data){
+  return data;
+},
+parseTestament = function(data){
+  return data;
+},
+parseStory= function(data){
+  return data;
+},
+parseBook = function(data){
+  var categoryBook = json.category.book;
+  var bookTofix = 0;
+  var bookTotal = Object.keys(categoryBook).length;
+  var bookCount = 0;
+  var chapterTofix = 0;
+  var verseTofix = 0;
+  var result={};
+  for (const bId in data) {
+    if (data.hasOwnProperty(bId)) {
+      bookCount++;
+      var categoryBookCurrent = categoryBook[bId];
+      const book = data[bId];
+      if (book.hasOwnProperty('chapter')){
+        var chapterTotal = categoryBookCurrent.c;
+        var chapterCount = Object.keys(book.chapter).length;
+        var logBookId = bId;
+        if (chapterCount != chapterTotal){
+          logBookId = logBookId+`\x1b[0m(\x1b[31m${chapterTotal}-${chapterCount}\x1b[0m)`;
+          chapterTofix++;
+        }
+        settings.message.book(logBookId,null,book.info.name);
+        // settings.message.book(logBookId,null);
+        // console.log(book.info);
 
-    // let bible = value.bible;
-    // for (const bId in bible) {
-    //   if (bible.hasOwnProperty(bId)) {
-    //     var book = bible[bId];
-    //     for (const cId in book) {
-    //       if (book.hasOwnProperty(cId)) {
-    //         const chapter = book[cId];
-    //         taskPrimary.push(databaseBible(Number(bId), Number(cId), chapter));
-    //       }
-    //     }
-    //   }
-    // }
-    let story = value.story;
-    for (const bId in story) {
-      if (story.hasOwnProperty(bId)) {
-        var book = story[bId];
-        for (const cId in book) {
-          if (book.hasOwnProperty(cId)) {
-            const chapter = book[cId];
-            taskPrimary.push(databaseStory(Number(bId), Number(cId), chapter));
+        // var bookLength = book.info.name.length;
+        // var bookNameWithSpace = book.info.name + new Array(30 - bookLength).join(' ');
+        result[bId]={
+          chapter:{}
+        };
+        for (const cId in book.chapter) {
+          if (book.chapter.hasOwnProperty(cId)) {
+            const chapter = book.chapter[cId];
+            if (chapter.hasOwnProperty('verse')){
+              result[bId].chapter[cId]={
+                verse:{}
+              };
+              var verseTotal = categoryBookCurrent.v[cId-1];
+              var verseCount = Object.keys(chapter.verse).length;
+              if (verseCount != verseTotal){
+                verseTofix++;
+              }
+              for (const vId in chapter.verse) {
+                if (chapter.verse.hasOwnProperty(vId)) {
+                  var newVerse={};
+                  const verse = chapter.verse[vId];
+                  if (verse.hasOwnProperty('text') && verse.text !="") {
+                    newVerse.text=verse.text;
+                  } else {
+                    console.log('verse has no text',bId,cId,vId);
+                  }
+                  if (verse.hasOwnProperty('title') && verse.title !="") newVerse.title=verse.title;
+                  if (verse.hasOwnProperty('merge') && verse.merge !="") {
+                    verseTofix--;
+                    newVerse.merge=verse.merge;
+                  }
+                  if (verse.hasOwnProperty('ref') && verse.ref !="") newVerse.ref=verse.ref;
+                  result[bId].chapter[cId].verse[vId]=newVerse;
+                }
+              }
+              var verseStatus = verseCount == verseTotal?cId:`${cId}(\x1b[31m${verseTotal}-${verseCount}\x1b[33m)`;
+              settings.message.chapter(verseStatus);
+            } else {
+              settings.message.chapter(`\x1b[31m${cId}\x1b[0m?`);
+            }
           }
         }
-      }
-    }
-    let bible = value.book;
-    for (const bId in bible) {
-      if (bible.hasOwnProperty(bId)) {
-        var book = bible[bId].chapter;
-        for (const cId in book) {
-          if (book.hasOwnProperty(cId)) {
-            const chapter = book[cId].verse;
-            taskPrimary.push(databaseBible(Number(bId), Number(cId), chapter));
-          }
-        }
-      }
-    }
-    Promise.all(taskPrimary).then(()=>{
-      resolve();
-    }).catch(error=>{
-      reject(error);
-    })
-  });
-},
-databaseTestament = function(testament){
-  return new Promise((resolve, reject) => {
-    var table = databaseConnection.prepare("INSERT INTO testament (tid, name, shortname) VALUES (?,?,?)");
-    for (const tId in testament) {
-      if (testament.hasOwnProperty(tId)) {
-        const o = testament[tId].info;
-        table.run([tId, o.name, o.shortname]);
-      }
-    }
-    table.finalize(()=>{
-      resolve()
-    });
-  })
-},
-databaseBook = function(value){
-  return new Promise((resolve, reject) => {
-    var table = databaseConnection.prepare("INSERT INTO book (bid, name, shortname, desc, abbr) VALUES (?,?,?,?,?)");
-    for (const bId in value) {
-      if (value.hasOwnProperty(bId)) {
-        const book = value[bId].info;
-        table.run([bId, book.name, book.shortname, book.desc, book.abbr.join(',')]);
-      }
-    }
-    table.finalize(()=>{
-      resolve()
-    });
-  })
-},
-databaseBibleCurrentBook=0,
-databaseBible = function(bId, cId, chapter){
-  return new Promise((resolve, reject) => {
-    // , merged, title, ref -> ,?,?,?
-    var table = databaseConnection.prepare("INSERT INTO bible (bid, cid, vid, verse) VALUES (?,?,?,?)");
-    for (const vId in chapter) {
-      if (chapter.hasOwnProperty(vId)) {
-        const verse = chapter[vId];
-        // table.run([bId,cId, Number(vId),verse.text, verse.merge,verse.title,verse.ref]);
-        table.run([bId,cId, vId,verse.text]);
-      }
-    }
-    table.finalize(()=>{
-      if (databaseBibleCurrentBook < bId) {
-        databaseBibleCurrentBook = bId;
-        settings.message.book(bId,cId);
       } else {
-        settings.message.chapter(cId);
-      }
-      resolve()
-    })
-  });
-};
-databaseStoryCurrentBook=0,
-databaseStory = function(bId, cId, chapter){
-  return new Promise((resolve, reject) => {
-    // story (bid INTEGER, cid INTEGER, vid INTEGER, text TEXT, ref TEXT)
-    var table = databaseConnection.prepare("INSERT INTO story (bid, cid, vid, text,ref) VALUES (?,?,?,?,?)");
-    for (const vId in chapter) {
-      if (chapter.hasOwnProperty(vId)) {
-        const story = chapter[vId];
-        table.run([bId,cId, vId,story.text,story.ref]);
+        // console.log('has no chapter');
+        settings.message.chapter('no chapter');
+        bookTofix++;
       }
     }
-    table.finalize(()=>{
-      if (databaseStoryCurrentBook < bId) {
-        databaseStoryCurrentBook = bId;
-        settings.message.book(bId,cId);
-      } else {
-        settings.message.chapter(cId);
-      }
-      resolve()
-    })
-  });
+  }
+  var bookPassed = bookTofix == 0;
+  var chapterPassed = chapterTofix == 0;
+  var versePassed = verseTofix == 0;
+  // var tofixed = bookTofix + chapterTofix + verseTofix;
+  console.log(`\n...status > book: \x1b[31m${bookPassed}\x1b[0m chapter: \x1b[31m${chapterPassed}\x1b[0m verse: \x1b[31m${versePassed}\x1b[0m`);
+  console.log(`...to fix > book: \x1b[31m${bookTofix}\x1b[0m chapter: \x1b[31m${chapterTofix}\x1b[0m verse: \x1b[31m${verseTofix}\x1b[0m`);
+  // data.forEach(function(bid){
+  //   console.log('bookid',bid);
+  // });
+  return result;
 };
 
 task.main = function(parentSettings) {
   settings = parentSettings;
-  databaseBibleCurrentBook = 0;
-  databaseStoryCurrentBook = 0;
   return new Promise(function(resolve, reject) {
-    readJSON().then(function(result){
-      databasePrepare(result).then(function(){
-        result.task=['json','sqlite'];
-        // var taskIdentify = settings.taskIdentify, taskTarget = settings.task[taskIdentify].target;
-        // result.task=[taskIdentify,taskTarget];
-        resolve(result);
+    readJSON().then(function(resultOrginal){
+      // console.log(resultOrginal);
+      scanJSON(resultOrginal).then(function(resultFinal){
+        resolve();
+        // return writeJSON(resultFinal).then(function(e){
+        //   // resolve(resultFinal);
+        //   resolve();
+        // },function(e){
+        //   reject(e);
+        // })
       },function(e){
         reject(e);
       });
-    },function(error){
-      reject(error);
+    },function(e){
+      reject(e);
     });
+    // readJSON().then(function(result){
+    //   databasePrepare(result).then(function(){
+    //     result.task=['json','sqlite'];
+    //     // var taskIdentify = settings.taskIdentify, taskTarget = settings.task[taskIdentify].target;
+    //     // result.task=[taskIdentify,taskTarget];
+    //     resolve(result);
+    //   },function(e){
+    //     reject(e);
+    //   });
+    // },function(error){
+    //   reject(error);
+    // });
   });
 };

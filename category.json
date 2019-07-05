@@ -14,8 +14,20 @@
       "11":"Doctrinal: General Espitles"
     },
     "testament":{
-      "1":"Old Testament",
-      "2":"New Testament"
+      "1": {
+        "info": {
+          "name": "Old Testament",
+          "shortname": "OT",
+          "desc": ""
+        }
+      },
+      "2": {
+        "info": {
+          "name": "New Testament",
+          "shortname": "NT",
+          "desc": ""
+        }
+      }
     },
     "book":{
       "1":{
@@ -320,7 +332,7 @@
       "64":[ "3 John", "3J", "3Jn", "3 Jn", "3 Jo", "IIIJo", "III John", "III Jo", "III Jn", "3John" ], "65":[ "Jude", "Jud" ],
       "66":[ "Revelation", "Re", "Rev", "Rvltn" ]
     },
-    "digit":{}
+    "digit":["0","1","2","3","4","5","6","7","8","9"]
   },
   "section": {
       "1": {
@@ -800,7 +812,7 @@
           "b": 66,
           "s": 11,
           "c": 22,
-          "v": [20, 29, 22, 11, 14, 17, 17, 13, 21, 11, 19, 17, 18, 20, 8, 21, 18, 24, 21, 15, 27, 20]
+          "v": [20, 29, 22, 11, 14, 17, 17, 13, 21, 11, 19, 17, 18, 20, 8, 21, 18, 24, 21, 15, 27, 21]
       }
   }
 }

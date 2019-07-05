@@ -332,6 +332,7 @@ parseBook = function(data){
       const book = data[bId];
       if (book.hasOwnProperty('chapter')){
         result[bId]={
+          info:book.info,
           chapter:{}
         };
         for (const cId in book.chapter) {

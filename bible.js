@@ -44,9 +44,11 @@ settings={
     }
   },
   message:{
-    book: function(bId,cId){
-      var spaces = (bId < 10)?' ':'';
-      process.stdout.write(`\n....\x1b[2mBook\x1b[8m:\x1b[35m${spaces}${bId}\x1b[0m > \x1b[2mchapter\x1b[8m:`);
+    book: function(bId,cId,bookName,chapterName){
+      // var spaces = (bId < 10)?' ':'';
+      bookName = bookName?bookName:'Book';
+      chapterName = chapterName?chapterName:'chapter';
+      process.stdout.write(`\n....\x1b[2m${bookName}\x1b[8m \x1b[35m${bId}\x1b[0m > \x1b[2m${chapterName}\x1b[0m:`);
       if (cId){
         if (cId instanceof Array){
           this.chapter(cId.join(' '));
@@ -63,6 +65,42 @@ settings={
     },
     standard: function(item){
       console.log(`\n...\x1b[31m${item}\x1b[0m`);
+    }
+  },
+  json:{
+    read: function(filename){
+      return new Promise((resolve, reject) => {
+        fs.exists(filename, function(e) {
+          if (e) {
+            try {
+              var o=fs.readFileSync(filename).toString();
+              resolve(JSON.parse(o));
+            } catch (e) {
+              reject(e)
+            }
+          } else {
+            reject(`...\x1b[35mdoes not\x1b[0m exist!`);
+          }
+        });
+      });
+    },
+    write: function(filename,data){
+      return new Promise((resolve, reject) => {
+        fs.writeFile(filename, data,'utf8',function(error){
+          if (error) {
+            reject(error);
+          } else {
+            resolve();
+          }
+        });
+      });
+    },
+    stringify: function(data,indentation) {
+      if (indentation) {
+        return JSON.stringify(data, null, 2);
+      } else {
+        return JSON.stringify(data);
+      }
     }
   }
 },

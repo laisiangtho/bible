@@ -1,7 +1,7 @@
 {
   "name": "Lai Siangtho",
-  "updated": "2019-07-05T08:32:17.441Z",
-  "version": 187,
+  "updated": "2019-07-05T21:57:32.646Z",
+  "version": 223,
   "book": [
     {
       "identify": "ddb1931",
@@ -222,13 +222,129 @@
       "publisher": "Bible Society of Myanmar",
       "contributors": "",
       "copyright": ""
+    },
+    {
+      "identify": "bbe1949",
+      "name": "Bible in Basic English",
+      "shortname": "BBE",
+      "year": "1949",
+      "language": {
+        "text": "English",
+        "textdirection": "ltr",
+        "name": "en"
+      },
+      "version": "1",
+      "description": "The form in which the Bible is given here is not simply another example of the Bible story put into present-day English. The language used is Basic English.\nBasic English, produced by Mr C. K. Ogden of the Orthological Institute, is a simple form of the English language which, with 850 words, is able to give the sense of anything which may be said in English.",
+      "publisher": "FREE BIBLE SOFTWARE GROUP",
+      "contributors": "C.K. Ogden",
+      "copyright": "We believe that this Bible is found in the Public Domain."
+    },
+    {
+      "identify": "web2000",
+      "name": "World English Bible",
+      "shortname": "WEB",
+      "year": "2000",
+      "language": {
+        "text": "English",
+        "textdirection": "ltr",
+        "name": "en"
+      },
+      "version": "1",
+      "description": "The WEB Bible as it might apear by the name is being translated specifically for the purpose of being distrubuted over the WEB.",
+      "publisher": "FREE BIBLE SOFTWARE GROUP",
+      "contributors": "Rainbow Missions PO BOX 1151 LONGMONT CO 80502-1151 USA",
+      "copyright": "We believe that this Bible is found in the Public Domain."
+    },
+    {
+      "identify": "348",
+      "name": "Pathian Lehkhabu Thianghlim",
+      "shortname": "Mizo",
+      "year": "1995",
+      "language": {
+        "text": "Mizo",
+        "textdirection": "ltr",
+        "name": "zo"
+      },
+      "version": 1,
+      "description": "1995 Bible Society of India",
+      "publisher": "",
+      "contributors": "",
+      "copyright": ""
+    },
+    {
+      "identify": "348",
+      "name": "Pathian Lehkhabu Thianghlim",
+      "shortname": "Mizo",
+      "year": "1995",
+      "language": {
+        "text": "Mizo",
+        "textdirection": "ltr",
+        "name": "zo"
+      },
+      "version": 1,
+      "description": "1995 Bible Society of India",
+      "publisher": "",
+      "contributors": "",
+      "copyright": ""
+    },
+    {
+      "identify": "348",
+      "name": "Pathian Lehkhabu Thianghlim",
+      "shortname": "Mizo",
+      "year": "1995",
+      "language": {
+        "text": "Mizo",
+        "textdirection": "ltr",
+        "name": "zo"
+      },
+      "version": 1,
+      "description": "1995 Bible Society of India",
+      "publisher": "",
+      "contributors": "",
+      "copyright": ""
+    },
+    {
+      "identify": "348",
+      "name": "Pathian Lehkhabu Thianghlim",
+      "shortname": "Mizo",
+      "year": "1995",
+      "language": {
+        "text": "Mizo",
+        "textdirection": "ltr",
+        "name": "zo"
+      },
+      "version": 1,
+      "description": "1995 Bible Society of India",
+      "publisher": "",
+      "contributors": "",
+      "copyright": ""
+    },
+    {
+      "identify": "348",
+      "name": "Pathian Lehkhabu Thianghlim",
+      "shortname": "Mizo",
+      "year": "1995",
+      "language": {
+        "text": "Mizo",
+        "textdirection": "ltr",
+        "name": "zo"
+      },
+      "version": 1,
+      "description": "1995 Bible Society of India",
+      "publisher": "",
+      "contributors": "",
+      "copyright": ""
     }
   ],
   "collection": {
     "xml": [
       "mcl2005",
       "ostervald1877",
-      "ddb1931"
+      "ddb1931",
+      "luther1912",
+      "bbe1949",
+      "sizang1932",
+      "web2000"
     ],
     "json": [
       "ddb1931",
@@ -246,7 +362,9 @@
       "mara2011",
       "jclb2009",
       "mcl2005",
-      "matu2009"
+      "matu2009",
+      "bbe1949",
+      "web2000"
     ],
     "sqlite": [],
     "ph4": [],
