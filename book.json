@@ -1,7 +1,7 @@
 {
   "name": "Lai Siangtho",
-  "updated": "2019-07-05T21:57:32.646Z",
-  "version": 223,
+  "updated": "2019-07-06T08:17:34.298Z",
+  "version": 226,
   "book": [
     {
       "identify": "ddb1931",
@@ -256,71 +256,7 @@
       "copyright": "We believe that this Bible is found in the Public Domain."
     },
     {
-      "identify": "348",
-      "name": "Pathian Lehkhabu Thianghlim",
-      "shortname": "Mizo",
-      "year": "1995",
-      "language": {
-        "text": "Mizo",
-        "textdirection": "ltr",
-        "name": "zo"
-      },
-      "version": 1,
-      "description": "1995 Bible Society of India",
-      "publisher": "",
-      "contributors": "",
-      "copyright": ""
-    },
-    {
-      "identify": "348",
-      "name": "Pathian Lehkhabu Thianghlim",
-      "shortname": "Mizo",
-      "year": "1995",
-      "language": {
-        "text": "Mizo",
-        "textdirection": "ltr",
-        "name": "zo"
-      },
-      "version": 1,
-      "description": "1995 Bible Society of India",
-      "publisher": "",
-      "contributors": "",
-      "copyright": ""
-    },
-    {
-      "identify": "348",
-      "name": "Pathian Lehkhabu Thianghlim",
-      "shortname": "Mizo",
-      "year": "1995",
-      "language": {
-        "text": "Mizo",
-        "textdirection": "ltr",
-        "name": "zo"
-      },
-      "version": 1,
-      "description": "1995 Bible Society of India",
-      "publisher": "",
-      "contributors": "",
-      "copyright": ""
-    },
-    {
-      "identify": "348",
-      "name": "Pathian Lehkhabu Thianghlim",
-      "shortname": "Mizo",
-      "year": "1995",
-      "language": {
-        "text": "Mizo",
-        "textdirection": "ltr",
-        "name": "zo"
-      },
-      "version": 1,
-      "description": "1995 Bible Society of India",
-      "publisher": "",
-      "contributors": "",
-      "copyright": ""
-    },
-    {
-      "identify": "348",
+      "identify": "1048",
       "name": "Pathian Lehkhabu Thianghlim",
       "shortname": "Mizo",
       "year": "1995",
