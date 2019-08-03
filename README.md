@@ -58,9 +58,9 @@ node bible ph4 list:sv-dnf.2014,sv-kxii.1873,sv-nub15.2015,sv-s17.1917,sv-sb00.2
 
 ```shell
 # request All
-node bible wbc bible/348/GEN.1.JCLB true
+node bible wbc bible/1065/GEN.1.ZOMI true
 # request only this
-node bible wbc /bible/348/GEN.1.JCLB true
+node bible wbc /bible/1065/GEN.1.ZOMI true
 # import
 node bible wbc 348
 ```

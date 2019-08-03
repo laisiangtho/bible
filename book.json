@@ -1,7 +1,7 @@
 {
   "name": "Lai Siangtho",
-  "updated": "2019-07-06T08:17:34.298Z",
-  "version": 226,
+  "updated": "2019-07-31T16:54:39.888Z",
+  "version": 232,
   "book": [
     {
       "identify": "ddb1931",
@@ -270,6 +270,38 @@
       "publisher": "",
       "contributors": "",
       "copyright": ""
+    },
+    {
+      "identify": "1065",
+      "name": "Lai Siengthou",
+      "shortname": "Zou",
+      "year": "1992",
+      "language": {
+        "text": "Zo",
+        "textdirection": "ltr",
+        "name": "Zo/Zou"
+      },
+      "version": 1,
+      "description": "The tribe is mainly found in the districts of Chandel and Churachandpur in Manipur and in border areas of Myanmar. They have a population of 24,000. They belong to language group of Tibeto Burman. The Zou Christians consist of protestants (75%) and the Roman Catholic (25%). The Zomis witnessed two major events of publication work by the Bible Society of India in their language, the New Testament was published in 1981 and the complete Zou Bible CL was published in 1992.",
+      "publisher": "",
+      "contributors": "",
+      "copyright": "Bible Society of India"
+    },
+    {
+      "identify": "1879",
+      "name": "Pathen Thutheng BU",
+      "shortname": "Thadou",
+      "year": "2015",
+      "language": {
+        "text": "Thadou",
+        "textdirection": "ltr",
+        "name": "Thado"
+      },
+      "version": 1,
+      "description": "Pathen Thutheng BU - BSI, Thadou Kuki [Thado Chin]",
+      "publisher": "",
+      "contributors": "",
+      "copyright": "The Bible Society of India "
     }
   ],
   "collection": {

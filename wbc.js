@@ -2,7 +2,6 @@ const path = require('path'), fs = require('fs-extra');
 const request = require('request'), htmlParser = require('node-html-parser');
 var task = module.exports = {}, settings={};
 
-
 var dataLocalJSON={
   info: {
     identify: '',
@@ -23,11 +22,26 @@ var dataLocalJSON={
   note:{
   },
   language:{
+    book:"Book",
     chapter:"Chapter",
     verse:"Verse"
   },
   digit:["0","1","2","3","4","5","6","7","8","9"],
   testament:{
+    1: {
+      info: {
+        name: "Old Testament",
+        shortname: "OT",
+        desc: ""
+      }
+    },
+    2: {
+      info: {
+        name: "New Testament",
+        shortname: "NT",
+        desc: ""
+      }
+    }
   },
   story: {
   },
