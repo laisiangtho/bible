@@ -346,7 +346,7 @@ parseBook = function(data){
       const book = data[bId];
       if (book.hasOwnProperty('chapter')){
         result[bId]={
-          info:book.info,
+          info:parseBookInfo(book.info),
           chapter:{}
         };
         for (const cId in book.chapter) {
@@ -384,6 +384,14 @@ parseBook = function(data){
   // data.forEach(function(bid){
   //   console.log('bookid',bid);
   // });
+  return result;
+},
+parseBookInfo = function(result){
+  if (result.name){
+    // result.name = result.name.split(' ').map( w =>  w.substring(0,1).toUpperCase()+ w.substring(1)).join(' ');
+    result.name = result.name.toLowerCase().split(' ').map(value => value.charAt(0).toUpperCase() + value.substring(1)).join(' ');
+    // result.apple="what";
+  }
   return result;
 };
 // https://www.bible.com/json/bible/languages?filter=
