@@ -307,6 +307,7 @@ writeJSON = function(data) {
       });
     } else if (dataLocalJSON.info.identify && dataLocalJSON.info.name && dataLocalJSON.info.shortname && dataLocalJSON.info.year){
       writeFinalJSON(data).then(function(){
+        data.task=['wbc'];
         resolve(data);
       },function(e){
         reject(e);

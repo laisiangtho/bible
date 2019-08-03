@@ -1,7 +1,7 @@
 {
   "name": "Lai Siangtho",
-  "updated": "2019-08-03T10:24:30.822Z",
-  "version": 239,
+  "updated": "2019-08-03T11:53:51.373Z",
+  "version": 249,
   "book": [
     {
       "identify": "ddb1931",
@@ -279,7 +279,7 @@
       "language": {
         "text": "Zo/Zou",
         "textdirection": "ltr",
-        "name": "Zo"
+        "name": "zo"
       },
       "version": 1,
       "description": "The tribe is mainly found in the districts of Chandel and Churachandpur in Manipur and in border areas of Myanmar. They have a population of 24,000. They belong to language group of Tibeto Burman. The Zou Christians consist of protestants (75%) and the Roman Catholic (25%). The Zomis witnessed two major events of publication work by the Bible Society of India in their language, the New Testament was published in 1981 and the complete Zou Bible CL was published in 1992.",
@@ -295,44 +295,53 @@
       "language": {
         "text": "Thadou",
         "textdirection": "ltr",
-        "name": "Zo"
+        "name": "zo"
       },
       "version": 1,
       "description": "Pathen Thutheng BU - BSI, Thadou Kuki [Thado Chin]",
       "publisher": "",
       "contributors": "",
       "copyright": "The Bible Society of India "
+    },
+    {
+      "identify": "1",
+      "name": "King James Version",
+      "shortname": "KJV",
+      "year": "1611",
+      "language": {
+        "text": "English",
+        "textdirection": "ltr",
+        "name": "en"
+      },
+      "version": 1,
+      "description": "In 1604, King James I of England authorized that a new translation of the Bible into English be started. It was finished in 1611, just 85 years after the first translation of the New Testament into English appeared (Tyndale, 1526). The Authorized Version, or King James Version, quickly became the standard for English-speaking Protestants. Its flowing language and prose rhythm has had a profound influence on the literature of the past 300 years.",
+      "publisher": "Crown Copyright in UK",
+      "contributors": "",
+      "copyright": "Crown Copyright in UK"
     }
   ],
   "collection": {
     "xml": [
-      "mcl2005",
-      "ostervald1877",
-      "ddb1931",
-      "luther1912",
       "bbe1949",
-      "sizang1932",
-      "web2000"
-    ],
-    "json": [
       "ddb1931",
       "dnb1930",
       "falam1973",
       "hakha1920",
       "judson1835",
       "luther1912",
+      "mcl2005",
       "mizo1917",
       "niv2011",
       "ostervald1877",
       "paite1971",
       "sizang1932",
       "tedim1932",
+      "web2000"
+    ],
+    "json": [
       "mara2011",
       "jclb2009",
-      "mcl2005",
-      "matu2009",
-      "bbe1949",
-      "web2000"
+      "matu2009"
     ],
     "sqlite": [],
     "ph4": [],
@@ -340,6 +349,13 @@
       "mara2011",
       "jclb2009",
       "matu2009"
+    ],
+    "wbc": [
+      "1048",
+      "348",
+      "1065",
+      "1879",
+      "1"
     ]
   },
   "language": {
