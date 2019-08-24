@@ -1,58 +1,31 @@
-const path = require('path'), fs = require('fs-extra');
-const request = require('request'), htmlParser = require('node-html-parser');
-var task = module.exports = {}, settings={};
+const path = require('path');
+// const fs = require('fs-extra');
+const request = require('request');
+const htmlParser = require('node-html-parser');
+// usr, param
+var param = {};
+var dataBookName=[];
+var dataBibleJSON={};
+var requestBookId = '';
 
-var dataLocalJSON={
-  info: {
-    identify: '',
-    name: '',
-    shortname: '',
-    year: '',
-    language: {
-      text: '',
-      textdirection: "ltr",
-      name: ''
-    },
-    version: 1,
-    description: '',
-    publisher: '',
-    contributors: '',
-    copyright: ''
-  },
-  note:{
-  },
-  language:{
-    book:"Book",
-    chapter:"Chapter",
-    verse:"Verse"
-  },
-  digit:["0","1","2","3","4","5","6","7","8","9"],
-  testament:{
-    1: {
-      info: {
-        name: "Old Testament",
-        shortname: "OT",
-        desc: ""
-      }
-    },
-    2: {
-      info: {
-        name: "New Testament",
-        shortname: "NT",
-        desc: ""
-      }
-    }
-  },
-  story: {
-  },
-  book: {
-  }
-},
-dumpBookName=[],
-initial = function(){
+// https://www.bible.com/json/bible/languages?filter=
+// https://www.bible.com/json/bible/books/348?filter=
+// https://www.bible.com/json/bible/books/348/GEN/chapters
+
+// https://www.bible.com/bible/348/REV.22.JCLB
+// https://www.bible.com/bible/348/GEN.1.JCLB
+// GEN.1.6+GEN.1.7
+
+// node bible wbc 348
+// node bible wbc bible/348/GEN.1.JCLB --indentation
+// node bible wbc /bible/348/GEN.1.JCLB --indentation
+
+
+function initial(){
   return new Promise(function(resolve, reject) {
-    readLocalJSON().then(function(){
-      if (settings.apiData){
+    readLocalJSON().then(function(data){
+      dataBibleJSON=data;
+      if (param.apiData){
         requestBookName().then(function(){
           asyncEach().then(function(e){
             resolve(e);
@@ -63,8 +36,8 @@ initial = function(){
           reject(e);
         });
       } else {
-        // resolve(dataLocalJSON);
-        parseFinalJSON(dataLocalJSON).then(function(e){
+        // resolve(dataBibleJSON);
+        parseFinalJSON(dataBibleJSON).then(function(e){
           resolve(e);
         },function(e){
           reject(e);
@@ -74,8 +47,9 @@ initial = function(){
       reject(e);
     });
   });
-},
-asyncEach = function(){
+};
+
+function asyncEach(){
   return new Promise(function(resolve, reject) {
     asyncTask(resolve, reject).then(function(e){
       resolve(e);
@@ -83,38 +57,40 @@ asyncEach = function(){
       reject(e);
     });
   });
-},
-asyncTask = async function(resolve, reject){
+};
+
+async function asyncTask(resolve, reject){
   try {
     await requestChapter();
-    if (settings.apiURLChapter) {
+    if (param.apiURLChapter) {
       return asyncEach();
     } else {
-      resolve(dataLocalJSON);
+      resolve(dataBibleJSON);
     }
   }
   catch (e) {
     reject(e);
   }
-},
-requestBookName = function(){
+};
+
+function requestBookName(){
   return new Promise(function(resolve, reject) {
-    request(settings.apiURLBookName, { json: true }, (e, res, body) => {
+    request(param.apiURLBookName, { json: true }, (e, res, body) => {
       if (e) {
         reject(e);
       } else {
         // console.log(body.items);
-        // dataLocalJSON.dump_bookname = body.items;
-        dumpBookName = body.items;
+        // dataBibleJSON.dump_bookname = body.items;
+        dataBookName = body.items;
         resolve()
       }
     });
   });
-},
-requestBookId = '',
-requestChapter = function(){
+};
+
+function requestChapter(){
   return new Promise(function(resolve, reject) {
-    request(settings.apiURLChapter, { json: true }, (e, res, body) => {
+    request(param.apiURLChapter, { json: true }, (e, res, body) => {
       if (e) {
         reject(e);
       } else {
@@ -125,8 +101,8 @@ requestChapter = function(){
         var bookShortName = currentBookChapter[0];
         var chapterId = currentBookChapter[1];
 
-        var bookInfo = dumpBookName.find(element => element.usfm === bookShortName);
-        var index = dumpBookName.indexOf(bookInfo);
+        var bookInfo = dataBookName.find(element => element.usfm === bookShortName);
+        var index = dataBookName.indexOf(bookInfo);
         if (index > -1) {
           bookId =  index + bookId;
         } else {
@@ -135,17 +111,17 @@ requestChapter = function(){
 
         var hasNext = root.querySelector('a.bible-nav-button.nav-right');
         if (hasNext) {
-          if (settings.apiDataOnlyOne){
-            settings.apiURLChapter = null;
+          if (param.apiDataOnlyOne){
+            param.apiURLChapter = null;
           } else {
-            settings.apiURLChapter = settings.apiDomain.replace('*',hasNext.attributes.href);
+            param.apiURLChapter = param.apiDomain.replace('*',hasNext.attributes.href);
           }
         } else {
-          settings.apiURLChapter = null;
+          param.apiURLChapter = null;
         }
 
-        if (!dataLocalJSON.book.hasOwnProperty(bookId)) {
-          dataLocalJSON.book[bookId]={
+        if (!dataBibleJSON.book.hasOwnProperty(bookId)) {
+          dataBibleJSON.book[bookId]={
             info:{
               name: bookInfo.human,
               shortname: bookShortName,
@@ -156,13 +132,13 @@ requestChapter = function(){
             chapter:{}
           };
         }
-        dataLocalJSON.book[bookId].chapter[chapterId]={
+        dataBibleJSON.book[bookId].chapter[chapterId]={
           verse:{}
         };
         if (requestBookId == bookId) {
-          settings.message.chapter(chapterId);
+          param.msg.chapter(chapterId);
         } else {
-          settings.message.book(bookId,chapterId);
+          param.msg.book(bookId,chapterId);
         }
         requestBookId = bookId;
 
@@ -193,8 +169,6 @@ requestChapter = function(){
                       // console.log('reference ->',verseId,verseReference);
                     }
                   }
-                  // var verseContent = verseNode.querySelector('.content');
-                  // var verseText = verseContent.text.trim();
 
                   var verseContent = verseNode.querySelectorAll('.content').map(e=>e.text);
                   var verseText = verseContent.join(' ').replace(/\s\s+/g, ' ').trim();
@@ -202,9 +176,9 @@ requestChapter = function(){
 
                   if (verseText){
                     // console.log('verse ->',verseId,verseText);
-                    if (!dataLocalJSON.book[bookId].chapter[chapterId].verse.hasOwnProperty(verseId)){
+                    if (!dataBibleJSON.book[bookId].chapter[chapterId].verse.hasOwnProperty(verseId)){
                       // NOTE insert new verse
-                      dataLocalJSON.book[bookId].chapter[chapterId].verse[verseId]={
+                      dataBibleJSON.book[bookId].chapter[chapterId].verse[verseId]={
                         text:verseText,
                         title:verseTitleValue,
                         ref:verseReference,
@@ -213,12 +187,12 @@ requestChapter = function(){
                     } else {
                       // NOTE update verse, because already exists
                       // console.log('verse already there ->',verseId,verseText);
-                      var verseToJoin = dataLocalJSON.book[bookId].chapter[chapterId].verse[verseId];
+                      var verseToJoin = dataBibleJSON.book[bookId].chapter[chapterId].verse[verseId];
                       // var verseTextJoin = verseToJoin.text+'\n '+verseText;
-                      dataLocalJSON.book[bookId].chapter[chapterId].verse[verseId].text=verseToJoin.text+'\n '+verseText;
-                      dataLocalJSON.book[bookId].chapter[chapterId].verse[verseId].title=verseTitleValue;
-                      dataLocalJSON.book[bookId].chapter[chapterId].verse[verseId].ref=(verseToJoin.ref+' '+verseReference).trim();
-                      dataLocalJSON.book[bookId].chapter[chapterId].verse[verseId].merge=verseMerge;
+                      dataBibleJSON.book[bookId].chapter[chapterId].verse[verseId].text=verseToJoin.text+'\n '+verseText;
+                      dataBibleJSON.book[bookId].chapter[chapterId].verse[verseId].title=verseTitleValue;
+                      dataBibleJSON.book[bookId].chapter[chapterId].verse[verseId].ref=(verseToJoin.ref+' '+verseReference).trim();
+                      dataBibleJSON.book[bookId].chapter[chapterId].verse[verseId].merge=verseMerge;
                     }
                     verseTitle.add=false;
                   }
@@ -238,74 +212,35 @@ requestChapter = function(){
       }
     });
   });
-},
-
-stringifyJSON = function(data) {
-  if (settings.args.length > 2) {
-    return JSON.stringify(data, null, 2);
-  } else {
-    return JSON.stringify(data);
-  }
-},
-readLocalJSON = function(){
-  // dataLocalJSON dataLocalJSON
-  return new Promise(function(resolve, reject) {
-    if (!settings.bookIdentify) return reject(`...\x1b[35m${settings.bookIdentify}\x1b[0m!`);
-    var sourceFile = path.resolve(settings.rootDirectory,settings.task.wbc.dirname,settings.task.json.extension.replace('*',settings.bookIdentify));
-    fs.readFile(sourceFile, function(e, data) {
-      if (e) {
-        if (e.code == 'ENOENT') {
-          settings.message.standard(`new \x1b[35mJSON\x1b[0m to be created!`);
-        }
-        resolve();
-      } else {
-        try {
-          dataLocalJSON=JSON.parse(data);
-          return resolve();
-        } catch (e) {
-          return reject(e);
-        }
-      }
-    });
-  })
-},
-writeLocalJSON = function(data) {
-  return new Promise((resolve, reject) => {
-    var bookSourceJSONName = settings.task.json.extension.replace('*',settings.bookIdentify);
-    var bookSourceJSON = path.resolve(settings.rootDirectory,settings.task.wbc.dirname,bookSourceJSONName);
-    fs.writeFile(bookSourceJSON, stringifyJSON(data),'utf8',function(error){
-      if (error) {
-        reject(error);
-      } else {
-        console.log(`\n...updated local\x1b[32m ${bookSourceJSONName}\x1b[0m!`);
-        resolve();
-      }
-    });
-  });
 };
-writeFinalJSON = function(data) {
-  return new Promise((resolve, reject) => {
-    var bookSourceJSONName = settings.task.json.extension.replace('*',settings.bookIdentify);
-    var bookSourceJSON = path.resolve(settings.rootDirectory,settings.task.json.dirname,bookSourceJSONName);
-    fs.writeFile(bookSourceJSON, stringifyJSON(data),'utf8',function(error){
-      if (error) {
-        reject(error);
+
+function readLocalJSON(){
+  // return for dataBibleJSON
+  return new Promise(function(resolve, reject) {
+    if (!param.bookIdentify) return reject(param.msg.identify(param.bookIdentify));
+    var filename = param.json.file.name.replace('*',param.bookIdentify);
+    param.json.read(path.resolve(param.root,param.job.name,filename)).then(function(data){
+      resolve(data);
+    },function(error){
+      if (error.code == 'ENOENT') {
+        param.msg.log(param.msg.fileToBeCreated());
+        resolve(param.json.structure());
       } else {
-        console.log(`\n...updated final\x1b[32m ${bookSourceJSONName}\x1b[0m!`);
-        resolve();
+        reject(error);
       }
-    });
-  });
-},
-writeJSON = function(data) {
+    })
+  })
+};
+
+function writeJSON(data) {
   return new Promise((resolve, reject) => {
-    if (settings.apiData){
+    if (param.apiData){
       writeLocalJSON(data).then(function(){
         resolve();
       },function(e){
         reject(e);
       });
-    } else if (dataLocalJSON.info.identify && dataLocalJSON.info.name && dataLocalJSON.info.shortname && dataLocalJSON.info.year){
+    } else if (dataBibleJSON.info.identify && dataBibleJSON.info.name && dataBibleJSON.info.shortname && dataBibleJSON.info.year){
       writeFinalJSON(data).then(function(){
         data.task=['wbc'];
         resolve(data);
@@ -313,16 +248,40 @@ writeJSON = function(data) {
         reject(e);
       });
     } else {
-      settings.message.unknown('Required: info > identify,name,shortname,year for final output!');
+      param.msg.log(param.msg.infoMissing());
       if (typeof data === 'string'){
-        settings.message.unknown(data);
-        // console.log(data);
+        param.msg.unknown(data);
       }
       resolve();
     }
   });
-},
-parseFinalJSON = function(data){
+};
+
+function writeLocalJSON(data) {
+  return new Promise((resolve, reject) => {
+    var filename = param.json.file.name.replace('*',param.bookIdentify);
+    param.json.write(path.resolve(param.root,param.job.name,filename),param.json.stringify(data,param.job.indentation)).then(function(){
+      param.msg.log(param.msg.fileUpdatedLocal(filename));
+      resolve();
+    },function(error){
+      reject(error);
+    });
+  });
+};
+
+function writeFinalJSON(data) {
+  return new Promise((resolve, reject) => {
+    var filename = param.json.file.name.replace('*',param.bookIdentify);
+    param.json.write(path.resolve(param.root,'json',filename),param.json.stringify(data,param.job.indentation)).then(function(){
+      param.msg.log(param.msg.fileUpdatedFinal(filename));
+      resolve();
+    },function(error){
+      reject(error);
+    });
+  });
+};
+
+function parseFinalJSON(data){
   return new Promise(function(resolve, reject) {
     try {
       var result={
@@ -339,8 +298,9 @@ parseFinalJSON = function(data){
       return reject(e);
     }
   });
-},
-parseBook = function(data){
+};
+
+function parseBook(data){
   var result={};
   for (const bId in data) {
     if (data.hasOwnProperty(bId)) {
@@ -382,65 +342,54 @@ parseBook = function(data){
       }
     }
   }
-  // data.forEach(function(bid){
-  //   console.log('bookid',bid);
-  // });
   return result;
-},
-parseBookInfo = function(result){
+};
+
+function parseBookInfo(result){
   if (result.name){
     // result.name = result.name.split(' ').map( w =>  w.substring(0,1).toUpperCase()+ w.substring(1)).join(' ');
     result.name = result.name.toLowerCase().split(' ').map(value => value.charAt(0).toUpperCase() + value.substring(1)).join(' ');
     // result.apple="what";
   }
-  return result;
 };
-// https://www.bible.com/json/bible/languages?filter=
-// https://www.bible.com/json/bible/books/348?filter=
-// https://www.bible.com/json/bible/books/348/GEN/chapters
 
-// https://www.bible.com/bible/348/REV.22.JCLB
-// https://www.bible.com/bible/348/GEN.1.JCLB
-// GEN.1.6+GEN.1.7
+module.exports = {
+  main: function(usr) {
+    param = usr;
+    param.apiDomain = '*/moc.elbib.www//:sptth'.split('').reverse().join('');
+    param.apiDataOnlyOne=false;
+    param.apiData = false;
+    param.apiURLChapter = null;
+    param.apiURLBookName = null;
+    var apiPathBookName = 'json/bible/books/*';
 
-// node bible wbc 348
-// node bible wbc bible/348/GEN.1.JCLB true
-// node bible wbc /bible/348/GEN.1.JCLB true
-task.main = function(args) {
-  settings = args;
-  settings.apiDomain = '*/moc.elbib.www//:sptth'.split('').reverse().join('');
-
-  settings.apiDataOnlyOne=false;
-  settings.apiData = false;
-  settings.apiURLChapter = null;
-  settings.apiURLBookName = null;
-  var apiPathBookName = 'json/bible/books/*';
-
-  if (/\//g.test(settings.bookIdentify)){
-    settings.apiData = true;
-    var tmp = settings.bookIdentify.split('/');
-    if (tmp[0]){
-      // NOTE -> bible/348/GEN.1.JCLB
-      settings.bookIdentify = tmp[1];
-    } else {
-      // NOTE -> /bible/348/GEN.1.JCLB
-      settings.bookIdentify = tmp[2];
-      settings.apiDataOnlyOne = true;
-      tmp.shift();
+    // dataBibleJSON = param.json.structure();
+    if (/\//g.test(param.bookIdentify)){
+      param.apiData = true;
+      var tmp = param.bookIdentify.split('/');
+      if (tmp[0]){
+        // NOTE -> bible/348/GEN.1.JCLB
+        param.bookIdentify = tmp[1];
+      } else {
+        // NOTE -> /bible/348/GEN.1.JCLB
+        param.bookIdentify = tmp[2];
+        param.apiDataOnlyOne = true;
+        tmp.shift();
+      }
+      param.apiURLChapter = param.apiDomain.replace('*',tmp.join('/'));
+      param.apiURLBookName = param.apiDomain.replace('*',apiPathBookName.replace('*',param.bookIdentify));
     }
-    settings.apiURLChapter = settings.apiDomain.replace('*',tmp.join('/'));
-    settings.apiURLBookName = settings.apiDomain.replace('*',apiPathBookName.replace('*',settings.bookIdentify));
-  }
 
-  return new Promise(function(resolve, reject) {
-    initial().then(function(result){
-      writeJSON(result).then(function(r){
-        resolve(r);
+    return new Promise(function(resolve, reject) {
+      initial().then(function(result){
+        writeJSON(result).then(function(r){
+          resolve(r);
+        },function(e){
+          reject(e);
+        });
       },function(e){
         reject(e);
       });
-    },function(e){
-      reject(e);
     });
-  });
+  }
 };

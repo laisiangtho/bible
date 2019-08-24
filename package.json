@@ -23,12 +23,12 @@
   "bible": {
     "gd": "1nag5q9V7ykH5mZTbgeiYfj012VP8zmAa"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "fs-extra": "^7.0.1",
+    "minimist": "^1.2.0",
     "node-html-parser": "^1.1.15",
     "sqlite3": "^4.0.4",
-    "fs-extra": "^7.0.1",
     "xml2js": "^0.4.19"
   },
   "author": "Khen Solomon Lethil",

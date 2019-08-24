@@ -4,7 +4,9 @@
 # xml/
 
 assets/
+backup/
 node_modules/
 package-lock.json
 wbc/*.json
 koh/*.json
+jwb/*.json
