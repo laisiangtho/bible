@@ -14,7 +14,8 @@ var requestBookId = '';
 // https://www.jw.org/my/စာပေများ/သမ္မာကျမ်းစာ/nwt/ကျမ်း/json/html/19105024-19105025
 // https://www.jw.org/my/စာပေများ/သမ္မာကျမ်းစာ/nwt/ကျမ်း/ကမ္ဘာဦး/1/
 
-// node bible jwb 348
+// node bible jwb jwmynwt
+// node bible json jwmynwt
 // node bible jwb my/var --indentation
 // node bible jwb my/စာပေများ/သမ္မာကျမ်းစာ/nwt/ကျမ်း/ကမ္ဘာဦး/1 --indentation
 // node bible jwb /my/စာပေများ/သမ္မာကျမ်းစာ/nwt/ကျမ်း/ကမ္ဘာဦး/1 --indentation
@@ -174,8 +175,11 @@ function requestChapter() {
             verseStory.push(makeup(e));
           });
         });
+        // NOTE id="v38001001"
+        // NOTE id="v1001002"
         await root.querySelectorAll('#bibleText span.verse').forEach(async function(v) {
-          var verseId = v.attributes.id.substring(5,8).replace(/^0+/, '');
+          // var verseId = v.attributes.id.substring(5,8).replace(/^0+/, '');
+          var verseId = v.attributes.id.substr(v.attributes.id.length - 3).replace(/^0+/, '');
           var verseContent = v.querySelectorAll('span').map(function(e){
             return e.innerHTML.replace(/(<([^>]+)>)/g,'--').replace(/--([*|+])--/g,' ');
           });

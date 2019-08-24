@@ -37,7 +37,7 @@ module.exports = {
   },
   infoMissing: function(){
     // Required: info > identify,name,shortname,year for final output!
-    return '\n...\x1b[31info\x1b[0m > \x1b[36midentify\x1b[0m, \x1b[36mname\x1b[0m, \x1b[36mshortname\x1b[0m, \x1b[36myear\x1b[0m for final output!';
+    return '\n...\x1b[31mmissing\x1b[0m > \x1b[36midentify\x1b[0m, \x1b[36mname\x1b[0m, \x1b[36mshortname\x1b[0m, \x1b[36myear\x1b[0m for final output!';
   },
   book: function(bId,cId,bookName,chapterName){
     // var spaces = (bId < 10)?' ':'';
