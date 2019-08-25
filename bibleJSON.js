@@ -74,22 +74,6 @@ module.exports = {
       }
     });
   },
-  // read: function(filename){
-  //   return new Promise((resolve, reject) => {
-  //     fs.exists(filename, function(e) {
-  //       if (e) {
-  //         try {
-  //           var o=fs.readFileSync(filename).toString();
-  //           resolve(JSON.parse(o));
-  //         } catch (error) {
-  //           reject(error)
-  //         }
-  //       } else {
-  //         reject(usr.msg.fileNotExist(filename));
-  //       }
-  //     });
-  //   });
-  // },
   write: function(filename,data){
     return new Promise((resolve, reject) => {
       fs.writeFile(filename, data,'utf8',function(error){

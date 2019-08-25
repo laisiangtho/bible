@@ -290,7 +290,7 @@ function parseFinalJSON(data){
 
 
 module.exports = {
-  main: function(usr) {
+  main: async function(usr) {
     param = usr;
     param.apiDomain = '*/gro.wj.www//:sptth'.split('').reverse().join('');
     param.apiDataOnlyOne=false;
@@ -317,16 +317,18 @@ module.exports = {
       param.apiURLChapter = encodeURI(param.apiDomain.replace('*',tmp.join('/')));
     }
 
-    return new Promise(function(resolve, reject) {
-      initial().then(function(result){
-        writeJSON(result).then(function(r){
-          resolve(r);
-        },function(e){
-          reject(e);
-        });
-      },function(e){
-        reject(e);
-      });
-    });
+    try {
+      const result = await initial();
+      try {
+        const data = await writeJSON(result);
+        return Promise.resolve(data);
+      }
+      catch (e) {
+        return Promise.reject(e);
+      }
+    }
+    catch (error) {
+      return Promise.reject(error);
+    }
   }
 };

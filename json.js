@@ -160,25 +160,21 @@ parseBook = function(data){
 };
 
 module.exports = {
-  main:function(usr) {
+  main: async function(usr) {
     param = usr;
-    return new Promise(function(resolve, reject) {
-      readJSON().then(function(resultOrginal){
-        // console.log(resultOrginal);
-        scanJSON(resultOrginal).then(function(resultFinal){
-          resolve();
-          // return writeJSON(resultFinal).then(function(e){
-          //   // resolve(resultFinal);
-          //   resolve();
-          // },function(e){
-          //   reject(e);
-          // })
-        },function(e){
-          reject(e);
-        });
-      },function(e){
-        reject(e);
-      });
-    });
+
+    try {
+      const result = await readJSON();
+      try {
+        await scanJSON(result);
+        return Promise.resolve();
+      }
+      catch (e) {
+        return Promise.reject(e);
+      }
+    }
+    catch (error) {
+      return Promise.reject(error);
+    }
   }
 };
