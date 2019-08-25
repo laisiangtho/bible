@@ -12,12 +12,9 @@ var json = {
   fileCategory:function(){
     return path.resolve(param.root,param.json.file.name.replace('*','category'));
   }
-},
+};
 
-// var filename = param.json.file.name.replace('*',param.bookIdentify);
-//     param.json.read(path.resolve(param.root,param.job.name,filename)).then(function(data){
-
-readJSON = function() {
+function readJSON() {
   return new Promise(function(resolve, reject) {
     if (!param.bookIdentify) return reject(`...\x1b[35m${param.bookIdentify}\x1b[0m!`);
     param.json.read(json.fileCategory()).then(function(category){
@@ -31,13 +28,14 @@ readJSON = function() {
       reject(e);
     });
   });
-},
-writeJSON = function(data) {
+};
+
+function writeJSON(data) {
   var indentation = param.args.length > 2;
-  var tmp = param.json.stringify(data,indentation);
-  return param.json.write(json.fileTask(),tmp);
-},
-scanJSON = function(data){
+  return param.json.write(json.fileTask(),param.json.stringify(data,indentation));
+};
+
+function scanJSON(data){
   return new Promise(function(resolve, reject) {
     try {
       var result={
@@ -49,31 +47,38 @@ scanJSON = function(data){
         story:parseStory(data.story),
         book:parseBook(data.book)
       };
-     return resolve();
+     resolve(result);
     } catch (e) {
-      return reject(e);
+      reject(e);
     }
   });
-},
-parseInfo = function(data){
+};
+
+function parseInfo(data){
   return data;
-},
-parseNote = function(data){
+};
+
+function parseNote(data){
   return data;
-},
-parseDigit = function(data){
+};
+
+function parseDigit(data){
   return data;
-},
-parseLanguage = function(data){
+};
+
+function parseLanguage(data){
   return data;
-},
-parseTestament = function(data){
+};
+
+function parseTestament(data){
   return data;
-},
-parseStory= function(data){
+};
+
+function parseStory(data){
   return data;
-},
-parseBook = function(data){
+};
+
+function parseBook(data){
   var categoryBook = json.category.book;
   var bookTofix = 0;
   var bookTotal = Object.keys(categoryBook).length;
