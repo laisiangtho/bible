@@ -1,5 +1,12 @@
 # Reference
 
+```json
+{
+  book:[
+
+  ]
+}
+```
 
 ```shell
 <verse id="([0-9]+-[0-9]+)"

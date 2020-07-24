@@ -1,7 +1,7 @@
 {
   "name": "Lai Siangtho",
-  "updated": "2019-08-24T18:23:18.429Z",
-  "version": 253,
+  "updated": "2020-07-24T11:36:18.429Z",
+  "version": 254,
   "book": [
     {
       "identify": "ddb1931",
@@ -68,10 +68,7 @@
       },
       "version": "1",
       "description": "Translated from The Original Tongues by Rev. A. Judson, D.D.",
-      "publisher": {
-        "text": "Bible Society of Myanmar",
-        "url": "http://www.myanmarbible.com/"
-      }
+      "publisher": "Bible Society of Myanmar"
     },
     {
       "identify": "luther1912",
@@ -186,10 +183,7 @@
         "name": "my"
       },
       "version": "1",
-      "publisher": {
-        "text": "Bible Society of Myanmar",
-        "url": "http://www.myanmarbible.com/"
-      }
+      "publisher": "Bible Society of Myanmar"
     },
     {
       "identify": "matu2009",
