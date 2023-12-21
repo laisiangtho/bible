@@ -122,5 +122,3 @@ New Testament
 8
 9
 ```
-
-[#3] abc
