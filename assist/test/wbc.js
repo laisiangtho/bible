@@ -406,8 +406,8 @@ export async function doNew() {
  * @param {any} req
  */
 export async function doRead(req) {
-  const bN = "EXO";
-  const cN = "18";
+  const bN = "REV";
+  const cN = "7";
   await doReadCore(bN, cN, true);
   return "read";
 }
@@ -424,7 +424,7 @@ async function doReadCore(bN, cN, save) {
   let res = await examine(dom);
 
   if (save) {
-    await base.writeJSON(file.replace(".html", ".json"), res);
+    await base.writeJSON(file.replace(".html", ".json"), res, 2);
   }
 
   return res.status;
@@ -624,7 +624,16 @@ async function examine(dom) {
     let className = el0.className;
 
     let usfmAttr = el0.getAttribute("data-usfm");
-    let usfm = usfmFormat(usfmAttr);
+    let usfmSplit = usfmAttr?.split("+");
+    /**
+     * @type {any}
+     */
+    let usfm = {};
+    if (usfmSplit?.length) {
+      // GEN.1.17+GEN.1.18
+      usfm = usfmFormat(usfmSplit[0]);
+    }
+    // let usfm = usfmFormat(usfmAttr);
     if (usfm) {
       if (!res.chapter) {
         res.chapter = usfm.chapter;
@@ -715,6 +724,20 @@ async function examine(dom) {
           }
         }
       }
+
+      // NOTE: merge
+      if (usfmSplit && usfmSplit.length > 1) {
+        // let verseMerge = usfmSplit[1].split(".").pop();
+        let verseMergeLast = usfmSplit.pop();
+        if (verseMergeLast) {
+          let verseMerge = verseMergeLast.split(".").pop();
+          if (verseMerge) {
+            if (res.verse[verseId]) {
+              res.verse[verseId].merge = verseMerge;
+            }
+          }
+        }
+      }
     }
   }
 
@@ -767,6 +790,7 @@ function commonFormat(e) {
   return e
     .replace(/‍/g, "")
     .replace(/​/g, "")
+    .replace(/ /g, "")
     .replace(/ /g, "")
     .replace(/\( /g, "(")
     .replace(/ \)/g, ")");

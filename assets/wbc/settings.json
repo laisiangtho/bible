@@ -1,19 +1,19 @@
 {
-  "scan": "81",
+  "scan": "86",
   "fruit": "./assets/?/tmp/scanId.json",
   "html": "./assets/?/tmp/scanId/bN.cN.html",
   "doc": "./json/~.json",
   "url": "https://www.~.com/~/iN/bN.cN.iE",
   "uav": "https://www.~.com/api/~/version/iN",
   "delay": 7000,
-  "version": 255,
+  "version": 257,
   "list": [
     {
       "id": "327",
       "ext": "HCL06",
       "identify": "hakha1920",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -21,7 +21,7 @@
       "ext": "FCL",
       "identify": "falam1973",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -29,7 +29,7 @@
       "ext": "PAITBSI",
       "identify": "paite1971",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -37,7 +37,7 @@
       "ext": "MARVBSI",
       "identify": "mara2011",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -45,7 +45,7 @@
       "ext": "MCSB",
       "identify": "matu2009",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -53,7 +53,7 @@
       "ext": "ZOUBSI",
       "identify": "1065",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -61,8 +61,7 @@
       "ext": "ZBOTF01",
       "identify": "2486",
       "note": {
-        "v": 1,
-        "done": "up"
+        "v": 2
       }
     },
     {
@@ -70,7 +69,7 @@
       "ext": "JCLB",
       "identify": "348",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -78,7 +77,7 @@
       "ext": "JHVT3",
       "identify": "2647",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -86,7 +85,7 @@
       "ext": "MIZOVBSI",
       "identify": "mizo1917",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -94,7 +93,7 @@
       "ext": "MIZCLBSI",
       "identify": "1048",
       "note": {
-        "v": 0
+        "v": 2
       }
     },
     {
@@ -102,7 +101,7 @@
       "ext": "SCB2",
       "identify": "sizang1932",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -110,7 +109,7 @@
       "ext": "TDB",
       "identify": "tedim1932",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -118,7 +117,7 @@
       "ext": "ZIV",
       "identify": "208",
       "note": {
-        "v": 1
+        "v": 0
       }
     },
     {
@@ -150,7 +149,7 @@
       "ext": "NB",
       "identify": "102",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -158,7 +157,7 @@
       "ext": "KJV",
       "identify": "175",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -166,7 +165,7 @@
       "ext": "DELUT",
       "identify": "luther1912",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -174,7 +173,7 @@
       "ext": "BDS",
       "identify": "ostervald1877",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -182,7 +181,7 @@
       "ext": "JCB",
       "identify": "83",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -190,7 +189,7 @@
       "ext": "JA1955",
       "identify": "81",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -198,7 +197,7 @@
       "ext": "JBMLE",
       "identify": "judson1835",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -206,7 +205,7 @@
       "ext": "BCL",
       "identify": "mcl2005",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -214,7 +213,7 @@
       "ext": "MSBU",
       "identify": "1391",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -222,7 +221,7 @@
       "ext": "NIV",
       "identify": "niv2011",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -230,7 +229,7 @@
       "ext": "KJV",
       "identify": "1",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -238,7 +237,7 @@
       "ext": "WEBUS",
       "identify": "web2000",
       "note": {
-        "v": 2
+        "v": 3
       }
     },
     {
@@ -246,7 +245,7 @@
       "ext": "ASV",
       "identify": "12",
       "note": {
-        "v": 1
+        "v": 3
       }
     },
     {
@@ -254,7 +253,7 @@
       "ext": "BSB",
       "identify": "3034",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -262,7 +261,7 @@
       "ext": "CEV",
       "identify": "392",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -270,7 +269,7 @@
       "ext": "CEB",
       "identify": "37",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -278,7 +277,7 @@
       "ext": "CEVDCI",
       "identify": "303",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -286,7 +285,7 @@
       "ext": "CEVUK",
       "identify": "294",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -294,7 +293,7 @@
       "ext": "CJB",
       "identify": "1275",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -302,7 +301,7 @@
       "ext": "CPDV",
       "identify": "42",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -310,7 +309,7 @@
       "ext": "CSB",
       "identify": "1713",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -318,7 +317,7 @@
       "ext": "PEV",
       "identify": "2530",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -326,7 +325,7 @@
       "ext": "DARBY",
       "identify": "478",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -334,7 +333,7 @@
       "ext": "HINOVBSI",
       "identify": "1683",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -342,7 +341,7 @@
       "ext": "EASY",
       "identify": "2079",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -350,7 +349,7 @@
       "ext": "ESV",
       "identify": "59",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -358,7 +357,7 @@
       "ext": "HCSB",
       "identify": "72",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -366,7 +365,7 @@
       "ext": "GNBDC",
       "identify": "416",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -374,7 +373,7 @@
       "ext": "GNT",
       "identify": "68",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -382,7 +381,7 @@
       "ext": "LEB",
       "identify": "90",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -390,7 +389,7 @@
       "ext": "HSS",
       "identify": "1628",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -398,7 +397,7 @@
       "ext": "AVD",
       "identify": "13",
       "note": {
-        "v": 1
+        "v": 0
       }
     },
     {
@@ -406,7 +405,7 @@
       "ext": "KLB",
       "identify": "86",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -414,7 +413,7 @@
       "ext": "KRV",
       "identify": "88",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -422,7 +421,7 @@
       "ext": "CCB",
       "identify": "36",
       "note": {
-        "v": 1
+        "v": 2
       }
     },
     {
@@ -430,7 +429,7 @@
       "ext": "CNVS",
       "identify": "41",
       "note": {
-        "v": 1
+        "v": 2
       }
     }
   ],
