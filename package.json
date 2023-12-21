@@ -1,6 +1,6 @@
 {
   "name": "bible",
-  "version": "2.5.5",
+  "version": "2.5.7",
   "description": "the Holy Bible in languages",
   "main": "bible.js",
   "type": "module",
