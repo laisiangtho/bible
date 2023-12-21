@@ -1,0 +1,479 @@
+{
+  "scan": "81",
+  "fruit": "./assets/?/tmp/scanId.json",
+  "html": "./assets/?/tmp/scanId/bN.cN.html",
+  "doc": "./json/~.json",
+  "url": "https://www.~.com/~/iN/bN.cN.iE",
+  "uav": "https://www.~.com/api/~/version/iN",
+  "delay": 7000,
+  "version": 255,
+  "list": [
+    {
+      "id": "327",
+      "ext": "HCL06",
+      "identify": "hakha1920",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "389",
+      "ext": "FCL",
+      "identify": "falam1973",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "1870",
+      "ext": "PAITBSI",
+      "identify": "paite1971",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "3662",
+      "ext": "MARVBSI",
+      "identify": "mara2011",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "3414",
+      "ext": "MCSB",
+      "identify": "matu2009",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "1065",
+      "ext": "ZOUBSI",
+      "identify": "1065",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "2486",
+      "ext": "ZBOTF01",
+      "identify": "2486",
+      "note": {
+        "v": 1,
+        "done": "up"
+      }
+    },
+    {
+      "id": "348",
+      "ext": "JCLB",
+      "identify": "348",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "2647",
+      "ext": "JHVT3",
+      "identify": "2647",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "253",
+      "ext": "MIZOVBSI",
+      "identify": "mizo1917",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "1048",
+      "ext": "MIZCLBSI",
+      "identify": "1048",
+      "note": {
+        "v": 0
+      }
+    },
+    {
+      "id": "326",
+      "ext": "SCB2",
+      "identify": "sizang1932",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "368",
+      "ext": "TDB",
+      "identify": "tedim1932",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "208",
+      "ext": "ZIV",
+      "identify": "208",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "1879",
+      "ext": "THADBSI",
+      "identify": "1879",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "20",
+      "ext": "BPH",
+      "identify": "ddb1931",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "121",
+      "ext": "NORSK",
+      "identify": "dnb1930",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "102",
+      "ext": "NB",
+      "identify": "102",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "175",
+      "ext": "KJV",
+      "identify": "175",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "51",
+      "ext": "DELUT",
+      "identify": "luther1912",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "21",
+      "ext": "BDS",
+      "identify": "ostervald1877",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "83",
+      "ext": "JCB",
+      "identify": "83",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "81",
+      "ext": "JA1955",
+      "identify": "81",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "386",
+      "ext": "JBMLE",
+      "identify": "judson1835",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "404",
+      "ext": "BCL",
+      "identify": "mcl2005",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "1391",
+      "ext": "MSBU",
+      "identify": "1391",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "111",
+      "ext": "NIV",
+      "identify": "niv2011",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "1",
+      "ext": "KJV",
+      "identify": "1",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "206",
+      "ext": "WEBUS",
+      "identify": "web2000",
+      "note": {
+        "v": 2
+      }
+    },
+    {
+      "id": "12",
+      "ext": "ASV",
+      "identify": "12",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "3034",
+      "ext": "BSB",
+      "identify": "3034",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "392",
+      "ext": "CEV",
+      "identify": "392",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "37",
+      "ext": "CEB",
+      "identify": "37",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "303",
+      "ext": "CEVDCI",
+      "identify": "303",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "294",
+      "ext": "CEVUK",
+      "identify": "294",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "1275",
+      "ext": "CJB",
+      "identify": "1275",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "42",
+      "ext": "CPDV",
+      "identify": "42",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "1713",
+      "ext": "CSB",
+      "identify": "1713",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "2530",
+      "ext": "PEV",
+      "identify": "2530",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "478",
+      "ext": "DARBY",
+      "identify": "478",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "1683",
+      "ext": "HINOVBSI",
+      "identify": "1683",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "2079",
+      "ext": "EASY",
+      "identify": "2079",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "59",
+      "ext": "ESV",
+      "identify": "59",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "72",
+      "ext": "HCSB",
+      "identify": "72",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "416",
+      "ext": "GNBDC",
+      "identify": "416",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "68",
+      "ext": "GNT",
+      "identify": "68",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "90",
+      "ext": "LEB",
+      "identify": "90",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "1628",
+      "ext": "HSS",
+      "identify": "1628",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "13",
+      "ext": "AVD",
+      "identify": "13",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "86",
+      "ext": "KLB",
+      "identify": "86",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "88",
+      "ext": "KRV",
+      "identify": "88",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "36",
+      "ext": "CCB",
+      "identify": "36",
+      "note": {
+        "v": 1
+      }
+    },
+    {
+      "id": "41",
+      "ext": "CNVS",
+      "identify": "41",
+      "note": {
+        "v": 1
+      }
+    }
+  ],
+  "await": [
+    {
+      "identify": "208",
+      "name": "Zokam International Version",
+      "shortname": "ZIV",
+      "year": "1994",
+      "language": {
+        "text": "Tedim, Zolai, Chin",
+        "textdirection": "ltr",
+        "iso": {
+          "639-1": "zo",
+          "639-3": "zom"
+        },
+        "name": "zom"
+      },
+      "version": 0,
+      "description": "Zokam International Version",
+      "publisher": "Myanmar Center for World Mission",
+      "contributors": "",
+      "copyright": ""
+    },
+    {
+      "identify": "13",
+      "name": "الكتاب المقدس",
+      "shortname": "AVD",
+      "year": "1999",
+      "language": {
+        "text": "Arabic (Standard)",
+        "textdirection": "ltr",
+        "iso": {
+          "639-1": "ar",
+          "639-3": "arb"
+        },
+        "name": "arb"
+      },
+      "version": 0,
+      "description": "New Van Dyck Bible (Full Vocalization with Helps). This is the most widely used Arabic translation in the world. It was published by the Bible Society of Egypt in 1999.",
+      "publisher": "Bible Society of Egypt",
+      "contributors": "",
+      "copyright": ""
+    }
+  ]
+}

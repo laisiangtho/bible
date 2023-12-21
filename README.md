@@ -1,73 +1,124 @@
-# makeup
+# Bible@laisiangtho
 
 ...the Holy Bible in languages!
 
+```bash
+Let there be light
+Khuavak om hen
+အ​လင်း​ဖြစ်​စေ
+Det bli lys
 ```
-‘Let there be light,’
-“Khuavak om hen,”
-“လင်းဖြစ်စေ”
-«Det bli lys!»
+
+... symbol
+
+```bash
+‘String’
+“String”
+“String”
+«String»
 ‹String›
 `String`
 haven`t, doesn`t
 ÆØÅ,æøå
 ```
 
-# task
+| Name | Language | ISO |
+| --- | --- | --- |
+| Baibal Thianghlim (Falam) | Falam, Lai, Chin | cfm |
+| Baibal Thiang (Hakha) | Hakha, Lai, Chin | cnh |
+| Pathian Lehkhabu Thianghlim (Mizo) | Mizo, Lushai, Chin | lus |
+| Common Language Bible (Mizo) | Mizo, Lushai | lus |
+| Paite Bible (Paite) | Paite, Zolai, Chin | pck |
+| Lai Siangtho (Sizang) | Sizang, Zolai, Chin, Siyin | csy |
+| Lai Siangtho (Tedim) | Tedim, Zolai, Chin | ctd |
+| Khazopa Chabu Pathaipa (Mara) | Mara, Chin | mrh |
+| Matu Bible (Matu) | Matu, Chin | hlt |
+| Lai Siengthou (Zbi) | Zo, Zou, Chin | zom |
+| Zo Bible (Zbm) | Zo, Zou, Chin | zom |
+| Pathen Thutheng BU (Thadou) | Thadou, Kuki, Chin | tcz |
+| သမ္မာကျမ်း (ယုဒသန်) | Myanmar | mya |
+| သမ္မာကျမ်း (မြန်​​​မာ့​​​စံ​​​မီ​​​) | Myanmar | mya |
+| သမ္မာကျမ်း (ခေတ်သုံး) | Myanmar | mya |
+| ကမ္ဘာသစ်ဘာသာပြန်ကျမ်း (နေ့စဉ်သုံး) | Myanmar | mya |
+| Jinghpaw Common Language (JCLB) | Jinghpaw, Kachin | kac |
+| Jinghpaw Hanson Version Bible (JHVB) | Jinghpaw, Kachin | kac |
+| New International Version (NIV) | English | eng |
+| King James Version (KJV) | English | eng |
+| Bible in Basic English (BBE) | English | eng |
+| World English Bible (WEB) | English | eng |
+| American Standard Version (ASV) | English | eng |
+| Berean Standard Bible (BSB) | English | eng |
+| Contemporary English Version (CEV) | English | eng |
+| Common English Bible (CEB) | English | eng |
+| Contemporary English Version Interconfessional Edition (CEVDCI) | English | eng |
+| Contemporary English Version (Anglicised) (CEVUK) | English | eng |
+| Complete Jewish Bible (CJB) | English | eng |
+| Catholic Public Domain Version (CJB) | English | eng |
+| Christian Standard Bible (CSB) | English | eng |
+| Plain English Version (Aboriginal) (PEV) | English | eng |
+| Darby's Translation (DARBY) | English | eng |
+| EasyEnglish Bible (EASY) | English | eng |
+| English Standard Version (EASY) | English | eng |
+| Holman Christian Standard Bible (HCSB) | English | eng |
+| Good News Bible (Anglicised) (GNBDC) | English | eng |
+| Good News Translation (GNT) | English | eng |
+| Lexham English Bible (LEB) | English | eng |
+| Det Danske Bibel (Danske) | Danish | dan |
+| Det Norsk Bibelselskap 1930 (Norske) | Norwegian/Bokmål | nob |
+| Norsk Bibel (Norske) | Norwegian/Bokmål | nob |
+| La Bible Ostervald (French) | French | fra |
+| Luther Bible (German) | German | deu |
+| リビングバイブル (jcb) | Japanese | jpn |
+| Colloquial Japanese (JACJ) | Japanese | jpn |
+| Thai KJV (KJV) | Thai | tha |
+| पवित्र बाइबिल OV (HINOVBSI) | Hindi | hin |
+| सरल हिन्दी बाइबल (HCV) | Hindi | hin |
+| 현대인의 성경 (KLB) | Korean | kor |
+| 개역한글 (KRV) | Korean | kor |
+| 当代译本 (CCB) | Chinese (Simplified) | zho |
+| 新译本（简体字版） (CNVS) | Chinese (Simplified) | zho |
+> Books: 53 langs: 22
 
-- taskIdentify: `xml`, `json`, `ph4`
-- taskName: `(tedim1932)`, `fill`, `todo:`, `all:`, `list:`
-- taskOption: `none/any`
+## task
 
-```
-node bible {taskIdentify} {taskName} {taskOption}
-```
-
-# taskIdentify: `json`
+- taskIdentify: `test`, `bible`,
+- taskName: `wbc`,
+- taskOption: `request`, `read`, `scan`,
 
 ```shell
-node bible json tedim1932
-node bible json fill
-node bible json all:sqlite
+node run {taskIdentify} {taskName} {taskOption}
+node run test wbc
+node run bible search
 ```
 
-# taskIdentify: `xml`
+## taskName: `wbc`
 
 ```shell
-node bible xml tedim1932 true
-node bible xml list:tedim1932 true
-node bible xml fill true
-node bible xml all:json true
+node run test wbc request
+node run test wbc read
+node run test wbc scan
+node run test wbc check
+node run test wbc io
 ```
 
-# taskIdentify: `ph4`
+## translate
 
 ```shell
-node bible ph4 fi-fi42.1642 true
-node bible ph4 list:fi-fi42.1642,fi-fi42d.1642,fi-fi76.1776,fi-fi76a.1776,fi-fi76d.1776,fi-fik38.1938,fi-fik76.1776,fi-kinb.1938,fi-kr.1992,fi-rk12.2002 true
-node bible ph4 list:fi-fi42.1642,fi-fi42d.1642,fi-fi76.1776,fi-fi76a.1776,fi-fi76d.1776 true
+Book
+Chapter
+Verse
 
-node bible ph4 list:my-bjb.1840,my-burb.1825,my-jb.1933,my-mcl.2005,my-msb.2017 true
+Old Testament
+New Testament
 
-node bible ph4 list:no-dnb.1930,no-n11.2011,no-n11nn.2011,no-n78.1978,no-n78nn.1985,no-nb.2007,no-smb.1921 true
-
-node bible ph4 list:sv-dnf.2014,sv-kxii.1873,sv-nub15.2015,sv-s17.1917,sv-sb00.2000,sv-sbd00.2000,sv-sfb.1998,sv-sfb15.2015,sv-sfb98.1998,sv-sv17.1917 true
-```
-
-# taskIdentify: `wbc`
-
-```shell
-# request All
-node bible wbc bible/1065/GEN.1.ZOMI true
-# request only this
-node bible wbc /bible/1065/GEN.1.ZOMI true
-# import
-node bible wbc 348
-```
-
-# taskName: `todo`
-
-```shell
-node bible ph4 todo:
-node bible ph4 todo:fi-fi42.1642,fi-fi42d.1642,fi-fi76.1776,fi-fi76a.1776,fi-fi76d.1776
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
 ```

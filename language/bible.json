@@ -7,7 +7,7 @@
       "copyright": "",
       "year": "1949",
       "lang": "en",
-      "gId":"0B_7bPVufJ-j4b3ZiRFBPQkZZbXM"
+      "gId": "0B_7bPVufJ-j4b3ZiRFBPQkZZbXM"
     },
     "message": {},
     "testament": {},
@@ -23,7 +23,7 @@
       "des": "",
       "copyright": "",
       "year": "",
-      "gId":"0B_7bPVufJ-j4d1pjbU1FcHMyMkk"
+      "gId": "0B_7bPVufJ-j4d1pjbU1FcHMyMkk"
     },
     "message": {},
     "testament": {},
@@ -40,7 +40,7 @@
       "copyright": "",
       "year": "1611",
       "lang": "en",
-      "gId":"0B_7bPVufJ-j4RkdaeG5YYl9LNmc"
+      "gId": "0B_7bPVufJ-j4RkdaeG5YYl9LNmc"
     },
     "message": {},
     "testament": {},
@@ -56,7 +56,7 @@
       "des": "",
       "copyright": "",
       "year": "",
-      "gId":"0B_7bPVufJ-j4aTItbmZucGdjLTA"
+      "gId": "0B_7bPVufJ-j4aTItbmZucGdjLTA"
     },
     "message": {},
     "testament": {},
@@ -73,7 +73,7 @@
       "copyright": "",
       "year": "1835",
       "lang": "my",
-      "gId":"0B_7bPVufJ-j4V0kxalR5R3ppTjQ"
+      "gId": "0B_7bPVufJ-j4V0kxalR5R3ppTjQ"
     },
     "message": {},
     "testament": {
@@ -183,7 +183,7 @@
       "copyright": "",
       "year": "2005",
       "lang": "my",
-      "gId":"0B_7bPVufJ-j4R0lWc3pWQ1JZZnM"
+      "gId": "0B_7bPVufJ-j4R0lWc3pWQ1JZZnM"
     },
     "message": {},
     "testament": {
@@ -293,7 +293,7 @@
       "copyright": "",
       "year": "1930",
       "lang": "no",
-      "gId":"0B_7bPVufJ-j4QmtEaWVBbF9Za2s"
+      "gId": "0B_7bPVufJ-j4QmtEaWVBbF9Za2s"
     },
     "message": {},
     "testament": {
@@ -370,7 +370,10 @@
       "66": "Apenbaring"
     },
     "name": {
-      "1": ["1Mosebok", "1 Mosebok"]
+      "1": [
+        "1Mosebok",
+        "1 Mosebok"
+      ]
     },
     "digit": {}
   },
@@ -381,7 +384,7 @@
       "des": "",
       "copyright": "",
       "year": "",
-      "gId":"0B_7bPVufJ-j4a20xR1VuQ25NaFU"
+      "gId": "0B_7bPVufJ-j4a20xR1VuQ25NaFU"
     },
     "message": {},
     "testament": {},
@@ -398,7 +401,7 @@
       "copyright": "The Unbound Bible",
       "year": "1938",
       "lang": "fi",
-      "gId":"0B_7bPVufJ-j4bTVRSEw0SUZiRmM"
+      "gId": "0B_7bPVufJ-j4bTVRSEw0SUZiRmM"
     },
     "message": {},
     "testament": {
@@ -407,11 +410,6 @@
     },
     "section": {},
     "book": {
-      "1": "Ensimmäinen Mooseksen",
-      "2": "Toinen Mooseksen",
-      "3": "Kolmas Mooseksen",
-      "4": "Neljäs Mooseksen",
-      "5": "Viides Mooseksen",
       "1": "Ensimmäinen Mooseksen",
       "2": "Toinen Mooseksen",
       "3": "Kolmas Mooseksen",
@@ -480,7 +478,10 @@
       "66": "Johanneksen Ilmestys"
     },
     "name": {
-      "1": ["1Mosebok", "1 Mosebok"]
+      "1": [
+        "1Mosebok",
+        "1 Mosebok"
+      ]
     },
     "digit": {}
   },
@@ -491,7 +492,7 @@
       "des": "",
       "copyright": "",
       "year": "1912",
-      "gId":"0B_7bPVufJ-j4NnVDS3M1ZXFEVHM"
+      "gId": "0B_7bPVufJ-j4NnVDS3M1ZXFEVHM"
     },
     "message": {},
     "testament": {},
@@ -507,7 +508,7 @@
       "des": "labibleostervald",
       "copyright": "",
       "year": "1877",
-      "gId":"0B_7bPVufJ-j4RjliTXd2TzZGZ1U"
+      "gId": "0B_7bPVufJ-j4RjliTXd2TzZGZ1U"
     },
     "message": {},
     "testament": {},
@@ -524,7 +525,7 @@
       "copyright": "",
       "year": "1917",
       "lang": "sv",
-      "gId":"0B_7bPVufJ-j4UktTY2NyRkV0eW8"
+      "gId": "0B_7bPVufJ-j4UktTY2NyRkV0eW8"
     },
     "message": {},
     "testament": {
@@ -601,7 +602,10 @@
       "66": "Uppenbarelseboken"
     },
     "name": {
-      "1": ["1Mosebok", "1 Mosebok"]
+      "1": [
+        "1Mosebok",
+        "1 Mosebok"
+      ]
     },
     "digit": {}
   },
@@ -612,7 +616,7 @@
       "des": "",
       "copyright": "",
       "year": "",
-      "gId":"0B_7bPVufJ-j4bG5hZFN5ck56VmM"
+      "gId": "0B_7bPVufJ-j4bG5hZFN5ck56VmM"
     },
     "message": {},
     "testament": {},
@@ -629,7 +633,7 @@
       "copyright": "",
       "year": "1932",
       "lang": "zo",
-      "gId":"0B_7bPVufJ-j4aDF3Tm96QzBTcEk"
+      "gId": "0B_7bPVufJ-j4aDF3Tm96QzBTcEk"
     },
     "message": {},
     "testament": {
@@ -718,7 +722,10 @@
       "66": "Maangmuhna"
     },
     "name": {
-      "1": ["pian", "laibu masa"]
+      "1": [
+        "pian",
+        "laibu masa"
+      ]
     },
     "digit": {}
   },
@@ -729,7 +736,7 @@
       "des": "",
       "copyright": "",
       "year": "",
-      "gId":"0B_7bPVufJ-j4QjFrTEY4TTQ4MHM"
+      "gId": "0B_7bPVufJ-j4QjFrTEY4TTQ4MHM"
     },
     "message": {},
     "testament": {},
@@ -745,7 +752,7 @@
       "des": "",
       "copyright": "",
       "year": "",
-      "gId":"0B_7bPVufJ-j4RmNsS0dnNmJ6YW8"
+      "gId": "0B_7bPVufJ-j4RmNsS0dnNmJ6YW8"
     },
     "message": {},
     "testament": {},
@@ -761,7 +768,7 @@
       "des": "",
       "copyright": "",
       "year": "",
-      "gId":"0B_7bPVufJ-j4bmlQck5nNERxVEE"
+      "gId": "0B_7bPVufJ-j4bmlQck5nNERxVEE"
     },
     "message": {},
     "testament": {},
@@ -777,7 +784,7 @@
       "des": "",
       "copyright": "",
       "year": "",
-      "gId":"0B_7bPVufJ-j4VXBxR1V5X0VLYWM"
+      "gId": "0B_7bPVufJ-j4VXBxR1V5X0VLYWM"
     },
     "message": {},
     "testament": {},

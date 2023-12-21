@@ -1,14 +1,10 @@
 {
   "name": "bible",
-  "version": "7",
+  "version": "2.5.5",
   "description": "the Holy Bible in languages",
   "main": "bible.js",
-  "scripts": {
-    "bible": "node bible"
-  },
-  "bin": {
-    "bible": "./bin/bible.js"
-  },
+  "type": "module",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/laisiangtho/bible.git"
@@ -25,11 +21,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "fs-extra": "^7.0.1",
-    "minimist": "^1.2.3",
-    "node-html-parser": "^1.1.15",
-    "sqlite3": "^4.0.4",
-    "xml2js": "^0.4.19"
+    "lethil": "^1.3.10",
+    "jsdom": "^23.0.1",
+    "sqlite3": "^5.1.6",
+    "xml2js": "^0.6.2"
   },
   "author": "Khen Solomon Lethil",
   "license": "MIT"

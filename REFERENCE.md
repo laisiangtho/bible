@@ -8,7 +8,7 @@
 }
 ```
 
-```shell
+```xml
 <verse id="([0-9]+-[0-9]+)"
 <verse id="([0-9]+)-([0-9]+)"
 <verse id="\1" merge="\2"
@@ -27,17 +27,17 @@
 <book id="(.*)" name="" shortname="">
 
 <book id="(.*)" name="" shortname="">
-		<info id="name">(.*)</info>
-		<info id="shortname">(.*)</info>
+  <info id="name">(.*)</info>
+  <info id="shortname">(.*)</info>
 <book id="\1" name="\2" shortname="\3">
 
 <book id="([0-9]+)" name="" shortname="">
-		<info id="name">(.*)</info>
-		<info id="shortname">(.*)</info>
-
+  <info id="name">(.*)</info>
+  <info id="shortname">(.*)</info>
 ```
 
-# Error
+## Error
+
   [ ] finish1938
   [ ] swedish1917
 
@@ -46,12 +46,9 @@ danish1933 missing alots
 
 npm link
 
-
-# koh
+## koh
 
 - `\\n([a-zA-Z])` ->  `--$1`
-
-
 
 case (\d+):
                 title = "(.*)";
@@ -61,6 +58,5 @@ case (\d+):
 
 (\d+)‘ -> $1 ‘
 (\d+)“ -> $1 “
-
 
 Kachin need new source
