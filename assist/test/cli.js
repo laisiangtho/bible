@@ -3,14 +3,14 @@
  * @param {any} req
  * @example
  * node run test
- * node run test config
- * node run test config io
+ * node run test see
+ * node run test see khualtawng
 
  */
 export default async function main(req) {
   switch (req.params.task) {
-    case "config":
-      return await doConfig(req.params.name).then((e) => e(req));
+    case "see":
+      return await doSee(req.params.name).then((e) => e(req));
     case "wbc":
       return await doWBC(req.params.name).then((e) => e(req));
     case "request":
@@ -61,14 +61,16 @@ async function doWBC(name) {
 /**
  * @param {string} [name]
  */
-async function doConfig(name) {
+async function doSee(name) {
   switch (name) {
     case "io":
-      return (await import("./test.js")).doTestIO;
+      return (await import("./see.js")).doTestIO;
     case "bookname":
-      return (await import("./test.js")).doTestBookname;
+      return (await import("./see.js")).doTestBookname;
+    case "khualtawng":
+      return (await import("./see.js")).doKhualTawng;
     default:
-      return (await import("./test.js")).doTestDefault;
+      return (await import("./see.js")).doTestDefault;
   }
 }
 

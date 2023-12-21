@@ -26,15 +26,14 @@ export function textFormat(e) {
 }
 
 /**
- * GEN.2.1
- * @param {string} e
+ * @param {string} e - GEN.2.1
  * @returns {string}
  */
-export function getBookIdByName(e) {
+export function getBookIdByAbbreviation(e) {
   let name = e[0].toUpperCase() + e.slice(1).toLowerCase();
   let book = env.category.name.book;
 
-  let bk = Object.keys(book)
+  let res = Object.keys(book)
     .map((k) => {
       let o = book[k];
       if (o.info.abbr[0] == name) {
@@ -42,10 +41,36 @@ export function getBookIdByName(e) {
       }
     })
     .filter((x) => x);
-  if (bk[0]) {
-    return bk[0];
+  if (res[0]) {
+    return res[0];
   }
   return "0";
+}
+
+/**
+ * @param {env.TypeOfBible} data
+ * @param {string} e - Genesic, Gamlak Vakna
+ * @returns {string}
+ */
+export function getBookIdByName(data, e) {
+  let name = e.toLowerCase();
+  let res = Object.keys(data.book)
+    .map((k) => {
+      let o = data.book[k];
+      if (o.info.name.toLowerCase() == name) {
+        return k;
+      }
+      if (o.info.abbr[0] == name) {
+        return k;
+      }
+    })
+    .filter((x) => x);
+
+  // console.log(">>>", e, res);
+  if (res[0]) {
+    return res[0];
+  }
+  return "";
 }
 
 /**

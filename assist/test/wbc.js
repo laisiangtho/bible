@@ -754,7 +754,7 @@ function usfmFormat(e) {
   if (e) {
     let x = e.split(".");
     if (x.length == 3) {
-      let bookId = base.getBookIdByName(x[0]);
+      let bookId = base.getBookIdByAbbreviation(x[0]);
       return { book: x[0], bookId: bookId, chapter: x[1], verse: x[2] };
     }
   }
