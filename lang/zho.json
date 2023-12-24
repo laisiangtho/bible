@@ -1,0 +1,628 @@
+{
+  "digit": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "language": {
+    "bible": "Bible",
+    "book": "Book",
+    "chapter": "Chapter",
+    "verse": "Verse"
+  },
+  "section": {
+    "1": "Law",
+    "2": "History",
+    "3": "Poetry",
+    "4": "Prophecy: Major Prophets",
+    "5": "Prophecy: Minor Prophets",
+    "6": "Gospels",
+    "7": "Historical",
+    "8": "Doctrinal: Gentiles",
+    "9": "Doctrinal: Individuals",
+    "10": "Doctrinal: The Jews",
+    "11": "Doctrinal: General Espitles"
+  },
+  "testament": {
+    "1": {
+      "info": {
+        "name": "Old Testament",
+        "shortname": "OT",
+        "desc": ""
+      },
+      "other": {}
+    },
+    "2": {
+      "info": {
+        "name": "New Testament",
+        "shortname": "NT",
+        "desc": ""
+      },
+      "other": {}
+    }
+  },
+  "book": {
+    "1": {
+      "info": {
+        "name": "创世记",
+        "shortname": "创",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "2": {
+      "info": {
+        "name": "出埃及记",
+        "shortname": "出",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "3": {
+      "info": {
+        "name": "利未记",
+        "shortname": "利",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "4": {
+      "info": {
+        "name": "民数记",
+        "shortname": "民",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "5": {
+      "info": {
+        "name": "申命记",
+        "shortname": "申",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "6": {
+      "info": {
+        "name": "约书亚记",
+        "shortname": "书",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "7": {
+      "info": {
+        "name": "士师记",
+        "shortname": "士",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "8": {
+      "info": {
+        "name": "路得记",
+        "shortname": "得",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "9": {
+      "info": {
+        "name": "撒母耳记上",
+        "shortname": "撒上",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "10": {
+      "info": {
+        "name": "撒母耳记下",
+        "shortname": "撒下",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "11": {
+      "info": {
+        "name": "列王纪上",
+        "shortname": "王上",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "12": {
+      "info": {
+        "name": "列王纪下",
+        "shortname": "王下",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "13": {
+      "info": {
+        "name": "历代志上",
+        "shortname": "代上",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "14": {
+      "info": {
+        "name": "历代志下",
+        "shortname": "代下",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "15": {
+      "info": {
+        "name": "以斯拉记",
+        "shortname": "拉",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "16": {
+      "info": {
+        "name": "尼希米记",
+        "shortname": "尼",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "17": {
+      "info": {
+        "name": "以斯帖记",
+        "shortname": "斯",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "18": {
+      "info": {
+        "name": "约伯记",
+        "shortname": "伯",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "19": {
+      "info": {
+        "name": "诗篇",
+        "shortname": "诗",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "20": {
+      "info": {
+        "name": "箴言",
+        "shortname": "箴",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "21": {
+      "info": {
+        "name": "传道书",
+        "shortname": "传",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "22": {
+      "info": {
+        "name": "雅歌",
+        "shortname": "歌",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "23": {
+      "info": {
+        "name": "以赛亚书",
+        "shortname": "赛",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "24": {
+      "info": {
+        "name": "耶利米书",
+        "shortname": "耶",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "25": {
+      "info": {
+        "name": "耶利米哀歌",
+        "shortname": "哀",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "26": {
+      "info": {
+        "name": "以西结书",
+        "shortname": "结",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "27": {
+      "info": {
+        "name": "但以理书",
+        "shortname": "但",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "28": {
+      "info": {
+        "name": "何西阿书",
+        "shortname": "何",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "29": {
+      "info": {
+        "name": "约珥书",
+        "shortname": "珥",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "30": {
+      "info": {
+        "name": "阿摩司书",
+        "shortname": "摩",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "31": {
+      "info": {
+        "name": "俄巴底亚书",
+        "shortname": "俄",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "32": {
+      "info": {
+        "name": "约拿书",
+        "shortname": "拿",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "33": {
+      "info": {
+        "name": "弥迦书",
+        "shortname": "弥",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "34": {
+      "info": {
+        "name": "那鸿书",
+        "shortname": "鸿",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "35": {
+      "info": {
+        "name": "哈巴谷书",
+        "shortname": "哈",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "36": {
+      "info": {
+        "name": "西番雅书",
+        "shortname": "番",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "37": {
+      "info": {
+        "name": "哈该书",
+        "shortname": "该",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "38": {
+      "info": {
+        "name": "撒迦利亚书",
+        "shortname": "亚",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "39": {
+      "info": {
+        "name": "玛拉基书",
+        "shortname": "玛",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "40": {
+      "info": {
+        "name": "马太福音",
+        "shortname": "太",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "41": {
+      "info": {
+        "name": "马可福音",
+        "shortname": "可",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "42": {
+      "info": {
+        "name": "路加福音",
+        "shortname": "路",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "43": {
+      "info": {
+        "name": "约翰福音",
+        "shortname": "约",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "44": {
+      "info": {
+        "name": "使徒行传",
+        "shortname": "徒",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "45": {
+      "info": {
+        "name": "罗马书",
+        "shortname": "罗",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "46": {
+      "info": {
+        "name": "哥林多前书",
+        "shortname": "林前",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "47": {
+      "info": {
+        "name": "哥林多后书",
+        "shortname": "林后",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "48": {
+      "info": {
+        "name": "加拉太书",
+        "shortname": "加",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "49": {
+      "info": {
+        "name": "以弗所书",
+        "shortname": "弗",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "50": {
+      "info": {
+        "name": "腓立比书",
+        "shortname": "腓",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "51": {
+      "info": {
+        "name": "歌罗西书",
+        "shortname": "西",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "52": {
+      "info": {
+        "name": "帖撒罗尼迦前书",
+        "shortname": "帖前",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "53": {
+      "info": {
+        "name": "帖撒罗尼迦后书",
+        "shortname": "帖后",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "54": {
+      "info": {
+        "name": "提摩太前书",
+        "shortname": "提前",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "55": {
+      "info": {
+        "name": "提摩太后书",
+        "shortname": "提后",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "56": {
+      "info": {
+        "name": "提多书",
+        "shortname": "多",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "57": {
+      "info": {
+        "name": "腓利门书",
+        "shortname": "门",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "58": {
+      "info": {
+        "name": "希伯来书",
+        "shortname": "来",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "59": {
+      "info": {
+        "name": "雅各书",
+        "shortname": "雅",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "60": {
+      "info": {
+        "name": "彼得前书",
+        "shortname": "彼前",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "61": {
+      "info": {
+        "name": "彼得后书",
+        "shortname": "彼后",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "62": {
+      "info": {
+        "name": "约翰一书",
+        "shortname": "约壹",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "63": {
+      "info": {
+        "name": "约翰二书",
+        "shortname": "约贰",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "64": {
+      "info": {
+        "name": "约翰三书",
+        "shortname": "约叁",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "65": {
+      "info": {
+        "name": "犹大书",
+        "shortname": "犹",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "66": {
+      "info": {
+        "name": "启示录",
+        "shortname": "启",
+        "abbr": [],
+        "desc": ""
+      }
+    }
+  },
+  "locale": {
+    "bible": "Bible",
+    "book": "Book",
+    "chapter": "Chapter",
+    "verse": "Verse",
+    "lookup": "Lookup",
+    "setting": "Setting",
+    "more": "More",
+    "parallel": "Parallel",
+    "bookmarks": "Bookmarks",
+    "todo": "Todo",
+    "about": "About",
+    "note": "Note",
+    "BFCVB": "{b}...",
+    "BFVBC": "{b} {c}...",
+    "BFBCV": "{b} {c}:{v}...",
+    "Loading": "Loading",
+    "Checking": "Checking",
+    "Searching": "Searching",
+    "Downloading": "Downloading",
+    "PercentLoaded": "{Percent}%...",
+    "Ready": "Ready",
+    "Error": "Error",
+    "Success": "Success",
+    "Discover": "Discover!",
+    "Paused": "Paused!",
+    "IsNotReady": "{is} not ready yet, for using!",
+    "NotFound": "not found",
+    "IsNotFound": "{is} not found!",
+    "IsNotFoundIn": "{is} not found in {in}!",
+    "IsNotFoundInAt": " {is} not found in {in} at {at}!",
+    "Selection": "Selection",
+    "AddBookmarks": "Add Bookmarks",
+    "BookmarkedAlready": "Bookmarked already!",
+    "Bookmarked": "Bookmarked!",
+    "NoBookmarks": "No bookmarks!",
+    "NoMatchFor": "No matches for {for}!",
+    "BookMustSelected": "Book must be selected!",
+    "ChapterMustSelected": "Chapter must be selected!",
+    "VerseMustSelected": "Verse must be selected!",
+    "FoundV": "Found {v} verses!",
+    "FoundBCV": "Found book:{b}, chapter:{c} & verse:{v}!",
+    "NoBookSelected": "You have not selected any Book!",
+    "NoChapterSelected": "You have not selected any chapter!",
+    "NoVerseSelected": "You have not selected any verse!",
+    "ShowMe": "show me"
+  }
+}

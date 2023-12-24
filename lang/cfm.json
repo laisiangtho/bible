@@ -1,0 +1,628 @@
+{
+  "digit": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "language": {
+    "bible": "Bible",
+    "book": "Book",
+    "chapter": "Chapter",
+    "verse": "Verse"
+  },
+  "section": {
+    "1": "Law",
+    "2": "History",
+    "3": "Poetry",
+    "4": "Prophecy: Major Prophets",
+    "5": "Prophecy: Minor Prophets",
+    "6": "Gospels",
+    "7": "Historical",
+    "8": "Doctrinal: Gentiles",
+    "9": "Doctrinal: Individuals",
+    "10": "Doctrinal: The Jews",
+    "11": "Doctrinal: General Espitles"
+  },
+  "testament": {
+    "1": {
+      "info": {
+        "name": "Old Testament",
+        "shortname": "OT",
+        "desc": ""
+      },
+      "other": {}
+    },
+    "2": {
+      "info": {
+        "name": "New Testament",
+        "shortname": "NT",
+        "desc": ""
+      },
+      "other": {}
+    }
+  },
+  "book": {
+    "1": {
+      "info": {
+        "name": "Seemtirnak",
+        "shortname": "Seem",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "2": {
+      "info": {
+        "name": "Suahlannak",
+        "shortname": "Suah",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "3": {
+      "info": {
+        "name": "Puithiam Hnaṭuannak",
+        "shortname": "Pui",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "4": {
+      "info": {
+        "name": "Mipum Siarnak",
+        "shortname": "Mipum",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "5": {
+      "info": {
+        "name": "Daan Peksalnak",
+        "shortname": "Daan",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "6": {
+      "info": {
+        "name": "Joshua",
+        "shortname": "Jos",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "7": {
+      "info": {
+        "name": "Thuṭhentu",
+        "shortname": "Thuṭ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "8": {
+      "info": {
+        "name": "Ruth",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "9": {
+      "info": {
+        "name": "1 Samuel",
+        "shortname": "1 Sam",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "10": {
+      "info": {
+        "name": "2 Samuel",
+        "shortname": "2 Sam",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "11": {
+      "info": {
+        "name": "1 Siangpahrang",
+        "shortname": "1 Sian",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "12": {
+      "info": {
+        "name": "2 Siangpahrang",
+        "shortname": "2 Sian",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "13": {
+      "info": {
+        "name": "1 Sansiarnak",
+        "shortname": "1 San",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "14": {
+      "info": {
+        "name": "2 Sansiarnak",
+        "shortname": "2 San",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "15": {
+      "info": {
+        "name": "Ezra",
+        "shortname": "Ezra",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "16": {
+      "info": {
+        "name": "Nehemiah",
+        "shortname": "Neh",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "17": {
+      "info": {
+        "name": "Esther",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "18": {
+      "info": {
+        "name": "Job",
+        "shortname": "Job",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "19": {
+      "info": {
+        "name": "Saam Hlabu",
+        "shortname": "Saam",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "20": {
+      "info": {
+        "name": "Thufim",
+        "shortname": "Thufim",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "21": {
+      "info": {
+        "name": "Thusimtu",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "22": {
+      "info": {
+        "name": "Solomon Hla",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "23": {
+      "info": {
+        "name": "Isaiah",
+        "shortname": "Isai",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "24": {
+      "info": {
+        "name": "Jeremiah",
+        "shortname": "Jer",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "25": {
+      "info": {
+        "name": "Ṭahhla",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "26": {
+      "info": {
+        "name": "Ezekiel",
+        "shortname": "Eze",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "27": {
+      "info": {
+        "name": "Daniel",
+        "shortname": "Dan",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "28": {
+      "info": {
+        "name": "Hosea",
+        "shortname": "Hos",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "29": {
+      "info": {
+        "name": "Joel",
+        "shortname": "Joe",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "30": {
+      "info": {
+        "name": "Amos",
+        "shortname": "Amos",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "31": {
+      "info": {
+        "name": "Obadiah",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "32": {
+      "info": {
+        "name": "Jonah",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "33": {
+      "info": {
+        "name": "Mikah",
+        "shortname": "Mik",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "34": {
+      "info": {
+        "name": "Nahum",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "35": {
+      "info": {
+        "name": "Habakkuk",
+        "shortname": "Hab",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "36": {
+      "info": {
+        "name": "Zefaniah",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "37": {
+      "info": {
+        "name": "Haggai",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "38": {
+      "info": {
+        "name": "Zekhariah",
+        "shortname": "Zek",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "39": {
+      "info": {
+        "name": "Malakhi",
+        "shortname": "Mal",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "40": {
+      "info": {
+        "name": "Matthai",
+        "shortname": "Mat",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "41": {
+      "info": {
+        "name": "Marka",
+        "shortname": "Mar",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "42": {
+      "info": {
+        "name": "Luka",
+        "shortname": "Luk",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "43": {
+      "info": {
+        "name": "Johan",
+        "shortname": "Joh",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "44": {
+      "info": {
+        "name": "Tirhthlah",
+        "shortname": "Dung",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "45": {
+      "info": {
+        "name": "Rom",
+        "shortname": "Rom",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "46": {
+      "info": {
+        "name": "1 Korin",
+        "shortname": "1 Kor",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "47": {
+      "info": {
+        "name": "2 Korin",
+        "shortname": "2 Kor",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "48": {
+      "info": {
+        "name": "Galati",
+        "shortname": "Gal",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "49": {
+      "info": {
+        "name": "Efesa",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "50": {
+      "info": {
+        "name": "Filipi",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "51": {
+      "info": {
+        "name": "Kolose",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "52": {
+      "info": {
+        "name": "1 Thesalon",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "53": {
+      "info": {
+        "name": "2 Thesalon",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "54": {
+      "info": {
+        "name": "1 Timote",
+        "shortname": "1 Tim",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "55": {
+      "info": {
+        "name": "2 Timote",
+        "shortname": "2 Tim",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "56": {
+      "info": {
+        "name": "Titas",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "57": {
+      "info": {
+        "name": "Filemon",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "58": {
+      "info": {
+        "name": "Hebru",
+        "shortname": "Heb",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "59": {
+      "info": {
+        "name": "Jeim",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "60": {
+      "info": {
+        "name": "1 Piter",
+        "shortname": "1 Pit",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "61": {
+      "info": {
+        "name": "2 Piter",
+        "shortname": "2 Pit",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "62": {
+      "info": {
+        "name": "1 Johan",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "63": {
+      "info": {
+        "name": "2 Johan",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "64": {
+      "info": {
+        "name": "3 Johan",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "65": {
+      "info": {
+        "name": "Juda Cakuat",
+        "shortname": "",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "66": {
+      "info": {
+        "name": "Thuphuan",
+        "shortname": "Thup",
+        "abbr": [],
+        "desc": ""
+      }
+    }
+  },
+  "locale": {
+    "bible": "Bible",
+    "book": "Book",
+    "chapter": "Chapter",
+    "verse": "Verse",
+    "lookup": "Lookup",
+    "setting": "Setting",
+    "more": "More",
+    "parallel": "Parallel",
+    "bookmarks": "Bookmarks",
+    "todo": "Todo",
+    "about": "About",
+    "note": "Note",
+    "BFCVB": "{b}...",
+    "BFVBC": "{b} {c}...",
+    "BFBCV": "{b} {c}:{v}...",
+    "Loading": "Loading",
+    "Checking": "Checking",
+    "Searching": "Searching",
+    "Downloading": "Downloading",
+    "PercentLoaded": "{Percent}%...",
+    "Ready": "Ready",
+    "Error": "Error",
+    "Success": "Success",
+    "Discover": "Discover!",
+    "Paused": "Paused!",
+    "IsNotReady": "{is} not ready yet, for using!",
+    "NotFound": "not found",
+    "IsNotFound": "{is} not found!",
+    "IsNotFoundIn": "{is} not found in {in}!",
+    "IsNotFoundInAt": " {is} not found in {in} at {at}!",
+    "Selection": "Selection",
+    "AddBookmarks": "Add Bookmarks",
+    "BookmarkedAlready": "Bookmarked already!",
+    "Bookmarked": "Bookmarked!",
+    "NoBookmarks": "No bookmarks!",
+    "NoMatchFor": "No matches for {for}!",
+    "BookMustSelected": "Book must be selected!",
+    "ChapterMustSelected": "Chapter must be selected!",
+    "VerseMustSelected": "Verse must be selected!",
+    "FoundV": "Found {v} verses!",
+    "FoundBCV": "Found book:{b}, chapter:{c} & verse:{v}!",
+    "NoBookSelected": "You have not selected any Book!",
+    "NoChapterSelected": "You have not selected any chapter!",
+    "NoVerseSelected": "You have not selected any verse!",
+    "ShowMe": "show me"
+  }
+}

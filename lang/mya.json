@@ -1,0 +1,628 @@
+{
+  "digit": [
+    "၀",
+    "၁",
+    "၂",
+    "၃",
+    "၄",
+    "၅",
+    "၆",
+    "၇",
+    "၈",
+    "၉"
+  ],
+  "language": {
+    "bible": "ကျမ်းစာအုပ်",
+    "book": "သမ္မာကျမ်း",
+    "chapter": "အခန်း",
+    "verse": "ကျမ်းပိုဒ်"
+  },
+  "section": {
+    "1": "ဥပဒေ",
+    "2": "ရာဇဝင်",
+    "3": "လင်္ကာ",
+    "4": "ဗျာဒိတ်- တမန်တော်များ",
+    "5": "ဗျာဒိတ်- တမန်တော်အသီးသီး",
+    "6": "သက်တော်စဉ်နှင့် တရားတော်",
+    "7": "ရှေးဟောင်းသမိုင်းများ",
+    "8": "အယူဝါဒ ဆိုင်ရာ- Gentiles",
+    "9": "အယူဝါဒ ဆိုင်ရာ- သီးခြား",
+    "10": "အယူဝါဒ ဆိုင်ရာ- ဂျူး",
+    "11": "အယူဝါဒ ဆိုင်ရာ- အထွေထွေ"
+  },
+  "testament": {
+    "1": {
+      "info": {
+        "name": "ဓမ္မဟောင်းကျမ်း",
+        "shortname": "OT",
+        "desc": ""
+      },
+      "other": {}
+    },
+    "2": {
+      "info": {
+        "name": "ဓမ္မသစ်ကျမ်း",
+        "shortname": "NT",
+        "desc": ""
+      },
+      "other": {}
+    }
+  },
+  "book": {
+    "1": {
+      "info": {
+        "name": "ကမ္ဘာဦးကျမ်း",
+        "shortname": "ကမ္ဘာဦး",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "2": {
+      "info": {
+        "name": "ထွက်မြောက်ရာကျမ်း",
+        "shortname": "ထွက်မြောက်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "3": {
+      "info": {
+        "name": "ဝတ်ပြုရာကျမ်း",
+        "shortname": "ဝတ်ပြု",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "4": {
+      "info": {
+        "name": "တောလည်ရာကျမ်း",
+        "shortname": "တောလည်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "5": {
+      "info": {
+        "name": "တရားဟောရာကျမ်း",
+        "shortname": "တရားဟော",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "6": {
+      "info": {
+        "name": "ယောရှုမှတ်စာ",
+        "shortname": "ယောရှု",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "7": {
+      "info": {
+        "name": "တရားသူကြီးမှတ်စာ",
+        "shortname": "သူကြီး",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "8": {
+      "info": {
+        "name": "ရုသဝတ္ထု",
+        "shortname": "ရုသ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "9": {
+      "info": {
+        "name": "ဋ္ဌမ္မရာဇဝင်ပထမစောင်",
+        "shortname": "၁ ရာ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "10": {
+      "info": {
+        "name": "ဋ္ဌမ္မရာဇဝင်ဒုတိယစောင်",
+        "shortname": "၂ ရာ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "11": {
+      "info": {
+        "name": "ဋ္ဌမ္မရာဇဝင်တတိယစောင်",
+        "shortname": "၃ ရာ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "12": {
+      "info": {
+        "name": "ဋ္ဌမ္မရာဇဝင်စတုတ္ထစောင်",
+        "shortname": "၄ ရာ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "13": {
+      "info": {
+        "name": "ရာဇဝင်ချုပ်ပထမစောင်",
+        "shortname": "၁ ရာချုပ်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "14": {
+      "info": {
+        "name": "ရာဇဝင်ချုပ်ဒုတိယစောင်",
+        "shortname": "၂ ရာချုပ်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "15": {
+      "info": {
+        "name": "ဧဇရမှတ်စာ",
+        "shortname": "ဧဇရ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "16": {
+      "info": {
+        "name": "နေဟမိမှတ်စာ",
+        "shortname": "နေဟမိ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "17": {
+      "info": {
+        "name": "ဧသတာဝတ္ထု",
+        "shortname": "ဧသတာ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "18": {
+      "info": {
+        "name": "ယောဘဝတ္တု",
+        "shortname": "ယောဘ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "19": {
+      "info": {
+        "name": "ဆာလံကျမ်း",
+        "shortname": "ဆာလံ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "20": {
+      "info": {
+        "name": "သုတ္တံကျမ်း",
+        "shortname": "သုတ္တံ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "21": {
+      "info": {
+        "name": "ဒေသနာကျမ်း",
+        "shortname": "ဒေသနာ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "22": {
+      "info": {
+        "name": "ရှောလမုန်သီချင်း",
+        "shortname": "ရှောလမုန်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "23": {
+      "info": {
+        "name": "ဟေရှာယအနာဂတ္တိကျမ်း",
+        "shortname": "ဟေရှာယ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "24": {
+      "info": {
+        "name": "ယေရမိအနာဂတ္တိကျမ်း",
+        "shortname": "ယေရမိ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "25": {
+      "info": {
+        "name": "ယေရမိမြည်တမ်းစကား",
+        "shortname": "မြည်တမ်းစကား",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "26": {
+      "info": {
+        "name": "ယေဇကျေလအနာဂတ္တိကျမ်း",
+        "shortname": "ယေဇကျေလ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "27": {
+      "info": {
+        "name": "ဒံယေလအနာဂတ္တိကျမ်း",
+        "shortname": "ဒံယေလ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "28": {
+      "info": {
+        "name": "ဟောရှေအနာဂတ္တိကျမ်း",
+        "shortname": "ဟောရှေ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "29": {
+      "info": {
+        "name": "ယောလအနာဂတ္တိကျမ်း",
+        "shortname": "ယောလ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "30": {
+      "info": {
+        "name": "အာမုတ်အနာဂတ္တိကျမ်း",
+        "shortname": "အာမုတ်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "31": {
+      "info": {
+        "name": "သြဗဒိဗျာဒိတ်ရူပါရုံ",
+        "shortname": "သြဗဒိ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "32": {
+      "info": {
+        "name": "ယောနဝတ္ထု",
+        "shortname": "ယောန",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "33": {
+      "info": {
+        "name": "မိက္ခာအနာဂတ္တိကျမ်း",
+        "shortname": "မိက္ခာ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "34": {
+      "info": {
+        "name": "နာဟုံအနာဂတ္တိကျမ်း",
+        "shortname": "နာဟုံ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "35": {
+      "info": {
+        "name": "ဟဗက္ကုတ်အနာဂတ္တိကျမ်း",
+        "shortname": "ဟဗက္ကုတ်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "36": {
+      "info": {
+        "name": "ဇေဖနိအနာဂတ္တိကျမ်း",
+        "shortname": "ဇေဖနိ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "37": {
+      "info": {
+        "name": "ဟ္ဂဲကျမ်း",
+        "shortname": "ဟ္ဂဲ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "38": {
+      "info": {
+        "name": "ဇာခရိအနာဂတ္တိကျမ်း",
+        "shortname": "ဇာခရိ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "39": {
+      "info": {
+        "name": "မာလခိအနာဂတ္တိကျမ်း",
+        "shortname": "မာလခိ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "40": {
+      "info": {
+        "name": "ရှင်မဿဲခရစ်ဝင်",
+        "shortname": "မဿဲ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "41": {
+      "info": {
+        "name": "ရှင်မာကုခရစ်ဝင်",
+        "shortname": "ရှင်မာကု",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "42": {
+      "info": {
+        "name": "ရှင်လုကာခရစ်ဝင်",
+        "shortname": "လုကာ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "43": {
+      "info": {
+        "name": "ရှင်ယောဟန်ခရစ်ဝင်",
+        "shortname": "ရှင်ယောဟန်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "44": {
+      "info": {
+        "name": "တမန်တော်ဝတ္ထု",
+        "shortname": "တမန်တော်ဝတ္ထု",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "45": {
+      "info": {
+        "name": "ရောမဩဝါဒစာ",
+        "shortname": "ရောမ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "46": {
+      "info": {
+        "name": "ကောရိန္သုသြဝါဒစာ",
+        "shortname": "၁ ကော",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "47": {
+      "info": {
+        "name": "ကောရိန္သုသြဝါဒစာ",
+        "shortname": "၂ ကော",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "48": {
+      "info": {
+        "name": "ဂလာတိသြဝါဒစာ",
+        "shortname": "ဂလာတိ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "49": {
+      "info": {
+        "name": "ဧဖက်သြဝါဒစာ",
+        "shortname": "ဧဖက်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "50": {
+      "info": {
+        "name": "ဖိလိပ္ပိသြဝါဒစာ",
+        "shortname": "ဖိလိပ္ပိ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "51": {
+      "info": {
+        "name": "ကောလောသဲသြဝါဒစာ",
+        "shortname": "ကောလောသဲ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "52": {
+      "info": {
+        "name": "သက်သာလောနိတ်သြဝါဒစာပထမစောင်",
+        "shortname": "၁ သက်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "53": {
+      "info": {
+        "name": "သက်သာလောနိတ်သြဝါဒစာဒုတိယစောင်",
+        "shortname": "၂ သက်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "54": {
+      "info": {
+        "name": "တိမောသေသြဝါဒစာပထမစောင်",
+        "shortname": "၁ တိ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "55": {
+      "info": {
+        "name": "တိမောသေသြဝါဒစာဒုတိယစောင်",
+        "shortname": "၂ တိ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "56": {
+      "info": {
+        "name": "တိတုသြဝါဒစာ",
+        "shortname": "တိတု",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "57": {
+      "info": {
+        "name": "ဖိလေမုန်သြဝါဒစာ",
+        "shortname": "ဖိလေမုန်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "58": {
+      "info": {
+        "name": "ဟေဗြဲသြဝါဒစာ",
+        "shortname": "ဟေဗြဲ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "59": {
+      "info": {
+        "name": "ရှင်ယာကုပ်သြဝါဒစာ",
+        "shortname": "ယာကုပ်",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "60": {
+      "info": {
+        "name": "ရှင်ပေတရုသြဝါဒစာပထမစောင်",
+        "shortname": "၁ ပေ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "61": {
+      "info": {
+        "name": "ရှင်ပေတရုသြဝါဒစာဒုတိယစောင်",
+        "shortname": "၂ ပေ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "62": {
+      "info": {
+        "name": "ရှင်ယောဟန်သြဝါဒစာပထမစောင်",
+        "shortname": "၁ ယော",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "63": {
+      "info": {
+        "name": "ရှင်ယောဟန်သြဝါဒစာဒုတိယစောင်",
+        "shortname": "၂ ယော",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "64": {
+      "info": {
+        "name": "ရှင်ယောဟန်သြဝါဒစာတတိယစောင်",
+        "shortname": "၃ ယော",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "65": {
+      "info": {
+        "name": "ရှင်ယုဒသြဝါဒစာ",
+        "shortname": "ယုဒ",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "66": {
+      "info": {
+        "name": "ဗျာဒိတ်ကျမ်း",
+        "shortname": "ဗျာဒိတ်",
+        "abbr": [],
+        "desc": ""
+      }
+    }
+  },
+  "locale": {
+    "bible": "ကျမ်းစာအုပ်",
+    "book": "သမ္မာကျမ်း",
+    "chapter": "အခန်း",
+    "verse": "ကျမ်းပိုဒ်",
+    "lookup": "ရှာရန်",
+    "setting": "နောက်ခံ",
+    "more": "တွဲဖက် အသုံးအဆောင်",
+    "parallel": "နှိုင်းယှဉ်ရန်",
+    "bookmarks": "စာညှပ်",
+    "todo": "ဆက်တင်ရန်",
+    "about": "About",
+    "note": "Note",
+    "BFCVB": "{b}...",
+    "BFVBC": "{b} {c}...",
+    "BFBCV": "{b} {c}:{v}...",
+    "Loading": "Loading",
+    "Checking": "Checking",
+    "Searching": "Searching",
+    "Downloading": "Downloading",
+    "PercentLoaded": "{Percent}%...",
+    "Ready": "Ready",
+    "Error": "Error",
+    "Success": "Success",
+    "Discover": "Discover!",
+    "Paused": "Paused!",
+    "IsNotReady": "{is} not ready yet, for using!",
+    "NotFound": "not found",
+    "IsNotFound": "{is} not found!",
+    "IsNotFoundIn": "{is} not found in {in}!",
+    "IsNotFoundInAt": " {is} not found in {in} at {at}!",
+    "Selection": "Selection",
+    "AddBookmarks": "Add Bookmarks",
+    "BookmarkedAlready": "Bookmarked already!",
+    "Bookmarked": "Bookmarked!",
+    "NoBookmarks": "No bookmarks!",
+    "NoMatchFor": "No matches for {for}!",
+    "BookMustSelected": "Book must be selected!",
+    "ChapterMustSelected": "Chapter must be selected!",
+    "VerseMustSelected": "Verse must be selected!",
+    "FoundV": "Found {v} verses!",
+    "FoundBCV": "Found book:{b}, chapter:{c} & verse:{v}!",
+    "NoBookSelected": "You have not selected any Book!",
+    "NoChapterSelected": "You have not selected any chapter!",
+    "NoVerseSelected": "You have not selected any verse!",
+    "ShowMe": "show me"
+  }
+}

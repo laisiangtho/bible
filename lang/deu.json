@@ -1,0 +1,628 @@
+{
+  "digit": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "language": {
+    "bible": "Bible",
+    "book": "Book",
+    "chapter": "Chapter",
+    "verse": "Verse"
+  },
+  "section": {
+    "1": "Law",
+    "2": "History",
+    "3": "Poetry",
+    "4": "Prophecy: Major Prophets",
+    "5": "Prophecy: Minor Prophets",
+    "6": "Gospels",
+    "7": "Historical",
+    "8": "Doctrinal: Gentiles",
+    "9": "Doctrinal: Individuals",
+    "10": "Doctrinal: The Jews",
+    "11": "Doctrinal: General Espitles"
+  },
+  "testament": {
+    "1": {
+      "info": {
+        "name": "Old Testament",
+        "shortname": "OT",
+        "desc": ""
+      },
+      "other": {}
+    },
+    "2": {
+      "info": {
+        "name": "New Testament",
+        "shortname": "NT",
+        "desc": ""
+      },
+      "other": {}
+    }
+  },
+  "book": {
+    "1": {
+      "info": {
+        "name": "1 Mose",
+        "shortname": "1Mo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "2": {
+      "info": {
+        "name": "2 Mose",
+        "shortname": "2Mo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "3": {
+      "info": {
+        "name": "3 Mose",
+        "shortname": "3Mo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "4": {
+      "info": {
+        "name": "4 Mose",
+        "shortname": "4Mo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "5": {
+      "info": {
+        "name": "5 Mose",
+        "shortname": "5Mo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "6": {
+      "info": {
+        "name": "Josua",
+        "shortname": "Jos",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "7": {
+      "info": {
+        "name": "Richter",
+        "shortname": "Ri",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "8": {
+      "info": {
+        "name": "Rut",
+        "shortname": "Rt",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "9": {
+      "info": {
+        "name": "1 Samuel",
+        "shortname": "1Sam",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "10": {
+      "info": {
+        "name": "2 Samuel",
+        "shortname": "2Sam",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "11": {
+      "info": {
+        "name": "1 Könige",
+        "shortname": "1Kö",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "12": {
+      "info": {
+        "name": "2 Könige",
+        "shortname": "2Kö",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "13": {
+      "info": {
+        "name": "1 Chronik",
+        "shortname": "1Chr",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "14": {
+      "info": {
+        "name": "2 Chronik",
+        "shortname": "2Chr",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "15": {
+      "info": {
+        "name": "Esra",
+        "shortname": "Esr",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "16": {
+      "info": {
+        "name": "Nehemia",
+        "shortname": "Neh",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "17": {
+      "info": {
+        "name": "Ester",
+        "shortname": "Est",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "18": {
+      "info": {
+        "name": "Hiob",
+        "shortname": "Hi",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "19": {
+      "info": {
+        "name": "Psalm",
+        "shortname": "Ps",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "20": {
+      "info": {
+        "name": "Sprüche",
+        "shortname": "Spr",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "21": {
+      "info": {
+        "name": "Prediger",
+        "shortname": "Pred",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "22": {
+      "info": {
+        "name": "Hohelied",
+        "shortname": "Hl",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "23": {
+      "info": {
+        "name": "Jesaja",
+        "shortname": "Jes",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "24": {
+      "info": {
+        "name": "Jeremia",
+        "shortname": "Jer",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "25": {
+      "info": {
+        "name": "Klagelieder",
+        "shortname": "Kla",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "26": {
+      "info": {
+        "name": "Hesekiel",
+        "shortname": "Hesekiel",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "27": {
+      "info": {
+        "name": "Daniel",
+        "shortname": "Dan",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "28": {
+      "info": {
+        "name": "Hosea",
+        "shortname": "Hos",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "29": {
+      "info": {
+        "name": "Joel",
+        "shortname": "Joe",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "30": {
+      "info": {
+        "name": "Amos",
+        "shortname": "Am",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "31": {
+      "info": {
+        "name": "Obadja",
+        "shortname": "Ob",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "32": {
+      "info": {
+        "name": "Jona",
+        "shortname": "Jon",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "33": {
+      "info": {
+        "name": "Micha",
+        "shortname": "Mi",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "34": {
+      "info": {
+        "name": "Nahum",
+        "shortname": "Nah",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "35": {
+      "info": {
+        "name": "Habakuk",
+        "shortname": "Hab",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "36": {
+      "info": {
+        "name": "Zephanja",
+        "shortname": "Zeph",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "37": {
+      "info": {
+        "name": "Haggai",
+        "shortname": "Haggai",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "38": {
+      "info": {
+        "name": "Sacharja",
+        "shortname": "Sach",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "39": {
+      "info": {
+        "name": "Maleachi",
+        "shortname": "Mal",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "40": {
+      "info": {
+        "name": "Matthäus",
+        "shortname": "Mt",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "41": {
+      "info": {
+        "name": "Markus",
+        "shortname": "Mk",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "42": {
+      "info": {
+        "name": "Lukas",
+        "shortname": "Lk",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "43": {
+      "info": {
+        "name": "Johannes",
+        "shortname": "Joh",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "44": {
+      "info": {
+        "name": "Apostelgeschichte",
+        "shortname": "Apg",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "45": {
+      "info": {
+        "name": "Römer",
+        "shortname": "Röm",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "46": {
+      "info": {
+        "name": "1 Korinther",
+        "shortname": "1Kor",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "47": {
+      "info": {
+        "name": "2 Korinther",
+        "shortname": "2Kor",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "48": {
+      "info": {
+        "name": "Galater",
+        "shortname": "Gal",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "49": {
+      "info": {
+        "name": "Epheser",
+        "shortname": "Eph",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "50": {
+      "info": {
+        "name": "Philipper",
+        "shortname": "Phil",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "51": {
+      "info": {
+        "name": "Kolosser",
+        "shortname": "Kol",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "52": {
+      "info": {
+        "name": "1 Thessalonicher",
+        "shortname": "1Thes",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "53": {
+      "info": {
+        "name": "2 Thessalonicher",
+        "shortname": "2Thes",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "54": {
+      "info": {
+        "name": "1 Timotheus",
+        "shortname": "1Tim",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "55": {
+      "info": {
+        "name": "2 Timotheus",
+        "shortname": "2Tim",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "56": {
+      "info": {
+        "name": "Titus",
+        "shortname": "Tit",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "57": {
+      "info": {
+        "name": "Philemon",
+        "shortname": "Phim",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "58": {
+      "info": {
+        "name": "Hebräer",
+        "shortname": "Hebr",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "59": {
+      "info": {
+        "name": "Jakobus",
+        "shortname": "Jak",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "60": {
+      "info": {
+        "name": "1 Petrus",
+        "shortname": "1Petr",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "61": {
+      "info": {
+        "name": "2 Petrus",
+        "shortname": "2Petr",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "62": {
+      "info": {
+        "name": "1 Johannes",
+        "shortname": "1Jo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "63": {
+      "info": {
+        "name": "2 Johannes",
+        "shortname": "2Jo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "64": {
+      "info": {
+        "name": "3 Johannes",
+        "shortname": "3Jo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "65": {
+      "info": {
+        "name": "Judas",
+        "shortname": "Jud",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "66": {
+      "info": {
+        "name": "Offenbarung",
+        "shortname": "Offb",
+        "abbr": [],
+        "desc": ""
+      }
+    }
+  },
+  "locale": {
+    "bible": "Bible",
+    "book": "Book",
+    "chapter": "Chapter",
+    "verse": "Verse",
+    "lookup": "Lookup",
+    "setting": "Setting",
+    "more": "More",
+    "parallel": "Parallel",
+    "bookmarks": "Bookmarks",
+    "todo": "Todo",
+    "about": "About",
+    "note": "Note",
+    "BFCVB": "{b}...",
+    "BFVBC": "{b} {c}...",
+    "BFBCV": "{b} {c}:{v}...",
+    "Loading": "Loading",
+    "Checking": "Checking",
+    "Searching": "Searching",
+    "Downloading": "Downloading",
+    "PercentLoaded": "{Percent}%...",
+    "Ready": "Ready",
+    "Error": "Error",
+    "Success": "Success",
+    "Discover": "Discover!",
+    "Paused": "Paused!",
+    "IsNotReady": "{is} not ready yet, for using!",
+    "NotFound": "not found",
+    "IsNotFound": "{is} not found!",
+    "IsNotFoundIn": "{is} not found in {in}!",
+    "IsNotFoundInAt": " {is} not found in {in} at {at}!",
+    "Selection": "Selection",
+    "AddBookmarks": "Add Bookmarks",
+    "BookmarkedAlready": "Bookmarked already!",
+    "Bookmarked": "Bookmarked!",
+    "NoBookmarks": "No bookmarks!",
+    "NoMatchFor": "No matches for {for}!",
+    "BookMustSelected": "Book must be selected!",
+    "ChapterMustSelected": "Chapter must be selected!",
+    "VerseMustSelected": "Verse must be selected!",
+    "FoundV": "Found {v} verses!",
+    "FoundBCV": "Found book:{b}, chapter:{c} & verse:{v}!",
+    "NoBookSelected": "You have not selected any Book!",
+    "NoChapterSelected": "You have not selected any chapter!",
+    "NoVerseSelected": "You have not selected any verse!",
+    "ShowMe": "show me"
+  }
+}

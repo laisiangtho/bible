@@ -1,0 +1,676 @@
+{
+  "digit": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "language": {
+    "bible": "Bible",
+    "book": "Book",
+    "chapter": "Chapter",
+    "verse": "Verse"
+  },
+  "section": {
+    "1": "Law",
+    "2": "History",
+    "3": "Poetry",
+    "4": "Prophecy: Major Prophets",
+    "5": "Prophecy: Minor Prophets",
+    "6": "Gospels",
+    "7": "Historical",
+    "8": "Doctrinal: Gentiles",
+    "9": "Doctrinal: Individuals",
+    "10": "Doctrinal: The Jews",
+    "11": "Doctrinal: General Espitles"
+  },
+  "testament": {
+    "1": {
+      "info": {
+        "name": "Old Testament",
+        "shortname": "OT",
+        "desc": ""
+      },
+      "other": {}
+    },
+    "2": {
+      "info": {
+        "name": "New Testament",
+        "shortname": "NT",
+        "desc": ""
+      },
+      "other": {}
+    }
+  },
+  "book": {
+    "1": {
+      "info": {
+        "name": "Suencuek",
+        "shortname": "Sue",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "2": {
+      "info": {
+        "name": "Sunglat",
+        "shortname": "Sng",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "3": {
+      "info": {
+        "name": "Thothueng",
+        "shortname": "Tho",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "4": {
+      "info": {
+        "name": "Lampah",
+        "shortname": "Lmp",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "5": {
+      "info": {
+        "name": "Olrhaepnah",
+        "shortname": "Olr",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "6": {
+      "info": {
+        "name": "Joshua",
+        "shortname": "Jos",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "7": {
+      "info": {
+        "name": "Laitloek",
+        "shortname": "Ltk",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "8": {
+      "info": {
+        "name": "Ruth",
+        "shortname": "Rut",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "9": {
+      "info": {
+        "name": "1samuel",
+        "shortname": "1sa",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "10": {
+      "info": {
+        "name": "2samuel",
+        "shortname": "2sa",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "11": {
+      "info": {
+        "name": "1manghai",
+        "shortname": "1mg",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "12": {
+      "info": {
+        "name": "2manghai",
+        "shortname": "2mg",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "13": {
+      "info": {
+        "name": "1khokhuen",
+        "shortname": "1kh",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "14": {
+      "info": {
+        "name": "2khokhuen",
+        "shortname": "2kh",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "15": {
+      "info": {
+        "name": "Ezra",
+        "shortname": "Ezra",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "16": {
+      "info": {
+        "name": "Nehemiah",
+        "shortname": "Neh",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "17": {
+      "info": {
+        "name": "Tob",
+        "shortname": "Tob",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "18": {
+      "info": {
+        "name": "Judt",
+        "shortname": "Jdt",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "19": {
+      "info": {
+        "name": "Esther (greek)",
+        "shortname": "Esg",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "20": {
+      "info": {
+        "name": "Joba",
+        "shortname": "Job",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "21": {
+      "info": {
+        "name": "Tingtoeng",
+        "shortname": "Tgt",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "22": {
+      "info": {
+        "name": "Olcueih",
+        "shortname": "Olc",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "23": {
+      "info": {
+        "name": "Thuituen",
+        "shortname": "Tht",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "24": {
+      "info": {
+        "name": "Solomon",
+        "shortname": "Sol",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "25": {
+      "info": {
+        "name": "Solomon Cueihnah",
+        "shortname": "Cueihnah",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "26": {
+      "info": {
+        "name": "Sirach",
+        "shortname": "Sir",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "27": {
+      "info": {
+        "name": "Isaiah",
+        "shortname": "Isa",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "28": {
+      "info": {
+        "name": "Jeremiah",
+        "shortname": "Jer",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "29": {
+      "info": {
+        "name": "Rhaengsae",
+        "shortname": "Rhg",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "30": {
+      "info": {
+        "name": "Baruch",
+        "shortname": "Bar",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "31": {
+      "info": {
+        "name": "Ezekiel",
+        "shortname": "Ezk",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "32": {
+      "info": {
+        "name": "Hosea",
+        "shortname": "Hos",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "33": {
+      "info": {
+        "name": "Joel",
+        "shortname": "Joe",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "34": {
+      "info": {
+        "name": "Amos",
+        "shortname": "Amo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "35": {
+      "info": {
+        "name": "Obadiah",
+        "shortname": "Oba",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "36": {
+      "info": {
+        "name": "Jonah",
+        "shortname": "Jon",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "37": {
+      "info": {
+        "name": "Maikah",
+        "shortname": "Mai",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "38": {
+      "info": {
+        "name": "Nahum",
+        "shortname": "Nah",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "39": {
+      "info": {
+        "name": "Habakkuk",
+        "shortname": "Hab",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "40": {
+      "info": {
+        "name": "Zephaniah",
+        "shortname": "Zep",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "41": {
+      "info": {
+        "name": "Haggai",
+        "shortname": "Hag",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "42": {
+      "info": {
+        "name": "Zekhariah",
+        "shortname": "Zek",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "43": {
+      "info": {
+        "name": "Malakhi",
+        "shortname": "Mal",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "44": {
+      "info": {
+        "name": "1makkabi",
+        "shortname": "1makk",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "45": {
+      "info": {
+        "name": "2makkabi",
+        "shortname": "2makk",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "46": {
+      "info": {
+        "name": "Mathai",
+        "shortname": "Mat",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "47": {
+      "info": {
+        "name": "Marku",
+        "shortname": "Mrk",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "48": {
+      "info": {
+        "name": "Luka",
+        "shortname": "Luk",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "49": {
+      "info": {
+        "name": "Johan",
+        "shortname": "Jhn",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "50": {
+      "info": {
+        "name": "Caeltueih",
+        "shortname": "Clt",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "51": {
+      "info": {
+        "name": "Rom",
+        "shortname": "Rom",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "52": {
+      "info": {
+        "name": "1korin",
+        "shortname": "1ko",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "53": {
+      "info": {
+        "name": "2korin",
+        "shortname": "2ko",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "54": {
+      "info": {
+        "name": "Galati",
+        "shortname": "Gal",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "55": {
+      "info": {
+        "name": "Ephesa",
+        "shortname": "Eph",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "56": {
+      "info": {
+        "name": "Philipi",
+        "shortname": "Php",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "57": {
+      "info": {
+        "name": "Kolosa",
+        "shortname": "Kol",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "58": {
+      "info": {
+        "name": "1thessalonika",
+        "shortname": "1th",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "59": {
+      "info": {
+        "name": "2thessalonika",
+        "shortname": "2th",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "60": {
+      "info": {
+        "name": "1timothy",
+        "shortname": "1ti",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "61": {
+      "info": {
+        "name": "2timothy",
+        "shortname": "2ti",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "62": {
+      "info": {
+        "name": "Titus",
+        "shortname": "Tit",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "63": {
+      "info": {
+        "name": "Philemon",
+        "shortname": "Phm",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "64": {
+      "info": {
+        "name": "Hebrew",
+        "shortname": "Heb",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "65": {
+      "info": {
+        "name": "James",
+        "shortname": "Jas",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "66": {
+      "info": {
+        "name": "1peter",
+        "shortname": "1pe",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "67": {
+      "info": {
+        "name": "2peter",
+        "shortname": "2pe",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "68": {
+      "info": {
+        "name": "1johan",
+        "shortname": "1jn",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "69": {
+      "info": {
+        "name": "2johan",
+        "shortname": "2jn",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "70": {
+      "info": {
+        "name": "3johan",
+        "shortname": "3jn",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "71": {
+      "info": {
+        "name": "Jude",
+        "shortname": "Jud",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "72": {
+      "info": {
+        "name": "Olphong",
+        "shortname": "Olp",
+        "abbr": [],
+        "desc": ""
+      }
+    }
+  },
+  "locale": {
+    "bible": "Bible",
+    "book": "Book",
+    "chapter": "Chapter",
+    "verse": "Verse",
+    "lookup": "Lookup",
+    "setting": "Setting",
+    "more": "More",
+    "parallel": "Parallel",
+    "bookmarks": "Bookmarks",
+    "todo": "Todo",
+    "about": "About",
+    "note": "Note",
+    "BFCVB": "{b}...",
+    "BFVBC": "{b} {c}...",
+    "BFBCV": "{b} {c}:{v}...",
+    "Loading": "Loading",
+    "Checking": "Checking",
+    "Searching": "Searching",
+    "Downloading": "Downloading",
+    "PercentLoaded": "{Percent}%...",
+    "Ready": "Ready",
+    "Error": "Error",
+    "Success": "Success",
+    "Discover": "Discover!",
+    "Paused": "Paused!",
+    "IsNotReady": "{is} not ready yet, for using!",
+    "NotFound": "not found",
+    "IsNotFound": "{is} not found!",
+    "IsNotFoundIn": "{is} not found in {in}!",
+    "IsNotFoundInAt": " {is} not found in {in} at {at}!",
+    "Selection": "Selection",
+    "AddBookmarks": "Add Bookmarks",
+    "BookmarkedAlready": "Bookmarked already!",
+    "Bookmarked": "Bookmarked!",
+    "NoBookmarks": "No bookmarks!",
+    "NoMatchFor": "No matches for {for}!",
+    "BookMustSelected": "Book must be selected!",
+    "ChapterMustSelected": "Chapter must be selected!",
+    "VerseMustSelected": "Verse must be selected!",
+    "FoundV": "Found {v} verses!",
+    "FoundBCV": "Found book:{b}, chapter:{c} & verse:{v}!",
+    "NoBookSelected": "You have not selected any Book!",
+    "NoChapterSelected": "You have not selected any chapter!",
+    "NoVerseSelected": "You have not selected any verse!",
+    "ShowMe": "show me"
+  }
+}

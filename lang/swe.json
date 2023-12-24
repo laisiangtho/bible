@@ -1,0 +1,693 @@
+{
+  "digit": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "language": {
+    "bible": "Bibeln",
+    "book": "bok",
+    "chapter": "Kapitel",
+    "verse": "Vers"
+  },
+  "section": {
+    "1": "Law",
+    "2": "History",
+    "3": "Poetry",
+    "4": "Prophecy: Major Prophets",
+    "5": "Prophecy: Minor Prophets",
+    "6": "Gospels",
+    "7": "Historical",
+    "8": "Doctrinal: Gentiles",
+    "9": "Doctrinal: Individuals",
+    "10": "Doctrinal: The Jews",
+    "11": "Doctrinal: General Espitles"
+  },
+  "testament": {
+    "1": {
+      "info": {
+        "name": "Gamle Testamentet",
+        "shortname": "GT",
+        "desc": ""
+      },
+      "other": {}
+    },
+    "2": {
+      "info": {
+        "name": "Nye Testamentet",
+        "shortname": "NT",
+        "desc": ""
+      },
+      "other": {}
+    }
+  },
+  "book": {
+    "1": {
+      "info": {
+        "name": "1 Moseboken",
+        "shortname": "1Mo",
+        "abbr": [
+          "1 Mos"
+        ],
+        "desc": ""
+      }
+    },
+    "2": {
+      "info": {
+        "name": "2 Moseboken",
+        "shortname": "2Mo",
+        "abbr": [
+          "2 Mos"
+        ],
+        "desc": ""
+      }
+    },
+    "3": {
+      "info": {
+        "name": "3 Moseboken",
+        "shortname": "3Mo",
+        "abbr": [
+          "3 Mos"
+        ],
+        "desc": ""
+      }
+    },
+    "4": {
+      "info": {
+        "name": "4 Moseboken",
+        "shortname": "4Mo",
+        "abbr": [
+          "4 Mos"
+        ],
+        "desc": ""
+      }
+    },
+    "5": {
+      "info": {
+        "name": "5 Moseboken",
+        "shortname": "5Mo",
+        "abbr": [
+          "5 Mos"
+        ],
+        "desc": ""
+      }
+    },
+    "6": {
+      "info": {
+        "name": "Josua",
+        "shortname": "Jos",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "7": {
+      "info": {
+        "name": "Domarboken",
+        "shortname": "Dom",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "8": {
+      "info": {
+        "name": "Rut",
+        "shortname": "Rut",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "9": {
+      "info": {
+        "name": "1 Samuelsboken",
+        "shortname": "1Sa",
+        "abbr": [
+          "1 Sam"
+        ],
+        "desc": ""
+      }
+    },
+    "10": {
+      "info": {
+        "name": "2 Samuelsboken",
+        "shortname": "2Sa",
+        "abbr": [
+          "2 Sam"
+        ],
+        "desc": ""
+      }
+    },
+    "11": {
+      "info": {
+        "name": "1 Kungaboken",
+        "shortname": "1Ku",
+        "abbr": [
+          "1 Kung"
+        ],
+        "desc": ""
+      }
+    },
+    "12": {
+      "info": {
+        "name": "2 Kungaboken",
+        "shortname": "2Ku",
+        "abbr": [
+          "2 Kung"
+        ],
+        "desc": ""
+      }
+    },
+    "13": {
+      "info": {
+        "name": "1 Krönikeboken",
+        "shortname": "1Kr",
+        "abbr": [
+          "1 Krön"
+        ],
+        "desc": ""
+      }
+    },
+    "14": {
+      "info": {
+        "name": "2 Krönikeboken",
+        "shortname": "2Kr",
+        "abbr": [
+          "2 Krön"
+        ],
+        "desc": ""
+      }
+    },
+    "15": {
+      "info": {
+        "name": "Esra",
+        "shortname": "Esr",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "16": {
+      "info": {
+        "name": "Nehemja",
+        "shortname": "Neh",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "17": {
+      "info": {
+        "name": "Ester",
+        "shortname": "Est",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "18": {
+      "info": {
+        "name": "Job",
+        "shortname": "Job",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "19": {
+      "info": {
+        "name": "Psaltaren",
+        "shortname": "Psa",
+        "abbr": [
+          "Ps"
+        ],
+        "desc": ""
+      }
+    },
+    "20": {
+      "info": {
+        "name": "Ordspråksboken",
+        "shortname": "Ord",
+        "abbr": [
+          "Ords"
+        ],
+        "desc": ""
+      }
+    },
+    "21": {
+      "info": {
+        "name": "Predikaren",
+        "shortname": "Pre",
+        "abbr": [
+          "Pred"
+        ],
+        "desc": ""
+      }
+    },
+    "22": {
+      "info": {
+        "name": "Höga visan",
+        "shortname": "Hög",
+        "abbr": [
+          "Höga v",
+          "Hog"
+        ],
+        "desc": ""
+      }
+    },
+    "23": {
+      "info": {
+        "name": "Jesaja",
+        "shortname": "Jes",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "24": {
+      "info": {
+        "name": "Jeremia",
+        "shortname": "Jer",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "25": {
+      "info": {
+        "name": "Klagovisorna",
+        "shortname": "Kla",
+        "abbr": [
+          "Klag"
+        ],
+        "desc": ""
+      }
+    },
+    "26": {
+      "info": {
+        "name": "Hesekiel",
+        "shortname": "Hes",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "27": {
+      "info": {
+        "name": "Daniel",
+        "shortname": "Dan",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "28": {
+      "info": {
+        "name": "Hosea",
+        "shortname": "Hos",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "29": {
+      "info": {
+        "name": "Joel",
+        "shortname": "Joe",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "30": {
+      "info": {
+        "name": "Amos",
+        "shortname": "Amo",
+        "abbr": [
+          "Am"
+        ],
+        "desc": ""
+      }
+    },
+    "31": {
+      "info": {
+        "name": "Obadja",
+        "shortname": "Oba",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "32": {
+      "info": {
+        "name": "Jona",
+        "shortname": "Jon",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "33": {
+      "info": {
+        "name": "Mika",
+        "shortname": "Mik",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "34": {
+      "info": {
+        "name": "Nahum",
+        "shortname": "Nah",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "35": {
+      "info": {
+        "name": "Habackuk",
+        "shortname": "Hab",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "36": {
+      "info": {
+        "name": "Sefanja",
+        "shortname": "Sef",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "37": {
+      "info": {
+        "name": "Haggaj",
+        "shortname": "Hag",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "38": {
+      "info": {
+        "name": "Sakarja",
+        "shortname": "Sak",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "39": {
+      "info": {
+        "name": "Malaki",
+        "shortname": "Mal",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "40": {
+      "info": {
+        "name": "Matteus",
+        "shortname": "Mat",
+        "abbr": [
+          "Matt"
+        ],
+        "desc": ""
+      }
+    },
+    "41": {
+      "info": {
+        "name": "Markus",
+        "shortname": "Mak",
+        "abbr": [
+          "Mark"
+        ],
+        "desc": ""
+      }
+    },
+    "42": {
+      "info": {
+        "name": "Lukas",
+        "shortname": "Luk",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "43": {
+      "info": {
+        "name": "Johannes",
+        "shortname": "Joh",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "44": {
+      "info": {
+        "name": "Apostlagärningarna",
+        "shortname": "Apg",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "45": {
+      "info": {
+        "name": "Romarbrevet",
+        "shortname": "Rom",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "46": {
+      "info": {
+        "name": "1 Korintierbrevet",
+        "shortname": "1Ko",
+        "abbr": [
+          "1 Kor"
+        ],
+        "desc": ""
+      }
+    },
+    "47": {
+      "info": {
+        "name": "2 Korintierbrevet",
+        "shortname": "2Ko",
+        "abbr": [
+          "2 Kor"
+        ],
+        "desc": ""
+      }
+    },
+    "48": {
+      "info": {
+        "name": "Galaterbrevet",
+        "shortname": "Gal",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "49": {
+      "info": {
+        "name": "Efesierbrevet",
+        "shortname": "Efe",
+        "abbr": [
+          "Ef"
+        ],
+        "desc": ""
+      }
+    },
+    "50": {
+      "info": {
+        "name": "Filipperbrevet",
+        "shortname": "Fil",
+        "abbr": [
+          "Filip"
+        ],
+        "desc": ""
+      }
+    },
+    "51": {
+      "info": {
+        "name": "Kolosserbrevet",
+        "shortname": "Kol",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "52": {
+      "info": {
+        "name": "1 Thessalonikerbrevet",
+        "shortname": "1Th",
+        "abbr": [
+          "1 Thess"
+        ],
+        "desc": ""
+      }
+    },
+    "53": {
+      "info": {
+        "name": "2 Thessalonikerbrevet",
+        "shortname": "2Th",
+        "abbr": [
+          "2 Thess"
+        ],
+        "desc": ""
+      }
+    },
+    "54": {
+      "info": {
+        "name": "1 Timotheosbrevet",
+        "shortname": "1Ti",
+        "abbr": [
+          "1 Tim"
+        ],
+        "desc": ""
+      }
+    },
+    "55": {
+      "info": {
+        "name": "2 Timotheosbrevet",
+        "shortname": "2Ti",
+        "abbr": [
+          "2 Tim"
+        ],
+        "desc": ""
+      }
+    },
+    "56": {
+      "info": {
+        "name": "Titusbrevet",
+        "shortname": "Tit",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "57": {
+      "info": {
+        "name": "Till Filemon",
+        "shortname": "Flm",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "58": {
+      "info": {
+        "name": "Hebreerbrevet",
+        "shortname": "Heb",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "59": {
+      "info": {
+        "name": "Jakob",
+        "shortname": "Jak",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "60": {
+      "info": {
+        "name": "1 Petrusbrevet",
+        "shortname": "1Pe",
+        "abbr": [
+          "1 Pet"
+        ],
+        "desc": ""
+      }
+    },
+    "61": {
+      "info": {
+        "name": "2 Petrusbrevet",
+        "shortname": "2Pe",
+        "abbr": [
+          "2 Pet"
+        ],
+        "desc": ""
+      }
+    },
+    "62": {
+      "info": {
+        "name": "1 Johannesbrevet",
+        "shortname": "1Jo",
+        "abbr": [
+          "1 Joh"
+        ],
+        "desc": ""
+      }
+    },
+    "63": {
+      "info": {
+        "name": "2 Johannesbrevet",
+        "shortname": "2Jo",
+        "abbr": [
+          "2 Joh"
+        ],
+        "desc": ""
+      }
+    },
+    "64": {
+      "info": {
+        "name": "3 Johannesbrevet",
+        "shortname": "3Jo",
+        "abbr": [
+          "3 Joh"
+        ],
+        "desc": ""
+      }
+    },
+    "65": {
+      "info": {
+        "name": "Judas",
+        "shortname": "Jud",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "66": {
+      "info": {
+        "name": "Uppenbarelseboken",
+        "shortname": "Upp",
+        "abbr": [],
+        "desc": ""
+      }
+    }
+  },
+  "locale": {
+    "bible": "Bible",
+    "book": "Book",
+    "chapter": "Chapter",
+    "verse": "Verse",
+    "lookup": "Lookup",
+    "setting": "Setting",
+    "more": "More",
+    "parallel": "Parallel",
+    "bookmarks": "Bookmarks",
+    "todo": "Todo",
+    "about": "About",
+    "note": "Note",
+    "BFCVB": "{b}...",
+    "BFVBC": "{b} {c}...",
+    "BFBCV": "{b} {c}:{v}...",
+    "Loading": "Loading",
+    "Checking": "Checking",
+    "Searching": "Searching",
+    "Downloading": "Downloading",
+    "PercentLoaded": "{Percent}%...",
+    "Ready": "Ready",
+    "Error": "Error",
+    "Success": "Success",
+    "Discover": "Discover!",
+    "Paused": "Paused!",
+    "IsNotReady": "{is} not ready yet, for using!",
+    "NotFound": "not found",
+    "IsNotFound": "{is} not found!",
+    "IsNotFoundIn": "{is} not found in {in}!",
+    "IsNotFoundInAt": " {is} not found in {in} at {at}!",
+    "Selection": "Selection",
+    "AddBookmarks": "Add Bookmarks",
+    "BookmarkedAlready": "Bookmarked already!",
+    "Bookmarked": "Bookmarked!",
+    "NoBookmarks": "No bookmarks!",
+    "NoMatchFor": "No matches for {for}!",
+    "BookMustSelected": "Book must be selected!",
+    "ChapterMustSelected": "Chapter must be selected!",
+    "VerseMustSelected": "Verse must be selected!",
+    "FoundV": "Found {v} verses!",
+    "FoundBCV": "Found book:{b}, chapter:{c} & verse:{v}!",
+    "NoBookSelected": "You have not selected any Book!",
+    "NoChapterSelected": "You have not selected any chapter!",
+    "NoVerseSelected": "You have not selected any verse!",
+    "ShowMe": "show me"
+  }
+}

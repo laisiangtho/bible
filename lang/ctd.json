@@ -1,0 +1,630 @@
+{
+  "digit": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "language": {
+    "bible": "Lai Siangtho",
+    "book": "Laibu",
+    "chapter": "Alian",
+    "verse": "Aneu"
+  },
+  "section": {
+    "1": "Thubulphuh",
+    "2": "Tangthu",
+    "3": "La",
+    "4": "Siampite",
+    "5": "Siampi Atuamtuam",
+    "6": "Gupnathute",
+    "7": "Taangthu Tuamtuam",
+    "8": "Upna: Gentiles",
+    "9": "Upna: Atuamtuam",
+    "10": "Upna: Israel",
+    "11": "Upna: General Espitles"
+  },
+  "testament": {
+    "1": {
+      "info": {
+        "name": "Thuciam Lui",
+        "shortname": "TL",
+        "desc": ""
+      },
+      "other": {}
+    },
+    "2": {
+      "info": {
+        "name": "Thuciam Thak",
+        "shortname": "TT",
+        "desc": ""
+      },
+      "other": {}
+    }
+  },
+  "book": {
+    "1": {
+      "info": {
+        "name": "Piancilna",
+        "shortname": "Pia",
+        "abbr": [
+          "Pian"
+        ],
+        "desc": ""
+      }
+    },
+    "2": {
+      "info": {
+        "name": "Paikhiatna",
+        "shortname": "Pai",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "3": {
+      "info": {
+        "name": "Siampi Laibu",
+        "shortname": "Sim",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "4": {
+      "info": {
+        "name": "Gamlak Vakna",
+        "shortname": "Gam",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "5": {
+      "info": {
+        "name": "Thu Hilhkikna",
+        "shortname": "Thk",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "6": {
+      "info": {
+        "name": "Joshua",
+        "shortname": "Jos",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "7": {
+      "info": {
+        "name": "Thukhente",
+        "shortname": "Tkt",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "8": {
+      "info": {
+        "name": "Ruth",
+        "shortname": "Rut",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "9": {
+      "info": {
+        "name": "Samuel Masa",
+        "shortname": "1Sa",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "10": {
+      "info": {
+        "name": "Samuel Nihna",
+        "shortname": "2Sa",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "11": {
+      "info": {
+        "name": "Kumpi Masate",
+        "shortname": "1Km",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "12": {
+      "info": {
+        "name": "Kumpi Nihnate",
+        "shortname": "2Km",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "13": {
+      "info": {
+        "name": "Khang Tangthu Masa",
+        "shortname": "1Kt",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "14": {
+      "info": {
+        "name": "Khang Tangthu Nihna",
+        "shortname": "2Kt",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "15": {
+      "info": {
+        "name": "Ezra",
+        "shortname": "Ezr",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "16": {
+      "info": {
+        "name": "Nehemiah",
+        "shortname": "Neh",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "17": {
+      "info": {
+        "name": "Esther",
+        "shortname": "Est",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "18": {
+      "info": {
+        "name": "Job",
+        "shortname": "Job",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "19": {
+      "info": {
+        "name": "Late",
+        "shortname": "Lat",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "20": {
+      "info": {
+        "name": "Paunak",
+        "shortname": "Pau",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "21": {
+      "info": {
+        "name": "Thuhilhna",
+        "shortname": "Thn",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "22": {
+      "info": {
+        "name": "Solomon La",
+        "shortname": "Sol",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "23": {
+      "info": {
+        "name": "Isaiah",
+        "shortname": "Isa",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "24": {
+      "info": {
+        "name": "Jeremiah",
+        "shortname": "Jer",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "25": {
+      "info": {
+        "name": "Kah La",
+        "shortname": "Kal",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "26": {
+      "info": {
+        "name": "Ezekiel",
+        "shortname": "Eze",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "27": {
+      "info": {
+        "name": "Daniel",
+        "shortname": "Dan",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "28": {
+      "info": {
+        "name": "Hosea",
+        "shortname": "Hos",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "29": {
+      "info": {
+        "name": "Joel",
+        "shortname": "Joe",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "30": {
+      "info": {
+        "name": "Amos",
+        "shortname": "Amo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "31": {
+      "info": {
+        "name": "Obadiah",
+        "shortname": "Oba",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "32": {
+      "info": {
+        "name": "Jonah",
+        "shortname": "Jon",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "33": {
+      "info": {
+        "name": "Mikah",
+        "shortname": "Mic",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "34": {
+      "info": {
+        "name": "Nahum",
+        "shortname": "Nah",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "35": {
+      "info": {
+        "name": "Habakkuk",
+        "shortname": "Hab",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "36": {
+      "info": {
+        "name": "Zefaniah",
+        "shortname": "Zef",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "37": {
+      "info": {
+        "name": "Haggai",
+        "shortname": "Hag",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "38": {
+      "info": {
+        "name": "Zekhariah",
+        "shortname": "Zek",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "39": {
+      "info": {
+        "name": "Malakhi",
+        "shortname": "Mal",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "40": {
+      "info": {
+        "name": "Matthew",
+        "shortname": "Mat",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "41": {
+      "info": {
+        "name": "Mark",
+        "shortname": "Mak",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "42": {
+      "info": {
+        "name": "Luka",
+        "shortname": "Luk",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "43": {
+      "info": {
+        "name": "Johan",
+        "shortname": "Joh",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "44": {
+      "info": {
+        "name": "Sawltakte Tangthu",
+        "shortname": "Swt",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "45": {
+      "info": {
+        "name": "Rom",
+        "shortname": "Rom",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "46": {
+      "info": {
+        "name": "Korin Masa",
+        "shortname": "1Kr",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "47": {
+      "info": {
+        "name": "Korin nihna",
+        "shortname": "2Kr",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "48": {
+      "info": {
+        "name": "Galati",
+        "shortname": "Gal",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "49": {
+      "info": {
+        "name": "Efesa",
+        "shortname": "Eph",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "50": {
+      "info": {
+        "name": "Filippi",
+        "shortname": "Fip",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "51": {
+      "info": {
+        "name": "Kolose",
+        "shortname": "Kol",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "52": {
+      "info": {
+        "name": "Thesalonika Masa",
+        "shortname": "1Te",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "53": {
+      "info": {
+        "name": "Thesalonika Nihna",
+        "shortname": "2Te",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "54": {
+      "info": {
+        "name": "Timoti Masa",
+        "shortname": "1Ti",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "55": {
+      "info": {
+        "name": "Timoti Nihna",
+        "shortname": "2Ti",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "56": {
+      "info": {
+        "name": "Titus",
+        "shortname": "Tit",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "57": {
+      "info": {
+        "name": "Filemon",
+        "shortname": "Fil",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "58": {
+      "info": {
+        "name": "Hebru",
+        "shortname": "Heb",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "59": {
+      "info": {
+        "name": "James",
+        "shortname": "Jam",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "60": {
+      "info": {
+        "name": "Peter Masa",
+        "shortname": "1Pe",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "61": {
+      "info": {
+        "name": "Peter Nihna",
+        "shortname": "2Pe",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "62": {
+      "info": {
+        "name": "Johan Masa",
+        "shortname": "1Jo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "63": {
+      "info": {
+        "name": "Johan Nihna",
+        "shortname": "2Jo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "64": {
+      "info": {
+        "name": "Johan Thumna",
+        "shortname": "3Jo",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "65": {
+      "info": {
+        "name": "Jude",
+        "shortname": "Jud",
+        "abbr": [],
+        "desc": ""
+      }
+    },
+    "66": {
+      "info": {
+        "name": "Maangmuhna",
+        "shortname": "Mam",
+        "abbr": [],
+        "desc": ""
+      }
+    }
+  },
+  "locale": {
+    "bible": "Lai Siangtho",
+    "book": "Laibu",
+    "chapter": "Alian",
+    "verse": "Aneu",
+    "lookup": "Zong",
+    "setting": "Dan",
+    "more": "Adang",
+    "parallel": "Etkakna",
+    "bookmarks": "Ciptehna",
+    "todo": "Hihding",
+    "about": "Athu",
+    "note": "Ciptehna",
+    "BFCVB": "{b}...",
+    "BFVBC": "{b} {c}...",
+    "BFBCV": "{b} {c}:{v}...",
+    "Loading": "Laklaitak",
+    "Checking": "Sinlaitak",
+    "Searching": "Zonglaitak",
+    "Downloading": "Downloading",
+    "PercentLoaded": "{Percent}%...",
+    "Ready": "Manta",
+    "Error": "Khial",
+    "Success": "Zota",
+    "Discover": "Zong!",
+    "Paused": "Khawlsak!",
+    "IsNotReady": "{is} pen zat dingin hithei naikei!",
+    "NotFound": "mulo",
+    "IsNotFound": "{is} pen mulo!",
+    "IsNotFoundIn": "{in} tengah {is} pen mulo!",
+    "IsNotFoundInAt": "Hih {at} sunga om {in} tengah {is} pen mulo!",
+    "Selection": "Telkhiatna",
+    "AddBookmarks": "Ciptehna",
+    "BookmarkedAlready": "Ciamtehkhinta!",
+    "Bookmarked": "Ciamtehkhin!",
+    "NoBookmarks": "Ciaptehna omlo!",
+    "NoMatchFor": "Hih {for} laimal dan mulo!",
+    "BookMustSelected": "Laibu teelding kulhi!",
+    "ChapterMustSelected": "Alian teelding kulhi!",
+    "VerseMustSelected": "Aneu teelding kulhi!",
+    "FoundV": "Aneu {v} mu!",
+    "FoundBCV": "Laibu:{b}, alian:{c} & aneu:{v} tengah mu!",
+    "NoBookSelected": "Laibu teelna omlo!",
+    "NoChapterSelected": "Alian teelna omlo!",
+    "NoVerseSelected": "Aneu teelna omlo!",
+    "ShowMe": "hong lakin"
+  }
+}
