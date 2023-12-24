@@ -1,6 +1,6 @@
 {
   "name": "bible",
-  "version": "2.5.8",
+  "version": "2.5.9",
   "description": "the Holy Bible in languages",
   "main": "bible.js",
   "type": "module",
@@ -20,8 +20,8 @@
     "gd": "1nag5q9V7ykH5mZTbgeiYfj012VP8zmAa"
   },
   "devDependencies": {
+    "lethil": "^1.3.12",
     "jsdom": "^23.0.1",
-    "lethil": "^1.3.11",
     "sqlite3": "^5.1.6",
     "xml2js": "^0.6.2"
   },

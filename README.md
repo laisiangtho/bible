@@ -66,6 +66,8 @@ haven`t, doesn`t
 | Det Danske Bibel (Danske) | Danish | dan |
 | Det Norsk Bibelselskap 1930 (Norske) | Norwegian/Bokmål | nob |
 | Norsk Bibel (Norske) | Norwegian/Bokmål | nob |
+| Swedish Contemporary Bible (Swedish) | Swedish | swe |
+| Kirkkoraamattu 1933/38 (Finnish) | Finnish | fin |
 | La Bible Ostervald (French) | French | fra |
 | Luther Bible (German) | German | deu |
 | リビングバイブル (jcb) | Japanese | jpn |
@@ -77,33 +79,46 @@ haven`t, doesn`t
 | 개역한글 (KRV) | Korean | kor |
 | 当代译本 (CCB) | Chinese (Simplified) | zho |
 | 新译本（简体字版） (CNVS) | Chinese (Simplified) | zho |
-> Books: 53 langs: 22
+| Tagalog Contemporary Bible (ASND) | Tagalog | tgl |
+> Books: 56 langs: 25
 
 ## task
 
-- taskIdentify: `test`, `bible`,
+- taskIdentify: `task`, `bible`,
 - taskName: `wbc`,
 - taskOption: `request`, `read`, `scan`,
 
 ```shell
 node run {taskIdentify} {taskName} {taskOption}
-node run test wbc
+node run task wbc
 node run bible search
+node run bible info
 ```
 
 ## taskName: `wbc`
 
 ```shell
-node run test wbc request
-node run test wbc read
-node run test wbc scan
-node run test wbc check
+# testing
+node run task wbc request
+node run task wbc read
+node run task wbc check
+
+# new
+node run task wbc new
+
+# lang: generate
+node run task lang generate
+
+# scan: update its context and content
+node run task wbc scan
+
 node run test wbc io
 ```
 
 ## translate
 
 ```shell
+Bible
 Book
 Chapter
 Verse
