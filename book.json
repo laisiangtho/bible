@@ -1,7 +1,7 @@
 {
   "name": "Lai Siangtho",
-  "updated": "2023-12-21T17:28:48.558Z",
-  "version": 258,
+  "updated": "2023-12-24T12:56:34.551Z",
+  "version": 259,
   "book": [
     {
       "identify": "falam1973",
@@ -843,6 +843,46 @@
       "copyright": "Norsk Bibel AS"
     },
     {
+      "identify": "916",
+      "name": "Swedish Contemporary Bible",
+      "shortname": "Swedish",
+      "year": "2015",
+      "language": {
+        "text": "Swedish",
+        "textdirection": "ltr",
+        "iso": {
+          "639-1": "sv",
+          "639-3": "swe"
+        },
+        "name": "swe"
+      },
+      "version": 1,
+      "description": "Biblica gör Guds ord tillgängligt för människor genom bibelöversättning, bibelpublicering och bibelengagemang i Afrika, Asien-Stillahavsregionen, Europa, Sydamerika, Mellanöstern, Nordamerika och Sydasien. Genom sin världsomspännande räckvidd når Biblica ut till människor med Guds ord så att liv förvandlas genom relationen med Jesus Kristus.",
+      "publisher": "",
+      "contributors": "",
+      "copyright": "Biblica, Inc."
+    },
+    {
+      "identify": "365",
+      "name": "Kirkkoraamattu 1933/38",
+      "shortname": "Finnish",
+      "year": "1933",
+      "language": {
+        "text": "Finnish",
+        "textdirection": "ltr",
+        "iso": {
+          "639-1": "fi",
+          "639-3": "fin"
+        },
+        "name": "fin"
+      },
+      "version": 1,
+      "description": "Kirkkoraamattu 1933/38 Vuoden 1933/38 suomennoksen on julkaissut Suomen Pipliaseura. Mikäli olet kiinnostunut painetusta Raamatusta, ota yhteyttä  www.piplia.fi. Finnish Bible 1933/38 This translation has been published by the Finnish Bible Society. If you are interested in obtaining a printed copy, please contact the Finnish Bible Society at  www.piplia.fi.",
+      "publisher": "Finnish Bible Society",
+      "contributors": "",
+      "copyright": ""
+    },
+    {
       "identify": "ostervald1877",
       "name": "La Bible Ostervald",
       "shortname": "French",
@@ -1061,6 +1101,26 @@
       "publisher": "Worldwide Bible Society",
       "contributors": "",
       "copyright": ""
+    },
+    {
+      "identify": "1264",
+      "name": "Tagalog Contemporary Bible",
+      "shortname": "ASND",
+      "year": "1976",
+      "language": {
+        "text": "Tagalog",
+        "textdirection": "ltr",
+        "iso": {
+          "639-1": "tl",
+          "639-3": "tgl"
+        },
+        "name": "tgl"
+      },
+      "version": 1,
+      "description": "Biblica, The International Bible Society, provides Godʼs Word to people through Bible translation and Bible publishing, and Bible engagement in Africa, Asia Pacific, Europe, Latin America, Middle East, North America, and South Asia. Through its worldwide reach, Biblica engages people with Godʼs Word so that their lives are transformed through a relationship with Jesus Christ.",
+      "publisher": "Biblica, Inc",
+      "contributors": "",
+      "copyright": "Ang Salita ng Dios (Tagalog Contemporary Bible)"
     }
   ],
   "collection": {
@@ -1071,42 +1131,5 @@
     "koh": [],
     "wbc": [],
     "jwb": []
-  },
-  "language": {
-    "en": {
-      "text": "English",
-      "local": "English",
-      "textdirection": "ltr"
-    },
-    "my": {
-      "text": "Myanmar",
-      "local": "Burmese",
-      "textdirection": "ltr"
-    },
-    "no": {
-      "text": "Norwegian",
-      "local": "Norsk",
-      "textdirection": "ltr"
-    },
-    "da": {
-      "text": "Danish",
-      "local": "Dansk",
-      "textdirection": "ltr"
-    },
-    "sv": {
-      "text": "Swedish",
-      "local": "Svensk",
-      "textdirection": "ltr"
-    },
-    "fi": {
-      "text": "Finish",
-      "local": "Suomi",
-      "textdirection": "ltr"
-    },
-    "zo": {
-      "text": "Zolai",
-      "local": "Zolai",
-      "textdirection": "ltr"
-    }
   }
 }
