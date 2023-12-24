@@ -1,9 +1,9 @@
 // import { seek } from "lethil";
-import * as base from "./base.js";
+// import * as base from "./base.js";
 
-const env = base.env;
+// const env = base.env;
 // const config = env.config;
-const listOfBible = env.listOfBible;
+// const listOfBible = env.listOfBible;
 // const category = env.category;
 // const structure = env.structure;
 
@@ -14,7 +14,5 @@ const listOfBible = env.listOfBible;
  * @param {any} req
  */
 export default async function doDefault(req) {
-  return JSON.stringify(listOfBible);
+  return "done";
 }
-
-export async function khualTawng() {}

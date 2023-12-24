@@ -2,9 +2,10 @@
  * Bible
  * @param {any} req
  * @example
- * note run bible
- * note run bible test
- * note run bible search
+ * node run bible
+ * node run bible test
+ * node run bible search
+ * node run bible abbr
  */
 export default async function main(req) {
   switch (req.params.task) {
@@ -14,10 +15,26 @@ export default async function main(req) {
       return (await import("./search.js")).default(req);
     case "info":
       return (await import("./info.js")).default(req);
+    // case "lang":
+    //   return await doLang(req.params.name).then((e) => e(req));
+    case "abbr":
+      return (await import("./abbr.js")).default(req);
     default:
       return noTask(req);
   }
 }
+
+// /**
+//  * @param {string} [name]
+//  */
+// async function doLang(name) {
+//   switch (name) {
+//     case "generator":
+//       return (await import("./lang.js")).doGenerator;
+//     default:
+//       return (await import("./lang.js")).default;
+//   }
+// }
 
 /**
  * @param {any} req
