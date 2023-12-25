@@ -74,16 +74,13 @@ import core, { seek } from "lethil";
  * @property {number} c - total chapter
  * @property {number[]} v - list of each total verses
  *
- * @typedef {Object} TypeOfCategory
- * @property {Object} name - a set of name eg.[section, testament, book, digit]
- * @property {Object<number,string>} name.section - eg[Law,History ..]
- * @property {TypeOfTestament} name.testament
- * property {Object<number,{info:InfoOfBook}>} name.book
- * @property {TypeOfDigit} name.digit
- * @property {Object<number,Object<number,number[]>>} section
- * property {Object<string,BookOfCategory>} book
- * @property {{id:string, info:InfoOfBook, clue:BookOfCategory}[]} book
+ * @typedef {Object} TypeOfCategory - a set of name eg.[section, testament, book, digit]
+ * @property {TypeOfDigit} digit
  * @property {TypeOfBibleLocale} language
+ * @property {Object<number,string>} section - eg[Law,History ..]
+ * @property {TypeOfTestament} testament
+ * @property {{id:string, info:InfoOfBook, clue:BookOfCategory}[]} book
+ * @property {Object<number,Object<number,number[]>>} guide - index of each books
  * @property {Object<string,string>} locale
  */
 
