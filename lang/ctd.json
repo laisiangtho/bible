@@ -367,7 +367,9 @@
       "info": {
         "name": "Matthew",
         "shortname": "Mat",
-        "abbr": [],
+        "abbr": [
+          "Matthai"
+        ],
         "desc": ""
       }
     },
@@ -375,7 +377,9 @@
       "info": {
         "name": "Mark",
         "shortname": "Mak",
-        "abbr": [],
+        "abbr": [
+          "Marka"
+        ],
         "desc": ""
       }
     },
@@ -399,7 +403,9 @@
       "info": {
         "name": "Sawltakte Tangthu",
         "shortname": "Swt",
-        "abbr": [],
+        "abbr": [
+          "Sawltak"
+        ],
         "desc": ""
       }
     },
