@@ -223,16 +223,6 @@ export async function doCheck(req) {
 }
 
 /**
- * IO ??
- * @example
- * node run task wbc io
- * @param {any} req
- */
-export async function doIO(req) {
-  return "?";
-}
-
-/**
  * Requests from live
  * @example
  * node run task wbc request
@@ -410,11 +400,12 @@ async function doReadCore(bN, cN, save) {
  * Scan from live or local
  * @example
  * node run task wbc scan
+ * node run task wbc scan --id=368
  * @param {any} req
  */
 export async function doScan(req) {
-  if (req.query.scan) {
-    settings.scan = req.query.scan;
+  if (req.query.id) {
+    settings.scan = req.query.id;
     taskCurrent = settings.list.find((e) => e.id == settings.scan);
   }
 
@@ -445,7 +436,7 @@ export async function doScan(req) {
     console.log("> waiting to continue in", settings.delay, "milliseconds");
 
     await new Promise((resolve) => setTimeout(resolve, settings.delay));
-    await doScan({ query: { scan: currentIdentify } });
+    await doScan({ query: { id: currentIdentify } });
   });
 
   if (taskCurrent.note) {
@@ -613,10 +604,9 @@ export async function doScanAll(req) {
 
   for (let index = 0; index < tmp.length; index++) {
     const data = tmp[index];
-    const scanId = data.id;
-    // req.query.identify;
-    await doScan({ query: { scan: scanId } });
-    scanedList.push(scanId);
+    const id = data.id;
+    await doScan({ query: { id: id } });
+    scanedList.push(id);
   }
   console.log("scanned", scanedList);
   console.log("total", scanedList.length);

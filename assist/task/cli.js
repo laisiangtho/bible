@@ -57,8 +57,6 @@ async function doWBC(name) {
   switch (name) {
     case "check":
       return (await import("./wbc.js")).doCheck;
-    case "io":
-      return (await import("./wbc.js")).doIO;
     case "request":
       return (await import("./wbc.js")).doRequest;
     case "read":
@@ -80,13 +78,11 @@ async function doWBC(name) {
 async function doSee(name) {
   switch (name) {
     case "io":
-      return (await import("./see.js")).doTestIO;
-    case "bookname":
-      return (await import("./see.js")).doTestBookname;
+      return (await import("./see.js")).doIO;
     case "khualtawng":
       return (await import("./see.js")).doKhualTawng;
     default:
-      return (await import("./see.js")).doTestDefault;
+      return (await import("./see.js")).doDefault;
   }
 }
 

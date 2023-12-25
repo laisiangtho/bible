@@ -46,13 +46,13 @@ export async function doGenerate(req) {
       const currentBible = await env.loadBible(identify);
       if (currentBible) {
         const bible = currentBible.bible;
-        const name = category.name;
-        let digit = Object.assign({}, name.digit, res.digit);
+        // const name = category.name;
+        let digit = Object.assign({}, category.digit, res.digit);
         res.digit = Object.values(digit);
         res.language = Object.assign({}, category.language, res.language);
         res.locale = Object.assign({}, category.locale, res.locale);
-        res.section = Object.assign({}, name.section, res.section);
-        res.testament = Object.assign({}, name.testament, res.testament);
+        res.section = Object.assign({}, category.section, res.section);
+        res.testament = Object.assign({}, category.testament, res.testament);
 
         if (!res.book) {
           res.book = {};

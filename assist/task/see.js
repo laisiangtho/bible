@@ -11,7 +11,7 @@ const structure = env.structure;
  * Testing
  * @param {any} req
  */
-export async function doTestDefault(req) {
+export async function doDefault(req) {
   // return base.settings;
   // console.log(req);
   // return JSON.stringify(base.settings);
@@ -22,21 +22,9 @@ export async function doTestDefault(req) {
  * Testing
  * @param {any} req
  */
-export async function doTestIO(req) {
+export async function doIO(req) {
   // await base.writeJSON("./tmp/delete.json", { 1: "Ok" });
   // let category = await base.readJSON("./category.json", {});
-  return "?";
-}
-
-/**
- * Testing
- * @param {any} req
- */
-export async function doTestBookname(req) {
-  const books = category.book;
-  for (const o of books) {
-    console.log(o.info.abbr[0]);
-  }
   return "?";
 }
 
