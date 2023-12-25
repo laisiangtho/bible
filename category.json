@@ -1,141 +1,51 @@
 {
-  "name": {
-    "section": {
-      "1": "Law",
-      "2": "History",
-      "3": "Poetry",
-      "4": "Prophecy: Major Prophets",
-      "5": "Prophecy: Minor Prophets",
-      "6": "Gospels",
-      "7": "Historical",
-      "8": "Doctrinal: Gentiles",
-      "9": "Doctrinal: Individuals",
-      "10": "Doctrinal: The Jews",
-      "11": "Doctrinal: General Espitles"
-    },
-    "testament": {
-      "1": {
-        "info": {
-          "name": "Old Testament",
-          "shortname": "OT",
-          "desc": ""
-        },
-        "other": {}
-      },
-      "2": {
-        "info": {
-          "name": "New Testament",
-          "shortname": "NT",
-          "desc": ""
-        },
-        "other": {}
-      }
-    },
-    "digit": [
-      "0",
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7",
-      "8",
-      "9"
-    ]
+  "digit": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "language": {
+    "bible": "Bible",
+    "book": "Book",
+    "chapter": "Chapter",
+    "verse": "Verse"
   },
   "section": {
+    "1": "Law",
+    "2": "History",
+    "3": "Poetry",
+    "4": "Prophecy: Major Prophets",
+    "5": "Prophecy: Minor Prophets",
+    "6": "Gospels",
+    "7": "Historical",
+    "8": "Doctrinal: Gentiles",
+    "9": "Doctrinal: Individuals",
+    "10": "Doctrinal: The Jews",
+    "11": "Doctrinal: General Espitles"
+  },
+  "testament": {
     "1": {
-      "1": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "2": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17
-      ],
-      "3": [
-        18,
-        19,
-        20,
-        21,
-        22
-      ],
-      "4": [
-        23,
-        24,
-        25,
-        26,
-        27
-      ],
-      "5": [
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39
-      ]
+      "info": {
+        "name": "Old Testament",
+        "shortname": "OT",
+        "desc": ""
+      },
+      "other": {}
     },
     "2": {
-      "6": [
-        40,
-        41,
-        42,
-        43
-      ],
-      "7": [
-        44
-      ],
-      "8": [
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53
-      ],
-      "9": [
-        54,
-        55,
-        56,
-        57
-      ],
-      "10": [
-        58
-      ],
-      "11": [
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66
-      ]
+      "info": {
+        "name": "New Testament",
+        "shortname": "NT",
+        "desc": ""
+      },
+      "other": {}
     }
   },
   "book": [
@@ -2826,11 +2736,99 @@
       }
     }
   ],
-  "language": {
-    "bible": "Bible",
-    "book": "Book",
-    "chapter": "Chapter",
-    "verse": "Verse"
+  "guide": {
+    "1": {
+      "1": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "2": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "3": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "4": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "5": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    "2": {
+      "6": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "7": [
+        44
+      ],
+      "8": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "9": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "10": [
+        58
+      ],
+      "11": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ]
+    }
   },
   "locale": {
     "bible": "Bible",
