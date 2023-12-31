@@ -1,10 +1,14 @@
 {
-  "scan": "368",
-  "fruit": "./assets/?/tmp/scanId.json",
-  "html": "./assets/?/tmp/scanId/bN.cN.html",
+  "scan": 3411,
+  "_b_fruit": "./assets/?/tmp/scanId.json",
+  "_b_html": "./assets/?/tmp/scanId/bN.cN.html",
+  "fruit": "!/bible/?/scanId.json",
+  "html": "!/bible/?/scanId/bN.cN.html",
   "doc": "./json/~.json",
   "url": "https://www.~.com/~/iN/bN.cN.iE",
   "uav": "https://www.~.com/api/~/version/iN",
+  "uco": "https://www.~.com/api/~/configuration",
+  "ula": "https://www.~.com/api/~/versions?language_tag=lT&type=all",
   "delay": 7000,
   "version": 259,
   "list": [
@@ -111,6 +115,12 @@
       "note": {
         "v": 3
       }
+    },
+    {
+      "id": "3561",
+      "ext": "TB77",
+      "identify": "3561",
+      "note": {}
     },
     {
       "id": "208",
@@ -455,6 +465,12 @@
       "note": {
         "v": 2
       }
+    },
+    {
+      "id": 3411,
+      "ext": "AMIS2019",
+      "identify": 3411,
+      "note": {}
     }
   ],
   "await": [
