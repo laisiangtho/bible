@@ -1,0 +1,322 @@
+{
+  "info": {
+    "identify": 3411,
+    "name": "",
+    "shortname": "",
+    "year": 1001,
+    "language": {
+      "text": "",
+      "textdirection": "ltr",
+      "iso": {
+        "639-1": "",
+        "639-3": ""
+      },
+      "name": ""
+    },
+    "version": 1,
+    "description": "",
+    "publisher": "",
+    "contributors": "",
+    "copyright": ""
+  },
+  "note": {},
+  "digit": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "language": {
+    "book": "Book",
+    "chapter": "Chapter",
+    "verse": "Verse"
+  },
+  "testament": {
+    "1": {
+      "info": {
+        "name": "Old Testament",
+        "shortname": "OT",
+        "desc": ""
+      },
+      "other": {}
+    },
+    "2": {
+      "info": {
+        "name": "New Testament",
+        "shortname": "NT",
+        "desc": ""
+      },
+      "other": {}
+    }
+  },
+  "story": {},
+  "book": {
+    "1": {
+      "info": {
+        "name": "'Olic",
+        "shortname": "",
+        "abbr": [],
+        "desc": "'OLIC"
+      },
+      "chapter": {}
+    },
+    "2": {
+      "info": {
+        "name": "Taneng",
+        "shortname": "",
+        "abbr": [],
+        "desc": "TANENG"
+      },
+      "chapter": {}
+    },
+    "3": {
+      "info": {
+        "name": "Matay",
+        "shortname": "",
+        "abbr": [],
+        "desc": "Nani MATAY a Nga'ayay Ratoh"
+      },
+      "chapter": {}
+    },
+    "4": {
+      "info": {
+        "name": "Maroko",
+        "shortname": "",
+        "abbr": [],
+        "desc": "Nani MAROKO a Nga'ayay Ratoh"
+      },
+      "chapter": {}
+    },
+    "5": {
+      "info": {
+        "name": "Luka",
+        "shortname": "",
+        "abbr": [],
+        "desc": "Nani LUKA a Nga'ayay Ratoh"
+      },
+      "chapter": {}
+    },
+    "6": {
+      "info": {
+        "name": "Yohani",
+        "shortname": "",
+        "abbr": [],
+        "desc": "Nani YOHANI a Nga'ayay Ratoh"
+      },
+      "chapter": {}
+    },
+    "7": {
+      "info": {
+        "name": "Dmak",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O DMAK no Tarokos"
+      },
+      "chapter": {}
+    },
+    "8": {
+      "info": {
+        "name": "Loma",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Sapatilid ni Pawlo to Kiwkay no LOMA"
+      },
+      "chapter": {}
+    },
+    "9": {
+      "info": {
+        "name": "1 Korinto",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Saka Ccay a Sapatilid ni Pawlo to Kiwkay no KORINTO"
+      },
+      "chapter": {}
+    },
+    "10": {
+      "info": {
+        "name": "2 Korinto",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Saka Tosa a Sapatilid ni Pawlo to Kiwkay no KORINTO"
+      },
+      "chapter": {}
+    },
+    "11": {
+      "info": {
+        "name": "Kalatiya",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Sapatilid ni Pawlo to Kiwkay no KALATIYA"
+      },
+      "chapter": {}
+    },
+    "12": {
+      "info": {
+        "name": "Ifiso",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Sapatilid ni Pawlo to Kiwkay no IFISO"
+      },
+      "chapter": {}
+    },
+    "13": {
+      "info": {
+        "name": "Filipi",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Sapatilid ni Pawlo to Kiwkay no FILIPI"
+      },
+      "chapter": {}
+    },
+    "14": {
+      "info": {
+        "name": "Kolosay",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Sapatilid ni Pawlo to Kiwkay no KOLOSAY"
+      },
+      "chapter": {}
+    },
+    "15": {
+      "info": {
+        "name": "1 Tisalonika",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Saka Ccay a Sapatilid ni Pawlo to Kiwkay no TISALONIKA"
+      },
+      "chapter": {}
+    },
+    "16": {
+      "info": {
+        "name": "2 Tisalonika",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Saka Tosa a Sapatilid ni Pawlo to Kiwkay no TISALONIKA"
+      },
+      "chapter": {}
+    },
+    "17": {
+      "info": {
+        "name": "1 Timoti",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Nilayapan ni TIMOTI to Saka Ccay a Tilid ni Pawlo"
+      },
+      "chapter": {}
+    },
+    "18": {
+      "info": {
+        "name": "2 Timoti",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Nilayapan ni TIMOTI to Saka Tosa a Tilid ni Pawlo"
+      },
+      "chapter": {}
+    },
+    "19": {
+      "info": {
+        "name": "Titus",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Nilayapan ni TITUS a Tilid ni Pawlo"
+      },
+      "chapter": {}
+    },
+    "20": {
+      "info": {
+        "name": "Filimon",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Nilayapan ni FILIMON a Tilid ni Pawlo"
+      },
+      "chapter": {}
+    },
+    "21": {
+      "info": {
+        "name": "Hipray",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Sapatilid to Mitooray no HIPRAY"
+      },
+      "chapter": {}
+    },
+    "22": {
+      "info": {
+        "name": "Yakop",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Tilid ni YAKOP"
+      },
+      "chapter": {}
+    },
+    "23": {
+      "info": {
+        "name": "1 Pitiro",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Saka Ccay a Tilid ni PITIRO"
+      },
+      "chapter": {}
+    },
+    "24": {
+      "info": {
+        "name": "2 Pitiro",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Saka Tosa a Tilid ni PITIRO"
+      },
+      "chapter": {}
+    },
+    "25": {
+      "info": {
+        "name": "1 Yohani",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Saka Ccay a Tilid ni YOHANI"
+      },
+      "chapter": {}
+    },
+    "26": {
+      "info": {
+        "name": "2 Yohani",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Saka Tosa a Tilid ni YOHANI"
+      },
+      "chapter": {}
+    },
+    "27": {
+      "info": {
+        "name": "3 Yohani",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Saka Tolo a Tilid ni YOHANI"
+      },
+      "chapter": {}
+    },
+    "28": {
+      "info": {
+        "name": "Yuta",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O Tilid ni YUTA"
+      },
+      "chapter": {}
+    },
+    "29": {
+      "info": {
+        "name": "Pa'arawan",
+        "shortname": "",
+        "abbr": [],
+        "desc": "O ni PA'ARAWAN ni Yis Kristo ci Yohanian"
+      },
+      "chapter": {}
+    }
+  }
+}
