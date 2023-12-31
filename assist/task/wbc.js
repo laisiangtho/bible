@@ -1,5 +1,5 @@
 import { JSDOM } from "jsdom";
-import { seek } from "lethil";
+import { seek, ask } from "lethil";
 import * as base from "./base.js";
 
 const env = base.env;
@@ -27,6 +27,8 @@ const settings_file = "./assets/?/settings.json".replace("?", taskId);
  * @property {string} doc - JSON file containing bible `./json/~.json`
  * @property {string} [url] - bible.book.chapter
  * @property {string} [uav] - api version - url api version
+ * @property {string} [uco] - api configuration
+ * @property {string} [ula] - api language
  * @property {number} version - version number
  * @property {number} delay - in milliseconds
  * @property {TypeOfListData[]} list
@@ -72,12 +74,13 @@ function urlChapter(bN, cN) {
 
 /**
  * https://www.~.com/api/~/version/iN
+ * @param {string} id
  */
-function uaVersion() {
-  if (!settings.uav || !taskCurrent) {
+function uaVersion(id) {
+  if (!settings.uav || !id) {
     return "";
   }
-  return settings.uav.replace(/~/g, idName).replace(/iN/, taskCurrent?.id);
+  return settings.uav.replace(/~/g, idName).replace(/iN/, id);
 }
 
 /**
@@ -86,7 +89,8 @@ function uaVersion() {
  * @param {string|number} cN - chapterId
  */
 function cacheFile(bN, cN) {
-  return settings.html
+  let root = settings.html.replace("!", config.storage);
+  return root
     .replace("?", taskId)
     .replace("scanId", settings.scan)
     .replace(/bN/, bN)
@@ -97,7 +101,9 @@ function cacheFile(bN, cN) {
  * fileName: ./assist/?/tmp/scanId.json
  */
 function fruitFile() {
-  return settings.fruit.replace("?", taskId).replace("scanId", settings.scan);
+  let root = settings.fruit.replace("!", config.storage);
+  return root.replace("?", taskId).replace("scanId", settings.scan);
+  // return settings.fruit.replace("?", taskId).replace("scanId", settings.scan);
 }
 
 /**
@@ -113,6 +119,8 @@ function docFile(identify) {
  * @param {any} req
  */
 export async function doDefault(req) {
+  console.log(fruitFile());
+  // console.log(config.storage);
   return "Oops";
 }
 
@@ -266,14 +274,19 @@ async function doRequestCore(bN, cN, save) {
  * Add new version/language of Bible
  * request version, expected to be JSON
  * *.books
+ * @param {any} req
  * @example
  * node run task wbc new
  */
-export async function doNew() {
+export async function doNew(req) {
   if (!settings.scan) {
     return "no scanId";
   }
-  const url = uaVersion();
+
+  const identify = req.query.id || taskCurrent?.identify || settings.scan;
+
+  const url = uaVersion(identify);
+
   if (!url) {
     return "no url";
   }
@@ -281,7 +294,7 @@ export async function doNew() {
     return "no structure";
   }
 
-  const docFilePath = docFile(taskCurrent?.identify || settings.scan);
+  const docFilePath = docFile(identify);
 
   if (seek.exists(docFilePath)) {
     return "record file already exists at:" + docFilePath;
@@ -303,7 +316,7 @@ export async function doNew() {
   res.note = {};
   res.story = {};
   res.book = {};
-  res.info.identify = settings.scan;
+  res.info.identify = identify;
 
   for (let index = 0; index < books.length; index++) {
     let bookId = (index + 1).toString();
@@ -533,12 +546,13 @@ export async function doScan(req) {
   // NOTE: write on each book
   await base.writeJSON(fruitFileName, bible, 2);
   console.log("> write JSON at", fruitFileName);
-  let msg = "Scanned: " + taskCurrent.id;
+  let msg = "scanned: " + taskCurrent.id;
 
   return msg;
 }
 
 /**
+ * scan internal
  * @param {base.env.TypeOfBible} bible
  */
 async function doScanCore(bible) {
@@ -595,6 +609,7 @@ async function doScanCore(bible) {
 }
 
 /**
+ * Scan all
  * @param {any} req
  */
 export async function doScanAll(req) {
@@ -610,6 +625,75 @@ export async function doScanAll(req) {
   }
   console.log("scanned", scanedList);
   console.log("total", scanedList.length);
+  return "done";
+}
+
+/**
+ * Map all starting from configuration
+ * @param {any} req
+ */
+export async function doMap(req) {
+  try {
+    const urlConfiguration = settings.uco?.replace(/~/g, idName);
+    let dataConfiguration = await ask.request(urlConfiguration);
+    const configJSON = JSON.parse(dataConfiguration);
+    const languages = configJSON.response.data.default_versions;
+    // console.log(languages[0]);
+    // const language = languages[1];
+
+    for (let lIndex = 0; lIndex < languages.length; lIndex++) {
+      const language = languages[lIndex];
+      const langTag = language.language_tag;
+
+      const urlLanguage = settings.ula
+        ?.replace(/~/g, idName)
+        .replace(/lT/, langTag);
+
+      let dataLanguage = await ask.request(urlLanguage);
+
+      const langJSON = JSON.parse(dataLanguage);
+      const bibles = langJSON.response.data.versions;
+      // const bible = bibles[0];
+
+      for (let bIndex = 0; bIndex < bibles.length; bIndex++) {
+        const bible = bibles[bIndex];
+        const identify = bible.id;
+        // const iso = bible.language.iso_639_3;
+        // settings.scan = identify;
+
+        const listIndex = settings.list.findIndex((e) => e.id == identify);
+
+        if (listIndex == -1) {
+          settings.list.push({
+            id: identify,
+            ext: bible.abbreviation,
+            identify: identify,
+            note: {},
+          });
+          const msg = await doScan({ query: { id: identify } });
+          console.log(msg);
+          if (msg.startsWith("scanned")) {
+            await base.writeJSON(settings_file, settings, 2);
+            console.log("update settings");
+          }
+        }
+      }
+    }
+
+    // const file = config.fileOfLang.replace("~", iso);
+    // console.log("lang file", file);
+    // const abc = await doNew({ query: { id: identify } });
+    // console.log("??", abc);
+
+    // for (let bIndex = 0; bIndex < bibles.length; bIndex++) {
+    //   const bible = bibles[bIndex];
+    // }
+    // for (let lIndex = 0; lIndex < languages.length; lIndex++) {
+    //   const language = languages[lIndex];
+    // }
+  } catch (error) {
+    console.log("error", error);
+  }
   return "done";
 }
 
