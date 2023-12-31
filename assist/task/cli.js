@@ -17,8 +17,8 @@ export default async function main(req) {
       return await doWBC(req.params.name).then((e) => e(req));
     case "lang":
       return await doLang(req.params.name).then((e) => e(req));
-    case "request":
-      return await doRequest(req.params.name).then((e) => e(req));
+    case "test":
+      return await doTest(req.params.name).then((e) => e(req));
     case "export":
       return await doExport(req.params.name).then((e) => e(req));
     default:
@@ -41,10 +41,10 @@ async function doLang(name) {
 /**
  * @param {string} [name]
  */
-async function doRequest(name) {
+async function doTest(name) {
   switch (name) {
-    case "definitions":
-      return (await import("./scan.js")).doRequest;
+    case "config":
+      return (await import("./test.js")).default;
     default:
       return noName;
   }
@@ -67,6 +67,8 @@ async function doWBC(name) {
       return (await import("./wbc.js")).doScanAll;
     case "new":
       return (await import("./wbc.js")).doNew;
+    case "map":
+      return (await import("./wbc.js")).doMap;
     default:
       return (await import("./wbc.js")).doDefault;
   }
