@@ -730,12 +730,13 @@ async function doScanBook(identify, bible, versionData) {
               // console.log(bookNameId, chapterId);
               process.stdout.clearLine(0);
               process.stdout.cursorTo(0);
-              let bookProgress = bookNameId;
+              let _lPBId = bookNameId;
               if (bookNameId != tmp.bookNameId) {
-                bookProgress = tmp.bookNameId + " - " + bookNameId;
+                _lPBId = tmp.bookNameId + " - " + bookNameId;
               }
+              let _lPId = " >" + identify;
               process.stdout.write(
-                identify + " > " + bookProgress + "." + chapterId + " "
+                _lPId + " > " + _lPBId + "." + chapterId + " "
               );
             }
           }
@@ -924,6 +925,7 @@ export async function doMapContent(req) {
   return await doMapCore(async (info) => {
     const identify = info.id;
     const listIndex = settings.list.findIndex((e) => e.id == identify);
+    let delayToPause = 3000;
 
     if (listIndex == -1) {
       settings.list.push({
@@ -940,9 +942,9 @@ export async function doMapContent(req) {
       }
     } else {
       console.log("already scanned", identify);
+      delayToPause = 300;
     }
-    let delayToPause = 3000;
-    console.log("> stop now or resume in", delayToPause, "milliseconds");
+    console.log(" > stop now or resume in", delayToPause, "milliseconds");
     await new Promise((resolve) => setTimeout(resolve, delayToPause));
   });
 }
