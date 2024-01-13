@@ -687,21 +687,25 @@ export async function doScanBook(identify, bible, versionData) {
         for (let cIndex = 0; cIndex < chapters.length; cIndex++) {
           const chapter = chapters[cIndex];
           const chapterId = chapter.human;
-          const dom = await doScanChapter(bookNameId, chapterId);
-          if (dom) {
-            const res = await examine(dom);
-            if (res && res.status > 0) {
-              // bible[bookId][chapterId] = res.verse;
 
-              if (!bible.book[bookId].chapter) {
-                bible.book[bookId].chapter = {};
+          // "canonical": true,
+          if (chapter.canonical == true) {
+            const dom = await doScanChapter(bookNameId, chapterId);
+            if (dom) {
+              const res = await examine(dom);
+              if (res && res.status > 0) {
+                // bible[bookId][chapterId] = res.verse;
+
+                if (!bible.book[bookId].chapter) {
+                  bible.book[bookId].chapter = {};
+                }
+                if (!bible.book[bookId].chapter[chapterId]) {
+                  bible.book[bookId].chapter[chapterId] = {};
+                }
+                bible.book[bookId].chapter[chapterId].verse = res.verse;
               }
-              if (!bible.book[bookId].chapter[chapterId]) {
-                bible.book[bookId].chapter[chapterId] = {};
-              }
-              bible.book[bookId].chapter[chapterId].verse = res.verse;
+              console.log(bookNameId, chapterId);
             }
-            console.log(bookNameId, chapterId);
           }
         }
       }
