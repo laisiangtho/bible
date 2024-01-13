@@ -510,7 +510,7 @@ export async function doScan(req) {
 
   // doScanCore doScanBook;
   await doScanBook(identify, bible, versionData).catch(async (error) => {
-    console.log("> ", error);
+    console.log("> ", identify, error);
 
     console.log("> waiting to continue in", settings.delay, "milliseconds");
 
