@@ -526,9 +526,9 @@ export async function doScan(req) {
   await doScanBook(identify, bible, versionData).catch(async (error) => {
     // console.log("> ", identify, error);
     if (error.statusCode) {
-      console.log("> error ", identify, error.statusCode);
+      console.log("> error", identify, error.statusCode);
     } else if (error.message) {
-      console.log("> ", identify, error.message);
+      console.log(">", identify, error.message);
     }
 
     console.log("> waiting to continue in", settings.delay, "milliseconds");
@@ -670,6 +670,10 @@ async function doScanBook(identify, bible, versionData) {
   // const versionData = await doScanVersion(identify);
   const langData = await doScanLang();
 
+  const tmp = {
+    bookNameId: "",
+  };
+
   if (versionData && versionData.books) {
     const books = versionData.books;
     for (let bIndex = 0; bIndex < books.length; bIndex++) {
@@ -705,16 +709,16 @@ async function doScanBook(identify, bible, versionData) {
 
         for (let cIndex = 0; cIndex < chapters.length; cIndex++) {
           const chapter = chapters[cIndex];
-          // const chapterId = chapter.human;
-          const [bookNameId, chapterId] = chapter.usfm.split(".");
-
           if (chapter.canonical == true) {
+            // const chapterId = chapter.human;
+            const [bookNameId, chapterId] = chapter.usfm.split(".");
+            if (!tmp.bookNameId) {
+              tmp.bookNameId = bookNameId;
+            }
             const dom = await doScanChapter(bookNameId, chapterId);
             if (dom) {
               const res = await examine(dom);
               if (res && res.status > 0) {
-                // bible[bookId][chapterId] = res.verse;
-
                 if (!bible.book[bookId].chapter) {
                   bible.book[bookId].chapter = {};
                 }
@@ -726,8 +730,12 @@ async function doScanBook(identify, bible, versionData) {
               // console.log(bookNameId, chapterId);
               process.stdout.clearLine(0);
               process.stdout.cursorTo(0);
+              let bookProgress = bookNameId;
+              if (bookNameId != tmp.bookNameId) {
+                bookProgress = tmp.bookNameId + " - " + bookNameId;
+              }
               process.stdout.write(
-                identify + " > " + bookNameId + "." + chapterId
+                identify + " > " + bookProgress + "." + chapterId + " "
               );
             }
           }
@@ -933,6 +941,9 @@ export async function doMapContent(req) {
     } else {
       console.log("already scanned", identify);
     }
+    let delayToPause = 3000;
+    console.log("> stop now or resume in", delayToPause, "milliseconds");
+    await new Promise((resolve) => setTimeout(resolve, delayToPause));
   });
 }
 
