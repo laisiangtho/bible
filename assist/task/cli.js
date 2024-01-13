@@ -42,15 +42,26 @@ async function doLang(name) {
  * @param {string} [name]
  */
 async function doTest(name) {
+  const test = await import("./test.js");
   switch (name) {
     case "config":
-      return (await import("./test.js")).default;
+      return test.doConfig;
     default:
-      return noName;
+      return test.default;
   }
 }
 
 /**
+ * @example
+ * node run task wbc
+ * node run task wbc check
+ * node run task wbc request
+ * node run task wbc read
+ * node run task wbc scan
+ * node run task wbc scanAll
+ * node run task wbc new
+ * node run task wbc content
+ * node run task wbc context
  * @param {string} [name]
  */
 async function doWBC(name) {
@@ -67,8 +78,12 @@ async function doWBC(name) {
       return (await import("./wbc.js")).doScanAll;
     case "new":
       return (await import("./wbc.js")).doNew;
-    case "map":
-      return (await import("./wbc.js")).doMap;
+    case "content":
+      return (await import("./wbc.js")).doMapContent;
+    case "context":
+      return (await import("./wbc.js")).doMapContext;
+    case "language":
+      return (await import("./wbc.js")).doMapLanguage;
     default:
       return (await import("./wbc.js")).doDefault;
   }

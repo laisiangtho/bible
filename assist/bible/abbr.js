@@ -30,7 +30,6 @@ export default async function doDefault(req) {
   // const selection = "Gen.1.3-4, 4; Gen.1.4";
   // const selection = "Est.4:3,6; Gen.1.2-8; Exo 2:4";
 
-  console.log(req);
   if (!selection) {
     return "no selection";
   }
@@ -43,7 +42,8 @@ export default async function doDefault(req) {
 
   const res = await env.getBibleByReference(identify, reference);
 
-  await base.writeJSON("./tmp/result-search.json", res, 2);
+  let resultFile = "./tmp/result-abbr.json";
+  await base.writeJSON(resultFile, res, 2);
 
-  return "abbreviation: " + identify;
+  return "abbreviation: " + identify + ", result: " + resultFile;
 }

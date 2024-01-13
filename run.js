@@ -1,6 +1,6 @@
 import core from "./core.js";
 import "./assist/command.js";
-import { config } from "./assist/index.js";
+// import { config } from "./assist/index.js";
 
 /**
  * Please mind the reserved keywords (sql,mongo,Config,args,etc) in module.exports
@@ -15,15 +15,15 @@ const app = core.command();
  * const usage = app.memoryUsage();
  * for (var name in usage) console.log(usage, app.byteToMB(usage[name]), "mb");
  */
-app.listen(function(msg) {
-	if (msg) {
-		console.log("...", msg);
-	}
+app.listen(function (msg) {
+  if (msg) {
+    console.log("...", msg);
+  }
 });
 
-app.close(function(error) {
-	if (error) {
-		console.log("...", error);
-	}
-	core.db.mysql.close();
+app.close(function (error) {
+  if (error) {
+    console.log("...", error);
+  }
+  core.db.mysql.close();
 });

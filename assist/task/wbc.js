@@ -1,4 +1,5 @@
 import { JSDOM } from "jsdom";
+import * as fs from "fs";
 import { seek, ask } from "lethil";
 import * as base from "./base.js";
 
@@ -52,7 +53,7 @@ const settings = await base.readJSON(settings_file, _settings);
 let taskCurrent = settings.list.find((e) => e.id == settings.scan);
 
 /**
- * https://~.com/~/iN/bN.cN.iE
+ * //~.com/~/iN/bN.cN.iE
  * @param {string} bN - bookNameId
  * @param {string|number} cN - chapterId
  * param {string} cN - chapterId
@@ -73,7 +74,7 @@ function urlChapter(bN, cN) {
 }
 
 /**
- * https://www.~.com/api/~/version/iN
+ * //~.com/api/~/version/iN
  * @param {string} id
  */
 function uaVersion(id) {
@@ -84,11 +85,11 @@ function uaVersion(id) {
 }
 
 /**
- * fileName: ./assist/?/tmp/scanId/bN.cN.html
+ * fileName: !/bible/?/scanId/bN.cN.html
  * @param {string} bN - bookNameId
  * @param {string|number} cN - chapterId
  */
-function cacheFile(bN, cN) {
+function fileCache(bN, cN) {
   let root = settings.html.replace("!", config.storage);
   return root
     .replace("?", taskId)
@@ -98,19 +99,43 @@ function cacheFile(bN, cN) {
 }
 
 /**
- * fileName: ./assist/?/tmp/scanId.json
+ * fileName: !/bible/?/scanId.json
  */
-function fruitFile() {
+function fileFruit() {
   let root = settings.fruit.replace("!", config.storage);
   return root.replace("?", taskId).replace("scanId", settings.scan);
-  // return settings.fruit.replace("?", taskId).replace("scanId", settings.scan);
+}
+
+/**
+ * fileName: !/bible/?/scanId/info.json
+ */
+function fileVersion() {
+  let root = settings.html.replace("!", config.storage);
+  return root
+    .replace("?", taskId)
+    .replace("scanId", settings.scan)
+    .replace("bN.cN", "version")
+    .replace(".html", ".json");
+}
+
+/**
+ * fileName: !/bible/?/scanId/lang.json
+ */
+function fileLang() {
+  let root = settings.html.replace("!", config.storage);
+  return root
+    .replace("?", taskId)
+    .replace("scanId", settings.scan)
+    .replace("bN.cN", "lang")
+    .replace(".html", ".json");
 }
 
 /**
  * fileName: ./json/~.json
+ * fileDoc
  * @param {string} identify
  */
-function docFile(identify) {
+function fileDoc(identify) {
   return settings.doc.replace("~", identify);
 }
 
@@ -119,8 +144,12 @@ function docFile(identify) {
  * @param {any} req
  */
 export async function doDefault(req) {
-  console.log(fruitFile());
-  // console.log(config.storage);
+  let _langListFile = fileDoc("listOfLang").replace("/json", "/tmp/wbc");
+
+  let _incompleteFile = _langListFile.replace("listOfLang", "incomplete");
+  console.log(_langListFile);
+  console.log(_incompleteFile);
+
   return "Oops";
 }
 
@@ -137,7 +166,7 @@ export async function doCheck(req) {
   for (let index = 0; index < listOfBible.book.length; index++) {
     let obj = listOfBible.book[index];
     const identify = obj.identify;
-    let file = docFile(identify);
+    let file = fileDoc(identify);
     let alreadyCache = seek.exists(file);
     if (alreadyCache == "") {
       nonBook.push(identify);
@@ -167,7 +196,7 @@ export async function doCheck(req) {
     let docIndex = -1;
 
     if (identify) {
-      let docFilePath = docFile(identify);
+      let docFilePath = fileDoc(identify);
       if (seek.exists(docFilePath)) {
         docFileExist = true;
       }
@@ -263,7 +292,7 @@ async function doRequestCore(bN, cN, save) {
   const wbcBody = tpl.replace("?", wbcInnerHTML);
 
   if (save) {
-    let file = cacheFile(bN, cN);
+    let file = fileCache(bN, cN);
     await seek.write(file, wbcBody);
   }
 
@@ -272,11 +301,13 @@ async function doRequestCore(bN, cN, save) {
 
 /**
  * Add new version/language of Bible
- * request version, expected to be JSON
+ * request version, expected JSON
  * *.books
  * @param {any} req
  * @example
  * node run task wbc new
+ * doNew({ query: { id: identify } });
+ * doNew({ query: { id: identify, dir:"lang" } });
  */
 export async function doNew(req) {
   if (!settings.scan) {
@@ -285,6 +316,25 @@ export async function doNew(req) {
 
   const identify = req.query.id || taskCurrent?.identify || settings.scan;
 
+  let docFilePath = fileDoc(identify);
+  if (req.query.dir) {
+    const abc = "/tmp/?".replace("?", req.query.dir);
+    docFilePath = docFilePath.replace("/json", abc);
+    // listOfBible.book.find(e=>e.);
+    const setId = settings.list.find((e) => e.id == identify);
+    if (setId && setId.identify) {
+      if (seek.exists(docFilePath)) {
+        fs.unlinkSync(docFilePath);
+      }
+      // await fs.unlink(docFilePath);
+      docFilePath = docFilePath.replace(identify, setId.identify);
+    }
+  }
+
+  if (seek.exists(docFilePath)) {
+    return "record file already exists at:" + docFilePath;
+  }
+
   const url = uaVersion(identify);
 
   if (!url) {
@@ -292,12 +342,6 @@ export async function doNew(req) {
   }
   if (!structure) {
     return "no structure";
-  }
-
-  const docFilePath = docFile(identify);
-
-  if (seek.exists(docFilePath)) {
-    return "record file already exists at:" + docFilePath;
   }
 
   let api = await (await fetch(url)).json();
@@ -372,7 +416,9 @@ export async function doNew(req) {
   }
 
   await base.writeJSON(docFilePath, res, 2);
-  await base.writeJSON(docFilePath.replace(".json", ".v0.json"), res, 2);
+  if (!req.query.dir) {
+    await base.writeJSON(docFilePath.replace(".json", ".v0.json"), res, 2);
+  }
   console.log("> write JSON at", docFilePath);
   console.log("> see its matching", url);
   return "done: info(name, year, etc), digit, testament and language(book, chapter, verse, etc) needed manually input";
@@ -397,7 +443,7 @@ export async function doRead(req) {
  * @param {boolean} [save] - if true write tmp JSON file
  */
 async function doReadCore(bN, cN, save) {
-  let file = cacheFile(bN, cN);
+  let file = fileCache(bN, cN);
 
   let dom = await JSDOM.fromFile(file);
   let res = await examine(dom);
@@ -414,6 +460,7 @@ async function doReadCore(bN, cN, save) {
  * @example
  * node run task wbc scan
  * node run task wbc scan --id=368
+ * node run task wbc scan --id=1812
  * @param {any} req
  */
 export async function doScan(req) {
@@ -422,8 +469,24 @@ export async function doScan(req) {
     taskCurrent = settings.list.find((e) => e.id == settings.scan);
   }
 
-  if (!taskCurrent) {
-    return "no taskCurrent";
+  // const identify = taskCurrent.identify;
+  const identify = settings.scan;
+
+  const versionData = await doScanVersion(identify);
+  if (!taskCurrent && settings.scan) {
+    if (versionData) {
+      taskCurrent = {
+        id: identify,
+        ext: versionData.abbreviation,
+        identify: identify,
+        note: {},
+      };
+    } else {
+      return "no taskCurrent";
+    }
+  }
+  if (!versionData) {
+    return "no versionData";
   }
 
   /**
@@ -431,131 +494,270 @@ export async function doScan(req) {
    */
   let bible = {};
 
-  const currentIdentify = taskCurrent.identify;
-
-  if (currentIdentify) {
-    let docFilePath = docFile(currentIdentify);
+  if (identify) {
+    let docFilePath = fileDoc(identify);
 
     bible = await base.readJSON(docFilePath, bible);
+  } else {
+    return "no identify";
   }
+
+  // let infoData = await doScanInfo(identify);
 
   if (!bible.book) {
     bible.book = {};
   }
 
-  await doScanCore(bible).catch(async (error) => {
+  // doScanCore doScanBook;
+  await doScanBook(identify, bible, versionData).catch(async (error) => {
     console.log("> ", error);
 
     console.log("> waiting to continue in", settings.delay, "milliseconds");
 
     await new Promise((resolve) => setTimeout(resolve, settings.delay));
-    await doScan({ query: { id: currentIdentify } });
+    await doScan({ query: { id: identify } });
   });
 
-  if (taskCurrent.note) {
-    if (taskCurrent.note.v) {
-      if (currentIdentify) {
-        if (listOfBible.version < settings.version) {
-          listOfBible.version = settings.version;
-        }
+  if (taskCurrent) {
+    if (taskCurrent.note) {
+      if (taskCurrent.note.v) {
+        if (identify) {
+          if (listOfBible.version < settings.version) {
+            listOfBible.version = settings.version;
+          }
 
-        let bookIndex = listOfBible.book.findIndex(
-          (e) => e.identify == currentIdentify
-        );
-        if (bookIndex >= 0) {
-          listOfBible.book[bookIndex].version = taskCurrent.note.v;
-          listOfBible.updated = new Date();
-          await base.writeJSON(config.fileOfBook, listOfBible, 2);
-          console.log("> updated JSON at", config.fileOfBook);
+          let bookIndex = listOfBible.book.findIndex(
+            (e) => e.identify == identify
+          );
+          if (bookIndex >= 0) {
+            listOfBible.book[bookIndex].version = taskCurrent.note.v;
+            listOfBible.updated = new Date();
+            await base.writeJSON(config.fileOfBook, listOfBible, 2);
+            console.log("> updated JSON at", config.fileOfBook);
 
-          const bookInfo = listOfBible.book[bookIndex];
+            const bookInfo = listOfBible.book[bookIndex];
 
-          bible.info.name = bookInfo.name;
-          bible.info.shortname = bookInfo.shortname;
-          bible.info.year = bookInfo.year;
-          bible.info.language = bookInfo.language;
-          bible.info.description = bookInfo.description;
-          bible.info.publisher = bookInfo.publisher;
-          bible.info.contributors = bookInfo.contributors;
-          bible.info.copyright = bookInfo.copyright;
+            bible.info.name = bookInfo.name;
+            bible.info.shortname = bookInfo.shortname;
+            bible.info.year = bookInfo.year;
+            bible.info.language = bookInfo.language;
+            bible.info.description = bookInfo.description;
+            bible.info.publisher = bookInfo.publisher;
+            bible.info.contributors = bookInfo.contributors;
+            bible.info.copyright = bookInfo.copyright;
 
-          const iso = bookInfo.language.name;
-          const file = config.fileOfLang.replace("~", iso);
+            const iso = bookInfo.language.name;
+            const file = config.fileOfLang.replace("~", iso);
 
-          const lang = await base.readJSON(file, {
-            digit: [],
-            language: {},
-            section: {},
-            testament: {},
-            book: {},
-            locale: {},
-          });
+            const lang = await base.readJSON(file, {
+              digit: [],
+              language: {},
+              section: {},
+              testament: {},
+              book: {},
+              locale: {},
+            });
 
-          if (lang.digit.length) {
-            // const name = category.name;
-            let digit = Object.assign({}, bible.digit, lang.digit);
-            bible.digit = Object.values(digit);
-            bible.language = Object.assign({}, bible.language, lang.language);
-            bible.testament = Object.assign(
-              {},
-              bible.testament,
-              lang.testament
-            );
-
-            let o = Object.keys(bible.book);
-
-            for (let index = 0; index < o.length; index++) {
-              const bookId = o[index];
-              if (!bible.book) {
-                bible.book = {};
-              }
-              if (!bible.book[bookId]) {
-                bible.book[bookId] = {};
-              }
-              const description = bible.book[bookId].info.desc;
-              // res.book[bookId].info = bible.book[bookId].info;
-              bible.book[bookId].info = Object.assign(
+            if (lang.digit.length) {
+              // const name = category.name;
+              let digit = Object.assign({}, bible.digit, lang.digit);
+              bible.digit = Object.values(digit);
+              bible.language = Object.assign({}, bible.language, lang.language);
+              bible.testament = Object.assign(
                 {},
-                bible.book[bookId].info,
-                lang.book[bookId].info
+                bible.testament,
+                lang.testament
               );
 
-              bible.book[bookId].info.desc = description;
+              let o = Object.keys(bible.book);
+
+              for (let index = 0; index < o.length; index++) {
+                const bookId = o[index];
+                if (!bible.book) {
+                  bible.book = {};
+                }
+                if (!bible.book[bookId]) {
+                  bible.book[bookId] = {};
+                }
+                const description = bible.book[bookId].info.desc;
+                // res.book[bookId].info = bible.book[bookId].info;
+                bible.book[bookId].info = Object.assign(
+                  {},
+                  bible.book[bookId].info,
+                  lang.book[bookId].info
+                );
+
+                bible.book[bookId].info.desc = description;
+              }
             }
+          } else {
+            console.log(
+              "> book record is",
+              identify,
+              "missing in",
+              config.fileOfBook
+            );
           }
-        } else {
-          console.log(
-            "> book record is",
-            currentIdentify,
-            "missing in",
-            config.fileOfBook
-          );
+
+          bible.info.version = taskCurrent.note.v;
+          bible.info.identify = identify;
+
+          let docFilePath = fileDoc(identify);
+          await base.writeJSON(docFilePath, bible);
+          console.log("> replaced JSON at", docFilePath);
         }
-
-        bible.info.version = taskCurrent.note.v;
-        bible.info.identify = currentIdentify;
-
-        let docFilePath = docFile(currentIdentify);
-        await base.writeJSON(docFilePath, bible);
-        console.log("> replaced JSON at", docFilePath);
       }
     }
   }
 
-  let fruitFileName = fruitFile();
+  let fruitFileName = fileFruit();
   // NOTE: write on each book
   await base.writeJSON(fruitFileName, bible, 2);
   console.log("> write JSON at", fruitFileName);
-  let msg = "scanned: " + taskCurrent.id;
+  let msg = "scanned: " + identify;
 
   return msg;
 }
 
 /**
- * scan internal
+ * internal: read or request of version
+ * @param {string} identify
+ */
+async function doScanVersion(identify) {
+  try {
+    let data;
+    let file = fileVersion();
+    let local = seek.exists(file);
+    if (local) {
+      data = await base.readJSON(file);
+    } else {
+      const url = uaVersion(identify);
+      data = await (await fetch(url)).json();
+      await base.writeJSON(file, data, 2);
+    }
+    return data;
+  } catch (error) {
+    return null;
+  }
+}
+
+/**
+ * internal: book of (version, chapter, lang)
+ * @param {string} identify
+ * @param {base.env.TypeOfBible} bible
+ * @param {any} versionData
+ */
+export async function doScanBook(identify, bible, versionData) {
+  // const versionData = await doScanVersion(identify);
+  const langData = await doScanLang();
+
+  if (versionData && versionData.books) {
+    const books = versionData.books;
+    for (let bIndex = 0; bIndex < books.length; bIndex++) {
+      const bookOfResponse = books[bIndex];
+      const bookOfCategory = category.book.find(
+        (e) =>
+          e.info.shortname.toLowerCase() == bookOfResponse.usfm.toLowerCase()
+      );
+      // const bookOfCategory = category.book.find(
+      //   (e) =>
+      //     e.info.shortname.toLowerCase() ==
+      //     bookOfResponse.abbreviation.toLowerCase()
+      // );
+      if (bookOfCategory) {
+        const bookId = bookOfCategory.id;
+        const bookNameId = bookOfResponse.usfm;
+        const chapters = bookOfResponse.chapters;
+        if (!bible.book[bookId]) {
+          bible.book[bookId] = {};
+        }
+        if (!langData.book[bookId]) {
+          langData.book[bookId] = {
+            info: {},
+          };
+        }
+        const langBookInfo = {
+          name: bookOfResponse.human,
+          shortname: bookOfResponse.abbreviation,
+          abbr: [],
+          desc: bookOfResponse.human_long,
+        };
+        langData.book[bookId].info = langBookInfo;
+
+        for (let cIndex = 0; cIndex < chapters.length; cIndex++) {
+          const chapter = chapters[cIndex];
+          const chapterId = chapter.human;
+          const dom = await doScanChapter(bookNameId, chapterId);
+          if (dom) {
+            const res = await examine(dom);
+            if (res && res.status > 0) {
+              // bible[bookId][chapterId] = res.verse;
+
+              if (!bible.book[bookId].chapter) {
+                bible.book[bookId].chapter = {};
+              }
+              if (!bible.book[bookId].chapter[chapterId]) {
+                bible.book[bookId].chapter[chapterId] = {};
+              }
+              bible.book[bookId].chapter[chapterId].verse = res.verse;
+            }
+            console.log(bookNameId, chapterId);
+          }
+        }
+      }
+    }
+    // Update lang
+    const langFile = fileLang();
+    await base.writeJSON(langFile, langData, 2);
+  }
+}
+
+/**
+ * internal: read or request of chapter
+ * @param {string} bookNameId
+ * @param {string} chapterId
+ */
+async function doScanChapter(bookNameId, chapterId) {
+  let chapterFile = fileCache(bookNameId, chapterId);
+  let alreadyCache = seek.exists(chapterFile);
+  if (alreadyCache) {
+    return await JSDOM.fromFile(chapterFile);
+  } else {
+    return await doRequestCore(bookNameId, chapterId, true);
+  }
+}
+
+/**
+ * internal: read of lang
+ */
+async function doScanLang() {
+  const langFile = fileLang();
+  const res = await base.readJSON(langFile, {
+    digit: [],
+    language: {},
+    section: {},
+    testament: {},
+    book: {},
+  });
+
+  let digit = Object.assign({}, category.digit, res.digit);
+  res.digit = Object.values(digit);
+
+  res.language = Object.assign({}, category.language, res.language);
+  res.section = Object.assign({}, category.section, res.section);
+  res.testament = Object.assign({}, category.testament, res.testament);
+  // res.locale = Object.assign({}, category.locale, res.locale);
+
+  return res;
+}
+
+/**
+ * internal: book of (dump)
+ * @param {string} identify
  * @param {base.env.TypeOfBible} bible
  */
-async function doScanCore(bible) {
+async function doScanCore(identify, bible) {
+  await doScanVersion(identify);
   const books = category.book;
 
   for (let index = 0; index < books.length; index++) {
@@ -574,7 +776,7 @@ async function doScanCore(bible) {
     for (let index = 0; index < chapterCount.length; index++) {
       // const verseCount = chapterCount[index];
       const chapterId = index + 1;
-      let file = cacheFile(bookNameId, chapterId);
+      let file = fileCache(bookNameId, chapterId);
 
       // const dom = await doRequestCore(bookNameId, chapterId, true);
       // const res = await examine(dom);
@@ -629,10 +831,135 @@ export async function doScanAll(req) {
 }
 
 /**
- * Map all starting from configuration
+ * Map and scan contents starting from configuration
+ * Expected: 3085
+ * @example
+ * node run task wbc content
  * @param {any} req
  */
-export async function doMap(req) {
+export async function doMapContent(req) {
+  return await doMapCore(async (info) => {
+    const identify = info.id;
+    const listIndex = settings.list.findIndex((e) => e.id == identify);
+
+    if (listIndex == -1) {
+      settings.list.push({
+        id: identify,
+        ext: info.abbreviation,
+        identify: identify,
+        note: {},
+      });
+      const msg = await doScan({ query: { id: identify } });
+      console.log(msg);
+      if (msg.startsWith("scanned")) {
+        await base.writeJSON(settings_file, settings, 2);
+        console.log("updated settings");
+      }
+    } else {
+      console.log("already scanned", identify);
+    }
+  });
+}
+
+/**
+ * Map and scan info then write
+ * @example
+ * node run task wbc context
+ * @param {any} req
+ */
+export async function doMapContext(req) {
+  // await doMapCore(async (info) => {});
+  return await doMapCore(async (info) => {
+    const identify = info.id;
+    const iso = info.language.iso_639_3;
+    // const file = config.fileOfLang.replace("~", iso);
+    // console.log("lang file", file);
+    // const abc = await doNew({ query: { id: identify } });
+    // const msg = await doNew({ query: { id: identify, dir: iso } });
+    const msg = await doNew({ query: { id: identify, dir: "tpl-json" } });
+    console.log(iso, msg);
+  });
+}
+
+/**
+ * Map and scan each iso-639-3 as language
+ * Expected: 2045
+ * @example
+ * node run task wbc language
+ * @param {any} req
+ */
+export async function doMapLanguage(req) {
+  // await doMapCore(async (info) => {});
+  let _langFile = fileDoc("listOfLang").replace("/json", "/tmp/wbc");
+
+  /** @type {base.env.ContextOfLanguage[]} */
+  const _langList = await seek.readJSON(_langFile, []);
+  /**
+   * @type {{incomplete:Array<number>, fail:Array<{id:number, e:any}>}}
+   */
+  const _todo = {
+    incomplete: [],
+    fail: [],
+  };
+  // const _incomplete = [];
+
+  const message = await doMapCore(async (info) => {
+    const identify = info.id;
+    const infoLang = info.language;
+    const iso = infoLang.iso_639_3;
+    if (!_langList.find((e) => e.name == iso)) {
+      /**
+       * @type {base.env.ContextOfLanguage}
+       */
+      let langObj = {
+        text: "",
+        textdirection: "",
+        name: "",
+      };
+      if (infoLang.name) {
+        langObj.text = infoLang.name;
+      }
+      if (infoLang.text_direction) {
+        langObj.textdirection = infoLang.text_direction;
+      }
+      if (infoLang.iso_639_3) {
+        langObj.name = infoLang.iso_639_3;
+      }
+      if (infoLang.local_name) {
+        langObj.local = infoLang.local_name;
+      }
+
+      _langList.push(langObj);
+    }
+    try {
+      let msg = await env.createLanguage(iso, identify);
+      if (msg.startsWith("incomplete")) {
+        _todo.incomplete.push(identify);
+      }
+      console.log(msg);
+    } catch (error) {
+      _todo.fail.push({ id: identify, e: error });
+      console.log(iso, identify, error);
+    }
+  });
+  await seek.writeJSON(_langFile, _langList, 2);
+  let _todoFile = _langFile.replace("listOfLang", "todo");
+  await seek.writeJSON(_todoFile, _todo, 2);
+
+  console.log(
+    "> incomplete",
+    _todo.incomplete.length,
+    "fail",
+    _todo.fail.length
+  );
+  return message;
+}
+
+/**
+ * Map all [uco, ula]
+ * @param {function(object):Promise<void>} callback
+ */
+async function doMapCore(callback) {
   try {
     const urlConfiguration = settings.uco?.replace(/~/g, idName);
     let dataConfiguration = await ask.request(urlConfiguration);
@@ -652,47 +979,14 @@ export async function doMap(req) {
       let dataLanguage = await ask.request(urlLanguage);
 
       const langJSON = JSON.parse(dataLanguage);
-      const bibles = langJSON.response.data.versions;
-      // const bible = bibles[0];
+      const versions = langJSON.response.data.versions;
 
-      for (let bIndex = 0; bIndex < bibles.length; bIndex++) {
-        const bible = bibles[bIndex];
-        const identify = bible.id;
-        // const iso = bible.language.iso_639_3;
-        // settings.scan = identify;
-
-        const listIndex = settings.list.findIndex((e) => e.id == identify);
-
-        if (listIndex == -1) {
-          settings.list.push({
-            id: identify,
-            ext: bible.abbreviation,
-            identify: identify,
-            note: {},
-          });
-          const msg = await doScan({ query: { id: identify } });
-          console.log(msg);
-          if (msg.startsWith("scanned")) {
-            await base.writeJSON(settings_file, settings, 2);
-            console.log("update settings");
-          }
-        }
+      for (let index = 0; index < versions.length; index++) {
+        await callback(versions[index]);
       }
     }
-
-    // const file = config.fileOfLang.replace("~", iso);
-    // console.log("lang file", file);
-    // const abc = await doNew({ query: { id: identify } });
-    // console.log("??", abc);
-
-    // for (let bIndex = 0; bIndex < bibles.length; bIndex++) {
-    //   const bible = bibles[bIndex];
-    // }
-    // for (let lIndex = 0; lIndex < languages.length; lIndex++) {
-    //   const language = languages[lIndex];
-    // }
   } catch (error) {
-    console.log("error", error);
+    console.log(error);
   }
   return "done";
 }

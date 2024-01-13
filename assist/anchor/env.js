@@ -1,10 +1,12 @@
 import core, { seek } from "lethil";
 
 /**
+ *
  * @typedef {Object} ContextOfLanguage
- * @property {string} text - language name [English]
- * @property {string} textdirection - Text direction eg.[ltr]
- * @property {string} name - name [en]
+ * @property {string} text - Seperated by common local to global as of popularity. If empty, not ready production
+ * @property {string} textdirection - text direction eg.[ltr, rtl]
+ * @property {string} [local] - language name (in local)
+ * @property {string} name - language code (ISO-639-3) eg.[eng, ctd]
  *
  * @typedef {Object} TypeOfInfo - ?
  * @property {string} identify - id of the Bible [1,2]
@@ -64,6 +66,9 @@ import core, { seek } from "lethil";
  * @property {TypeOfTestament} testament
  * @property {TypeOfStory} story
  * @property {TypeOfBibleBook} book
+ *
+ * {testament?:number, book:number[]}
+ * @typedef {{testament?:number, book:number[]}} TypeOfSearchParameter
  */
 
 /**
@@ -141,10 +146,25 @@ export const listOfLoadedBible = [];
  * Merge core.config & local
  */
 export const config = core.config.merge({
+  /**
+   * ./book.json
+   */
   fileOfBook: fileOfBook,
+  /**
+   * ./category.json
+   */
   fileOfCategory: fileOfCategory,
+  /**
+   * ./structure.json
+   */
   fileOfStructure: fileOfStructure,
+  /**
+   * ./json/~.json
+   */
   fileOfBible: "./json/~.json",
+  /**
+   * ./lang/~.json
+   */
   fileOfLang: "./lang/~.json",
 });
 
@@ -222,7 +242,7 @@ export function formatReference(param) {
 }
 
 /**
- * Load Bible
+ * Load Bible from `./json/~.json`
  * @param {string?} identify - tedim1932
  * @returns {Promise<TypeOfLoadedBible?>}
  */
@@ -233,17 +253,24 @@ export async function loadBible(identify) {
   }
 
   const currentBibleInfo = listOfBible.book.find((e) => e.identify == identify);
+  const file = config.fileOfBible.replace("~", identify);
+
+  // if (!currentBibleInfo) {
+  //   // return "not found identify: " + identify;
+  //   return null;
+  // }
 
   if (!currentBibleInfo) {
-    // return "not found identify: " + identify;
-    return null;
+    let alreadFile = seek.exists(file);
+    if (alreadFile == "") {
+      return null;
+    }
   }
 
   let currentBible = listOfLoadedBible.find(
     (e) => e.bible.info.identify == identify
   );
   if (!currentBible) {
-    const file = config.fileOfBible.replace("~", identify);
     /**
      * @type {TypeOfBible?}
      */
@@ -257,9 +284,11 @@ export async function loadBible(identify) {
         const e = cat.book[index];
         const i = tmp.book[e.id];
 
-        e.info.abbr.push(i.info.name);
-        e.info.abbr.push(i.info.shortname);
-        e.info.abbr.push(...i.info.abbr);
+        if (i && i.info) {
+          e.info.abbr.push(i.info.name);
+          e.info.abbr.push(i.info.shortname);
+          e.info.abbr.push(...i.info.abbr);
+        }
       }
 
       currentBible = { bible: tmp, category: cat };
@@ -310,6 +339,7 @@ export async function getBibleByReference(identify, arg) {
           if (!res[bookId]) {
             res[bookId] = {};
             res[bookId].info = _itemBook.info;
+            res[bookId].topic = _itemBook.topic;
             res[bookId].chapter = {};
           }
           if (q.verse) {
@@ -345,7 +375,7 @@ export async function getBibleByReference(identify, arg) {
 }
 
 /**
- * Support verse merge
+ * Feature: Support verse merge
  * @example
  * Gamlak Vakna 2:4-5 -> 4.2:3
  * @param {TypeOfVerse} verses - res
@@ -369,7 +399,6 @@ export function getVerse(verses, from, to) {
     if (startAt) {
       if (to) {
         let endAt = _key.filter((e) => parseInt(e) <= parseInt(to)).pop();
-        console.log("endAt", endAt);
         if (endAt) {
           let from = parseInt(startAt);
           let to = parseInt(endAt);
@@ -383,6 +412,177 @@ export function getVerse(verses, from, to) {
     }
   }
   return res;
+}
+
+/**
+ * Load Bible
+ * getByReference
+ * getByKeyword
+ * @param {string} identify
+ * @param {string} keyword
+ * @param {TypeOfSearchParameter} arg
+ * @returns {Promise<TypeOfBibleBook?>}
+ * returns {Promise<any>}
+ */
+export async function getBibleByKeyword(identify, keyword, arg) {
+  // const keyword = "Abraham kiangah";
+  const currentBible = await loadBible(identify);
+  /**
+   * @type {TypeOfBibleBook}
+   */
+  const res = {};
+  if (!currentBible) {
+    return null;
+  }
+
+  // currentBible.bible.book[bookId];
+
+  for (let index = 0; index < arg.book.length; index++) {
+    const bookId = arg.book[index];
+    const book = currentBible.bible.book[bookId];
+    for (const chapterId in book.chapter) {
+      if (Object.hasOwnProperty.call(book.chapter, chapterId)) {
+        const chapter = book.chapter[chapterId];
+        // console.log("book chapter", bookId, chapterId);
+
+        for (const verseId in chapter.verse) {
+          if (Object.hasOwnProperty.call(chapter.verse, verseId)) {
+            const verse = chapter.verse[verseId];
+            // console.log("book chapter verse", bookId, chapterId, verseId);
+
+            const verseMatch = verseSearch(verse.text, keyword);
+            if (verseMatch >= 0) {
+              if (!res[bookId]) {
+                // @ts-ignore
+                res[bookId] = {};
+                res[bookId].info = book.info;
+                res[bookId].topic = book.topic;
+                res[bookId].chapter = {};
+              }
+              if (!res[bookId].chapter[chapterId]) {
+                // @ts-ignore
+                res[bookId].chapter[chapterId] = {};
+              }
+              if (!res[bookId].chapter[chapterId].verse) {
+                res[bookId].chapter[chapterId].verse = {};
+              }
+              res[bookId].chapter[chapterId].verse[verseId] = verse;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // for (const bookId in currentBible.bible.book) {
+  //   if (Object.hasOwnProperty.call(currentBible.bible.book, bookId)) {
+  //     const book = currentBible.bible.book[bookId];
+  //     // console.log("bookId", bookId);
+  //     for (const chapterId in book.chapter) {
+  //       if (Object.hasOwnProperty.call(book.chapter, chapterId)) {
+  //         const chapter = book.chapter[chapterId];
+  //         // console.log("book chapter", bookId, chapterId);
+
+  //         for (const verseId in chapter.verse) {
+  //           if (Object.hasOwnProperty.call(chapter.verse, verseId)) {
+  //             const verse = chapter.verse[verseId];
+  //             // console.log("book chapter verse", bookId, chapterId, verseId);
+
+  //             const verseMatch = verseSearch(verse.text, keyword);
+  //             if (verseMatch >= 0) {
+  //               if (!res[bookId]) {
+  //                 // @ts-ignore
+  //                 res[bookId] = {};
+  //                 res[bookId].info = book.info;
+  //                 res[bookId].topic = book.topic;
+  //                 res[bookId].chapter = {};
+  //               }
+  //               if (!res[bookId].chapter[chapterId]) {
+  //                 // @ts-ignore
+  //                 res[bookId].chapter[chapterId] = {};
+  //               }
+  //               if (!res[bookId].chapter[chapterId].verse) {
+  //                 res[bookId].chapter[chapterId].verse = {};
+  //               }
+  //               res[bookId].chapter[chapterId].verse[verseId] = verse;
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+
+  if (res) {
+    return res;
+  }
+  return null;
+}
+
+/**
+ * ...is internel and responsible for searching verse text
+ * @param {string} text
+ * @param {string | RegExp} keyword
+ * @returns {number} -1: no match
+ */
+function verseSearch(text, keyword) {
+  return text.search(new RegExp(keyword, "i"));
+}
+
+/**
+ * Internal: Language generator
+ * @param {string} iso - iso_639_3
+ * @param {string} identify - book.identify
+ */
+export async function createLanguage(iso, identify) {
+  const file = config.fileOfLang.replace("~", iso);
+  const res = await seek.readJSON(file, {
+    digit: [],
+    language: {},
+    section: {},
+    testament: {},
+    book: {},
+    locale: {},
+  });
+
+  const currentBible = await loadBible(identify);
+  if (currentBible) {
+    const bible = currentBible.bible;
+    // const name = category.name;
+    let digit = Object.assign({}, category.digit, res.digit);
+    res.digit = Object.values(digit);
+    res.language = Object.assign({}, category.language, res.language);
+    res.section = Object.assign({}, category.section, res.section);
+    res.testament = Object.assign({}, category.testament, res.testament);
+    // res.locale = Object.assign({}, category.locale, res.locale);
+
+    if (!res.book) {
+      res.book = {};
+    }
+    let o = Object.keys(bible.book);
+
+    for (let index = 0; index < o.length; index++) {
+      const bookId = o[index];
+      // console.log(bible.book[bookId].info.name, bookId);
+      if (!res.book[bookId]) {
+        res.book[bookId] = {};
+      }
+      // res.book[bookId].info = bible.book[bookId].info;
+      res.book[bookId].info = Object.assign(
+        {},
+        bible.book[bookId].info,
+        res.book[bookId].info
+      );
+      res.book[bookId].info.desc = "";
+      const shortname = res.book[bookId].info.shortname;
+      res.book[bookId].info.shortname = shortname.replace(/\.$/, "");
+    }
+
+    await seek.writeJSON(file, res, 2);
+    return "created # at: ?".replace("#", identify).replace("?", file);
+  } else {
+    return "incomplete # is not ready".replace("#", identify);
+  }
 }
 
 /**

@@ -90,9 +90,19 @@ haven`t, doesn`t
 
 ```shell
 node run {taskIdentify} {taskName} {taskOption}
-node run task wbc
 node run bible search
 node run bible info
+node run task wbc
+```
+
+## taskName: `search`
+
+```shell
+node run bible search niv2011 --q abraham and sarah
+> 'Select testament between [1-2], or empty for both testaments': ?
+> 'Select book between [1-66] seperated by comma eg. 2,4 or empty for all books in Old & New Testament': ?
+
+node run bible search tedim1932 --q Topa kiangah
 ```
 
 ## taskName: `wbc`

@@ -1,10 +1,10 @@
 import * as base from "./base.js";
 
 const env = base.env;
-const config = env.config;
+// const config = env.config;
 const listOfBible = env.listOfBible;
-const category = env.category;
-const structure = env.structure;
+// const category = env.category;
+// const structure = env.structure;
 
 /**
  * @example

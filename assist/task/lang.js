@@ -30,55 +30,10 @@ export async function doGenerate(req) {
     const iso = book.language.name;
     if (!logs.includes(iso)) {
       logs.push(iso);
-      const file = config.fileOfLang.replace("~", iso);
-
-      const res = await base.readJSON(file, {
-        digit: [],
-        language: {},
-        section: {},
-        testament: {},
-        book: {},
-        locale: {},
-      });
 
       const identify = book.identify;
-
-      const currentBible = await env.loadBible(identify);
-      if (currentBible) {
-        const bible = currentBible.bible;
-        // const name = category.name;
-        let digit = Object.assign({}, category.digit, res.digit);
-        res.digit = Object.values(digit);
-        res.language = Object.assign({}, category.language, res.language);
-        res.locale = Object.assign({}, category.locale, res.locale);
-        res.section = Object.assign({}, category.section, res.section);
-        res.testament = Object.assign({}, category.testament, res.testament);
-
-        if (!res.book) {
-          res.book = {};
-        }
-        let o = Object.keys(bible.book);
-
-        for (let index = 0; index < o.length; index++) {
-          const bookId = o[index];
-          // console.log(bible.book[bookId].info.name, bookId);
-          if (!res.book[bookId]) {
-            res.book[bookId] = {};
-          }
-          // res.book[bookId].info = bible.book[bookId].info;
-          res.book[bookId].info = Object.assign(
-            {},
-            bible.book[bookId].info,
-            res.book[bookId].info
-          );
-          res.book[bookId].info.desc = "";
-          const shortname = res.book[bookId].info.shortname;
-          res.book[bookId].info.shortname = shortname.replace(/\.$/, "");
-        }
-
-        await base.writeJSON(file, res, 2);
-        console.log(" >", file, "using", identify);
-      }
+      let msg = await env.createLanguage(iso, identify);
+      console.log(msg);
     }
   }
 
