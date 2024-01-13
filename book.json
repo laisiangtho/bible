@@ -11,10 +11,6 @@
       "language": {
         "text": "Falam, Lai, Chin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "",
-          "639-3": "cfm"
-        },
         "name": "cfm"
       },
       "version": 3,
@@ -31,10 +27,6 @@
       "language": {
         "text": "Hakha, Lai, Chin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "",
-          "639-3": "cnh"
-        },
         "name": "cnh"
       },
       "version": 3,
@@ -51,10 +43,6 @@
       "language": {
         "text": "Mizo, Lushai, Chin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "",
-          "639-3": "lus"
-        },
         "name": "lus"
       },
       "version": 3,
@@ -71,10 +59,6 @@
       "language": {
         "text": "Mizo, Lushai",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "",
-          "639-3": "lus"
-        },
         "name": "lus"
       },
       "version": 2,
@@ -91,10 +75,6 @@
       "language": {
         "text": "Paite, Zolai, Chin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "",
-          "639-3": "pck"
-        },
         "name": "pck"
       },
       "version": 3,
@@ -111,10 +91,6 @@
       "language": {
         "text": "Sizang, Zolai, Chin, Siyin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "",
-          "639-3": "csy"
-        },
         "name": "csy"
       },
       "version": 3,
@@ -131,10 +107,6 @@
       "language": {
         "text": "Tedim, Zolai, Chin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "",
-          "639-3": "ctd"
-        },
         "name": "ctd"
       },
       "version": 3,
@@ -151,10 +123,6 @@
       "language": {
         "text": "Mara, Chin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "",
-          "639-3": "mrh"
-        },
         "name": "mrh"
       },
       "version": 3,
@@ -171,10 +139,6 @@
       "language": {
         "text": "Matu, Chin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "",
-          "639-3": "hlt"
-        },
         "name": "hlt"
       },
       "version": 3,
@@ -191,10 +155,6 @@
       "language": {
         "text": "Zo, Zou, Chin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "zo",
-          "639-3": "zom"
-        },
         "name": "zom"
       },
       "version": 3,
@@ -211,10 +171,6 @@
       "language": {
         "text": "Zo, Zou, Chin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "zo",
-          "639-3": "zom"
-        },
         "name": "zom"
       },
       "version": 2,
@@ -231,10 +187,6 @@
       "language": {
         "text": "Thadou, Kuki, Chin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "",
-          "639-3": "tcz"
-        },
         "name": "tcz"
       },
       "version": 2,
@@ -251,10 +203,6 @@
       "language": {
         "text": "Myanmar",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "my",
-          "639-3": "mya"
-        },
         "name": "mya"
       },
       "version": 3,
@@ -271,10 +219,6 @@
       "language": {
         "text": "Myanmar",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "my",
-          "639-3": "mya"
-        },
         "name": "mya"
       },
       "version": 2,
@@ -291,10 +235,6 @@
       "language": {
         "text": "Myanmar",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "my",
-          "639-3": "mya"
-        },
         "name": "mya"
       },
       "version": 3,
@@ -311,10 +251,6 @@
       "language": {
         "text": "Myanmar",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "my",
-          "639-3": "mya"
-        },
         "name": "mya"
       },
       "version": "2",
@@ -331,10 +267,6 @@
       "language": {
         "text": "Jinghpaw, Kachin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "",
-          "639-3": "kac"
-        },
         "name": "kac"
       },
       "version": 3,
@@ -351,10 +283,6 @@
       "language": {
         "text": "Jinghpaw, Kachin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "",
-          "639-3": "kac"
-        },
         "name": "kac"
       },
       "version": 2,
@@ -371,10 +299,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 3,
@@ -391,10 +315,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 3,
@@ -411,10 +331,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": "1",
@@ -431,10 +347,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 3,
@@ -451,10 +363,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 3,
@@ -471,10 +379,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -491,10 +395,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -511,10 +411,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -531,10 +427,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -551,10 +443,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -571,10 +459,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -591,10 +475,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -611,10 +491,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -631,10 +507,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -651,10 +523,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -671,10 +539,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -691,10 +555,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -711,10 +571,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -731,10 +587,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -751,10 +603,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -771,10 +619,6 @@
       "language": {
         "text": "English",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "en",
-          "639-3": "eng"
-        },
         "name": "eng"
       },
       "version": 2,
@@ -791,10 +635,6 @@
       "language": {
         "text": "Danish",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "da",
-          "639-3": "dan"
-        },
         "name": "dan"
       },
       "version": 2,
@@ -810,10 +650,6 @@
       "language": {
         "text": "Norwegian/Bokmål",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "no",
-          "639-3": "nob"
-        },
         "name": "nob"
       },
       "version": 2,
@@ -830,10 +666,6 @@
       "language": {
         "text": "Norwegian/Bokmål",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "no",
-          "639-3": "nob"
-        },
         "name": "nob"
       },
       "version": 2,
@@ -850,10 +682,6 @@
       "language": {
         "text": "Swedish",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "sv",
-          "639-3": "swe"
-        },
         "name": "swe"
       },
       "version": 1,
@@ -870,10 +698,6 @@
       "language": {
         "text": "Finnish",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "fi",
-          "639-3": "fin"
-        },
         "name": "fin"
       },
       "version": 1,
@@ -890,10 +714,6 @@
       "language": {
         "text": "French",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "fr",
-          "639-3": "fra"
-        },
         "name": "fra"
       },
       "version": 3,
@@ -910,10 +730,6 @@
       "language": {
         "text": "German",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "de",
-          "639-3": "deu"
-        },
         "name": "deu"
       },
       "version": 3,
@@ -930,10 +746,6 @@
       "language": {
         "text": "Japanese",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "ja",
-          "639-3": "jpn"
-        },
         "name": "jpn"
       },
       "version": 2,
@@ -950,10 +762,6 @@
       "language": {
         "text": "Japanese",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "ja",
-          "639-3": "jpn"
-        },
         "name": "jpn"
       },
       "version": 2,
@@ -970,10 +778,6 @@
       "language": {
         "text": "Thai",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "th",
-          "639-3": "tha"
-        },
         "name": "tha"
       },
       "version": 2,
@@ -990,10 +794,6 @@
       "language": {
         "text": "Hindi",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "hi",
-          "639-3": "hin"
-        },
         "name": "hin"
       },
       "version": 2,
@@ -1010,10 +810,6 @@
       "language": {
         "text": "Hindi",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "hi",
-          "639-3": "hin"
-        },
         "name": "hin"
       },
       "version": 2,
@@ -1030,10 +826,6 @@
       "language": {
         "text": "Korean",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "ko",
-          "639-3": "kor"
-        },
         "name": "kor"
       },
       "version": 2,
@@ -1050,10 +842,6 @@
       "language": {
         "text": "Korean",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "ko",
-          "639-3": "kor"
-        },
         "name": "kor"
       },
       "version": 2,
@@ -1070,10 +858,6 @@
       "language": {
         "text": "Chinese (Simplified)",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "zh_CN",
-          "639-3": "zho"
-        },
         "name": "zho"
       },
       "version": 2,
@@ -1090,10 +874,6 @@
       "language": {
         "text": "Chinese (Simplified)",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "zh_CN",
-          "639-3": "zho"
-        },
         "name": "zho"
       },
       "version": 2,
@@ -1110,10 +890,6 @@
       "language": {
         "text": "Tagalog",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "tl",
-          "639-3": "tgl"
-        },
         "name": "tgl"
       },
       "version": 1,

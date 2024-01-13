@@ -1,7 +1,5 @@
 {
   "scan": 3411,
-  "_b_fruit": "./assets/?/tmp/scanId.json",
-  "_b_html": "./assets/?/tmp/scanId/bN.cN.html",
   "fruit": "!/bible/?/scanId.json",
   "html": "!/bible/?/scanId/bN.cN.html",
   "doc": "./json/~.json",
@@ -482,10 +480,6 @@
       "language": {
         "text": "Tedim, Zolai, Chin",
         "textdirection": "ltr",
-        "iso": {
-          "639-1": "zo",
-          "639-3": "zom"
-        },
         "name": "zom"
       },
       "version": 0,
@@ -502,10 +496,6 @@
       "language": {
         "text": "Arabic (Standard)",
         "textdirection": "rtl",
-        "iso": {
-          "639-1": "ar",
-          "639-3": "arb"
-        },
         "name": "arb"
       },
       "version": 0,
