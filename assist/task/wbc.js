@@ -647,7 +647,7 @@ async function doScanVersion(identify) {
  * @param {base.env.TypeOfBible} bible
  * @param {any} versionData
  */
-export async function doScanBook(identify, bible, versionData) {
+async function doScanBook(identify, bible, versionData) {
   // const versionData = await doScanVersion(identify);
   const langData = await doScanLang();
 
@@ -666,7 +666,7 @@ export async function doScanBook(identify, bible, versionData) {
       // );
       if (bookOfCategory) {
         const bookId = bookOfCategory.id;
-        const bookNameId = bookOfResponse.usfm;
+        // const bookNameId = bookOfResponse.usfm;
         const chapters = bookOfResponse.chapters;
         if (!bible.book[bookId]) {
           bible.book[bookId] = {};
@@ -686,7 +686,8 @@ export async function doScanBook(identify, bible, versionData) {
 
         for (let cIndex = 0; cIndex < chapters.length; cIndex++) {
           const chapter = chapters[cIndex];
-          const chapterId = chapter.human;
+          // const chapterId = chapter.human;
+          const [bookNameId, chapterId] = chapter.usfm.split(".");
 
           // "canonical": true,
           if (chapter.canonical == true) {
