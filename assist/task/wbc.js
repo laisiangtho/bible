@@ -734,10 +734,9 @@ async function doScanBook(identify, bible, versionData) {
               if (bookNameId != tmp.bookNameId) {
                 _lPBId = tmp.bookNameId + " - " + bookNameId;
               }
-              let _lPId = " >" + identify;
-              process.stdout.write(
-                _lPId + " > " + _lPBId + "." + chapterId + " "
-              );
+
+              let _lPId = " > " + identify + " > " + _lPBId;
+              process.stdout.write(_lPId + "." + chapterId + " ");
             }
           }
         }
