@@ -144,11 +144,25 @@ function fileDoc(identify) {
  * @param {any} req
  */
 export async function doDefault(req) {
-  let _langListFile = fileDoc("listOfLang").replace("/json", "/tmp/wbc");
+  // let _langListFile = fileDoc("listOfLang").replace("/json", "/tmp/wbc");
 
-  let _incompleteFile = _langListFile.replace("listOfLang", "incomplete");
-  console.log(_langListFile);
-  console.log(_incompleteFile);
+  // let _incompleteFile = _langListFile.replace("listOfLang", "incomplete");
+  // console.log(_langListFile);
+  // console.log(_incompleteFile);
+  for (let index = 0; index < 12; index++) {
+    const progress = index;
+
+    process.stdout.clearLine(0);
+    process.stdout.cursorTo(0);
+    process.stdout.write(progress + "%");
+  }
+  console.log("\nhello\n");
+  for (let index = 0; index < 100; index++) {
+    const progress = index;
+    process.stdout.clearLine(0);
+    process.stdout.cursorTo(0);
+    process.stdout.write(progress + "%");
+  }
 
   return "Oops";
 }
@@ -460,7 +474,7 @@ async function doReadCore(bN, cN, save) {
  * @example
  * node run task wbc scan
  * node run task wbc scan --id=368
- * node run task wbc scan --id=1812
+ * node run task wbc scan --id=1812 nonDoc=none
  * @param {any} req
  */
 export async function doScan(req) {
@@ -510,7 +524,12 @@ export async function doScan(req) {
 
   // doScanCore doScanBook;
   await doScanBook(identify, bible, versionData).catch(async (error) => {
-    console.log("> ", identify, error);
+    // console.log("> ", identify, error);
+    if (error.statusCode) {
+      console.log("> error ", identify, error.statusCode);
+    } else if (error.message) {
+      console.log("> ", identify, error.message);
+    }
 
     console.log("> waiting to continue in", settings.delay, "milliseconds");
 
@@ -518,7 +537,7 @@ export async function doScan(req) {
     await doScan({ query: { id: identify } });
   });
 
-  if (taskCurrent) {
+  if (taskCurrent && req.query.nonDoc == undefined) {
     if (taskCurrent.note) {
       if (taskCurrent.note.v) {
         if (identify) {
@@ -689,7 +708,6 @@ async function doScanBook(identify, bible, versionData) {
           // const chapterId = chapter.human;
           const [bookNameId, chapterId] = chapter.usfm.split(".");
 
-          // "canonical": true,
           if (chapter.canonical == true) {
             const dom = await doScanChapter(bookNameId, chapterId);
             if (dom) {
@@ -705,7 +723,12 @@ async function doScanBook(identify, bible, versionData) {
                 }
                 bible.book[bookId].chapter[chapterId].verse = res.verse;
               }
-              console.log(bookNameId, chapterId);
+              // console.log(bookNameId, chapterId);
+              process.stdout.clearLine(0);
+              process.stdout.cursorTo(0);
+              process.stdout.write(
+                identify + " > " + bookNameId + "." + chapterId
+              );
             }
           }
         }
@@ -817,22 +840,69 @@ async function doScanCore(identify, bible) {
 
 /**
  * Scan all
+ * @example
+ * node run task wbc scanAll
+ * node run task wbc scanAll --nonDoc=none
+ * node run task wbc scanAll --o=empty
+ * node run task wbc scanAll --o=equalTo v=3
+ * node run task wbc scanAll --o=lessThan v=6
+ * node run task wbc scanAll --o=lessOrEqual v=7
+ * node run task wbc scanAll --o=greaterThan v=1
+ * node run task wbc scanAll --o=greaterOrEqual v=0
+ * node run task wbc scanAll --o=greaterOrEqual v=0 nonDoc=none
  * @param {any} req
  */
 export async function doScanAll(req) {
-  const tmp = settings.list;
-
-  const scanedList = [];
-
-  for (let index = 0; index < tmp.length; index++) {
-    const data = tmp[index];
-    const id = data.id;
-    await doScan({ query: { id: id } });
-    scanedList.push(id);
+  let scanedList = [];
+  let ope = req.query.o;
+  let ver = req.query.v;
+  let nonDoc = req.query.nonDoc;
+  for (let index = 0; index < settings.list.length; index++) {
+    let data = settings.list[index];
+    let tmp = doScanAllFilter(data, ope, ver);
+    if (tmp) {
+      let id = data.id;
+      let query = { id: id };
+      if (nonDoc) {
+        query.nonDoc = nonDoc;
+      }
+      // await doScan({ query: { id: id, nonDoc: "none" } });
+      await doScan({ query: query });
+      scanedList.push(id);
+    }
   }
   console.log("scanned", scanedList);
   console.log("total", scanedList.length);
   return "done";
+}
+
+/**
+ * @param {TypeOfListData} data
+ * @param {any} ope - note version operator
+ * @param {any} ver - note version value
+ */
+function doScanAllFilter(data, ope, ver) {
+  let version = data.note.v;
+  if (!ope && !ver) {
+    return true;
+  } else if (version == undefined) {
+    if (ope == "empty") {
+      return true;
+    }
+  } else {
+    if (ope == "equalTo" && version == ver) {
+      return true;
+    } else if (ope == "lessThan" && version < ver) {
+      return true;
+    } else if (ope == "lessOrEqual" && version <= ver) {
+      return true;
+    } else if (ope == "greaterThan" && version > ver) {
+      return true;
+    } else if (ope == "greaterOrEqual" && version >= ver) {
+      return true;
+    }
+  }
+  return false;
 }
 
 /**
