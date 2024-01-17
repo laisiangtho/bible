@@ -32,6 +32,7 @@ const settings_file = "./assets/?/settings.json".replace("?", taskId);
  * @property {string} [ula] - api language
  * @property {number} version - version number
  * @property {number} delay - in milliseconds
+ * @property {any[]} skip - skipped chapter in book
  * @property {TypeOfListData[]} list
  */
 
@@ -45,6 +46,7 @@ const _settings = {
   doc: "",
   delay: 60000,
   version: 0,
+  skip: [],
   list: [],
 };
 const settings = await base.readJSON(settings_file, _settings);
@@ -56,21 +58,20 @@ let taskCurrent = settings.list.find((e) => e.id == settings.scan);
  * //~.com/~/iN/bN.cN.iE
  * @param {string} bN - bookNameId
  * @param {string|number} cN - chapterId
+ * @param {any} [id] - identity
+ * @param {string|number} [ext] - extension
  * param {string} cN - chapterId
  */
-function urlChapter(bN, cN) {
-  // if (!config[taskId]) {
-  //   return "";
-  // }
+function urlChapter(bN, cN, id, ext) {
   if (!settings.url || !taskCurrent) {
     return "";
   }
   return settings.url
     .replace(/~/g, idName)
-    .replace(/iN/, taskCurrent?.id)
+    .replace(/iN/, taskCurrent.id)
     .replace(/bN/, bN)
     .replace(/cN/, cN.toString())
-    .replace(/iE/, taskCurrent?.ext);
+    .replace(/iE/, taskCurrent.ext);
 }
 
 /**
@@ -91,9 +92,10 @@ function uaVersion(id) {
  */
 function fileCache(bN, cN) {
   let root = settings.html.replace("!", config.storage);
+  const scanId = taskCurrent?.id || settings.scan;
   return root
     .replace("?", taskId)
-    .replace("scanId", settings.scan)
+    .replace("scanId", scanId)
     .replace(/bN/, bN)
     .replace(/cN/, cN.toString());
 }
@@ -103,17 +105,20 @@ function fileCache(bN, cN) {
  */
 function fileFruit() {
   let root = settings.fruit.replace("!", config.storage);
-  return root.replace("?", taskId).replace("scanId", settings.scan);
+  const scanId = taskCurrent?.id || settings.scan;
+  return root.replace("?", taskId).replace("scanId", scanId);
 }
 
 /**
  * fileName: !/bible/?/scanId/info.json
+ * @param {string} identify
  */
-function fileVersion() {
+function fileVersion(identify) {
   let root = settings.html.replace("!", config.storage);
+  const scanId = identify || taskCurrent?.id || settings.scan;
   return root
     .replace("?", taskId)
-    .replace("scanId", settings.scan)
+    .replace("scanId", scanId)
     .replace("bN.cN", "version")
     .replace(".html", ".json");
 }
@@ -123,9 +128,10 @@ function fileVersion() {
  */
 function fileLang() {
   let root = settings.html.replace("!", config.storage);
+  const scanId = taskCurrent?.id || settings.scan;
   return root
     .replace("?", taskId)
-    .replace("scanId", settings.scan)
+    .replace("scanId", scanId)
     .replace("bN.cN", "lang")
     .replace(".html", ".json");
 }
@@ -144,26 +150,6 @@ function fileDoc(identify) {
  * @param {any} req
  */
 export async function doDefault(req) {
-  // let _langListFile = fileDoc("listOfLang").replace("/json", "/tmp/wbc");
-
-  // let _incompleteFile = _langListFile.replace("listOfLang", "incomplete");
-  // console.log(_langListFile);
-  // console.log(_incompleteFile);
-  for (let index = 0; index < 12; index++) {
-    const progress = index;
-
-    process.stdout.clearLine(0);
-    process.stdout.cursorTo(0);
-    process.stdout.write(progress + "%");
-  }
-  console.log("\nhello\n");
-  for (let index = 0; index < 100; index++) {
-    const progress = index;
-    process.stdout.clearLine(0);
-    process.stdout.cursorTo(0);
-    process.stdout.write(progress + "%");
-  }
-
   return "Oops";
 }
 
@@ -275,14 +261,42 @@ export async function doCheck(req) {
 
 /**
  * Requests from live
+ * 463/JER.35.NABRE
  * @example
  * node run task wbc request
+ * node run task wbc request --book=GEN chapter=1 id=463
  * @param {any} req
  */
 export async function doRequest(req) {
-  const bN = "GEN";
-  const cN = "3";
-  await doRequestCore(bN, cN, true);
+  let bookId = "GEN";
+  let chapterId = "1";
+
+  if (req.query.book) {
+    bookId = req.query.book;
+  }
+  if (req.query.chapter) {
+    chapterId = req.query.chapter;
+  }
+  if (req.query.id) {
+    let identify = req.query.id;
+    taskCurrent = settings.list.find((e) => e.id == identify);
+    if (!taskCurrent) {
+      const verData = await doScanVersion(identify);
+      if (verData) {
+        taskCurrent = {
+          id: identify,
+          ext: verData.abbreviation,
+          identify: identify,
+          note: {},
+        };
+      }
+    }
+  }
+  if (!taskCurrent) {
+    return "Oops";
+  }
+  // console.log("scanning", taskCurrent);
+  await doRequestCore(bookId, chapterId, true);
   return "request";
 }
 
@@ -292,25 +306,30 @@ export async function doRequest(req) {
  * @param {boolean} [save] - if true write tmp HTML file
  */
 async function doRequestCore(bN, cN, save) {
-  let url = urlChapter(bN, cN);
+  try {
+    let url = urlChapter(bN, cN);
 
-  let dom = await JSDOM.fromURL(url);
-  let doc = dom.window.document;
+    let dom = await JSDOM.fromURL(url);
+    let doc = dom.window.document;
 
-  const body = doc.getElementsByClassName("ChapterContent_chapter__uvbXo")[0];
-  const wbcInnerHTML = body.innerHTML;
+    const body = doc.getElementsByClassName("ChapterContent_chapter__uvbXo")[0];
+    const wbcInnerHTML = body.innerHTML;
 
-  // NOTE: meta is require for utf8
-  const tpl = "<html><head><meta charset='utf-8'></head><body>?</body></html>";
+    // NOTE: meta is require for utf8
+    const tpl =
+      "<html><head><meta charset='utf-8'></head><body>?</body></html>";
 
-  const wbcBody = tpl.replace("?", wbcInnerHTML);
+    const wbcBody = tpl.replace("?", wbcInnerHTML);
 
-  if (save) {
-    let file = fileCache(bN, cN);
-    await seek.write(file, wbcBody);
+    if (save) {
+      let file = fileCache(bN, cN);
+      await seek.write(file, wbcBody);
+    }
+
+    return new JSDOM(wbcBody);
+  } catch (error) {
+    return null;
   }
-
-  return new JSDOM(wbcBody);
 }
 
 /**
@@ -475,6 +494,7 @@ async function doReadCore(bN, cN, save) {
  * node run task wbc scan
  * node run task wbc scan --id=368
  * node run task wbc scan --id=1812 nonDoc=none
+ * node run task wbc scan --id=463 nonDoc=none
  * @param {any} req
  */
 export async function doScan(req) {
@@ -486,12 +506,12 @@ export async function doScan(req) {
   // const identify = taskCurrent.identify;
   const identify = settings.scan;
 
-  const versionData = await doScanVersion(identify);
+  const verData = await doScanVersion(identify);
   if (!taskCurrent && settings.scan) {
-    if (versionData) {
+    if (verData) {
       taskCurrent = {
         id: identify,
-        ext: versionData.abbreviation,
+        ext: verData.abbreviation,
         identify: identify,
         note: {},
       };
@@ -499,7 +519,7 @@ export async function doScan(req) {
       return "no taskCurrent";
     }
   }
-  if (!versionData) {
+  if (!verData) {
     return "no versionData";
   }
 
@@ -523,7 +543,7 @@ export async function doScan(req) {
   }
 
   // doScanCore doScanBook;
-  await doScanBook(identify, bible, versionData).catch(async (error) => {
+  await doScanBook(identify, bible, verData).catch(async (error) => {
     // console.log("> ", identify, error);
     if (error.statusCode) {
       console.log("> error", identify, error.statusCode);
@@ -645,14 +665,16 @@ export async function doScan(req) {
 async function doScanVersion(identify) {
   try {
     let data;
-    let file = fileVersion();
+    let file = fileVersion(identify);
     let local = seek.exists(file);
     if (local) {
       data = await base.readJSON(file);
+      console.log("??? local", file);
     } else {
       const url = uaVersion(identify);
       data = await (await fetch(url)).json();
       await base.writeJSON(file, data, 2);
+      console.log("??? write", file);
     }
     return data;
   } catch (error) {
@@ -737,6 +759,22 @@ async function doScanBook(identify, bible, versionData) {
 
               let _lPId = " > " + identify + " > " + _lPBId;
               process.stdout.write(_lPId + "." + chapterId + " ");
+            } else {
+              if (!bible.book[bookId].chapter) {
+                bible.book[bookId].chapter = {};
+              }
+              if (!bible.book[bookId].chapter[chapterId]) {
+                bible.book[bookId].chapter[chapterId] = {};
+              }
+
+              if (!settings.skip) {
+                settings.skip = [];
+              }
+              console.log("> skip", bookNameId, chapterId);
+              let skipIndex = settings.skip.find((e) => (e.id = identify));
+              if (skipIndex < 0) {
+                settings.skip.push(identify);
+              }
             }
           }
         }
