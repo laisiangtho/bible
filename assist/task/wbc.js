@@ -184,22 +184,41 @@ function resolveInterval(seconds, resolve, progress, success) {
     _progress = progress;
   }
 
-  setInterval(() => {
-    process.stdout.clearLine(0);
-    process.stdout.cursorTo(0);
-    if (countDown == 0) {
-      if (success) {
-        _success = success;
+  // setInterval(() => {
+  //   process.stdout.clearLine(0);
+  //   process.stdout.cursorTo(0);
+  //   if (countDown == 0) {
+  //     if (success) {
+  //       _success = success;
+  //     }
+  //     let _msg = _success.replace("#", seconds.toString());
+  //     process.stdout.write(_msg + "\n");
+  //     return resolve(0);
+  //   }
+  //   countDown--;
+
+  //   let _msg = _progress.replace("#", countDown.toString());
+
+  //   process.stdout.write(_msg);
+  // }, milliseconds);
+  setTimeout(() => {
+    setInterval(() => {
+      process.stdout.clearLine(0);
+      process.stdout.cursorTo(0);
+      if (countDown == 0) {
+        if (success) {
+          _success = success;
+        }
+        let _msg = _success.replace("#", seconds.toString());
+        process.stdout.write(_msg + "\n");
+        return resolve(0);
       }
-      let _msg = _success.replace("#", seconds.toString());
-      process.stdout.write(_msg + "\n");
-      return resolve(0);
-    }
-    countDown--;
+      countDown--;
 
-    let _msg = _progress.replace("#", countDown.toString());
+      let _msg = _progress.replace("#", countDown.toString());
 
-    process.stdout.write(_msg);
+      process.stdout.write(_msg);
+    }, milliseconds);
   }, milliseconds);
 }
 
