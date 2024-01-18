@@ -31,7 +31,7 @@ const settings_file = "./assets/?/settings.json".replace("?", taskId);
  * @property {string} [uco] - api configuration
  * @property {string} [ula] - api language
  * @property {number} version - version number
- * @property {number} delay - in milliseconds
+ * @property {number} delay - in seconds
  * @property {any[]} skip - skipped chapter in book
  * @property {TypeOfListData[]} list
  */
@@ -51,9 +51,17 @@ const _settings = {
 };
 const settings = await base.readJSON(settings_file, _settings);
 
-// const taskCurrent = settings.list.find((e) => e.id == settings.scan);
 let taskCurrent = settings.list.find((e) => e.id == settings.scan);
 
+/**
+ *
+ * get scanId
+ * @param {string} [identify]
+ * @returns {string} - identify || taskCurrent?.id || settings.scan;
+ */
+function scanIdentify(identify) {
+  return identify || taskCurrent?.id || settings.scan;
+}
 /**
  * //~.com/~/iN/bN.cN.iE
  * @param {string} bN - bookNameId
@@ -92,7 +100,7 @@ function uaVersion(id) {
  */
 function fileCache(bN, cN) {
   let root = settings.html.replace("!", config.storage);
-  const scanId = taskCurrent?.id || settings.scan;
+  const scanId = scanIdentify();
   return root
     .replace("?", taskId)
     .replace("scanId", scanId)
@@ -105,7 +113,7 @@ function fileCache(bN, cN) {
  */
 function fileFruit() {
   let root = settings.fruit.replace("!", config.storage);
-  const scanId = taskCurrent?.id || settings.scan;
+  const scanId = scanIdentify();
   return root.replace("?", taskId).replace("scanId", scanId);
 }
 
@@ -115,7 +123,7 @@ function fileFruit() {
  */
 function fileVersion(identify) {
   let root = settings.html.replace("!", config.storage);
-  const scanId = identify || taskCurrent?.id || settings.scan;
+  const scanId = scanIdentify(identify);
   return root
     .replace("?", taskId)
     .replace("scanId", scanId)
@@ -128,7 +136,7 @@ function fileVersion(identify) {
  */
 function fileLang() {
   let root = settings.html.replace("!", config.storage);
-  const scanId = taskCurrent?.id || settings.scan;
+  const scanId = scanIdentify();
   return root
     .replace("?", taskId)
     .replace("scanId", scanId)
@@ -150,7 +158,49 @@ function fileDoc(identify) {
  * @param {any} req
  */
 export async function doDefault(req) {
+  let pauseToDelay = 11;
+  // let pauseToDelay = settings.delay;
+  // await new Promise((resolve) => resolveInterval(pauseToDelay, resolve));
+  await new Promise((resolve) =>
+    resolveInterval(pauseToDelay, resolve, "a #", "b #")
+  );
   return "Oops";
+}
+
+/**
+ * @example
+ * await new Promise((resolve) => resolveInterval(30, resolve));
+ * @param {number} seconds - seconds of time (seconds * 1000) / 60;
+ * @param {(value: any) => void} resolve
+ * @param {string} [progress] - > continue in # seconds
+ * @param {string} [success] - > continuing after # seconds
+ */
+function resolveInterval(seconds, resolve, progress, success) {
+  let milliseconds = (seconds * 1000) / 60;
+  let countDown = seconds;
+  let _progress = "> continue in # seconds";
+  let _success = "> continuing after # seconds";
+  if (progress) {
+    _progress = progress;
+  }
+
+  setInterval(() => {
+    process.stdout.clearLine(0);
+    process.stdout.cursorTo(0);
+    if (countDown == 0) {
+      if (success) {
+        _success = success;
+      }
+      let _msg = _success.replace("#", seconds.toString());
+      process.stdout.write(_msg + "\n");
+      return resolve(0);
+    }
+    countDown--;
+
+    let _msg = _progress.replace("#", countDown.toString());
+
+    process.stdout.write(_msg);
+  }, milliseconds);
 }
 
 /**
@@ -551,9 +601,10 @@ export async function doScan(req) {
       console.log(">", identify, error.message);
     }
 
-    console.log("> waiting to continue in", settings.delay, "milliseconds");
+    // console.log("> waiting to continue in", settings.delay, "milliseconds");
+    // await new Promise((resolve) => setTimeout(resolve, settings.delay));
 
-    await new Promise((resolve) => setTimeout(resolve, settings.delay));
+    await new Promise((resolve) => resolveInterval(settings.delay, resolve));
     await doScan({ query: { id: identify } });
   });
 
@@ -669,12 +720,10 @@ async function doScanVersion(identify) {
     let local = seek.exists(file);
     if (local) {
       data = await base.readJSON(file);
-      console.log("??? local", file);
     } else {
       const url = uaVersion(identify);
       data = await (await fetch(url)).json();
       await base.writeJSON(file, data, 2);
-      console.log("??? write", file);
     }
     return data;
   } catch (error) {
@@ -770,7 +819,7 @@ async function doScanBook(identify, bible, versionData) {
               if (!settings.skip) {
                 settings.skip = [];
               }
-              console.log("> skip", bookNameId, chapterId);
+              console.log("> error", bookNameId, chapterId);
               let skipIndex = settings.skip.find((e) => (e.id = identify));
               if (skipIndex < 0) {
                 settings.skip.push(identify);
@@ -962,7 +1011,7 @@ export async function doMapContent(req) {
   return await doMapCore(async (info) => {
     const identify = info.id;
     const listIndex = settings.list.findIndex((e) => e.id == identify);
-    let delayToPause = 3000;
+    let pauseToDelay = 11;
 
     if (listIndex == -1) {
       settings.list.push({
@@ -979,10 +1028,10 @@ export async function doMapContent(req) {
       }
     } else {
       console.log("already scanned", identify);
-      delayToPause = 300;
+      pauseToDelay = 8;
     }
-    console.log(" > stop now or resume in", delayToPause, "milliseconds");
-    await new Promise((resolve) => setTimeout(resolve, delayToPause));
+
+    await new Promise((resolve) => resolveInterval(pauseToDelay, resolve));
   });
 }
 
