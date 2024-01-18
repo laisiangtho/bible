@@ -1031,7 +1031,13 @@ export async function doMapContent(req) {
       pauseToDelay = 8;
     }
 
-    await new Promise((resolve) => resolveInterval(pauseToDelay, resolve));
+    // done ?, continue in # seconds
+    let progress = "done ?, continue in # seconds".replace("?", identify);
+    let success = "done ?, # seconds".replace("?", identify);
+
+    await new Promise((resolve) =>
+      resolveInterval(pauseToDelay, resolve, progress, success)
+    );
   });
 }
 
