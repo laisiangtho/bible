@@ -448,21 +448,21 @@ export async function scanBook(identify, bible, versionData) {
             if (!tmp.bookNameId) {
               tmp.bookNameId = bookNameId;
             }
-
+            if (!bible.book[bookId].chapter) {
+              bible.book[bookId].chapter = {};
+            }
+            if (!bible.book[bookId].chapter[chapterId]) {
+              bible.book[bookId].chapter[chapterId] = {};
+            }
             await loadChapter(bookNameId, chapterId)
               .then(async (dom) => {
                 if (dom) {
                   const res = await examineChapter(dom);
                   if (res && res.status > 0) {
-                    if (!bible.book[bookId].chapter) {
-                      bible.book[bookId].chapter = {};
-                    }
-                    if (!bible.book[bookId].chapter[chapterId]) {
-                      bible.book[bookId].chapter[chapterId] = {};
-                    }
                     bible.book[bookId].chapter[chapterId].verse = res.verse;
                   } else {
-                    throw new Error("EXAM is empty");
+                    // throw new Error("EXAM is empty");
+                    skipHelper(identify, bookNameId, chapterId);
                   }
 
                   process.stdout.clearLine(0);
@@ -476,9 +476,8 @@ export async function scanBook(identify, bible, versionData) {
                   let _lPId = "... " + identify + " > " + _lPBId;
                   process.stdout.write(_lPId + "." + chapterId);
                 } else {
-                  // JsDom JSDOM Empty of DOM
-                  // JSDOM is empty, EXAM is empty
-                  throw new Error("JSDOM is empty");
+                  // throw new Error("JSDOM is empty");
+                  skipHelper(identify, bookNameId, chapterId);
                 }
               })
               .catch((err) => {
@@ -495,44 +494,7 @@ export async function scanBook(identify, bible, versionData) {
                 if (msg.startsWith("Resource was not loaded")) {
                   console.info("... error RWNL", msg);
                 } else {
-                  if (!bible.book[bookId].chapter) {
-                    bible.book[bookId].chapter = {};
-                  }
-                  if (!bible.book[bookId].chapter[chapterId]) {
-                    bible.book[bookId].chapter[chapterId] = {};
-                  }
-
-                  if (!settings.skip) {
-                    settings.skip = [];
-                  }
-                  let _indexIdentify = settings.skip.findIndex(
-                    (e) => e.identify == identify
-                  );
-                  if (_indexIdentify < 0) {
-                    _indexIdentify =
-                      settings.skip.push({
-                        identify: identify,
-                        books: [],
-                      }) - 1;
-                  }
-                  const _skipBooks = settings.skip[_indexIdentify].books;
-                  let _indexBook = _skipBooks.findIndex(
-                    (e) => e.book == bookNameId
-                  );
-                  if (_indexBook < 0) {
-                    _indexBook =
-                      _skipBooks.push({
-                        book: bookNameId,
-                        chapters: [],
-                      }) - 1;
-                  }
-                  const _skipChapters = _skipBooks[_indexBook].chapters;
-                  let _indexChapter = _skipChapters.findIndex(
-                    (e) => e == chapterId
-                  );
-                  if (_indexChapter < 0) {
-                    _skipChapters.push(chapterId);
-                  }
+                  skipHelper(identify, bookNameId, chapterId);
                 }
                 throw new Error(msg);
               });
@@ -543,6 +505,40 @@ export async function scanBook(identify, bible, versionData) {
     // Update lang
     const langFile = fileLang();
     await base.writeJSON(langFile, langData, 2);
+  }
+}
+
+/**
+ * Push to skip
+ * @param {string} identify
+ * @param {string} bookNameId
+ * @param {any} chapterId
+ */
+function skipHelper(identify, bookNameId, chapterId) {
+  if (!settings.skip) {
+    settings.skip = [];
+  }
+  let _indexIdentify = settings.skip.findIndex((e) => e.identify == identify);
+  if (_indexIdentify < 0) {
+    _indexIdentify =
+      settings.skip.push({
+        identify: identify,
+        books: [],
+      }) - 1;
+  }
+  const _skipBooks = settings.skip[_indexIdentify].books;
+  let _indexBook = _skipBooks.findIndex((e) => e.book == bookNameId);
+  if (_indexBook < 0) {
+    _indexBook =
+      _skipBooks.push({
+        book: bookNameId,
+        chapters: [],
+      }) - 1;
+  }
+  const _skipChapters = _skipBooks[_indexBook].chapters;
+  let _indexChapter = _skipChapters.findIndex((e) => e == chapterId);
+  if (_indexChapter < 0) {
+    _skipChapters.push(chapterId);
   }
 }
 

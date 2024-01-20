@@ -294,7 +294,7 @@ export async function doScan(req) {
   await root.base.writeJSON(fruitFileName, bible, 2);
   // NOTE: update setting
   await root.settingWrite();
-  console.log("> write:", fruitFileName);
+  console.log(" > write:", fruitFileName);
   let msg = "scanned: " + identify;
 
   return msg;
