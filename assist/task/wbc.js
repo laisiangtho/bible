@@ -34,41 +34,6 @@ export async function doDefault(req) {
   //   // process.stdout.clearLine(1);
   // }
 
-  const identify = "459";
-  const bookNameId = "GEN";
-  const chapterId = "2";
-
-  if (!root.settings.skip) {
-    root.settings.skip = [];
-  }
-  let _indexIdentify = root.settings.skip.findIndex(
-    (e) => e.identify == identify
-  );
-  if (_indexIdentify < 0) {
-    _indexIdentify =
-      root.settings.skip.push({
-        identify: identify,
-        books: [],
-      }) - 1;
-  }
-  // console.log(_indexIdentify, root.settings.skip);
-  const _skipBooks = root.settings.skip[_indexIdentify].books;
-  let _indexBook = _skipBooks.findIndex((e) => e.book == bookNameId);
-  if (_indexBook < 0) {
-    _indexBook =
-      _skipBooks.push({
-        book: bookNameId,
-        chapters: [],
-      }) - 1;
-  }
-  const _skipChapters = _skipBooks[_indexBook].chapters;
-  let _indexChapter = _skipChapters.findIndex((e) => e == chapterId);
-  if (_indexChapter < 0) {
-    _skipChapters.push(chapterId);
-  }
-
-  await root.base.writeJSON("./tmp/test-skip.json", root.settings.skip, 2);
-
   return "Oops";
 }
 
@@ -101,7 +66,6 @@ export async function doRequest(req) {
   if (req.query.chapter) {
     chapterId = req.query.chapter;
   }
-  // root.task.current
   let identify = req.query.id;
   if (identify) {
     root.findTask(identify);
@@ -120,7 +84,6 @@ export async function doRequest(req) {
   if (!root.task.current) {
     return "Oops";
   }
-  // console.log("scanning", taskCurrent);
   await root.requestChapter(bookId, chapterId, true);
   return "request";
 }
@@ -219,11 +182,11 @@ export async function doScan(req) {
   await root.scanBook(identify, bible, verData).catch(async (error) => {
     let _ms = 3000;
     if (error.statusCode) {
-      console.log(">", error.statusCode);
+      console.log(" >", error.statusCode);
     } else if (error.message) {
-      // Resouce was not loaded. Status; 503
-      console.log(">", error.message);
-      if (error.message.startsWith("Resouce was not loaded")) {
+      // Resource was not loaded. Status; 503
+      console.log(" >", error.message);
+      if (error.message.startsWith("Resource was not loaded")) {
         _ms = root.settings.delay;
       }
     }
@@ -407,8 +370,10 @@ export async function doMapContent(req) {
       }
     } else {
       _ms = 60;
+      // exists in (setting.list)
       keyNote = "already";
     }
+    // let scanCount = root.task.list.length;
 
     console.info("> scanned %s: %d, continue in %d ms", keyNote, identify, _ms);
     await new Promise((resolve) => setTimeout(resolve, _ms));
@@ -500,11 +465,8 @@ export async function doMapLanguage(req) {
   let _todoFile = _langFile.replace("listOfLang", "todo");
   await seek.writeJSON(_todoFile, _todo, 2);
 
-  console.log(
-    "> incomplete",
-    _todo.incomplete.length,
-    "fail",
-    _todo.fail.length
-  );
+  const _tL = _todo.incomplete.length;
+  const tF = _todo.fail.length;
+  console.info("> incomplete: %d, fail: %d", _tL, tF);
   return message;
 }

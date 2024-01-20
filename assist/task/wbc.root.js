@@ -464,7 +464,7 @@ export async function scanBook(identify, bible, versionData) {
                   } else {
                     throw new Error("EXAM is empty");
                   }
-                  // console.log(bookNameId, chapterId);
+
                   process.stdout.clearLine(0);
                   process.stdout.cursorTo(0);
                   let _lPBId = bookNameId;
@@ -472,8 +472,9 @@ export async function scanBook(identify, bible, versionData) {
                     _lPBId = tmp.bookNameId + " - " + bookNameId;
                   }
 
-                  let _lPId = " > " + identify + " > " + _lPBId;
-                  process.stdout.write(_lPId + "." + chapterId + " ");
+                  // let _lPId = " > " + identify + " > " + _lPBId;
+                  let _lPId = "... " + identify + " > " + _lPBId;
+                  process.stdout.write(_lPId + "." + chapterId);
                 } else {
                   // JsDom JSDOM Empty of DOM
                   // JSDOM is empty, EXAM is empty
@@ -490,8 +491,8 @@ export async function scanBook(identify, bible, versionData) {
                     msg = err.statusCode;
                   }
                 }
-                // NOTE: Resouce was not loaded. Status; 503
-                if (msg.startsWith("Resouce was not loaded")) {
+                // NOTE: Resource was not loaded. Status; 503
+                if (msg.startsWith("Resource was not loaded")) {
                   console.info("... error RWNL", msg);
                 } else {
                   if (!bible.book[bookId].chapter) {
