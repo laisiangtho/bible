@@ -465,16 +465,16 @@ export async function scanBook(identify, bible, versionData) {
                     skipHelper(identify, bookNameId, chapterId);
                   }
 
-                  process.stdout.clearLine(0);
-                  process.stdout.cursorTo(0);
                   let _lPBId = bookNameId;
                   if (bookNameId != tmp.bookNameId) {
                     _lPBId = tmp.bookNameId + " - " + bookNameId;
                   }
 
-                  // let _lPId = " > " + identify + " > " + _lPBId;
-                  let _lPId = "... " + identify + " > " + _lPBId;
-                  process.stdout.write(_lPId + "." + chapterId);
+                  // let _lPId = "... " + identify + " > " + _lPBId;
+                  // process.stdout.clearLine(0);
+                  // process.stdout.cursorTo(0);
+                  // process.stdout.write(_lPId + "." + chapterId);
+                  console.log(" ", identify, " > ", _lPBId);
                 } else {
                   // throw new Error("JSDOM is empty");
                   skipHelper(identify, bookNameId, chapterId);
