@@ -487,14 +487,31 @@ export async function scanBook(identify, bible, versionData) {
                     msg = err.statusCode;
                   }
                 }
-                // NOTE: Resource was not loaded. Status: 503
-                // NOTE: Resource was not loaded. Status: 404
-                if (!msg.startsWith("Resource was not loaded")) {
+
+                const skip503 = msg.startsWith(
+                  "Resource was not loaded. Status: 503"
+                );
+                /**
+                 * Resource was not loaded. Status: 503
+                 * msg.startsWith("Resource was not loaded. Status: 503")
+                 */
+                if (!skip503) {
                   skipHelper(identify, bookNameId, chapterId);
                 }
 
-                // NOTE: Cannot read properties of undefined (reading 'innerHTML')
-                if (msg.startsWith("Cannot read properties of undefined")) {
+                /**
+                 * Cannot read properties of undefined (reading 'innerHTML')
+                 */
+                const skipUndefined = msg.startsWith(
+                  "Cannot read properties of undefined"
+                );
+                /**
+                 * Resource was not loaded. Status: 404
+                 */
+                const skip404 = msg.startsWith(
+                  "Resource was not loaded. Status: 404"
+                );
+                if (skipUndefined || skip404) {
                   console.info(" > skip:", msg);
                 } else {
                   throw new Error(msg);
