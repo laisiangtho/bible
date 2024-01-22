@@ -467,7 +467,7 @@ export async function scanBook(identify, bible, versionData) {
 
                   let _lPBId = bookNameId;
                   if (bookNameId != tmp.bookNameId) {
-                    _lPBId = tmp.bookNameId + " - " + bookNameId;
+                    _lPBId = tmp.bookNameId + " - " + chapter.usfm;
                   }
 
                   // let _lPId = "... " + identify + " > " + _lPBId;
