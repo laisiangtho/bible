@@ -491,12 +491,18 @@ export async function scanBook(identify, bible, versionData) {
                   }
                 }
                 // NOTE: Resource was not loaded. Status; 503
-                if (msg.startsWith("Resource was not loaded")) {
-                  console.info("... error RWNL", msg);
-                } else {
+                if (!msg.startsWith("Resource was not loaded")) {
                   skipHelper(identify, bookNameId, chapterId);
                 }
-                throw new Error(msg);
+
+                // NOTE: Cannot read properties of undefined (reading 'innerHTML')
+                if (msg.startsWith("Cannot read properties of undefined")) {
+                  console.log(" > skip:", msg);
+                } else {
+                  throw new Error(msg);
+                }
+
+                // throw new Error(msg);
               });
           }
         }

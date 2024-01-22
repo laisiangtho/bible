@@ -411,7 +411,7 @@ export async function doMapLanguage(req) {
   // await root.mapAll(async (info) => {});
   let _langFile = root.fileDoc("listOfLang").replace("/json", "/tmp/wbc");
 
-  /** @type {root.base.env.ContextOfLanguage[]} */
+  /** @type {root.base.env.RowOfLanguage[]} */
   const _langList = await seek.readJSON(_langFile, []);
   /**
    * @type {{incomplete:Array<number>, fail:Array<{id:number, e:any}>}}
@@ -428,7 +428,7 @@ export async function doMapLanguage(req) {
     const iso = infoLang.iso_639_3;
     if (!_langList.find((e) => e.name == iso)) {
       /**
-       * @type {root.base.env.ContextOfLanguage}
+       * @type {root.base.env.RowOfLanguage}
        */
       let langObj = {
         text: "",

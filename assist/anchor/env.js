@@ -1,8 +1,7 @@
 import core, { seek } from "lethil";
 
 /**
- *
- * @typedef {Object} ContextOfLanguage
+ * @typedef {Object} RowOfLanguage - used in info.language and lang file
  * @property {string} text - Seperated by common local to global as of popularity. If empty, not ready production
  * @property {string} textdirection - text direction eg.[ltr, rtl]
  * @property {string} [local] - language name (in local)
@@ -13,7 +12,7 @@ import core, { seek } from "lethil";
  * @property {string} name - Bible name eg.[King James Version]
  * @property {string} shortname - Shortname eg.[KJV]
  * @property {string} year - Year
- * @property {ContextOfLanguage} language - Language
+ * @property {RowOfLanguage} language - Language
  * @property {number} version - Version
  * @property {string} [description] - Description
  * @property {string} [publisher] - Publisher
@@ -31,9 +30,9 @@ import core, { seek } from "lethil";
  * @typedef {{info:{name:string,shortname:string, desc?:string}, other:any}} NameOfTestament - testament
  * @typedef {Object<number,NameOfTestament>} TypeOfTestament - Bible testament
  *
- * @typedef {Object<number,Object<number,Object<number,ContextOfStory>>>} TypeOfStory - Bible story
+ * @typedef {Object<number,Object<number,Object<number,RowOfStory>>>} TypeOfStory - Bible story
  *
- * @typedef {Object} ContextOfStory - Each Bible locale
+ * @typedef {Object} RowOfStory - Each Bible locale
  * @property {string} text
  * @property {string} [title]
  * @property {string} [ref]
@@ -45,24 +44,45 @@ import core, { seek } from "lethil";
  * @property {string[]} abbr - Name abbreviation eg.[]
  * @property {string} desc - Book description
  *
- * @typedef {Object<any,any>} _BookTopic - ?
+ * @typedef {Object<any,any>} RowOfBibleTopic - ?
  *
- * @typedef {Object} ContextOfVerse - ?
+ * @typedef {Object} RowOfVerse - ?
  * @property {string} text - Context eg.[In the beginning...]
  * @property {string} [title] - Title eg.[The Creation of the World...]
  * @property {string} [heading] - Heading eg.[The Creation of the World...]
  * @property {string} [ref] - Reference eg.[Gen.9.1,Gen.1.28..]
  * @property {string} [merge] - is Merge eg.[2]
  *
- * @typedef {Object<number,ContextOfVerse>} TypeOfVerse -
+ * @typedef {Object<number,RowOfVerse>} TypeOfVerse - ?
+ * @typedef {Object<number,RowOfVerse>} TypeOfChapter - ?
  *
- * @typedef {Object<number,{info:InfoOfBook, topic: _BookTopic, chapter:Object<number,{verse:TypeOfVerse}>}>} TypeOfBibleBook - Bible book
+ * @typedef {Object<number,{info:InfoOfBook, topic: RowOfBibleTopic, chapter:Object<number,{verse:TypeOfVerse}>}>} TypeOfBibleBook - Bible book
+ *
+ * @typedef {RowOfBibleBook[]} TypeOfBibleBookArray - Bible book
+ *
+ * @typedef {Object} RowOfBibleBook - ?
+ * @property {string|number} id
+ * @property {InfoOfBook} info
+ * @property {RowOfBibleTopic} [topic]
+ * @property {RowOfBibleChapter[]} chapter
+ *
+ * @typedef {Object} RowOfBibleChapter - ?
+ * @property {string|number} id
+ * @property {RowOfBibleVerse[]} verse
+ *
+ * @typedef {Object} RowOfBibleVerse - ?
+ * @property {string|number} id
+ * @property {string} text - Context eg.[In the beginning...]
+ * @property {string} [title] - Title eg.[The Creation of the World...]
+ * @property {string} [heading] - Heading eg.[The Creation of the World...]
+ * @property {string} [ref] - Reference eg.[Gen.9.1,Gen.1.28..]
+ * @property {string} [merge] - is Merge eg.[2]
  *
  * @typedef {Object} TypeOfBible - ?
  * @property {TypeOfInfo} info
- * @property {TypeOfNote} note
  * @property {TypeOfDigit} digit
- * @property {TypeOfBibleLocale} language
+ * @property {any} [note]
+ * @property {TypeOfBibleLocale} language - ?
  * @property {TypeOfTestament} testament
  * @property {TypeOfStory} story
  * @property {TypeOfBibleBook} book
