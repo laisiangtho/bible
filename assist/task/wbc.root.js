@@ -487,7 +487,8 @@ export async function scanBook(identify, bible, versionData) {
                     msg = err.statusCode;
                   }
                 }
-                // NOTE: Resource was not loaded. Status; 503
+                // NOTE: Resource was not loaded. Status: 503
+                // NOTE: Resource was not loaded. Status: 404
                 if (!msg.startsWith("Resource was not loaded")) {
                   skipHelper(identify, bookNameId, chapterId);
                 }
