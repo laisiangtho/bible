@@ -474,7 +474,7 @@ export async function scanBook(identify, bible, versionData) {
                   // process.stdout.clearLine(0);
                   // process.stdout.cursorTo(0);
                   // process.stdout.write(_lPId + "." + chapterId);
-                  console.log(" ", identify, " > ", _lPBId);
+                  console.log("", identify, ">", _lPBId);
                 } else {
                   // throw new Error("JSDOM is empty");
                   skipHelper(identify, bookNameId, chapterId);
