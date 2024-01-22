@@ -297,9 +297,7 @@ export async function scanCore(identify, bible) {
     const book = books[index];
     const bookId = book.id;
     // const book = books[bookId];
-    // console.log("bookId", bookId);
     const bookNameId = book.info.abbr[0].toUpperCase();
-    // console.log("bookNameId", bookId, bookNameId);
     let bookDetail = book.clue;
     // let chapterCount = bookDetail.c;
     let chapterCount = bookDetail.v;
@@ -314,7 +312,6 @@ export async function scanCore(identify, bible) {
       // const dom = await doRequestCore(bookNameId, chapterId, true);
       // const res = await examine(dom);
       // bible[bookId][chapterId] = res;
-      // console.log(file);
 
       // let dom;
       // let alreadyCache = seek.exists(file);
@@ -339,7 +336,7 @@ export async function scanCore(identify, bible) {
           bible.book[bookId].chapter[chapterId].verse = res.verse;
         }
       }
-      console.log(bookNameId, chapterId);
+      console.info(bookNameId, chapterId);
     }
   }
 }
@@ -474,7 +471,7 @@ export async function scanBook(identify, bible, versionData) {
                   // process.stdout.clearLine(0);
                   // process.stdout.cursorTo(0);
                   // process.stdout.write(_lPId + "." + chapterId);
-                  console.log("", identify, ">", _lPBId);
+                  console.info("", identify, ">", _lPBId);
                 } else {
                   // throw new Error("JSDOM is empty");
                   skipHelper(identify, bookNameId, chapterId);
@@ -497,7 +494,7 @@ export async function scanBook(identify, bible, versionData) {
 
                 // NOTE: Cannot read properties of undefined (reading 'innerHTML')
                 if (msg.startsWith("Cannot read properties of undefined")) {
-                  console.log(" > skip:", msg);
+                  console.info(" > skip:", msg);
                 } else {
                   throw new Error(msg);
                 }
@@ -579,8 +576,6 @@ export async function mapAll(callback) {
     // const configJSON = JSON.parse(_configuration);
     let configJSON = await (await fetch(urlConfiguration)).json();
     const languages = configJSON.response.data.default_versions;
-    // console.log(languages[0]);
-    // const language = languages[1];
 
     for (let lIndex = 0; lIndex < languages.length; lIndex++) {
       const language = languages[lIndex];
@@ -601,7 +596,7 @@ export async function mapAll(callback) {
       }
     }
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
   return "done";
 }
@@ -709,7 +704,6 @@ export async function examineChapter(dom) {
           // NOTE: remove the last dot
           refText +=
             "; " + refElm.innerHTML.replace(/။/g, ";").replace(/\.$/, "");
-          // console.log("ref", refElm.innerHTML);
         }
         if (refText) {
           // NOTE: remove the first and last semicolon
@@ -717,7 +711,6 @@ export async function examineChapter(dom) {
           // refText = refText.replace(/^\;/, "").trim();
 
           if (res.verse[verseId]) {
-            // console.log("verse", usfm);
             if (res.verse[verseId].ref) {
               res.verse[verseId].ref += "; " + refText;
             } else {

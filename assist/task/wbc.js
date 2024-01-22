@@ -19,18 +19,18 @@ export async function doDefault(req) {
   // //   root.resolveInterval(pauseToDelay, resolve, "a #", "b #")
   // // );
   // for (let index = 0; index < 3; index++) {
-  //   console.log("index", index);
+  //   console.info("index", index);
   //   // console.info("GET result after POST:\n");
 
   //   await new Promise((resolve) =>
   //     root.resolveInterval(pauseToDelay + index, resolve)
   //   ).then(function () {
-  //     // console.log("\nlast", index);
+  //     // console.info("\nlast", index);
   //   });
   //   // process.stdout.flush();
   //   // process.stdout.end();
-  //   // console.log("\n");
-  //   console.log("last", index);
+  //   // console.info("\n");
+  //   console.info("last", index);
   //   // process.stdout.clearLine(1);
   // }
 
@@ -182,10 +182,10 @@ export async function doScan(req) {
   await root.scanBook(identify, bible, verData).catch(async (error) => {
     let _ms = 3000;
     if (error.statusCode) {
-      console.log(" >", error.statusCode);
+      console.info(">", error.statusCode);
     } else if (error.message) {
       // Resource was not loaded. Status; 503
-      console.log(" >", error.message);
+      console.info(">", error.message);
       if (error.message.startsWith("Resource was not loaded")) {
         _ms = root.settings.delay;
       }
@@ -212,7 +212,7 @@ export async function doScan(req) {
             listOfBible.book[bookIndex].version = root.task.current.note.v;
             listOfBible.updated = new Date();
             await root.base.writeJSON(config.fileOfBook, listOfBible, 2);
-            console.log("> updated JSON at", config.fileOfBook);
+            console.info("> updated JSON at", config.fileOfBook);
 
             const bookInfo = listOfBible.book[bookIndex];
 
@@ -270,7 +270,7 @@ export async function doScan(req) {
               }
             }
           } else {
-            console.log(
+            console.info(
               "> book record is",
               identify,
               "missing in",
@@ -283,7 +283,7 @@ export async function doScan(req) {
 
           let docFilePath = root.fileDoc(identify);
           await root.base.writeJSON(docFilePath, bible);
-          console.log("> replaced JSON at", docFilePath);
+          console.info("> replaced JSON at", docFilePath);
         }
       }
     }
@@ -294,7 +294,7 @@ export async function doScan(req) {
   await root.base.writeJSON(fruitFileName, bible, 2);
   // NOTE: update setting
   await root.settingWrite();
-  console.log(" > write:", fruitFileName);
+  console.info(" > write:", fruitFileName);
   let msg = "scanned: " + identify;
 
   return msg;
@@ -333,8 +333,8 @@ export async function doScanAll(req) {
       scanedList.push(id);
     }
   }
-  console.log("scanned", scanedList);
-  console.log("total", scanedList.length);
+  console.info("scanned", scanedList);
+  console.info("total", scanedList.length);
   return "done";
 }
 
@@ -392,11 +392,11 @@ export async function doMapContext(req) {
     const identify = info.id;
     const iso = info.language.iso_639_3;
     // const file = config.fileOfLang.replace("~", iso);
-    // console.log("lang file", file);
+    // console.info("lang file", file);
     // const abc = await doNew({ query: { id: identify } });
     // const msg = await doNew({ query: { id: identify, dir: iso } });
     const msg = await doNew({ query: { id: identify, dir: "tpl-json" } });
-    console.log(iso, msg);
+    console.info(iso, msg);
   });
 }
 
@@ -455,10 +455,10 @@ export async function doMapLanguage(req) {
       if (msg.startsWith("incomplete")) {
         _todo.incomplete.push(identify);
       }
-      console.log(msg);
+      console.info(msg);
     } catch (error) {
       _todo.fail.push({ id: identify, e: error });
-      console.log(iso, identify, error);
+      console.info(iso, identify, error);
     }
   });
   await seek.writeJSON(_langFile, _langList, 2);
