@@ -378,7 +378,7 @@ export async function scanLang() {
 /**
  * internal: read or request of version detail
  * @param {string} identify
- * @returns {Promise<{data:any, error:any}>} - if `data` empty, see `error` [505, 404]
+ * @returns {Promise<{data:any, error:any}>} - if `data` empty, see `error` [503, 404]
  */
 export async function scanVersionDetail(identify) {
   const res = {
@@ -407,7 +407,7 @@ export async function scanVersionDetail(identify) {
 /**
  * internal: read or request of version category
  * @param {string} iso_639_3 - Language Tag
- * @returns {Promise<{data:any, error:any}>} - if `data` empty, see `error` [505, 404]
+ * @returns {Promise<{data:any, error:any}>} - if `data` empty, see `error` [503, 404]
  */
 async function scanVersionCategory(iso_639_3) {
   const res = {
@@ -516,7 +516,7 @@ export async function scanBook(identify, bible, versionDetail) {
                   // process.stdout.clearLine(0);
                   // process.stdout.cursorTo(0);
                   // process.stdout.write(_lPId + "." + chapterId);
-                  else console.info("", identify, ">", _lPBId);
+                  console.info("", identify, ">", _lPBId);
                 } else {
                   // throw new Error("JSDOM is empty");
                   skipHelper(identify, bookNameId, chapterId);
