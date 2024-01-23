@@ -144,12 +144,12 @@ export async function doScan(req) {
     root.task.current = root.findTask(req.query.id);
   }
   const identify = root.task.scanId;
-  const verData = await root.scanVersionDetail(identify);
+  const versionDetail = await root.scanVersionDetail(identify);
   if (!root.task.current && identify) {
-    if (verData.data) {
+    if (versionDetail.data) {
       root.task.current = {
         id: identify,
-        ext: verData.data.abbreviation,
+        ext: versionDetail.data.abbreviation,
         identify: identify,
         note: {},
       };
@@ -158,7 +158,7 @@ export async function doScan(req) {
     }
   }
 
-  if (!verData) {
+  if (!versionDetail) {
     return "no versionData";
   }
 
@@ -179,7 +179,7 @@ export async function doScan(req) {
     bible.book = {};
   }
 
-  await root.scanBook(identify, bible, verData).catch(async (error) => {
+  await root.scanBook(identify, bible, versionDetail).catch(async (error) => {
     let _ms = 3000;
     if (error.statusCode) {
       console.info(">", error.statusCode);

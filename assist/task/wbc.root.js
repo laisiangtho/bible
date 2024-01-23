@@ -137,17 +137,14 @@ export function fileCache(bN, cN) {
 }
 
 /**
- * fileName: !/bible/?/contents/scanId.json
+ * fileName: !/bible/?/fruit/scanId.json
  */
 export function fileFruit() {
-  // let root = settings.fruit.replace("!", config.storage);
-  // const scanId = scanIdentify();
-  // return root.replace("?", taskId).replace("scanId", scanId);
-
   let root = settings.bin.replace("!", config.storage);
   const scanId = scanIdentify();
   return root
     .replace("?", taskId)
+    .replace("contents", "fruit")
     .replace("scanId/bN.cN", scanId)
     .replace(".ext", ".json");
 }
@@ -442,18 +439,18 @@ async function scanVersionCategory(iso_639_3) {
  * internal: book of (version, chapter, lang)
  * @param {string} identify
  * @param {base.env.TypeOfBible} bible
- * @param {any} versionData
+ * @param {{data:any, error:any}} versionDetail
  */
-export async function scanBook(identify, bible, versionData) {
-  // const versionData = await doScanVersion(identify);
+export async function scanBook(identify, bible, versionDetail) {
+  // const versionDetail = await scanVersionDetail(identify);
   const langData = await scanLang();
 
   const tmp = {
     bookNameId: "",
   };
 
-  if (versionData && versionData.books) {
-    const books = versionData.books;
+  if (versionDetail.data && versionDetail.data.books) {
+    const books = versionDetail.data.books;
     for (let bIndex = 0; bIndex < books.length; bIndex++) {
       const bookOfResponse = books[bIndex];
       const bookOfCategory = category.book.find(
