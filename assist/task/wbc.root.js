@@ -385,6 +385,7 @@ export async function scanVersion(identify) {
     }
     return data;
   } catch (error) {
+    console.log(error);
     return null;
   }
 }
@@ -488,14 +489,14 @@ export async function scanBook(identify, bible, versionData) {
                   }
                 }
 
-                const skip503 = msg.startsWith(
+                const error503 = msg.startsWith(
                   "Resource was not loaded. Status: 503"
                 );
                 /**
                  * Resource was not loaded. Status: 503
                  * msg.startsWith("Resource was not loaded. Status: 503")
                  */
-                if (!skip503) {
+                if (!error503) {
                   skipHelper(identify, bookNameId, chapterId);
                 }
 
