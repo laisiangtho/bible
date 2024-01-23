@@ -70,11 +70,11 @@ export async function doRequest(req) {
   if (identify) {
     root.findTask(identify);
     if (!root.task.current) {
-      const verData = await root.scanVersion(identify);
-      if (verData) {
+      let verData = await root.scanVersionDetail(identify);
+      if (verData.data) {
         root.task.current = {
           id: identify,
-          ext: verData.abbreviation,
+          ext: verData.data.abbreviation,
           identify: identify,
           note: {},
         };
@@ -144,12 +144,12 @@ export async function doScan(req) {
     root.task.current = root.findTask(req.query.id);
   }
   const identify = root.task.scanId;
-  const verData = await root.scanVersion(identify);
+  const verData = await root.scanVersionDetail(identify);
   if (!root.task.current && identify) {
-    if (verData) {
+    if (verData.data) {
       root.task.current = {
         id: identify,
-        ext: verData.abbreviation,
+        ext: verData.data.abbreviation,
         identify: identify,
         note: {},
       };
@@ -347,36 +347,43 @@ export async function doScanAll(req) {
  */
 export async function doMapContent(req) {
   return await root.mapAll(async (info) => {
-    let _ms = 300;
-    let keyNote = "?";
-    const identify = info.id;
+    if (info) {
+      let _ms = 300;
+      let keyNote = "?";
+      const identify = info.id;
 
-    root.findTask(identify);
+      root.findTask(identify);
 
-    if (!root.task.current) {
-      root.task.current = {
-        id: identify,
-        ext: info.abbreviation,
-        identify: identify,
-        note: {},
-      };
-      root.task.list.push(root.task.current);
-      const msg = await doScan({ query: { id: identify } });
-      if (msg.startsWith("scanned")) {
-        await root.settingWrite();
-        keyNote = "newly";
+      if (!root.task.current) {
+        root.task.current = {
+          id: identify,
+          ext: info.abbreviation,
+          identify: identify,
+          note: {},
+        };
+        root.task.list.push(root.task.current);
+        const msg = await doScan({ query: { id: identify } });
+        if (msg.startsWith("scanned")) {
+          await root.settingWrite();
+          keyNote = "newly";
+        } else {
+          console.info(msg);
+        }
       } else {
-        console.info(msg);
+        _ms = 60;
+        // exists in (setting.list)
+        keyNote = "already";
       }
-    } else {
-      _ms = 60;
-      // exists in (setting.list)
-      keyNote = "already";
-    }
-    // let scanCount = root.task.list.length;
+      // let scanCount = root.task.list.length;
 
-    console.info("> scanned %s: %d, continue in %d ms", keyNote, identify, _ms);
-    await new Promise((resolve) => setTimeout(resolve, _ms));
+      console.info(
+        "> scanned %s: %d, continue in %d ms",
+        keyNote,
+        identify,
+        _ms
+      );
+      await new Promise((resolve) => setTimeout(resolve, _ms));
+    }
   });
 }
 

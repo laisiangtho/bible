@@ -11,6 +11,7 @@ const category = env.category;
 // const structure = env.structure;
 
 /**
+ *
  * @typedef {Object} TypeOfListData
  * @property {string} id - bibleId
  * @property {string} ext - extension
@@ -19,13 +20,12 @@ const category = env.category;
  *
  * @typedef {Object} TypeOfSetting
  * @property {string} scan
- * @property {string} fruit - output file `./assets/?/tmp/scanId.json`
- * @property {string} html - cache file `./assets/?/tmp/scanId/bN.cN.html`
+ * @property {string} bin - cache file `!/bible/?/contents/scanId/bN.cN.ext`
  * @property {string} doc - JSON file containing bible `./json/~.json`
- * @property {string} url - bible.book.chapter
- * @property {string} uav - api version - url api version
- * @property {string} uco - api configuration
- * @property {string} ula - api language
+ * @property {string} udc - bible.book.chapter
+ * @property {string} uvd - url version detail `//~.com/api/~/version/iN` uvd uvc
+ * @property {string} uvc - url version category `//~.com/api/~/version/iN?language_tag=lT&type=all`
+ * @property {string} uco - url configuration
  * @property {number} version - version number
  * @property {number} delay - in seconds
  * @property {TypeOfListData[]} list
@@ -89,6 +89,7 @@ export function scanIdentify(identify) {
 }
 
 /**
+ * udp
  * //~.com/~/iN/bN.cN.iE
  * @param {string} bN - bookNameId
  * @param {string|number} cN - chapterId
@@ -97,10 +98,10 @@ export function scanIdentify(identify) {
  * param {string} cN - chapterId
  */
 export function urlChapter(bN, cN) {
-  if (!settings.url || !task.current) {
+  if (!task.current) {
     return "";
   }
-  return settings.url
+  return settings.udc
     .replace(/~/g, idName)
     .replace(/iN/, task.current.id)
     .replace(/bN/, bN)
@@ -108,66 +109,89 @@ export function urlChapter(bN, cN) {
     .replace(/iE/, task.current.ext);
 }
 
-/**
- * //~.com/api/~/version/iN
- * @param {string} id
- */
-export function uaVersion(id) {
-  if (!settings.uav || !id) {
-    return "";
-  }
-  return settings.uav.replace(/~/g, idName).replace(/iN/, id);
-}
+// /**
+//  * //~.com/api/~/version/iN
+//  * @param {string} id
+//  */
+// export function uaVersion(id) {
+//   if (!settings.uvd || !id) {
+//     return "";
+//   }
+//   return settings.uvd.replace(/~/g, idName).replace(/iN/, id);
+// }
 
 /**
- * fileName: !/bible/?/scanId/bN.cN.html
+ * fileName: !/bible/?/contents/scanId/bN.cN.html
  * @param {string} bN - bookNameId
  * @param {string|number} cN - chapterId
  */
 export function fileCache(bN, cN) {
-  let root = settings.html.replace("!", config.storage);
+  let root = settings.bin.replace("!", config.storage);
   const scanId = scanIdentify();
   return root
     .replace("?", taskId)
     .replace("scanId", scanId)
     .replace(/bN/, bN)
-    .replace(/cN/, cN.toString());
+    .replace(/cN/, cN.toString())
+    .replace(".ext", ".html");
 }
 
 /**
- * fileName: !/bible/?/scanId.json
+ * fileName: !/bible/?/contents/scanId.json
  */
 export function fileFruit() {
-  let root = settings.fruit.replace("!", config.storage);
+  // let root = settings.fruit.replace("!", config.storage);
+  // const scanId = scanIdentify();
+  // return root.replace("?", taskId).replace("scanId", scanId);
+
+  let root = settings.bin.replace("!", config.storage);
   const scanId = scanIdentify();
-  return root.replace("?", taskId).replace("scanId", scanId);
+  return root
+    .replace("?", taskId)
+    .replace("scanId/bN.cN", scanId)
+    .replace(".ext", ".json");
 }
 
 /**
- * fileName: !/bible/?/scanId/info.json
+ * fileName: !/bible/?/contents/scanId/info.json
  * @param {string} identify
  */
-export function fileVersion(identify) {
-  let root = settings.html.replace("!", config.storage);
+function fileVersionDetail(identify) {
+  let root = settings.bin.replace("!", config.storage);
   const scanId = scanIdentify(identify);
   return root
     .replace("?", taskId)
     .replace("scanId", scanId)
     .replace("bN.cN", "version")
-    .replace(".html", ".json");
+    .replace(".ext", ".json");
 }
 
 /**
- * fileName: !/bible/?/scanId/lang.json
+ * fileName: !/bible/?/iso/639_3-ctd.json
+ * @param {string} iso_639_3
+ */
+function fileVersionCategory(iso_639_3) {
+  let root = settings.bin.replace("!", config.storage);
+
+  return root
+    .replace("?", taskId)
+    .replace("contents", "iso")
+    .replace("scanId/", "639_3-")
+    .replace("bN.cN", iso_639_3)
+    .replace(".ext", ".json");
+}
+
+/**
+ * fileName: !/bible/?/contents/scanId/lang.json
  */
 export function fileLang() {
-  let root = settings.html.replace("!", config.storage);
+  let root = settings.bin.replace("!", config.storage);
   const scanId = scanIdentify();
   return root
     .replace("?", taskId)
     .replace("scanId", scanId)
     .replace("bN.cN", "lang")
-    .replace(".html", ".json");
+    .replace(".ext", "json");
 }
 
 /**
@@ -290,7 +314,7 @@ export function scanFilter(data, ope, ver) {
  * @param {base.env.TypeOfBible} bible
  */
 export async function scanCore(identify, bible) {
-  await scanVersion(identify);
+  await scanVersionDetail(identify);
   const books = category.book;
 
   for (let index = 0; index < books.length; index++) {
@@ -307,19 +331,7 @@ export async function scanCore(identify, bible) {
     for (let index = 0; index < chapterCount.length; index++) {
       // const verseCount = chapterCount[index];
       const chapterId = index + 1;
-      // let file = fileCache(bookNameId, chapterId);
 
-      // const dom = await doRequestCore(bookNameId, chapterId, true);
-      // const res = await examine(dom);
-      // bible[bookId][chapterId] = res;
-
-      // let dom;
-      // let alreadyCache = seek.exists(file);
-      // if (alreadyCache) {
-      //   dom = await JSDOM.fromFile(file);
-      // } else {
-      //   dom = await requestChapter(bookNameId, chapterId, true);
-      // }
       const dom = await loadChapter(bookNameId, chapterId);
 
       if (dom) {
@@ -367,26 +379,61 @@ export async function scanLang() {
 }
 
 /**
- * org: doScanVersion
- * internal: read or request of version
+ * internal: read or request of version detail
  * @param {string} identify
+ * @returns {Promise<{data:any, error:any}>} - if `data` empty, see `error` [505, 404]
  */
-export async function scanVersion(identify) {
+export async function scanVersionDetail(identify) {
+  const res = {
+    data: null,
+    error: null,
+  };
   try {
     let data;
-    let file = fileVersion(identify);
+    let file = fileVersionDetail(identify);
     let local = seek.exists(file);
     if (local) {
       data = await base.readJSON(file);
     } else {
-      const url = uaVersion(identify);
+      const url = settings.uvd.replace(/~/g, idName).replace(/iN/, identify);
       data = await (await fetch(url)).json();
       await base.writeJSON(file, data, 2);
     }
-    return data;
+    res.data = data;
   } catch (error) {
-    console.log(error);
-    return null;
+    res.error = error;
+  } finally {
+    return res;
+  }
+}
+
+/**
+ * internal: read or request of version category
+ * @param {string} iso_639_3 - Language Tag
+ * @returns {Promise<{data:any, error:any}>} - if `data` empty, see `error` [505, 404]
+ */
+async function scanVersionCategory(iso_639_3) {
+  const res = {
+    data: null,
+    error: null,
+  };
+  try {
+    let data;
+    let file = fileVersionCategory(iso_639_3);
+    let local = seek.exists(file);
+    if (local) {
+      data = await base.readJSON(file);
+    } else {
+      let url = settings.uvc.replace(/~/g, idName).replace(/lT/, iso_639_3);
+      let obj = await (await fetch(url)).json();
+      data = obj.response.data;
+      await base.writeJSON(file, data, 2);
+    }
+    res.data = data;
+  } catch (error) {
+    res.error = error;
+  } finally {
+    return res;
   }
 }
 
@@ -463,7 +510,7 @@ export async function scanBook(identify, bible, versionData) {
                     skipHelper(identify, bookNameId, chapterId);
                   }
 
-                  let _lPBId = bookNameId;
+                  let _lPBId = bookNameId + "." + chapterId;
                   if (bookNameId != tmp.bookNameId) {
                     _lPBId = tmp.bookNameId + " - " + chapter.usfm;
                   }
@@ -472,7 +519,7 @@ export async function scanBook(identify, bible, versionData) {
                   // process.stdout.clearLine(0);
                   // process.stdout.cursorTo(0);
                   // process.stdout.write(_lPId + "." + chapterId);
-                  console.info("", identify, ">", _lPBId);
+                  else console.info("", identify, ">", _lPBId);
                 } else {
                   // throw new Error("JSDOM is empty");
                   skipHelper(identify, bookNameId, chapterId);
@@ -489,14 +536,12 @@ export async function scanBook(identify, bible, versionData) {
                   }
                 }
 
-                const error503 = msg.startsWith(
-                  "Resource was not loaded. Status: 503"
-                );
                 /**
                  * Resource was not loaded. Status: 503
-                 * msg.startsWith("Resource was not loaded. Status: 503")
+                 * Resource was not loaded. Status: 404
                  */
-                if (!error503) {
+                const errorRNL = msg.startsWith("Resource was not loaded");
+                if (!errorRNL) {
                   skipHelper(identify, bookNameId, chapterId);
                 }
 
@@ -506,19 +551,12 @@ export async function scanBook(identify, bible, versionData) {
                 const skipUndefined = msg.startsWith(
                   "Cannot read properties of undefined"
                 );
-                /**
-                 * Resource was not loaded. Status: 404
-                 */
-                const skip404 = msg.startsWith(
-                  "Resource was not loaded. Status: 404"
-                );
-                if (skipUndefined || skip404) {
+
+                if (skipUndefined) {
                   console.info(" > skip:", msg);
                 } else {
                   throw new Error(msg);
                 }
-
-                // throw new Error(msg);
               });
           }
         }
@@ -585,7 +623,7 @@ export async function loadChapter(bookNameId, chapterId, readOnly) {
 
 /**
  * org: doMapCore, mapConfiguration mapAll
- * Map all [uco, ula]
+ * Map all [uco, uvc]
  * @param {function(object):Promise<void>} callback - each of version data
  */
 export async function mapAll(callback) {
@@ -598,20 +636,17 @@ export async function mapAll(callback) {
 
     for (let lIndex = 0; lIndex < languages.length; lIndex++) {
       const language = languages[lIndex];
-      const langTag = language.language_tag;
+      const iso_639_3 = language.language_tag;
+      // const iso_639_3 = language.iso_639_3;
 
-      const urlLanguage = settings.ula
-        ?.replace(/~/g, idName)
-        .replace(/lT/, langTag);
-
-      // let _language = await ask.request(urlLanguage);
-      // const langJSON = JSON.parse(_language);
-      let langJSON = await (await fetch(urlLanguage)).json();
-
-      const versions = langJSON.response.data.versions;
-
-      for (let index = 0; index < versions.length; index++) {
-        await callback(versions[index]);
+      const verCategory = await scanVersionCategory(iso_639_3);
+      if (verCategory.data) {
+        const versions = verCategory.data.versions;
+        for (let index = 0; index < versions.length; index++) {
+          await callback(versions[index]);
+        }
+      } else {
+        console.error(verCategory.error);
       }
     }
   } catch (error) {
