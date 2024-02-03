@@ -9,32 +9,17 @@ const listOfBible = env.listOfBible;
 
 /**
  * Testing
+ * @example
+ * node run task wbc --book=GEN chapter=1 id=463
  * @param {any} req
  */
 export async function doDefault(req) {
-  // let pauseToDelay = 11;
-  // // let pauseToDelay = settings.delay;
-  // // await new Promise((resolve) => resolveInterval(pauseToDelay, resolve));
-  // // await new Promise((resolve) =>
-  // //   root.resolveInterval(pauseToDelay, resolve, "a #", "b #")
-  // // );
-  // for (let index = 0; index < 3; index++) {
-  //   console.info("index", index);
-  //   // console.info("GET result after POST:\n");
-
-  //   await new Promise((resolve) =>
-  //     root.resolveInterval(pauseToDelay + index, resolve)
-  //   ).then(function () {
-  //     // console.info("\nlast", index);
-  //   });
-  //   // process.stdout.flush();
-  //   // process.stdout.end();
-  //   // console.info("\n");
-  //   console.info("last", index);
-  //   // process.stdout.clearLine(1);
-  // }
-
-  return "Oops";
+  try {
+    const res = await root.loadChapter(req.query);
+    return res.status;
+  } catch (error) {
+    return error.message;
+  }
 }
 
 /**
@@ -54,38 +39,20 @@ export async function doCheck(req) {
  * @example
  * node run task wbc request
  * node run task wbc request --book=GEN chapter=1 id=463
+ * node run task wbc request --book=GEN chapter=1 id=463 save=false readOnly=false
  * @param {any} req
  */
 export async function doRequest(req) {
-  let bookId = "GEN";
-  let chapterId = "1";
-
-  if (req.query.book) {
-    bookId = req.query.book;
-  }
-  if (req.query.chapter) {
-    chapterId = req.query.chapter;
-  }
-  let identify = req.query.id;
-  if (identify) {
-    root.findTask(identify);
-    if (!root.task.current) {
-      let verData = await root.scanVersionDetail(identify);
-      if (verData.data) {
-        root.task.current = {
-          id: identify,
-          ext: verData.data.abbreviation,
-          identify: identify,
-          note: {},
-        };
+  return root
+    .loadChapter(req.query)
+    .then((res) => {
+      if (res && res.status > 0) {
+        return res.status;
       }
-    }
-  }
-  if (!root.task.current) {
-    return "Oops";
-  }
-  await root.requestChapter(bookId, chapterId, true);
-  return "request";
+    })
+    .catch((err) => {
+      return err.message;
+    });
 }
 
 /**
@@ -105,28 +72,28 @@ export async function doNew(req) {
 /**
  * Read from local, development only for `examine`
  * @example
- * node run task wbc read --save=true
+ * node run task wbc read --book=GEN chapter=1 id=463 save=false readOnly=true
  * @param {any} req
  */
 export async function doRead(req) {
-  const save = req.query.save;
-  const bN = "REV";
-  const cN = "7";
+  // const save = req.query.save;
+  // const bN = "REV";
+  // const cN = "7";
 
-  const dom = await root.loadChapter(bN, cN);
-  if (dom) {
-    let res = await root.examineChapter(dom);
-    if (res && res.status > 0) {
-      if (save) {
+  req.query.save = false;
+
+  return root
+    .loadChapter(req.query)
+    .then(async (res) => {
+      if (res && res.status > 0) {
         let file = "./tmp/test-read-chapter.json";
         await root.base.writeJSON(file, res, 2);
-        console.info("> write", file);
+        return "> write " + file;
       }
-    }
-    return res.status;
-  }
-
-  return "empty";
+    })
+    .catch((err) => {
+      return err.message;
+    });
 }
 
 /**
@@ -226,7 +193,7 @@ export async function doScan(req) {
             bible.info.copyright = bookInfo.copyright;
 
             const iso = bookInfo.language.name;
-            const file = config.fileOfLang.replace("~", iso);
+            const file = env.fileLanguage(iso);
 
             const lang = await root.base.readJSON(file, {
               digit: [],
@@ -398,7 +365,7 @@ export async function doMapContext(req) {
   return await root.mapAll(async (info) => {
     const identify = info.id;
     const iso = info.language.iso_639_3;
-    // const file = config.fileOfLang.replace("~", iso);
+    // const file = env.fileLanguage(iso);
     // console.info("lang file", file);
     // const abc = await doNew({ query: { id: identify } });
     // const msg = await doNew({ query: { id: identify, dir: iso } });
@@ -476,4 +443,77 @@ export async function doMapLanguage(req) {
   const tF = _todo.fail.length;
   console.info("> incomplete: %d, fail: %d", _tL, tF);
   return message;
+}
+
+/**
+ * Rescan skipped list
+ * @example
+ * node run task wbc skip
+ * @param {any} req
+ */
+export async function doSkip(req) {
+  let skippedBible = root.settings.skip;
+
+  const successIdentifies = [];
+  for (let oIndex = 0; oIndex < skippedBible.length; oIndex++) {
+    const elBi = skippedBible[oIndex];
+    const id = elBi.identify;
+    const successBooks = [];
+    for (let bIndex = 0; bIndex < elBi.books.length; bIndex++) {
+      const elBo = elBi.books[bIndex];
+      const book = elBo.book;
+      const successChapters = [];
+      for (let cIndex = 0; cIndex < elBo.chapters.length; cIndex++) {
+        const chapter = elBo.chapters[cIndex];
+        // Testing
+        // if (chapter < 10) {
+        //   successChapters.push(chapter);
+        // }
+
+        await root
+          .loadChapter({
+            id: id,
+            book: book,
+            chapter: chapter,
+          })
+          .then((res) => {
+            if (res && res.status > 0) {
+              successChapters.push(chapter);
+              console.info(` > ${id} ${book}.${chapter} ~ ${res.status}`);
+            }
+          })
+          .catch((err) => {
+            console.error(` > ${id} ${book}.${chapter} ...${err.message}`);
+          });
+      }
+
+      elBo.chapters = elBo.chapters.filter((e) => !successChapters.includes(e));
+      if (elBo.chapters.length == 0) {
+        successBooks.push(book);
+      }
+    }
+    elBi.books = elBi.books.filter((e) => !successBooks.includes(e.book));
+    if (elBi.books.length == 0) {
+      successIdentifies.push(id);
+    }
+  }
+
+  root.settings.skip = skippedBible.filter(
+    (e) => !successIdentifies.includes(e.identify)
+  );
+
+  await root.settingWrite();
+
+  return "doSkip";
+}
+
+/**
+ * Testing
+ * @example
+ * node run task wbc test
+ * @param {any} req
+ */
+export async function doTest(req) {
+  // listOfBible;
+  return "testing";
 }

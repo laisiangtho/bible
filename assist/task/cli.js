@@ -76,6 +76,8 @@ async function doWBC(name) {
       return (await import("./wbc.js")).doScan;
     case "scanAll":
       return (await import("./wbc.js")).doScanAll;
+    case "skip":
+      return (await import("./wbc.js")).doSkip;
     case "new":
       return (await import("./wbc.js")).doNew;
     case "content":

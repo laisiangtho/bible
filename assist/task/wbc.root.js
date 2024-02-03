@@ -54,7 +54,7 @@ const _settingsFile = "./assets/?/settings.json".replace("?", taskId);
 export const settings = await base.readJSON(_settingsFile, {});
 
 /**
- * update setting
+ * Write setting
  */
 export async function settingWrite() {
   return base.writeJSON(_settingsFile, settings, 2);
@@ -150,7 +150,7 @@ export function fileFruit() {
 }
 
 /**
- * fileName: !/bible/?/contents/scanId/info.json
+ * fileName: !/bible/?/contents/scanId/version.json
  * @param {string} identify
  */
 function fileVersionDetail(identify) {
@@ -193,7 +193,6 @@ export function fileLang() {
 
 /**
  * fileName: ./json/~.json
- * fileDoc
  * @param {string} identify
  */
 export function fileDoc(identify) {
@@ -239,40 +238,6 @@ export function fileDoc(identify) {
 //     // process.stdout.end();
 //   }, milliseconds);
 // }
-
-/**
- * Request chapter
- * @param {string} bN
- * @param {string|number} cN
- * @param {boolean} [save] - if true write tmp HTML file
- */
-export async function requestChapter(bN, cN, save) {
-  // try {
-  // } catch (error) {
-  //   // throw new Error("Parameter is not a number!");
-  //   // error.statusCode = 404;
-  //   throw error;
-  // }
-  let url = urlChapter(bN, cN);
-
-  let dom = await JSDOM.fromURL(url);
-  let doc = dom.window.document;
-
-  const body = doc.getElementsByClassName("ChapterContent_chapter__uvbXo")[0];
-  const wbcInnerHTML = body.innerHTML;
-
-  // NOTE: meta is require for utf8
-  const tpl = "<html><head><meta charset='utf-8'></head><body>?</body></html>";
-
-  const wbcBody = tpl.replace("?", wbcInnerHTML);
-
-  if (save) {
-    let file = fileCache(bN, cN);
-    await seek.write(file, wbcBody);
-  }
-
-  return new JSDOM(wbcBody);
-}
 
 /**
  * org: doScanAllFilter
@@ -329,21 +294,17 @@ export async function scanCore(identify, bible) {
       // const verseCount = chapterCount[index];
       const chapterId = index + 1;
 
-      const dom = await loadChapter(bookNameId, chapterId);
+      const res = await readChapter(bookNameId, chapterId);
+      if (res && res.status > 0) {
+        // bible[bookId][chapterId] = res.verse;
 
-      if (dom) {
-        const res = await examineChapter(dom);
-        if (res && res.status > 0) {
-          // bible[bookId][chapterId] = res.verse;
-
-          if (!bible.book[bookId].chapter) {
-            bible.book[bookId].chapter = {};
-          }
-          if (!bible.book[bookId].chapter[chapterId]) {
-            bible.book[bookId].chapter[chapterId] = {};
-          }
-          bible.book[bookId].chapter[chapterId].verse = res.verse;
+        if (!bible.book[bookId].chapter) {
+          bible.book[bookId].chapter = {};
         }
+        if (!bible.book[bookId].chapter[chapterId]) {
+          bible.book[bookId].chapter[chapterId] = {};
+        }
+        bible.book[bookId].chapter[chapterId].verse = res.verse;
       }
       console.info(bookNameId, chapterId);
     }
@@ -496,31 +457,25 @@ export async function scanBook(identify, bible, versionDetail) {
             if (!bible.book[bookId].chapter[chapterId]) {
               bible.book[bookId].chapter[chapterId] = {};
             }
-            await loadChapter(bookNameId, chapterId)
-              .then(async (dom) => {
-                if (dom) {
-                  const res = await examineChapter(dom);
-                  if (res && res.status > 0) {
-                    bible.book[bookId].chapter[chapterId].verse = res.verse;
-                  } else {
-                    // throw new Error("EXAM is empty");
-                    skipHelper(identify, bookNameId, chapterId);
-                  }
-
-                  let _lPBId = bookNameId + "." + chapterId;
-                  if (bookNameId != tmp.bookNameId) {
-                    _lPBId = tmp.bookNameId + " - " + chapter.usfm;
-                  }
-
-                  // let _lPId = "... " + identify + " > " + _lPBId;
-                  // process.stdout.clearLine(0);
-                  // process.stdout.cursorTo(0);
-                  // process.stdout.write(_lPId + "." + chapterId);
-                  console.info("", identify, ">", _lPBId);
+            await readChapter(bookNameId, chapterId)
+              .then(async (res) => {
+                if (res && res.status > 0) {
+                  bible.book[bookId].chapter[chapterId].verse = res.verse;
                 } else {
-                  // throw new Error("JSDOM is empty");
+                  // throw new Error("EXAM is empty");
                   skipHelper(identify, bookNameId, chapterId);
                 }
+
+                let _lPBId = bookNameId + "." + chapterId;
+                if (bookNameId != tmp.bookNameId) {
+                  _lPBId = tmp.bookNameId + " - " + chapter.usfm;
+                }
+
+                // let _lPId = "... " + identify + " > " + _lPBId;
+                // process.stdout.clearLine(0);
+                // process.stdout.cursorTo(0);
+                // process.stdout.write(_lPId + "." + chapterId);
+                console.info("", identify, ">", _lPBId);
               })
               .catch((err) => {
                 let msg = "Unknown";
@@ -549,7 +504,7 @@ export async function scanBook(identify, bible, versionDetail) {
                   "Cannot read properties of undefined"
                 );
 
-                if (skipUndefined) {
+                if (skipUndefined || msg.startsWith("Fail")) {
                   console.info(" > skip:", msg);
                 } else {
                   throw new Error(msg);
@@ -600,25 +555,6 @@ function skipHelper(identify, bookNameId, chapterId) {
 }
 
 /**
- * internal: read/request the chapter
- * @param {string} bookNameId
- * @param {string | number} chapterId
- * @param {boolean} [readOnly]
- */
-export async function loadChapter(bookNameId, chapterId, readOnly) {
-  let chapterFile = fileCache(bookNameId, chapterId);
-  let alreadyCache = seek.exists(chapterFile);
-  if (alreadyCache) {
-    return await JSDOM.fromFile(chapterFile);
-  } else {
-    if (readOnly) {
-      throw new Error("readOnly");
-    }
-    return await requestChapter(bookNameId, chapterId, true);
-  }
-}
-
-/**
  * org: doMapCore, mapConfiguration mapAll
  * Map all [uco, uvc]
  * @param {function(object):Promise<void>} callback - each of version data
@@ -653,11 +589,116 @@ export async function mapAll(callback) {
 }
 
 /**
+ * Load chapter.
+ * Write `fileCache` HTML file if `save=true`.
+ * `readOnly` apply if `readOnly=true`
+ * @example
+ * {id:463, book:"GEN", chapter:1, save:"true", readOnly:"false"}
+ * save - if true write tmp HTML file
+ * @param {any} query - Default GEN, 1
+ */
+export async function loadChapter(query) {
+  let identify = query.id;
+  let bookId = "GEN";
+  let chapterId = "1";
+  let save = "true";
+  let readOnly = "false";
+
+  if (query.book) {
+    bookId = query.book;
+  }
+  if (query.chapter) {
+    chapterId = query.chapter;
+  }
+  if (query.save) {
+    save = query.save;
+  }
+  if (query.readOnly) {
+    readOnly = query.readOnly;
+  }
+
+  if (identify) {
+    let verData = await scanVersionDetail(identify);
+    findTask(identify);
+    if (!task.current) {
+      if (verData.data) {
+        task.current = {
+          id: identify,
+          ext: verData.data.abbreviation,
+          identify: identify,
+          note: {},
+        };
+      }
+    }
+  }
+  if (!task.current) {
+    throw new Error("Fail: no current task");
+  }
+  return readChapter(bookId, chapterId, save, readOnly);
+}
+
+/**
+ * internal: read chapter then examine
+ * @param {string} bookNameId
+ * @param {string | number} chapterId
+ * @param {string} [save] - default is true
+ * @param {string} [readOnly]
+ */
+async function readChapter(bookNameId, chapterId, save = "true", readOnly) {
+  const dom = await requestChapter(bookNameId, chapterId, save, readOnly);
+  if (dom) {
+    return await examineChapter(dom);
+  }
+  throw new Error("Fail: file empty");
+}
+
+/**
+ * Request/Read chapter
+ * @param {string} bN
+ * @param {string|number} cN
+ * @param {string} [save="true"] - if true write `fileCache` HTML file
+ * @param {string} [readOnly]
+ */
+async function requestChapter(bN, cN, save = "true", readOnly = "false") {
+  let chapterFile = fileCache(bN, cN);
+  let alreadyCache = seek.exists(chapterFile);
+  if (alreadyCache) {
+    return await JSDOM.fromFile(chapterFile);
+  } else {
+    if (readOnly == "true") {
+      throw new Error("Fail: marked as read only");
+    }
+  }
+
+  let url = urlChapter(bN, cN);
+
+  // throw new Error("Parameter is not a number!");
+  // error.statusCode = 404;
+  let dom = await JSDOM.fromURL(url);
+  let doc = dom.window.document;
+
+  const body = doc.getElementsByClassName("ChapterContent_chapter__uvbXo")[0];
+  const wbcInnerHTML = body.innerHTML;
+
+  // NOTE: meta is require for utf8
+  const tpl = "<html><head><meta charset='utf-8'></head><body>?</body></html>";
+
+  const wbcBody = tpl.replace("?", wbcInnerHTML);
+
+  if (save == "true") {
+    let file = fileCache(bN, cN);
+    await seek.write(file, wbcBody);
+  }
+
+  return new JSDOM(wbcBody);
+}
+
+/**
  * Html to json of Chapter
  * Extract html>body and format to json
  * @param {JSDOM} dom
  */
-export async function examineChapter(dom) {
+async function examineChapter(dom) {
   let doc = dom.window.document;
   let body = doc.getElementsByTagName("body")[0];
   const res = {
