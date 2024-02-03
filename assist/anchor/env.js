@@ -7,7 +7,7 @@ import core, { seek } from "lethil";
  * @property {string} [local] - language name (in local)
  * @property {string} name - language code (ISO-639-3) eg.[eng, ctd]
  *
- * @typedef {Object} TypeOfInfo - ?
+ * @typedef {Object} TypeOfInfo - see `./book.json` shelf TypeOfBookShelf TypeOfShelf
  * @property {string} identify - id of the Bible [1,2]
  * @property {string} name - Bible name eg.[King James Version]
  * @property {string} shortname - Shortname eg.[KJV]
@@ -183,9 +183,9 @@ export const config = core.config.merge({
    */
   fileOfBible: "./json/~.json",
   /**
-   * ./lang/~.json
+   * ./lang/iso-~.json
    */
-  fileOfLang: "./lang/~.json",
+  fileOfLang: "./lang/iso-~.json",
 });
 
 /**
@@ -550,12 +550,19 @@ function verseSearch(text, keyword) {
 }
 
 /**
+ * Language file name `./lang/iso-~.json`
+ * @param {string} iso - iso_639_3
+ */
+export function fileLanguage(iso) {
+  return config.fileOfLang.replace("~", iso);
+}
+/**
  * Internal: Language generator
  * @param {string} iso - iso_639_3
  * @param {string} identify - book.identify
  */
 export async function createLanguage(iso, identify) {
-  const file = config.fileOfLang.replace("~", iso);
+  const file = fileLanguage(iso);
   const res = await seek.readJSON(file, {
     digit: [],
     language: {},
