@@ -1,12 +1,11 @@
 {
   "scan": 3411,
-  "fruit": "!/bible/?/scanId.json",
-  "html": "!/bible/?/scanId/bN.cN.html",
+  "bin": "!/bible/?/contents/scanId/bN.cN.ext",
   "doc": "./json/~.json",
-  "url": "https://www.~.com/~/iN/bN.cN.iE",
-  "uav": "https://www.~.com/api/~/version/iN",
+  "udc": "https://www.~.com/~/iN/bN.cN.iE",
+  "uvc": "https://www.~.com/api/~/versions?language_tag=lT&type=all",
+  "uvd": "https://www.~.com/api/~/version/iN",
   "uco": "https://www.~.com/api/~/configuration",
-  "ula": "https://www.~.com/api/~/versions?language_tag=lT&type=all",
   "delay": 7000,
   "version": 259,
   "list": [
@@ -469,6 +468,30 @@
       "ext": "AMIS2019",
       "identify": 3411,
       "note": {}
+    },
+    {
+      "id": 483,
+      "ext": "MCNT91",
+      "identify": 483,
+      "note": {}
+    },
+    {
+      "id": 1069,
+      "ext": "kud",
+      "identify": 1069,
+      "note": {}
+    },
+    {
+      "id": 3421,
+      "ext": "ABM",
+      "identify": 3421,
+      "note": {}
+    },
+    {
+      "id": 1015,
+      "ext": "aau",
+      "identify": 1015,
+      "note": {}
     }
   ],
   "await": [
@@ -503,6 +526,19 @@
       "publisher": "Bible Society of Egypt",
       "contributors": "",
       "copyright": ""
+    }
+  ],
+  "skip": [
+    {
+      "identify": 1015,
+      "books": [
+        {
+          "book": "JHN",
+          "chapters": [
+            "60"
+          ]
+        }
+      ]
     }
   ]
 }
