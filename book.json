@@ -1,7 +1,7 @@
 {
   "name": "Lai Siangtho",
-  "updated": "2023-12-25T09:35:15.343Z",
-  "version": 259,
+  "updated": "2024-03-23T09:35:15.343Z",
+  "version": 260,
   "book": [
     {
       "identify": "falam1973",
@@ -308,7 +308,7 @@
       "copyright": ""
     },
     {
-      "identify": 1,
+      "identify": "1",
       "name": "King James Version",
       "shortname": "KJV",
       "year": "1611",
