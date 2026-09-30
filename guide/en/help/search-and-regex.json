@@ -1,0 +1,408 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Searching and regular expressions",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do several words search?",
+      "alternateName": [
+        "two words",
+        "all the words",
+        "and search",
+        "more than one word"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every word typed must be in the verse, in any order: love neighbour finds the verses that have both. Add a word to narrow the answer; there is no need to type AND."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:palette/find%20love%20neighbour"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I search for an exact phrase?",
+      "alternateName": [
+        "phrase",
+        "quotes",
+        "words together",
+        "in that order"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Put it in double quotes: \"the good shepherd\" finds those words together, in that order. Quoted and plain words mix: \"good shepherd\" sheep."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:palette/find%20%22the%20good%20shepherd%22"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does bless also find blessed and blessing?",
+      "alternateName": [
+        "part of a word",
+        "prefix",
+        "word forms",
+        "partial match"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A plain search matches anywhere inside a word, so bless finds bless, blessed, blessing and blessedness. That is usually what is wanted; switch on ab| at the end of the search field for whole words only."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find a whole word only?",
+      "alternateName": [
+        "whole word",
+        "exact word",
+        "man not manner",
+        "ab|"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Switch on ab| at the end of the search field. man then finds man but not manner or woman. A word ends where its letters, their marks and digits stop — so in Burmese, which writes words together, a whole word is one set off by a space or punctuation."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does capitalisation matter in a search?",
+      "alternateName": [
+        "case sensitive",
+        "capital letters",
+        "upper case",
+        "Aa",
+        "LORD"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not unless Aa is switched on at the end of the search field. With Aa on, LORD finds the small-capital LORD of the Old Testament and not Lord."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do accents and marks matter in a search?",
+      "alternateName": [
+        "accents",
+        "diacritics",
+        "é",
+        "tone marks",
+        "burmese marks"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accents on Latin letters are ignored, so elan finds élan. Marks in Burmese, Hebrew, Arabic and similar scripts are kept, because there they make a different word; type them as the translation writes them."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I search for a Strong's number?",
+      "alternateName": [
+        "strong's number",
+        "h430",
+        "g26",
+        "original word",
+        "hebrew word",
+        "greek word"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Type the number alone, like H430 or G26, where the translation carries Strong's numbers. The words tagged with it are found and highlighted. H1254 finds every sense of the number; H1254A only that one."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:palette/find%20H430"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "There are too many results — how do I narrow them?",
+      "alternateName": [
+        "too many results",
+        "narrow search",
+        "limit results",
+        "first 2000"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The counts at the top are exact, however many there are; the first 2,000 verses are listed. Add a word, quote a phrase, or choose where to search under the field — a testament, a section such as the Gospels, or chosen books."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a regular expression?",
+      "alternateName": [
+        "regex",
+        "regexp",
+        "pattern",
+        "regular expression",
+        ".*",
+        "advanced search"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A pattern that describes text rather than spelling it out. Switch on .* at the end of the search field and what is typed becomes a pattern. Letters still match themselves, so shepherd works as before; a few characters have a meaning of their own: . | ? * + ( ) [ ] { } ^ $ \\. Each verse is searched on its own."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find either of two words?",
+      "alternateName": [
+        "or",
+        "either",
+        "one of",
+        "alternatives",
+        "|"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Separate them with |: shepherd|sheep finds verses with either. Group a part with brackets to keep the rest in common: (good|great) shepherd."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I allow for two spellings?",
+      "alternateName": [
+        "spelling variants",
+        "optional letter",
+        "colour color",
+        "saviour savior",
+        "?"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "? makes the character before it optional: Saviou?r finds Saviour and Savior. A choice of letters goes in square brackets: gr[ae]y finds grey and gray."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I match any letter, or any number of them?",
+      "alternateName": [
+        "wildcard",
+        "any character",
+        "dot",
+        "star",
+        "plus",
+        "*"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ". is any one character; * repeats what is before it zero or more times, + one or more. s.t finds sat, set, sit; bless\\p{L}* finds bless and every word that starts with it. \\p{L} is a letter in any script, where \\w is only a–z, 0–9 and _. Burmese and other scripts write vowels as marks beside the letters, so for a whole word there use [\\p{L}\\p{M}]+."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I say how many times something repeats?",
+      "alternateName": [
+        "repeat",
+        "count",
+        "{2,}",
+        "quantifier",
+        "at least"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Braces give a count: \\p{L}{12,} finds words of twelve letters or more, (holy, ){2} finds holy repeated. {3} is exactly three, {2,5} two to five."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I search for a character that has a meaning in a pattern?",
+      "alternateName": [
+        "escape",
+        "backslash",
+        "question mark",
+        "full stop",
+        "brackets",
+        "special characters"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Put a backslash before it: \\? is a question mark, \\. a full stop, \\( a bracket. \\?$ finds the verses that end with a question."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find a verse that starts or ends a certain way?",
+      "alternateName": [
+        "start of verse",
+        "end of verse",
+        "^",
+        "$",
+        "anchor",
+        "begins with"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "^ is the start of the verse and $ its end: ^And finds verses that begin with And; !$ those that end with an exclamation."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find two words near each other?",
+      "alternateName": [
+        "near",
+        "within",
+        "proximity",
+        "close together",
+        "same verse in order"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ".{0,40} allows up to forty characters between them: faith.{0,40}love finds faith followed closely by love. For either order, give both: faith.{0,40}love|love.{0,40}faith."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find a word said twice?",
+      "alternateName": [
+        "repeated word",
+        "doubled word",
+        "verily verily",
+        "backreference",
+        "\\1"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Brackets capture what they match and \\1 repeats it: ([\\p{L}\\p{M}]+),? \\1 finds a word said twice in a row, such as Verily, verily or Holy, holy."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find verses with one word and without another?",
+      "alternateName": [
+        "exclude",
+        "without",
+        "not",
+        "negative lookahead",
+        "except"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A lookahead checks the whole verse without using it up: ^(?!.*hate).*love finds love in verses that do not also say hate."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I match whole words in a pattern?",
+      "alternateName": [
+        "word boundary",
+        "\\b",
+        "lookbehind",
+        "whole word regex"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\\b marks the edge of a word, but only of words written in a–z: \\bman\\b is right for English. For any script, look around for letters instead: (?<![\\p{L}\\p{M}])man(?![\\p{L}\\p{M}]). The ab| switch does not apply to patterns."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find capitals, numerals or a script?",
+      "alternateName": [
+        "unicode",
+        "\\p{Lu}",
+        "numbers",
+        "digits",
+        "burmese digits",
+        "script"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\\p{Lu} is a capital letter in any alphabet: with Aa on, \\p{Lu}{3,} finds LORD. \\p{N} is a numeral in any script — 12 and ၁၂ alike — and \\d only 0–9. \\p{Script=Myanmar} is a Burmese character, \\p{Script=Hebrew} a Hebrew one."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My pattern says it cannot be searched — why?",
+      "alternateName": [
+        "invalid regular expression",
+        "pattern error",
+        "unterminated group",
+        "nothing to repeat",
+        "regex error"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The pattern has a mistake, and the search says which: an unclosed bracket (Unterminated group), a * or + with nothing before it (Nothing to repeat), or a lone backslash at the end. Close the bracket or put a backslash before the character."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    }
+  ]
+}

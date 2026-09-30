@@ -15,24 +15,7 @@
       ],
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Press Ctrl/⌘ F, or type \"find\" and the words in the palette. Results show how many verses, chapters and books matched, and each book opens to its verses."
-      },
-      "potentialAction": {
-        "@type": "Action",
-        "target": "laisiangtho:command/search.open"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I search for a whole word only?",
-      "alternateName": [
-        "whole words",
-        "exact word",
-        "man not manner"
-      ],
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Switch on \"ab|\" at the end of the search field: \"man\" then no longer matches \"manner\"."
+        "text": "Press Ctrl/⌘ F, or type \"find\" and the words in the palette. Results show how many verses, chapters and books matched, and each book opens to its verses. How words, phrases, whole words and patterns match is in Searching and regular expressions."
       },
       "potentialAction": {
         "@type": "Action",
