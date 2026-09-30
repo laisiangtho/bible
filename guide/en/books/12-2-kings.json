@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "2 Kings",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "2 Kings"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 2 Kings about?",
+      "alternateName": [
+        "2 Kings summary",
+        "overview of 2 Kings",
+        "introduction to 2 Kings"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The ministry of Elisha, the kings of the divided kingdom, the fall of Israel to Assyria and of Judah and Jerusalem to Babylon."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/12/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 2 Kings?",
+      "alternateName": [
+        "author of 2 Kings",
+        "2 Kings author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The author is not named; it continues 1 Kings from the same sources."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/12/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 2 Kings written?",
+      "alternateName": [
+        "date of 2 Kings",
+        "2 Kings date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It covers about 850–560 BC; its final form is dated to the exile."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/12/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 2 Kings?",
+      "alternateName": [
+        "2 Kings themes",
+        "what does 2 Kings teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: judgement for unfaithfulness, reform, the prophets' warnings, hope in exile."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/12/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 2 Kings?",
+      "alternateName": [
+        "famous verses in 2 Kings",
+        "2 Kings key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 2 Kings 2:11; 2 Kings 5:14; 2 Kings 17:13; 2 Kings 22:13."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/12/2/11"
+      }
+    }
+  ]
+}

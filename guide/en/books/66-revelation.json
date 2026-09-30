@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Revelation",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Revelation"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Revelation about?",
+      "alternateName": [
+        "Revelation summary",
+        "overview of Revelation",
+        "introduction to Revelation"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A prophetic vision given to John for seven churches: Christ among his people, the Lamb who was slain, judgement on evil, and a new heaven and new earth where God lives with his people."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/66/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Revelation?",
+      "alternateName": [
+        "author of Revelation",
+        "Revelation author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "John, who was on the island of Patmos; tradition identifies him with John the apostle."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/66/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Revelation written?",
+      "alternateName": [
+        "date of Revelation",
+        "Revelation date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated around AD 95."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/66/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Revelation?",
+      "alternateName": [
+        "Revelation themes",
+        "what does Revelation teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: the victory of Christ, worship, endurance, judgement, the new creation."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/66/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Revelation?",
+      "alternateName": [
+        "famous verses in Revelation",
+        "Revelation key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Revelation 1:8; Revelation 3:20; Revelation 21:4; Revelation 22:20."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/66/1/8"
+      }
+    }
+  ]
+}

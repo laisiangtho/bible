@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Jonah",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Jonah"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Jonah about?",
+      "alternateName": [
+        "Jonah summary",
+        "overview of Jonah",
+        "introduction to Jonah"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Jonah runs from God's call to preach to Nineveh, is swallowed by a great fish, and is angry when God spares the city that repents."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/32/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Jonah?",
+      "alternateName": [
+        "author of Jonah",
+        "Jonah author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The book is about Jonah son of Amittai; its author is not named."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/32/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Jonah written?",
+      "alternateName": [
+        "date of Jonah",
+        "Jonah date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Jonah lived in the 8th century BC; the book is dated from then to after the exile."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/32/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Jonah?",
+      "alternateName": [
+        "Jonah themes",
+        "what does Jonah teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: God's mercy for all nations, obedience, repentance."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/32/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Jonah?",
+      "alternateName": [
+        "famous verses in Jonah",
+        "Jonah key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Jonah 1:17; Jonah 2:9; Jonah 4:11."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/32/1/17"
+      }
+    }
+  ]
+}

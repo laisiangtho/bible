@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "2 John",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "2 John"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 2 John about?",
+      "alternateName": [
+        "2 John summary",
+        "overview of 2 John",
+        "introduction to 2 John"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A short letter urging a church to walk in truth and love, and not to welcome deceivers."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/63/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 2 John?",
+      "alternateName": [
+        "author of 2 John",
+        "2 John author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "From \"the elder\"; tradition identifies him with John the apostle."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/63/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 2 John written?",
+      "alternateName": [
+        "date of 2 John",
+        "2 John date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated around AD 90–100."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/63/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 2 John?",
+      "alternateName": [
+        "2 John themes",
+        "what does 2 John teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: truth, love, faithfulness."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/63/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 2 John?",
+      "alternateName": [
+        "famous verses in 2 John",
+        "2 John key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 2 John 1:6."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/63/1/6"
+      }
+    }
+  ]
+}

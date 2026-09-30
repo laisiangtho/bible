@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Study tools",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the link graph?",
+      "alternateName": [
+        "graph of chapters",
+        "connections"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The link graph draws the chapters carrying notes or bookmarks, the links between them and the cross-references in them. Drag to move, click to open."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:doc/graph"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the study board?",
+      "alternateName": [
+        "canvas",
+        "cards on a board"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The study board is a canvas for verses and thoughts as cards. Double-click for a card, drag to arrange."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:doc/board"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are Strong's numbers?",
+      "alternateName": [
+        "hebrew",
+        "greek",
+        "original language",
+        "lexicon"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Numbers that tie a word to its Hebrew or Greek original. Where a translation carries them, turn them on from the status bar and press one for its lexicon entry."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/reading.strongs"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "1 Thessalonians",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "1 Thessalonians"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 1 Thessalonians about?",
+      "alternateName": [
+        "1 Thessalonians summary",
+        "overview of 1 Thessalonians",
+        "introduction to 1 Thessalonians"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Paul encourages a young church in faith under pressure, and answers their questions about believers who have died and the Lord's return."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/52/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 1 Thessalonians?",
+      "alternateName": [
+        "author of 1 Thessalonians",
+        "1 Thessalonians author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Paul, with Silas and Timothy."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/52/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 1 Thessalonians written?",
+      "alternateName": [
+        "date of 1 Thessalonians",
+        "1 Thessalonians date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About AD 50–51, from Corinth — among Paul's earliest letters."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/52/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 1 Thessalonians?",
+      "alternateName": [
+        "1 Thessalonians themes",
+        "what does 1 Thessalonians teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: faith, hope, love, holiness, the return of Christ."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/52/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 1 Thessalonians?",
+      "alternateName": [
+        "famous verses in 1 Thessalonians",
+        "1 Thessalonians key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 1 Thessalonians 4:16–17; 1 Thessalonians 5:16–18."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/52/4/16"
+      }
+    }
+  ]
+}

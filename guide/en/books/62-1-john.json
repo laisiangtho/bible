@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "1 John",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "1 John"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 1 John about?",
+      "alternateName": [
+        "1 John summary",
+        "overview of 1 John",
+        "introduction to 1 John"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A letter of assurance: God is light and God is love, and those who belong to him walk in the light, love one another, and believe that Jesus came in the flesh."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/62/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 1 John?",
+      "alternateName": [
+        "author of 1 John",
+        "1 John author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not named in the letter; tradition attributes it to John the apostle."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/62/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 1 John written?",
+      "alternateName": [
+        "date of 1 John",
+        "1 John date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated around AD 90–100."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/62/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 1 John?",
+      "alternateName": [
+        "1 John themes",
+        "what does 1 John teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: love, assurance, truth, fellowship with God."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/62/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 1 John?",
+      "alternateName": [
+        "famous verses in 1 John",
+        "1 John key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 1 John 1:9; 1 John 4:8; 1 John 5:13."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/62/1/9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Esther",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Esther"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Esther about?",
+      "alternateName": [
+        "Esther summary",
+        "overview of Esther",
+        "introduction to Esther"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Jewish woman, Esther, becomes queen of Persia and risks her life to save her people from a plot to destroy them; the book explains the feast of Purim. God is not named in it, yet his care is everywhere in the story."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/17/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Esther?",
+      "alternateName": [
+        "author of Esther",
+        "Esther author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The author is not named."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/17/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Esther written?",
+      "alternateName": [
+        "date of Esther",
+        "Esther date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Set in the Persian court in the 5th century BC; usually dated to the 4th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/17/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Esther?",
+      "alternateName": [
+        "Esther themes",
+        "what does Esther teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: providence, courage, deliverance, reversal of fortune."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/17/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Esther?",
+      "alternateName": [
+        "famous verses in Esther",
+        "Esther key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Esther 4:14; Esther 4:16; Esther 9:22."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/17/4/14"
+      }
+    }
+  ]
+}

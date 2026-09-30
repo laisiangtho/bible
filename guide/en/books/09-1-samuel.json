@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "1 Samuel",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "1 Samuel"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 1 Samuel about?",
+      "alternateName": [
+        "1 Samuel summary",
+        "overview of 1 Samuel",
+        "introduction to 1 Samuel"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The shift from judges to kings: the prophet Samuel, the rise and failure of Saul, Israel's first king, and the anointing and early years of David."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/9/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 1 Samuel?",
+      "alternateName": [
+        "author of 1 Samuel",
+        "1 Samuel author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The author is not named; it draws on records from the time of Samuel, Nathan and Gad (see 1 Chronicles 29:29)."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/9/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 1 Samuel written?",
+      "alternateName": [
+        "date of 1 Samuel",
+        "1 Samuel date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It covers the 11th century BC; its final form is usually dated to the time of the kings or the exile."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/9/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 1 Samuel?",
+      "alternateName": [
+        "1 Samuel themes",
+        "what does 1 Samuel teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: kingship, obedience over sacrifice, God looking at the heart."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/9/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 1 Samuel?",
+      "alternateName": [
+        "famous verses in 1 Samuel",
+        "1 Samuel key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 1 Samuel 3:10; 1 Samuel 15:22; 1 Samuel 16:7; 1 Samuel 17:45."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/9/3/10"
+      }
+    }
+  ]
+}

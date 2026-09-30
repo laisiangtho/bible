@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Exodus",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Exodus"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Exodus about?",
+      "alternateName": [
+        "Exodus summary",
+        "overview of Exodus",
+        "introduction to Exodus"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Israel's rescue from slavery in Egypt, the crossing of the sea, the covenant and the Ten Commandments at Mount Sinai, and the building of the tabernacle where God dwells among his people."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/2/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Exodus?",
+      "alternateName": [
+        "author of Exodus",
+        "Exodus author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditionally attributed to Moses; many scholars see several sources combined."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/2/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Exodus written?",
+      "alternateName": [
+        "date of Exodus",
+        "Exodus date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditionally the time of Moses; many scholars date its final form to the 6th–5th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/2/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Exodus?",
+      "alternateName": [
+        "Exodus themes",
+        "what does Exodus teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: deliverance, Passover, covenant, the law, God's presence."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/2/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Exodus?",
+      "alternateName": [
+        "famous verses in Exodus",
+        "Exodus key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Exodus 3:14; Exodus 12:13; Exodus 20:1–17; Exodus 34:6–7."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/2/3/14"
+      }
+    }
+  ]
+}

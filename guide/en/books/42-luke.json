@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Luke",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Luke"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Luke about?",
+      "alternateName": [
+        "Luke summary",
+        "overview of Luke",
+        "introduction to Luke"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An orderly account of the life of Jesus for Theophilus, with particular care for the poor, women, outsiders and the work of the Holy Spirit, including parables found only here."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/42/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Luke?",
+      "alternateName": [
+        "author of Luke",
+        "Luke author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Early tradition names Luke, a physician and a companion of Paul; he also wrote Acts."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/42/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Luke written?",
+      "alternateName": [
+        "date of Luke",
+        "Luke date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated around AD 60–85."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/42/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Luke?",
+      "alternateName": [
+        "Luke themes",
+        "what does Luke teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: salvation for all, the poor and the lost, prayer, the Holy Spirit, joy."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/42/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Luke?",
+      "alternateName": [
+        "famous verses in Luke",
+        "Luke key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Luke 2:10–11; Luke 15:4–7; Luke 19:10."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/42/2/10"
+      }
+    }
+  ]
+}

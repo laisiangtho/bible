@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Zephaniah",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Zephaniah"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Zephaniah about?",
+      "alternateName": [
+        "Zephaniah summary",
+        "overview of Zephaniah",
+        "introduction to Zephaniah"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The coming day of the Lord brings judgement on Judah and the nations, and then the restoration of a humble people in whom God rejoices."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/36/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Zephaniah?",
+      "alternateName": [
+        "author of Zephaniah",
+        "Zephaniah author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Zephaniah, a descendant of King Hezekiah."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/36/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Zephaniah written?",
+      "alternateName": [
+        "date of Zephaniah",
+        "Zephaniah date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the reign of Josiah, about 640–609 BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/36/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Zephaniah?",
+      "alternateName": [
+        "Zephaniah themes",
+        "what does Zephaniah teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: the day of the Lord, humility, God rejoicing over his people."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/36/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Zephaniah?",
+      "alternateName": [
+        "famous verses in Zephaniah",
+        "Zephaniah key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Zephaniah 1:14; Zephaniah 3:17."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/36/1/14"
+      }
+    }
+  ]
+}

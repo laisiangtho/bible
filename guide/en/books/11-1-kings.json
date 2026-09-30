@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "1 Kings",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "1 Kings"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 1 Kings about?",
+      "alternateName": [
+        "1 Kings summary",
+        "overview of 1 Kings",
+        "introduction to 1 Kings"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Solomon's reign and the building of the temple, the division of the kingdom into Israel and Judah, and the prophet Elijah's stand against the worship of Baal."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/11/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 1 Kings?",
+      "alternateName": [
+        "author of 1 Kings",
+        "1 Kings author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The author is not named; Jewish tradition names Jeremiah. It cites earlier royal records."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/11/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 1 Kings written?",
+      "alternateName": [
+        "date of 1 Kings",
+        "1 Kings date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It covers about 970–850 BC; its final form is usually dated to the exile, in the 6th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/11/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 1 Kings?",
+      "alternateName": [
+        "1 Kings themes",
+        "what does 1 Kings teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: wisdom and its loss, the temple, faithfulness of kings, the prophets' voice."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/11/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 1 Kings?",
+      "alternateName": [
+        "famous verses in 1 Kings",
+        "1 Kings key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 1 Kings 3:9; 1 Kings 8:27; 1 Kings 18:21; 1 Kings 19:12."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/11/3/9"
+      }
+    }
+  ]
+}

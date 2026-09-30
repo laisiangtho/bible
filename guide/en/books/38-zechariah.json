@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Zechariah",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Zechariah"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Zechariah about?",
+      "alternateName": [
+        "Zechariah summary",
+        "overview of Zechariah",
+        "introduction to Zechariah"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Visions encouraging the rebuilding of the temple and the community, and prophecies of a humble king coming to Jerusalem."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/38/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Zechariah?",
+      "alternateName": [
+        "author of Zechariah",
+        "Zechariah author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Zechariah son of Berekiah; many scholars see chapters 9–14 as later."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/38/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Zechariah written?",
+      "alternateName": [
+        "date of Zechariah",
+        "Zechariah date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "From 520 BC, with later parts dated variously."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/38/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Zechariah?",
+      "alternateName": [
+        "Zechariah themes",
+        "what does Zechariah teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: return to God, restoration, the coming king."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/38/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Zechariah?",
+      "alternateName": [
+        "famous verses in Zechariah",
+        "Zechariah key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Zechariah 4:6; Zechariah 9:9; Zechariah 12:10."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/38/4/6"
+      }
+    }
+  ]
+}

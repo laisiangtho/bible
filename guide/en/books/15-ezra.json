@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Ezra",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Ezra"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Ezra about?",
+      "alternateName": [
+        "Ezra summary",
+        "overview of Ezra",
+        "introduction to Ezra"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The return of exiles from Babylon, the rebuilding of the temple, and Ezra's work to renew the people's life under God's law."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/15/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Ezra?",
+      "alternateName": [
+        "author of Ezra",
+        "Ezra author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditionally attributed to Ezra, a priest and scribe; it includes his own first-person memoirs."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/15/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Ezra written?",
+      "alternateName": [
+        "date of Ezra",
+        "Ezra date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Its events run from 538 to about 458 BC; written in the 5th–4th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/15/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Ezra?",
+      "alternateName": [
+        "Ezra themes",
+        "what does Ezra teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: return and restoration, the word of God, purity of worship."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/15/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Ezra?",
+      "alternateName": [
+        "famous verses in Ezra",
+        "Ezra key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Ezra 1:1–3; Ezra 3:11; Ezra 7:10."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/15/1/1"
+      }
+    }
+  ]
+}

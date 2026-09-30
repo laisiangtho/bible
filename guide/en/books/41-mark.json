@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Mark",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Mark"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Mark about?",
+      "alternateName": [
+        "Mark summary",
+        "overview of Mark",
+        "introduction to Mark"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The shortest Gospel, fast-moving and vivid: Jesus the Son of God acts with authority, teaches, heals and goes to the cross as the servant who gives his life as a ransom for many."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/41/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Mark?",
+      "alternateName": [
+        "author of Mark",
+        "Mark author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Early tradition names John Mark, a companion of Peter and of Paul, drawing on Peter's preaching."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/41/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Mark written?",
+      "alternateName": [
+        "date of Mark",
+        "Mark date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated around AD 60–70."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/41/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Mark?",
+      "alternateName": [
+        "Mark themes",
+        "what does Mark teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: Jesus as Son of God, the suffering servant, discipleship, the cross."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/41/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Mark?",
+      "alternateName": [
+        "famous verses in Mark",
+        "Mark key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Mark 1:15; Mark 8:29; Mark 10:45."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/41/1/15"
+      }
+    }
+  ]
+}

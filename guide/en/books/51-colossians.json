@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Colossians",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Colossians"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Colossians about?",
+      "alternateName": [
+        "Colossians summary",
+        "overview of Colossians",
+        "introduction to Colossians"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Christ is supreme over all creation and all powers; the church needs nothing added to him, and new life in him shapes every relationship."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/51/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Colossians?",
+      "alternateName": [
+        "author of Colossians",
+        "Colossians author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Paul, with Timothy; some scholars think it was written by a follower."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/51/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Colossians written?",
+      "alternateName": [
+        "date of Colossians",
+        "Colossians date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About AD 60–62, from prison, if by Paul."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/51/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Colossians?",
+      "alternateName": [
+        "Colossians themes",
+        "what does Colossians teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: the supremacy of Christ, fullness in him, new life."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/51/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Colossians?",
+      "alternateName": [
+        "famous verses in Colossians",
+        "Colossians key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Colossians 1:15–17; Colossians 3:2; Colossians 3:23."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/51/1/15"
+      }
+    }
+  ]
+}

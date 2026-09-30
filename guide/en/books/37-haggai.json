@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Haggai",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Haggai"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Haggai about?",
+      "alternateName": [
+        "Haggai summary",
+        "overview of Haggai",
+        "introduction to Haggai"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Haggai urges the returned exiles to put first the rebuilding of the temple, promising that its glory will be greater than before."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/37/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Haggai?",
+      "alternateName": [
+        "author of Haggai",
+        "Haggai author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Haggai."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/37/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Haggai written?",
+      "alternateName": [
+        "date of Haggai",
+        "Haggai date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "520 BC, after the return from exile."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/37/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Haggai?",
+      "alternateName": [
+        "Haggai themes",
+        "what does Haggai teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: priorities, rebuilding, God's presence."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/37/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Haggai?",
+      "alternateName": [
+        "famous verses in Haggai",
+        "Haggai key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Haggai 1:4; Haggai 2:9."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/37/1/4"
+      }
+    }
+  ]
+}

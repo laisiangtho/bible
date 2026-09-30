@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Amos",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Amos"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Amos about?",
+      "alternateName": [
+        "Amos summary",
+        "overview of Amos",
+        "introduction to Amos"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A call for justice against the wealth, oppression and empty worship of the northern kingdom of Israel."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/30/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Amos?",
+      "alternateName": [
+        "author of Amos",
+        "Amos author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Amos, a shepherd from Tekoa in Judah."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/30/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Amos written?",
+      "alternateName": [
+        "date of Amos",
+        "Amos date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Amos prophesied about 760–750 BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/30/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Amos?",
+      "alternateName": [
+        "Amos themes",
+        "what does Amos teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: justice, righteousness, true worship, judgement."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/30/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Amos?",
+      "alternateName": [
+        "famous verses in Amos",
+        "Amos key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Amos 3:3; Amos 5:24; Amos 9:11."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/30/3/3"
+      }
+    }
+  ]
+}

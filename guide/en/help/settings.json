@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Settings and your data",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I change the language of the app?",
+      "alternateName": [
+        "language",
+        "norwegian",
+        "burmese",
+        "interface language"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Settings → Appearance → Language. The app follows the device unless one is chosen; scripture is always shown in its own language."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:doc/settings"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I back up my notes?",
+      "alternateName": [
+        "backup",
+        "move to another device",
+        "transfer"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Settings → Your material exports notes, bookmarks, projects and settings in one file. Import it on the other device."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/settings.export"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my data private?",
+      "alternateName": [
+        "privacy",
+        "uploaded",
+        "account",
+        "tracking"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Everything stays on this device. Translations are downloaded when asked for; nothing about the reader is sent anywhere, and there is no account."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:doc/about"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I change the theme or colour?",
+      "alternateName": [
+        "dark mode",
+        "light mode",
+        "accent colour"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The theme follows the system, or keep one in Settings → Appearance, where the accent colour is chosen too."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/shell.theme"
+      }
+    }
+  ]
+}

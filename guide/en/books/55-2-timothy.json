@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "2 Timothy",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "2 Timothy"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 2 Timothy about?",
+      "alternateName": [
+        "2 Timothy summary",
+        "overview of 2 Timothy",
+        "introduction to 2 Timothy"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Paul's last letter, from prison: a charge to Timothy to guard the gospel, endure hardship and preach the word, and a farewell."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/55/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 2 Timothy?",
+      "alternateName": [
+        "author of 2 Timothy",
+        "2 Timothy author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Paul, to Timothy, near the end of his life; many scholars think it was written later in his name."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/55/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 2 Timothy written?",
+      "alternateName": [
+        "date of 2 Timothy",
+        "2 Timothy date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About AD 64–67, if by Paul."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/55/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 2 Timothy?",
+      "alternateName": [
+        "2 Timothy themes",
+        "what does 2 Timothy teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: faithfulness, Scripture, endurance, passing on the faith."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/55/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 2 Timothy?",
+      "alternateName": [
+        "famous verses in 2 Timothy",
+        "2 Timothy key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 2 Timothy 1:7; 2 Timothy 3:16–17; 2 Timothy 4:7."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/55/1/7"
+      }
+    }
+  ]
+}

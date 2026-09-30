@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "2 Chronicles",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "2 Chronicles"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 2 Chronicles about?",
+      "alternateName": [
+        "2 Chronicles summary",
+        "overview of 2 Chronicles",
+        "introduction to 2 Chronicles"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Solomon and the temple, then the kings of Judah to the exile, ending with Cyrus' decree that allows the people to return and rebuild."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/14/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 2 Chronicles?",
+      "alternateName": [
+        "author of 2 Chronicles",
+        "2 Chronicles author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Chronicler, as in 1 Chronicles; Jewish tradition names Ezra."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/14/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 2 Chronicles written?",
+      "alternateName": [
+        "date of 2 Chronicles",
+        "2 Chronicles date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated after the return from exile, around the 5th–4th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/14/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 2 Chronicles?",
+      "alternateName": [
+        "2 Chronicles themes",
+        "what does 2 Chronicles teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: seeking God, humility and repentance, the temple, restoration."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/14/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 2 Chronicles?",
+      "alternateName": [
+        "famous verses in 2 Chronicles",
+        "2 Chronicles key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 2 Chronicles 7:14; 2 Chronicles 20:15; 2 Chronicles 36:23."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/14/7/14"
+      }
+    }
+  ]
+}

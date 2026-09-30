@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Nahum",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Nahum"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Nahum about?",
+      "alternateName": [
+        "Nahum summary",
+        "overview of Nahum",
+        "introduction to Nahum"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A poem announcing the fall of Nineveh, capital of Assyria, the empire that had oppressed God's people."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/34/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Nahum?",
+      "alternateName": [
+        "author of Nahum",
+        "Nahum author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Nahum of Elkosh."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/34/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Nahum written?",
+      "alternateName": [
+        "date of Nahum",
+        "Nahum date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Between the fall of Thebes (663 BC) and of Nineveh (612 BC)."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/34/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Nahum?",
+      "alternateName": [
+        "Nahum themes",
+        "what does Nahum teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: God's justice, judgement on oppression, comfort for his people."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/34/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Nahum?",
+      "alternateName": [
+        "famous verses in Nahum",
+        "Nahum key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Nahum 1:3; Nahum 1:7."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/34/1/3"
+      }
+    }
+  ]
+}

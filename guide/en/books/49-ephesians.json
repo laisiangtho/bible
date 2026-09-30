@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Ephesians",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Ephesians"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Ephesians about?",
+      "alternateName": [
+        "Ephesians summary",
+        "overview of Ephesians",
+        "introduction to Ephesians"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "God's plan to unite all things in Christ, salvation by grace, one church of Jews and Gentiles, and how to live in it — including the armour of God."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/49/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Ephesians?",
+      "alternateName": [
+        "author of Ephesians",
+        "Ephesians author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Paul; some scholars think it was written by a follower in his name."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/49/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Ephesians written?",
+      "alternateName": [
+        "date of Ephesians",
+        "Ephesians date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About AD 60–62, from prison, if by Paul."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/49/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Ephesians?",
+      "alternateName": [
+        "Ephesians themes",
+        "what does Ephesians teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: grace, unity in Christ, the church, new life, spiritual battle."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/49/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Ephesians?",
+      "alternateName": [
+        "famous verses in Ephesians",
+        "Ephesians key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Ephesians 1:3; Ephesians 2:8–9; Ephesians 4:4–6; Ephesians 6:11."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/49/1/3"
+      }
+    }
+  ]
+}

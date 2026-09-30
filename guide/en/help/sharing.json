@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Sharing and exporting",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I share a link to a verse?",
+      "alternateName": [
+        "send a verse",
+        "verse link"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Press the verse number and choose Copy link. The link opens the web app on that verse, for anyone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I copy a passage with its reference?",
+      "alternateName": [
+        "copy verse",
+        "copy passage"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Press the verse number (Shift-press another for a run) and choose Copy. The verses are copied numbered, with the reference under them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I make an image of a verse?",
+      "alternateName": [
+        "verse card",
+        "picture of a verse",
+        "share on social media"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Type \"card\" and a passage in the palette, for example \"card ps 23:1-3\". The card studio opens with templates, colours, type and sizes, and copies or saves the image."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:palette/card"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I export a passage with my notes?",
+      "alternateName": [
+        "export passage",
+        "print a passage",
+        "markdown"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Type \"export\" and a passage in the palette: Markdown, a citation, plain text, a file or a sheet to print."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:palette/export"
+      }
+    }
+  ]
+}

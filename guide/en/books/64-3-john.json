@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "3 John",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "3 John"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 3 John about?",
+      "alternateName": [
+        "3 John summary",
+        "overview of 3 John",
+        "introduction to 3 John"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A personal letter praising Gaius for his hospitality to travelling teachers and warning about Diotrephes."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/64/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 3 John?",
+      "alternateName": [
+        "author of 3 John",
+        "3 John author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "From \"the elder\"; tradition identifies him with John the apostle."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/64/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 3 John written?",
+      "alternateName": [
+        "date of 3 John",
+        "3 John date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated around AD 90–100."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/64/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 3 John?",
+      "alternateName": [
+        "3 John themes",
+        "what does 3 John teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: hospitality, truth, imitating what is good."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/64/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 3 John?",
+      "alternateName": [
+        "famous verses in 3 John",
+        "3 John key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 3 John 1:4; 3 John 1:11."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/64/1/4"
+      }
+    }
+  ]
+}

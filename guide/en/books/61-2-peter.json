@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "2 Peter",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "2 Peter"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 2 Peter about?",
+      "alternateName": [
+        "2 Peter summary",
+        "overview of 2 Peter",
+        "introduction to 2 Peter"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A warning against false teachers and a reminder that the Lord will surely come again, with encouragement to grow in grace and knowledge."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/61/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 2 Peter?",
+      "alternateName": [
+        "author of 2 Peter",
+        "2 Peter author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Presented as by the apostle Peter; many scholars think it was written later in his name."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/61/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 2 Peter written?",
+      "alternateName": [
+        "date of 2 Peter",
+        "2 Peter date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated in the late 1st century AD."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/61/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 2 Peter?",
+      "alternateName": [
+        "2 Peter themes",
+        "what does 2 Peter teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: growth in godliness, false teaching, the return of Christ."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/61/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 2 Peter?",
+      "alternateName": [
+        "famous verses in 2 Peter",
+        "2 Peter key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 2 Peter 1:21; 2 Peter 3:9."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/61/1/21"
+      }
+    }
+  ]
+}

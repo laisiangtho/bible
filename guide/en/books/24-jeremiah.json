@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Jeremiah",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Jeremiah"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Jeremiah about?",
+      "alternateName": [
+        "Jeremiah summary",
+        "overview of Jeremiah",
+        "introduction to Jeremiah"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Jeremiah warns Judah of coming judgement, suffers for his message, and sees Jerusalem fall to Babylon, yet he promises a new covenant written on the heart."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/24/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Jeremiah?",
+      "alternateName": [
+        "author of Jeremiah",
+        "Jeremiah author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Jeremiah, with his scribe Baruch."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/24/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Jeremiah written?",
+      "alternateName": [
+        "date of Jeremiah",
+        "Jeremiah date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Jeremiah prophesied from about 627 BC until after the fall of Jerusalem in 587/586 BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/24/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Jeremiah?",
+      "alternateName": [
+        "Jeremiah themes",
+        "what does Jeremiah teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: judgement, faithfulness in suffering, repentance, the new covenant."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/24/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Jeremiah?",
+      "alternateName": [
+        "famous verses in Jeremiah",
+        "Jeremiah key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Jeremiah 1:5; Jeremiah 17:9; Jeremiah 29:11; Jeremiah 31:33."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/24/1/5"
+      }
+    }
+  ]
+}

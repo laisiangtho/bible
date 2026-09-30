@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "1 Peter",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "1 Peter"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 1 Peter about?",
+      "alternateName": [
+        "1 Peter summary",
+        "overview of 1 Peter",
+        "introduction to 1 Peter"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Encouragement to Christians suffering for their faith: a living hope, a holy life, and following Christ's example."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/60/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 1 Peter?",
+      "alternateName": [
+        "author of 1 Peter",
+        "1 Peter author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Peter, with Silvanus; some scholars think it was written later in his name."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/60/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 1 Peter written?",
+      "alternateName": [
+        "date of 1 Peter",
+        "1 Peter date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated around AD 62–64, if by Peter."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/60/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 1 Peter?",
+      "alternateName": [
+        "1 Peter themes",
+        "what does 1 Peter teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: hope, suffering, holiness, God's people in the world."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/60/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 1 Peter?",
+      "alternateName": [
+        "famous verses in 1 Peter",
+        "1 Peter key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 1 Peter 1:3; 1 Peter 2:9; 1 Peter 5:7."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/60/1/3"
+      }
+    }
+  ]
+}

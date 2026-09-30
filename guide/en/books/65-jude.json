@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Jude",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Jude"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Jude about?",
+      "alternateName": [
+        "Jude summary",
+        "overview of Jude",
+        "introduction to Jude"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A short, urgent call to contend for the faith against false teachers, ending in one of the Bible's best-known blessings."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/65/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Jude?",
+      "alternateName": [
+        "author of Jude",
+        "Jude author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Jude, a brother of James, traditionally the brother of Jesus."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/65/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Jude written?",
+      "alternateName": [
+        "date of Jude",
+        "Jude date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated in the second half of the 1st century AD."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/65/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Jude?",
+      "alternateName": [
+        "Jude themes",
+        "what does Jude teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: contending for the faith, God keeping his people."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/65/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Jude?",
+      "alternateName": [
+        "famous verses in Jude",
+        "Jude key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Jude 1:3; Jude 1:24–25."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/65/1/3"
+      }
+    }
+  ]
+}

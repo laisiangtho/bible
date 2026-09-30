@@ -1,0 +1,78 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "The Library",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I download a translation?",
+      "alternateName": [
+        "add a bible",
+        "get a translation",
+        "install"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the Library, press Make available offline on a translation. It is then on this device in full."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:doc/library"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I add my own translation from a file?",
+      "alternateName": [
+        "import",
+        "usfm",
+        "osis",
+        "zefania",
+        "my own bible"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the Library, choose Add your own and pick a file: USFM, OSIS, USFX, Zefania, this app's JSON, a spreadsheet, or an eBible.org zip. It is checked against the canon, and nothing is uploaded."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/library.import"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I export or convert a translation?",
+      "alternateName": [
+        "convert to usfm",
+        "save as json",
+        "export bible"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the Library, open a translation's ⋯ menu and choose Export: a format, which books, what to include, compact or readable, and one file, gzipped or a zip."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:doc/library"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I remove a translation?",
+      "alternateName": [
+        "delete a bible",
+        "free space"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the Library, press Remove on the translation. Notes and bookmarks stay: they belong to the passage, not the translation."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:doc/library"
+      }
+    }
+  ]
+}

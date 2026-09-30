@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Memory verses",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I learn a verse by heart?",
+      "alternateName": [
+        "memorize",
+        "scripture memory",
+        "learn by heart"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Press the verse number and choose Memorize, or type \"memorize ps 23:1\" in the palette. Memory verses shows which are due; practice hides more words as a verse sticks."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:doc/memory"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does memory practice work?",
+      "alternateName": [
+        "again hard got it",
+        "spaced repetition"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A verse is shown with some words hidden. Press a gap to see one word, Space to show all, then Again, Hard or Got it (1, 2, 3). Got it brings it back after 1, 3, 7, 14, 30 and 90 days; Again in ten minutes."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:doc/memory"
+      }
+    }
+  ]
+}

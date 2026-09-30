@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Isaiah",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Isaiah"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Isaiah about?",
+      "alternateName": [
+        "Isaiah summary",
+        "overview of Isaiah",
+        "introduction to Isaiah"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Warning of judgement on Judah and the nations, and prophecies of comfort and hope: the Holy One of Israel, the coming king, the suffering servant, and a new heaven and earth."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/23/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Isaiah?",
+      "alternateName": [
+        "author of Isaiah",
+        "Isaiah author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Isaiah son of Amoz, of Jerusalem. Many scholars see chapters 40–66 as coming from his followers in later times."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/23/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Isaiah written?",
+      "alternateName": [
+        "date of Isaiah",
+        "Isaiah date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Isaiah prophesied about 740–700 BC; later parts are often dated to the exile and after."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/23/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Isaiah?",
+      "alternateName": [
+        "Isaiah themes",
+        "what does Isaiah teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: holiness, judgement and comfort, the Messiah, the suffering servant, salvation for the nations."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/23/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Isaiah?",
+      "alternateName": [
+        "famous verses in Isaiah",
+        "Isaiah key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Isaiah 6:3; Isaiah 9:6; Isaiah 40:31; Isaiah 53:5."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/23/6/3"
+      }
+    }
+  ]
+}

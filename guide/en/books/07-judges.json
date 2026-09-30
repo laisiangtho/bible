@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Judges",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Judges"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Judges about?",
+      "alternateName": [
+        "Judges summary",
+        "overview of Judges",
+        "introduction to Judges"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A repeating cycle in Israel's early life in the land: turning from God, oppression, crying out, and rescue by leaders such as Deborah, Gideon and Samson."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/7/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Judges?",
+      "alternateName": [
+        "author of Judges",
+        "Judges author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The author is not named; Jewish tradition names Samuel."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/7/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Judges written?",
+      "alternateName": [
+        "date of Judges",
+        "Judges date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It covers the period before Israel had kings; its final form is usually dated to the time of the monarchy or the exile."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/7/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Judges?",
+      "alternateName": [
+        "Judges themes",
+        "what does Judges teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: the cycle of sin and rescue, leadership, God's patience, the need for a faithful king."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/7/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Judges?",
+      "alternateName": [
+        "famous verses in Judges",
+        "Judges key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Judges 2:16; Judges 6:12; Judges 21:25."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/7/2/16"
+      }
+    }
+  ]
+}

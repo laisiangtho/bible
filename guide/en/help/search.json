@@ -1,0 +1,76 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Search",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I search the Bible?",
+      "alternateName": [
+        "find a word",
+        "look up a phrase",
+        "concordance"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Press Ctrl/⌘ F, or type \"find\" and the words in the palette. Results show how many verses, chapters and books matched, and each book opens to its verses."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I search for a whole word only?",
+      "alternateName": [
+        "whole words",
+        "exact word",
+        "man not manner"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Switch on \"ab|\" at the end of the search field: \"man\" then no longer matches \"manner\"."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I search several translations at once?",
+      "alternateName": [
+        "search all translations",
+        "search every bible"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open the scope under the search field and add the translations to search. None chosen means the one being read."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I search only one book or testament?",
+      "alternateName": [
+        "search in psalms",
+        "limit search",
+        "only new testament"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the scope under the search field, choose where: the whole Bible, the open book, a testament, or a section such as the Gospels."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/search.open"
+      }
+    }
+  ]
+}

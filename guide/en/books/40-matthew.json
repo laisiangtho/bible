@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Matthew",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Matthew"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Matthew about?",
+      "alternateName": [
+        "Matthew summary",
+        "overview of Matthew",
+        "introduction to Matthew"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Gospel that presents Jesus as the promised Messiah and son of David, fulfilling the Scriptures, with five great blocks of teaching including the Sermon on the Mount."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/40/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Matthew?",
+      "alternateName": [
+        "author of Matthew",
+        "Matthew author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The early church attributed it to Matthew, a tax collector and one of the twelve apostles; the book itself does not name its author."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/40/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Matthew written?",
+      "alternateName": [
+        "date of Matthew",
+        "Matthew date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated around AD 70–90; some date it earlier."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/40/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Matthew?",
+      "alternateName": [
+        "Matthew themes",
+        "what does Matthew teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: fulfilment, the kingdom of heaven, discipleship, the church, the Great Commission."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/40/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Matthew?",
+      "alternateName": [
+        "famous verses in Matthew",
+        "Matthew key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Matthew 5:3–10; Matthew 6:9–13; Matthew 22:37–39; Matthew 28:19–20."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/40/5/3"
+      }
+    }
+  ]
+}

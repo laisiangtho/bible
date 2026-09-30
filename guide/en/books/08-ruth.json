@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Ruth",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Ruth"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Ruth about?",
+      "alternateName": [
+        "Ruth summary",
+        "overview of Ruth",
+        "introduction to Ruth"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Moabite widow, Ruth, stays loyal to her mother-in-law Naomi, comes to Bethlehem and is redeemed by Boaz; she becomes the great-grandmother of King David."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/8/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Ruth?",
+      "alternateName": [
+        "author of Ruth",
+        "Ruth author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The author is not named; Jewish tradition names Samuel."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/8/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Ruth written?",
+      "alternateName": [
+        "date of Ruth",
+        "Ruth date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Set in the time of the judges; scholars date its writing variously, from the monarchy to after the exile."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/8/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Ruth?",
+      "alternateName": [
+        "Ruth themes",
+        "what does Ruth teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: loyalty, kindness (hesed), redemption, God's care for outsiders."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/8/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Ruth?",
+      "alternateName": [
+        "famous verses in Ruth",
+        "Ruth key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Ruth 1:16; Ruth 4:14; Ruth 4:17."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/8/1/16"
+      }
+    }
+  ]
+}

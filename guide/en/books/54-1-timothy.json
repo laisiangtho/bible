@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "1 Timothy",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "1 Timothy"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 1 Timothy about?",
+      "alternateName": [
+        "1 Timothy summary",
+        "overview of 1 Timothy",
+        "introduction to 1 Timothy"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guidance for Timothy in Ephesus on sound teaching, prayer, church leaders, and godliness with contentment."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/54/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 1 Timothy?",
+      "alternateName": [
+        "author of 1 Timothy",
+        "1 Timothy author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Paul, to his co-worker Timothy; many scholars think it was written later in his name."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/54/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 1 Timothy written?",
+      "alternateName": [
+        "date of 1 Timothy",
+        "1 Timothy date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About AD 62–64, if by Paul."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/54/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 1 Timothy?",
+      "alternateName": [
+        "1 Timothy themes",
+        "what does 1 Timothy teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: sound teaching, church leadership, godliness, contentment."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/54/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 1 Timothy?",
+      "alternateName": [
+        "famous verses in 1 Timothy",
+        "1 Timothy key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 1 Timothy 1:15; 1 Timothy 2:5; 1 Timothy 6:6."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/54/1/15"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Habakkuk",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Habakkuk"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Habakkuk about?",
+      "alternateName": [
+        "Habakkuk summary",
+        "overview of Habakkuk",
+        "introduction to Habakkuk"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Habakkuk questions God about injustice and the rise of Babylon, receives the answer that the righteous shall live by faith, and ends in a song of trust."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/35/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Habakkuk?",
+      "alternateName": [
+        "author of Habakkuk",
+        "Habakkuk author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Habakkuk."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/35/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Habakkuk written?",
+      "alternateName": [
+        "date of Habakkuk",
+        "Habakkuk date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated shortly before the Babylonian invasion, about 610–600 BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/35/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Habakkuk?",
+      "alternateName": [
+        "Habakkuk themes",
+        "what does Habakkuk teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: faith, God's justice, waiting, joy in hardship."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/35/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Habakkuk?",
+      "alternateName": [
+        "famous verses in Habakkuk",
+        "Habakkuk key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Habakkuk 2:4; Habakkuk 3:17–18."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/35/2/4"
+      }
+    }
+  ]
+}

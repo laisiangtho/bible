@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Malachi",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Malachi"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Malachi about?",
+      "alternateName": [
+        "Malachi summary",
+        "overview of Malachi",
+        "introduction to Malachi"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dialogue between God and a weary people about careless worship and broken faithfulness, closing with the promise of a messenger before the day of the Lord."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/39/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Malachi?",
+      "alternateName": [
+        "author of Malachi",
+        "Malachi author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The book is headed \"by Malachi\", which means \"my messenger\"; it may be a name or a title."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/39/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Malachi written?",
+      "alternateName": [
+        "date of Malachi",
+        "Malachi date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated to the 5th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/39/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Malachi?",
+      "alternateName": [
+        "Malachi themes",
+        "what does Malachi teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: God's love, faithful worship, the coming messenger."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/39/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Malachi?",
+      "alternateName": [
+        "famous verses in Malachi",
+        "Malachi key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Malachi 1:2; Malachi 3:1; Malachi 3:10."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/39/1/2"
+      }
+    }
+  ]
+}

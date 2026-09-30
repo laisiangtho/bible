@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "2 Thessalonians",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "2 Thessalonians"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 2 Thessalonians about?",
+      "alternateName": [
+        "2 Thessalonians summary",
+        "overview of 2 Thessalonians",
+        "introduction to 2 Thessalonians"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Further teaching about the day of the Lord, correcting the idea that it had already come, and a call to keep working and doing good."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/53/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 2 Thessalonians?",
+      "alternateName": [
+        "author of 2 Thessalonians",
+        "2 Thessalonians author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Paul, with Silas and Timothy; some scholars think it was written later in his name."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/53/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 2 Thessalonians written?",
+      "alternateName": [
+        "date of 2 Thessalonians",
+        "2 Thessalonians date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About AD 51–52, if by Paul."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/53/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 2 Thessalonians?",
+      "alternateName": [
+        "2 Thessalonians themes",
+        "what does 2 Thessalonians teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: perseverance, the day of the Lord, faithful work."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/53/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 2 Thessalonians?",
+      "alternateName": [
+        "famous verses in 2 Thessalonians",
+        "2 Thessalonians key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 2 Thessalonians 2:15; 2 Thessalonians 3:3."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/53/2/15"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Numbers",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Numbers"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Numbers about?",
+      "alternateName": [
+        "Numbers summary",
+        "overview of Numbers",
+        "introduction to Numbers"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Israel's forty years in the wilderness between Sinai and the edge of the promised land: two censuses, repeated complaint and rebellion, and God's faithfulness in spite of them."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/4/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Numbers?",
+      "alternateName": [
+        "author of Numbers",
+        "Numbers author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditionally attributed to Moses; many scholars see it as compiled from several sources."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/4/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Numbers written?",
+      "alternateName": [
+        "date of Numbers",
+        "Numbers date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditionally the time of Moses; many scholars date its final form to the 6th–5th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/4/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Numbers?",
+      "alternateName": [
+        "Numbers themes",
+        "what does Numbers teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: faithfulness, unbelief and its cost, God's guidance, blessing."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/4/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Numbers?",
+      "alternateName": [
+        "famous verses in Numbers",
+        "Numbers key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Numbers 6:24–26; Numbers 14:18; Numbers 21:8–9."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/4/6/24"
+      }
+    }
+  ]
+}

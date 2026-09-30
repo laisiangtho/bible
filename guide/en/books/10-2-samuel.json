@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "2 Samuel",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "2 Samuel"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 2 Samuel about?",
+      "alternateName": [
+        "2 Samuel summary",
+        "overview of 2 Samuel",
+        "introduction to 2 Samuel"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "David's reign over Judah and then all Israel, God's covenant promise of a lasting dynasty, and David's sin with Bathsheba and its long consequences in his family."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/10/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 2 Samuel?",
+      "alternateName": [
+        "author of 2 Samuel",
+        "2 Samuel author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The author is not named; it continues 1 Samuel from the same sources."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/10/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 2 Samuel written?",
+      "alternateName": [
+        "date of 2 Samuel",
+        "2 Samuel date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It covers about 1010–970 BC; its final form is usually dated to the time of the kings or the exile."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/10/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 2 Samuel?",
+      "alternateName": [
+        "2 Samuel themes",
+        "what does 2 Samuel teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: God's covenant with David, kingship, sin and repentance, consequences."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/10/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 2 Samuel?",
+      "alternateName": [
+        "famous verses in 2 Samuel",
+        "2 Samuel key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 2 Samuel 7:12–16; 2 Samuel 12:7; 2 Samuel 22:2–3."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/10/7/12"
+      }
+    }
+  ]
+}

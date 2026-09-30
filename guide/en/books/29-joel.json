@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Joel",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Joel"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Joel about?",
+      "alternateName": [
+        "Joel summary",
+        "overview of Joel",
+        "introduction to Joel"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A plague of locusts becomes a call to repent before the day of the Lord, with the promise that God will pour out his Spirit on all people."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/29/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Joel?",
+      "alternateName": [
+        "author of Joel",
+        "Joel author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Joel son of Pethuel."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/29/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Joel written?",
+      "alternateName": [
+        "date of Joel",
+        "Joel date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Its date is uncertain; proposals range from the 9th to the 4th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/29/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Joel?",
+      "alternateName": [
+        "Joel themes",
+        "what does Joel teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: the day of the Lord, repentance, the Spirit poured out."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/29/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Joel?",
+      "alternateName": [
+        "famous verses in Joel",
+        "Joel key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Joel 2:13; Joel 2:28."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/29/2/13"
+      }
+    }
+  ]
+}

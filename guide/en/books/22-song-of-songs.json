@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Song of Songs",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Song of Songs"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Song of Songs about?",
+      "alternateName": [
+        "Song of Songs summary",
+        "overview of Song of Songs",
+        "introduction to Song of Songs"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A collection of love poems between a bride and her beloved, read by Jews and Christians also as a picture of the love between God and his people."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/22/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Song of Songs?",
+      "alternateName": [
+        "author of Song of Songs",
+        "Song of Songs author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Titled \"of Solomon\"; scholars differ on whether he wrote it."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/22/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Song of Songs written?",
+      "alternateName": [
+        "date of Song of Songs",
+        "Song of Songs date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditionally the 10th century BC; others date it later."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/22/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Song of Songs?",
+      "alternateName": [
+        "Song of Songs themes",
+        "what does Song of Songs teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: love, desire, faithfulness, beauty."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/22/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Song of Songs?",
+      "alternateName": [
+        "famous verses in Song of Songs",
+        "Song of Songs key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Song of Songs 2:4; Song of Songs 8:6–7."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/22/2/4"
+      }
+    }
+  ]
+}

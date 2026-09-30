@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "John",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "John"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is John about?",
+      "alternateName": [
+        "John summary",
+        "overview of John",
+        "introduction to John"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Gospel written \"so that you may believe that Jesus is the Christ, the Son of God\": seven signs, the \"I am\" sayings, long conversations, and the account of Jesus' death and resurrection."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/43/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote John?",
+      "alternateName": [
+        "author of John",
+        "John author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Early tradition names John the apostle, \"the disciple whom Jesus loved\"; the book itself names that disciple as its witness."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/43/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was John written?",
+      "alternateName": [
+        "date of John",
+        "John date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated around AD 90–100."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/43/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of John?",
+      "alternateName": [
+        "John themes",
+        "what does John teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: belief, eternal life, Jesus as the Word made flesh, love, the Spirit."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/43/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in John?",
+      "alternateName": [
+        "famous verses in John",
+        "John key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: John 1:1; John 3:16; John 14:6; John 20:31."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/43/1/1"
+      }
+    }
+  ]
+}

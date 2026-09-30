@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Joshua",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Joshua"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Joshua about?",
+      "alternateName": [
+        "Joshua summary",
+        "overview of Joshua",
+        "introduction to Joshua"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Israel under Joshua crosses the Jordan, takes the land of Canaan and divides it among the tribes, ending with Joshua's call to serve the Lord alone."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/6/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Joshua?",
+      "alternateName": [
+        "author of Joshua",
+        "Joshua author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The author is not named; tradition attributes much of it to Joshua."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/6/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Joshua written?",
+      "alternateName": [
+        "date of Joshua",
+        "Joshua date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Its events follow Moses' death; many scholars date its final form to the 7th–6th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/6/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Joshua?",
+      "alternateName": [
+        "Joshua themes",
+        "what does Joshua teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: God's faithfulness to his promises, courage, the land, covenant loyalty."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/6/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Joshua?",
+      "alternateName": [
+        "famous verses in Joshua",
+        "Joshua key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Joshua 1:9; Joshua 6:20; Joshua 24:15."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/6/1/9"
+      }
+    }
+  ]
+}

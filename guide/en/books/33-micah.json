@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Micah",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Micah"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Micah about?",
+      "alternateName": [
+        "Micah summary",
+        "overview of Micah",
+        "introduction to Micah"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Judgement on the injustice of Israel and Judah, with the promise of a ruler born in Bethlehem and a summary of what God requires."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/33/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Micah?",
+      "alternateName": [
+        "author of Micah",
+        "Micah author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Micah of Moresheth."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/33/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Micah written?",
+      "alternateName": [
+        "date of Micah",
+        "Micah date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Micah prophesied about 740–700 BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/33/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Micah?",
+      "alternateName": [
+        "Micah themes",
+        "what does Micah teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: justice, mercy, humility, the coming ruler."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/33/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Micah?",
+      "alternateName": [
+        "famous verses in Micah",
+        "Micah key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Micah 5:2; Micah 6:8; Micah 7:18."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/33/5/2"
+      }
+    }
+  ]
+}

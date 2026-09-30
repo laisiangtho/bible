@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Lamentations",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Lamentations"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Lamentations about?",
+      "alternateName": [
+        "Lamentations summary",
+        "overview of Lamentations",
+        "introduction to Lamentations"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Five poems of grief over the destruction of Jerusalem, most of them acrostics, with a turn to hope in the steadfast love of the Lord."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/25/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Lamentations?",
+      "alternateName": [
+        "author of Lamentations",
+        "Lamentations author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not named in the book; tradition attributes it to Jeremiah."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/25/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Lamentations written?",
+      "alternateName": [
+        "date of Lamentations",
+        "Lamentations date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Written soon after the fall of Jerusalem in 587/586 BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/25/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Lamentations?",
+      "alternateName": [
+        "Lamentations themes",
+        "what does Lamentations teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: grief, judgement, confession, hope in God's mercy."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/25/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Lamentations?",
+      "alternateName": [
+        "famous verses in Lamentations",
+        "Lamentations key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Lamentations 3:22–23; Lamentations 5:21."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/25/3/22"
+      }
+    }
+  ]
+}

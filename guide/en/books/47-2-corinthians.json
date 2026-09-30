@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "2 Corinthians",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "2 Corinthians"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 2 Corinthians about?",
+      "alternateName": [
+        "2 Corinthians summary",
+        "overview of 2 Corinthians",
+        "introduction to 2 Corinthians"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Paul's most personal letter: he defends his ministry, speaks of strength in weakness and comfort in suffering, and encourages generous giving."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/47/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 2 Corinthians?",
+      "alternateName": [
+        "author of 2 Corinthians",
+        "2 Corinthians author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Paul."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/47/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 2 Corinthians written?",
+      "alternateName": [
+        "date of 2 Corinthians",
+        "2 Corinthians date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About AD 55–56, from Macedonia."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/47/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 2 Corinthians?",
+      "alternateName": [
+        "2 Corinthians themes",
+        "what does 2 Corinthians teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: comfort, strength in weakness, reconciliation, generosity."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/47/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 2 Corinthians?",
+      "alternateName": [
+        "famous verses in 2 Corinthians",
+        "2 Corinthians key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 2 Corinthians 5:17; 2 Corinthians 9:7; 2 Corinthians 12:9."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/47/5/17"
+      }
+    }
+  ]
+}

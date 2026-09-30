@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Getting started",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I start reading?",
+      "alternateName": [
+        "first steps",
+        "where do I begin",
+        "new to the app"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open the Library, choose a translation and press Make available offline. Then open a chapter from the Books pane on the left, or press Ctrl/⌘ O and type a passage such as \"ps 23\"."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:doc/library"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the command palette?",
+      "alternateName": [
+        "ctrl p",
+        "command box",
+        "one box for everything"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ctrl/⌘ P opens one box for everything: type a passage (\"jn 3:16\") to go there, a command (\"Theme\") to run it, or an instruction such as \"find mercy\", \"note ps 23:1\" or \"compare jn 3:16\"."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/shell.palette"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the app work without internet?",
+      "alternateName": [
+        "offline",
+        "no connection",
+        "airplane mode"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A translation that is made available offline is kept whole on this device and needs no connection. Only downloading a translation, a language pack, the lexicon or guide answers needs one."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:doc/library"
+      }
+    }
+  ]
+}

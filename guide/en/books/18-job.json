@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Job",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Job"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Job about?",
+      "alternateName": [
+        "Job summary",
+        "overview of Job",
+        "introduction to Job"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A righteous man loses everything, and he and his friends argue over why the innocent suffer, until God speaks from the whirlwind."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/18/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Job?",
+      "alternateName": [
+        "author of Job",
+        "Job author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The author is not named."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/18/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Job written?",
+      "alternateName": [
+        "date of Job",
+        "Job date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Its date is uncertain; proposals range from the 10th to the 4th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/18/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Job?",
+      "alternateName": [
+        "Job themes",
+        "what does Job teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: suffering, wisdom, the limits of human understanding, God's sovereignty."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/18/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Job?",
+      "alternateName": [
+        "famous verses in Job",
+        "Job key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Job 1:21; Job 19:25; Job 38:4; Job 42:5."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/18/1/21"
+      }
+    }
+  ]
+}

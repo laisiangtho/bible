@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Bookmarks",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I bookmark a verse?",
+      "alternateName": [
+        "mark a verse",
+        "save a verse",
+        "highlight"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Press the verse number and choose the bookmark in the bar that opens, or type \"mark jn 3:16\" in the palette. Bookmarks are listed in the Bookmarks pane."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:pane/marks"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I bookmark several verses?",
+      "alternateName": [
+        "bookmark a passage",
+        "range of verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Press the first verse number, then Shift-press the last; the bookmark then covers the whole run."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:pane/marks"
+      }
+    }
+  ]
+}

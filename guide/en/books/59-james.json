@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "James",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "James"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is James about?",
+      "alternateName": [
+        "James summary",
+        "overview of James",
+        "introduction to James"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Practical wisdom for Christian living: trials, wisdom, controlling the tongue, caring for the poor, and a faith that shows itself in what it does."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/59/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote James?",
+      "alternateName": [
+        "author of James",
+        "James author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "James, traditionally the brother of Jesus and leader of the church in Jerusalem."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/59/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was James written?",
+      "alternateName": [
+        "date of James",
+        "James date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated around AD 45–62."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/59/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of James?",
+      "alternateName": [
+        "James themes",
+        "what does James teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: faith and works, wisdom, speech, patience, care for the poor."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/59/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in James?",
+      "alternateName": [
+        "famous verses in James",
+        "James key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: James 1:5; James 1:22; James 2:17."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/59/1/5"
+      }
+    }
+  ]
+}

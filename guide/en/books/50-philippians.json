@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Philippians",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Philippians"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Philippians about?",
+      "alternateName": [
+        "Philippians summary",
+        "overview of Philippians",
+        "introduction to Philippians"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A warm letter of thanks and joy from prison, holding up Christ's humility as the pattern for the church."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/50/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Philippians?",
+      "alternateName": [
+        "author of Philippians",
+        "Philippians author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Paul, with Timothy."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/50/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Philippians written?",
+      "alternateName": [
+        "date of Philippians",
+        "Philippians date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About AD 60–62, from prison."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/50/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Philippians?",
+      "alternateName": [
+        "Philippians themes",
+        "what does Philippians teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: joy, humility, partnership in the gospel, contentment."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/50/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Philippians?",
+      "alternateName": [
+        "famous verses in Philippians",
+        "Philippians key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Philippians 2:5–8; Philippians 4:4; Philippians 4:13."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/50/2/5"
+      }
+    }
+  ]
+}

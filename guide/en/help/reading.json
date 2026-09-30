@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Reading",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I go to the next chapter?",
+      "alternateName": [
+        "next chapter",
+        "previous chapter",
+        "turn the page"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the arrows in the band at the top, the arrow keys, or the arrows on the floating bar on a phone. The Books pane opens any chapter directly."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/passage.next-chapter"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I read two translations side by side?",
+      "alternateName": [
+        "parallel",
+        "compare translations side by side",
+        "split view"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open a parallel pane and choose the second translation. The panes stay level verse by verse, even when one translation merges verses that another keeps apart, and they scroll together."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/reading.add-pane"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I change the text size or layout?",
+      "alternateName": [
+        "bigger text",
+        "font size",
+        "line spacing",
+        "one verse per line"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The size button in the status bar opens the reading panel: text size, line height, line length and verse layout (paragraph, one verse per line, or continuous)."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/reading.panel"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I switch to another translation?",
+      "alternateName": [
+        "change translation",
+        "different bible version"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Press the translation's name in the status bar or in the crumb bar over the text, and choose another one that is on this device."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/reading.translation"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can the Bible be read aloud?",
+      "alternateName": [
+        "listen",
+        "text to speech",
+        "audio"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, with the voices on this device. Press Read aloud in the ribbon; choose a voice in Settings → Reading. Where no voice exists for a language, a voice in another language can read it."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/speech.toggle"
+      }
+    }
+  ]
+}

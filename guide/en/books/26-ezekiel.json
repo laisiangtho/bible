@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Ezekiel",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Ezekiel"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Ezekiel about?",
+      "alternateName": [
+        "Ezekiel summary",
+        "overview of Ezekiel",
+        "introduction to Ezekiel"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Visions of God's glory, judgement on Jerusalem and the nations, and hope for restoration: a new heart, the valley of dry bones, and a renewed temple."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/26/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Ezekiel?",
+      "alternateName": [
+        "author of Ezekiel",
+        "Ezekiel author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The priest and prophet Ezekiel, among the exiles in Babylon."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/26/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Ezekiel written?",
+      "alternateName": [
+        "date of Ezekiel",
+        "Ezekiel date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ezekiel prophesied about 593–571 BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/26/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Ezekiel?",
+      "alternateName": [
+        "Ezekiel themes",
+        "what does Ezekiel teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: God's glory, responsibility, restoration, a new heart and spirit."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/26/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Ezekiel?",
+      "alternateName": [
+        "famous verses in Ezekiel",
+        "Ezekiel key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Ezekiel 1:28; Ezekiel 36:26; Ezekiel 37:4–5."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/26/1/28"
+      }
+    }
+  ]
+}

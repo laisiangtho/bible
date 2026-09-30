@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Romans",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Romans"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Romans about?",
+      "alternateName": [
+        "Romans summary",
+        "overview of Romans",
+        "introduction to Romans"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Paul's fullest explanation of the gospel: all have sinned, God makes people right with himself by grace through faith in Christ, life in the Spirit, God's purposes for Israel, and life together in love."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/45/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Romans?",
+      "alternateName": [
+        "author of Romans",
+        "Romans author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Paul."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/45/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Romans written?",
+      "alternateName": [
+        "date of Romans",
+        "Romans date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About AD 57, from Corinth."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/45/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Romans?",
+      "alternateName": [
+        "Romans themes",
+        "what does Romans teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: righteousness by faith, grace, sin and salvation, the Spirit, Israel and the nations."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/45/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Romans?",
+      "alternateName": [
+        "famous verses in Romans",
+        "Romans key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Romans 1:16; Romans 3:23; Romans 8:28; Romans 12:1–2."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/45/1/16"
+      }
+    }
+  ]
+}

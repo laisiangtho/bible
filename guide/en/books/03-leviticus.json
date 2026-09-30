@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Leviticus",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Leviticus"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Leviticus about?",
+      "alternateName": [
+        "Leviticus summary",
+        "overview of Leviticus",
+        "introduction to Leviticus"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Instructions for worship, sacrifice, the priesthood, purity and the Day of Atonement, so that a holy God can live among his people."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/3/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Leviticus?",
+      "alternateName": [
+        "author of Leviticus",
+        "Leviticus author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditionally attributed to Moses; many scholars link it to Israel's priests."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/3/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Leviticus written?",
+      "alternateName": [
+        "date of Leviticus",
+        "Leviticus date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditionally the time of Moses; many scholars date its final form to the 6th–5th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/3/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Leviticus?",
+      "alternateName": [
+        "Leviticus themes",
+        "what does Leviticus teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: holiness, sacrifice, atonement, worship, love of neighbour."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/3/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Leviticus?",
+      "alternateName": [
+        "famous verses in Leviticus",
+        "Leviticus key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Leviticus 11:44; Leviticus 16:30; Leviticus 19:18."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/3/11/44"
+      }
+    }
+  ]
+}

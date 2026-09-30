@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Hosea",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Hosea"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Hosea about?",
+      "alternateName": [
+        "Hosea summary",
+        "overview of Hosea",
+        "introduction to Hosea"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hosea's marriage to an unfaithful wife becomes a picture of Israel's unfaithfulness to God and of God's persistent love."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/28/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Hosea?",
+      "alternateName": [
+        "author of Hosea",
+        "Hosea author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Hosea, of the northern kingdom."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/28/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Hosea written?",
+      "alternateName": [
+        "date of Hosea",
+        "Hosea date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hosea prophesied about 750–722 BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/28/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Hosea?",
+      "alternateName": [
+        "Hosea themes",
+        "what does Hosea teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: God's faithful love, unfaithfulness, return."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/28/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Hosea?",
+      "alternateName": [
+        "famous verses in Hosea",
+        "Hosea key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Hosea 6:6; Hosea 11:1; Hosea 14:4."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/28/6/6"
+      }
+    }
+  ]
+}

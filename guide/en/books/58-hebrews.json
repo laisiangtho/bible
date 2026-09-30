@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Hebrews",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Hebrews"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Hebrews about?",
+      "alternateName": [
+        "Hebrews summary",
+        "overview of Hebrews",
+        "introduction to Hebrews"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Jesus is greater than angels, Moses and the priesthood: the final high priest and sacrifice of a better covenant. The readers are urged to hold on in faith, following the great \"cloud of witnesses\"."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/58/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Hebrews?",
+      "alternateName": [
+        "author of Hebrews",
+        "Hebrews author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The author is not named; suggestions have included Paul, Barnabas, Apollos and others."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/58/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Hebrews written?",
+      "alternateName": [
+        "date of Hebrews",
+        "Hebrews date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated before AD 70."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/58/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Hebrews?",
+      "alternateName": [
+        "Hebrews themes",
+        "what does Hebrews teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: the supremacy of Christ, priesthood and sacrifice, the new covenant, faith, perseverance."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/58/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Hebrews?",
+      "alternateName": [
+        "famous verses in Hebrews",
+        "Hebrews key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Hebrews 4:12; Hebrews 11:1; Hebrews 12:1–2."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/58/4/12"
+      }
+    }
+  ]
+}

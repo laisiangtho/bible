@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Reading plans and streaks",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I follow a reading plan?",
+      "alternateName": [
+        "bible in a year",
+        "daily reading",
+        "reading schedule"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Plan pane offers the whole Bible in a year, the New Testament in 90 days, the Gospels in 40 and the Psalms in 30. Tick a chapter when it is read; reading ahead or catching up needs no bookkeeping."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:pane/plan"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is my reading streak?",
+      "alternateName": [
+        "streak",
+        "days in a row",
+        "reading statistics"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Plan pane counts the days in a row with reading, the chapters of the last seven days and how much of the Bible has been read. A chapter counts after half a minute on screen, or when ticked in a plan."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:pane/plan"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is the verse of the day?",
+      "alternateName": [
+        "daily verse",
+        "verse of today"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At the top of the Plan pane, with a way back to where reading stopped."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:pane/plan"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Deuteronomy",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Deuteronomy"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Deuteronomy about?",
+      "alternateName": [
+        "Deuteronomy summary",
+        "overview of Deuteronomy",
+        "introduction to Deuteronomy"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moses' final addresses to Israel on the plains of Moab: a retelling of their history and of the law, and a call to love God and keep the covenant in the land they are about to enter."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/5/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Deuteronomy?",
+      "alternateName": [
+        "author of Deuteronomy",
+        "Deuteronomy author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Presented as Moses' farewell speeches; many scholars connect its writing with the reforms of King Josiah in the 7th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/5/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Deuteronomy written?",
+      "alternateName": [
+        "date of Deuteronomy",
+        "Deuteronomy date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tradition places it at the end of Moses' life; many scholars date its core to the 7th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/5/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Deuteronomy?",
+      "alternateName": [
+        "Deuteronomy themes",
+        "what does Deuteronomy teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: love for God, covenant renewal, obedience and blessing, remembering."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/5/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Deuteronomy?",
+      "alternateName": [
+        "famous verses in Deuteronomy",
+        "Deuteronomy key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Deuteronomy 6:4–5; Deuteronomy 8:3; Deuteronomy 30:19."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/5/6/4"
+      }
+    }
+  ]
+}

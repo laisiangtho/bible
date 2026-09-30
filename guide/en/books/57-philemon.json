@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Philemon",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Philemon"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Philemon about?",
+      "alternateName": [
+        "Philemon summary",
+        "overview of Philemon",
+        "introduction to Philemon"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A short personal letter asking Philemon to welcome back his runaway slave Onesimus, now a believer, as a brother in Christ."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/57/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Philemon?",
+      "alternateName": [
+        "author of Philemon",
+        "Philemon author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Paul."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/57/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Philemon written?",
+      "alternateName": [
+        "date of Philemon",
+        "Philemon date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About AD 60–62, from prison."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/57/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Philemon?",
+      "alternateName": [
+        "Philemon themes",
+        "what does Philemon teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: reconciliation, forgiveness, brotherhood in Christ."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/57/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Philemon?",
+      "alternateName": [
+        "famous verses in Philemon",
+        "Philemon key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Philemon 1:16."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/57/1/16"
+      }
+    }
+  ]
+}

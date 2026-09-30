@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Daniel",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Daniel"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Daniel about?",
+      "alternateName": [
+        "Daniel summary",
+        "overview of Daniel",
+        "introduction to Daniel"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stories of Daniel and his friends staying faithful in the Babylonian and Persian courts, and visions of the kingdoms of the world giving way to the everlasting kingdom of God."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/27/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Daniel?",
+      "alternateName": [
+        "author of Daniel",
+        "Daniel author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditionally Daniel, a Jewish exile in Babylon; many scholars date its final form to the 2nd century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/27/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Daniel written?",
+      "alternateName": [
+        "date of Daniel",
+        "Daniel date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Set in the 6th century BC; many scholars date its writing to about 165 BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/27/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Daniel?",
+      "alternateName": [
+        "Daniel themes",
+        "what does Daniel teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: faithfulness under pressure, God's rule over history, the kingdom of God."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/27/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Daniel?",
+      "alternateName": [
+        "famous verses in Daniel",
+        "Daniel key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Daniel 3:17–18; Daniel 6:22; Daniel 7:13–14."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/27/3/17"
+      }
+    }
+  ]
+}

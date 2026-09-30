@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Ecclesiastes",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Ecclesiastes"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Ecclesiastes about?",
+      "alternateName": [
+        "Ecclesiastes summary",
+        "overview of Ecclesiastes",
+        "introduction to Ecclesiastes"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A searching reflection on the meaning of life \"under the sun\": work, pleasure and wisdom all pass away, and the book concludes that the whole duty of a person is to fear God and keep his commandments."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/21/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Ecclesiastes?",
+      "alternateName": [
+        "author of Ecclesiastes",
+        "Ecclesiastes author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Written by \"the Teacher\" (Qoheleth), son of David; traditionally Solomon, though many scholars date it later."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/21/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Ecclesiastes written?",
+      "alternateName": [
+        "date of Ecclesiastes",
+        "Ecclesiastes date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditionally the 10th century BC; many scholars date it to the 5th–3rd century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/21/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Ecclesiastes?",
+      "alternateName": [
+        "Ecclesiastes themes",
+        "what does Ecclesiastes teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: the vanity of life, time, enjoying God's gifts, fearing God."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/21/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Ecclesiastes?",
+      "alternateName": [
+        "famous verses in Ecclesiastes",
+        "Ecclesiastes key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Ecclesiastes 1:2; Ecclesiastes 3:1; Ecclesiastes 12:13."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/21/1/2"
+      }
+    }
+  ]
+}

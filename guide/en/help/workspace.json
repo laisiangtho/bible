@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Tabs, panes and windows",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I open a chapter in a new tab?",
+      "alternateName": [
+        "new tab",
+        "several chapters at once"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Press + at the end of the tab strip, or Ctrl/⌘-press a reference. Tabs reorder by dragging."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I open a tab in its own window?",
+      "alternateName": [
+        "detach",
+        "floating window"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drag a tab down out of the strip, or double-click it. Drag its bar back over the strip to dock it."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/tab.detach"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I hide or show a sidebar?",
+      "alternateName": [
+        "hide sidebar",
+        "more room"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ctrl/⌘ B hides or shows the left sidebar; the buttons at the right of the band do both sides."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/shell.left"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are the keyboard shortcuts?",
+      "alternateName": [
+        "shortcuts",
+        "hotkeys"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Shortcuts page lists every key this build binds and the words the palette understands."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:doc/shortcuts"
+      }
+    }
+  ]
+}

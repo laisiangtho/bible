@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "1 Corinthians",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "1 Corinthians"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 1 Corinthians about?",
+      "alternateName": [
+        "1 Corinthians summary",
+        "overview of 1 Corinthians",
+        "introduction to 1 Corinthians"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Paul writes to a gifted but divided church about divisions, morality, marriage, worship, spiritual gifts and the resurrection, with the great chapter on love."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/46/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 1 Corinthians?",
+      "alternateName": [
+        "author of 1 Corinthians",
+        "1 Corinthians author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Paul."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/46/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 1 Corinthians written?",
+      "alternateName": [
+        "date of 1 Corinthians",
+        "1 Corinthians date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About AD 53–55, from Ephesus."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/46/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 1 Corinthians?",
+      "alternateName": [
+        "1 Corinthians themes",
+        "what does 1 Corinthians teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: unity, the cross, love, spiritual gifts, the resurrection."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/46/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 1 Corinthians?",
+      "alternateName": [
+        "famous verses in 1 Corinthians",
+        "1 Corinthians key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 1 Corinthians 1:18; 1 Corinthians 10:13; 1 Corinthians 13:4–7; 1 Corinthians 15:3–4."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/46/1/18"
+      }
+    }
+  ]
+}

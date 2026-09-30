@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Proverbs",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Proverbs"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Proverbs about?",
+      "alternateName": [
+        "Proverbs summary",
+        "overview of Proverbs",
+        "introduction to Proverbs"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Short sayings and longer poems of practical wisdom for everyday life, beginning with the fear of the Lord."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/20/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Proverbs?",
+      "alternateName": [
+        "author of Proverbs",
+        "Proverbs author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Largely attributed to Solomon, with collections from others, including Agur and King Lemuel."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/20/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Proverbs written?",
+      "alternateName": [
+        "date of Proverbs",
+        "Proverbs date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Collected from about the 10th century BC, with its final form some centuries later."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/20/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Proverbs?",
+      "alternateName": [
+        "Proverbs themes",
+        "what does Proverbs teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: wisdom, the fear of the Lord, speech, work, family, justice."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/20/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Proverbs?",
+      "alternateName": [
+        "famous verses in Proverbs",
+        "Proverbs key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Proverbs 1:7; Proverbs 3:5–6; Proverbs 31:10."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/20/1/7"
+      }
+    }
+  ]
+}

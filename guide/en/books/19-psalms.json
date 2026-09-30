@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Psalms",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Psalms"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Psalms about?",
+      "alternateName": [
+        "Psalms summary",
+        "overview of Psalms",
+        "introduction to Psalms"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Israel's book of prayer and song: 150 psalms of praise, lament, thanksgiving, trust and wisdom, used in worship by Jews and Christians ever since."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/19/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Psalms?",
+      "alternateName": [
+        "author of Psalms",
+        "Psalms author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many writers: about half are headed \"of David\"; others are attributed to Asaph, the sons of Korah, Solomon, Moses and others, and some are anonymous."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/19/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Psalms written?",
+      "alternateName": [
+        "date of Psalms",
+        "Psalms date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Written over many centuries, from about the 10th century BC to after the exile."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/19/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Psalms?",
+      "alternateName": [
+        "Psalms themes",
+        "what does Psalms teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: praise, lament, trust, God as king and shepherd, the Messiah."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/19/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Psalms?",
+      "alternateName": [
+        "famous verses in Psalms",
+        "Psalms key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Psalm 1:1–3; Psalm 23:1; Psalm 51:10; Psalm 119:105."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/19/1/1"
+      }
+    }
+  ]
+}

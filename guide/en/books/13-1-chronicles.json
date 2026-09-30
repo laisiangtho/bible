@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "1 Chronicles",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "1 Chronicles"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 1 Chronicles about?",
+      "alternateName": [
+        "1 Chronicles summary",
+        "overview of 1 Chronicles",
+        "introduction to 1 Chronicles"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A retelling of Israel's history from Adam to David through genealogies and David's preparations for the temple, written for the community that returned from exile."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/13/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote 1 Chronicles?",
+      "alternateName": [
+        "author of 1 Chronicles",
+        "1 Chronicles author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The author, often called \"the Chronicler\", is not named; Jewish tradition names Ezra."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/13/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was 1 Chronicles written?",
+      "alternateName": [
+        "date of 1 Chronicles",
+        "1 Chronicles date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated after the return from exile, around the 5th–4th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/13/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of 1 Chronicles?",
+      "alternateName": [
+        "1 Chronicles themes",
+        "what does 1 Chronicles teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: worship, the temple, God's covenant with David, identity after exile."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/13/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in 1 Chronicles?",
+      "alternateName": [
+        "famous verses in 1 Chronicles",
+        "1 Chronicles key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: 1 Chronicles 16:34; 1 Chronicles 17:11–14; 1 Chronicles 29:11."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/13/16/34"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Nehemiah",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Nehemiah"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Nehemiah about?",
+      "alternateName": [
+        "Nehemiah summary",
+        "overview of Nehemiah",
+        "introduction to Nehemiah"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nehemiah, cupbearer to the Persian king, returns to rebuild the walls of Jerusalem against opposition, and leads the people in covenant renewal."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/16/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Nehemiah?",
+      "alternateName": [
+        "author of Nehemiah",
+        "Nehemiah author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Largely Nehemiah's own memoirs; in Jewish tradition Ezra and Nehemiah form one book."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/16/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Nehemiah written?",
+      "alternateName": [
+        "date of Nehemiah",
+        "Nehemiah date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Its events are around 445–430 BC; written in the 5th–4th century BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/16/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Nehemiah?",
+      "alternateName": [
+        "Nehemiah themes",
+        "what does Nehemiah teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: prayer and action, rebuilding, opposition, covenant renewal."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/16/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Nehemiah?",
+      "alternateName": [
+        "famous verses in Nehemiah",
+        "Nehemiah key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Nehemiah 1:11; Nehemiah 8:10; Nehemiah 9:17."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/16/1/11"
+      }
+    }
+  ]
+}

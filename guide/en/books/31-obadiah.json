@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Obadiah",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Obadiah"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Obadiah about?",
+      "alternateName": [
+        "Obadiah summary",
+        "overview of Obadiah",
+        "introduction to Obadiah"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The shortest book of the Old Testament: judgement on Edom for its pride and its violence against Judah, and the promise that the kingdom will be the Lord's."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/31/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Obadiah?",
+      "alternateName": [
+        "author of Obadiah",
+        "Obadiah author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The prophet Obadiah."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/31/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Obadiah written?",
+      "alternateName": [
+        "date of Obadiah",
+        "Obadiah date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated after the fall of Jerusalem in 587/586 BC."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/31/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Obadiah?",
+      "alternateName": [
+        "Obadiah themes",
+        "what does Obadiah teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: pride, judgement on the nations, the day of the Lord."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/31/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Obadiah?",
+      "alternateName": [
+        "famous verses in Obadiah",
+        "Obadiah key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Obadiah 1:15; Obadiah 1:21."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/31/1/15"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Notes",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I write a note on a verse?",
+      "alternateName": [
+        "add a note",
+        "comment on a verse",
+        "annotate"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Press the verse number and choose Note, or open the composer with Ctrl/⌘ J. Notes are written in simple Markdown and belong to the passage, so they appear in every translation."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/composer.open"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I see all my notes?",
+      "alternateName": [
+        "list of notes",
+        "all notes",
+        "find a note"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All notes lists every note in one table, to filter, sort, open or export."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:command/notes.manager"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I link notes together?",
+      "alternateName": [
+        "wikilink",
+        "link to a chapter",
+        "tags"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Write [[Genesis 1]] in a note to link to a chapter, and #theme to tag it. The Links pane shows what points at the chapter being read, and the Tags pane gathers notes by tag."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:pane/tags"
+      }
+    }
+  ]
+}

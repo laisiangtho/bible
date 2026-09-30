@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Titus",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Titus"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Titus about?",
+      "alternateName": [
+        "Titus summary",
+        "overview of Titus",
+        "introduction to Titus"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Instructions for appointing elders and teaching good living in the churches of Crete, grounded in God's grace."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/56/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Titus?",
+      "alternateName": [
+        "author of Titus",
+        "Titus author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The apostle Paul, to his co-worker Titus in Crete; many scholars think it was written later in his name."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/56/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Titus written?",
+      "alternateName": [
+        "date of Titus",
+        "Titus date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About AD 62–64, if by Paul."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/56/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Titus?",
+      "alternateName": [
+        "Titus themes",
+        "what does Titus teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: grace that teaches, sound teaching, good works."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/56/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Titus?",
+      "alternateName": [
+        "famous verses in Titus",
+        "Titus key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Titus 2:11–12; Titus 3:5."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/56/2/11"
+      }
+    }
+  ]
+}

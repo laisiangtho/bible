@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Acts",
+  "inLanguage": "en",
+  "dateModified": "2026-09-30",
+  "about": {
+    "@type": "Book",
+    "name": "Acts"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Acts about?",
+      "alternateName": [
+        "Acts summary",
+        "overview of Acts",
+        "introduction to Acts"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The story of the early church from Jesus' ascension and the coming of the Holy Spirit at Pentecost to Paul preaching in Rome: the gospel spreading from Jerusalem to the nations."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/44/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote Acts?",
+      "alternateName": [
+        "author of Acts",
+        "Acts author"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Luke, the author of the Gospel of Luke, writing again to Theophilus."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/44/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When was Acts written?",
+      "alternateName": [
+        "date of Acts",
+        "Acts date"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually dated around AD 62–85."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/44/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main themes of Acts?",
+      "alternateName": [
+        "Acts themes",
+        "what does Acts teach"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Main themes: the Holy Spirit, witness, the church, the gospel for Jews and Gentiles."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/44/1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are key passages in Acts?",
+      "alternateName": [
+        "famous verses in Acts",
+        "Acts key verses"
+      ],
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Among the best known: Acts 1:8; Acts 2:38; Acts 4:12; Acts 17:28."
+      },
+      "potentialAction": {
+        "@type": "Action",
+        "target": "laisiangtho:passage/44/1/8"
+      }
+    }
+  ]
+}
