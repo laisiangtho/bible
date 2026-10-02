@@ -1,0 +1,20 @@
+{
+  "locales": [
+    {
+      "code": "ctd",
+      "name": "Zolai",
+      "english": "Zolai (Tedim)",
+      "version": "132358b6a07f",
+      "strings": 1333,
+      "review": true
+    },
+    {
+      "code": "my",
+      "name": "မြန်မာ",
+      "english": "Burmese",
+      "version": "c70032105cef",
+      "strings": 1333,
+      "review": true
+    }
+  ]
+}
