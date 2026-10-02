@@ -1,6 +1,6 @@
 {
   "name": "Lai Siangtho",
-  "updated": "2024-11-18T15:04:44.891Z",
+  "updated": "2026-10-02T11:50:29.020Z",
   "version": 260,
   "book": [
     {
@@ -17,7 +17,16 @@
       "description": "Falam Common Language Bible",
       "publisher": "Falam Bible Revision",
       "contributors": "",
-      "copyright": "Bible Society of India"
+      "copyright": "Bible Society of India",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30515,
+        "strongs": 0,
+        "refs": 191,
+        "headings": 0,
+        "titles": 2606
+      }
     },
     {
       "identify": "hakha1920",
@@ -33,7 +42,16 @@
       "description": "Lai (Hakha) Common Language Bible",
       "publisher": "Bible Society of Myanmar",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30968,
+        "strongs": 0,
+        "refs": 3139,
+        "headings": 0,
+        "titles": 2241
+      }
     },
     {
       "identify": "mizo1917",
@@ -49,7 +67,16 @@
       "description": "Mizo OV (Re-edited) Bible (BSI); THUTHLUNG HLUI (Re-edited) Bible (BSI). This translation was published by the Bible Society of India in 1959",
       "publisher": "Bible Society of India",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30791,
+        "strongs": 0,
+        "refs": 3249,
+        "headings": 0,
+        "titles": 2607
+      }
     },
     {
       "identify": "1048",
@@ -65,7 +92,16 @@
       "description": "The Mizo community lives in the States of Mizoram, Assam, Manipur, Tripura, and Jampui Hill areas. Some are in Bangladesh and Myanmar also. The estimated population is over 2 million. Mizo Christians in Mizoram are 87%. The first Mizo NT was published in 1917 and the complete Bible in Mizo in 1959. A milestone of translation works of the Bible Society of India in this language is the publication of the Mizo Bible (CL) in 1995 and also the Mizo Study Bible in 2009  This translation, published by the Bible Society of India, was published in 1995.  If you are interested in obtaining a printed copy, please contact the Bible Society of India Learn More About Mizo (Lushai) C.L. Bible",
       "publisher": "Bible Society of India",
       "contributors": "",
-      "copyright": "Mizo (Lushai) C.L. Bible - PATHIAN LEHKHABU THIANGHLIM"
+      "copyright": "Mizo (Lushai) C.L. Bible - PATHIAN LEHKHABU THIANGHLIM",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31048,
+        "strongs": 0,
+        "refs": 4095,
+        "headings": 0,
+        "titles": 2653
+      }
     },
     {
       "identify": "paite1971",
@@ -81,7 +117,16 @@
       "description": "Paite OV (Re-edited) Bible - Pathian Laisiangthou",
       "publisher": "Bible Society of India",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31104,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2927
+      }
     },
     {
       "identify": "sizang1932",
@@ -97,7 +142,16 @@
       "description": "Siyin Chin Bible",
       "publisher": "Bible Society of Myanmar",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30191,
+        "strongs": 0,
+        "refs": 3229,
+        "headings": 0,
+        "titles": 2672
+      }
     },
     {
       "identify": "tedim1932",
@@ -113,7 +167,16 @@
       "description": "Tedim (Chin) Bible, Tedim Common Language Bible",
       "publisher": "Bible Society of Myanmar",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30715,
+        "strongs": 0,
+        "refs": 3235,
+        "headings": 339,
+        "titles": 2329
+      }
     },
     {
       "identify": "3561",
@@ -129,7 +192,16 @@
       "description": "Tedim Lai Siangtho 1977",
       "publisher": "Bible Society of Myanmar",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30758,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 339,
+        "titles": 2239
+      }
     },
     {
       "identify": "mara2011",
@@ -145,7 +217,16 @@
       "description": "Mara Bible RV (BSI), bihrai paropa nata bihrai thipa: pahlypa",
       "publisher": "Bible Society of India",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31104,
+        "strongs": 0,
+        "refs": 3222,
+        "headings": 0,
+        "titles": 2568
+      }
     },
     {
       "identify": "matu2009",
@@ -161,7 +242,21 @@
       "description": "Matupi Chin Standard Bible © Batupuei Christian Fellowship (Matupi) 2019.",
       "publisher": "Batupuei Khrihca Rhoihui (Matupi)",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 37,
+        "nt": 27,
+        "verses": 30575,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2820,
+        "faults": {
+          "names-unaligned": 1,
+          "copied-book": 2,
+          "outside-canon": 6
+        }
+      }
     },
     {
       "identify": "1065",
@@ -177,7 +272,16 @@
       "description": "The tribe is mainly found in the districts of Chandel and Churachandpur in Manipur and in border areas of Myanmar. They have a population of 24,000. They belong to language group of Tibeto Burman. The Zou Christians consist of protestants (75%) and the Roman Catholic (25%). The Zomis witnessed two major events of publication work by the Bible Society of India in their language, the New Testament was published in 1981 and the complete Zou Bible CL was published in 1992.",
       "publisher": "Bible Society of India",
       "contributors": "",
-      "copyright": "Zou CL Bible (BSI) - LAISIENGTHOU"
+      "copyright": "Zou CL Bible (BSI) - LAISIENGTHOU",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31104,
+        "strongs": 0,
+        "refs": 3225,
+        "headings": 0,
+        "titles": 2953
+      }
     },
     {
       "identify": "2486",
@@ -193,7 +297,19 @@
       "description": "Zo Bible © Bible Society of Myanmar",
       "publisher": "Bible Society of Myanmar",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31032,
+        "strongs": 0,
+        "refs": 3106,
+        "headings": 0,
+        "titles": 2473,
+        "faults": {
+          "empty-verse": 1
+        }
+      }
     },
     {
       "identify": "1879",
@@ -209,7 +325,16 @@
       "description": "Pathen Thutheng BU - BSI, Thadou Kuki [Thado Chin]",
       "publisher": "",
       "contributors": "",
-      "copyright": "The Bible Society of India "
+      "copyright": "The Bible Society of India ",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31104,
+        "strongs": 0,
+        "refs": 3137,
+        "headings": 0,
+        "titles": 2722
+      }
     },
     {
       "identify": "judson1835",
@@ -225,7 +350,16 @@
       "description": "Translated from The Original Tongues by Rev. A. Judson, D.D.",
       "publisher": "Bible Society of Myanmar",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30770,
+        "strongs": 0,
+        "refs": 2722,
+        "headings": 0,
+        "titles": 2585
+      }
     },
     {
       "identify": "mcl2005",
@@ -241,7 +375,16 @@
       "description": "Common Language Bible",
       "publisher": "Bible Society of Myanmar",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 29800,
+        "strongs": 0,
+        "refs": 3186,
+        "headings": 0,
+        "titles": 2550
+      }
     },
     {
       "identify": "1391",
@@ -257,7 +400,16 @@
       "description": "Myanmar Standard Bible is an all-new Myanmar Bible translation translated from the original biblical languages (Hebrew, Aramaic and Greek). It faithfully captures the meaning and authentically preserves the style of the original languages. As one of the most accurate and readable Myanmar versions available today, it meets modern Myanmar language standards and fits the need of Myanmar people at different educational levels. The MYANMAR STANDARD BIBLE© is a project of the Global Bible Initiative organized by a team of prominent Bible scholars and linguistic experts, benefiting from the most up-to-date technology.",
       "publisher": "Bible Society of Myanmar",
       "contributors": "",
-      "copyright": "Global Bible Initiative"
+      "copyright": "Global Bible Initiative",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31049,
+        "strongs": 0,
+        "refs": 685,
+        "headings": 0,
+        "titles": 2759
+      }
     },
     {
       "identify": "jwmynwt",
@@ -273,7 +425,16 @@
       "description": "ဒီကျမ်းစာကို နေ့စဉ်သုံး စကားပြောဟန်နဲ့ ရေးသားထားပါတယ်။ ကလေးသူငယ်များ၊ သာမန်လူတန်းစားများ၊ လူငယ်များ၊ ပညာရေး နိမ့်ကျသူများ၊ တိုင်းရင်းများသားအတွက် ရည်ရွယ်ပြီး အရိုးရှင်းဆုံး၊ အလွယ်ကူဆုံး၊ အထိရောက်ဆုံး စကားလုံးတွေ ရွေးချယ်သုံးနှုန်းထားပါတယ်။ ဝါကျတွေကို တိုတုတ်ကျစ်လစ်အောင် ဖွဲ့ထားပါတယ်။ ကျုပ်၊ ကျွန်တော်၊ ကျွန်မ၊ ခင်ဗျားစတဲ့ နာမ်စားများကို တမင်တကာ ရွေးချယ် သုံးနှုန်းထားပါတယ်။ မူရင်းကျမ်းစာစောင်တွေကိုလည်း ဟိုးအရင်တုန်းက အများသုံး ဘာသာစကားနဲ့ ရေးသားထားတာမို့ ဒီကျမ်းစာမှာလည်း နေ့စဉ်သုံး မြန်မာစကားပဲ သုံးနှုန်းထားပါတယ်။ မူရင်း ကျမ်းစာစောင်တွေမှာလိုပဲ ယေဟောဝါဆိုတဲ့ ဘုရားသခင့် နာမတော်ကို အကြိမ် ၇,၀၀၀ ကျော်ကို ပြန်လည်ဖော်ထုတ် အသုံးပြုထားပါတယ်။",
       "publisher": "JW.ORG",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31078,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 4288
+      }
     },
     {
       "identify": "348",
@@ -289,7 +450,16 @@
       "description": "Jinghpaw Common Language Bible",
       "publisher": "Bible Society of Myanmar",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30151,
+        "strongs": 0,
+        "refs": 3046,
+        "headings": 0,
+        "titles": 2674
+      }
     },
     {
       "identify": "2647",
@@ -305,7 +475,16 @@
       "description": "Jinghpaw Hanson Version Bible",
       "publisher": "Bible Society of Myanmar",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30935,
+        "strongs": 0,
+        "refs": 10,
+        "headings": 0,
+        "titles": 2007
+      }
     },
     {
       "identify": "niv2011",
@@ -321,7 +500,16 @@
       "description": "Biblica is the worldwide publisher and translation sponsor of the New International Version—one of the most widely read contemporary English versions of the Bible.  At Biblica, we believe that with God, all things are possible. Partnering with other ministries and people like you, we are reaching the world with God’s Word, providing Bibles that are easier to understand and faster to receive. When God’s Word is put into someone’s hands, it has the power to change everything.",
       "publisher": "Biblica, Inc.",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30948,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2133
+      }
     },
     {
       "identify": "1",
@@ -337,7 +525,16 @@
       "description": "In 1604, King James I of England authorized that a new translation of the Bible into English be started. It was finished in 1611, just 85 years after the first translation of the New Testament into English appeared (Tyndale, 1526). The Authorized Version, or King James Version, quickly became the standard for English-speaking Protestants. Its flowing language and prose rhythm has had a profound influence on the literature of the past 300 years.",
       "publisher": "Cambridge Univ. Press & BFBS",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31102,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 1356
+      }
     },
     {
       "identify": "bbe1949",
@@ -353,7 +550,16 @@
       "description": "The form in which the Bible is given here is not simply another example of the Bible story put into present-day English. The language used is Basic English. Basic English, produced by Mr C. K. Ogden of the Orthological Institute, is a simple form of the English language which, with 850 words, is able to give the sense of anything which may be said in English.",
       "publisher": "FREE BIBLE SOFTWARE GROUP",
       "contributors": "C.K. Ogden",
-      "copyright": "We believe that this Bible is found in the Public Domain."
+      "copyright": "We believe that this Bible is found in the Public Domain.",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31172,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 0
+      }
     },
     {
       "identify": "web2000",
@@ -369,7 +575,20 @@
       "description": "World English Bible, American English Edition, without Strong's Numbers. The form in which the Bible is given here is not simply another example of the Bible story put into present-day English. The language used is Basic English. Basic English, produced by Mr C. K. Ogden of the Orthological Institute, is a simple form of the English language which, with 850 words, is able to give the sense of anything which may be said in English.",
       "publisher": "eBible.org",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31098,
+        "strongs": 0,
+        "refs": 322,
+        "headings": 0,
+        "titles": 34,
+        "faults": {
+          "names-unaligned": 1,
+          "outside-canon": 14
+        }
+      }
     },
     {
       "identify": "12",
@@ -385,7 +604,16 @@
       "description": "The American Standard Version (ASV), officially Revised Version, Standard American Edition, is a Bible translation into English that was completed in 1901 with the publication of the revision of the Old Testament. The revised New Testament had been released in 1900.",
       "publisher": "Revised Version, Standard American Edition",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31086,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 1
+      }
     },
     {
       "identify": "3034",
@@ -401,7 +629,16 @@
       "description": "The Holy Bible, Berean Standard Bible, BSB is produced in cooperation with Bible Hub, Discovery Bible, OpenBible.com, and the Berean Bible Translation Committee. This text of God's Word has been dedicated to the public domain.",
       "publisher": "BSB Publishing, LLC",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31086,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 3106
+      }
     },
     {
       "identify": "392",
@@ -417,7 +654,16 @@
       "description": "Contemporary English Version (US Version) Uncompromising simplicity marked the American Bible Society's translation of the Contemporary English Version that was first published in 1995. The text is easily read by grade schoolers, second language readers, and those who prefer the more contemporized form. The CEV is not a paraphrase; it is an accurate and faithful translation of the original manuscripts. After 200 years of ongoing ministry, American Bible Society invites people to experience the life-changing message of the Bible. Offering an increasing range of innovative ministries to address core life questions and struggles, the Bible Society partners with Christian churches and national Bible societies to share God’s Word both in the United States and around the globe. For more information, visit www.americanbible.org. To purchase a copy of this translation, visit www.bibles.com.",
       "publisher": "American Bible Society",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 28980,
+        "strongs": 0,
+        "refs": 3534,
+        "headings": 0,
+        "titles": 2922
+      }
     },
     {
       "identify": "37",
@@ -433,7 +679,20 @@
       "description": "Version Information The Common English Bible is unlike any other translation. It’s uncommon in that it’s the newest translation by the largest number of biblical scholars & church leaders in words 21st century readers use every day, aligning academic rigor with modern understandability, proven through extensive affirmation with, and acting on feedback from, hundreds of readers. The new Common English Bible is the only translation to combine and balance highly respected ecumenical biblical scholarship necessary for serious study with responsiveness to 21st century clear communication requirements for comprehensive clarity. The Common English Bible is the result of collaboration between opposites: scholars working with average readers; conservatives working with liberals; teens working with retirees; men working with women; many denominations and many ethnicities coming together around the common goal of creating a translation that unites rather than divides, with the ultimate goal of mutually accomplishing God’s overall work in the world. Combining scholarly accuracy with vivid language, the Common English Bible is the work of 120 biblical scholars from 24 denominations in American, African, Asian, European, and Latino communities, representing such academic institutions as Asbury Theological Seminary, Azusa Pacific University, Bethel Seminary, Denver Seminary, Princeton Theological Seminary, Seattle Pacific University, Wheaton College, Yale University, and many others. They meticulously translated the Bible into English directly from the original Hebrew, Aramaic, and Greek texts. Additionally, more than 500 readers in 77 groups field-tested the translation. Every verse was read aloud in the reading groups, where potentially confusing passages were identified. The translators considered the groups' responses and, where necessary, reworked those passages to clarify in English their meaning from the original languages. In total, more than 600 people worked jointly to bring the Common English Bible to fruition. The digital revolution is accelerating changes in language and its everyday usage. The new Common English Bible is written in contemporary idiom at the same reading level as the newspaper USA TODAY—using language that’s comfortable and accessible for today’s English readers. This new translation strives to make Bible reading more clear and compelling for individuals, groups, and corporate worship services. In 2010 the New Testament was published. In 2011 the complete Bible was published with the Old Testament and the availability of the Apocrypha. Copyright Information The CEB text may be quoted in any form (written, visual, electronic, or audio), up to and inclusive of five hundred (500) verses without express written permission of the publisher, providing the verses do not amount to a complete book of the Bible nor do the verses quoted account for twenty-five percent (25%) or more of the total text of the work in which they are quoted. When the CEB is quoted in works that exercise the above fair use clause, notice of copyright must appear on the title or copyright page or opening screen of the work (whichever is appropriate) as follows: Scripture taken from the Common English Bible®, CEB® Copyright © 2010, 2011 by Common English Bible.™ Used by permission. All rights reserved worldwide. The \"CEB\" and \"Common English Bible\" trademarks are registered in the United States Patent and Trademark Office by Common English Bible. Use of either trademark requires the permission of Common English Bible. These Scriptures have been made available on the Internet for your personal use only. Any other use including, but not limited to, copying or re-posting the Scripture on the Internet is prohibited. These Scriptures may not be altered or modified in any form but must remain in their original context. These Scriptures may not be sold or otherwise offered for sale--to include online banner ads that encapsulate linkages to these Scriptures for the purpose of selling online ad space. These Scriptures are free for all online use. These Scriptures are not public domain. These Scriptures are not shareware and may not be duplicated. When quotations from the CEB text are used in non-salable media such as church bulletins, orders of service, posters, transparencies or similar media, a complete copyright notice is not required, but the initials CEB must appear at the end of each quotation. Any commentary or other biblical reference work produced for commercial sale that uses the Common English Bible must obtain written permission for the use of the CEB text. Permission request for use of the CEB® text that exceed the above guidelines should be directed to, and approved in writing by Rights and Permissions Administrator, Common English Bible, PO Box 801, 201 Eighth Avenue South, Nashville, TN 37202-0801 or email ​ceb.permissions@commonenglish.com CEB Site: http://CommonEnglishBible.com/",
       "publisher": "Common English Bible",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30979,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2490,
+        "faults": {
+          "names-unaligned": 1,
+          "outside-canon": 18
+        }
+      }
     },
     {
       "identify": "303",
@@ -449,7 +708,20 @@
       "description": "Contemporary English Version (US Version) Uncompromising simplicity marked the American Bible Society's translation of the Contemporary English Version that was first published in 1995. The text is easily read by grade schoolers, second language readers, and those who prefer the more contemporized form. The CEV is not a paraphrase; it is an accurate and faithful translation of the original manuscripts. After 200 years of ongoing ministry, American Bible Society invites people to experience the life-changing message of the Bible. Offering an increasing range of innovative ministries to address core life questions and struggles, the Bible Society partners with Christian churches and national Bible societies to share God’s Word both in the United States and around the globe. For more information, visit www.americanbible.org. To purchase a copy of this translation, visit www.bibles.com.",
       "publisher": "American Bible Society",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 28980,
+        "strongs": 0,
+        "refs": 3534,
+        "headings": 0,
+        "titles": 2922,
+        "faults": {
+          "names-unaligned": 1,
+          "outside-canon": 12
+        }
+      }
     },
     {
       "identify": "294",
@@ -465,7 +737,19 @@
       "description": "Contemporary English Version (Anglicised)  The Contemporary English Version (CEV) is a fresh and clear Bible translation, first produced by the American Bible Society (ABS) in 1995. This CEV was especially developed for use in Church, outreach and evangelism and is suitable for people of all ages and educational background. The translation is readable, understandable and accessible. In 1997 the British and Foreign Bible Society (BFBS) anglicised the text for the U.K. and Commonwealth but which also uses metric measurements. This is called the Contemporary English Version (Anglicised) or CEVUK.  The Contemporary English Version (CEV) was designed to be a Bible which is easily understood when read aloud. Most of the usual biblical terminology has been adapted into everyday language, to make it readable by people without a church background. As a result of this it won the coveted Crystal Award in 1996 from the Plain English Campaign, which is awarded to publications that are considered to be as clear as possible for the intended audience. This makes the CEV a great translation for youth Bibles.  Audio Version  In 2010 the Contemporary English Version was the translation used in Bible Society's You’ve Got the Time New Testament dramatised audio recording by the Riding Lights Theatre Company. The CEV is also the translation of choice for special highlighted editions such as the Poverty and Justice Bible and The Highlighted Freedom Bible. Contemporary English Version. Anglicised edition copyright © British and Foreign Bible Society 1997, 2012 Audio edition © British and Foreign Bible Society 2010",
       "publisher": "British & Foreign Bible Society",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 28908,
+        "strongs": 0,
+        "refs": 3205,
+        "headings": 0,
+        "titles": 2969,
+        "faults": {
+          "merge-overlap": 1
+        }
+      }
     },
     {
       "identify": "1275",
@@ -481,7 +765,16 @@
       "description": "...",
       "publisher": "Messianic Jewish Publishers and Resources",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30987,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 51
+      }
     },
     {
       "identify": "42",
@@ -497,7 +790,20 @@
       "description": "Catholic Public Domain Version",
       "publisher": "",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31246,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 0,
+        "faults": {
+          "names-unaligned": 1,
+          "outside-canon": 7
+        }
+      }
     },
     {
       "identify": "1713",
@@ -513,7 +819,16 @@
       "description": "The Christian Standard Bible aims to draw readers into a deeper, more meaningful relationship with God. By translating Scripture into the clearest possible modern English, the CSB allows readers to experience God’s Word at its fullest. Developed by 100 scholars from 17 denominations, the Christian Standard Bible faithfully and accurately captures the Bible’s original meaning without compromising readability. The CSB was created using Optimal Equivalence, a translation philosophy that balances linguistic precision to the original languages and readability in contemporary English. In the many places throughout Scripture where a word-for-word rendering is clearly understandable, a literal translation is used. When a word-for-word rendering might obscure the meaning for a modern audience, a more dynamic translation is used. This process assures that both the words and thoughts contained in the original text are conveyed as accurately as possible for today’s readers.The CSB provides a highly accurate text for sermon preparation and serious study, translated from the biblical languages by scholars who love God’s Word. Yet it doesn’t compromise readability and clarity for those who may be less familiar with the traditional (and sometimes difficult) vocabulary retained in some translations. Research shows the CSB is both highly literal to the original languages and highly readable, achieving an optimal balance of the two. Pastors and laypeople can read and share the Christian Standard Bible with confidence, knowing truth of God’s Word will be communicated effectively. For a more information, visit CSBible.com",
       "publisher": "Holman Bible Publishers",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30955,
+        "strongs": 0,
+        "refs": 20559,
+        "headings": 0,
+        "titles": 2864
+      }
     },
     {
       "identify": "2530",
@@ -529,7 +844,20 @@
       "description": "Translated for speakers of Australian Indigenous languages.",
       "publisher": "Wycliffe Bible Translators, Inc",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 3,
+        "nt": 21,
+        "verses": 8030,
+        "strongs": 0,
+        "refs": 1168,
+        "headings": 0,
+        "titles": 1208,
+        "faults": {
+          "names-unaligned": 1,
+          "copied-book": 42
+        }
+      }
     },
     {
       "identify": "478",
@@ -545,7 +873,16 @@
       "description": "John Nelson Darby  John Nelson Darby, sometimes known as JND, was born in London in 1800. He graduated in 1818 from Trinity College, Dublin, with Honours and the University Medal in Classics. In 1825 he was ordained as a deacon of the Anglican Church of Ireland, and in 1826 became a priest. However later he became a leader of the Plymouth Brethren movement. In the 1830s and 1840s he worked in Christian ministry and pastoral care in England, Ireland, France, Germany and Switzerland and elsewhere. He was a linguist, learned in Hebrew, Greek, Latin, French and German. He died in Bournemouth in 1882.  Darby New Testament 1871  Darby translated the New Testament into English from Greek, published in 1867 as “The Holy Scriptures: A New Translation from the Original Languages by J. N. Darby” and revised in 1871. His translation included footnotes on variant texts. After Darby died in 1882 the final edition was published in 1884. With the help of brethren, Darby also translated the Bible into French and German.  Darby Bible 1890  After Darby's death some of his students created the English Old Testament based on Darby's French (Pau) and German (Elberfelder) translations from the Masoretic Hebrew text. The complete Darby Bible in English was first published in 1890. The Darby Bible is a fairly literal, word-for-word translation, which adheres closely to the Hebrew and Greek in tense and structure. In the Old Testament Jehovah is used to translate the Hebrew YHWH, and Elohim is translated as God, Eloah is translated +God, and El is translated as ·God.  Digital Edition  The text, including many critical text notes, was digitised for the British and Foreign Bible Society (BFBS) in 2012, who maintain the text.  It was last updated in 2020.",
       "publisher": "British & Foreign Bible Society",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31099,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 150
+      }
     },
     {
       "identify": "2079",
@@ -561,7 +898,16 @@
       "description": "The purpose of the EasyEnglish Bible is to make the Bible as clear as possible in simple English. We have used a basic vocabulary of 1200 well-known English words. It is a very good Bible for anyone who is learning English or speaks English as a foreign language.  EasyEnglish Website To help you even more, the EasyEnglish Bible website – www.easyenglish.bible – has Commentaries and Bible Studies to help you understand the message of the Bible and apply it to your life.  Translation Principles To make the Bible as easy as possible to understand, we have used:  Short sentences Short paragraphs Simple grammar  We have avoided things that can be hard to understand, so we have used:  No passive verbs No idioms No split infinitives No rhetorical questions  The EasyEnglish Bible is a “meaning-for-meaning” translation not a “word-for-word” translation.  It expresses the meaning of the original message in the most clear, accurate and natural way possible in simple English. It changes the order of words if that makes the meaning clearer in English. It translates the meaning of idioms rather than the literal words. It uses British spelling, grammar and punctuation.  These translation principles have been developed by Wycliffe Bible Translators (WBT) and SIL.  EasyEnglish Translation Team The EasyEnglish Bible has been translated by MissionAssist, which is a Christian charity based in the United Kingdom. MissionAssist is part of the Wycliffe Global Alliance (WGA) and a member of Global Connections. The EasyEnglish Bible translation team includes:  Linguistic Checkers - People who check the linguistic consistency of the work. Our linguistic checkers normally have a degree in Linguistics or English (or similar) and a TEFL qualification. Theological Checkers - People who check the theological accuracy of the work. Our theological checkers have a degree in theology (or a similar qualification). Style Checkers - People who check drafts and final output for accuracy, consistency and conformance to EasyEnglish principles.   The Base Text We have used a range of English Bible translations as a base. Where English versions have a different understanding of the original text, we have referred to the Hebrew or Greek text, using the texts published and updated by United Bible Societies (UBS):  Old Testament: Biblia Hebraica “Masoretic Text” New Testament: The Nestle-Aland “Novum Testamentum Graece”  We also use the resources provided by Wycliffe Bible Translators to help translators and checkers understand the issues involved in translating the original texts.  Copyright Information Copyright © MissionAssist 2018 – Charitable Incorporated Organisation 1162807 The copyright of the EasyEnglish Bible and all other material on this website is owned by MissionAssist. MissionAssist is a member of the Wycliffe Global Alliance and is based in the UK. MissionAssist, PO Box 257, Evesham, Worcestershire, England. WR11 9AW",
       "publisher": "MissionAssist",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30943,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2509
+      }
     },
     {
       "identify": "59",
@@ -577,7 +923,16 @@
       "description": "...",
       "publisher": "Crossway / Good News Publishers",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31091,
+        "strongs": 0,
+        "refs": 24159,
+        "headings": 0,
+        "titles": 2427
+      }
     },
     {
       "identify": "72",
@@ -593,7 +948,16 @@
       "description": "The Holman Christian Standard Bible(HCSB) is a trusted, original translation of God’s Word. A team of more than 100 scholars from 17 denominations pursued two ideals with every translation decision: each word must reflect clear, contemporary English and each word must be faithful to the original languages of the Bible. For a deeper engagement with the Holman Christian Standard Bible, visit hcsb.org. Copyright and Permissions Information Holman Christian Standard Bible® Copyright © 1999, 2000, 2002, 2003, 2009 by Holman Bible Publishers. Used with permission by Holman Bible Publishers, Nashville, Tennessee. All rights reserved. The text of the Holman Christian Standard Bible may be quoted in any form (written, visual, electronic, or audio) up to and inclusive of one thousand (1000) verses without the written permission of the publisher, provided that the verses quoted do not account for more than 50 percent of the work in which they are quoted, and provided that a complete book of the Bible is not quoted. Requests for permission are to be directed to and approved in writing by Holman Bible Publishers, 127 Ninth Avenue North, Nashville, Tennessee 37234. When the HCSB is quoted, one of the following credit lines must appear on the copyright page or title page of the work: Scripture quotations marked HCSB are taken from the Holman Christian Standard Bible®, Copyright © 1999, 2000, 2002, 2003, 2009 by Holman Bible Publishers. Used by permission. Holman Christian Standard Bible®, Holman CSB®, and HCSB® are federally registered trademarks of Holman Bible Publishers. Unless otherwise noted, all Scripture quotations are taken from the Holman Christian Standard Bible®, Copyright © 1999, 2000, 2002, 2003, 2009 by Holman Bible Publishers. Used by permission. Holman Christian Standard Bible®, Holman CSB®, and HCSB® are federally registered trademarks of Holman Bible Publishers.",
       "publisher": "Holman Bible Publishers",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30969,
+        "strongs": 0,
+        "refs": 19284,
+        "headings": 0,
+        "titles": 2825
+      }
     },
     {
       "identify": "416",
@@ -609,7 +973,20 @@
       "description": "Good News Bible (Anglicised Version) This translation, published by the British & Foreign Bible Society, was first published in 1992.",
       "publisher": "British & Foreign Bible Society",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30168,
+        "strongs": 0,
+        "refs": 3228,
+        "headings": 0,
+        "titles": 2676,
+        "faults": {
+          "names-unaligned": 1,
+          "outside-canon": 15
+        }
+      }
     },
     {
       "identify": "68",
@@ -625,7 +1002,16 @@
       "description": "The Good News Translation, formerly called the Good News Bible or Today's English Version, was first published as a full Bible in 1976 by American Bible Society as a \"common language\" Bible. It provides a clear and simple modern translation.</p> <p>After 200 years of ongoing ministry, American Bible Society invites people to experience the life-changing message of the Bible. Offering an increasing range of innovative ministries to address core life questions and struggles, the Bible Society partners with Christian churches and national Bible societies to share God’s Word both in the United States and around the globe.",
       "publisher": "American Bible Society",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30168,
+        "strongs": 0,
+        "refs": 3470,
+        "headings": 0,
+        "titles": 2676
+      }
     },
     {
       "identify": "90",
@@ -641,7 +1027,16 @@
       "description": "",
       "publisher": "Logos Bible Software",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31083,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2423
+      }
     },
     {
       "identify": "ddb1931",
@@ -656,7 +1051,16 @@
       "version": 2,
       "description": "Det Danske Bibelselskab, De Hellige Skrifter. The electronic edition of this Bible comes from the Danish 1933 edition. The Old Testament is an update from the 1931 edition, and the New Testament is an update from the 1907 edition.",
       "publisher": "Biblica, Inc.",
-      "copyright": "Biblica, The International Bible Society, gør Guds Ord tilgængeligt for mennesker gennem oversættelse og publicering og gennem anden formidling af Bibelen i Afrika, Europa, Latinamerika, Mellemøsten, Nordamerika, Østasien, Sydasien, Sydøstasien og Oceanien. Gennem sit verdensomspændende arbejder søger Biblica at formidle Guds Ord til mennesker på en måde, så deres liv forvandles gennem et personligt forhold til Jesus Kristus."
+      "copyright": "Biblica, The International Bible Society, gør Guds Ord tilgængeligt for mennesker gennem oversættelse og publicering og gennem anden formidling af Bibelen i Afrika, Europa, Latinamerika, Mellemøsten, Nordamerika, Østasien, Sydasien, Sydøstasien og Oceanien. Gennem sit verdensomspændende arbejder søger Biblica at formidle Guds Ord til mennesker på en måde, så deres liv forvandles gennem et personligt forhold til Jesus Kristus.",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 29509,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2333
+      }
     },
     {
       "identify": "dnb1930",
@@ -672,7 +1076,16 @@
       "description": "Norsk Bibelen 1906/1930",
       "publisher": "Det Norsk Bibelselskap",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31102,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 0
+      }
     },
     {
       "identify": "102",
@@ -688,7 +1101,16 @@
       "description": "Norsk Bibel 88/07",
       "publisher": "",
       "contributors": "",
-      "copyright": "Norsk Bibel AS"
+      "copyright": "Norsk Bibel AS",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31165,
+        "strongs": 0,
+        "refs": 15065,
+        "headings": 0,
+        "titles": 2464
+      }
     },
     {
       "identify": "916",
@@ -704,7 +1126,16 @@
       "description": "Biblica gör Guds ord tillgängligt för människor genom bibelöversättning, bibelpublicering och bibelengagemang i Afrika, Asien-Stillahavsregionen, Europa, Sydamerika, Mellanöstern, Nordamerika och Sydasien. Genom sin världsomspännande räckvidd når Biblica ut till människor med Guds ord så att liv förvandlas genom relationen med Jesus Kristus.",
       "publisher": "",
       "contributors": "",
-      "copyright": "Biblica, Inc."
+      "copyright": "Biblica, Inc.",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31156,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2298
+      }
     },
     {
       "identify": "365",
@@ -720,7 +1151,16 @@
       "description": "Kirkkoraamattu 1933/38 Vuoden 1933/38 suomennoksen on julkaissut Suomen Pipliaseura. Mikäli olet kiinnostunut painetusta Raamatusta, ota yhteyttä  www.piplia.fi. Finnish Bible 1933/38 This translation has been published by the Finnish Bible Society. If you are interested in obtaining a printed copy, please contact the Finnish Bible Society at  www.piplia.fi.",
       "publisher": "Finnish Bible Society",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31149,
+        "strongs": 0,
+        "refs": 12972,
+        "headings": 0,
+        "titles": 1402
+      }
     },
     {
       "identify": "ostervald1877",
@@ -736,7 +1176,16 @@
       "description": "La Bible Ostervald a été une référence et largement utilisée pendant 150 ans, jusqu’à la fin du 19ème siècle. Mais elle reprit de la popularité vers la fin du 20ème siècle avec l’édition 1996. Toutefois cette dernière manque de précision et de fidélité au Texte Original du Nouveau Testament ou Texte Reçu, c’est pourquoi nous avons trouvé bon de mettre enligne ici l’édition 1877 original de la Bible Ostervald afin de donner aux fidèles un outil de comparaison grandement nécessaire. Vous allez trouver que l’édition 1877 de l’Ostervald est vastement supérieure à l’édition 1996, et si vous devez absolument utiliser l’Ostervald pour vos études nous vous conseillons fortement celle de 1877.",
       "publisher": "Biblica, Inc.",
       "contributors": "",
-      "copyright": "La Bible du Semeur Copyright"
+      "copyright": "La Bible du Semeur Copyright",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 32102,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 3012
+      }
     },
     {
       "identify": "luther1912",
@@ -752,7 +1201,16 @@
       "description": "Lutherbibel von 1912",
       "publisher": "",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31102,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 0
+      }
     },
     {
       "identify": "83",
@@ -768,7 +1226,16 @@
       "description": "Japanese Contemporary Bible",
       "publisher": "Biblica, Inc.",
       "contributors": "",
-      "copyright": "Japanese Contemporary Bible (リビングバイブル) Copyright © 1978, 2011, 2016 by Biblica, Inc."
+      "copyright": "Japanese Contemporary Bible (リビングバイブル) Copyright © 1978, 2011, 2016 by Biblica, Inc.",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 28043,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 1847
+      }
     },
     {
       "identify": "81",
@@ -784,7 +1251,16 @@
       "description": "Colloquial Japanese (1955)",
       "publisher": "",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31086,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 1189
+      }
     },
     {
       "identify": "175",
@@ -800,7 +1276,16 @@
       "description": "พระคัมภีร์ภาษาไทยฉบับ KJV",
       "publisher": "eBible.org",
       "contributors": "Rainbow Missions PO BOX 1151 LONGMONT CO 80502-1151 USA",
-      "copyright": "Copyright 2003 Philip Pope CC BY-NC-ND"
+      "copyright": "Copyright 2003 Philip Pope CC BY-NC-ND",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31102,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 3046
+      }
     },
     {
       "identify": "174",
@@ -816,7 +1301,16 @@
       "description": "Thailand Bible Society",
       "publisher": "thaibible.or.th",
       "contributors": "",
-      "copyright": "Thai Standard Version 2011 Copyright © 2011 Thailand Bible Society"
+      "copyright": "Thai Standard Version 2011 Copyright © 2011 Thailand Bible Society",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31062,
+        "strongs": 0,
+        "refs": 3166,
+        "headings": 0,
+        "titles": 2441
+      }
     },
     {
       "identify": "1683",
@@ -832,7 +1326,16 @@
       "description": "Hindi OV (Re-edited) Bible - पवित्र बाइबिल OV (Re-edited) Bible",
       "publisher": "Bible Society of India",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31102,
+        "strongs": 0,
+        "refs": 3678,
+        "headings": 0,
+        "titles": 2716
+      }
     },
     {
       "identify": "1628",
@@ -848,7 +1351,16 @@
       "description": "The Holy Bible, Hindi Contemporary Version Copyright © 1978, 2009, 2016, 2019 by Biblica, Inc.",
       "publisher": "Biblica, Inc.",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30951,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2156
+      }
     },
     {
       "identify": "86",
@@ -864,7 +1376,16 @@
       "description": "Korean Living Bible (현대인의 성경). Biblica provides Godʼs Word to people through translation, publishing and Bible engagement in Africa, Asia Pacific, Europe, Latin America, Middle East, and North America. Through its worldwide reach, Biblica engages people with Godʼs Word so that their lives are transformed through a relationship with Jesus Christ.",
       "publisher": "Biblica, Inc.",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30379,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 1835
+      }
     },
     {
       "identify": "88",
@@ -880,7 +1401,16 @@
       "description": "Korean Revised Version",
       "publisher": "Korean Bible Society",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31103,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 0
+      }
     },
     {
       "identify": "36",
@@ -896,7 +1426,16 @@
       "description": "Chinese Contemporary Bible 2022 (Simplified). The CCB is primarily a thought-for-thought idiomatic translation in standard Chinese, which retains the readability of Living Bible style while at the same time reflects the particular features of the original languages wherever suitable. Its intended audience is the younger generation both in the church and outside of the church. CCB’s last major revision was done 2011, which mainly smoothed out the issues and loopholes of Living Bible. This revision is aimed at further improving it in terms of accuracy, consistency and style based on the feedback collected over the last 10 years.",
       "publisher": "Biblica, Inc.",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30961,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2138
+      }
     },
     {
       "identify": "41",
@@ -912,7 +1451,16 @@
       "description": "Copyright Information Scripture texts are from The Holy Bible, Chinese New Version Copyright ©1976, 1992, 1999, 2001, 2005, 2010 by The Worldwide Bible Society Limited.",
       "publisher": "Worldwide Bible Society",
       "contributors": "",
-      "copyright": ""
+      "copyright": "",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31015,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 3344
+      }
     },
     {
       "identify": "1264",
@@ -928,7 +1476,16 @@
       "description": "Biblica, The International Bible Society, provides Godʼs Word to people through Bible translation and Bible publishing, and Bible engagement in Africa, Asia Pacific, Europe, Latin America, Middle East, North America, and South Asia. Through its worldwide reach, Biblica engages people with Godʼs Word so that their lives are transformed through a relationship with Jesus Christ.",
       "publisher": "Biblica, Inc",
       "contributors": "",
-      "copyright": "Ang Salita ng Dios (Tagalog Contemporary Bible)"
+      "copyright": "Ang Salita ng Dios (Tagalog Contemporary Bible)",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 30210,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2285
+      }
     },
     {
       "identify": "13",
@@ -944,7 +1501,16 @@
       "description": "New Van Dyck Bible (Full Vocalization with Helps). This is the most widely used Arabic translation in the world. It was published by the Bible Society of Egypt in 1999.",
       "publisher": "Bible Society of Egypt",
       "contributors": "",
-      "copyright": "Arabic, Standard Arabic: Van Dyck with Full Vocalization © 1999 Bible Society of Egypt"
+      "copyright": "Arabic, Standard Arabic: Van Dyck with Full Vocalization © 1999 Bible Society of Egypt",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31102,
+        "strongs": 0,
+        "refs": 21471,
+        "headings": 0,
+        "titles": 2165
+      }
     },
     {
       "identify": "339",
@@ -960,7 +1526,16 @@
       "description": "பரிசுத்த வேதாகமம் O.V. (BSI)",
       "publisher": "Bible Society of India",
       "contributors": "",
-      "copyright": "Tamil O.V. Bible - பரிசுத்த வேதாகமம் O.V.  Copyright © 2017 by The Bible Society of India Used by permission. All rights reserved worldwide."
+      "copyright": "Tamil O.V. Bible - பரிசுத்த வேதாகமம் O.V.  Copyright © 2017 by The Bible Society of India Used by permission. All rights reserved worldwide.",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31105,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 1208
+      }
     },
     {
       "identify": "1899",
@@ -976,7 +1551,16 @@
       "description": "Indian Revised Version (IRV) Tamil - 2019",
       "publisher": "Bridge Connectivity Solutions Pvt. Ltd.",
       "contributors": "",
-      "copyright": "TAM-IRV Creative Commons License Indian Revised Version (IRV) - Tamil (இந்தியன் ரீவைஸ்டு வேர்ஷன் - தமிழ்), 2019 by Bridge Connectivity Solutions Pvt. Ltd. is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. This resource is published originally on VachanOnline, a premier Scripture Engagement digital platform for Indian and South Asian Languages and made available to users via vachanonline.com website and the companion VachanGo mobile app."
+      "copyright": "TAM-IRV Creative Commons License Indian Revised Version (IRV) - Tamil (இந்தியன் ரீவைஸ்டு வேர்ஷன் - தமிழ்), 2019 by Bridge Connectivity Solutions Pvt. Ltd. is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. This resource is published originally on VachanOnline, a premier Scripture Engagement digital platform for Indian and South Asian Languages and made available to users via vachanonline.com website and the companion VachanGo mobile app.",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31103,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2234
+      }
     },
     {
       "identify": "89",
@@ -992,7 +1576,16 @@
       "description": "1986, 1995, 1997 by The Lockman Foundation",
       "publisher": "The Lockman Foundation",
       "contributors": "",
-      "copyright": "Completed in 1986 by a team of Latin American evangelical Bible scholars, La Biblia de las Américas (LBLA) is an original work translated from the Hebrew-Aramaic and Greek directly into modern Spanish. LBLA presents the Word of God in a clear and flowing style while maintaining accuracy. Following the same principles of translation set for the NASB, La Biblia de las Américas is understandable to the general public and also suitable for serious study, preaching, and daily reading."
+      "copyright": "Completed in 1986 by a team of Latin American evangelical Bible scholars, La Biblia de las Américas (LBLA) is an original work translated from the Hebrew-Aramaic and Greek directly into modern Spanish. LBLA presents the Word of God in a clear and flowing style while maintaining accuracy. Following the same principles of translation set for the NASB, La Biblia de las Américas is understandable to the general public and also suitable for serious study, preaching, and daily reading.",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31103,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 209
+      }
     },
     {
       "identify": "2220",
@@ -1008,7 +1601,16 @@
       "description": "תנ\"ך וברית חדשה בתרגום דליטש",
       "publisher": "Bible Society in Israel",
       "contributors": "",
-      "copyright": "Tanach and Delitzsch's Hebrew New Testament © Bible Society in Israel, 2018. כל הזכויות שמורות לחברה לכתבי הקודש בישראל"
+      "copyright": "Tanach and Delitzsch's Hebrew New Testament © Bible Society in Israel, 2018. כל הזכויות שמורות לחברה לכתבי הקודש בישראל",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31174,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 1374
+      }
     },
     {
       "identify": "2221",
@@ -1024,7 +1626,16 @@
       "description": "תנ\"ך וברית חדשה בתרגום מודני",
       "publisher": "Bible Society in Israel",
       "contributors": "",
-      "copyright": "Copyright 2018 © All Rights Reserved The Bible Society in Israel Jerusalem, Israel. כל הזכויות שמורות לחברה לכתבי הקודש בישראל"
+      "copyright": "Copyright 2018 © All Rights Reserved The Bible Society in Israel Jerusalem, Israel. כל הזכויות שמורות לחברה לכתבי הקודש בישראל",
+      "content": {
+        "ot": 39,
+        "nt": 27,
+        "verses": 31156,
+        "strongs": 0,
+        "refs": 0,
+        "headings": 0,
+        "titles": 2058
+      }
     }
   ],
   "collection": {
