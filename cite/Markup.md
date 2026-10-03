@@ -48,6 +48,8 @@ The keyword is the Zolai headword, spelled as it is written in running text.
 - Case is significant. `Pasian` and `pasian` are different keywords.
 - A keyword of type `name` starts with an uppercase letter or a digit.
 - Another spelling of the same word is not written into the keyword; it goes into the attribute `v`.
+- A word written with a hyphen in the Bible text keeps the hyphen in its keyword, so the row shows how the word is written. Lookup ignores hyphens, spaces, apostrophes and capitals: `ze-et` is found as `zeet` and as `ze et`.
+- A form that occurs only as one part of a hyphenated word has a redirect row to the full word.
 
 ## Attributes
 

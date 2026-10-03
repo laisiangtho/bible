@@ -21,6 +21,7 @@ python3 -m assist cite format --apply         # canonical spacing and attribute 
 python3 -m assist cite convert --apply        # rows written before markup version 1
 python3 -m assist cite words --apply          # regenerate word/*.json
 python3 -m assist cite lookup vantung         # rows of a Zolai keyword
+python3 -m assist cite lookup beersheba       # hyphens, spaces and capitals are ignored: finds Be-ersheba
 python3 -m assist cite lookup --english heaven
 python3 -m assist cite search kipat cil       # verses with the word, and parallel verses
 python3 -m assist cite todo --limit 100       # most frequent words without a row
@@ -44,7 +45,10 @@ Exit status: `0` success, `1` findings or nothing found, `2` a condition that st
 - Every draft row carries `(q:draft)`, or `(q:draft, low confidence)` where the evidence is thin.
 - `r` names the verses that show the sense, and `e` is an exact fragment of one of them.
 - A row is confirmed by correcting it where needed, removing `q`, and moving it to `ctd-dev-main.cite`.
-- A row of type `todo` marks a form that is only one part of a hyphenated word; its `q` names the full word.
+- A row of type `todo` marks a word whose meaning could not be told from the verses; its `q` says why.
+- A row of type `see` redirects a form that occurs only as one part of a hyphenated word to the full word, as `ersheba` to `Be-ersheba`. A redirect carries no `q`.
+- Rows for words that occur 5 times or more were read a second time against the verses. Rows for words that occur 1 to 4 times were read once.
+- `ctd-dev-draft-notes.txt` holds the notes the drafting left for the editor: senses left out, doubtful types, suspected misprints in the Bible text.
 
 ## Word lists
 
