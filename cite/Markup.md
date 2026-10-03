@@ -6,7 +6,7 @@ A data file is plain text. Each row describes one sense of one Zolai keyword. Ev
 
 ## Files
 
-- A data file is listed under `file` in `configuration.json` and named `ctd-{file}.cite`, for example `ctd-dev-main.cite`. A listed file that does not exist is an error, and so is a `.cite` file in this directory that is not listed.
+- A data file is listed under `file` in `configuration.json` and named `ctd-{file}.cite`, for example `ctd-draft.cite`. A listed file that does not exist is an error, and so is a `.cite` file in this directory that is not listed.
 - A file may require attribute values. Every described row of `ctd-noun-beh.cite`, for example, carries `(t:name)` and `(c:beh)`.
 - Encoding is UTF-8 without a byte order mark. Lines end with a single line feed. The file ends with exactly one line feed.
 - Tabs are not allowed.

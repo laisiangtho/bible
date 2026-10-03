@@ -13,7 +13,7 @@ from assist.cite import config as configuration
 from assist.cite import convert, markup, query, rules, words
 
 CONFIG = configuration.load()
-MAIN = CONFIG.data_name("dev-main")
+MAIN = CONFIG.data_name("draft")
 BEH = CONFIG.data_name("noun-beh")
 
 

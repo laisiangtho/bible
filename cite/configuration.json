@@ -28,13 +28,9 @@
     "separator": "="
   },
   "file": {
-    "dev-main": {
-      "name": "Main lexicon",
-      "description": "General vocabulary and Bible names. Rows follow the order in which the words were collected; rows of one keyword list its senses in order."
-    },
-    "dev-draft": {
-      "name": "Drafts",
-      "description": "Rows drafted from verse evidence and not yet confirmed by a speaker of the language, most frequent words first. Every row carries q. A confirmed row loses q and moves to the main lexicon."
+    "draft": {
+      "name": "Lexicon",
+      "description": "General vocabulary and Bible names, sorted by keyword; rows of one keyword list its senses in order. A row with q was drafted from verse evidence and is not yet confirmed by a speaker of the language; a confirmed row carries no q."
     },
     "digit-number": {
       "name": "Digits",
