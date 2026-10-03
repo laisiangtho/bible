@@ -1,71 +1,37 @@
 ---
 name: Citation post
-about: Data Row Expansion Guidelines
+about: Propose new or corrected dictionary rows
 title: "[CITE]"
 labels: cite
 assignees: ''
 
 ---
 
-Provide details about the structure and formatting of the data row entries.
+Rows follow markup version 1. The full rules are in `cite/Markup.md`; the allowed types and categories are in `cite/configuration.json`.
 
-### Rules
+### Rows
 
-1. **Keyword Structure**:
-   - Each row starts with a `keyword`.  
-   - The `keyword` and `[attributes, description]` **must be separated by an equal sign `=`**.
-   - Rows without an equal sign are treated as `keyword`-only entries.
-     - Example:  
+One row per line, one sense per row.
 
-       ```tsv
-       keyword
-       ```
-
-2. **Attributes (Optional)**:
-   - Attributes are formatted in parentheses `(attribute:value)` and follow the equal sign.
-   - Supported attributes:
-     - **(t:type)** - Specifies the type/category of the keyword (e.g., verb, noun).
-     - **(w:term)** - Main term associated with the keyword.
-     - **(e:example)** - Example usage of the keyword.
-     - **(s:synonym)** - Synonym for the keyword.
-     - **(a:antonym)** - Antonym for the keyword.
-     - **(d:definition)** - Detailed definition of the keyword.
-     - **(o:origin)** - Origin or etymology of the keyword.
-
-3. **Description**:
-   - Can be included with or without attributes.
-   - Always follows the equal sign `=`.
-
-### Examples
-
-#### 1. Keyword Only
-
-```tsv
-keyword
+```text
+keyword = (t:type) (c:category) (w:term/term) (d:definition) (e:example with ~) description
 ```
 
-#### 2. Keyword With Description Only
-
-```tsv
-keyword = This is a description of the keyword.
+```text
+kipat = (t:v) (w:begin/start/open/first) (e:a ~ cil)
+in = (t:ppm) (d:postpositional marker indicating place or time) (e:a kipat cil ~)
+Eden = (t:name) (c:land) (w:Eden) (e:~ huan)
+vantungte = (t:n) (w:heavens) (b:vantung)
 ```
 
-#### 3. Keyword With Attributes
+### Source
 
-```tsv
-keyword = (t:noun) (w:idea) (s:concept)
-```
+Verse or other source for each row, as book.chapter.verse where it applies.
 
-#### 4. Fully Expanded Row
+### Checklist
 
-```tsv
-keyword = (t:verb) (w:generate) (s:create) (e:He generated a new idea.) (a:destroy) (d:To bring into existence or produce.) (o:Latin, generare) A detailed description of the keyword's context and usage.
-```
-
-## Checklist
-
-Before submitting an issue:
-
-- [ ] Ensure rows without `=` only contain `keyword`.
-- [ ] Validate that rows with `=` properly separate `keyword` from `attributes/description`.
-- [ ] Confirm that attributes (if included) follow the `(attribute:value)` format.
+- [ ] The keyword is spelled as in the Bible text and contains no parentheses.
+- [ ] Each row has `t` and at least one of `w` and `d`.
+- [ ] Parentheses are used only for attributes.
+- [ ] Each example contains `~` in place of the keyword.
+- [ ] A row that is not confirmed by a speaker carries `(q:...)`.

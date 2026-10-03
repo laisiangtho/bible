@@ -1,101 +1,91 @@
-# Names
+# Cite
 
-Tags
+Source of the Zolai–English dictionary. One row describes one sense of one Zolai keyword.
 
-```JSON
-[
-  "name",
-  "masculine",
-  "feminine",
-  "place",
-  "animal",
-  "plant"
-]
+| Path | Content |
+| --- | --- |
+| `Markup.md` | The row format, version 1. |
+| `configuration.json` | Every closed list the format refers to: files, attributes, types, categories, rules. Read by the tooling and by readers. |
+| `ctd-*.cite` | The data files listed under `file` in `configuration.json`. |
+| `word/` | Word lists generated from the Bible translations in `json/`. Not edited by hand. |
+
+## Commands
+
+Python 3.9 or newer, standard library only. Every command runs from the repository root and reads `cite/configuration.json`. A command that writes files is a dry run unless `--apply` is given.
+
+```shell
+python3 -m assist cite check                  # every broken rule, with file and line
+python3 -m assist cite check --summary        # counts per rule
+python3 -m assist cite format --apply         # canonical spacing and attribute order
+python3 -m assist cite convert --apply        # rows written before markup version 1
+python3 -m assist cite words --apply          # regenerate word/*.json
+python3 -m assist cite lookup vantung         # rows of a Zolai keyword
+python3 -m assist cite lookup --english heaven
+python3 -m assist cite search kipat cil       # verses with the word, and parallel verses
+python3 -m assist cite todo --limit 100       # most frequent words without a row
+python3 -m assist cite parse > cite.json      # every row as JSON, only when the check passes
+python3 -m unittest discover -s assist/tests -t .
 ```
 
-- <origin:?/?> - o
-- <description:?> - d
-- <tag:?/?> - t
-- <mean:?/?> - m
-- <explanation:?> - e
-- <reference:?/?> - r
+Exit status: `0` success, `1` findings or nothing found, `2` a condition that stops the command.
 
-```cmd
-<origin:?/?> o
-<description:?> d
-<tag:?/?> t
-<mean:?/?> m
-<explanation:> e
-<reference:?/?> r
+## Adding rows
 
-Abraham <o:?> <d:?> | <t:masculine> <m:?> ? <r:?>
+1. `todo` lists the most frequent words of the Tedim Bible text that have no row.
+2. `search` shows a word in its verses, next to the same verses in the reference translations.
+3. The row is written in the fitting data file, following `Markup.md`.
+4. `check` passes before the change is committed.
 
-Abraham <o:Hebrew> <d:Abraham, originally known as <Abram> | <t:masculine> <m:father of many/father of a multitude> Abraham is the father of <Isaac> <r:1.12.1-9>
+## Word lists
 
-Abigail <o:> <d:> | <t:feminine> <m:?> mother of Amasa, Sister of David. <r:13.2:15–17> | <t:feminine> <m:?> wife of the wicked Nabal, who became a wife of David after Nabal's death. <r:9.25>
+`word/{language}-ord-{model}.json` holds every distinct written form of one model, most frequent first. Each word carries the number of occurrences `n` and the first verse `r` as book.chapter.verse.
+
+```json
+{
+  "language": "ctd",
+  "model": "plain",
+  "identify": ["3561", "tedim1932"],
+  "count": 22192,
+  "word": [
+    {"w": "a", "n": 146508, "r": "1.1.1"}
+  ]
+}
 ```
 
-## Format
+| Model | Content |
+| --- | --- |
+| `plain` | Runs of letters. A hyphen or apostrophe ends a word. |
+| `dash` | Whole written forms that contain a hyphen. |
+| `apostrophe` | Whole written forms that contain or end with an apostrophe. |
+| `exclamation` | Written forms directly followed by an exclamation mark. |
+| `question` | Written forms directly followed by a question mark. |
+| `number` | Runs of digits. |
 
-```JSON
-[
-  {
-    "w": "Abraham",
-    "o": ["Hebrew"],
-    "d": "Abraham, originally known as <Abram>",
-    "l": [
-      {
-        "t": [
-          1
-        ],
-        "m": ["father of many","father of a multitude"],
-        "e": "Abraham is the father of <Isaac>",
-        "f": "1.12.1-9"
-      }
-    ]
-  },
-  {
-    "w": "Abigail",
-    "o": [],
-    "d": "",
-    "l": [
-      {
-        "t": [
-          2
-        ],
-        "m": [],
-        "d": "mother of Amasa, Sister of David.",
-        "e": [],
-        "f": "13.2:15–17"
-      },
-      {
-        "t": [
-          2
-        ],
-        "m": [],
-        "e": "wife of the wicked Nabal, who became a wife of David after Nabal's death.",
-        "f": "9.25"
-      }
-    ]
-  }
-]
-```
+A form that starts a sentence is counted under its lowercase spelling when, inside sentences, the lowercase spelling is the more frequent one. Names keep their capital.
 
-```cmd
-<t:noun/verb> o
-<description:female/male> d
+## Working notes
 
-<tag:female/male> t
-<mean:female/male> m
-<explanation:> e
-<reference:female/male> r
-<keyword:?/?> k
-<synonym:?/?> s
-```
+### Affixes to describe
 
-### Cat-tag
+`ki`, `na`, `mah`, `ah`, `in`, `ding` and similar particles, postpositional markers and determiners that attach as prefix or suffix need rows of their own. A form built with one of them names its base in the attribute `b`.
 
-...identify grammatically correction, it's expected for some terms to be identical but processing differ definition, while difference indication at the given structure in sentences.
+- [ ] ending in `in`, `ah`, `a`, `pa`, `nu`, `mi`, `ni`, `pi`, `te`, `teng`
+  - `pa`: `mipa/hihpa/huapa`
+  - `nu`: `minu/hihnu/huanu`
+  - `mi`: `tuami/hihmi/gammi`
+  - `ni`: `tuni/tuani/nipini`
+  - `pi`: `golpi/haupi/hoihpi`
+  - `te`: `nate/mite/lote/gamte/pasiante`
+  - `teng`: `miteng/loteng/vanteng`
+- [ ] ending in `sak`, `pen`
+  - `sak`: `hisak, beisak, hoihsak`
+- [ ] `ki`~`sak`, where an adjective or verb is enclosed by `ki` and `sak`
+- [ ] technology
+- [ ] daily
+
+### Candidate categories
+
+Zolai labels considered for the category list. A label becomes usable in a row once it is added under `category` in `configuration.json`.
 
 muhtheih, lawntheih, hihtheih, zaktheih, simtheih,
 uptheih, zuihtheih, zontheih,
@@ -123,96 +113,13 @@ gentehna, ciaptehna, mualsuang,
 lungdam, dah, khasia,
 kampha, kamsia,
 
-eg. gen -> zaktheih,
+Example: gen -> zaktheih
 
-### Bitexts
+### Word division
 
-A merged document composed of both source- and target-language versions of a given text.
+The same sentence is written with different word division. The keyword of a row follows the division used in the Bible text.
 
-### Corpus
-
-A collection of written texts, especially the entire works of a particular author or a body of writing on a particular subject
-
-### TODO
-
-`ki, na, mah, ah, in, ding` etc for particle, postpositional marker, determiner that are prefix or postfix needed to be described.
-
-- [ ] end with `in, ah a, pa, nu, mi, ni, pi, te, teng`
-  - `pa`: `mipa/hihpa/huapa`
-  - `nu`: `minu/hihnu/huanu`
-  - `mi`: `tuami/hihmi/gammi`
-  - `ni`: `tuni/tuani/nipini`
-  - `pi`: `golpi/haupi/hoihpi`
-  - `te`: `nate/mite/lote/gamte/pasiante`
-  - `teng`: `miteng/loteng/vanteng`
-- [ ] end with `sak, pen`
-  - `sak`: `hisak, beisak, hoihsak`
-- [ ] `ki`~`sak` where adj or verb are quoted with ki and sak
-- [ ] technology
-- [ ] daily
-- [x] beh - `name-beh.tsv`
-  - row are not yet verified, in term of [punctuation, mixing]
-- [x] khua - `name-khua.tsv`
-  - row are not yet verified, in term of [punctuation, mixing], and space separation of words which formed phrase or sentence.
-- [x] plain - `ctd-plain.csv`
-  - were extracted from [tedim1932, 3561] Tedim Bible using natural.
-- [x] dash - `ctd-dash.csv`
-  - any words with separated by space, but removed non alphabetic within, except dashes
-- [x] apostrophe - `ctd-apostrophe.csv`
-  - any words with separated by space, but removed non alphabetic within, except apostrophes
-- [x] exclamation - `ctd-exclamation.csv`
-  - ny words with separated by space, but removed non alphabetic within, except exclamations
-- [x] question - `ctd-question.csv`
-  - words with separated by space, but removed non alphabetic within, except question marks
-
-Categorizing the class of Nouns for common and individual, such as [Adam, river] should be used as "noun". But when specify the individual names should be identify as its formal appearance, form or gender. Such the person is masculine or feminine, the place is land, mountain, the tree's name, the river's name.
-
-Example.
-
-1. "river" is a common term. When not mentioning the name of the river, we'll simply declare as "noun".
-2. In most cases, "Adam" is a name, and we know that its a person, and preferable the person is masculine. Therefore we'll declare as "person,masculine", and describe what "Adam"  is in the context.
-
-## Citation post
-
-Modify and expand your data rows, accordingly the following markup.
-
-```tsv
-keyword = (t:type) (w:word) (s:term)
-keyword = (t:type) (w:word) (s:term) (e:example) (a:antonym) (d:definition) (o:origin) description
-piansak = (t:v) (w:produce/generate) (s:piangsak)
-```
-
-1. Rows are seperated by line break `\n`
-2. `keyword` must be provided by starting with a new line, if you incase need to provide more descriptions please use `=` after the keyword, following by the makeup rulesets. eg `(t:your-specify-type-name)`  `(w:your-term)` etc.
-   1. description
-   2. t: type
-   3. w: term
-   4. e: example
-   5. s: synonym
-   6. a: antonym
-   7. d: definition
-   8. o: origin
-
-3. To specify `type` using `(t:your-specify-type-name)` markup
-
-The description can also provided without any attributes, but the keyword and description must be seperated by equal sign =.
-
-No no.. the keyword and [description, attributes] must seperated by equal sign, without it the keyword can not contain eg. phrase 
-
-You got it all wrong.
-
-- the keyword and [description, attributes] must seperated by equal sign
-- if equal sign does not contain in the row, it is considered as the row is just keyword.
-
-### Homonym/Homophone/Homograph
-
-```cmd
-1. ui san - uisan
-```
-
-### Sample
-
-```cmd
+```text
 1. an ne khin ta maw? an ne khin maw? an ne ta maw?
 2. annne khinta maw?
 3. an ne khinta maw?
@@ -228,16 +135,15 @@ You got it all wrong.
 2. leitang pen pasian bawlsa ahihi.
 3. leitang
 
-n v of-past-tense ppm part
-hi maw? tua maw? bang maw?
+1. ui san - uisan
+```
 
+### Bitexts
 
-ctd-noun-lst
+A bitext is a merged document composed of both source- and target-language versions of a given text. A corpus is a collection of written texts, especially the entire works of a particular author or a body of writing on a particular subject.
 
-
-bitexts can markedly increase student reading and comprehension in a second language.  Because the raw volume of text they read jumps so dramatically, students are exposed to a much wider vocabulary Moreover, when text is easier to read, students can begin to understand large-scale features of style and grammar. 
+Bitexts can markedly increase student reading and comprehension in a second language. Because the raw volume of text they read jumps so dramatically, students are exposed to a much wider vocabulary. Moreover, when text is easier to read, students can begin to understand large-scale features of style and grammar.
 
 Bitexts have long been a mainstay of second-language education for European languages, and are equally valuable for students of English and Southeast Asian languages.
 
-
-bitext in kammal/laimal dangte simna leh teihna dingin hong kangto sak hi. Tua ahihmanin laigual a simnate hang tampitak khangtosak hi, sangnaupangte pen khangto mahmah uh a, laimalte a sim uh ciangin, amaute laimal  leh grammer gualdang pen theihna leh muhna kihong khia hi.
+Bitext in kammal/laimal dangte simna leh teihna dingin hong kangto sak hi. Tua ahihmanin laigual a simnate hang tampitak khangtosak hi, sangnaupangte pen khangto mahmah uh a, laimalte a sim uh ciangin, amaute laimal leh grammer gualdang pen theihna leh muhna kihong khia hi.

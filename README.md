@@ -168,48 +168,19 @@ haven`t, doesn`t
 | 65 | Jude | Jud | Jd |
 | 66 | Revelation | Rev | Re |
 
-## task
+## Tooling
 
-- taskIdentify: `task`, `bible`,
-- taskName: `wbc`,
-- taskOption: `request`, `read`, `scan`,
+Python 3.9 or newer, standard library only. Commands run from the repository root.
 
 ```shell
-node run {taskIdentify} {taskName} {taskOption}
-node run bible search
-node run bible info
-node run task wbc
+python3 -m assist {group} {command} [options]
+python3 -m assist cite check
+python3 -m assist cite lookup vantung
+python3 -m assist cite search Topa kiangah
+python3 -m assist cite todo
 ```
 
-## taskName: `search`
-
-```shell
-node run bible search niv2011 --q abraham and sarah
-> 'Select testament between [1-2], or empty for both testaments': ?
-> 'Select book between [1-66] seperated by comma eg. 2,4 or empty for all books in Old & New Testament': ?
-
-node run bible search tedim1932 --q Topa kiangah
-```
-
-## taskName: `wbc`
-
-```shell
-# testing
-node run task wbc request
-node run task wbc read
-node run task wbc check
-
-# new
-node run task wbc new
-
-# lang: generate
-node run task lang generate
-
-# scan: update its context and content
-node run task wbc scan
-
-node run test wbc io
-```
+The groups and their commands are listed by `python3 -m assist --help`. The `cite` group is described in [cite/Readme.md](cite/Readme.md).
 
 ## translate
 

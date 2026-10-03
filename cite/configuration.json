@@ -1,31 +1,729 @@
 {
-  "asset": [
-    {
-      "id": "dev",
-      "val": [
-        "main"
+  "name": "cite",
+  "title": "Zolai–English dictionary source",
+  "description": "Configuration of the cite data: the files that hold the rows, the row markup, and every closed list the markup refers to. The file is the single source for both tooling and readers; Markup.md explains the same rules in prose. Every list below is closed: a value that is not listed is an error.",
+  "version": 1,
+  "language": {
+    "keyword": {
+      "code": "ctd",
+      "name": "Zolai (Tedim)",
+      "description": "Language of every keyword and of the attributes s, a, b, v and e."
+    },
+    "term": {
+      "code": "eng",
+      "name": "English",
+      "description": "Language of the attributes w, d, o, q and of the description."
+    }
+  },
+  "format": {
+    "description": "Physical rules of a data file.",
+    "encoding": "utf-8",
+    "bom": false,
+    "newline": "\n",
+    "finalNewline": true,
+    "tab": false,
+    "extension": ".cite",
+    "filename": "{language}-{file}{extension}",
+    "comment": "#",
+    "separator": "="
+  },
+  "file": {
+    "dev-main": {
+      "name": "Main lexicon",
+      "description": "General vocabulary and Bible names. Rows follow the order in which the words were collected; rows of one keyword list its senses in order."
+    },
+    "digit-number": {
+      "name": "Digits",
+      "description": "Numbers written with digits in the Bible text.",
+      "require": {
+        "t": "num"
+      }
+    },
+    "noun-beh": {
+      "name": "Clan names",
+      "description": "Zomi clan (beh) names.",
+      "require": {
+        "t": "name",
+        "c": "beh"
+      }
+    },
+    "noun-khua": {
+      "name": "Village and town names",
+      "description": "Names of villages and towns (khua).",
+      "require": {
+        "t": "name",
+        "c": "khua"
+      }
+    },
+    "noun-kha": {
+      "name": "Months",
+      "description": "Zolai names of the months (kha). The keyword is the Zolai name; the English month is the term.",
+      "require": {
+        "t": "n",
+        "c": "kha"
+      }
+    },
+    "noun-ni": {
+      "name": "Days of the week",
+      "description": "Zolai names of the days of the week (ni). The keyword is the Zolai name; the English day is the term.",
+      "require": {
+        "t": "n",
+        "c": "ni"
+      }
+    },
+    "noun-min": {
+      "name": "Personal names",
+      "description": "Zomi personal names (min).",
+      "require": {
+        "t": "name"
+      }
+    },
+    "noun-testament": {
+      "name": "Testaments",
+      "description": "Names of the two testaments of the Bible.",
+      "require": {
+        "t": "name",
+        "c": "testament"
+      }
+    },
+    "noun-book": {
+      "name": "Bible books",
+      "description": "Names of the 66 books of the Bible, in canonical order.",
+      "require": {
+        "t": "name",
+        "c": "book"
+      }
+    }
+  },
+  "keyword": {
+    "description": "The Zolai headword that starts a row. Case is significant: Pasian and pasian are different keywords. Words are joined by one space, one hyphen or one apostrophe; a final apostrophe is allowed.",
+    "pattern": "^[A-Za-z0-9]+(?:[ '-][A-Za-z0-9]+)*'?$",
+    "example": [
+      "vantung",
+      "Pasian",
+      "ahih hangin",
+      "khawlei-uikai",
+      "144"
+    ]
+  },
+  "symbol": {
+    "=": {
+      "name": "separator",
+      "description": "The first = on a line ends the keyword and starts the body. A line without = is a keyword-only row."
+    },
+    "#": {
+      "name": "comment",
+      "description": "A line whose first character is # is a comment. A comment cannot follow a row on the same line."
+    },
+    "()": {
+      "name": "attribute",
+      "description": "Parentheses are reserved for attributes, written (key:value). They never appear in a keyword, inside a value or in the description."
+    },
+    "/": {
+      "name": "list separator",
+      "description": "Separates the items of a list attribute. In a text attribute and in the description it is an ordinary character."
+    },
+    "~": {
+      "name": "keyword placeholder",
+      "description": "Stands for the keyword of the row. Allowed only in the attribute e."
+    },
+    "|": {
+      "name": "translation separator",
+      "description": "Inside one item of the attribute e, separates the Zolai example from its English translation. Allowed only in the attribute e, at most once per item."
+    },
+    "<>": {
+      "name": "cross-reference",
+      "description": "Encloses exactly one keyword that exists in the data. Allowed only in the attribute d and in the description."
+    }
+  },
+  "attribute": {
+    "t": {
+      "name": "type",
+      "description": "Word class of the keyword. Exactly one code from the type list.",
+      "value": "code",
+      "list": false,
+      "required": true,
+      "source": "type",
+      "order": 1,
+      "example": "(t:v)"
+    },
+    "c": {
+      "name": "category",
+      "description": "What kind of thing the keyword names. One or more codes from the category list.",
+      "value": "code",
+      "list": true,
+      "required": false,
+      "source": "category",
+      "order": 2,
+      "example": "(c:land)"
+    },
+    "w": {
+      "name": "term",
+      "description": "English word or words with the same meaning as this sense of the keyword. Items of one row are interchangeable; a different meaning goes on its own row.",
+      "value": "english",
+      "list": true,
+      "required": false,
+      "order": 3,
+      "example": "(w:begin/start)"
+    },
+    "d": {
+      "name": "definition",
+      "description": "English explanation of the meaning, used when no English term fits or in addition to one. May contain cross-references.",
+      "value": "english",
+      "list": false,
+      "required": false,
+      "xref": true,
+      "order": 4,
+      "example": "(d:postpositional marker indicating place or time)"
+    },
+    "e": {
+      "name": "example",
+      "description": "Zolai phrase or sentence that uses the keyword. The keyword is written as ~. Each item may end with | and an English translation.",
+      "value": "zolai",
+      "list": true,
+      "required": false,
+      "placeholder": true,
+      "translation": true,
+      "order": 5,
+      "example": "(e:a kipat cil ~)"
+    },
+    "s": {
+      "name": "synonym",
+      "description": "Keywords with the same meaning. Every item is a keyword that exists in the data.",
+      "value": "keyword",
+      "list": true,
+      "required": false,
+      "resolve": true,
+      "order": 6,
+      "example": "(s:leh)"
+    },
+    "a": {
+      "name": "antonym",
+      "description": "Keywords with the opposite meaning. Every item is a keyword that exists in the data.",
+      "value": "keyword",
+      "list": true,
+      "required": false,
+      "resolve": true,
+      "order": 7,
+      "example": "(a:lian)"
+    },
+    "b": {
+      "name": "base",
+      "description": "The keyword this form is built from, for plural, suffixed and prefixed forms. One keyword that exists in the data.",
+      "value": "keyword",
+      "list": false,
+      "required": false,
+      "resolve": true,
+      "order": 8,
+      "example": "(b:vantung)"
+    },
+    "v": {
+      "name": "variant",
+      "description": "Other spellings of the same keyword. An item is never the keyword of another row.",
+      "value": "keyword",
+      "list": true,
+      "required": false,
+      "resolve": false,
+      "order": 9,
+      "example": "(v:Shoute)"
+    },
+    "o": {
+      "name": "origin",
+      "description": "Language the keyword comes from, optionally followed by a comma and the source word.",
+      "value": "english",
+      "list": false,
+      "required": false,
+      "order": 10,
+      "example": "(o:Hebrew, kerub)"
+    },
+    "r": {
+      "name": "reference",
+      "description": "Bible verses where this sense occurs, written book.chapter.verse with book numbers 1 to 66. A verse range uses a hyphen.",
+      "value": "reference",
+      "list": true,
+      "required": false,
+      "pattern": "^([1-9]|[1-5][0-9]|6[0-6])\\.[1-9][0-9]{0,2}\\.[1-9][0-9]{0,2}(-[1-9][0-9]{0,2})?$",
+      "order": 11,
+      "example": "(r:1.1.1/1.2.4-6)"
+    },
+    "q": {
+      "name": "query",
+      "description": "Open question about the row. Its presence marks the row as not verified.",
+      "value": "english",
+      "list": false,
+      "required": false,
+      "order": 12,
+      "example": "(q:meaning not confirmed)"
+    }
+  },
+  "text": {
+    "name": "description",
+    "description": "Free English text after the last attribute: a remark on usage or grammar that is not the meaning itself. May contain cross-references.",
+    "value": "english",
+    "xref": true
+  },
+  "type": {
+    "n": {
+      "name": "noun",
+      "description": "Common noun."
+    },
+    "name": {
+      "name": "proper name",
+      "description": "Name of one person, people, place, clan, book or other individual thing. The keyword starts with an uppercase letter."
+    },
+    "v": {
+      "name": "verb",
+      "description": "Verb."
+    },
+    "adj": {
+      "name": "adjective",
+      "description": "Adjective."
+    },
+    "adv": {
+      "name": "adverb",
+      "description": "Adverb."
+    },
+    "pron": {
+      "name": "pronoun",
+      "description": "Pronoun."
+    },
+    "det": {
+      "name": "determiner",
+      "description": "Determiner, including possessive forms."
+    },
+    "prep": {
+      "name": "preposition",
+      "description": "Relation word translated by an English preposition."
+    },
+    "conj": {
+      "name": "conjunction",
+      "description": "Conjunction."
+    },
+    "part": {
+      "name": "particle",
+      "description": "Particle: a prefix, suffix or sentence-final word with a grammatical function."
+    },
+    "ppm": {
+      "name": "postpositional marker",
+      "description": "Marker placed after a word to show case, place, time or tense."
+    },
+    "num": {
+      "name": "number",
+      "description": "Cardinal or ordinal number, in words or digits."
+    },
+    "intj": {
+      "name": "interjection",
+      "description": "Interjection or exclamation."
+    },
+    "phrase": {
+      "name": "phrase",
+      "description": "Fixed combination of words listed as one keyword."
+    },
+    "see": {
+      "name": "redirect",
+      "description": "Row that only points to another keyword. The body is the type followed by exactly one cross-reference.",
+      "meaning": false
+    },
+    "todo": {
+      "name": "to do",
+      "description": "Keyword collected but not yet described.",
+      "meaning": false
+    }
+  },
+  "category": {
+    "male": {
+      "name": "male person",
+      "description": "Name of a man."
+    },
+    "female": {
+      "name": "female person",
+      "description": "Name of a woman."
+    },
+    "people": {
+      "name": "people",
+      "description": "Name of a nation, tribe or group of people."
+    },
+    "beh": {
+      "name": "clan",
+      "description": "Zomi clan name."
+    },
+    "land": {
+      "name": "land",
+      "description": "Name of a country, region or territory."
+    },
+    "place": {
+      "name": "place",
+      "description": "Name of a place that fits no narrower category."
+    },
+    "city": {
+      "name": "city",
+      "description": "Name of a city."
+    },
+    "khua": {
+      "name": "village or town",
+      "description": "Name of a village or town."
+    },
+    "river": {
+      "name": "river",
+      "description": "Name of a river."
+    },
+    "mountain": {
+      "name": "mountain",
+      "description": "Name of a mountain."
+    },
+    "valley": {
+      "name": "valley",
+      "description": "Name of a valley."
+    },
+    "well": {
+      "name": "well",
+      "description": "Name of a well."
+    },
+    "tower": {
+      "name": "tower",
+      "description": "Name of a tower."
+    },
+    "star": {
+      "name": "star",
+      "description": "Name of a star or constellation."
+    },
+    "kha": {
+      "name": "month",
+      "description": "Month of the year. Rows are of type n."
+    },
+    "ni": {
+      "name": "day of the week",
+      "description": "Day of the week. Rows are of type n."
+    },
+    "book": {
+      "name": "Bible book",
+      "description": "Name of a book of the Bible."
+    },
+    "testament": {
+      "name": "testament",
+      "description": "Name of a testament of the Bible."
+    },
+    "animal": {
+      "name": "animal",
+      "description": "Animal, bird, fish or other living creature."
+    },
+    "plant": {
+      "name": "plant",
+      "description": "Plant or tree."
+    },
+    "stone": {
+      "name": "stone",
+      "description": "Stone or mineral."
+    },
+    "direction": {
+      "name": "direction",
+      "description": "Compass direction."
+    }
+  },
+  "alias": {
+    "description": "Type tags used before version 1 and the attributes that replace them. Used only to convert existing rows; an alias is not valid in a version 1 row.",
+    "type": {
+      "names": {
+        "t": "name"
+      },
+      "prm": {
+        "t": "name",
+        "c": "male"
+      },
+      "prf": {
+        "t": "name",
+        "c": "female"
+      },
+      "people": {
+        "t": "name",
+        "c": "people"
+      },
+      "beh": {
+        "t": "name",
+        "c": "beh"
+      },
+      "land": {
+        "t": "name",
+        "c": "land"
+      },
+      "place": {
+        "t": "name",
+        "c": "place"
+      },
+      "city": {
+        "t": "name",
+        "c": "city"
+      },
+      "khua": {
+        "t": "name",
+        "c": "khua"
+      },
+      "river": {
+        "t": "name",
+        "c": "river"
+      },
+      "mountain": {
+        "t": "name",
+        "c": "mountain"
+      },
+      "valley": {
+        "t": "name",
+        "c": "valley"
+      },
+      "well": {
+        "t": "name",
+        "c": "well"
+      },
+      "tower": {
+        "t": "name",
+        "c": "tower"
+      },
+      "star": {
+        "t": "name",
+        "c": "star"
+      },
+      "kha": {
+        "t": "n",
+        "c": "kha"
+      },
+      "ni": {
+        "t": "n",
+        "c": "ni"
+      },
+      "book": {
+        "t": "name",
+        "c": "book"
+      },
+      "testament": {
+        "t": "name",
+        "c": "testament"
+      },
+      "animal": {
+        "t": "n",
+        "c": "animal"
+      },
+      "plant": {
+        "t": "n",
+        "c": "plant"
+      },
+      "tree": {
+        "t": "n",
+        "c": "plant"
+      },
+      "stone": {
+        "t": "n",
+        "c": "stone"
+      },
+      "direction": {
+        "t": "n",
+        "c": "direction"
+      },
+      "pronoun": {
+        "t": "pron"
+      },
+      "determiner": {
+        "t": "det"
+      },
+      "preposition": {
+        "t": "prep"
+      },
+      "number": {
+        "t": "num"
+      },
+      "interjection": {
+        "t": "intj"
+      },
+      "exclamation": {
+        "t": "intj"
+      },
+      "uppercase": {
+        "t": "todo"
+      }
+    }
+  },
+  "bible": {
+    "description": "Bible translations read by the tooling. Paths are relative to the repository root. The tooling never writes to these files.",
+    "path": "json/{identify}.json",
+    "source": [
+      "3561",
+      "tedim1932"
+    ],
+    "reference": [
+      "niv2011",
+      "1",
+      "bbe1949",
+      "judson1835"
+    ]
+  },
+  "word": {
+    "description": "Word lists generated from the Bible translations, one file per language and model. Each word carries its number of occurrences and the first verse where it occurs.",
+    "path": "cite/word/{language}-ord-{model}.json",
+    "language": {
+      "ctd": [
+        "3561",
+        "tedim1932"
+      ],
+      "eng": [
+        "niv2011"
       ]
     },
+    "model": {
+      "plain": "Runs of letters. A hyphen or apostrophe ends a word.",
+      "dash": "Whole written forms that contain a hyphen.",
+      "apostrophe": "Whole written forms that contain or end with an apostrophe. A right single quotation mark directly after a letter counts as an apostrophe.",
+      "exclamation": "Written forms directly followed by an exclamation mark, listed with the mark.",
+      "question": "Written forms directly followed by a question mark, listed with the mark.",
+      "number": "Runs of digits."
+    }
+  },
+  "rule": [
     {
-      "id": "digit",
-      "val": [
-        "number"
-      ]
+      "id": "E01",
+      "level": "error",
+      "name": "file",
+      "description": "A listed file is missing, a data file in the directory is not listed, or a file is not UTF-8, starts with a byte order mark, or contains a tab or carriage return."
     },
     {
-      "id": "noun",
-      "val": [
-        "beh",
-        "khua",
-        "kha",
-        "ni",
-        "min",
-        "testament",
-        "book",
-        "ganhing",
-        "test"
-      ]
+      "id": "E02",
+      "level": "error",
+      "name": "keyword",
+      "description": "The keyword is empty or does not match the keyword pattern."
+    },
+    {
+      "id": "E03",
+      "level": "error",
+      "name": "empty body",
+      "description": "Nothing follows the separator."
+    },
+    {
+      "id": "E04",
+      "level": "error",
+      "name": "parenthesis",
+      "description": "A parenthesis is not part of a well-formed attribute: unbalanced, nested, or used in the description."
+    },
+    {
+      "id": "E05",
+      "level": "error",
+      "name": "unknown attribute",
+      "description": "The attribute key is not in the attribute list."
+    },
+    {
+      "id": "E06",
+      "level": "error",
+      "name": "repeated attribute",
+      "description": "The same attribute key occurs more than once in a row."
+    },
+    {
+      "id": "E07",
+      "level": "error",
+      "name": "empty value",
+      "description": "An attribute value or a list item is empty."
+    },
+    {
+      "id": "E08",
+      "level": "error",
+      "name": "type",
+      "description": "The attribute t is missing or its value is not in the type list."
+    },
+    {
+      "id": "E09",
+      "level": "error",
+      "name": "category",
+      "description": "A value of the attribute c is not in the category list."
+    },
+    {
+      "id": "E10",
+      "level": "error",
+      "name": "meaning",
+      "description": "The row has neither w nor d, and its type is not see or todo."
+    },
+    {
+      "id": "E11",
+      "level": "error",
+      "name": "placeholder",
+      "description": "The symbol ~ or | is used outside the attribute e, an example item has no ~, or an item has more than one |."
+    },
+    {
+      "id": "E12",
+      "level": "error",
+      "name": "cross-reference",
+      "description": "The symbols < and > are unbalanced, used outside d and the description, or do not enclose exactly one keyword."
+    },
+    {
+      "id": "E13",
+      "level": "error",
+      "name": "unresolved keyword",
+      "description": "A keyword named in s, a, b or a cross-reference does not exist in the data."
+    },
+    {
+      "id": "E14",
+      "level": "error",
+      "name": "variant",
+      "description": "A value of the attribute v is not a valid keyword, or is the keyword of a row."
+    },
+    {
+      "id": "E15",
+      "level": "error",
+      "name": "reference",
+      "description": "A value of the attribute r does not match book.chapter.verse."
+    },
+    {
+      "id": "E16",
+      "level": "error",
+      "name": "duplicate",
+      "description": "Two rows are identical in keyword, type, category, term and definition."
+    },
+    {
+      "id": "E17",
+      "level": "error",
+      "name": "name case",
+      "description": "The keyword of a row of type name does not start with an uppercase letter or a digit."
+    },
+    {
+      "id": "E18",
+      "level": "error",
+      "name": "redirect",
+      "description": "A row of type see has anything other than exactly one cross-reference after the type."
+    },
+    {
+      "id": "E19",
+      "level": "error",
+      "name": "file scope",
+      "description": "A described row lacks an attribute value that its file requires."
+    },
+    {
+      "id": "F01",
+      "level": "form",
+      "name": "separator spacing",
+      "description": "The separator is not written as one space, =, one space."
+    },
+    {
+      "id": "F02",
+      "level": "form",
+      "name": "spacing",
+      "description": "The line has leading or trailing spaces, repeated spaces, spaces inside the parentheses or around a list separator, or a translation separator not written as one space, |, one space."
+    },
+    {
+      "id": "F03",
+      "level": "form",
+      "name": "attribute order",
+      "description": "The attributes are not in the configured order."
+    },
+    {
+      "id": "F04",
+      "level": "form",
+      "name": "description position",
+      "description": "The description is not after the last attribute."
+    },
+    {
+      "id": "F05",
+      "level": "form",
+      "name": "final newline",
+      "description": "The file does not end with exactly one newline."
     }
   ],
-  "other": {}
+  "level": {
+    "error": "The row or file is invalid and needs an editor's decision.",
+    "form": "The content is valid but not in canonical form; the repair is mechanical and changes no meaning."
+  }
 }
