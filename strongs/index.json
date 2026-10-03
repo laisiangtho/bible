@@ -1,0 +1,12 @@
+{
+  "overlays": [
+    {
+      "identify": "3561",
+      "version": 1,
+      "review": true,
+      "verses": 30554,
+      "words": 290777,
+      "bytes": 6576796
+    }
+  ]
+}
