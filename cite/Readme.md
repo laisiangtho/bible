@@ -7,6 +7,7 @@ Source of the Zolai–English dictionary. One row describes one sense of one Zol
 | `Markup.md` | The row format, version 1. |
 | `configuration.json` | Every closed list the format refers to: files, attributes, types, categories, rules. Read by the tooling and by readers. |
 | `ctd-*.cite` | The data files listed under `file` in `configuration.json`. |
+| `ctd-dev-draft.cite` | Rows drafted from verse evidence and not yet confirmed by a speaker of the language. |
 | `word/` | Word lists generated from the Bible translations in `json/`. Not edited by hand. |
 
 ## Commands
@@ -35,6 +36,15 @@ Exit status: `0` success, `1` findings or nothing found, `2` a condition that st
 2. `search` shows a word in its verses, next to the same verses in the reference translations.
 3. The row is written in the fitting data file, following `Markup.md`.
 4. `check` passes before the change is committed.
+
+## Drafts
+
+`ctd-dev-draft.cite` holds rows drafted from the Bible text: the word alignment between the Tedim and English translations, the verses the word occurs in, and a second independent reading of the same evidence. No speaker of the language has confirmed them.
+
+- Every draft row carries `(q:draft)`, or `(q:draft, low confidence)` where the evidence is thin.
+- `r` names the verses that show the sense, and `e` is an exact fragment of one of them.
+- A row is confirmed by correcting it where needed, removing `q`, and moving it to `ctd-dev-main.cite`.
+- A row of type `todo` marks a form that is only one part of a hyphenated word; its `q` names the full word.
 
 ## Word lists
 
