@@ -14,8 +14,10 @@ from assist.cite.markup import Row
 def lookup(config: Config, rows: List[Row], query: str, english: bool = False) -> List[Row]:
     """Rows for a Zolai keyword or variant, or for an English term.
 
-    An exact match is preferred. Without one, the comparison ignores case;
-    for an English term a whole-word match inside a term is tried last.
+    An exact match is preferred. Without one, the comparison ignores case,
+    then also hyphens, spaces and apostrophes, so that a keyword written
+    ``ze-et`` is found as ``zeet`` or ``ze et``. For an English term a
+    whole-word match inside a term is tried last.
     """
     query = markup.collapse(query)
     if not query:
@@ -35,10 +37,19 @@ def lookup(config: Config, rows: List[Row], query: str, english: bool = False) -
         return exact
     folded = query.casefold()
     loose = [row for row in rows if folded in (c.casefold() for c in candidates(row))]
-    if loose or not english:
+    if loose:
         return loose
+    squashed = squash(query)
+    joined = [row for row in rows if squashed in (squash(c) for c in candidates(row))]
+    if joined or not english:
+        return joined
     word = re.compile(rf"(?<!\w){re.escape(folded)}(?!\w)")
     return [row for row in rows if any(word.search(c.casefold()) for c in candidates(row))]
+
+
+def squash(text: str) -> str:
+    """Comparison key that ignores case, hyphens, spaces and apostrophes."""
+    return "".join(character for character in text.casefold() if character not in " -'\u2019")
 
 
 def describe(config: Config, row: Row) -> str:

@@ -4726,3 +4726,21 @@ gen = (t:v) (w:inform)
 meel = (t:adj) (w:apparent)
 
 tmp = (t:tmp) (w:tmp)
+
+aw = (t:part) (w:O) (d:vocative particle placed after the name or title of the one addressed) (e:lungsim a thei Topa ~) (r:44.1.24/1.49.18)
+aw = (t:n) (w:voice/sound) (e:~ in meikuang taangkhia sak hi) (r:19.29.7)
+aw = (t:intj) (w:yes) (d:answer of agreement to a question or an invitation) (s:awleh)
+awleh = (t:intj) (w:yes) (s:aw)
+kumpi = (t:n) (w:king) (e:Israel ~ Solomon’ paunakte) (r:20.1.1/19.135.10)
+kumpipa = (t:n) (w:king) (d:kumpi with pa, which marks a man: the king) (e:~ aw, sau veipi nungta in) (b:kumpi) (r:27.6.21/17.2.19)
+kumpinu = (t:n) (w:queen) (d:kumpi with nu, which marks a woman) (e:Sheba ~ in Solomon’ pilna) (b:kumpi) (r:14.9.3/19.45.9)
+i = (t:pron) (w:we/our) (d:first person plural including the hearer, placed before a verb or noun) (e:~ pawi ni-in pengkul tum un) (r:19.81.3/49.5.30)
+biakna = (t:n) (w:religion) (e:Na ~ bang ahia? | What is your religion?)
+biakna = (t:n) (w:offering/sacrifice) (e:khialhna hanga ~ dingin keel a pa khat) (b:biak) (r:4.7.46/19.4.5) in this sense more exactly <biakpiakna>
+biakna = (t:n) (w:worship) (d:worship or religious observance, as in biakna ngeina regulations for worship and milim biakna idolatry) (e:thuciamna masa in ~ ngeina ahi zongin) (b:biak) (r:58.9.1/48.5.20) in this sense more exactly <biakpiakna>
+khut = (t:n) (w:hand) (e:Na ~ in hong puksak leh) (r:41.9.43/3.21.19)
+pan = (t:prep) (w:from/out of/by way of) (d:placed after a noun to show the starting point or the way through, short form of panin) (e:Amaute khua sung ~ paikhia uh a) (r:43.4.30/42.24.2)
+pan = (t:v) (d:take a stand or act as, in teci pan bear witness) (e:note’ teci ~ nading ahi hi) (r:42.21.13)
+takin = (t:conj) (w:while/when) (d:after lai, at the very time that) (e:Note tawh ka omkhawm lai ~) (b:tak) (r:46.2.3/57.1.10)
+takin = (t:adv) (d:placed after a descriptive word to make an adverb of manner, like English -ly, as in nakpi takin greatly and lim takin well, thoroughly) (e:leiseek seekin lim ~ hal ni) (b:tak) (r:1.11.3/1.3.16)
+eite = (t:pron) (w:we/us/our) (d:first person plural including the hearer; whether English has we, us or our depends on its place in the sentence) (e:~ in Topa’ pum tung nate/~ ading | for us/~ i pai ding hi | we shall go/~ neihsa | ours) (b:ei) (r:49.5.30/58.10.15)

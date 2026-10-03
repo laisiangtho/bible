@@ -2,20 +2,7 @@
 # Every row carries q. A confirmed row loses q and moves to ctd-dev-main.cite.
 # Order: most frequent words of the Tedim Bible text first.
 
-aw = (t:part) (w:O) (d:vocative particle placed after the name or title of the one addressed) (e:lungsim a thei Topa ~) (r:44.1.24/1.49.18) (q:draft)
-aw = (t:n) (w:voice/sound) (e:~ in meikuang taangkhia sak hi) (r:19.29.7) (q:draft)
-kumpipa = (t:n) (w:king) (e:~ aw, sau veipi nungta in) (b:kumpi) (r:27.6.21/17.2.19) (q:draft)
-i = (t:pron) (w:we/our) (d:first person plural including the hearer, placed before a verb or noun) (e:~ pawi ni-in pengkul tum un) (r:19.81.3/49.5.30) (q:draft)
-biakna = (t:n) (w:offering/sacrifice) (e:khialhna hanga ~ dingin keel a pa khat) (b:biak) (r:4.7.46/19.4.5) (q:draft)
-biakna = (t:n) (w:worship) (d:worship or religious observance, as in biakna ngeina regulations for worship and milim biakna idolatry) (e:thuciamna masa in ~ ngeina ahi zongin) (b:biak) (r:58.9.1/48.5.20) (q:draft)
-kumpi = (t:n) (w:king) (e:Israel ~ Solomon’ paunakte) (r:20.1.1/19.135.10) (q:draft)
 kumpi = (t:adj) (w:royal) (d:of a king, placed before another noun, as in kumpi gam kingdom, kumpi tokhom throne and kumpi inn palace) (e:~ inn sungah Mordekai ulianpi khat suak a) (r:17.9.4/24.25.19) (q:draft)
-khut = (t:n) (w:hand) (e:Na ~ in hong puksak leh) (r:41.9.43/3.21.19) (q:draft)
-pan = (t:prep) (w:from/out of/by way of) (d:placed after a noun to show the starting point or the way through, short form of panin) (e:Amaute khua sung ~ paikhia uh a) (r:43.4.30/42.24.2) (q:draft)
-pan = (t:v) (d:take a stand or act as, in teci pan bear witness) (e:note’ teci ~ nading ahi hi) (r:42.21.13) (q:draft, low confidence)
-takin = (t:conj) (w:while/when) (d:after lai, at the very time that) (e:Note tawh ka omkhawm lai ~) (b:tak) (r:46.2.3/57.1.10) (q:draft)
-takin = (t:adv) (d:placed after a descriptive word to make an adverb of manner, as in nakpi takin greatly and lim takin well, thoroughly) (e:leiseek seekin lim ~ hal ni) (b:tak) (r:1.11.3/1.3.16) (q:draft)
-eite = (t:pron) (w:we/us/our) (d:first person plural including the hearer, full form; with a final apostrophe it means our) (e:~ in Topa’ pum tung nate) (b:ei) (r:49.5.30/58.10.15) (q:draft)
 bek = (t:adv) (w:only/alone) (e:Amah ~ in vanpi zal a) (r:18.9.8/5.29.14) (q:draft)
 va = (t:part) (w:go and) (d:placed before a verb to show that the doer goes to another place to do the action) (e:Ama omna mun-ah ~ pai ni) (r:19.132.7/7.11.5) (q:draft)
 va = (t:n) (c:animal) (w:bird) (d:first part of bird names such as va-ak raven) (e:~-ak nam khempeuh) (r:3.11.15) (q:draft, low confidence)
@@ -1122,7 +1109,6 @@ gamkhing = (t:n) (w:desolation/wasteland/desolate place) (e:Jerusalem khua ~ a s
 khate = (t:n) (w:wings/feathers) (e:huih ~ tungah amah kimu hi) (b:kha) (r:10.22.11/19.68.13) (q:draft)
 khate = (t:n) (w:spirits/souls) (e:thong sungah a kikhum ~ kiangah thu) (b:kha) (r:60.3.19) (q:draft)
 khate = (t:n) (w:months) (e:Note in nite, ~, hunte, kumte) (b:kha) (r:48.4.10) (q:draft)
-kumpinu = (t:n) (w:queen) (e:Sheba ~ in Solomon’ pilna) (b:kumpi) (r:14.9.3/19.45.9) (q:draft)
 pawlpite = (t:n) (w:churches) (e:Kha Siangtho in ~ a thupiakna) (b:pawlpi) (r:66.3.13/60.5.3) (q:draft)
 peemta = (t:n) (w:foreigner/sojourner/stranger/temporary resident) (d:one who lives in a land that is not his own, peemta-in om live as a foreigner) (e:gen taak loin, ~ hi uh a) (r:13.16.19/10.4.3) (q:draft)
 piaknate = (t:n) (w:offerings/sacrifices/gifts) (e:A maan biakna ~ lui un la) (b:piakna) (r:19.4.5/19.107.22) (q:draft)

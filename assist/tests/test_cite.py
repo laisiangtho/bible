@@ -238,7 +238,9 @@ class QueryTest(unittest.TestCase):
         "Pasian = (t:n) (w:God)\n"
         "pasian = (t:n) (w:god)\n"
         "Sote = (t:name) (c:beh) (w:Sote) (v:Shoute)\n"
-        "tungah = (t:prep) (w:above/on top of)"
+        "tungah = (t:prep) (w:above/on top of)\n"
+        "ze-et = (t:v) (w:test/tempt)\n"
+        "Be-ersheba = (t:name) (c:city) (w:Beersheba)"
     )
 
     def test_exact_keyword_is_preferred(self):
@@ -248,6 +250,12 @@ class QueryTest(unittest.TestCase):
     def test_keyword_ignoring_case_and_variant(self):
         self.assertEqual([row.number for row in query.lookup(CONFIG, self.ROWS, "VANTUNG")], [1, 2])
         self.assertEqual([row.number for row in query.lookup(CONFIG, self.ROWS, "Shoute")], [5])
+
+    def test_hyphen_space_and_apostrophe_are_ignored(self):
+        for text in ("zeet", "ze et", "Ze-Et", "ze'et"):
+            self.assertEqual([row.number for row in query.lookup(CONFIG, self.ROWS, text)], [7], text)
+        self.assertEqual([row.number for row in query.lookup(CONFIG, self.ROWS, "beersheba")], [8])
+        self.assertEqual([row.number for row in query.lookup(CONFIG, self.ROWS, "ze-et")], [7])
 
     def test_english_term(self):
         self.assertEqual([row.number for row in query.lookup(CONFIG, self.ROWS, "God", english=True)], [3])

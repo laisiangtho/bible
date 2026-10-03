@@ -21,6 +21,7 @@ python3 -m assist cite format --apply         # canonical spacing and attribute 
 python3 -m assist cite convert --apply        # rows written before markup version 1
 python3 -m assist cite words --apply          # regenerate word/*.json
 python3 -m assist cite lookup vantung         # rows of a Zolai keyword
+python3 -m assist cite lookup beersheba       # hyphens, spaces and capitals are ignored: finds Be-ersheba
 python3 -m assist cite lookup --english heaven
 python3 -m assist cite search kipat cil       # verses with the word, and parallel verses
 python3 -m assist cite todo --limit 100       # most frequent words without a row
