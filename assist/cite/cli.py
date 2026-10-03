@@ -30,7 +30,7 @@ def register(groups: argparse._SubParsersAction) -> None:
         return parser
 
     parser = command("check", run_check, "Check every row against the markup rules.")
-    parser.add_argument("--file", default="", help="report one listed file only, e.g. dev-main")
+    parser.add_argument("--file", default="", help="report one listed file only, e.g. draft")
     parser.add_argument("--summary", action="store_true", help="print counts per rule, not each finding")
 
     parser = command("format", run_format, "Put valid rows into canonical form.")
@@ -57,7 +57,7 @@ def register(groups: argparse._SubParsersAction) -> None:
     parser.add_argument("--limit", type=int, default=50, help="words to show, 0 for all (default: 50)")
 
     parser = command("parse", run_parse, "Print every row as JSON. Refused while the check fails.")
-    parser.add_argument("--file", default="", help="one listed file only, e.g. dev-main")
+    parser.add_argument("--file", default="", help="one listed file only, e.g. draft")
 
 
 def _writing(parser: argparse.ArgumentParser) -> None:
