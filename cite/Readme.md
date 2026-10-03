@@ -9,6 +9,7 @@ Source of the Zolai–English dictionary. One row describes one sense of one Zol
 | `ctd-*.cite` | The data files listed under `file` in `configuration.json`. |
 | `ctd-dev-draft.cite` | Rows drafted from verse evidence and not yet confirmed by a speaker of the language. |
 | `word/` | Word lists generated from the Bible translations in `json/`. Not edited by hand. |
+| `ctd-dev-main-notes.txt`, `ctd-dev-draft-notes.txt` | Notes for the editor left while rows were enriched and drafted. |
 
 ## Commands
 
