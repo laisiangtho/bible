@@ -258,8 +258,14 @@ def _check_row(
     for code in items.get("f", []):
         if code not in config.fields:
             add("E22", f"'{code}' is not a field")
-    if config.has_meaning(type_code) and not items.get("w") and not items.get("d"):
+    joined = items.get("j", [])
+    if config.has_meaning(type_code) and not items.get("w") and not items.get("d") and len(joined) != 1:
         add("E10", "neither w nor d")
+    for part in joined:
+        if part == row.keyword:
+            add("E26", "j names the keyword of the row")
+        elif joined.count(part) > 1:
+            add("E26", f"'{part}' is named twice")
     number = values.get("i", "").strip()
     if "i" not in values:
         if config.has_meaning(type_code) and type_code in config.types:

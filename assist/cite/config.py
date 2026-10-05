@@ -171,7 +171,7 @@ def load(path: Optional[Path] = None) -> Config:
         for part in parts:
             if part not in value:
                 raise CiteError(f"configuration: format.{template} lacks {part}")
-    for key in ("keyword", "term"):
+    for key in ("keyword", "term", "join"):
         _need(_need(raw, "index", dict, "top level"), key, str, "index")
     for label, table in (
         ("type", types), ("category", categories), ("field", fields),
@@ -216,7 +216,7 @@ def load(path: Optional[Path] = None) -> Config:
     orders = [a.order for a in attributes.values()]
     if len(set(orders)) != len(orders):
         raise CiteError("configuration: two attributes share one order")
-    for key in ("i", "t", "c", "f", "w", "d", "r"):
+    for key in ("i", "t", "c", "f", "w", "d", "j", "v", "r"):
         if key not in attributes:
             raise CiteError(f"configuration: attribute '{key}' is required by the tooling")
     attributes = dict(sorted(attributes.items(), key=lambda item: item[1].order))

@@ -24,6 +24,24 @@ Moby Thesaurus by Grady Ward, public domain. Relates an English word to English 
 - Licence: Public domain
 - Link: https://www.gutenberg.org/ebooks/3202
 
+### `zd`: Zomi Daily
+
+Articles of the news site Zomi Daily, written in Zolai, 2016 to 2026. The locator is the article id of the site.
+
+- Owner: Zomi Daily
+- Credit line: Examples from Zomi Daily, zomidaily.com
+- Permission: Requested by the editor in October 2026; the wording of the credit is not yet received. Only single words and short fragments of sentences are quoted.
+- Link: https://zomidaily.com
+
+### `ts`: Tongsan
+
+Articles of the news site Tongsan, the Zolai articles only, 2025 to 2026. The locator is the article id of the site.
+
+- Owner: Tongsan Media
+- Credit line: Examples from Tongsan, tongsan.org
+- Permission: Requested by the editor in October 2026; the wording of the credit is not yet received. Only single words and short fragments of sentences are quoted.
+- Link: https://tongsan.org
+
 ## Bible texts
 
 A reference written `book.chapter.verse` names a verse of the Zolai texts. The other texts are read for comparison only.
