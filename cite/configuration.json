@@ -178,7 +178,7 @@
     },
     "e": {
       "name": "example",
-      "description": "Zolai phrase or sentence that uses the keyword. The keyword is written as ~. Each item may end with | and an English translation.",
+      "description": "Zolai phrase or sentence that uses the keyword, followed by its English translation. Each item is written Zolai first, then |, then English. The keyword is written as ~ in the Zolai.",
       "value": "zolai",
       "list": true,
       "required": false,
@@ -690,6 +690,12 @@
       "level": "error",
       "name": "file scope",
       "description": "A described row lacks an attribute value that its file requires."
+    },
+    {
+      "id": "E20",
+      "level": "error",
+      "name": "translation",
+      "description": "An example item has no English translation after the Zolai."
     },
     {
       "id": "F01",

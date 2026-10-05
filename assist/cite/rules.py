@@ -92,7 +92,9 @@ def _check_row(config: Config, row: Row, keywords: Set[str], seen: Dict[Tuple, s
                     add("E11", f"no ~ in '{_short(part)}'")
                 elif markup.PLACEHOLDER in english:
                     add("E11", f"~ in the translation of '{_short(part)}'")
-                elif markup.TRANSLATION in part and not english.strip():
+                elif markup.TRANSLATION not in part:
+                    add("E20", f"no translation in '{_short(part)}'")
+                elif not english.strip():
                     add("E07", "'e' has an empty translation")
             elif markup.PLACEHOLDER in part or markup.TRANSLATION in part:
                 add("E11", f"~ or | in attribute '{key}'")

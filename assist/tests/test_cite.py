@@ -10,7 +10,7 @@ import re
 import unittest
 
 from assist.cite import config as configuration
-from assist.cite import convert, markup, query, rules, words
+from assist.cite import convert, examples, markup, query, rules, words
 
 CONFIG = configuration.load()
 MAIN = CONFIG.data_name("draft")
@@ -75,11 +75,11 @@ class MarkupTest(unittest.TestCase):
         self.assertEqual(row.values()["d"], "x = y")
 
     def test_canonical_form(self):
-        row = markup.parse("kipat=(e:a ~ cil)  early stage (w: begin / start) (t:v)")
+        row = markup.parse("kipat=(e:a ~ cil|in the beginning)  early stage (w: begin / start) (t:v)")
         self.assertTrue(row.text_before_attribute)
         self.assertEqual(
             markup.canonical(CONFIG, row),
-            "kipat = (t:v) (w:begin/start) (e:a ~ cil) early stage",
+            "kipat = (t:v) (w:begin/start) (e:a ~ cil | in the beginning) early stage",
         )
 
     def test_canonical_translation_separator(self):
@@ -119,6 +119,7 @@ class RuleTest(unittest.TestCase):
         "E15": "Eden = (t:name) (w:Eden) (r:Genesis 2)",
         "E17": "eden = (t:name) (w:Eden)",
         "E18": "khawlei = (t:see) (w:bear)",
+        "E20": "khat = (t:num) (w:one) (e:ni ~)",
         "F01": "vantung=(t:n) (w:heaven)",
         "F02": "vantung = (t:n)  (w:heaven)",
         "F03": "vantung = (w:heaven) (t:n)",
@@ -261,6 +262,30 @@ class QueryTest(unittest.TestCase):
         self.assertEqual([row.number for row in query.lookup(CONFIG, self.ROWS, "God", english=True)], [3])
         self.assertEqual([row.number for row in query.lookup(CONFIG, self.ROWS, "top", english=True)], [6])
         self.assertEqual(query.lookup(CONFIG, self.ROWS, "hell", english=True), [])
+
+
+class ExamplesTest(unittest.TestCase):
+    def measure(self, line):
+        return examples.measure(CONFIG, markup.parse(line))
+
+    def test_inflected_forms_count_for_a_term(self):
+        self.assertTrue(examples.uses("ask", "he asked them"))
+        self.assertTrue(examples.uses("go", "they went up"))
+        self.assertTrue(examples.uses("gush out", "water gushed out"))
+        self.assertFalse(examples.uses("ask", "he inquired of them"))
+
+    def test_examples_are_counted_per_term(self):
+        measured = self.measure("dong = (t:v) (w:ask/inquire) (e:a ~ hi | he asked/ka ~ hi | I asked)")
+        self.assertEqual(measured.terms, (("ask", 2), ("inquire", 0)))
+        self.assertEqual(measured.short, [("ask", 2), ("inquire", 0)])
+        self.assertFalse(measured.complete)
+
+    def test_three_examples_per_term_complete_a_row(self):
+        measured = self.measure("khat = (t:num) (w:one) (e:ni ~ | one day/mi ~ | one man/inn ~ | one house)")
+        self.assertTrue(measured.complete)
+
+    def test_names_are_not_measured(self):
+        self.assertFalse(examples.measurable(CONFIG, markup.parse("Eden = (t:name) (w:Eden)")))
 
 
 class DocumentTest(unittest.TestCase):
