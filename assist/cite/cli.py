@@ -10,7 +10,7 @@ from collections import Counter
 from typing import Callable, List
 
 from assist.cite import config as configuration
-from assist.cite import convert, examples, index, markup, query, rules, store, upgrade, words
+from assist.cite import convert, credits, examples, index, markup, query, rules, store, upgrade, words
 
 EXIT_OK = 0
 EXIT_FOUND = 1
@@ -41,6 +41,9 @@ def register(groups: argparse._SubParsersAction) -> None:
 
     parser = command("index", run_index, "Generate the keyword index and the English term index.")
     parser.add_argument("--apply", action="store_true", help="write the files (default: dry run)")
+
+    parser = command("credits", run_credits, "Generate CREDITS.md from the source list.")
+    parser.add_argument("--apply", action="store_true", help="write the file (default: dry run)")
 
     parser = command("move", run_move, "Move senses, with their examples, to another data file.")
     parser.add_argument("target", help="listed file that receives the senses, e.g. core")
@@ -91,6 +94,8 @@ def _findings(config, data: store.Data) -> List[rules.Finding]:
     if all(file.readable for file in data.files):
         found.extend(rules.Finding(name, 0, "F06", "run 'python3 -m assist cite index --apply'")
                      for name in index.stale(config, data.rows()))
+    if credits.stale(config):
+        found.append(rules.Finding(credits.NAME, 0, "F07", "run 'python3 -m assist cite credits --apply'"))
     return found
 
 
@@ -222,6 +227,20 @@ def run_index(args: argparse.Namespace) -> int:
         print(f"{path.relative_to(config.root)}: {text.count(chr(10)) - 2} lines, {state}")
         if args.apply and current != text:
             store.write_text(path, text)
+    if not args.apply:
+        print("dry run: nothing written. Add --apply to write.")
+    return EXIT_OK
+
+
+def run_credits(args: argparse.Namespace) -> int:
+    config = configuration.load()
+    text = credits.build(config)
+    path = credits.path(config)
+    current = path.read_text(encoding="utf-8") if path.is_file() else None
+    state = "unchanged" if current == text else ("written" if args.apply else "to write")
+    print(f"{path.relative_to(config.root)}: {len(config.sources)} sources, {state}")
+    if args.apply and current != text:
+        store.write_text(path, text)
     if not args.apply:
         print("dry run: nothing written. Add --apply to write.")
     return EXIT_OK

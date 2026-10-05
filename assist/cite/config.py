@@ -17,6 +17,7 @@ REQUIRED_KEYS = (
     "text", "type", "category", "field", "source", "translation", "example",
     "index", "alias", "bible", "word", "rule",
 )
+SOURCE_KEYS = ("name", "description", "owner", "credit", "license", "permission", "url")
 VALUE_KINDS = ("code", "english", "keyword", "reference", "number")
 SENSE_KEY = re.compile(r"^(?P<keyword>.+)\.(?P<number>[1-9][0-9]*)$")
 
@@ -179,6 +180,15 @@ def load(path: Optional[Path] = None) -> Config:
         for code, entry in table.items():
             _need(entry, "name", str, f"{label} '{code}'")
             _need(entry, "description", str, f"{label} '{code}'")
+    for code, entry in sources.items():
+        for key, value in entry.items():
+            if key not in SOURCE_KEYS:
+                raise CiteError(
+                    f"configuration: source '{code}': unknown key '{key}'; "
+                    f"allowed: {', '.join(SOURCE_KEYS)}"
+                )
+            if not isinstance(value, str) or not value.strip():
+                raise CiteError(f"configuration: source '{code}': '{key}' is not a text")
 
     attributes: Dict[str, Attribute] = {}
     for key, entry in _need(raw, "attribute", dict, "top level").items():

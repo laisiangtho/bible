@@ -245,8 +245,8 @@ def rename(config: Config, data: Data, old: str, new: str) -> Dict[DataFile, Lis
                 values[key] = markup.LIST_SEPARATOR.join(new if item == old else item for item in items)
         for key, attribute in config.attributes.items():
             if attribute.xref and key in values:
-                values[key] = values[key].replace(f"<{old}>", f"<{new}>")
-        text = row.text.replace(f"<{old}>", f"<{new}>")
+                values[key] = markup.relink(values[key], old, new)
+        text = markup.relink(row.text, old, new)
         keyword = new if row.keyword == old else markup.collapse(row.keyword)
         changed = markup.render(config, keyword, values, text)
         return changed if changed != markup.canonical(config, row) else line

@@ -10,7 +10,7 @@ import re
 import unittest
 
 from assist.cite import config as configuration
-from assist.cite import convert, examples, index, markup, query, rules, store, upgrade, words
+from assist.cite import convert, credits, examples, index, markup, query, rules, store, upgrade, words
 
 CONFIG = configuration.load()
 MAIN = CONFIG.data_name("draft")
@@ -508,6 +508,52 @@ class ExamplesTest(unittest.TestCase):
 
     def test_names_are_not_measured(self):
         self.assertFalse(examples.measurable(CONFIG, markup.parse("Eden = (i:1) (t:name) (w:Eden)")))
+
+
+class MarkTest(unittest.TestCase):
+    ROWS = "nu = (i:1) (t:n) (w:mother)\npa = (i:1) (t:n) (w:father)\npa = (i:2) (t:part) (d:marks a man)\n"
+
+    def found(self, line):
+        return {finding.rule for finding in rules.check_rows(CONFIG, rows_of(self.ROWS + line))}
+
+    def test_links_and_mentions_pass(self):
+        self.assertEqual(self.found("x = (i:1) (t:n) (w:parents) (d:<nu> with <pa>; {a nu leh a pa} is his parents)"), set())
+        self.assertEqual(self.found("x = (i:1) (t:n) (w:parents) (d:<nu/pa> joined, see <pa.2> and {-pa})"), set())
+        self.assertEqual(self.found("x = (i:1) (t:n) (w:parents) (q:draft, {x} beside <nu>) from {x}"), set())
+
+    def test_link_to_a_missing_keyword_or_sense(self):
+        self.assertEqual(self.found("x = (i:1) (t:n) (w:parents) (d:<nu/te>)"), {"E13"})
+        self.assertEqual(self.found("x = (i:1) (t:n) (w:parents) (d:<pa.3>)"), {"E13"})
+
+    def test_mention_of_a_keyword_with_a_row_is_a_link(self):
+        self.assertEqual(self.found("x = (i:1) (t:n) (w:parents) (d:{nu} and more)"), {"E25"})
+
+    def test_braces_are_balanced_and_only_in_prose(self):
+        self.assertEqual(self.found("x = (i:1) (t:n) (w:parents) (d:{a nu)"), {"E25"})
+        self.assertEqual(self.found("x = (i:1) (t:n) (w:{parents})"), {"E25"})
+        self.assertEqual(self.found("x = (i:1) (t:n) (w:parents) (d:{} here)"), {"E25"})
+
+    def test_segments_for_display(self):
+        shown = [(part.kind, part.text) for part in markup.segments("<nu/pa>, as in {a nu leh a pa}.")]
+        self.assertEqual(shown, [
+            ("link", "nu"), ("text", "/"), ("link", "pa"), ("text", ", as in "),
+            ("mention", "a nu leh a pa"), ("text", "."),
+        ])
+
+    def test_rename_follows_every_form_of_link(self):
+        self.assertEqual(markup.relink("<nu/pa> and <pa.2> but {pa te}", "pa", "paa"), "<nu/paa> and <paa.2> but {pa te}")
+
+
+class CreditsTest(unittest.TestCase):
+    def test_every_source_is_credited(self):
+        text = credits.build(CONFIG)
+        for code, entry in CONFIG.sources.items():
+            self.assertIn(f"### `{code}`: {entry['name']}", text)
+        for identify in CONFIG.raw["bible"]["source"]:
+            self.assertIn(f"| `{identify}` |", text)
+
+    def test_the_file_matches_the_source_list(self):
+        self.assertFalse(credits.stale(CONFIG))
 
 
 class LinkTest(unittest.TestCase):

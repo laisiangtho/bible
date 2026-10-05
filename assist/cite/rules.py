@@ -41,8 +41,14 @@ def check_rows(
     seen: Dict[Tuple, str] = {}
     senses: Dict[str, str] = {}
     findings: List[Finding] = []
+    pending: List[Tuple[Row, str]] = []
     for row in rows:
-        findings.extend(_check_row(config, row, keywords, seen, senses))
+        findings.extend(_check_row(config, row, keywords, seen, senses, pending))
+    findings.extend(
+        Finding(row.file, row.number, "E13", f"<{key}> names no sense")
+        for row, key in pending
+        if key not in senses
+    )
     for row in examples:
         findings.extend(_check_example(config, row, senses, seen))
     for row in translations:
@@ -203,7 +209,12 @@ def _check_translation(
 
 
 def _check_row(
-    config: Config, row: Row, keywords: Set[str], seen: Dict[Tuple, str], senses: Dict[str, str]
+    config: Config,
+    row: Row,
+    keywords: Set[str],
+    seen: Dict[Tuple, str],
+    senses: Dict[str, str],
+    pending: List[Tuple[Row, str]],
 ) -> List[Finding]:
     found: List[Finding] = []
 
@@ -281,11 +292,34 @@ def _check_row(
             elif "<" in leftover or ">" in leftover:
                 add("E12", f"unbalanced < > in '{_short(part)}'")
             else:
-                for target in markup.XREF.findall(part):
-                    if config.keyword.match(target):
-                        references.append(target)
-                    else:
-                        add("E12", f"<{target}> is not one keyword")
+                for inner in markup.XREF.findall(part):
+                    for target in markup.xref_targets(inner):
+                        parts = markup.split_key(target)
+                        if config.keyword.match(target):
+                            references.append(target)
+                        elif parts and config.keyword.match(parts[0]):
+                            pending.append((row, target))
+                        else:
+                            add("E12", f"'{target}' in <{inner}> is not a keyword or a sense key")
+    for key, parts in list(items.items()) + [("", [row.text])]:
+        allowed = key == "" or attributes[key].xref
+        for part in parts:
+            if "{" not in part and "}" not in part:
+                continue
+            leftover = markup.MENTION.sub("", part)
+            if not allowed:
+                add("E25", f"braces in attribute '{key}'")
+            elif "{" in leftover or "}" in leftover:
+                add("E25", f"unbalanced braces in '{_short(part)}'")
+            else:
+                for inner in markup.MENTION.findall(part):
+                    mention = markup.collapse(inner)
+                    if not mention:
+                        add("E25", "empty braces")
+                    elif "<" in mention or ">" in mention:
+                        add("E25", f"a cross-reference inside braces: '{_short(mention)}'")
+                    elif mention in keywords and mention != row.keyword:
+                        add("E25", f"'{mention}' has a row; write <{mention}>")
     for key, attribute in attributes.items():
         if not attribute.resolve:
             continue

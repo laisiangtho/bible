@@ -141,7 +141,11 @@
     },
     "<>": {
       "name": "cross-reference",
-      "description": "Encloses exactly one keyword that exists in the data. Allowed only in the attribute d and in the description."
+      "description": "Encloses a keyword that exists in the data, or the key of one sense, as in khat.2; a tool shows it as a link. Several are written one after another or joined by the list separator, so that <a/b> is the same as <a> and <b>. Allowed in the attributes d and q and in the description."
+    },
+    "{}": {
+      "name": "mention",
+      "description": "Encloses Zolai text inside English prose that is not a link: a phrase, an ending such as -pa, a form without a row, or the keyword of the row itself. A tool shows it as Zolai. A single keyword that has a row is written as a cross-reference instead. Allowed in the attributes d and q and in the description."
     },
     ".": {
       "name": "sense key",
@@ -272,6 +276,7 @@
       "value": "english",
       "list": false,
       "required": false,
+      "xref": true,
       "order": 12,
       "example": "(q:meaning not confirmed)"
     }
@@ -498,11 +503,17 @@
     "zai": {
       "name": "zolai-ai merged dictionary",
       "description": "English to Zolai dictionary data of the zolai-ai project, merged there from the dictionaries of Thang Khan Dal, Dal Lian Haokip, Mang Cin Pau Gualnam and the ZomiDictionary application. The locator is the English headword.",
+      "owner": "Peter Lianpi and the Zolai Project Contributors",
+      "credit": "Dictionary data from the zolai-ai project, github.com/peterlianpi/zolai-ai",
+      "license": "MIT",
       "url": "https://github.com/peterlianpi/zolai-ai"
     },
     "moby": {
       "name": "Moby Thesaurus",
       "description": "Moby Thesaurus by Grady Ward, public domain. Relates an English word to English words of similar meaning. The locator is the English term of a sense through which the linked word was found.",
+      "owner": "Grady Ward",
+      "credit": "Moby Thesaurus by Grady Ward",
+      "license": "Public domain",
       "url": "https://www.gutenberg.org/ebooks/3202"
     }
   },
@@ -761,13 +772,13 @@
       "id": "E12",
       "level": "error",
       "name": "cross-reference",
-      "description": "The symbols < and > are unbalanced, used outside d and the description, or do not enclose exactly one keyword."
+      "description": "The symbols < and > are unbalanced, used outside d, q and the description, or enclose something that is not a keyword or a sense key."
     },
     {
       "id": "E13",
       "level": "error",
       "name": "unresolved keyword",
-      "description": "A keyword named in s, a, b or a cross-reference does not exist in the data."
+      "description": "A keyword named in s, a, b or a cross-reference, or a sense key named in a cross-reference, does not exist in the data."
     },
     {
       "id": "E14",
@@ -836,6 +847,12 @@
       "description": "A link row names a word that is already a term of a sense, no sense key, a sense key that is not in the data files, or the same sense key twice."
     },
     {
+      "id": "E25",
+      "level": "error",
+      "name": "mention",
+      "description": "Braces are unbalanced, empty, used outside d, q and the description, enclose a cross-reference, or enclose one keyword that has a row of its own."
+    },
+    {
       "id": "F01",
       "level": "form",
       "name": "separator spacing",
@@ -870,6 +887,12 @@
       "level": "form",
       "name": "index",
       "description": "A generated index file is missing or differs from the data."
+    },
+    {
+      "id": "F07",
+      "level": "form",
+      "name": "credits",
+      "description": "The generated credits file is missing or differs from the source list."
     }
   ],
   "level": {

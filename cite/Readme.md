@@ -34,6 +34,7 @@ python3 -m assist cite lookup --english mom   # no sense has the term: shows the
 python3 -m assist cite search kipat cil       # verses with the word, and parallel verses
 python3 -m assist cite todo --limit 100       # most frequent words without a row
 python3 -m assist cite examples               # rows whose examples do not yet show every English term
+python3 -m assist cite credits --apply         # regenerate CREDITS.md from the source list
 python3 -m assist cite parse > cite.json      # every row as JSON, only when the check passes
 python3 -m unittest discover -s assist/tests -t .
 ```
