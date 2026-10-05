@@ -510,6 +510,29 @@ class ExamplesTest(unittest.TestCase):
         self.assertFalse(examples.measurable(CONFIG, markup.parse("Eden = (i:1) (t:name) (w:Eden)")))
 
 
+class JoinTest(unittest.TestCase):
+    ROWS = "a = (i:1) (t:part) (d:marks the third person)\nom = (i:1) (t:v) (w:be/exist)\n"
+
+    def found(self, line):
+        return {finding.rule for finding in rules.check_rows(CONFIG, rows_of(self.ROWS + line))}
+
+    def test_joined_form_with_its_own_meaning(self):
+        self.assertEqual(self.found("aom = (i:1) (t:v) (w:there is) (j:a/om)"), set())
+
+    def test_respelling_may_leave_out_the_meaning(self):
+        self.assertEqual(self.found("oom = (i:1) (t:v) (j:om)"), set())
+        self.assertEqual(self.found("aom = (i:1) (t:v) (j:a/om)"), {"E10"})
+
+    def test_parts_exist_and_differ_from_the_keyword(self):
+        self.assertEqual(self.found("aom = (i:1) (t:v) (w:there is) (j:a/um)"), {"E13"})
+        self.assertEqual(self.found("aom = (i:1) (t:v) (w:there is) (j:aom/om)"), {"E26"})
+
+    def test_join_index(self):
+        rows = rows_of(self.ROWS + "aom = (i:1) (t:v) (w:there is) (j:a/om)\noom = (i:1) (t:v) (j:om)")
+        body = [line for line in index.join_index(CONFIG, rows).split("\n") if line and not line.startswith("#")]
+        self.assertEqual(body, ["a\taom.1", "om\taom.1\toom.1"])
+
+
 class MarkTest(unittest.TestCase):
     ROWS = "nu = (i:1) (t:n) (w:mother)\npa = (i:1) (t:n) (w:father)\npa = (i:2) (t:part) (d:marks a man)\n"
 

@@ -96,12 +96,13 @@ The keyword is the Zolai headword, spelled as it is written in running text.
 | `s` | synonym | Zolai keyword | yes | Keywords with the same meaning. Every item is a keyword that exists in the data. | `(s:leh)` |
 | `a` | antonym | Zolai keyword | yes | Keywords with the opposite meaning. Every item is a keyword that exists in the data. | `(a:lian)` |
 | `b` | base | Zolai keyword | no | The keyword this form is built from, for plural, suffixed and prefixed forms. One keyword that exists in the data. | `(b:vantung)` |
+| `j` | joins | Zolai keyword | yes | The keywords that this written form joins or respells. Several items: separate words written as one, as aom joins a and om. One item: the same word in another spelling; such a row may leave out w and d and then carries the meaning of the keyword it names. Every item is a keyword that exists in the data. | `(j:a/om)` |
 | `v` | variant | Zolai keyword | yes | Other spellings of the same keyword. An item is never the keyword of another row. | `(v:Shoute)` |
 | `o` | origin | English | no | Language the keyword comes from, optionally followed by a comma and the source word. | `(o:Hebrew, kerub)` |
 | `r` | reference | reference | yes | Where this sense is attested. A Bible verse is written book.chapter.verse with book numbers 1 to 66, and a verse range uses a hyphen. Any other source is written as a code from the source list, optionally followed by a colon and a locator inside that source. | `(r:1.1.1/1.2.4-6/zai:market)` |
 | `q` | query | English | no | Open question about the row. Its presence marks the row as not verified. | `(q:meaning not confirmed)` |
 
-Canonical order: `i` `t` `c` `f` `w` `d` `s` `a` `b` `v` `o` `r` `q`.
+Canonical order: `i` `t` `c` `f` `w` `d` `s` `a` `b` `j` `v` `o` `r` `q`.
 
 ## Description
 
@@ -208,6 +209,9 @@ The attribute `f` takes one or more of these codes. The field says in which subj
 | `work` | work | Work, trade and money. |
 | `travel` | travel | Movement, transport and places. |
 | `it` | information technology | Computers, phones, software and the internet. |
+| `politics` | politics | Government, law, elections, war and public affairs. |
+| `religion` | religion | Church life, belief and worship outside the Bible text. |
+| `media` | media | News, publishing, entertainment and sport. |
 
 ## Sources
 
@@ -217,6 +221,8 @@ The attribute `r` names where a sense or an example is attested. A Bible verse i
 | --- | --- | --- |
 | `zai` | zolai-ai merged dictionary | English to Zolai dictionary data of the zolai-ai project, merged there from the dictionaries of Thang Khan Dal, Dal Lian Haokip, Mang Cin Pau Gualnam and the ZomiDictionary application. The locator is the English headword. |
 | `moby` | Moby Thesaurus | Moby Thesaurus by Grady Ward, public domain. Relates an English word to English words of similar meaning. The locator is the English term of a sense through which the linked word was found. |
+| `zd` | Zomi Daily | Articles of the news site Zomi Daily, written in Zolai, 2016 to 2026. The locator is the article id of the site. |
+| `ts` | Tongsan | Articles of the news site Tongsan, the Zolai articles only, 2025 to 2026. The locator is the article id of the site. |
 
 An entry of the source list in `configuration.json` carries the code as its key and these fields:
 
@@ -231,6 +237,21 @@ An entry of the source list in `configuration.json` carries the code as its key 
 | `url` | no | Address of the source. |
 
 The long name and the credit are written once, in the source list; rows carry only the code. `CREDITS.md` is generated from the list by `python3 -m assist cite credits --apply` and is never edited by hand. A locator contains no `/`; an article is named by an id or a date.
+
+## Joined and respelled forms
+
+Zolai writers differ in what they write as one word. The Bible text writes `a om`; much everyday writing has `aom`. Both are recorded, each under the spelling in which it is written.
+
+- A written form that joins separate words has its own row, names the words in `j`, and carries its own meaning and its own examples: `(j:a/om)`.
+- A written form that is another spelling of one keyword names that keyword alone in `j`. Such a row may leave out `w` and `d`; a tool then shows the meaning of the keyword it names, so the two cannot drift apart.
+- The other direction is not written. `index/join.txt` lists, for each keyword, the forms that join or respell it.
+- `v` remains for a spelling that has no row of its own. A spelling common enough to be looked up receives a row with `j` instead.
+- A loan word has its own row and names its origin in `o`, as in `(o:English)` or `(o:Burmese)`. Where a Zolai word for the same thing exists, the two rows name each other in `s`.
+
+```text
+aom = (i:1) (t:v) (w:there is/exist) (j:a/om) (d:<a> and <om> written as one word)
+ahihhangin = (i:1) (t:conj) (j:ahih hangin)
+```
 
 ## Sense key
 
@@ -302,6 +323,7 @@ The index files are generated from the data files and serve lookup by tools.
 
 - `index/ctd.txt`: one line per keyword form, then a tab and the sense keys written that way, separated by tabs. The form ignores case, hyphens, spaces and apostrophes, so `Pasian` and `pasian` share the line `pasian`. A keyword without a described sense is listed by its own spelling. A variant of the attribute `v` leads to the sense keys of its row.
 - `index/eng.txt`: one line per English term in lowercase, then a tab and the sense keys that carry the term.
+- `index/join.txt`: one line per keyword named in `j`, then a tab and the sense keys of the written forms that join or respell it. It answers which joined spellings contain a word.
 
 ## Senses, forms and links
 
@@ -332,7 +354,7 @@ The check is run from the repository root with `python3 -m assist cite check`. I
 | E07 | error | empty value | An attribute value or a list item is empty. |
 | E08 | error | type | The attribute t is missing or its value is not in the type list. |
 | E09 | error | category | A value of the attribute c is not in the category list. |
-| E10 | error | meaning | The row has neither w nor d, and its type is not see or todo. |
+| E10 | error | meaning | The row has neither w nor d, its type is not see or todo, and it does not name exactly one keyword in j. |
 | E11 | error | placeholder | The symbol ~ or \| is used outside an example row, the Zolai part of an example has no ~, or an example row has more than one \|. |
 | E12 | error | cross-reference | The symbols < and > are unbalanced, used outside d, q and the description, or enclose something that is not a keyword or a sense key. |
 | E13 | error | unresolved keyword | A keyword named in s, a, b or a cross-reference, or a sense key named in a cross-reference, does not exist in the data. |
@@ -348,6 +370,7 @@ The check is run from the repository root with `python3 -m assist cite check`. I
 | E23 | error | unresolved sense | The key of an example row or of a translation row is not the sense key of a row in the data files. |
 | E24 | error | link | A link row names a word that is already a term of a sense, no sense key, a sense key that is not in the data files, or the same sense key twice. |
 | E25 | error | mention | Braces are unbalanced, empty, used outside d, q and the description, enclose a cross-reference, or enclose one keyword that has a row of its own. |
+| E26 | error | joined form | The attribute j names the keyword of the row itself, or the same keyword twice. |
 | F01 | form | separator spacing | The separator is not written as one space, =, one space. |
 | F02 | form | spacing | The line has leading or trailing spaces, repeated spaces, spaces inside the parentheses or around a list separator, or a translation separator not written as one space, \|, one space. |
 | F03 | form | attribute order | The attributes are not in the configured order. |

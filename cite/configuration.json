@@ -241,6 +241,16 @@
       "order": 8,
       "example": "(b:vantung)"
     },
+    "j": {
+      "name": "joins",
+      "description": "The keywords that this written form joins or respells. Several items: separate words written as one, as aom joins a and om. One item: the same word in another spelling; such a row may leave out w and d and then carries the meaning of the keyword it names. Every item is a keyword that exists in the data.",
+      "value": "keyword",
+      "list": true,
+      "required": false,
+      "resolve": true,
+      "order": 9,
+      "example": "(j:a/om)"
+    },
     "v": {
       "name": "variant",
       "description": "Other spellings of the same keyword. An item is never the keyword of another row.",
@@ -248,7 +258,7 @@
       "list": true,
       "required": false,
       "resolve": false,
-      "order": 9,
+      "order": 10,
       "example": "(v:Shoute)"
     },
     "o": {
@@ -257,7 +267,7 @@
       "value": "english",
       "list": false,
       "required": false,
-      "order": 10,
+      "order": 11,
       "example": "(o:Hebrew, kerub)"
     },
     "r": {
@@ -267,7 +277,7 @@
       "list": true,
       "required": false,
       "pattern": "^(?:(?:[1-9]|[1-5][0-9]|6[0-6])\\.[1-9][0-9]{0,2}\\.[1-9][0-9]{0,2}(?:-[1-9][0-9]{0,2})?|(?P<source>[a-z][a-z0-9]*)(?::[^\\s/()<>|~=][^/()<>|~=]*)?)$",
-      "order": 11,
+      "order": 12,
       "example": "(r:1.1.1/1.2.4-6/zai:market)"
     },
     "q": {
@@ -277,7 +287,7 @@
       "list": false,
       "required": false,
       "xref": true,
-      "order": 12,
+      "order": 13,
       "example": "(q:meaning not confirmed)"
     }
   },
@@ -497,6 +507,18 @@
     "it": {
       "name": "information technology",
       "description": "Computers, phones, software and the internet."
+    },
+    "politics": {
+      "name": "politics",
+      "description": "Government, law, elections, war and public affairs."
+    },
+    "religion": {
+      "name": "religion",
+      "description": "Church life, belief and worship outside the Bible text."
+    },
+    "media": {
+      "name": "media",
+      "description": "News, publishing, entertainment and sport."
     }
   },
   "source": {
@@ -515,6 +537,22 @@
       "credit": "Moby Thesaurus by Grady Ward",
       "license": "Public domain",
       "url": "https://www.gutenberg.org/ebooks/3202"
+    },
+    "zd": {
+      "name": "Zomi Daily",
+      "description": "Articles of the news site Zomi Daily, written in Zolai, 2016 to 2026. The locator is the article id of the site.",
+      "owner": "Zomi Daily",
+      "credit": "Examples from Zomi Daily, zomidaily.com",
+      "permission": "Requested by the editor in October 2026; the wording of the credit is not yet received. Only single words and short fragments of sentences are quoted.",
+      "url": "https://zomidaily.com"
+    },
+    "ts": {
+      "name": "Tongsan",
+      "description": "Articles of the news site Tongsan, the Zolai articles only, 2025 to 2026. The locator is the article id of the site.",
+      "owner": "Tongsan Media",
+      "credit": "Examples from Tongsan, tongsan.org",
+      "permission": "Requested by the editor in October 2026; the wording of the credit is not yet received. Only single words and short fragments of sentences are quoted.",
+      "url": "https://tongsan.org"
     }
   },
   "translation": {
@@ -541,9 +579,10 @@
     ]
   },
   "index": {
-    "description": "Generated lists for lookup; never edited by hand. The keyword index lists every keyword under a form that ignores case, hyphens, spaces and apostrophes, with its sense keys. The term index lists every English term in lowercase with the sense keys it leads to.",
+    "description": "Generated lists for lookup; never edited by hand. The keyword index lists every keyword under a form that ignores case, hyphens, spaces and apostrophes, with its sense keys. The term index lists every English term in lowercase with the sense keys it leads to. The join index lists every keyword named in j with the sense keys of the written forms that join or respell it.",
     "keyword": "ctd",
-    "term": "eng"
+    "term": "eng",
+    "join": "join"
   },
   "alias": {
     "description": "Type tags used before version 1 and the attributes that replace them. Used only to convert existing rows; an alias is not valid in a version 1 row.",
@@ -760,7 +799,7 @@
       "id": "E10",
       "level": "error",
       "name": "meaning",
-      "description": "The row has neither w nor d, and its type is not see or todo."
+      "description": "The row has neither w nor d, its type is not see or todo, and it does not name exactly one keyword in j."
     },
     {
       "id": "E11",
@@ -851,6 +890,12 @@
       "level": "error",
       "name": "mention",
       "description": "Braces are unbalanced, empty, used outside d, q and the description, enclose a cross-reference, or enclose one keyword that has a row of its own."
+    },
+    {
+      "id": "E26",
+      "level": "error",
+      "name": "joined form",
+      "description": "The attribute j names the keyword of the row itself, or the same keyword twice."
     },
     {
       "id": "F01",

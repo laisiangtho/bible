@@ -61,12 +61,29 @@ def term_index(config: Config, rows: List[Row]) -> str:
     return _text("# English term, then the sense keys with that term", entries)
 
 
+def join_index(config: Config, rows: List[Row]) -> str:
+    """One line per keyword named in j, then the sense keys of the forms that join or respell it."""
+    entries: Dict[str, List[str]] = {}
+    joins = config.attributes["j"]
+    for row in rows:
+        key = markup.row_key(row)
+        if not key:
+            continue
+        for item in markup.split_items(joins, row.values().get("j", "")):
+            if item:
+                listed = entries.setdefault(item, [])
+                if key not in listed:
+                    listed.append(key)
+    return _text("# keyword, then the sense keys of the written forms that join or respell it", entries)
+
+
 def build(config: Config, rows: List[Row]) -> Dict[str, str]:
     """Text of each index file by its code."""
     settings = config.raw["index"]
     return {
         settings["keyword"]: keyword_index(config, rows),
         settings["term"]: term_index(config, rows),
+        settings["join"]: join_index(config, rows),
     }
 
 
