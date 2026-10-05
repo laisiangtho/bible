@@ -210,3 +210,30 @@ def canonical_translation(config: Config, row: Row) -> Optional[str]:
 
 
 TRANSLATED = ("w", "d")
+LINKED = ("r", "q")
+LINK_WORD = re.compile(r"^[a-z]+(?:[ '-][a-z]+)*$")
+
+
+def link_keys(row: Row) -> List[str]:
+    """Sense keys named by a row of the link file, in the order written."""
+    return [collapse(item) for item in row.text.split(LIST_SEPARATOR) if item.strip()]
+
+
+def render_link(config: Config, word: str, keys: Iterable[str], values: Dict[str, str]) -> str:
+    parts = [LIST_SEPARATOR.join(keys)]
+    parts.extend(
+        f"({key}:{canonical_value(config.attributes[key], values[key])})"
+        for key in config.attributes
+        if key in values
+    )
+    return f"{word} {SEPARATOR} {' '.join(parts)}"
+
+
+def canonical_link(config: Config, row: Row) -> Optional[str]:
+    """Canonical form of a link row, or None when it cannot be rewritten safely."""
+    keys = [name for name, _ in row.attributes]
+    if not row.described or not row.text or len(set(keys)) != len(keys):
+        return None
+    if any(name not in LINKED for name in keys) or "(" in row.text or ")" in row.text:
+        return None
+    return render_link(config, collapse(row.keyword), link_keys(row), row.values())

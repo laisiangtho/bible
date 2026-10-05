@@ -33,6 +33,7 @@ def check_rows(
     rows: Iterable[Row],
     examples: Iterable[Row] = (),
     translations: Iterable[Row] = (),
+    links: Iterable[Row] = (),
 ) -> List[Finding]:
     """Every finding for the rows. Keywords and sense keys resolve across all rows given."""
     rows = list(rows)
@@ -46,6 +47,17 @@ def check_rows(
         findings.extend(_check_example(config, row, senses, seen))
     for row in translations:
         findings.extend(_check_translation(config, row, senses, seen))
+    links = list(links)
+    if links:
+        term = config.attributes["w"]
+        terms = {
+            item.casefold()
+            for row in rows
+            for item in markup.split_items(term, row.values().get("w", ""))
+            if item
+        }
+        for row in links:
+            findings.extend(_check_link(config, row, senses, terms, seen))
     return findings
 
 
@@ -100,6 +112,53 @@ def _check_example(config: Config, row: Row, senses: Dict[str, str], seen: Dict[
     canonical = markup.canonical_example(row)
     if canonical is not None and canonical != row.line:
         add("F02", "spacing is not canonical")
+    return found
+
+
+def _check_link(
+    config: Config, row: Row, senses: Dict[str, str], terms: Set[str], seen: Dict[Tuple, str]
+) -> List[Finding]:
+    found: List[Finding] = []
+
+    def add(rule: str, detail: str) -> None:
+        found.append(Finding(row.file, row.number, rule, detail))
+
+    if not row.described or not row.body.strip():
+        add("E03", "a link row is an English word, the separator and the sense keys")
+        return found
+    if not markup.LINK_WORD.match(row.keyword):
+        add("E02", f"'{row.keyword}'; a linked word is written in lowercase letters")
+    elif row.keyword in terms:
+        add("E24", f"'{row.keyword}' is already a term of a sense")
+    keys = [key for key, _ in row.attributes]
+    for key in sorted(set(keys)):
+        if key not in markup.LINKED:
+            add("E05", f"'{key}'; a link row takes only {' and '.join(markup.LINKED)}")
+        elif keys.count(key) > 1:
+            add("E06", f"'{key}'")
+    if "(" in row.text or ")" in row.text:
+        add("E04", f"'{_short(row.text)}'")
+    targets = markup.link_keys(row)
+    if not targets:
+        add("E24", "no sense key")
+    for target in targets:
+        if target not in senses:
+            add("E24", f"'{target}' is not a sense key of the data")
+        elif targets.count(target) > 1:
+            add("E24", f"'{target}' is named twice")
+    for part in markup.split_items(config.attributes["r"], row.values().get("r", "")) if "r" in keys else []:
+        if not _check_reference(config, part):
+            add("E15", f"'{part}'")
+    if "q" in keys and not row.values()["q"]:
+        add("E07", "'q'")
+    identity = ("link", row.keyword)
+    if identity in seen:
+        add("E16", f"same word as {seen[identity]}")
+    else:
+        seen[identity] = f"{row.file}:{row.number}"
+    canonical = markup.canonical_link(config, row)
+    if canonical is not None and canonical != row.line:
+        add("F02", "the row is not in canonical form")
     return found
 
 

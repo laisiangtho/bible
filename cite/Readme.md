@@ -30,6 +30,7 @@ python3 -m assist cite words --apply          # regenerate word/*.json
 python3 -m assist cite lookup vantung         # rows of a Zolai keyword
 python3 -m assist cite lookup beersheba       # hyphens, spaces and capitals are ignored: finds Be-ersheba
 python3 -m assist cite lookup --english heaven
+python3 -m assist cite lookup --english mom   # no sense has the term: shows the closest senses of ext/eng-ctd.cite
 python3 -m assist cite search kipat cil       # verses with the word, and parallel verses
 python3 -m assist cite todo --limit 100       # most frequent words without a row
 python3 -m assist cite examples               # rows whose examples do not yet show every English term
@@ -57,6 +58,7 @@ Each data file is sorted by keyword.
 - `r` names where a sense or an example is attested: a Bible verse or a listed source. An example taken from the Bible text is an exact fragment of the verse in its `r`.
 - An example row is written Zolai first, then ` | `, then its English translation. Every English term of `w` is meant to be shown by three examples whose translation uses that term; `examples` lists the rows that fall short. A word that is rare in the Bible text stays short until a speaker adds examples.
 - A core row drafted from dictionary data names its source in `r`, as in `(r:zai:money)`, and carries `(q:draft)` until a speaker confirms it.
+- `ext/eng-ctd.cite` links common English words that are not a term of any sense to the closest senses, found through the Moby Thesaurus and judged one by one. Every link carries `q` until a speaker confirms it. `ctd-core-notes.txt` lists the common words for which no sense is close enough.
 - A row of type `todo` marks a word whose meaning could not be told from the verses; its `q` says why.
 - A row of type `see` redirects a form that occurs only as one part of a hyphenated word to the full word, as `ersheba` to `Be-ersheba`. A redirect carries no `q`.
 - Draft rows for words that occur 5 times or more were read a second time against the verses. Draft rows for words that occur 1 to 4 times were read once.

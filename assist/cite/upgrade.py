@@ -251,8 +251,19 @@ def rename(config: Config, data: Data, old: str, new: str) -> Dict[DataFile, Lis
         changed = markup.render(config, keyword, values, text)
         return changed if changed != markup.canonical(config, row) else line
 
+    def link(line: str) -> str:
+        row = markup.parse(line)
+        keys = markup.link_keys(row)
+        renamed = [
+            markup.sense_key(new, parts[1]) if parts and parts[0] == old else key
+            for key, parts in ((key, markup.split_key(key)) for key in keys)
+        ]
+        if renamed == keys or markup.canonical_link(config, row) is None:
+            return line
+        return markup.render_link(config, markup.collapse(row.keyword), renamed, row.values())
+
     for file in data.every_file():
-        change = lexicon if file.kind == "lexicon" else keyed
+        change = {"lexicon": lexicon, "link": link}.get(file.kind, keyed)
         lines = [change(line) if markup.is_row(line) else line for line in file.lines]
         if lines != file.lines:
             result[file] = lines

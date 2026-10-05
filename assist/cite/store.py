@@ -73,7 +73,7 @@ def read_files(config: Config, only: str = "") -> List[DataFile]:
         path.name for path in config.directory.glob(f"*{config.extension}") if path.name not in known
     )
     folder = config.translation_path("x").parent
-    listed = {config.translation_path(code) for code in config.translations}
+    listed = {config.translation_path(code) for code in config.translations} | {config.link_path()}
     if folder.is_dir():
         stray.extend(
             str(path.relative_to(config.directory))
@@ -111,6 +111,15 @@ def read_translations(config: Config) -> List[DataFile]:
     return files
 
 
+def read_links(config: Config) -> List[DataFile]:
+    """Read the link file when it exists."""
+    data = DataFile("link", config.link_name(), config.link_path(), "link")
+    if not data.path.is_file():
+        return []
+    _read(data)
+    return [data]
+
+
 @dataclass
 class Data:
     """Everything read from the cite directory."""
@@ -118,6 +127,7 @@ class Data:
     files: List[DataFile]
     examples: List[DataFile]
     translations: List[DataFile]
+    links: List[DataFile] = field(default_factory=list)
 
     def rows(self) -> List[Row]:
         return all_rows(self.files)
@@ -128,8 +138,11 @@ class Data:
     def translation_rows(self) -> List[Row]:
         return all_rows(self.translations)
 
+    def link_rows(self) -> List[Row]:
+        return all_rows(self.links)
+
     def every_file(self) -> List[DataFile]:
-        return self.files + self.examples + self.translations
+        return self.files + self.examples + self.translations + self.links
 
     @property
     def examples_by_file(self) -> Dict[str, DataFile]:
@@ -145,7 +158,7 @@ class Data:
 
 
 def load(config: Config) -> Data:
-    return Data(read_files(config), read_examples(config), read_translations(config))
+    return Data(read_files(config), read_examples(config), read_translations(config), read_links(config))
 
 
 def all_rows(files: List[DataFile]) -> List[Row]:
