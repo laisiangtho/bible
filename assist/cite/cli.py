@@ -10,7 +10,7 @@ from collections import Counter
 from typing import Callable, List
 
 from assist.cite import config as configuration
-from assist.cite import convert, markup, query, rules, store, words
+from assist.cite import convert, examples, markup, query, rules, store, words
 
 EXIT_OK = 0
 EXIT_FOUND = 1
@@ -55,6 +55,10 @@ def register(groups: argparse._SubParsersAction) -> None:
 
     parser = command("todo", run_todo, "List the most frequent words that have no row yet.")
     parser.add_argument("--limit", type=int, default=50, help="words to show, 0 for all (default: 50)")
+
+    parser = command("examples", run_examples, "Report the rows whose examples do not yet show every English term.")
+    parser.add_argument("--file", default="", help="one listed file only, e.g. draft")
+    parser.add_argument("--limit", type=int, default=50, help="rows to show, 0 for all (default: 50)")
 
     parser = command("parse", run_parse, "Print every row as JSON. Refused while the check fails.")
     parser.add_argument("--file", default="", help="one listed file only, e.g. draft")
@@ -226,6 +230,41 @@ def run_todo(args: argparse.Namespace) -> int:
 
 def _percent(part: int, whole: int) -> str:
     return f"{100 * part / whole:.1f}%" if whole else "0.0%"
+
+
+def run_examples(args: argparse.Namespace) -> int:
+    config = configuration.load()
+    if args.limit < 0:
+        raise configuration.CiteError("--limit is 0 or a positive number")
+    selected = [data for data in store.read_files(config) if not args.file or data.key == args.file]
+    if not selected:
+        raise configuration.CiteError(
+            f"'{args.file}' is not a listed file; listed: {', '.join(config.files)}"
+        )
+    rows = [row for data in selected for row in data.rows() if examples.measurable(config, row)]
+    measured = [examples.measure(config, row) for row in rows]
+    short = [entry for entry in measured if not entry.complete]
+    terms = Counter(min(count, examples.PER_TERM) for entry in measured for _, count in entry.terms)
+    total = sum(terms.values())
+    print(f"rows expected to carry examples: {len(measured)}")
+    print(f"rows with {examples.PER_TERM} examples for every term: {len(measured) - len(short)} "
+          f"({_percent(len(measured) - len(short), len(measured))})")
+    for count in range(examples.PER_TERM, -1, -1):
+        label = f"{count} or more" if count == examples.PER_TERM else str(count)
+        print(f"terms shown by {label} example{'' if count == 1 else 's'}: {terms[count]} ({_percent(terms[count], total)})")
+    shown = short if args.limit == 0 else short[: args.limit]
+    if shown:
+        print(f"\nrows to complete ({len(shown)} of {len(short)}):")
+        for entry in shown:
+            row = entry.row
+            if entry.terms:
+                detail = ", ".join(f"{term} {count}/{examples.PER_TERM}" for term, count in entry.short)
+            else:
+                detail = f"{entry.examples}/{examples.PER_TERM} examples"
+            if entry.untranslated:
+                detail += f", {entry.untranslated} without translation"
+            print(f"  {row.file}:{row.number}  {row.keyword}  {detail}")
+    return EXIT_OK
 
 
 def run_parse(args: argparse.Namespace) -> int:

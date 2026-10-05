@@ -59,7 +59,7 @@ The keyword is the Zolai headword, spelled as it is written in running text.
 | `c` | category | code | yes | What kind of thing the keyword names. One or more codes from the category list. | `(c:land)` |
 | `w` | term | English | yes | English word or words with the same meaning as this sense of the keyword. Items of one row are interchangeable; a different meaning goes on its own row. | `(w:begin/start)` |
 | `d` | definition | English | no | English explanation of the meaning, used when no English term fits or in addition to one. May contain cross-references. | `(d:postpositional marker indicating place or time)` |
-| `e` | example | Zolai | yes | Zolai phrase or sentence that uses the keyword. The keyword is written as ~. Each item may end with \| and an English translation. | `(e:a kipat cil ~)` |
+| `e` | example | Zolai and English | yes | Zolai phrase or sentence that uses the keyword, followed by its English translation. Each item is written Zolai first, then \|, then English. The keyword is written as ~ in the Zolai. | `(e:a kipat cil ~ \| in the beginning)` |
 | `s` | synonym | Zolai keyword | yes | Keywords with the same meaning. Every item is a keyword that exists in the data. | `(s:leh)` |
 | `a` | antonym | Zolai keyword | yes | Keywords with the opposite meaning. Every item is a keyword that exists in the data. | `(a:lian)` |
 | `b` | base | Zolai keyword | no | The keyword this form is built from, for plural, suffixed and prefixed forms. One keyword that exists in the data. | `(b:vantung)` |
@@ -177,6 +177,7 @@ The check is run from the repository root with `python3 -m assist cite check`. I
 | E17 | error | name case | The keyword of a row of type name does not start with an uppercase letter or a digit. |
 | E18 | error | redirect | A row of type see has anything other than exactly one cross-reference after the type. |
 | E19 | error | file scope | A described row lacks an attribute value that its file requires. |
+| E20 | error | translation | An example item has no English translation after the Zolai. |
 | F01 | form | separator spacing | The separator is not written as one space, =, one space. |
 | F02 | form | spacing | The line has leading or trailing spaces, repeated spaces, spaces inside the parentheses or around a list separator, or a translation separator not written as one space, \|, one space. |
 | F03 | form | attribute order | The attributes are not in the configured order. |
@@ -192,18 +193,18 @@ Valid rows:
 kipan
 kisin
 
-kipat = (t:v) (w:begin/start/open/first) (e:a ~ cil) (s:kipan/kisin)
-in = (t:ppm) (d:postpositional marker indicating place or time) (e:a kipat cil ~)
+kipat = (t:v) (w:begin/start/open/first) (e:a ~ cil | in the beginning) (s:kipan/kisin)
+in = (t:ppm) (d:postpositional marker indicating place or time) (e:a kipat cil ~ | in the beginning)
 vantung = (t:n) (w:heaven) the promised land
 vantung = (t:n) (w:sky) the upper atmosphere
 vantungte = (t:n) (w:heavens) (b:vantung)
-hih = (t:pron) (w:this) (e:~ mun ah ding in)
-hihte = (t:pron) (w:these) (e:~ pen Pasian nasepna hi) (b:hih)
+hih = (t:pron) (w:this) (e:~ mun ah ding in | stand in this place)
+hihte = (t:pron) (w:these) (e:~ pen Pasian nasepna hi | these are the work of God) (b:hih)
 khat = (t:num) (w:one) (e:ni ~ | one day)
 bilpi = (t:n) (c:animal) (w:hare)
-Eden = (t:name) (c:land) (w:Eden) (e:~ huan)
+Eden = (t:name) (c:land) (w:Eden) (e:~ huan | the garden of Eden)
 Abraham = (t:name) (c:male) (w:Abraham) (r:1.17.5)
-Sote = (t:name) (c:beh) (w:Sote) (e:nang bang beh? kei ~ hi ing) (v:Shoute)
+Sote = (t:name) (c:beh) (w:Sote) (e:nang bang beh? kei ~ hi ing | what clan are you? I am Sote) (v:Shoute)
 khawlei-uikai = (t:n) (w:the Bear)
 khawlei = (t:see) <khawlei-uikai>
 singnai = (t:n) (w:honeydew) (q:meaning not confirmed)
@@ -220,6 +221,7 @@ Invalid rows:
 | `saupi = (t:adjective) (w:long)` | E08 | Type not in the list. |
 | `mial = (t:adv)` | E10 | Neither `w` nor `d`. |
 | `khat = (t:num) (w:one) (e:ni khat)` | E11 | Example without `~`. |
+| `khat = (t:num) (w:one) (e:ni ~)` | E20 | Example without an English translation. |
 | `hiah = (t:adv) (w:here) of <place>` | E13 | `place` is not a keyword in the data. |
 | `eden = (t:name) (c:land) (w:Eden)` | E17 | Name keyword in lowercase. |
 | `vantung=(t:n) (w:heaven)` | F01 | Separator without spaces. |

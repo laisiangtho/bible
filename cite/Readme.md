@@ -25,6 +25,7 @@ python3 -m assist cite lookup beersheba       # hyphens, spaces and capitals are
 python3 -m assist cite lookup --english heaven
 python3 -m assist cite search kipat cil       # verses with the word, and parallel verses
 python3 -m assist cite todo --limit 100       # most frequent words without a row
+python3 -m assist cite examples               # rows whose examples do not yet show every English term
 python3 -m assist cite parse > cite.json      # every row as JSON, only when the check passes
 python3 -m unittest discover -s assist/tests -t .
 ```
@@ -45,6 +46,7 @@ Exit status: `0` success, `1` findings or nothing found, `2` a condition that st
 - A row without `q` is confirmed by a speaker of the language.
 - A row with `(q:draft)` was drafted from the Bible text and is not yet confirmed; `(q:draft, low confidence)` marks thin evidence. A row is confirmed by correcting it where needed and removing `q`.
 - `r` names the verses that show the sense. An example `e` taken from the Bible text is an exact fragment of one of them.
+- An example is written Zolai first, then ` | `, then its English translation. Every English term of `w` is meant to be shown by three examples whose translation uses that term; `examples` lists the rows that fall short. A word that is rare in the Bible text stays short until a speaker adds examples.
 - A row of type `todo` marks a word whose meaning could not be told from the verses; its `q` says why.
 - A row of type `see` redirects a form that occurs only as one part of a hyphenated word to the full word, as `ersheba` to `Be-ersheba`. A redirect carries no `q`.
 - Draft rows for words that occur 5 times or more were read a second time against the verses. Draft rows for words that occur 1 to 4 times were read once.
