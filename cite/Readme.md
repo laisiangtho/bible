@@ -12,6 +12,7 @@ Source of the Zolai–English dictionary. One row describes one sense of one Zol
 | `ctd-*.example.cite` | The examples of each data file, one row per example, keyed by sense. |
 | `ext/ctd-*.cite` | Terms and definitions in a further language, keyed by sense. Optional. |
 | `index/` | Generated keyword index and English term index. Never edited by hand. |
+| `ctd-core-notes.txt` | English concepts of the core lexicon that still lack a Zolai keyword. |
 | `ctd-draft-notes.txt` | Notes for the editor left while rows were drafted and enriched: senses left out, doubtful types, suspected misprints in the Bible text. |
 
 ## Commands
@@ -55,6 +56,7 @@ Each data file is sorted by keyword.
 - A row with `(q:draft)` was drafted from the Bible text and is not yet confirmed; `(q:draft, low confidence)` marks thin evidence. A row is confirmed by correcting it where needed and removing `q`.
 - `r` names where a sense or an example is attested: a Bible verse or a listed source. An example taken from the Bible text is an exact fragment of the verse in its `r`.
 - An example row is written Zolai first, then ` | `, then its English translation. Every English term of `w` is meant to be shown by three examples whose translation uses that term; `examples` lists the rows that fall short. A word that is rare in the Bible text stays short until a speaker adds examples.
+- A core row drafted from dictionary data names its source in `r`, as in `(r:zai:money)`, and carries `(q:draft)` until a speaker confirms it.
 - A row of type `todo` marks a word whose meaning could not be told from the verses; its `q` says why.
 - A row of type `see` redirects a form that occurs only as one part of a hyphenated word to the full word, as `ersheba` to `Be-ersheba`. A redirect carries no `q`.
 - Draft rows for words that occur 5 times or more were read a second time against the verses. Draft rows for words that occur 1 to 4 times were read once.
