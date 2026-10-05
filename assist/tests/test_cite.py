@@ -333,6 +333,39 @@ class UpgradeTest(unittest.TestCase):
             upgrade.rename(CONFIG, data, "missing", "khaat")
 
 
+class MoveTest(unittest.TestCase):
+    def data(self):
+        def file(key, kind, text):
+            name = CONFIG.data_name(key) if kind == "lexicon" else CONFIG.example_name(key)
+            path = CONFIG.data_path(key) if kind == "lexicon" else CONFIG.example_path(key)
+            return store.DataFile(key, name, path, kind, text.split("\n"))
+
+        return store.Data(
+            [
+                file("core", "lexicon", "# core\nan = (i:1) (t:n) (w:food)\nnu = (i:2) (t:n) (w:aunt)"),
+                file("draft", "lexicon", "inn = (i:1) (t:n) (w:house)\nnu = (i:1) (t:n) (w:mother)\nzu = (i:1) (t:n) (w:wine)"),
+            ],
+            [file("draft", "example", "inn.1 = ~ sungah | in the house\nnu.1 = ka ~ | my mother\nzu.1 = ~ dawn | drink wine")],
+            [],
+        )
+
+    def test_senses_move_with_their_examples(self):
+        data = self.data()
+        changed = {file.name: lines for file, lines in upgrade.move(CONFIG, data, ["nu.1", "inn.1"], "core").items()}
+        self.assertEqual(changed[CONFIG.data_name("core")], [
+            "# core", "an = (i:1) (t:n) (w:food)", "inn = (i:1) (t:n) (w:house)",
+            "nu = (i:2) (t:n) (w:aunt)", "nu = (i:1) (t:n) (w:mother)",
+        ])
+        self.assertEqual(changed[CONFIG.data_name("draft")], ["zu = (i:1) (t:n) (w:wine)"])
+        self.assertEqual(changed[CONFIG.example_name("draft")], ["zu.1 = ~ dawn | drink wine"])
+        self.assertEqual(changed[CONFIG.example_name("core")], ["inn.1 = ~ sungah | in the house", "nu.1 = ka ~ | my mother"])
+
+    def test_unknown_key_and_no_change(self):
+        with self.assertRaises(configuration.CiteError):
+            upgrade.move(CONFIG, self.data(), ["nu.9"], "core")
+        self.assertEqual(upgrade.move(CONFIG, self.data(), ["an.1"], "core"), {})
+
+
 class IndexTest(unittest.TestCase):
     ROWS = rows_of(
         "Pasian = (i:1) (t:n) (w:God)\npasian = (i:1) (t:n) (w:god/idol)\n"

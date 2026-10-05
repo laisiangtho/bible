@@ -42,6 +42,12 @@ def register(groups: argparse._SubParsersAction) -> None:
     parser = command("index", run_index, "Generate the keyword index and the English term index.")
     parser.add_argument("--apply", action="store_true", help="write the files (default: dry run)")
 
+    parser = command("move", run_move, "Move senses, with their examples, to another data file.")
+    parser.add_argument("target", help="listed file that receives the senses, e.g. core")
+    parser.add_argument("key", nargs="*", help="sense key, e.g. khut.1")
+    parser.add_argument("--list", default="", help="text file with one sense key per line")
+    parser.add_argument("--apply", action="store_true", help="write the files (default: dry run)")
+
     parser = command("rename", run_rename, "Rename a keyword in every file that names it.")
     parser.add_argument("old", help="keyword as written now")
     parser.add_argument("new", help="keyword as it is to be written")
@@ -131,9 +137,11 @@ def _write(args: argparse.Namespace, config, changes, verb: str) -> int:
     total = 0
     for file, lines in changes.items():
         old = file.lines
-        changed = sum(1 for line in lines if line not in set(old)) if len(lines) != len(old) else sum(
-            1 for before, after in zip(old, lines) if before != after
-        )
+        if len(lines) == len(old):
+            changed = sum(1 for before, after in zip(old, lines) if before != after)
+        else:
+            before, after = Counter(old), Counter(lines)
+            changed = sum(((after - before) + (before - after)).values())
         total += changed
         if getattr(args, "diff", False) and changed:
             sys.stdout.writelines(
@@ -213,6 +221,25 @@ def run_index(args: argparse.Namespace) -> int:
     if not args.apply:
         print("dry run: nothing written. Add --apply to write.")
     return EXIT_OK
+
+
+def run_move(args: argparse.Namespace) -> int:
+    config = configuration.load()
+    data = store.load(config)
+    _readable(data)
+    keys = list(args.key)
+    if args.list:
+        try:
+            with open(args.list, encoding="utf-8") as stream:
+                keys.extend(line.strip() for line in stream if line.strip() and not line.startswith("#"))
+        except OSError as error:
+            raise configuration.CiteError(f"cannot read the list: {error}") from error
+    if not keys:
+        raise configuration.CiteError("no sense key is given")
+    result = _write(args, config, upgrade.move(config, data, keys, args.target), "move")
+    if args.apply:
+        print("Then: python3 -m assist cite index --apply")
+    return result
 
 
 def run_rename(args: argparse.Namespace) -> int:

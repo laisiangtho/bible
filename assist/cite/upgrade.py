@@ -133,6 +133,80 @@ def upgrade(config: Config, data: Data, locate: Locate) -> Dict[DataFile, List[s
     return result
 
 
+def sort_key(keyword: str) -> Tuple[str, str]:
+    """Order of keywords in a data file: letters first, lowercase before uppercase."""
+    return keyword.casefold(), keyword.swapcase()
+
+
+def _ordered(lines: List[str], position: Dict[str, int]) -> List[str]:
+    comments = [line for line in lines if line.startswith(markup.COMMENT)]
+    rows = [line for line in lines if markup.is_row(line)]
+    rows.sort(key=lambda line: position.get(markup.parse(line).keyword, len(position)))
+    return comments + rows
+
+
+def move(config: Config, data: Data, keys: List[str], target: str) -> Dict[DataFile, List[str]]:
+    """New lines of every file when the senses named by ``keys`` move to the data file ``target``.
+
+    A sense moves with its examples and keeps its sense key. The target file
+    stays sorted by keyword; a moved row follows the rows its keyword already
+    has there.
+    """
+    if target not in config.files:
+        raise CiteError(f"'{target}' is not a listed file; listed: {', '.join(config.files)}")
+    wanted = list(dict.fromkeys(keys))
+    home: Dict[str, Tuple[DataFile, str]] = {}
+    for file in data.files:
+        for row in file.rows():
+            key = markup.row_key(row)
+            if key in wanted:
+                home[key] = (file, row.line)
+    missing = [key for key in wanted if key not in home]
+    if missing:
+        raise CiteError(f"no row has the sense key: {', '.join(missing)}")
+    goal = next(file for file in data.files if file.key == target)
+    moving = [key for key in wanted if home[key][0] is not goal]
+    if not moving:
+        return {}
+    taken = {key: home[key][1] for key in moving}
+    lines: Dict[DataFile, List[str]] = {}
+    for file in {home[key][0] for key in moving}:
+        gone = {taken[key] for key in moving if home[key][0] is file}
+        lines[file] = [line for line in file.lines if line not in gone]
+    comments = [line for line in goal.lines if not markup.is_row(line)]
+    rows = [line for line in goal.lines if markup.is_row(line)] + [taken[key] for key in moving]
+    rows.sort(key=lambda line: sort_key(markup.parse(line).keyword))
+    lines[goal] = comments + rows
+
+    sides = data.examples_by_file
+    carried: List[str] = []
+    moved = set(moving)
+    for file in data.files:
+        side = sides.get(file.key)
+        if side is None or file is goal:
+            continue
+        kept = []
+        for line in side.lines:
+            if markup.is_row(line) and markup.parse(line).keyword in moved:
+                carried.append(line)
+            else:
+                kept.append(line)
+        if kept != side.lines:
+            lines[side] = kept
+    side = sides.get(target) or DataFile(
+        target, config.example_name(target), config.example_path(target), "example"
+    )
+    if carried or side.lines:
+        position: Dict[str, int] = {}
+        for line in lines[goal]:
+            if markup.is_row(line):
+                position.setdefault(markup.row_key(markup.parse(line)), len(position))
+        new = _ordered(side.lines + carried, position)
+        if new != side.lines:
+            lines[side] = new
+    return lines
+
+
 def rename(config: Config, data: Data, old: str, new: str) -> Dict[DataFile, List[str]]:
     """New lines of every file in which the keyword ``old`` becomes ``new``."""
     if not config.keyword.match(new):
