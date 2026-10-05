@@ -510,6 +510,51 @@ class ExamplesTest(unittest.TestCase):
         self.assertFalse(examples.measurable(CONFIG, markup.parse("Eden = (i:1) (t:name) (w:Eden)")))
 
 
+class LinkTest(unittest.TestCase):
+    ROWS = "nu = (i:1) (t:n) (w:mother)\npa = (i:1) (t:n) (w:father)"
+
+    def found(self, line):
+        links = [markup.parse(line, "ext/eng-ctd.cite", 1)]
+        return {finding.rule for finding in rules.check_rows(CONFIG, rows_of(self.ROWS), links=links)}
+
+    def test_valid_link(self):
+        self.assertEqual(self.found("mom = nu.1 (r:moby:mother) (q:draft)"), set())
+        self.assertEqual(self.found("parent = nu.1/pa.1"), set())
+
+    def test_word_that_is_a_term_is_not_linked(self):
+        self.assertEqual(self.found("mother = nu.1"), {"E24"})
+
+    def test_unknown_or_repeated_sense_key(self):
+        self.assertEqual(self.found("mom = nu.2"), {"E24"})
+        self.assertEqual(self.found("mom = nu.1/nu.1"), {"E24"})
+
+    def test_only_reference_and_query_are_allowed(self):
+        self.assertIn("E05", self.found("mom = nu.1 (w:mother)"))
+        self.assertIn("E15", self.found("mom = nu.1 (r:unknown:mother)"))
+
+    def test_word_is_lowercase(self):
+        self.assertIn("E02", self.found("Mom = nu.1"))
+
+    def test_canonical_form(self):
+        row = markup.parse("mom=nu.1 / pa.1 (q:draft)(r:moby:mother)")
+        self.assertEqual(markup.canonical_link(CONFIG, row), "mom = nu.1/pa.1 (r:moby:mother) (q:draft)")
+
+    def test_lookup_falls_back_to_the_link(self):
+        rows = rows_of(self.ROWS)
+        link, senses = query.linked(CONFIG, rows, [markup.parse("mom = nu.1")], "Mom")
+        self.assertEqual([row.keyword for row in senses], ["nu"])
+        self.assertIsNone(query.linked(CONFIG, rows, [], "mom"))
+
+    def test_rename_follows_into_the_link_file(self):
+        data = store.load(CONFIG)
+        if not data.links:
+            self.skipTest("no link file")
+        key = markup.link_keys(data.link_rows()[0])[0]
+        old = markup.split_key(key)[0]
+        changes = upgrade.rename(CONFIG, data, old, old + "x")
+        self.assertIn(data.links[0], changes)
+
+
 class DocumentTest(unittest.TestCase):
     """Markup.md repeats the configuration; the two are kept identical."""
 

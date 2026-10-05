@@ -85,7 +85,9 @@ def _writing(parser: argparse.ArgumentParser) -> None:
 
 def _findings(config, data: store.Data) -> List[rules.Finding]:
     found = [finding for file in data.every_file() for finding in file.findings]
-    found.extend(rules.check_rows(config, data.rows(), data.example_rows(), data.translation_rows()))
+    found.extend(rules.check_rows(
+        config, data.rows(), data.example_rows(), data.translation_rows(), data.link_rows()
+    ))
     if all(file.readable for file in data.files):
         found.extend(rules.Finding(name, 0, "F06", "run 'python3 -m assist cite index --apply'")
                      for name in index.stale(config, data.rows()))
@@ -174,6 +176,8 @@ def _format_line(config, kind: str, line: str) -> str:
         return markup.canonical_example(row) or line
     if kind == "translation":
         return markup.canonical_translation(config, row) or line
+    if kind == "link":
+        return markup.canonical_link(config, row) or line
     return markup.canonical(config, row) or line
 
 
@@ -286,6 +290,15 @@ def run_lookup(args: argparse.Namespace) -> int:
         ))
     elif found:
         print("\n\n".join(query.describe(config, row, shown(row)) for row in found))
+    if not found and args.english and not args.json:
+        linked = query.linked(config, data.rows(), data.link_rows(), text)
+        if linked:
+            row, senses = linked
+            note = row.values().get("q")
+            print(f"no sense has the term '{text}'; closest senses, from {row.file}"
+                  + (f" ({note})" if note else "") + ":\n")
+            print("\n\n".join(query.describe(config, sense, shown(sense)) for sense in senses))
+            return EXIT_OK
     if not found:
         kind = "English term" if args.english else "keyword"
         print(f"no row for {kind} '{text}'", file=sys.stderr)

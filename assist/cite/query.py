@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass
-from typing import Dict, List, Sequence, Tuple
+from typing import Dict, List, Optional, Sequence, Tuple
 
 from assist.cite import bible, markup, words
 from assist.cite.config import CiteError, Config
@@ -45,6 +45,18 @@ def lookup(config: Config, rows: List[Row], query: str, english: bool = False) -
         return joined
     word = re.compile(rf"(?<!\w){re.escape(folded)}(?!\w)")
     return [row for row in rows if any(word.search(c.casefold()) for c in candidates(row))]
+
+
+def linked(
+    config: Config, rows: List[Row], links: List[Row], query: str
+) -> Optional[Tuple[Row, List[Row]]]:
+    """The link row of an English word and the senses it names, in the order written."""
+    word = markup.collapse(query).casefold()
+    for link in links:
+        if link.described and link.keyword == word:
+            by_key = {markup.row_key(row): row for row in rows}
+            return link, [by_key[key] for key in markup.link_keys(link) if key in by_key]
+    return None
 
 
 def squash(text: str) -> str:

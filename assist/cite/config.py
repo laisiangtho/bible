@@ -81,6 +81,12 @@ class Config:
     def translation_path(self, code: str) -> Path:
         return self.directory / self.translation_name(code)
 
+    def link_name(self) -> str:
+        return self.raw["format"]["link"].format(language=self.language, extension=self.extension)
+
+    def link_path(self) -> Path:
+        return self.directory / self.link_name()
+
     def index_path(self, code: str) -> Path:
         return self.directory / self.raw["format"]["index"].format(code=code)
 
@@ -158,6 +164,7 @@ def load(path: Optional[Path] = None) -> Config:
             raise CiteError(f"configuration: code '{code}' is not lowercase letters and digits")
     for template, parts in (("example", ("{language}", "{file}", "{extension}")),
                             ("translation", ("{language}", "{code}", "{extension}")),
+                            ("link", ("{language}", "{extension}")),
                             ("index", ("{code}",))):
         value = _need(raw["format"], template, str, "format")
         for part in parts:

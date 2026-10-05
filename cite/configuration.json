@@ -28,6 +28,7 @@
     "separator": "=",
     "example": "{language}-{file}.example{extension}",
     "translation": "ext/{language}-{code}{extension}",
+    "link": "ext/eng-{language}{extension}",
     "index": "index/{code}.txt"
   },
   "file": {
@@ -498,6 +499,11 @@
       "name": "zolai-ai merged dictionary",
       "description": "English to Zolai dictionary data of the zolai-ai project, merged there from the dictionaries of Thang Khan Dal, Dal Lian Haokip, Mang Cin Pau Gualnam and the ZomiDictionary application. The locator is the English headword.",
       "url": "https://github.com/peterlianpi/zolai-ai"
+    },
+    "moby": {
+      "name": "Moby Thesaurus",
+      "description": "Moby Thesaurus by Grady Ward, public domain. Relates an English word to English words of similar meaning. The locator is the English term of a sense through which the linked word was found.",
+      "url": "https://www.gutenberg.org/ebooks/3202"
     }
   },
   "translation": {
@@ -509,6 +515,13 @@
       "name": "Norwegian",
       "description": "Terms and definitions in Norwegian Bokmål."
     }
+  },
+  "link": {
+    "description": "English words that are not a term of any sense, each linked to the closest senses. A row is the English word in lowercase, the separator and one or more sense keys, the closest first, optionally followed by the attributes r and q. A link does not state that the meanings are equal; it sends a reader to the nearest keyword.",
+    "attribute": [
+      "r",
+      "q"
+    ]
   },
   "example": {
     "description": "Examples are kept beside each data file in an example file. A row is a sense key, the separator, the Zolai example with the keyword written as ~, the translation separator and the English translation, optionally followed by the attribute r naming where the example comes from. A sense may have any number of example rows.",
@@ -815,6 +828,12 @@
       "level": "error",
       "name": "unresolved sense",
       "description": "The key of an example row or of a translation row is not the sense key of a row in the data files."
+    },
+    {
+      "id": "E24",
+      "level": "error",
+      "name": "link",
+      "description": "A link row names a word that is already a term of a sense, no sense key, a sense key that is not in the data files, or the same sense key twice."
     },
     {
       "id": "F01",
