@@ -10,7 +10,7 @@ import re
 import unittest
 
 from assist.cite import config as configuration
-from assist.cite import convert, examples, markup, query, rules, words
+from assist.cite import convert, examples, index, markup, query, rules, store, upgrade, words
 
 CONFIG = configuration.load()
 MAIN = CONFIG.data_name("draft")
@@ -22,15 +22,39 @@ def rows_of(text: str, file: str = MAIN):
     return [markup.parse(line, file, n) for n, line in enumerate(lines, 1) if markup.is_row(line)]
 
 
+def numbered(text: str) -> str:
+    """The rows with a sense number added where a described row has none."""
+    counts = {}
+    lines = []
+    for line in text.strip("\n").split("\n"):
+        if "=" in line and "(i:" not in line and "(t:see)" not in line and "(t:todo)" not in line:
+            keyword = line.split("=")[0].strip()
+            counts[keyword] = counts.get(keyword, 0) + 1
+            head, rest = line.split("=", 1)
+            gap = rest[: len(rest) - len(rest.lstrip())]
+            line = f"{head}={gap}(i:{counts[keyword]}) {rest.lstrip()}" if rest.strip() else line
+        lines.append(line)
+    return "\n".join(lines)
+
+
 def rule_ids(text: str, file: str = MAIN):
-    return sorted({finding.rule for finding in rules.check_rows(CONFIG, rows_of(text, file))})
+    return sorted({finding.rule for finding in rules.check_rows(CONFIG, rows_of(numbered(text), file))})
+
+
+def example_rows(text: str, file: str = "examples"):
+    return rows_of(text, file)
+
+
+def example_rule_ids(rows: str, examples_text: str):
+    found = rules.check_rows(CONFIG, rows_of(rows), example_rows(examples_text))
+    return sorted({finding.rule for finding in found})
 
 
 class ConfigurationTest(unittest.TestCase):
     def test_attributes_are_in_configured_order(self):
         orders = [attribute.order for attribute in CONFIG.attributes.values()]
         self.assertEqual(orders, sorted(orders))
-        self.assertEqual(next(iter(CONFIG.attributes)), "t")
+        self.assertEqual(list(CONFIG.attributes)[:2], ["i", "t"])
 
     def test_alias_and_file_requirements_use_listed_codes(self):
         for target in CONFIG.alias.values():
@@ -40,6 +64,11 @@ class ConfigurationTest(unittest.TestCase):
         for entry in CONFIG.files.values():
             for key, value in entry.get("require", {}).items():
                 self.assertIn(value, CONFIG.types if key == "t" else CONFIG.categories)
+
+    def test_file_templates_name_distinct_files(self):
+        self.assertEqual(CONFIG.data_name("core"), "ctd-core.cite")
+        self.assertEqual(CONFIG.example_name("core"), "ctd-core.example.cite")
+        self.assertEqual(CONFIG.translation_name("mya"), "ext/ctd-mya.cite")
 
     def test_attribute_examples_parse(self):
         for key, entry in CONFIG.raw["attribute"].items():
@@ -75,28 +104,38 @@ class MarkupTest(unittest.TestCase):
         self.assertEqual(row.values()["d"], "x = y")
 
     def test_canonical_form(self):
-        row = markup.parse("kipat=(e:a ~ cil|in the beginning)  early stage (w: begin / start) (t:v)")
+        row = markup.parse("kipat=(s:kipan / kisin)  early stage (w: begin / start) (t:v)(i:1)")
         self.assertTrue(row.text_before_attribute)
         self.assertEqual(
             markup.canonical(CONFIG, row),
-            "kipat = (t:v) (w:begin/start) (e:a ~ cil | in the beginning) early stage",
+            "kipat = (i:1) (t:v) (w:begin/start) (s:kipan/kisin) early stage",
         )
 
-    def test_canonical_translation_separator(self):
-        row = markup.parse("khat = (t:num) (w:one) (e:ni ~|one day)")
-        self.assertEqual(markup.canonical(CONFIG, row), "khat = (t:num) (w:one) (e:ni ~ | one day)")
+    def test_canonical_example_row(self):
+        row = markup.parse("khat.1=ni ~|one day  (r: 1.1.5)")
+        self.assertEqual(markup.canonical_example(row), "khat.1 = ni ~ | one day (r:1.1.5)")
+        self.assertIsNone(markup.canonical_example(markup.parse("khat.1 = ni ~")))
+
+    def test_sense_key(self):
+        self.assertEqual(markup.split_key("ahih hangin.12"), ("ahih hangin", "12"))
+        self.assertIsNone(markup.split_key("khat"))
+        self.assertIsNone(markup.split_key("khat.0"))
+        self.assertEqual(markup.row_key(markup.parse("khat = (i:2) (t:num) (w:first)")), "khat.2")
+        self.assertEqual(markup.row_key(markup.parse("khat")), "")
 
     def test_row_with_structural_error_is_not_rewritten(self):
         for line in ("x = (t:n) (w:a) (note)", "x = (t:n) (w:a) (w:b)", "x = (t:n) (z:a)", "x ="):
             self.assertIsNone(markup.canonical(CONFIG, markup.parse(line)), line)
 
     def test_record(self):
-        row = markup.parse("khat = (t:num) (w:one/first) (e:ni ~ | one day)", MAIN, 7)
+        row = markup.parse("khat = (i:1) (t:num) (w:one/first)", MAIN, 7)
+        shown = [markup.example(markup.parse("khat.1 = ni ~ | one day (r:1.1.5)"))]
         self.assertEqual(
-            markup.record(CONFIG, row),
+            markup.record(CONFIG, row, shown),
             {
-                "keyword": "khat", "file": MAIN, "line": 7, "t": "num",
-                "w": ["one", "first"], "e": [{"text": "ni ~", "translation": "one day"}],
+                "keyword": "khat", "file": MAIN, "line": 7, "key": "khat.1", "i": 1, "t": "num",
+                "w": ["one", "first"],
+                "example": [{"text": "ni ~", "translation": "one day", "r": ["1.1.5"]}],
             },
         )
 
@@ -112,14 +151,14 @@ class RuleTest(unittest.TestCase):
         "E08": "saupi = (t:adjective) (w:long)",
         "E09": "Eden = (t:name) (c:garden) (w:Eden)",
         "E10": "mial = (t:adv)",
-        "E11": "khat = (t:num) (w:one) (e:ni khat)",
+        "E11": "khat = (t:num) (w:one) ni ~",
         "E12": "hiah = (t:adv) (w:<here>)",
         "E13": "leh = (t:conj) (w:and) (s:ale)",
         "E14": "Sote = (t:name) (w:Sote) (v:Sho_ute)",
         "E15": "Eden = (t:name) (w:Eden) (r:Genesis 2)",
         "E17": "eden = (t:name) (w:Eden)",
         "E18": "khawlei = (t:see) (w:bear)",
-        "E20": "khat = (t:num) (w:one) (e:ni ~)",
+        "E22": "sum = (t:n) (f:finance) (w:money)",
         "F01": "vantung=(t:n) (w:heaven)",
         "F02": "vantung = (t:n)  (w:heaven)",
         "F03": "vantung = (w:heaven) (t:n)",
@@ -135,7 +174,21 @@ class RuleTest(unittest.TestCase):
 
     def test_placeholder_outside_example(self):
         self.assertIn("E11", rule_ids("Eden = (t:name) (w:Eden) ~ huan"))
-        self.assertIn("E11", rule_ids("khat = (t:num) (w:one) (e:ni ~ | a | b)"))
+        self.assertIn("E11", rule_ids("khat = (t:num) (w:one) (d:one | first)"))
+
+    def test_sense_number(self):
+        self.assertEqual(rule_ids("khat = (t:num) (w:one)\nkhat = (t:num) (w:first)"), [])
+        text = "khat = (i:1) (t:num) (w:one)\nkhat = (i:1) (t:num) (w:first)"
+        self.assertEqual(sorted({f.rule for f in rules.check_rows(CONFIG, rows_of(text))}), ["E21"])
+        for line in ("khat = (t:num) (w:one)", "khat = (i:0) (t:num) (w:one)", "khat = (i:x) (t:num) (w:one)"):
+            self.assertEqual([f.rule for f in rules.check_rows(CONFIG, rows_of(line))], ["E21"], line)
+        self.assertEqual(rules.check_rows(CONFIG, rows_of("khat = (t:todo) (q:unclear)")), [])
+
+    def test_reference_forms(self):
+        for value in ("1.1.1", "66.22.21", "1.2.4-6", "zai", "zai:market", "zai:a number of"):
+            self.assertEqual(rule_ids(f"sum = (t:n) (w:money) (r:{value})"), [], value)
+        for value in ("67.1.1", "Genesis 2", "book:12", "zai:", "zai:a/b"):
+            self.assertIn("E15", rule_ids(f"sum = (t:n) (w:money) (r:{value})"), value)
 
     def test_duplicate(self):
         text = "gen = (t:v) (w:tell)\ngen = (t:v) (w:tell)"
@@ -168,6 +221,136 @@ class RuleTest(unittest.TestCase):
         for line in self.CASES.values():
             for finding in rules.check_rows(CONFIG, rows_of(line)):
                 self.assertIn(finding.rule, CONFIG.rules)
+
+
+class ExampleRuleTest(unittest.TestCase):
+    ROWS = "khat = (i:1) (t:num) (w:one)\nkhat = (i:2) (t:num) (w:first)"
+
+    def test_valid_example(self):
+        self.assertEqual(example_rule_ids(self.ROWS, "khat.1 = ni ~ | one day (r:1.1.5)\nkhat.2 = ni ~ ni | the first day"), [])
+
+    def test_each_rule_is_reported(self):
+        cases = {
+            "E03": "khat.1",
+            "E04": "khat.1 = ni ~ (one) | one day",
+            "E05": "khat.1 = ni ~ | one day (q:sure)",
+            "E11": "khat.1 = ni khat | one day",
+            "E12": "khat.1 = ni ~ | one <ni>",
+            "E15": "khat.1 = ni ~ | one day (r:Genesis 1)",
+            "E16": "khat.1 = ni ~ | one day\nkhat.1 = Ni ~ | a day",
+            "E20": "khat.1 = ni ~",
+            "E23": "khat.3 = ni ~ | one day",
+            "F02": "khat.1 = ni ~|one day",
+        }
+        for rule, text in cases.items():
+            self.assertEqual(example_rule_ids(self.ROWS, text), [rule], text)
+        self.assertEqual(example_rule_ids(self.ROWS, "khat = ni ~ | one day"), ["E23"])
+        self.assertEqual(example_rule_ids(self.ROWS, "khat.1 = ni ~ | a | b"), ["E11"])
+
+    def test_translation_rows(self):
+        def ids(text):
+            found = rules.check_rows(CONFIG, rows_of(self.ROWS), (), rows_of(text, "ext/ctd-mya.cite"))
+            return sorted({finding.rule for finding in found})
+
+        self.assertEqual(ids("khat.1 = (w:တစ်)\nkhat.2 = (w:ပထမ) (d:x)"), [])
+        self.assertEqual(ids("khat.9 = (w:တစ်)"), ["E23"])
+        self.assertEqual(ids("khat.1 = (t:num) (w:တစ်)"), ["E05"])
+        self.assertEqual(ids("khat.1 = (w:တစ်)\nkhat.1 = (w:တစ်)"), ["E16"])
+        self.assertEqual(ids("khat.1 = တစ်"), ["E04", "E10"])
+
+
+class UpgradeTest(unittest.TestCase):
+    def data(self, lexicon: str, side: str = ""):
+        file = store.DataFile("draft", MAIN, CONFIG.data_path("draft"), "lexicon", lexicon.split("\n"))
+        files = [file]
+        sides = []
+        if side:
+            sides.append(store.DataFile(
+                "draft", CONFIG.example_name("draft"), CONFIG.example_path("draft"), "example", side.split("\n")
+            ))
+        return store.Data(files, sides, [])
+
+    def locate(self, keyword, zolai, references):
+        return "1.1.5" if zolai.strip() == "ni ~" and "1.1.5" in references else None
+
+    def lines(self, changes):
+        return {file.name: lines for file, lines in changes.items()}
+
+    def test_numbers_and_examples(self):
+        data = self.data(
+            "# head\nkhat = (t:num) (w:one) (e:ni ~ | one day/mi ~ | one man) (r:1.1.5/1.2.1)\n"
+            "khat = (i:4) (t:num) (w:first)\nkhat = (t:num) (w:single)\nkipan\nx = (t:see) <khat>"
+        )
+        changed = self.lines(upgrade.upgrade(CONFIG, data, self.locate))
+        self.assertEqual(changed[MAIN], [
+            "# head",
+            "khat = (i:5) (t:num) (w:one) (r:1.2.1)",
+            "khat = (i:4) (t:num) (w:first)",
+            "khat = (i:6) (t:num) (w:single)",
+            "kipan",
+            "x = (t:see) <khat>",
+        ])
+        self.assertEqual(changed[CONFIG.example_name("draft")], [
+            "khat.5 = ni ~ | one day (r:1.1.5)",
+            "khat.5 = mi ~ | one man",
+        ])
+
+    def test_upgrade_is_idempotent_and_keeps_order(self):
+        data = self.data(
+            "khat = (i:1) (t:num) (w:one)\nnih = (i:1) (t:num) (w:two)",
+            "# examples\nnih.1 = ni ~ | two days\nkhat.1 = ni ~ | one day",
+        )
+        changed = self.lines(upgrade.upgrade(CONFIG, data, self.locate))
+        self.assertEqual(changed, {CONFIG.example_name("draft"): [
+            "# examples", "khat.1 = ni ~ | one day", "nih.1 = ni ~ | two days",
+        ]})
+        data.examples[0].lines = changed[CONFIG.example_name("draft")]
+        self.assertEqual(upgrade.upgrade(CONFIG, data, self.locate), {})
+
+    def test_example_without_translation_stops_the_upgrade(self):
+        with self.assertRaises(configuration.CiteError):
+            upgrade.upgrade(CONFIG, self.data("khat = (t:num) (w:one) (e:ni ~)"), self.locate)
+
+    def test_rename(self):
+        data = self.data(
+            "khat = (i:1) (t:num) (w:one) (s:pumkhat)\npumkhat = (i:1) (t:num) (w:one) (s:khat) see <khat>\n"
+            "khatna = (i:1) (t:num) (w:first) (b:khat)\nkhat ni",
+            "khat.1 = ni ~ | one day\nkhatna.1 = a ~ | the first",
+        )
+        changed = self.lines(upgrade.rename(CONFIG, data, "khat", "khaat"))
+        self.assertEqual(changed[MAIN], [
+            "khaat = (i:1) (t:num) (w:one) (s:pumkhat)",
+            "pumkhat = (i:1) (t:num) (w:one) (s:khaat) see <khaat>",
+            "khatna = (i:1) (t:num) (w:first) (b:khaat)",
+            "khat ni",
+        ])
+        self.assertEqual(changed[CONFIG.example_name("draft")], [
+            "khaat.1 = ni ~ | one day", "khatna.1 = a ~ | the first",
+        ])
+        with self.assertRaises(configuration.CiteError):
+            upgrade.rename(CONFIG, data, "khat", "pumkhat")
+        with self.assertRaises(configuration.CiteError):
+            upgrade.rename(CONFIG, data, "missing", "khaat")
+
+
+class IndexTest(unittest.TestCase):
+    ROWS = rows_of(
+        "Pasian = (i:1) (t:n) (w:God)\npasian = (i:1) (t:n) (w:god/idol)\n"
+        "ze-et = (i:1) (t:v) (w:test) (v:zeet/ze et)\nkipan\nkipan = (i:1) (t:v) (w:begin)\nkisin"
+    )
+
+    def body(self, text):
+        return [line for line in text.split("\n") if line and not line.startswith("#")]
+
+    def test_keyword_index(self):
+        self.assertEqual(self.body(index.keyword_index(CONFIG, self.ROWS)), [
+            "kipan\tkipan.1", "kisin\tkisin", "pasian\tPasian.1\tpasian.1", "zeet\tze-et.1",
+        ])
+
+    def test_term_index(self):
+        self.assertEqual(self.body(index.term_index(CONFIG, self.ROWS)), [
+            "begin\tkipan.1", "god\tPasian.1\tpasian.1", "idol\tpasian.1", "test\tze-et.1",
+        ])
 
 
 class ConvertTest(unittest.TestCase):
@@ -265,8 +448,9 @@ class QueryTest(unittest.TestCase):
 
 
 class ExamplesTest(unittest.TestCase):
-    def measure(self, line):
-        return examples.measure(CONFIG, markup.parse(line))
+    def measure(self, line, text):
+        shown = [markup.example(row) for row in rows_of(text)]
+        return examples.measure(CONFIG, markup.parse(line), shown)
 
     def test_inflected_forms_count_for_a_term(self):
         self.assertTrue(examples.uses("ask", "he asked them"))
@@ -275,17 +459,22 @@ class ExamplesTest(unittest.TestCase):
         self.assertFalse(examples.uses("ask", "he inquired of them"))
 
     def test_examples_are_counted_per_term(self):
-        measured = self.measure("dong = (t:v) (w:ask/inquire) (e:a ~ hi | he asked/ka ~ hi | I asked)")
+        measured = self.measure(
+            "dong = (i:1) (t:v) (w:ask/inquire)", "dong.1 = a ~ hi | he asked\ndong.1 = ka ~ hi | I asked"
+        )
         self.assertEqual(measured.terms, (("ask", 2), ("inquire", 0)))
         self.assertEqual(measured.short, [("ask", 2), ("inquire", 0)])
         self.assertFalse(measured.complete)
 
     def test_three_examples_per_term_complete_a_row(self):
-        measured = self.measure("khat = (t:num) (w:one) (e:ni ~ | one day/mi ~ | one man/inn ~ | one house)")
+        measured = self.measure(
+            "khat = (i:1) (t:num) (w:one)",
+            "khat.1 = ni ~ | one day\nkhat.1 = mi ~ | one man\nkhat.1 = inn ~ | one house",
+        )
         self.assertTrue(measured.complete)
 
     def test_names_are_not_measured(self):
-        self.assertFalse(examples.measurable(CONFIG, markup.parse("Eden = (t:name) (w:Eden)")))
+        self.assertFalse(examples.measurable(CONFIG, markup.parse("Eden = (i:1) (t:name) (w:Eden)")))
 
 
 class DocumentTest(unittest.TestCase):
@@ -300,7 +489,7 @@ class DocumentTest(unittest.TestCase):
 
     def test_every_code_and_description_is_documented(self):
         raw = CONFIG.raw
-        for table in ("attribute", "type", "category"):
+        for table in ("attribute", "type", "category", "field", "source", "translation"):
             for code, entry in raw[table].items():
                 self.assertIn(f"| `{code}` |", self.text, f"{table} {code}")
                 self.assertIn(self.cell(entry["description"]), self.text, f"{table} {code}")
@@ -312,20 +501,45 @@ class DocumentTest(unittest.TestCase):
             self.assertIn(f"| `(t:{old})` | {new} |", self.text)
         self.assertIn(raw["keyword"]["pattern"], self.text)
 
+    def blocks(self):
+        parts = self.text.split("Valid rows:")[1].split("```text\n")
+        return parts[1].split("```")[0], parts[2].split("```")[0]
+
+    def cases(self, title):
+        table = self.text.split(title)[1].split("\n\n")[1]
+        found = re.findall(r"^\| `(.+?)` \| ([EF]\d\d) \|", table, re.M)
+        return [(line.replace("\\|", "|"), rule) for line, rule in found]
+
     def test_valid_examples_pass(self):
-        block = self.text.split("Valid rows:")[1].split("```text\n")[1].split("```")[0]
-        self.assertEqual(rules.check_rows(CONFIG, rows_of(block)), [])
+        block, side = self.blocks()
+        self.assertEqual(rules.check_rows(CONFIG, rows_of(block), example_rows(side)), [])
+        self.assertGreaterEqual(len(example_rows(side)), 5)
 
     def test_invalid_examples_break_the_stated_rule(self):
-        block = self.text.split("Valid rows:")[1].split("```text\n")[1].split("```")[0]
-        cases = re.findall(r"^\| `(.+?)` \| ([EF]\d\d) \|", self.text.split("Invalid rows:")[1], re.M)
+        block, _ = self.blocks()
+        cases = self.cases("Invalid rows:")
         self.assertGreaterEqual(len(cases), 10)
         for line, rule in cases:
-            line = line.replace("\\|", "|")
             keyword = line.split("=")[0].strip().lower()
             context = [row for row in rows_of(block) if row.keyword.lower() != keyword]
             found = rules.check_rows(CONFIG, context + [markup.parse(line, MAIN, 999)])
             self.assertEqual(sorted({finding.rule for finding in found}), [rule], line)
+
+    def test_invalid_example_rows_break_the_stated_rule(self):
+        block, side = self.blocks()
+        cases = self.cases("Invalid example rows:")
+        self.assertGreaterEqual(len(cases), 5)
+        for line, rule in cases:
+            given = example_rows(side) if rule == "E16" else []
+            found = rules.check_rows(CONFIG, rows_of(block), given + [markup.parse(line, "examples", 999)])
+            self.assertEqual(sorted({finding.rule for finding in found}), [rule], line)
+
+    def test_data_passes_the_check_and_the_index_is_current(self):
+        data = store.load(CONFIG)
+        found = [finding for file in data.every_file() for finding in file.findings]
+        found += rules.check_rows(CONFIG, data.rows(), data.example_rows(), data.translation_rows())
+        self.assertEqual(found, [])
+        self.assertEqual(index.stale(CONFIG, data.rows()), [])
 
 
 if __name__ == "__main__":

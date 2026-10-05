@@ -1,18 +1,18 @@
 """Examples of a row measured against its English terms.
 
-An example item is ``zolai | english``. An example covers a term of ``w``
-when its English translation uses the term, in any inflected form.
+An example row is ``key = zolai | english``. An example covers a term of
+``w`` when its English translation uses the term, in any inflected form.
 """
 
 from __future__ import annotations
 
 import re
 from dataclasses import dataclass
-from typing import Dict, Iterable, List, Tuple
+from typing import List, Sequence, Tuple
 
 from assist.cite import markup
 from assist.cite.config import Config
-from assist.cite.markup import Row
+from assist.cite.markup import Example, Row
 
 PER_TERM = 3
 WORD = re.compile(r"[a-z]+(?:'[a-z]+)?")
@@ -86,12 +86,6 @@ def uses(term: str, english: str) -> bool:
     return bool(wanted) and all(word in present for word in wanted)
 
 
-def split(item: str) -> Tuple[str, str]:
-    """Zolai and English part of one example item; English is empty when absent."""
-    zolai, _, english = item.partition(markup.TRANSLATION)
-    return zolai.strip(), english.strip()
-
-
 @dataclass(frozen=True)
 class Measure:
     """Examples of one row counted per term."""
@@ -110,27 +104,17 @@ class Measure:
         return not self.untranslated and not self.short and (bool(self.terms) or self.examples >= PER_TERM)
 
 
-def measure(config: Config, row: Row) -> Measure:
+def measure(config: Config, row: Row, examples: Sequence[Example] = ()) -> Measure:
+    """Count the examples of a row for each term of ``w``."""
     values = row.values()
-    attributes = config.attributes
-    items = [i for i in markup.split_items(attributes["e"], values.get("e", "")) if i]
-    terms = [t for t in markup.split_items(attributes["w"], values.get("w", "")) if t]
-    pairs = [split(item) for item in items]
-    counts = tuple((term, sum(uses(term, english) for _, english in pairs)) for term in terms)
-    return Measure(row, len(items), sum(not english for _, english in pairs), counts)
+    terms = [t for t in markup.split_items(config.attributes["w"], values.get("w", "")) if t]
+    counts = tuple(
+        (term, sum(uses(term, example.english) for example in examples)) for term in terms
+    )
+    return Measure(row, len(examples), sum(not example.english for example in examples), counts)
 
 
 def measurable(config: Config, row: Row) -> bool:
     """Rows expected to carry examples: described, with a meaning, not a name."""
     code = row.values().get("t", "")
     return row.described and config.has_meaning(code) and code != "name"
-
-
-def incomplete(config: Config, rows: Iterable[Row]) -> List[Measure]:
-    result = []
-    for row in rows:
-        if measurable(config, row):
-            measured = measure(config, row)
-            if not measured.complete:
-                result.append(measured)
-    return result

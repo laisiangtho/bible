@@ -4,10 +4,14 @@ Source of the Zolai–English dictionary. One row describes one sense of one Zol
 
 | Path | Content |
 | --- | --- |
-| `Markup.md` | The row format, version 1. |
-| `configuration.json` | Every closed list the format refers to: files, attributes, types, categories, rules. Read by the tooling and by readers. |
+| `Markup.md` | The row format, version 2. |
+| `configuration.json` | Every closed list the format refers to: files, attributes, types, categories, fields, sources, translation languages, rules. Read by the tooling and by readers. |
 | `ctd-*.cite` | The data files listed under `file` in `configuration.json`. |
-| `ctd-draft.cite` | The lexicon: general vocabulary and Bible names, sorted by keyword. |
+| `ctd-core.cite` | The core lexicon: general vocabulary of everyday life and of modern subjects. |
+| `ctd-draft.cite` | The Bible lexicon: vocabulary and names drawn from the Bible text, sorted by keyword. |
+| `ctd-*.example.cite` | The examples of each data file, one row per example, keyed by sense. |
+| `ext/ctd-*.cite` | Terms and definitions in a further language, keyed by sense. Optional. |
+| `index/` | Generated keyword index and English term index. Never edited by hand. |
 | `ctd-draft-notes.txt` | Notes for the editor left while rows were drafted and enriched: senses left out, doubtful types, suspected misprints in the Bible text. |
 
 ## Commands
@@ -18,7 +22,9 @@ Python 3.9 or newer, standard library only. Every command runs from the reposito
 python3 -m assist cite check                  # every broken rule, with file and line
 python3 -m assist cite check --summary        # counts per rule
 python3 -m assist cite format --apply         # canonical spacing and attribute order
-python3 -m assist cite convert --apply        # rows written before markup version 1
+python3 -m assist cite convert --apply        # sense numbers for new rows; rows of an earlier markup version
+python3 -m assist cite index --apply          # regenerate index/*.txt
+python3 -m assist cite rename OLD NEW --apply # respell a keyword everywhere
 python3 -m assist cite words --apply          # regenerate word/*.json
 python3 -m assist cite lookup vantung         # rows of a Zolai keyword
 python3 -m assist cite lookup beersheba       # hyphens, spaces and capitals are ignored: finds Be-ersheba
@@ -36,17 +42,19 @@ Exit status: `0` success, `1` findings or nothing found, `2` a condition that st
 
 1. `todo` lists the most frequent words of the Tedim Bible text that have no row.
 2. `search` shows a word in its verses, next to the same verses in the reference translations.
-3. The row is written in the fitting data file, following `Markup.md`.
-4. `check` passes before the change is committed.
+3. The row is written in the fitting data file, following `Markup.md`. A general sense goes to `ctd-core.cite`, a sense specific to the Bible text to `ctd-draft.cite`; a sense is never written in both.
+4. `convert --apply` gives the new row its sense number, and its examples are written in the example file under that sense key.
+5. `index --apply` regenerates the indexes.
+6. `check` passes before the change is committed.
 
 ## Confirmed and unconfirmed rows
 
-`ctd-draft.cite` holds every row of the lexicon in one file, sorted by keyword.
+Each data file is sorted by keyword.
 
 - A row without `q` is confirmed by a speaker of the language.
 - A row with `(q:draft)` was drafted from the Bible text and is not yet confirmed; `(q:draft, low confidence)` marks thin evidence. A row is confirmed by correcting it where needed and removing `q`.
-- `r` names the verses that show the sense. An example `e` taken from the Bible text is an exact fragment of one of them.
-- An example is written Zolai first, then ` | `, then its English translation. Every English term of `w` is meant to be shown by three examples whose translation uses that term; `examples` lists the rows that fall short. A word that is rare in the Bible text stays short until a speaker adds examples.
+- `r` names where a sense or an example is attested: a Bible verse or a listed source. An example taken from the Bible text is an exact fragment of the verse in its `r`.
+- An example row is written Zolai first, then ` | `, then its English translation. Every English term of `w` is meant to be shown by three examples whose translation uses that term; `examples` lists the rows that fall short. A word that is rare in the Bible text stays short until a speaker adds examples.
 - A row of type `todo` marks a word whose meaning could not be told from the verses; its `q` says why.
 - A row of type `see` redirects a form that occurs only as one part of a hyphenated word to the full word, as `ersheba` to `Be-ersheba`. A redirect carries no `q`.
 - Draft rows for words that occur 5 times or more were read a second time against the verses. Draft rows for words that occur 1 to 4 times were read once.

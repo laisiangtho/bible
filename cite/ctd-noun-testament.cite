@@ -1,3 +1,3 @@
 # Bible Testament
-Thuciam lui = (t:name) (c:testament) (w:Old Testament)
-Thuciam thak = (t:name) (c:testament) (w:New Testament)
+Thuciam lui = (i:1) (t:name) (c:testament) (w:Old Testament)
+Thuciam thak = (i:1) (t:name) (c:testament) (w:New Testament)

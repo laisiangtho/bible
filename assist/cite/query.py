@@ -4,11 +4,11 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass
-from typing import Dict, List, Tuple
+from typing import Dict, List, Sequence, Tuple
 
 from assist.cite import bible, markup, words
 from assist.cite.config import CiteError, Config
-from assist.cite.markup import Row
+from assist.cite.markup import Example, Row
 
 
 def lookup(config: Config, rows: List[Row], query: str, english: bool = False) -> List[Row]:
@@ -52,7 +52,7 @@ def squash(text: str) -> str:
     return "".join(character for character in text.casefold() if character not in " -'\u2019")
 
 
-def describe(config: Config, row: Row) -> str:
+def describe(config: Config, row: Row, examples: Sequence[Example] = ()) -> str:
     """A row as labelled lines for reading."""
     lines = [f"{row.keyword}    [{row.file}:{row.number}]"]
     if not row.described:
@@ -70,6 +70,11 @@ def describe(config: Config, row: Row) -> str:
                 f"{item} ({config.categories[item]['name']})" if item in config.categories else item
                 for item in items
             ]
+        elif key == "f":
+            shown = [
+                f"{item} ({config.fields[item]['name']})" if item in config.fields else item
+                for item in items
+            ]
         else:
             shown = items
         for index, item in enumerate(shown):
@@ -77,6 +82,10 @@ def describe(config: Config, row: Row) -> str:
             lines.append(f"  {label:<13}{item}")
     if row.text:
         lines.append(f"  {'description':<13}{row.text}")
+    for index, example in enumerate(examples):
+        label = "example" if index == 0 else ""
+        source = f"  [{', '.join(example.references)}]" if example.references else ""
+        lines.append(f"  {label:<13}{example.zolai} | {example.english}{source}")
     return "\n".join(lines)
 
 

@@ -10,7 +10,7 @@ from collections import Counter
 from typing import Callable, List
 
 from assist.cite import config as configuration
-from assist.cite import convert, examples, markup, query, rules, store, words
+from assist.cite import convert, examples, index, markup, query, rules, store, upgrade, words
 
 EXIT_OK = 0
 EXIT_FOUND = 1
@@ -36,8 +36,16 @@ def register(groups: argparse._SubParsersAction) -> None:
     parser = command("format", run_format, "Put valid rows into canonical form.")
     _writing(parser)
 
-    parser = command("convert", run_convert, "Convert rows written before markup version 1.")
+    parser = command("convert", run_convert, "Bring rows written for an earlier markup version to the current one.")
     _writing(parser)
+
+    parser = command("index", run_index, "Generate the keyword index and the English term index.")
+    parser.add_argument("--apply", action="store_true", help="write the files (default: dry run)")
+
+    parser = command("rename", run_rename, "Rename a keyword in every file that names it.")
+    parser.add_argument("old", help="keyword as written now")
+    parser.add_argument("new", help="keyword as it is to be written")
+    parser.add_argument("--apply", action="store_true", help="write the files (default: dry run)")
 
     parser = command("words", run_words, "Generate the word lists from the Bible translations.")
     parser.add_argument("--language", default="", help="one configured language only, e.g. ctd")
@@ -69,9 +77,12 @@ def _writing(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--diff", action="store_true", help="print every changed line")
 
 
-def _findings(config, files) -> List[rules.Finding]:
-    found = [finding for data in files for finding in data.findings]
-    found.extend(rules.check_rows(config, store.all_rows(files)))
+def _findings(config, data: store.Data) -> List[rules.Finding]:
+    found = [finding for file in data.every_file() for finding in file.findings]
+    found.extend(rules.check_rows(config, data.rows(), data.example_rows(), data.translation_rows()))
+    if all(file.readable for file in data.files):
+        found.extend(rules.Finding(name, 0, "F06", "run 'python3 -m assist cite index --apply'")
+                     for name in index.stale(config, data.rows()))
     return found
 
 
@@ -84,55 +95,56 @@ def _report(config, found: List[rules.Finding], rows: int, files: int) -> None:
     )
 
 
+def _listed(config, key: str) -> None:
+    if key not in config.files:
+        raise configuration.CiteError(
+            f"'{key}' is not a listed file; listed: {', '.join(config.files)}"
+        )
+
+
 def run_check(args: argparse.Namespace) -> int:
     config = configuration.load()
-    files = store.read_files(config)
-    found = _findings(config, files)
+    data = store.load(config)
+    found = _findings(config, data)
+    files = data.every_file()
     if args.file:
-        if args.file not in config.files:
-            raise configuration.CiteError(
-                f"'{args.file}' is not a listed file; listed: {', '.join(config.files)}"
-            )
-        # Keywords resolve across all files, so everything is checked and one file is reported.
-        files = [data for data in files if data.key == args.file]
-        found = [finding for finding in found if finding.file == files[0].name]
+        _listed(config, args.file)
+        # Keywords and sense keys resolve across all files, so everything is checked
+        # and the data file with its example file is reported.
+        files = [file for file in data.files + data.examples if file.key == args.file]
+        names = {file.name for file in files}
+        found = [finding for finding in found if finding.file in names]
     rows = len(store.all_rows(files))
     if args.summary:
         for rule, number in sorted(Counter(finding.rule for finding in found).items()):
             print(f"{rule} {config.rules[rule]['name']}: {number}")
     else:
-        order = {data.name: index for index, data in enumerate(files)}
+        order = {file.name: position for position, file in enumerate(files)}
         for finding in sorted(found, key=lambda f: (order.get(f.file, -1), f.number, f.rule)):
             print(finding.describe(config))
     _report(config, found, rows, len(files))
     return EXIT_FOUND if found else EXIT_OK
 
 
-def _rewrite(args: argparse.Namespace, change: Callable, verb: str) -> int:
-    """Apply a line-by-line change to every data file; dry run unless --apply."""
-    config = configuration.load()
-    files = store.read_files(config)
-    unreadable = [data.name for data in files if not data.readable]
-    if unreadable:
-        raise configuration.CiteError(f"cannot read: {', '.join(unreadable)}; run the check")
+def _write(args: argparse.Namespace, config, changes, verb: str) -> int:
+    """Report the new lines of each file and write them; dry run unless --apply."""
     total = 0
-    for data in files:
-        new_lines = [change(config, line) for line in data.lines]
-        changed = sum(1 for old, new in zip(data.lines, new_lines) if old != new)
-        new_text = store.to_text(new_lines)
-        differs = new_text != data.path.read_text(encoding="utf-8")
+    for file, lines in changes.items():
+        old = file.lines
+        changed = sum(1 for line in lines if line not in set(old)) if len(lines) != len(old) else sum(
+            1 for before, after in zip(old, lines) if before != after
+        )
         total += changed
-        if args.diff and changed:
+        if getattr(args, "diff", False) and changed:
             sys.stdout.writelines(
                 difflib.unified_diff(
-                    [line + "\n" for line in data.lines],
-                    [line + "\n" for line in new_lines],
-                    data.name, data.name, n=0,
+                    [line + "\n" for line in old], [line + "\n" for line in lines],
+                    file.name, file.name, n=0,
                 )
             )
-        print(f"{data.name}: {changed} rows {'changed' if args.apply else 'to change'}")
-        if args.apply and differs:
-            store.write_text(data.path, new_text)
+        print(f"{file.name}: {changed} rows {'changed' if args.apply else 'to change'}")
+        if args.apply:
+            store.write_text(file.path, store.to_text(lines))
     if args.apply:
         print(f"{verb}: {total} rows written. Next: python3 -m assist cite check --summary")
     else:
@@ -140,18 +152,78 @@ def _rewrite(args: argparse.Namespace, change: Callable, verb: str) -> int:
     return EXIT_OK
 
 
-def _format_line(config, line: str) -> str:
+def _readable(data: store.Data) -> None:
+    unreadable = [file.name for file in data.every_file() if not file.readable]
+    if unreadable:
+        raise configuration.CiteError(f"cannot read: {', '.join(unreadable)}; run the check")
+
+
+def _format_line(config, kind: str, line: str) -> str:
     if not markup.is_row(line):
         return line.rstrip() if line.startswith(markup.COMMENT) else ""
-    return markup.canonical(config, markup.parse(line)) or line
+    row = markup.parse(line)
+    if kind == "example":
+        return markup.canonical_example(row) or line
+    if kind == "translation":
+        return markup.canonical_translation(config, row) or line
+    return markup.canonical(config, row) or line
 
 
 def run_format(args: argparse.Namespace) -> int:
-    return _rewrite(args, _format_line, "format")
+    config = configuration.load()
+    data = store.load(config)
+    _readable(data)
+    changes = {}
+    for file in data.every_file():
+        lines = [_format_line(config, file.kind, line) for line in file.lines]
+        while lines and not lines[-1]:
+            lines.pop()
+        if lines != file.lines or store.to_text(lines) != file.path.read_text(encoding="utf-8"):
+            changes[file] = lines
+    return _write(args, config, changes, "format")
 
 
 def run_convert(args: argparse.Namespace) -> int:
-    return _rewrite(args, convert.convert_line, "convert")
+    config = configuration.load()
+    data = store.load(config)
+    _readable(data)
+    for file in data.files:
+        file.lines = [convert.convert_line(config, line) for line in file.lines]
+    changes = upgrade.upgrade(config, data, upgrade.bible_locator(config))
+    original = {file.name: file for file in store.load(config).every_file()}
+    for file in data.files:
+        before = original[file.name].lines
+        if file not in changes and file.lines != before:
+            changes[file] = file.lines
+        file.lines = before
+    return _write(args, config, changes, "convert")
+
+
+def run_index(args: argparse.Namespace) -> int:
+    config = configuration.load()
+    data = store.load(config)
+    _readable(data)
+    for code, text in index.build(config, data.rows()).items():
+        path = config.index_path(code)
+        current = path.read_text(encoding="utf-8") if path.is_file() else None
+        state = "unchanged" if current == text else ("written" if args.apply else "to write")
+        print(f"{path.relative_to(config.root)}: {text.count(chr(10)) - 2} lines, {state}")
+        if args.apply and current != text:
+            store.write_text(path, text)
+    if not args.apply:
+        print("dry run: nothing written. Add --apply to write.")
+    return EXIT_OK
+
+
+def run_rename(args: argparse.Namespace) -> int:
+    config = configuration.load()
+    data = store.load(config)
+    _readable(data)
+    changes = upgrade.rename(config, data, args.old, args.new)
+    result = _write(args, config, changes, "rename")
+    if args.apply:
+        print("Then: python3 -m assist cite index --apply")
+    return result
 
 
 def run_words(args: argparse.Namespace) -> int:
@@ -173,13 +245,20 @@ def run_words(args: argparse.Namespace) -> int:
 
 def run_lookup(args: argparse.Namespace) -> int:
     config = configuration.load()
-    rows = store.all_rows(store.read_files(config))
+    data = store.load(config)
+    by_key = data.by_key()
     text = " ".join(args.query)
-    found = query.lookup(config, rows, text, english=args.english)
+    found = query.lookup(config, data.rows(), text, english=args.english)
+
+    def shown(row):
+        return by_key.get(markup.row_key(row), [])
+
     if args.json:
-        print(json.dumps([markup.record(config, row) for row in found], ensure_ascii=False, indent=2))
+        print(json.dumps(
+            [markup.record(config, row, shown(row)) for row in found], ensure_ascii=False, indent=2
+        ))
     elif found:
-        print("\n\n".join(query.describe(config, row) for row in found))
+        print("\n\n".join(query.describe(config, row, shown(row)) for row in found))
     if not found:
         kind = "English term" if args.english else "keyword"
         print(f"no row for {kind} '{text}'", file=sys.stderr)
@@ -236,13 +315,15 @@ def run_examples(args: argparse.Namespace) -> int:
     config = configuration.load()
     if args.limit < 0:
         raise configuration.CiteError("--limit is 0 or a positive number")
-    selected = [data for data in store.read_files(config) if not args.file or data.key == args.file]
-    if not selected:
-        raise configuration.CiteError(
-            f"'{args.file}' is not a listed file; listed: {', '.join(config.files)}"
-        )
-    rows = [row for data in selected for row in data.rows() if examples.measurable(config, row)]
-    measured = [examples.measure(config, row) for row in rows]
+    if args.file:
+        _listed(config, args.file)
+    data = store.load(config)
+    by_key = data.by_key()
+    rows = [
+        row for file in data.files if not args.file or file.key == args.file
+        for row in file.rows() if examples.measurable(config, row)
+    ]
+    measured = [examples.measure(config, row, by_key.get(markup.row_key(row), [])) for row in rows]
     short = [entry for entry in measured if not entry.complete]
     terms = Counter(min(count, examples.PER_TERM) for entry in measured for _, count in entry.terms)
     total = sum(terms.values())
@@ -269,22 +350,24 @@ def run_examples(args: argparse.Namespace) -> int:
 
 def run_parse(args: argparse.Namespace) -> int:
     config = configuration.load()
-    files = store.read_files(config)
-    found = _findings(config, files)
+    data = store.load(config)
+    found = _findings(config, data)
     if found:
         raise configuration.CiteError(
             f"the data has {len(found)} findings; nothing is printed until "
             "'python3 -m assist cite check' passes"
         )
-    selected = [data for data in files if not args.file or data.key == args.file]
-    if not selected:
-        raise configuration.CiteError(
-            f"'{args.file}' is not a listed file; listed: {', '.join(config.files)}"
-        )
+    if args.file:
+        _listed(config, args.file)
+    selected = [file for file in data.files if not args.file or file.key == args.file]
+    by_key = data.by_key()
     document = {
         "version": config.raw["version"],
         "language": config.raw["language"],
-        "row": [markup.record(config, row) for data in selected for row in data.rows()],
+        "row": [
+            markup.record(config, row, by_key.get(markup.row_key(row), []))
+            for file in selected for row in file.rows()
+        ],
     }
     print(json.dumps(document, ensure_ascii=False, indent=2))
     return EXIT_OK
