@@ -15,6 +15,8 @@ PLACEHOLDER = "~"
 TRANSLATION = "|"
 ATTRIBUTE = re.compile(r"\(([^():\s]*):([^()]*)\)")
 XREF = re.compile(r"<([^<>]*)>")
+MENTION = re.compile(r"\{([^{}]*)\}")
+MARK = re.compile(r"<([^<>]*)>|\{([^{}]*)\}")
 _MARK = "\x00"
 
 
@@ -132,6 +134,63 @@ def record(config: Config, row: Row, examples: Iterable["Example"] = ()) -> Dict
     if shown:
         data["example"] = shown
     return data
+
+
+def xref_targets(inner: str) -> List[str]:
+    """Keywords or sense keys named inside one cross-reference, as written between < and >."""
+    return [collapse(item) for item in inner.split(LIST_SEPARATOR)]
+
+
+@dataclass(frozen=True)
+class Segment:
+    """A piece of English prose: plain ``text``, a ``link`` to a keyword or sense, or a ``mention``."""
+
+    kind: str
+    text: str
+
+
+def segments(text: str) -> List[Segment]:
+    """Split prose at its marks, for display.
+
+    ``<a>`` gives one link, ``<a/b>`` gives the links a and b with the
+    separator between them as text, and ``{a b}`` gives one mention.
+    """
+    result: List[Segment] = []
+
+    def plain(piece: str) -> None:
+        if piece:
+            result.append(Segment("text", piece))
+
+    position = 0
+    for match in MARK.finditer(text):
+        plain(text[position:match.start()])
+        if match.group(1) is not None:
+            for index, target in enumerate(xref_targets(match.group(1))):
+                if index:
+                    plain(LIST_SEPARATOR)
+                result.append(Segment("link", target))
+        else:
+            result.append(Segment("mention", collapse(match.group(2))))
+        position = match.end()
+    plain(text[position:])
+    return result
+
+
+def relink(text: str, old: str, new: str) -> str:
+    """The text with every cross-reference to the keyword ``old`` naming ``new``."""
+
+    def target(item: str) -> str:
+        parts = split_key(item)
+        if item == old:
+            return new
+        if parts and parts[0] == old:
+            return sense_key(new, parts[1])
+        return item
+
+    return XREF.sub(
+        lambda match: "<" + LIST_SEPARATOR.join(target(item) for item in xref_targets(match.group(1))) + ">",
+        text,
+    )
 
 
 def sense_key(keyword: str, number: str) -> str:

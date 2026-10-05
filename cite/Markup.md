@@ -15,6 +15,7 @@ cite/
   ctd-draft.example.cite
   ext/ctd-mya.cite          translation file: one further language
   ext/eng-ctd.cite          link file: English words linked to the closest senses
+  CREDITS.md                generated credits: sources and Bible texts
   index/ctd.txt             generated keyword index
   index/eng.txt             generated English term index
 ```
@@ -106,6 +107,22 @@ Canonical order: `i` `t` `c` `f` `w` `d` `s` `a` `b` `v` `o` `r` `q`.
 
 The description is free English text after the last attribute. It holds a remark on usage or grammar that is not the meaning itself. The meaning belongs in `w` or `d`. A row of any type except `see` and `todo` has at least one of `w` and `d`.
 
+## Zolai inside English prose
+
+English prose is the text of `d`, of `q` and of the description. Zolai that occurs in it is marked, so that a tool can tell the two languages apart and show the Zolai differently.
+
+- A keyword that has a row is a cross-reference, `<ahih>`, and is shown as a link to that keyword. The key of one sense, `<khat.2>`, links to that sense.
+- Several keywords are written `<a> <b>` or `<a/b>`; the two forms mean the same, two links.
+- Any other Zolai is a mention in braces and is not a link: a phrase, `{a nu leh a pa}`; an ending or prefix, `{-pa}`; a form that has no row; and the keyword of the row itself.
+- A phrase is one mention, not a mark on each of its words.
+- A name in its English spelling is English and carries no mark.
+- `w` holds English only, and `s`, `a`, `b` and `v` hold keywords only, so they need no mark. The Zolai part of an example row is Zolai throughout.
+
+```text
+ahih hangin = (i:1) (t:conj) (w:although) (d:<ahih>, being so, with <hangin>, although: although that is so)
+nu = (i:1) (t:n) (w:mother) (d:mother; {a nu leh a pa} is his mother and father)
+```
+
 ## Symbols
 
 | Symbol | Name | Meaning |
@@ -116,7 +133,8 @@ The description is free English text after the last attribute. It holds a remark
 | `/` | list separator | Separates the items of a list attribute. In a text attribute and in the description it is an ordinary character. |
 | `~` | keyword placeholder | Stands for the keyword in the Zolai part of an example row. Allowed only there. |
 | `\|` | translation separator | In an example row, separates the Zolai example from its English translation. Allowed only there, exactly once per row. |
-| `<>` | cross-reference | Encloses exactly one keyword that exists in the data. Allowed only in the attribute d and in the description. |
+| `<>` | cross-reference | Encloses a keyword that exists in the data, or the key of one sense, as in khat.2; a tool shows it as a link. Several are written one after another or joined by the list separator, so that <a/b> is the same as <a> and <b>. Allowed in the attributes d and q and in the description. |
+| `{}` | mention | Encloses Zolai text inside English prose that is not a link: a phrase, an ending such as -pa, a form without a row, or the keyword of the row itself. A tool shows it as Zolai. A single keyword that has a row is written as a cross-reference instead. Allowed in the attributes d and q and in the description. |
 | `.` | sense key | Joins a keyword and a sense number into the key of one sense, as in kipat.2. A sense key starts every row of an example file and of a translation file. |
 
 ## Types
@@ -199,6 +217,20 @@ The attribute `r` names where a sense or an example is attested. A Bible verse i
 | --- | --- | --- |
 | `zai` | zolai-ai merged dictionary | English to Zolai dictionary data of the zolai-ai project, merged there from the dictionaries of Thang Khan Dal, Dal Lian Haokip, Mang Cin Pau Gualnam and the ZomiDictionary application. The locator is the English headword. |
 | `moby` | Moby Thesaurus | Moby Thesaurus by Grady Ward, public domain. Relates an English word to English words of similar meaning. The locator is the English term of a sense through which the linked word was found. |
+
+An entry of the source list in `configuration.json` carries the code as its key and these fields:
+
+| Field | Required | Holds |
+| --- | --- | --- |
+| `name` | yes | Short name of the source. |
+| `description` | yes | What the source is and what the locator means. |
+| `owner` | no | Who holds the rights to the source. |
+| `credit` | no | The credit line to show wherever content of the source is displayed, in the wording the owner asks for. |
+| `license` | no | Licence under which the source is used. |
+| `permission` | no | Who gave permission, when and on what terms, when the use rests on permission instead of a licence. |
+| `url` | no | Address of the source. |
+
+The long name and the credit are written once, in the source list; rows carry only the code. `CREDITS.md` is generated from the list by `python3 -m assist cite credits --apply` and is never edited by hand. A locator contains no `/`; an article is named by an id or a date.
 
 ## Sense key
 
@@ -302,8 +334,8 @@ The check is run from the repository root with `python3 -m assist cite check`. I
 | E09 | error | category | A value of the attribute c is not in the category list. |
 | E10 | error | meaning | The row has neither w nor d, and its type is not see or todo. |
 | E11 | error | placeholder | The symbol ~ or \| is used outside an example row, the Zolai part of an example has no ~, or an example row has more than one \|. |
-| E12 | error | cross-reference | The symbols < and > are unbalanced, used outside d and the description, or do not enclose exactly one keyword. |
-| E13 | error | unresolved keyword | A keyword named in s, a, b or a cross-reference does not exist in the data. |
+| E12 | error | cross-reference | The symbols < and > are unbalanced, used outside d, q and the description, or enclose something that is not a keyword or a sense key. |
+| E13 | error | unresolved keyword | A keyword named in s, a, b or a cross-reference, or a sense key named in a cross-reference, does not exist in the data. |
 | E14 | error | variant | A value of the attribute v is not a valid keyword, or is the keyword of a row. |
 | E15 | error | reference | A value of the attribute r is neither book.chapter.verse nor a code of the source list with an optional locator. |
 | E16 | error | duplicate | Two rows are identical in keyword, type, category, term and definition, two example rows of one sense have the same Zolai text, or a translation file has two rows for one sense. |
@@ -315,12 +347,14 @@ The check is run from the repository root with `python3 -m assist cite check`. I
 | E22 | error | field | A value of the attribute f is not in the field list. |
 | E23 | error | unresolved sense | The key of an example row or of a translation row is not the sense key of a row in the data files. |
 | E24 | error | link | A link row names a word that is already a term of a sense, no sense key, a sense key that is not in the data files, or the same sense key twice. |
+| E25 | error | mention | Braces are unbalanced, empty, used outside d, q and the description, enclose a cross-reference, or enclose one keyword that has a row of its own. |
 | F01 | form | separator spacing | The separator is not written as one space, =, one space. |
 | F02 | form | spacing | The line has leading or trailing spaces, repeated spaces, spaces inside the parentheses or around a list separator, or a translation separator not written as one space, \|, one space. |
 | F03 | form | attribute order | The attributes are not in the configured order. |
 | F04 | form | description position | The description is not after the last attribute. |
 | F05 | form | final newline | The file does not end with exactly one newline. |
 | F06 | form | index | A generated index file is missing or differs from the data. |
+| F07 | form | credits | The generated credits file is missing or differs from the source list. |
 
 ## Examples
 
