@@ -2,17 +2,17 @@
   "name": "cite",
   "title": "Zolai–English dictionary source",
   "description": "Configuration of the cite data: the files that hold the rows, the row markup, and every closed list the markup refers to. The file is the single source for both tooling and readers; Markup.md explains the same rules in prose. Every list below is closed: a value that is not listed is an error.",
-  "version": 1,
+  "version": 2,
   "language": {
     "keyword": {
       "code": "ctd",
       "name": "Zolai (Tedim)",
-      "description": "Language of every keyword and of the attributes s, a, b, v and e."
+      "description": "Language of every keyword, of the attributes s, a, b and v, and of the Zolai part of an example."
     },
     "term": {
       "code": "eng",
       "name": "English",
-      "description": "Language of the attributes w, d, o, q and of the description."
+      "description": "Language of the attributes w, d, o, q, of the description and of the English part of an example."
     }
   },
   "format": {
@@ -25,12 +25,19 @@
     "extension": ".cite",
     "filename": "{language}-{file}{extension}",
     "comment": "#",
-    "separator": "="
+    "separator": "=",
+    "example": "{language}-{file}.example{extension}",
+    "translation": "ext/{language}-{code}{extension}",
+    "index": "index/{code}.txt"
   },
   "file": {
+    "core": {
+      "name": "Core lexicon",
+      "description": "General vocabulary of everyday life and of modern subjects, independent of the Bible text. A sense lives in one data file only: a general sense belongs here, a sense that is specific to the Bible text stays in the draft file."
+    },
     "draft": {
-      "name": "Lexicon",
-      "description": "General vocabulary and Bible names, sorted by keyword; rows of one keyword list its senses in order. A row with q was drafted from verse evidence and is not yet confirmed by a speaker of the language; a confirmed row carries no q."
+      "name": "Bible lexicon",
+      "description": "Vocabulary and names drawn from the Bible text, sorted by keyword; rows of one keyword list its senses in order. A row with q was drafted from verse evidence and is not yet confirmed by a speaker of the language; a confirmed row carries no q."
     },
     "digit-number": {
       "name": "Digits",
@@ -125,18 +132,31 @@
     },
     "~": {
       "name": "keyword placeholder",
-      "description": "Stands for the keyword of the row. Allowed only in the attribute e."
+      "description": "Stands for the keyword in the Zolai part of an example row. Allowed only there."
     },
     "|": {
       "name": "translation separator",
-      "description": "Inside one item of the attribute e, separates the Zolai example from its English translation. Allowed only in the attribute e, at most once per item."
+      "description": "In an example row, separates the Zolai example from its English translation. Allowed only there, exactly once per row."
     },
     "<>": {
       "name": "cross-reference",
       "description": "Encloses exactly one keyword that exists in the data. Allowed only in the attribute d and in the description."
+    },
+    ".": {
+      "name": "sense key",
+      "description": "Joins a keyword and a sense number into the key of one sense, as in kipat.2. A sense key starts every row of an example file and of a translation file."
     }
   },
   "attribute": {
+    "i": {
+      "name": "sense",
+      "description": "Number of this sense of the keyword: a positive whole number, unique among the rows of one keyword in all data files and never reused. Keyword and number form the sense key, as in kipat.2.",
+      "value": "number",
+      "list": false,
+      "required": false,
+      "order": 0,
+      "example": "(i:2)"
+    },
     "t": {
       "name": "type",
       "description": "Word class of the keyword. Exactly one code from the type list.",
@@ -157,13 +177,23 @@
       "order": 2,
       "example": "(c:land)"
     },
+    "f": {
+      "name": "field",
+      "description": "Subject area in which this sense is used. One or more codes from the field list.",
+      "value": "code",
+      "list": true,
+      "required": false,
+      "source": "field",
+      "order": 3,
+      "example": "(f:health)"
+    },
     "w": {
       "name": "term",
       "description": "English word or words with the same meaning as this sense of the keyword. Items of one row are interchangeable; a different meaning goes on its own row.",
       "value": "english",
       "list": true,
       "required": false,
-      "order": 3,
+      "order": 4,
       "example": "(w:begin/start)"
     },
     "d": {
@@ -173,19 +203,8 @@
       "list": false,
       "required": false,
       "xref": true,
-      "order": 4,
-      "example": "(d:postpositional marker indicating place or time)"
-    },
-    "e": {
-      "name": "example",
-      "description": "Zolai phrase or sentence that uses the keyword, followed by its English translation. Each item is written Zolai first, then |, then English. The keyword is written as ~ in the Zolai.",
-      "value": "zolai",
-      "list": true,
-      "required": false,
-      "placeholder": true,
-      "translation": true,
       "order": 5,
-      "example": "(e:a kipat cil ~)"
+      "example": "(d:postpositional marker indicating place or time)"
     },
     "s": {
       "name": "synonym",
@@ -238,13 +257,13 @@
     },
     "r": {
       "name": "reference",
-      "description": "Bible verses where this sense occurs, written book.chapter.verse with book numbers 1 to 66. A verse range uses a hyphen.",
+      "description": "Where this sense is attested. A Bible verse is written book.chapter.verse with book numbers 1 to 66, and a verse range uses a hyphen. Any other source is written as a code from the source list, optionally followed by a colon and a locator inside that source.",
       "value": "reference",
       "list": true,
       "required": false,
-      "pattern": "^([1-9]|[1-5][0-9]|6[0-6])\\.[1-9][0-9]{0,2}\\.[1-9][0-9]{0,2}(-[1-9][0-9]{0,2})?$",
+      "pattern": "^(?:(?:[1-9]|[1-5][0-9]|6[0-6])\\.[1-9][0-9]{0,2}\\.[1-9][0-9]{0,2}(?:-[1-9][0-9]{0,2})?|(?P<source>[a-z][a-z0-9]*)(?::[^\\s/()<>|~=][^/()<>|~=]*)?)$",
       "order": 11,
-      "example": "(r:1.1.1/1.2.4-6)"
+      "example": "(r:1.1.1/1.2.4-6/zai:market)"
     },
     "q": {
       "name": "query",
@@ -419,6 +438,88 @@
       "name": "direction",
       "description": "Compass direction."
     }
+  },
+  "field": {
+    "everyday": {
+      "name": "everyday",
+      "description": "Common words of daily speech: greetings, basic actions, qualities and things."
+    },
+    "social": {
+      "name": "social",
+      "description": "Community, relationships, customs, manners and public life."
+    },
+    "family": {
+      "name": "family",
+      "description": "Kinship and household."
+    },
+    "body": {
+      "name": "body",
+      "description": "The human body and its parts."
+    },
+    "food": {
+      "name": "food",
+      "description": "Food, drink, cooking and eating."
+    },
+    "home": {
+      "name": "home",
+      "description": "House, furniture, clothing and household things."
+    },
+    "time": {
+      "name": "time",
+      "description": "Time, calendar and seasons."
+    },
+    "nature": {
+      "name": "nature",
+      "description": "Weather, land, plants and animals."
+    },
+    "health": {
+      "name": "health",
+      "description": "Health, illness and medicine."
+    },
+    "education": {
+      "name": "education",
+      "description": "School, study, reading and writing."
+    },
+    "work": {
+      "name": "work",
+      "description": "Work, trade and money."
+    },
+    "travel": {
+      "name": "travel",
+      "description": "Movement, transport and places."
+    },
+    "it": {
+      "name": "information technology",
+      "description": "Computers, phones, software and the internet."
+    }
+  },
+  "source": {
+    "zai": {
+      "name": "zolai-ai merged dictionary",
+      "description": "English to Zolai dictionary data of the zolai-ai project, merged there from the dictionaries of Thang Khan Dal, Dal Lian Haokip, Mang Cin Pau Gualnam and the ZomiDictionary application. The locator is the English headword.",
+      "url": "https://github.com/peterlianpi/zolai-ai"
+    }
+  },
+  "translation": {
+    "mya": {
+      "name": "Burmese",
+      "description": "Terms and definitions in Burmese."
+    },
+    "nob": {
+      "name": "Norwegian",
+      "description": "Terms and definitions in Norwegian Bokmål."
+    }
+  },
+  "example": {
+    "description": "Examples are kept beside each data file in an example file. A row is a sense key, the separator, the Zolai example with the keyword written as ~, the translation separator and the English translation, optionally followed by the attribute r naming where the example comes from. A sense may have any number of example rows.",
+    "attribute": [
+      "r"
+    ]
+  },
+  "index": {
+    "description": "Generated lists for lookup; never edited by hand. The keyword index lists every keyword under a form that ignores case, hyphens, spaces and apostrophes, with its sense keys. The term index lists every English term in lowercase with the sense keys it leads to.",
+    "keyword": "ctd",
+    "term": "eng"
   },
   "alias": {
     "description": "Type tags used before version 1 and the attributes that replace them. Used only to convert existing rows; an alias is not valid in a version 1 row.",
@@ -641,7 +742,7 @@
       "id": "E11",
       "level": "error",
       "name": "placeholder",
-      "description": "The symbol ~ or | is used outside the attribute e, an example item has no ~, or an item has more than one |."
+      "description": "The symbol ~ or | is used outside an example row, the Zolai part of an example has no ~, or an example row has more than one |."
     },
     {
       "id": "E12",
@@ -665,13 +766,13 @@
       "id": "E15",
       "level": "error",
       "name": "reference",
-      "description": "A value of the attribute r does not match book.chapter.verse."
+      "description": "A value of the attribute r is neither book.chapter.verse nor a code of the source list with an optional locator."
     },
     {
       "id": "E16",
       "level": "error",
       "name": "duplicate",
-      "description": "Two rows are identical in keyword, type, category, term and definition."
+      "description": "Two rows are identical in keyword, type, category, term and definition, two example rows of one sense have the same Zolai text, or a translation file has two rows for one sense."
     },
     {
       "id": "E17",
@@ -695,7 +796,25 @@
       "id": "E20",
       "level": "error",
       "name": "translation",
-      "description": "An example item has no English translation after the Zolai."
+      "description": "An example row has no English translation after the Zolai."
+    },
+    {
+      "id": "E21",
+      "level": "error",
+      "name": "sense",
+      "description": "A row with a meaning lacks the attribute i, the value is not a positive whole number, or two rows of one keyword share a number."
+    },
+    {
+      "id": "E22",
+      "level": "error",
+      "name": "field",
+      "description": "A value of the attribute f is not in the field list."
+    },
+    {
+      "id": "E23",
+      "level": "error",
+      "name": "unresolved sense",
+      "description": "The key of an example row or of a translation row is not the sense key of a row in the data files."
     },
     {
       "id": "F01",
@@ -726,6 +845,12 @@
       "level": "form",
       "name": "final newline",
       "description": "The file does not end with exactly one newline."
+    },
+    {
+      "id": "F06",
+      "level": "form",
+      "name": "index",
+      "description": "A generated index file is missing or differs from the data."
     }
   ],
   "level": {

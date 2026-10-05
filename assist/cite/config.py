@@ -10,13 +10,15 @@ from typing import Any, Dict, List, Optional, Pattern
 
 ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = ROOT / "cite" / "configuration.json"
-SUPPORTED_VERSION = 1
+SUPPORTED_VERSION = 2
 
 REQUIRED_KEYS = (
     "version", "language", "format", "file", "keyword", "symbol", "attribute",
-    "text", "type", "category", "alias", "bible", "word", "rule",
+    "text", "type", "category", "field", "source", "translation", "example",
+    "index", "alias", "bible", "word", "rule",
 )
-VALUE_KINDS = ("code", "english", "zolai", "keyword", "reference")
+VALUE_KINDS = ("code", "english", "keyword", "reference", "number")
+SENSE_KEY = re.compile(r"^(?P<keyword>.+)\.(?P<number>[1-9][0-9]*)$")
 
 
 class CiteError(Exception):
@@ -48,6 +50,9 @@ class Config:
     attributes: Dict[str, Attribute]
     types: Dict[str, Dict[str, Any]]
     categories: Dict[str, Dict[str, Any]]
+    fields: Dict[str, Dict[str, Any]]
+    sources: Dict[str, Dict[str, Any]]
+    translations: Dict[str, Dict[str, Any]]
     alias: Dict[str, Dict[str, str]]
     files: Dict[str, Dict[str, Any]]
     rules: Dict[str, Dict[str, str]]
@@ -59,6 +64,25 @@ class Config:
 
     def data_path(self, file_key: str) -> Path:
         return self.directory / self.data_name(file_key)
+
+    def example_name(self, file_key: str) -> str:
+        return self.raw["format"]["example"].format(
+            language=self.language, file=file_key, extension=self.extension
+        )
+
+    def example_path(self, file_key: str) -> Path:
+        return self.directory / self.example_name(file_key)
+
+    def translation_name(self, code: str) -> str:
+        return self.raw["format"]["translation"].format(
+            language=self.language, code=code, extension=self.extension
+        )
+
+    def translation_path(self, code: str) -> Path:
+        return self.directory / self.translation_name(code)
+
+    def index_path(self, code: str) -> Path:
+        return self.directory / self.raw["format"]["index"].format(code=code)
 
     def bible_path(self, identify: str) -> Path:
         return self.root / self.raw["bible"]["path"].format(identify=identify)
@@ -126,7 +150,25 @@ def load(path: Optional[Path] = None) -> Config:
 
     types = _need(raw, "type", dict, "top level")
     categories = _need(raw, "category", dict, "top level")
-    for label, table in (("type", types), ("category", categories)):
+    fields = _need(raw, "field", dict, "top level")
+    sources = _need(raw, "source", dict, "top level")
+    translations = _need(raw, "translation", dict, "top level")
+    for code in list(sources) + list(translations):
+        if not re.fullmatch(r"[a-z][a-z0-9]*", code):
+            raise CiteError(f"configuration: code '{code}' is not lowercase letters and digits")
+    for template, parts in (("example", ("{language}", "{file}", "{extension}")),
+                            ("translation", ("{language}", "{code}", "{extension}")),
+                            ("index", ("{code}",))):
+        value = _need(raw["format"], template, str, "format")
+        for part in parts:
+            if part not in value:
+                raise CiteError(f"configuration: format.{template} lacks {part}")
+    for key in ("keyword", "term"):
+        _need(_need(raw, "index", dict, "top level"), key, str, "index")
+    for label, table in (
+        ("type", types), ("category", categories), ("field", fields),
+        ("source", sources), ("translation", translations),
+    ):
         for code, entry in table.items():
             _need(entry, "name", str, f"{label} '{code}'")
             _need(entry, "description", str, f"{label} '{code}'")
@@ -157,7 +199,7 @@ def load(path: Optional[Path] = None) -> Config:
     orders = [a.order for a in attributes.values()]
     if len(set(orders)) != len(orders):
         raise CiteError("configuration: two attributes share one order")
-    for key in ("t", "c", "w", "d", "e"):
+    for key in ("i", "t", "c", "f", "w", "d", "r"):
         if key not in attributes:
             raise CiteError(f"configuration: attribute '{key}' is required by the tooling")
     attributes = dict(sorted(attributes.items(), key=lambda item: item[1].order))
@@ -218,6 +260,9 @@ def load(path: Optional[Path] = None) -> Config:
         attributes=attributes,
         types=types,
         categories=categories,
+        fields=fields,
+        sources=sources,
+        translations=translations,
         alias=alias,
         files=files,
         rules=rules,
