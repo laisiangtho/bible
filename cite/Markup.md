@@ -223,6 +223,7 @@ The attribute `r` names where a sense or an example is attested. A Bible verse i
 | `moby` | Moby Thesaurus | Moby Thesaurus by Grady Ward, public domain. Relates an English word to English words of similar meaning. The locator is the English term of a sense through which the linked word was found. |
 | `zd` | Zomi Daily | Articles of the news site Zomi Daily, written in Zolai, 2016 to 2026. The locator is the article id of the site. |
 | `ts` | Tongsan | Articles of the news site Tongsan, the Zolai articles only, 2025 to 2026. The locator is the article id of the site. |
+| `pk` | Paunam Khenna leh Kampau Luanzia | Zolai grammar and composition book, written in Zolai, with lessons, word lists, word pairs, sayings and Zomi customs. The locator is the page number printed in the book. |
 
 An entry of the source list in `configuration.json` carries the code as its key and these fields:
 

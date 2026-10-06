@@ -553,7 +553,14 @@
       "credit": "Examples from Tongsan, tongsan.org",
       "permission": "Requested by the editor in October 2026; the wording of the credit is not yet received. Only single words and short fragments of sentences are quoted.",
       "url": "https://tongsan.org"
-    }
+    },
+      "pk": {
+        "name": "Paunam Khenna leh Kampau Luanzia",
+        "description": "Zolai grammar and composition book, written in Zolai, with lessons, word lists, word pairs, sayings and Zomi customs. The locator is the page number printed in the book.",
+        "owner": "Sia Cin Sian Pau; set again by Lia Cingsen, 2008",
+        "credit": "Words, word pairs, sayings and examples from Paunam Khenna leh Kampau Luanzia by Sia Cin Sian Pau",
+        "permission": "Not yet asked. Only single words, word pairs, sayings and short fragments of sentences are quoted; the text of the book is not stored."
+      }
   },
   "translation": {
     "mya": {
