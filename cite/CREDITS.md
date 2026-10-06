@@ -42,6 +42,14 @@ Articles of the news site Tongsan, the Zolai articles only, 2025 to 2026. The lo
 - Permission: Requested by the editor in October 2026; the wording of the credit is not yet received. Only single words and short fragments of sentences are quoted.
 - Link: https://tongsan.org
 
+### `pk`: Paunam Khenna leh Kampau Luanzia
+
+Zolai grammar and composition book, written in Zolai, with lessons, word lists, word pairs, sayings and Zomi customs. The locator is the page number printed in the book.
+
+- Owner: Sia Cin Sian Pau; set again by Lia Cingsen, 2008
+- Credit line: Words, word pairs, sayings and examples from Paunam Khenna leh Kampau Luanzia by Sia Cin Sian Pau
+- Permission: Not yet asked. Only single words, word pairs, sayings and short fragments of sentences are quoted; the text of the book is not stored.
+
 ## Bible texts
 
 A reference written `book.chapter.verse` names a verse of the Zolai texts. The other texts are read for comparison only.
