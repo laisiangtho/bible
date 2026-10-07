@@ -26,7 +26,7 @@ Moby Thesaurus by Grady Ward, public domain. Relates an English word to English 
 
 ### `zd`: Zomi Daily
 
-Articles of the news site Zomi Daily, written in Zolai, 2016 to 2026. The locator is the article id of the site.
+Articles of the news site Zomi Daily, written in Zolai, 2008 to 2026. The locator is the article id of the site.
 
 - Owner: Zomi Daily
 - Credit line: Examples from Zomi Daily, zomidaily.com
@@ -35,12 +35,21 @@ Articles of the news site Zomi Daily, written in Zolai, 2016 to 2026. The locato
 
 ### `ts`: Tongsan
 
-Articles of the news site Tongsan, the Zolai articles only, 2025 to 2026. The locator is the article id of the site.
+Articles of the news site Tongsan, the Zolai articles only, 2023 to 2026. The locator is the article id of the site.
 
 - Owner: Tongsan Media
 - Credit line: Examples from Tongsan, tongsan.org
 - Permission: Requested by the editor in October 2026; the wording of the credit is not yet received. Only single words and short fragments of sentences are quoted.
 - Link: https://tongsan.org
+
+### `zp`: Zomipedia
+
+Articles of the encyclopedia site Zomipedia, written in Zolai, on Zomi persons, clans, villages, churches and history, 2022 to 2026. The locator is the article id of the site.
+
+- Owner: Zomipedia
+- Credit line: Names and examples from Zomipedia, zomipedia.org
+- Permission: Not yet asked. Only single words, names of clans and villages, and short fragments of sentences are quoted.
+- Link: https://zomipedia.org
 
 ### `pk`: Paunam Khenna leh Kampau Luanzia
 

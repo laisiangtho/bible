@@ -1,0 +1,2001 @@
+id	word	number	type	category	field	set	status	origin	source	note
+s52000	w48186	1	n		social/everyday	core	2		zd:5578/zp:1336	
+s52001	w48187	1	adv		everyday	core	2		zd:4727/zd:4964	
+s52002	w48188	1	n		home	core	2		zd:4265/zd:3335/zd:5235	
+s52003	w48189	1	n		food	core	1		zd:1690/zd:8012	the kind of grain is inferred
+s52004	w48190	1	phrase		everyday	core	2		zd:1035/zd:8366	
+s52005	w48191	1	v		religion/social	core	2		zp:643/zd:2275	
+s52006	w48192	1	n		home/nature	core	2		zd:6758/zp:3981	
+s52007	w48192	2	v		food	core	2		zd:9918	
+s52008	w48193	1	n		nature	core	2		zd:10586/zd:2414	
+s52009	w48194	1	n		religion	core	2		zd:2573/zd:5487	
+s52010	w48195	1	v		everyday	core	2		zd:4464/zd:2682	
+s52011	w48196	1	v		social/religion	core	2		zd:5966/zd:6535/zd:2348	
+s52012	w48197	1	adj		body	core	2		zd:2042/zd:3234	
+s52013	w48198	1	v		everyday/work	core	2		zd:8383/zd:4453/zd:5644	
+s52014	w48198	2	v		social	core	1		zd:6912/zd:1861	inferred from few sentences
+s52015	w48199	1	name	place	travel	core	2		zd:8749/zp:1421	
+s52016	w48200	1	v		travel/time	core	2		zd:245/zd:3195	
+s52017	w48201	1	n		everyday/time	core	2		zd:2500/zd:4833/zd:3646	
+s52018	w48202	1	n		social	core	2		zd:5009/zd:3868	
+s52019	w48203	1	n		travel/everyday	core	2		zd:7015/zd:8740/zd:2566	
+s52020	w48204	1	v		social/everyday	core	2		zd:6769/zd:5453/zd:7901	
+s52021	w48205	1	v		everyday	core	2		zd:6904/zd:6870/zd:8356	
+s52022	w48206	1	adv		everyday	core	1		zd:6940/zd:3969/zd:4799	inferred from the verbs it follows
+s52023	w48207	1	adv		everyday	core	1		zd:7357/zd:1997	few sentences
+s52024	w48208	1	n		nature/politics	core	2		zd:5896/zd:9849	
+s52025	w48209	1	n		religion	core	2		zd:4311/zp:70	
+s52026	w48210	1	v		everyday	core	2		zd:4216/zd:8319	
+s52027	w48210	2	v		nature	core	2		zd:6790/zd:6730	
+s52028	w48211	1	name	city	travel	core	2		zd:2102/zd:2556	
+s52029	w48212	1	n		media	core	2	English	zd:4565/zp:2712	
+s52030	w48213	1	n		social/travel	core	2		zd:2681/zd:8583/zd:1628	
+s52031	w48214	1	name	beh	family/social	core	2		zd:8583	
+s52032	w48215	1	n		social/education	core	2		zd:8322/zd:8464	
+s52033	w48216	1	name	place	social	core	1		zp:3711	the word written small in two news sentences is not explained
+s52034	w48217	1	conj		everyday/time	core	2		zd:5030/zd:6972/zd:8575	
+s52035	w48218	1	v		social/politics	core	2		zd:8021/zd:3176	
+s52036	w48219	1	n		home	core	1		zp:3894	the sentences do not say what the thing is
+s52037	w48220	1	phrase		everyday/education	core	2		zd:5305/zd:9593	
+s52038	w48221	1	v		religion	core	2		zd:4573/zp:395/zp:505	
+s52039	w48222	1	n		family/body	core	2		zd:5809/zd:6235	
+s52040	w48223	1	v		health	core	1		zd:6674/zd:5339	probably a slip of the pen for damsak
+s52041	w48224	1	n		everyday	core	2		zd:4689/zd:6149/zd:7689	
+s52042	w48225	1	n		nature/social	core	1		zd:5663/zd:26715	few plain sentences
+s52043	w48226	1	v		everyday/travel	core	2		zd:5533	
+s52044	w48227	1	part		everyday	core	2		zp:3470/zd:10023	
+s52045	w48227	2	n		body	core	2		zd:5931	
+s52046	w48228	1	adv		everyday	core	1		zd:6701/zd:6786/zd:4311	relation to ngeingei not settled
+s52047	w48229	1	n		work/travel	core	2		zd:8337/zd:5849	
+s52048	w48230	1	v		social	core	2		zd:6149/zd:5348	
+s52049	w48231	1	v		social	core	2		zd:7365/zd:5977	
+s52050	w48232	1	n		work/social	core	2		zd:6238/zd:4313	
+s52051	w48233	1	n	plant	nature	core	2		zd:4433/zd:5040/zd:6238	
+s52052	w48234	1	adv		everyday	core	2		zd:5717/zd:2452/zd:6585	
+s52053	w48235	1	v		social/religion	core	1		zd:6488/zd:6190	few and unclear sentences
+s52054	w48236	1	v		everyday	core	1		zd:2500/zd:7687	the uses vary
+s52055	w48237	1	v		social	core	2		zd:7331/zd:3135	
+s52056	w48238	1	v		everyday/social	core	2		zd:10311/zd:6543	
+s52057	w48239	1	adv		home	core	2		zd:8107/zd:6724	
+s52058	w48240	1	n		religion	core	2		zd:7839/zd:7190	
+s52059	w48241	1	n		food/body	core	2		zd:5453/zd:11469	
+s52060	w48242	1	name	place	social	core	2		zd:10625	
+s52061	w48243	1	n		family/social	core	2		zd:5756	
+s52062	w48244	1	v		everyday	core	1		zd:10352/zd:5444/zd:4928	few sentences and several spellings
+s52063	w48245	1	n		social	core	2		zd:6887/zd:2987	
+s52064	w48246	1	v		work/politics	core	2		zd:1927/zd:1469	
+s52065	w48247	1	v		food/social	core	2		zd:3206/zd:7550/zd:9605	
+s52066	w48248	1	v		social	core	2		zd:7582/zd:1510	
+s52067	w48249	1	v		social	core	2		zd:7461/zd:7381	
+s52068	w48250	1	v		everyday	core	2		zd:6387/zd:7470	
+s52069	w48251	1	n		education	core	2		zp:2183/zd:2046	
+s52070	w48252	1	n		social/family	core	1		zd:8208/zd:4579	meaning inferred from profile headings
+s52071	w48253	1	n		education	core	2		zd:8126/zd:8626/zd:6858	
+s52072	w48254	1	adv		everyday	core	2		zd:9540/zd:7336	
+s52073	w48255	1	name	khua	social	core	1		zd:5977/zp:3981	location not stated in the sentences
+s52074	w48256	1	v		everyday	core	2		zd:6750/zd:6761/zd:7916	
+s52075	w48257	1	n		social/politics	core	1		zd:9109	three articles of one series
+s52076	w48258	1	v		work	core	2		zd:8336/zd:8664/zd:3051	
+s52077	w48259	1	n		social/food	core	1		zd:3278/zd:6579/zp:3860	the measure is inferred from the parts of the word
+s52078	w48260	1	n		nature/work	core	2	English	zd:4827/zd:8049	
+s52079	w48261	1	n		it	core	2	English	zd:1865/zd:334	
+s52080	w48262	1	n		social/work	core	2	English	zd:1690/zd:6012	
+s52081	w48263	1	adv		time	core	2		zd:9681/zd:5396/zd:9282	
+s52082	w48264	1	adj		everyday	core	2		zd:2231/zd:7025/zd:1262	
+s52083	w48265	1	adv		time	core	2		zd:7587/zd:4626	
+s52084	w48266	1	v		everyday/social	core	2		zd:2925/zd:3170/zd:9103	
+s52085	w48267	1	v		social	core	2		zd:5275/zd:3613/zd:1882	
+s52086	w48268	1	v		everyday	core	2		zd:5252/zd:3613	
+s52087	w48269	1	v		time/travel	core	2		zd:7689/zd:4714	
+s52088	w48270	1	v		social/media	core	2		zd:9070/zd:10395/zd:7753	
+s52089	w48271	1	n		social	core	2		zd:7069/zd:9840/zd:3047	
+s52090	w48272	1	phrase		everyday	core	2		zd:5448/zd:4526/zd:2660	
+s52091	w48273	1	n		social	core	2		zd:6850/zd:2213	
+s52092	w48274	1	v		everyday	core	2		zd:3616/zd:7346	
+s52093	w48275	1	n		work	core	2		zp:3609	
+s52094	w48276	1	name	khua	social	core	1		zd:5797/zd:4687	few sentences, mostly lists
+s52095	w48277	1	n		food	core	2		zd:8332/zd:9759/zd:7357	
+s52096	w48278	1	n		social/politics	core	2		zd:8032/zd:7781	
+s52097	w48279	1	n		nature	core	2		zd:9988/zd:1070	
+s52098	w48280	1	adv		everyday	core	2		zd:5651/zd:7381	
+s52099	w48281	1	adj		everyday	core	2		zd:3596/zd:7110	
+s52100	w48282	1	n		religion/social	core	2		zd:6584/zd:5459	
+s52101	w48283	1	n		nature	core	2		zd:6858	
+s52102	w48284	1	n		social/time	core	1		zd:2961/zd:4684	mostly in song lines
+s52103	w48285	1	name	mountain	nature	core	2		zd:2742	
+s52104	w48286	1	v		everyday	core	2		zd:7270/zd:4683/zd:6903	
+s52105	w48287	1	part		everyday	core	2		zd:3616/zd:7344	
+s52106	w48288	1	n		health	core	2		zd:5453/zd:2883	
+s52107	w48289	1	adj		time	core	2		zd:4291/zd:6840/zd:4531	
+s52108	w48290	1	n		travel/home	core	2		zd:3079/zd:8357/zd:813	
+s52109	w48291	1	n		education	core	2		zd:2232/zd:4125	
+s52110	w48292	1	adj		everyday/social	core	2		zd:5258/zd:4874/zd:6868	
+s52111	w48293	1	n		politics	core	1	Hindi, sarkar	zd:8778/zd:10023	three articles in the speech of Manipur
+s52112	w48294	1	n		home/work	core	1		zd:6291/zd:6573	kind of basket not clear
+s52113	w48295	1	phrase		everyday/religion	core	2		zd:261/zd:4740	
+s52114	w48296	1	n		social/work	core	1		zd:2047/zd:896	notices of one association only
+s52115	w48297	1	n		politics	core	2		zd:5131/zd:7381/zd:8419	
+s52116	w48298	1	n		food/nature	core	2		zd:583/zd:5696	
+s52117	w48299	1	name	city	travel	core	2		zd:9522/zd:3972	
+s52118	w48300	1	n		work/food	core	2		zd:6283/zd:1603	
+s52119	w48301	1	n		time/nature	core	2		zd:7979/zd:3247/zd:10150	
+s52120	w48302	1	v		social/home	core	1		zp:3738/zd:8500	sense of the pair inferred from few sentences
+s52121	w48303	1	adj		everyday	core	1		zd:3589/zd:9652/zd:7334	the spelling of one writer
+s52122	w48304	1	v		everyday	core	2		zd:4751/zd:2812/zd:3926	
+s52123	w48305	1	v		everyday	core	2		zd:7247/zd:5075	
+s52124	w48306	1	n		social/nature	core	2		zd:8300/zp:70	
+s52125	w48307	1	name	city	travel	core	2		zp:200/zp:1635	
+s52126	w48308	1	v		everyday/media	core	2		zd:8054/zd:6910	
+s52127	w48309	1	n		politics	core	2	Burmese	zp:1716/zd:5278/zd:3594	
+s52128	w48310	1	n		home/body	core	2		zd:7134/zd:6765/zd:5565	
+s52129	w48311	1	v		everyday	core	2		zd:3206/zd:5568	
+s52130	w48311	2	v		social	core	1		zd:4645	two sentences
+s52131	w48312	1	n		social/politics	core	2		zd:7983/zd:7831	
+s52132	w48313	1	n		social/nature	core	1		zd:8144/zd:8583	few sentences
+s52133	w48314	1	adv		everyday	core	1		zd:5893/zd:5386/zd:8144	expressive word, sense inferred
+s52134	w48315	1	prep		everyday/social	core	2		zd:5874/zd:6981	
+s52135	w48316	1	adv		everyday/social	core	2		zd:7926/zd:4684/zd:7009	
+s52136	w48317	1	adv		time	core	2		zd:11282/zd:6325/zd:4371	
+s52137	w48318	1	name	land	politics	core	1		zd:5626/zd:5622	one series of sketches
+s52138	w48319	1	prep		everyday	core	2		zd:6844/zd:22196/zd:6101	
+s52139	w48320	1	v		everyday/it	core	2		zd:1269/zd:4390/zd:3202	
+s52140	w48321	1	adv		everyday	core	2		zd:8568/zd:6180/zd:7401	
+s52141	w48322	1	n		everyday	core	2		zd:7851/zd:7549/zd:4060	
+s52142	w48323	1	adv		everyday	core	1		zd:604/zd:3068	sense inferred from few sentences
+s52143	w48324	1	v		time	core	2		zd:6267/zp:75	
+s52144	w48324	2	v		media	core	2		zd:7857/zd:6853	
+s52145	w48325	1	v		social	core	2		zd:4927/zd:7791/zd:4683	
+s52146	w48326	1	v		social	core	2		zd:6921/zd:6388	
+s52147	w48327	1	n		media/social	core	1		zd:4232	found only in this title
+s52148	w48328	1	n		time	core	2		zd:9860/zd:7194/zd:4340	
+s52149	w48329	1	v		home/social	core	2		zd:5626/zd:7794	
+s52150	w48330	1	n		religion	core	2		zd:9099/zd:4311	
+s52151	w48331	1	name	khua	politics	core	2		zd:1599/zd:5328	
+s52152	w48332	1	adv		everyday	core	2		zd:1882/zd:1260/zd:545	
+s52153	w48333	1	v		everyday/media	core	2		zd:2556/zd:1425	
+s52154	w48334	1	n		everyday	core	2		zd:8333/zd:8606/zd:8458	
+s52155	w48335	1	v		everyday	core	2		zd:6932/zd:8212/zd:4685	
+s52156	w48336	1	name	land	politics	core	2		zd:608/zd:1085	
+s52157	w48337	1	n		food	core	2		zd:8350/zd:4122	
+s52158	w48338	1	n		social	core	2		zd:4150/zd:946	
+s52159	w48339	1	v		media	core	1		zd:3448/zd:7341	mostly one writer
+s52160	w48340	1	adv		social	core	1		zd:9077/zd:5893	sense inferred from context
+s52161	w48341	1	name	city	politics	core	2		zd:2400/zd:920	
+s52162	w48342	1	n		politics/social	core	1		zd:1958/zd:5363	one further use seems to mean taking a name
+s52163	w48343	1	n		home/work	core	2		zd:2359/zd:1384/zd:619	
+s52164	w48343	2	n		nature	core	1		zd:7949	one sentence
+s52165	w48344	1	n		work/nature	core	1		zd:3278/zd:4315	
+s52166	w48345	1	adv		everyday	core	2		zd:1805/zd:1946/zd:1323	
+s52167	w48346	1	adj		everyday	core	2		zd:2863/zd:6009	
+s52168	w48347	1	n		social	core	2		zd:3070/zd:5561	
+s52169	w48348	1	adv		everyday	core	1		zd:5960/zd:2044	sense inferred from context
+s52170	w48349	1	n		religion	core	2		zd:5487/zd:2347	
+s52171	w48350	1	n		travel/everyday	core	1		zd:3727/zd:2084/zd:6383	size and kind of bag not certain
+s52172	w48351	1	n		everyday/home	core	2	Burmese	zd:5000/zd:7603	
+s52173	w48352	1	det		everyday/media	core	1		zd:4685/zd:6298	
+s52174	w48353	1	n		religion	core	2		zd:7194/zd:2275	
+s52175	w48354	1	adv		everyday	core	1		zd:6722/zd:6780	only in this set phrase
+s52176	w48355	1	n		social	core	2		zd:5799/zd:259	
+s52177	w48356	1	adj		body/food	core	2		zd:2265/zd:5584	
+s52178	w48357	1	adj		everyday/social	core	2		zd:2403/zd:748	
+s52179	w48358	1	phrase		everyday	core	1		zd:2403	one sentence repeated in a notice
+s52180	w48359	1	prep		everyday	core	2		zd:7323/zd:569	
+s52181	w48360	1	adv		everyday	core	2		zd:9332/zd:1870	
+s52182	w48361	1	n		media/work	core	2	English	zd:8752/zp:3786	
+s52183	w48362	1	name		politics	core	2		zd:2302/zd:2667	
+s52184	w48363	1	v		everyday/religion	core	2		zd:2682/zd:6815/zd:2684	
+s52185	w48364	1	name	city	travel	core	2		zd:7916/zp:1492	
+s52186	w48365	1	n		family/social	core	2		zd:2927/zp:155	
+s52187	w48366	1	n		everyday/religion	core	2		zd:3068/zd:1234	
+s52188	w48367	1	v		everyday	core	2		zd:3280/zd:9880	
+s52189	w48368	1	adj		everyday	core	2		zd:6478/zd:8115	
+s52190	w48369	1	adj		family/time	core	2		zd:8007/zd:6773	
+s52191	w48370	1	n		food	core	2		zd:6899/zd:7947	
+s52192	w48370	2	v		religion	core	2		zp:544/zd:5041	
+s52193	w48371	1	v		social/family	core	2		zd:6216/zd:6903	
+s52194	w48372	1	v		everyday	core	1		zd:3831/zd:7329	few clear sentences
+s52195	w48373	1	adj		everyday	core	1		zd:3336/zd:6039	inferred from few sentences
+s52196	w48374	1	n		education/work	core	2		zd:9818/zd:5682	
+s52197	w48375	1	n		politics/religion	core	2		zd:8417/zd:9845	
+s52198	w48376	1	n		education/work	core	2		zd:2986/zd:6925	
+s52199	w48377	1	n		social	core	1		zd:2173/zd:1591	inferred from the pairing
+s52200	w48378	1	n		home/social	core	2		zd:4027/zd:6316	
+s52201	w48379	1	n		family/time	core	2		zd:5453/zd:8353	
+s52202	w48380	1	name	people	social	core	2		zd:6785/zd:6476	
+s52203	w48381	1	n		nature	core	1		zd:4878	mostly in song lines
+s52204	w48382	1	n		family	core	2		zd:2264/zd:4695	
+s52205	w48383	1	adj		nature/family	core	2		zd:4315/zd:9899	
+s52206	w48384	1	n		everyday	core	2		zd:5018/zd:957	
+s52207	w48385	1	v		everyday/social	core	2		zd:5784/zd:7165	
+s52208	w48386	1	adv		everyday/time	core	2		zd:5931/zd:10336	
+s52209	w48387	1	v		everyday/work	core	2		zd:6169/zd:5519	
+s52210	w48388	1	part		everyday	core	1		zd:5936/zd:6109	a wrongly divided spelling
+s52211	w48389	1	v		social	core	2		zd:4852/zd:10268	
+s52212	w48390	1	name	khua	travel	core	2		zd:2163/zp:70	
+s52213	w48391	1	n		education	core	2		zd:6324/zd:8318	
+s52214	w48392	1	phrase		everyday/time	core	2		zd:7741/zd:6973	
+s52215	w48393	1	adv		everyday	core	1		zd:5622/zd:6307	inferred from few sentences
+s52216	w48394	1	n		social/religion	core	2		zd:8664/zd:1205	
+s52217	w48395	1	n		body	core	2		zd:3891/zd:3910	
+s52218	w48396	1	n		nature/religion	core	2		zd:673/zd:7879	
+s52219	w48397	1	n		social/travel	core	2		zd:6360/zd:6823	
+s52220	w48398	1	v		everyday	core	2		zd:5372/zd:6894	
+s52221	w48399	1	n		religion	core	1		zd:4964/zd:5554	bishop or archbishop not settled by the sentences
+s52222	w48400	1	n		family/social	core	2		zd:5809/zd:16978	
+s52223	w48401	1	v		everyday/time	core	1		zd:3581/zd:6319	inferred from few sentences
+s52224	w48402	1	v		social	core	2		zd:7640/zd:9797	
+s52225	w48403	1	v		everyday	core	2		zd:9593/zd:8054	
+s52226	w48404	1	v		everyday/politics	core	2		zd:7727/zd:26711	
+s52227	w48405	1	phrase		everyday	core	2		zd:4833/zd:5535	
+s52228	w48406	1	n		education/politics	core	2		zd:5451/zd:5299	
+s52229	w48407	1	part		everyday	core	1		zd:6995/zd:3852	a wrongly divided spelling
+s52230	w48408	1	adv		everyday	core	2		zd:4829/zd:8729	
+s52231	w48409	1	v		social	core	2		zd:7694/zd:5141	
+s52232	w48410	1	adv		nature/time	core	2		zd:6782/zd:8230/zd:6346	
+s52233	w48411	1	name		politics/religion	core	2		zd:3707/zd:2743	
+s52234	w48412	1	adj		everyday/social	core	2		zd:8039/zd:1865	
+s52235	w48413	1	name	city	travel	core	2		zd:5094	
+s52236	w48414	1	name	city	travel	core	2		zd:4089	
+s52237	w48415	1	n		family	core	2		zd:6815/zd:2877	
+s52238	w48416	1	n		family	core	1		zd:6700	relation not clear from the sentences
+s52239	w48417	1	name	land	nature	core	2		zd:6862/zp:3696	
+s52240	w48418	1	v		travel/nature	core	2		zd:8683/zd:2264	
+s52241	w48419	1	v		politics	core	2		zd:9275/zd:2756/zp:3738	
+s52242	w48420	1	n		everyday/work	core	2		zd:7494/zd:10024	
+s52243	w48421	1	n		work/social	core	2		zd:7150	
+s52244	w48421	2	n		politics/work	core	1		zd:2426	two sentences
+s52245	w48422	1	v		everyday/education	core	2		zd:4146/zd:7327	
+s52246	w48423	1	n		home	core	2		zd:6741/zd:6751/zd:6774	
+s52247	w48424	1	adv		everyday	core	2		zd:5546/zd:7380	
+s52248	w48425	1	adv		everyday	core	2		zd:7337/zd:10054	
+s52249	w48426	1	adv		everyday/nature	core	1		zd:6759/zd:6715/zd:2824	meaning inferred from few sentences
+s52250	w48427	1	v		social/religion	core	2		zd:6909/zd:4874/zd:6906	
+s52251	w48428	1	v		social/media	core	2		zd:6912	
+s52252	w48429	1	name	place	travel	core	2		zd:7552	
+s52253	w48430	1	name	land	travel	core	2		zd:6417/zd:4347	
+s52254	w48431	1	v		politics/social	core	2		zd:7603/zd:3079	
+s52255	w48432	1	v		everyday/politics	core	2		zd:3616/zd:1424	
+s52256	w48433	1	n		work/everyday	core	2		zd:5761/zd:8533	
+s52257	w48434	1	n		work/everyday	core	2		zd:5453/zd:3278	
+s52258	w48435	1	n		politics/social	core	2		zd:4334	
+s52259	w48436	1	v		social	core	2		zd:7319	
+s52260	w48437	1	n		food	core	2	English	zd:7705/zd:2106	
+s52261	w48438	1	v		travel	core	2		zd:7160/zd:9029/zd:6798	
+s52262	w48439	1	n		social	core	2		zd:7943/zd:7688	
+s52263	w48440	1	n		politics	core	2		zd:7817/zd:1946	
+s52264	w48441	1	v		work/food	core	2		zd:7015/zd:8520	
+s52265	w48442	1	adv		everyday/body	core	2		zd:9629/zd:10617/zd:1805	
+s52266	w48443	1	name	place	travel/work	core	2		zd:4436/zd:9801	
+s52267	w48444	1	name	mountain	travel/nature	core	2		zd:6600/zd:6430	
+s52268	w48445	1	n		nature	core	2		zd:8008/zd:7970	
+s52269	w48446	1	adj		everyday	core	2		zd:8032/zd:6189/zd:8109	
+s52270	w48447	1	n		family/body	core	2		zd:8005/zd:6967	
+s52271	w48448	1	name		education	core	2		zd:6010/zp:3878	
+s52272	w48449	1	v		social/politics	core	2		zd:8125/zd:8017/zd:5328	
+s52273	w48450	1	v		everyday	core	2		zd:8333/zd:8429	
+s52274	w48451	1	adv		social/politics	core	2		zd:8342/zd:9624	
+s52275	w48452	1	n		politics/social	core	2		zd:8032/zp:4033/zd:5786	
+s52276	w48453	1	v		social	core	2		zd:309/zd:1690	
+s52277	w48454	1	adv		politics/everyday	core	2		zd:1882/zd:8631	
+s52278	w48455	1	v		nature/everyday	core	2		zd:4441/zd:3790/zd:9923	
+s52279	w48456	1	adj		work/everyday	core	2		zd:4276/zd:3912	
+s52280	w48457	1	conj		everyday	core	2		zd:3818/zd:9881/zd:8665	
+s52281	w48458	1	n		politics/social	core	2		zd:5197/zd:4849/zd:6246	
+s52282	w48459	1	n		travel/home	core	2		zd:4519/zd:9896/zd:2417	
+s52283	w48460	1	v		everyday/politics	core	1		zd:10243/zd:9982	other sentences use it of hanging on and of dribbling
+s52284	w48461	1	v		politics	core	2		zd:5824/zd:10058/zd:9332	
+s52285	w48462	1	v		health	core	2		zd:5496/zd:10302	
+s52286	w48463	1	n		politics/work	core	2		zd:10365/zd:10213	
+s52287	w48464	1	n		time/education	core	2		zd:5635/zd:6878/zd:8237	
+s52288	w48465	1	n		nature	core	2		zd:5579/zd:7194/zd:5587	
+s52289	w48466	1	n		religion/social	core	2	Burmese	zp:2686/zd:10238/zd:9273	
+s52290	w48467	1	n		everyday/politics	core	2		zd:9879/zd:4901/zd:7346	
+s52291	w48468	1	n		family	core	2		zd:3673/zd:3928	
+s52292	w48469	1	name	people	politics/social	core	2		zd:7781	
+s52293	w48470	1	v		everyday	core	2		zd:2431/zd:7927/zd:1150	
+s52294	w48471	1	v		social	core	2		zd:1510/zd:5912	
+s52295	w48472	1	n		nature	core	1		zd:5788/zd:3278	most uses are in songs
+s52296	w48473	1	adj		social/family	core	1		zd:2030	
+s52297	w48474	1	n		body	core	2		zd:2239/zd:8781/zd:1919	
+s52298	w48475	1	name	city	travel	core	2		zd:2417/zd:2464	
+s52299	w48476	1	v		everyday/travel	core	2		zd:4216/zd:8032/zd:26711	
+s52300	w48477	1	n		religion/social	core	2		zd:9205/zd:7851	
+s52301	w48478	1	v		everyday/social	core	2		zd:7309/zd:4551/zd:7293	
+s52302	w48479	1	pron		everyday	core	2		zd:5076/zd:8509	
+s52303	w48480	1	n		social/work	core	2		zd:2408/zd:9999	
+s52304	w48481	1	name	city	travel	core	2		zd:8095	
+s52305	w48482	1	n		everyday	core	2		zd:1340/zd:9305/zd:5170	
+s52306	w48483	1	name	khua	nature	core	1		zd:5797	the sentences do not say where it lies
+s52307	w48484	1	adv		everyday	core	1		zd:6108/zd:10612	
+s52308	w48485	1	name	people	social	core	2		zd:6511/zd:6857/zd:6843	
+s52309	w48486	1	v		social	core	2		zd:6316/zd:6820	
+s52310	w48487	1	n		time/family	core	2		zd:7085/zd:4308/zd:9991	
+s52311	w48488	1	n		home/work	core	2		zd:6862/zd:4297/zd:3079	
+s52312	w48489	1	conj		everyday	core	2		zd:971/zd:3891/zd:4291	
+s52313	w48490	1	n		everyday	core	1		zd:6646	the sentences mix several uses
+s52314	w48491	1	n		social/family	core	2		zd:9529/zd:8352/zd:8335	
+s52315	w48492	1	name	city	travel	core	1		zd:6764	the state is inferred from the route of the journey
+s52316	w48493	1	n		work/education	core	2	Burmese	zd:11570/zd:5469	
+s52317	w48494	1	name	city	travel	core	2		zd:6712/zd:8480	
+s52318	w48495	1	adv		everyday	core	2		zd:7830/zd:9941	
+s52319	w48496	1	n		media/everyday	core	2		zd:9762/zd:9003/zd:9676	
+s52320	w48497	1	conj		everyday	core	1		zd:8778/zd:9635	Paite style, seen in few articles
+s52321	w48498	1	v		food	core	2		zd:9759/zd:4058	
+s52322	w48499	1	v		social	core	1		zd:2531/zd:8741/zd:7888	meaning inferred from the sentences
+s52323	w48500	1	phrase		social/family	core	2		zd:7495/zd:4211/zd:8353	
+s52324	w48501	1	v		everyday/work	core	1		zd:7689/zd:4151/zd:4053	second part of the word not clear
+s52325	w48502	1	n		travel	core	2		zd:4312/zp:535/zp:2839	
+s52326	w48503	1	name	khua	travel	core	2		zd:8020/zd:8111	
+s52327	w48504	1	n		family	core	2		zd:7426/zd:4735	
+s52328	w48505	1	n		travel	core	2	English	zp:4033/zd:5939/zp:3365	
+s52329	w48506	1	adv		everyday	core	1		zd:5453/zd:5889/zd:3241	expressive word, sense inferred
+s52330	w48507	1	n		everyday/social	core	2		zp:3609/zd:7839	
+s52331	w48508	1	name	people	social	core	2		zd:5788/zd:6843	
+s52332	w48509	1	name	river	nature	core	2		zd:26711/zd:1825	
+s52333	w48510	1	name	khua	travel	core	2		zd:8027/zp:3711	
+s52334	w48511	1	adv		everyday	core	2		zd:1061/zd:2359	
+s52335	w48512	1	name		politics	core	2		zd:4015/zd:8577	
+s52336	w48513	1	name	beh	family/social	core	2		zd:6038	
+s52337	w48514	1	adj		social	core	2		zd:6570/zd:4876/zd:3705	
+s52338	w48515	1	n		social/home	core	1		zd:7197/zp:3904	customary term, sense inferred
+s52339	w48516	1	n		politics/religion	core	2		zd:8352/zd:7902	
+s52340	w48517	1	name	khua	travel	core	2		zp:3981	
+s52341	w48518	1	name	khua	travel	core	2		zd:6589/zp:994	
+s52342	w48519	1	n		social/politics	core	2		zd:8009/zd:8131	
+s52343	w48520	1	n		home	core	1		zd:592/zd:1690	which sense of the second part is meant is not sure
+s52344	w48521	1	name	khua	travel	core	2		zp:3738	
+s52345	w48522	1	part		everyday	core	2		zd:3954/zd:9015	
+s52346	w48523	1	n		everyday/nature	core	2		zd:8322/zd:9846	
+s52347	w48524	1	n		media	core	2		zd:5566/zd:7486	
+s52348	w48525	1	part		everyday	core	1		zd:6188/zd:5008	read as {ka hi ve} from the sentences
+s52349	w48526	1	phrase		food	core	1		zd:2321	one clear sentence
+s52350	w48527	1	adv		social/media	core	1		zd:5225/zd:6652	poetic word, sense inferred
+s52351	w48528	1	v		social/family	core	2		zd:5225/zd:5401	
+s52352	w48529	1	det		everyday	core	2		zd:5302/zd:5861	
+s52353	w48530	1	n		time	core	1		zd:4367/zd:3856	mostly poetic lines
+s52354	w48531	1	phrase		travel	core	2		zd:5585/zd:5894	
+s52355	w48532	1	v		social	core	2		zd:8022/zd:3230	
+s52356	w48533	1	n		social	core	2		zd:8158/zd:5633	
+s52357	w48534	1	adv		social/politics	core	2		zd:2334/zd:1046	
+s52358	w48535	1	v		social/media	core	2		zd:6844/zp:3470	
+s52359	w48536	1	n		everyday	core	1		zd:1266/zd:5755	sense drawn from few sentences
+s52360	w48537	1	v		education/media	core	2		zd:7857/zd:7777	
+s52361	w48538	1	n		religion/social	core	2		zd:7276/zd:5716	
+s52362	w48539	1	phrase		media/religion	core	2		zd:1268/zd:4403	
+s52363	w48540	1	n		media	core	2		zd:9770/zd:7044	
+s52364	w48541	1	v		social	core	1		zd:7951/zd:6600	inferred from few sentences
+s52365	w48542	1	name	land	politics	core	2		zd:579/zd:6822	
+s52366	w48543	1	phrase		everyday/time	core	2		zd:2627/zd:3092	
+s52367	w48544	1	v		everyday/social	core	2		zd:8474/zd:314	
+s52368	w48545	1	v		social/family	core	2		zd:2149/zd:5895/zd:5686	
+s52369	w48546	1	n		work/politics	core	2		zd:9882/zd:5141	
+s52370	w48547	1	adv		time	core	2		zd:7640/zd:736/zd:7789	
+s52371	w48548	1	v		religion	core	2		zd:3631/zd:3757	
+s52372	w48549	1	n		media	core	2		zd:946/zd:8019	
+s52373	w48550	1	v		work/politics	core	2		zd:7273/zd:7343	
+s52374	w48551	1	conj		everyday	core	1		zd:7019/zd:2932	inferred from five unclear sentences
+s52375	w48552	1	v		travel/everyday	core	2		zd:1030/zd:8543	
+s52376	w48553	1	v		politics/health	core	2		zd:1402/zd:6490	
+s52377	w48554	1	v		social/everyday	core	2		zd:1502/zd:5630	
+s52378	w48555	1	v		body/everyday	core	2		zd:5333/zd:5867	
+s52379	w48556	1	n		politics/social	core	2		zd:7609/zd:7383	
+s52380	w48557	1	n		social	core	2		zd:6479	
+s52381	w48558	1	adj		religion/social	core	2		zd:7950/zd:2495	
+s52382	w48559	1	name	khua	travel	core	1		zd:2336/zd:4315	location inferred from the places named with it
+s52383	w48560	1	n		body	core	2		zd:2101/zd:2104	
+s52384	w48561	1	phrase		body	core	2		zd:2104	
+s52385	w48562	1	v		everyday	core	2		zd:7748/zd:8540	
+s52386	w48563	1	v		everyday	core	2		zd:6494/zd:9919	
+s52387	w48564	1	v		travel/everyday	core	2		zd:2403/zd:1773	
+s52388	w48565	1	n		everyday	core	2		zd:2414/zd:8004	
+s52389	w48566	1	name	place	travel	core	2		zd:8480/zd:6755	
+s52390	w48567	1	n		family	core	2		zd:7322/zd:2538	
+s52391	w48568	1	v		politics/social	core	2		zd:7330/zd:3596	
+s52392	w48569	1	adj		everyday	core	2		zd:2815/zd:4976	
+s52393	w48570	1	adv		everyday	core	2		zd:5533/zd:10135	
+s52394	w48571	1	adv		everyday	core	2		zp:3470	
+s52395	w48572	1	v		social/work	core	2		zd:1818/zd:10554	
+s52396	w48573	1	v		everyday/work	core	1		zd:7097/zd:3553/zd:8474	sense of the ending inferred
+s52397	w48574	1	v		time	core	2		zd:2626/zd:2593	
+s52398	w48575	1	n		everyday/social	core	2		zd:8631/zd:3548	
+s52399	w48576	1	conj		everyday	core	2		zd:10010/zd:6980	
+s52400	w48577	1	v		everyday/media	core	2		zd:4657/zd:2927	
+s52401	w48578	1	n		home/work	core	2		zd:5939/zd:2834	
+s52402	w48579	1	v		everyday	core	2		zd:3370/zd:6971	
+s52403	w48580	1	n		social	core	2		zd:5453/zd:2996	
+s52404	w48581	1	v		food/home	core	1		zd:5690	one sentence and a word list
+s52405	w48581	2	v		social/politics	core	2		zd:2996/zd:1751	
+s52406	w48582	1	n		home/social	core	2		zd:8101	
+s52407	w48583	1	phrase		everyday	core	1		zd:537/zd:1750	form not analysed
+s52408	w48584	1	v		everyday	core	2		zd:7013/zd:4801	
+s52409	w48585	1	v		home/travel	core	2		zd:8342/zd:6189	
+s52410	w48586	1	v		work/nature	core	2		zd:5690/zd:4416	
+s52411	w48587	1	n		religion/work	core	2		zd:3094/zd:6456	
+s52412	w48588	1	v		everyday/media	core	2		zd:5535/zd:3008/zd:4589	
+s52413	w48589	1	v		social/politics	core	2		zd:8745/zd:7826/zd:3210	
+s52414	w48590	1	part		everyday	core	1		zd:10144/zd:8079	force of the particle inferred
+s52415	w48591	1	adj		body	core	1		zd:7284/zd:7638	meaning inferred from the beard phrases
+s52416	w48592	1	n		work/everyday	core	2		zd:5196/zd:5068	
+s52417	w48593	1	v		everyday	core	2		zd:3801/zd:2594	
+s52418	w48594	1	v		everyday/social	core	2		zd:9332/zd:9848	
+s52419	w48595	1	name	people	social	core	2		zd:7393	
+s52420	w48596	1	name	beh	social	core	2		zd:3589	
+s52421	w48597	1	n		politics/social	core	2		zd:8778/zd:1365/zd:1698	
+s52422	w48598	1	n		travel/work	core	2		zd:5159/zd:5942	
+s52423	w48598	2	n		body/home	core	1		zd:6301	two sentences and dictionary entries for bedpan
+s52424	w48599	1	adv		everyday	core	2		zd:3915/zd:8332	
+s52425	w48600	1	v		social	core	2		zd:8419/zd:5908	
+s52426	w48601	1	name	khua	social/media	core	2		zp:999	
+s52427	w48602	1	n		body/media	core	1		zd:6197/zd:4592	found only in song lines
+s52428	w48603	1	v		social/family	core	2		zd:2409/zd:22961/zd:6934	
+s52429	w48604	1	adj		social/religion	core	2		zd:7916/zd:4386	
+s52430	w48605	1	adv		everyday	core	2		zd:959/zd:4397	
+s52431	w48606	1	name	khua	social	core	1		zp:3365/zd:8699	location not stated in the sentences
+s52432	w48607	1	n		everyday	core	2		zd:5667/zd:5127	
+s52433	w48608	1	v		work/everyday	core	2		zd:4874/zd:4390	
+s52434	w48609	1	v		politics/social	core	2		zd:4465/zd:7289	
+s52435	w48610	1	v		everyday	core	2		zd:8032/zp:487	
+s52436	w48611	1	v		everyday	core	2		zd:6215	
+s52437	w48612	1	n		social/politics	core	2		zd:7296	
+s52438	w48613	1	adj		politics/social	core	2		zd:1892/zd:4524	
+s52439	w48614	1	adj		everyday	core	2		zd:6345/zd:6017	
+s52440	w48615	1	n		education/media	core	2		zd:6511/zd:7969	
+s52441	w48616	1	n		food/social	core	1		zd:4647/zd:5948	only in the pair with aktui
+s52442	w48617	1	n		social/education	core	2		zd:4685/zd:6307	
+s52443	w48618	1	adj		everyday/food	core	2		zd:5066/zd:510/zd:4669	
+s52444	w48619	1	conj		everyday	core	2		zd:4140/zd:8583	
+s52445	w48620	1	ppm		time	core	2		zd:10157/zd:3589/zd:8583	
+s52446	w48621	1	n		work/it	core	2		zd:9987/zd:6169/zp:3882	
+s52447	w48622	1	n		social	core	2		zd:9073/zd:4855/zd:3449	
+s52448	w48623	1	n		social	core	2		zd:4383/zd:5524	
+s52449	w48624	1	v		everyday	core	2		zd:1510/zd:7431/zd:2495	
+s52450	w48625	1	n		everyday	core	2		zd:4426/zd:5232/zd:6290	
+s52451	w48626	1	phrase		everyday	core	2		zd:5862/zd:4740/zd:5856	
+s52452	w48627	1	adv		everyday	core	1		zd:5274/zd:3020	inferred from context and from the dictionary gloss peculiar
+s52453	w48628	1	v		everyday/travel	core	2		zd:726/zd:7032	
+s52454	w48629	1	adj		everyday	core	2		zd:4265/zd:6365/zd:3211	
+s52455	w48630	1	n		home	core	1		zd:3079/zp:3887/zd:6454	inferred from context
+s52456	w48631	1	adv		time	core	2		zd:5387/zd:5617/zd:5690	
+s52457	w48632	1	adj		everyday	core	2		zd:1997/zd:4420	
+s52458	w48633	1	phrase		everyday	core	2		zd:5825/zd:2189	
+s52459	w48634	1	adj		education	core	2		zd:4469/zd:9409/zd:7901	
+s52460	w48635	1	v		everyday/travel	core	2		zd:5943/zd:6726/zd:5931	
+s52461	w48636	1	part		everyday	core	1		zd:6299/zd:6107	inferred from few sentences
+s52462	w48637	1	n		home	core	2		zd:5878/zd:6365/zd:5894	
+s52463	w48638	1	v		everyday	core	2		zd:6720/zd:6745	
+s52464	w48639	1	v		travel/work	core	2		zd:5946/zd:5941/zd:5018	
+s52465	w48640	1	v		everyday	core	2		zd:2993/zp:3862	
+s52466	w48641	1	adv		everyday	core	2		zd:9674/zd:3154/zd:9548	
+s52467	w48642	1	n		everyday	core	2		zd:6067/zd:5628	
+s52468	w48643	1	v		everyday	core	1		zd:9502/zd:8464	inferred from few sentences
+s52469	w48644	1	name	city	travel	core	2		zd:6545/zd:22706	
+s52470	w48645	1	n		time	core	2		zd:6248/zd:1773/zd:8459	
+s52471	w48646	1	n		social/religion	core	2		zd:3559/zd:6171	
+s52472	w48647	1	v		politics/everyday	core	2		zd:6255/zd:1751/zd:583	
+s52473	w48648	1	intj		religion	core	2	English	zd:6276/zd:6409	
+s52474	w48649	1	name	people	social	core	2		zd:250	
+s52475	w48650	1	v		everyday	core	2		zd:7346/zd:4414	
+s52476	w48651	1	name	khua	travel	core	2		zp:3157/zd:3579	
+s52477	w48652	1	v		everyday	core	2		zd:4727/zd:2094	
+s52478	w48653	1	n		home	core	2		zd:4308/zd:6718/zd:6215	
+s52479	w48654	1	v		everyday	core	2		zd:4334/zd:2742	
+s52480	w48655	1	adv		time	core	2		zd:5630/zd:3561/zd:8220	
+s52481	w48656	1	n		body/social	core	2		zd:6875/zd:6969/zd:7357	
+s52482	w48657	1	n		social	core	1		zd:7498/zd:6058	found only in the pairs tatdan hekdan and omdan hekdan
+s52483	w48658	1	n		media/religion	core	2		zd:8750/zd:8712/zd:6871	
+s52484	w48659	1	n		travel	core	2		zd:6712/zd:1738	
+s52485	w48660	1	n		time	core	2		zd:2302/zd:9871	
+s52486	w48661	1	adv		everyday	core	2		zd:10311/zd:6543	
+s52487	w48662	1	conj		everyday	core	2		zd:3322/zd:7323	
+s52488	w48663	1	v		work/nature	core	2		zd:11444/zd:5784/zd:7827	
+s52489	w48664	1	v		education/work	core	2		zd:7639/zd:7346/zd:7327	
+s52490	w48665	1	n		social/politics	core	2		zd:7325/zd:6490	
+s52491	w48666	1	v		everyday	core	2		zd:7336/zd:7319	
+s52492	w48667	1	n		social	core	2		zd:8479/zd:6861	
+s52493	w48668	1	n		social	core	2		zd:6887/zd:10025/zd:10617	
+s52494	w48669	1	adv		everyday	core	2		zd:2064/zd:6907/zd:6894	
+s52495	w48670	1	v		social	core	2		zd:9401/zd:9183/zd:8452	
+s52496	w48671	1	v		everyday	core	2		zd:7445/zd:6911/zd:6913	
+s52497	w48672	1	adj		everyday	core	2		zd:8509/zd:648/zd:4100	
+s52498	w48673	1	n		social/family	core	2		zd:7603/zd:7333	
+s52499	w48674	1	n		work/politics	core	2		zd:4539/zd:7658	
+s52500	w48675	1	adj		everyday/media	core	2		zp:3458/zd:7690	
+s52501	w48676	1	v		work/social	core	2		zd:9593/zd:4433	
+s52502	w48677	1	n		home	core	1		zd:4670/zd:8315	inferred from the parts and a few sentences
+s52503	w48678	1	phrase		everyday/education	core	2		zd:3596/zd:4521	
+s52504	w48679	1	v		travel/everyday	core	2		zd:5784/zd:7726	
+s52505	w48680	1	n		social	core	2		zd:6490/zd:1667	
+s52506	w48681	1	v		social/religion	core	2		zd:7729/zp:1212/zd:5912	
+s52507	w48682	1	phrase		everyday	core	1		zd:3392	few sentences
+s52508	w48683	1	v		social/politics	core	2		zd:5835/zd:22196	
+s52509	w48684	1	n		health/everyday	core	2		zd:4291/zd:7470/zd:1709	
+s52510	w48685	1	name	city	travel/politics	core	2		zd:8699/zp:2145	
+s52511	w48686	1	n		work	core	1		zd:9391/zd:10911	only in the pair with sumzon
+s52512	w48687	1	n		family/social	core	2		zd:3970/zd:10015/zd:8154	
+s52513	w48688	1	n		education	core	1		zd:6478	few sentences
+s52514	w48689	1	n		education/everyday	core	2		zd:9769/zd:5994	
+s52515	w48690	1	n		media/politics	core	1		zd:3077/zd:6506	inferred from news headlines
+s52516	w48691	1	v		education/everyday	core	2		zd:5184/zd:6867/zd:9157	
+s52517	w48692	1	v		education	core	2		zd:604/zd:8459	
+s52518	w48693	1	phrase		everyday	core	1		zd:1215/zd:6188	several uses under one spelling
+s52519	w48694	1	name	land	politics/travel	core	2		zd:957/zd:8018	
+s52520	w48695	1	n		body/religion	core	2		zd:6213/zd:6490	
+s52521	w48696	1	n		politics/social	core	2		zd:3561/zd:9111/zd:9568	
+s52522	w48697	1	v		education/media	core	2		zd:2207/zd:8738	
+s52523	w48698	1	phrase		everyday	core	2		zd:1264/zd:1269	
+s52524	w48699	1	name	khua	travel	core	1		zd:230	location not determined
+s52525	w48700	1	v		home/work	core	2		zd:9599/zd:4433	
+s52526	w48701	1	n		politics/nature	core	2		zd:9881/zd:4928	
+s52527	w48702	1	adj		social/work	core	1		zd:6499/zd:1329	inferred from few sentences, perhaps the Burmese word for sole possession
+s52528	w48703	1	v		everyday/health	core	2		zd:3891/zd:10010	
+s52529	w48703	2	n		social/time	core	2		zd:6374	
+s52530	w48704	1	v		everyday	core	2		zd:6329/zd:6278/zd:7140	
+s52531	w48705	1	v		everyday/politics	core	2		zd:3322/zd:10058	
+s52532	w48706	1	adj		social	core	2		zd:6983/zd:6727	
+s52533	w48707	1	name		politics	core	2		zd:5767	
+s52534	w48708	1	n		nature/home	core	2		zd:9088/zd:9116/zd:9875	
+s52535	w48709	1	v		social	core	2		zd:6193/zd:4304/zd:5751	
+s52536	w48710	1	adj		everyday/nature	core	1		zd:5450/zd:10416	the saying is clear but the image is not, whether the worm is touched by salt or cut and dying
+s52537	w48711	1	name	khua	travel	core	2		zd:8700	
+s52538	w48712	1	v		everyday	core	2		zd:4496/zd:8500/zd:5892	
+s52539	w48713	1	adj		social	core	2		zd:4775/zd:9274	
+s52540	w48714	1	adj		time	core	2		zd:8336/zd:3616	
+s52541	w48715	1	v		food	core	2		zd:6878/zd:9766/zd:11743	
+s52542	w48716	1	v		everyday	core	2		zd:4151/zd:6360/zd:4265	
+s52543	w48717	1	n		education	core	2		zd:6845/zd:6620/zd:2885	
+s52544	w48718	1	name	place	travel	core	2		zd:493/zp:2849	
+s52545	w48719	1	name		nature/politics	core	2		zd:569/zd:6605/zd:7750	
+s52546	w48720	1	adj		everyday/body	core	2		zd:5333/zd:7326/zd:569	
+s52547	w48721	1	name		social	core	2		zd:7753/zp:3692	
+s52548	w48722	1	n		travel/politics	core	1		zd:7187/zp:3732	inferred from the caretaker named with it and from its use as a landmark, not confirmed
+s52549	w48723	1	v		everyday/travel	core	2		zd:2431/zd:1610	
+s52550	w48724	1	ppm		everyday	core	2		zd:1780/zd:1757	
+s52551	w48725	1	v		politics	core	1		zd:5318/zd:1671	this use of the verb is inferred from news of war
+s52552	w48726	1	v		social	core	2		zd:2990/zd:6868/zd:1298	
+s52553	w48727	1	adv		everyday/time	core	1		zd:8085/zd:6585/zd:3673	sense inferred from the contexts
+s52554	w48728	1	adv		everyday	core	2		zd:5459/zd:4627/zd:4347	
+s52555	w48729	1	v		social	core	2		zd:6314/zd:5666	
+s52556	w48730	1	v		body/food	core	2		zd:7652/zd:2263/zd:6042	
+s52557	w48731	1	n		food	core	2	Burmese	zd:6359	
+s52558	w48732	1	n		everyday	core	2		zd:3840/zd:7490	
+s52559	w48733	1	n		education/work	core	2	English	zd:4151/zp:3181	
+s52560	w48734	1	v		social	core	2		zd:2756/zd:5482	
+s52561	w48735	1	n		work/politics	core	2		zp:3981/zd:22886/zd:6596	
+s52562	w48736	1	n		social/religion	core	2		zd:6538/zd:3094	
+s52563	w48737	1	n		media	core	2	English	zd:1318/zd:8355/zd:3138	
+s52564	w48738	1	n		education/social	core	1		zd:8062/zd:6169	which script is meant differs between the articles
+s52565	w48739	1	v		travel	core	2		zd:1261/zd:10030	
+s52566	w48740	1	v		home	core	2		zd:1261/zd:551/zd:3280	
+s52567	w48741	1	v		religion	core	2		zd:7974/zd:3280	
+s52568	w48742	1	v		work/health	core	2		zd:3414	
+s52569	w48743	1	v		everyday	core	2		zd:2547/zd:7916	
+s52570	w48744	1	v		work	core	2		zd:1412/zd:4312/zd:3894	
+s52571	w48745	1	v		everyday	core	2		zd:7160/zd:6638/zd:1381	
+s52572	w48746	1	n		family	core	2		zd:4441/zd:16978	
+s52573	w48747	1	name	city	politics	core	2		zd:250	
+s52574	w48747	2	name	city	religion	core	1		zd:6251	one article
+s52575	w48748	1	n		education	core	2		zd:6776/zd:4831/zd:7741	
+s52576	w48749	1	n		social	core	2		zd:5445/zd:6493	
+s52577	w48750	1	v		everyday	core	2		zd:6820/zd:5682/zd:6511	
+s52578	w48751	1	v		everyday	core	1		zd:3196/zd:6088	inferred from few sentences
+s52579	w48752	1	n		social	core	2		zd:4211/zd:7995	
+s52580	w48753	1	v		everyday	core	2		zd:2447/zd:7954/zd:2530	
+s52581	w48754	1	adj		social	core	2		zd:7327/zd:10562	
+s52582	w48755	1	n		home	core	2		zd:6765/zd:6791	
+s52583	w48756	1	v		everyday	core	1		zd:6371/zd:8001	few clear sentences
+s52584	w48757	1	n		food	core	2		zd:5459/zd:7008	
+s52585	w48758	1	n		home	core	2		zd:3810/zd:10104/zd:8080	
+s52586	w48759	1	n		social	core	2		zd:6388/zd:8480	
+s52587	w48760	1	n		everyday	core	2		zd:851/zd:6968/zd:10082	
+s52588	w48761	1	n		social	core	2		zd:6279/zd:7322	
+s52589	w48762	1	adv		everyday	core	2		zp:3345/zd:8726	
+s52590	w48763	1	adj		everyday	core	2		zd:3924	
+s52591	w48764	1	v		everyday	core	2		zd:8334/zd:4594	
+s52592	w48765	1	v		health	core	2		zp:133/zd:7928	
+s52593	w48766	1	n		social	core	2		zd:9391/zd:7999/zd:4598	
+s52594	w48767	1	v		nature	core	1		zd:7357/zp:145	one article
+s52595	w48767	2	v		politics	core	1		zd:8008	one writer
+s52596	w48768	1	v		everyday	core	2		zd:11444/zd:4291	
+s52597	w48769	1	v		social	core	2		zd:5459/zd:3278/zd:6570	
+s52598	w48770	1	n		social	core	2		zd:6306/zd:8452	
+s52599	w48771	1	n		education	core	2		zd:5093/zd:7809	
+s52600	w48772	1	adv		everyday	core	1		zd:3475/zd:5483/zd:7738	inferred from the sentences
+s52601	w48773	1	n		social	core	2		zd:6544/zd:9165/zd:8746	
+s52602	w48774	1	adv		everyday	core	2		zd:9736/zd:6678	
+s52603	w48775	1	n		food	core	1		zp:133/zd:6042	one phrase only
+s52604	w48776	1	name	city	politics	core	2		zd:10570	
+s52605	w48777	1	name	people	social	core	2		zd:9522/zd:8497	
+s52606	w48778	1	phrase		everyday	core	2		zd:2877/zd:8082/zd:944	
+s52607	w48779	1	name	people	social	core	2		zp:999	
+s52608	w48780	1	phrase		everyday	core	2		zd:7393/zd:1388	
+s52609	w48781	1	n		politics	core	1	English	zd:8500/zd:1407	one group of writers
+s52610	w48782	1	n		family	core	2		zd:7393/zd:8500	
+s52611	w48783	1	v		food	core	2		zd:5183/zd:9759	
+s52612	w48784	1	v		social	core	2		zd:5446/zd:3230	
+s52613	w48785	1	adj		home	core	2		zd:3549/zd:6719/zd:10435	
+s52614	w48786	1	n		politics	core	1		zd:7321/zd:4901	one group of writers
+s52615	w48787	1	adv		everyday	core	1		zd:2874/zd:3915/zd:4113	inferred from the sentences
+s52616	w48788	1	v		everyday	core	2		zd:6638/zd:3247/zd:6355	
+s52617	w48789	1	v		everyday	core	1		zd:4060/zd:5084	inferred from the parts and a few sentences
+s52618	w48790	1	n		nature	core	1		zd:9563	few sentences
+s52619	w48790	2	n		religion	core	1		zd:4308	mostly in the one phrase
+s52620	w48791	1	n		time/politics	core	2		zd:6754/zd:4598/zd:6600	
+s52621	w48792	1	v		religion/education	core	2		zd:2677/zd:5964	
+s52622	w48793	1	v		body	core	2		zd:4922/zd:7959	
+s52623	w48794	1	n		nature/home	core	2		zd:5731/zp:165	
+s52624	w48795	1	n		time/politics	core	2		zd:8538/zd:4291	
+s52625	w48796	1	v		nature	core	2		zd:5363/zd:3079	
+s52626	w48797	1	name	khua	travel	core	1		zd:8102/zd:8113	the place is inferred from the villages named with it
+s52627	w48798	1	n		social	core	2		zd:7628	
+s52628	w48799	1	v		everyday	core	2		zd:5784/zd:1517	
+s52629	w48800	1	n		home/health	core	2		zd:4291/zd:6180	
+s52630	w48801	1	n		religion	core	2		zd:6861/zd:11444	
+s52631	w48802	1	name	land	travel/politics	core	2		zd:1834/zd:2481	
+s52632	w48803	1	n		social/religion	core	2		zd:4693/zd:6055	
+s52633	w48804	1	n		home/social	core	2		zd:6822/zp:999	
+s52634	w48805	1	n		politics	core	1		zd:7336/zd:7337	the spelling of one writer
+s52635	w48806	1	v		everyday	core	2		zd:7138/zd:9620	
+s52636	w48807	1	n		politics/social	core	2		zd:22196/zd:7981	
+s52637	w48808	1	v		social	core	2		zd:7321/zd:7346	
+s52638	w48809	1	name		travel	core	2		zd:4154	
+s52639	w48810	1	n		social	core	1		zd:6454/zd:7197	few sentences
+s52640	w48811	1	name	people	social	core	2		zd:8027/zp:999	
+s52641	w48812	1	n		work	core	2		zd:6217/zd:3353/zd:8697	
+s52642	w48813	1	n		social	core	1		zd:3596/zd:7324	the spelling of one writer, of breadth of outlook
+s52643	w48814	1	name	khua	travel	core	2		zd:3135/zd:26715	
+s52644	w48815	1	n		travel/social	core	2		zd:1259/zp:3738	
+s52645	w48816	1	name	khua	travel	core	2		zp:3738/zp:3722	
+s52646	w48817	1	name	khua	travel/politics	core	2		zp:1421	
+s52647	w48818	1	name	place	travel/education	core	2		zp:806	
+s52648	w48819	1	n		politics/social	core	2		zd:3796/zd:3586	
+s52649	w48820	1	n		social/food	core	1		zd:5592/zd:6655	the custom is not explained in the sentences
+s52650	w48821	1	adv		everyday	core	2		zd:6038/zd:8450/zd:5571	
+s52651	w48822	1	pron		social	core	2		zd:5684/zd:1518	
+s52652	w48823	1	prep		social	core	2		zd:839/zd:9015/zd:6141	
+s52653	w48824	1	v		everyday	core	2		zd:8144/zd:4527	
+s52654	w48825	1	adj		body/nature	core	1		zd:7226/zp:994	one tale and one sentence about a river
+s52655	w48826	1	n		nature	core	1		zd:6534/zd:6044/zd:6328	mostly in song lines
+s52656	w48827	1	adv		time	core	2		zd:6854/zd:5478	
+s52657	w48828	1	part		everyday	core	2		zd:6844/zd:10023	
+s52658	w48829	1	n		social/work	core	2		zd:6854/zd:6855/zd:6844	
+s52659	w48830	1	n		social	core	2		zd:6575/zd:6844/zd:8542	
+s52660	w48831	1	v		social/religion	core	2		zp:171/zp:1046/zd:7289	
+s52661	w48832	1	adj		social	core	2		zd:2728/zd:9409/zd:4457	
+s52662	w48833	1	adv		everyday	core	2		zd:10561/zd:1805/zd:1373	
+s52663	w48834	1	phrase		everyday	core	2		zd:8063/zd:9839/zd:6997	
+s52664	w48835	1	name	city	travel	core	2		zp:576/zp:1712	
+s52665	w48836	1	adj		everyday	core	2		zd:5885/zd:3073/zd:5679	
+s52666	w48837	1	n		social/family	core	2		zd:8115/zd:3588/zd:9860	
+s52667	w48838	1	v		religion/social	core	2		zd:599/zd:782/zd:10549	
+s52668	w48839	1	conj		everyday	core	2		zd:5252/zd:3020	
+s52669	w48840	1	name	people	social	core	2		zd:2932/zd:1461	
+s52670	w48841	1	adv		everyday	core	1		zd:2703/zd:209	mostly in northern dialect writing
+s52671	w48842	1	n		nature/everyday	core	1		zd:248/zd:3278	few sentences with different uses
+s52672	w48843	1	n		home/everyday	core	2		zd:1340/zd:4683/zd:5878	
+s52673	w48844	1	v		everyday	core	2		zd:6052/zd:9109/zd:516	
+s52674	w48845	1	v		everyday/work	core	2		zd:235/zd:6566	
+s52675	w48846	1	adv		work/education	core	2		zd:9624/zd:7747/zd:9268	
+s52676	w48847	1	part		everyday	core	1		zd:6389/zd:584/zd:5697	sense inferred from a few spoken lines
+s52677	w48848	1	v		social	core	1		zd:6281/zd:736/zd:6888	sense inferred from context
+s52678	w48849	1	v		time/social	core	2		zd:3210/zd:736/zd:6356	
+s52679	w48850	1	v		everyday/work	core	2		zd:4426/zd:736/zd:3017	
+s52680	w48851	1	n		social	core	2		zd:4829/zd:6603/zd:736	
+s52681	w48852	1	n		work/social	core	2		zd:6431/zd:317/zd:3142	
+s52682	w48853	1	phrase		work	core	2		zd:6122/zd:315/zd:310	
+s52683	w48854	1	v		social	core	2		zd:7149/zd:7329	
+s52684	w48855	1	adj		social	core	2		zd:946/zd:7348/zd:4901	
+s52685	w48856	1	name	land/people	politics	core	2		zd:1751/zd:985	
+s52686	w48857	1	v		home/everyday	core	1		zd:3055/zd:2640	two different uses in few sentences
+s52687	w48858	1	n		social	core	1		zd:1024/zd:2728/zd:2042	few sentences
+s52688	w48859	1	adv		everyday	core	2		zd:8079/zd:6625	
+s52689	w48860	1	v		social/religion	core	2		zd:4441/zd:7817/zd:6499	
+s52690	w48861	1	n		work/politics	core	2		zd:7603/zd:7717/zp:591	
+s52691	w48862	1	part		everyday	core	1		zd:8366/zd:5483	sense inferred from few sentences
+s52692	w48863	1	phrase		everyday	core	2		zd:6178/zd:6685	
+s52693	w48864	1	v		everyday	core	2		zd:8065/zd:7337	
+s52694	w48865	1	name	city	religion	core	2		zd:4860	
+s52695	w48866	1	v		social/media	core	2		zd:353/zd:8394/zd:425	
+s52696	w48867	1	v		everyday/work	core	2		zd:6304/zd:6351/zd:909	
+s52697	w48868	1	n		nature	core	2		zd:11743/zd:5645	
+s52698	w48869	1	n		home/religion	core	2		zd:4950/zd:1791/zd:2431	
+s52699	w48870	1	v		politics/social	core	1		zd:2927/zd:2695/zd:1846	the meaning of {khua nado} is not clear
+s52700	w48871	1	v		work/social	core	2		zd:2178/zd:2055/zd:5415	
+s52701	w48872	1	v		everyday	core	2		zd:6946/zd:10015/zd:2055	
+s52702	w48873	1	adj		everyday/politics	core	2		zd:2084/zd:7248/zd:7799	
+s52703	w48874	1	n		body/nature	core	2		zd:2137/zd:9529/zd:8699	
+s52704	w48875	1	conj		everyday	core	2		zd:5483/zd:715/zd:5799	
+s52705	w48876	1	v		travel/time	core	2		zp:3470/zd:6267/zd:7040	
+s52706	w48877	1	v		media/family	core	2		zd:8450/zd:2275/zd:7085	
+s52707	w48878	1	phrase		family	core	2		zd:8509/zd:2275	
+s52708	w48879	1	phrase		religion/everyday	core	2		zd:6330/zd:2275	
+s52709	w48880	1	n		home/social	core	2		zd:6584/zp:3365/zd:5938	
+s52710	w48881	1	n		home	core	2		zd:5002/zd:2263/zd:5001	
+s52711	w48882	1	adv		time	core	2		zd:1083/zd:3606	
+s52712	w48883	1	v		everyday	core	2		zd:6277/zd:6570	
+s52713	w48884	1	adj		everyday	core	2		zd:6729/zd:4308	
+s52714	w48885	1	v		education/media	core	2		zd:456/zd:7830/zd:3072	
+s52715	w48886	1	adv		everyday	core	2		zd:2465/zd:2185/zd:1979	
+s52716	w48887	1	v		religion/work	core	2		zd:4913/zd:2683/zd:4743	
+s52717	w48888	1	v		social	core	2		zd:5868/zd:5874/zd:7545	
+s52718	w48889	1	n		work/social	core	2		zd:8337/zd:7464	
+s52719	w48890	1	v		everyday/media	core	2		zd:8154/zd:7932/zd:8475	
+s52720	w48891	1	conj		everyday	core	2		zd:9549/zd:3133	
+s52721	w48892	1	n		religion	core	2		zd:7265/zd:6273/zd:3083	
+s52722	w48893	1	n		home/education	core	2		zd:7445/zd:3245/zd:5230	
+s52723	w48894	1	adv		body	core	1		zd:1015/zd:3195	other uses after a verb are not clear
+s52724	w48895	1	v		everyday	core	2		zd:4598/zd:3199	
+s52725	w48896	1	v		social	core	2		zd:6388/zd:3280/zd:8336	
+s52726	w48897	1	adv		everyday	core	2		zd:1921/zd:3210/zd:5387	
+s52727	w48898	1	v		everyday/travel	core	2		zd:875/zd:8087	
+s52728	w48899	1	adj		social	core	2		zd:6884/zd:6885/zd:10508	
+s52729	w48900	1	n		work	core	1	Burmese	zd:8394	one article; elsewhere a part of names and of {dip kuat}, terror
+s52730	w48901	1	v		social	core	2		zd:3716/zd:9317/zd:715	
+s52731	w48902	1	v		politics/social	core	2		zd:3750/zd:6434/zd:4539	
+s52732	w48903	1	adv		nature	core	1		zd:6336/zd:6891/zd:5882	other uses are not clear
+s52733	w48904	1	adj		body/health	core	2		zd:6570/zd:6863/zd:3234	
+s52734	w48905	1	n		everyday/social	core	2		zd:8542/zd:7568	
+s52735	w48906	1	n		politics/nature	core	1		zd:7568/zd:10023	
+s52736	w48907	1	v		time	core	2		zd:3941/zd:4047/zd:5168	
+s52737	w48908	1	v		nature/travel	core	2		zd:4138/zd:7194	
+s52738	w48909	1	name	place	travel	core	2		zd:9778/zd:4268	
+s52739	w48910	1	n		politics/social	core	2		zd:4315/zd:1997	
+s52740	w48911	1	n		politics	core	2		zd:2727/zd:1517	
+s52741	w48912	1	n		nature/social	core	2		zd:4315/zd:6861/zd:5790	
+s52742	w48913	1	n		nature	core	1		zd:6003	song language, one clear sentence
+s52743	w48914	1	v		everyday/health	core	2		zd:959/zd:6398/zd:7523	
+s52744	w48915	1	v		everyday	core	2		zd:7639/zd:262	
+s52745	w48916	1	v		everyday	core	2		zd:8008/zd:4315	
+s52746	w48917	1	n		social	core	1		zd:4315/zd:7197	three articles
+s52747	w48918	1	n		body/health	core	2		zd:6570/zd:4291	
+s52748	w48919	1	v		religion/everyday	core	2		zd:4388/zd:5992	
+s52749	w48920	1	adj		social	core	2		zd:569/zd:10058	
+s52750	w48921	1	v		everyday	core	2		zd:1567/zd:6817	
+s52751	w48922	1	n		religion/social	core	2		zd:4621/zd:2821/zd:6709	
+s52752	w48923	1	part		everyday	core	1		zd:9041	few sentences
+s52753	w48924	1	intj		social	core	2		zd:6309/zd:4413	
+s52754	w48925	1	n		travel/everyday	core	2		zd:9043/zd:2431	
+s52755	w48926	1	v		everyday/politics	core	2		zd:7598/zd:8583/zd:4818	
+s52756	w48927	1	n		nature	core	2		zd:5599/zd:8583	
+s52757	w48928	1	adj		everyday/social	core	1		zd:2274/zd:5911	two of the sentences do not fit this meaning
+s52758	w48929	1	adj		everyday	core	1		zd:716	two sentences
+s52759	w48930	1	n		politics	core	2		zd:4310/zp:3701/zp:3713	
+s52760	w48931	1	part		everyday	core	2		zd:5588/zd:6214/zd:5430	
+s52761	w48932	1	v		politics	core	2		zd:260/zd:5058	
+s52762	w48933	1	n		social/body	core	2		zd:6917/zd:5058/zp:994	
+s52763	w48934	1	v		social	core	2		zd:7031/zd:4681	
+s52764	w48935	1	v		everyday/media	core	2		zd:6883/zd:5269/zd:5270	
+s52765	w48936	1	n		nature	core	2		zd:5228/zd:6343/zd:5892	
+s52766	w48937	1	n		education	core	2		zd:6674/zd:2290	
+s52767	w48938	1	v		work/social	core	2		zd:3579/zd:5232	
+s52768	w48939	1	n		social	core	2		zd:5518/zp:2608	
+s52769	w48940	1	n		body/health	core	2		zd:9759/zd:261	
+s52770	w48941	1	n		education	core	2		zd:3326/zd:5626	
+s52771	w48942	1	n		social	core	2		zd:1640/zd:3236	
+s52772	w48943	1	n		religion	core	1	Burmese	zd:8624	almost one article
+s52773	w48944	1	name	khua	nature	core	2		zd:5394/zd:1333	
+s52774	w48945	1	n		body	core	2		zd:2849/zd:4901	
+s52775	w48946	1	adj		everyday	core	2		zd:5692/zd:4408/zd:5214	
+s52776	w48947	1	v		social/media	core	2		zd:959/zd:8553	
+s52777	w48948	1	n		nature	core	2		zd:6008/zd:5690/zd:1261	
+s52778	w48949	1	v		everyday	core	2		zd:8018/zd:8149/zd:8211	
+s52779	w48950	1	n		home	core	1		zd:9514/zd:5644/zd:8450	inferred from where people sit and sleep
+s52780	w48951	1	v		education	core	2		zd:5453/zd:8793/zd:2875	
+s52781	w48952	1	adv		everyday	core	2		zd:5931/zd:6397/zd:8381	
+s52782	w48953	1	adv		everyday	core	2		zd:5947/zd:9044	
+s52783	w48954	1	v		everyday	core	2		zd:8501/zd:5931/zd:6770	
+s52784	w48955	1	adv		time	core	2		zd:6794/zd:5937	
+s52785	w48956	1	phrase		social	core	2		zd:5894/zd:7605	
+s52786	w48957	1	phrase		everyday	core	2		zd:2745/zd:6199	
+s52787	w48958	1	v		social/politics	core	2		zd:6227/zd:10280/zd:6240	
+s52788	w48959	1	n		everyday	core	1		zd:7991/zd:7494	one writer, sense inferred
+s52789	w48960	1	n		home/work	core	2		zd:7083/zd:5363	
+s52790	w48961	1	n		everyday/media	core	2		zd:8183/zd:7850	
+s52791	w48962	1	n		work/politics	core	2		zd:6255/zd:6640	
+s52792	w48963	1	v		religion/social	core	1		zd:1773/zd:6584/zd:6819	inferred from accounts of custom
+s52793	w48964	1	n		everyday/health	core	2		zd:5390/zd:6277	
+s52794	w48965	1	v		social	core	2		zd:8171/zd:6455	
+s52795	w48966	1	adv		body/family	core	2		zd:3928/zd:6397/zd:6400	
+s52796	w48967	1	name	land	nature/politics	core	2		zd:7944/zd:7971	
+s52797	w48968	1	adj		social	core	2		zd:7345/zd:7325	
+s52798	w48969	1	name	people	social/politics	core	2		zd:6428/zd:7325	
+s52799	w48970	1	n		social	core	2		zd:5470/zp:411/zd:8080	
+s52800	w48971	1	n		social/travel	core	2		zd:7231/zd:7948/zd:4496	
+s52801	w48972	1	adj		education/nature	core	2	Burmese	zd:6823/zd:2102/zp:167	
+s52802	w48973	1	name	city	education/travel	core	2		zd:10913/zd:6823	
+s52803	w48974	1	n		work/social	core	1		zd:6834/zd:2803/zd:7446	
+s52804	w48975	1	adv		everyday	core	2		zd:7959/zd:5094	
+s52805	w48976	1	v		travel	core	2		zd:6318/zd:5879/zd:4598	
+s52806	w48977	1	adv		everyday	core	2		zd:22706/zd:8538/zd:3145	
+s52807	w48978	1	n		social/religion	core	2		zd:8021/zd:8156/zd:2809	
+s52808	w48979	1	adv		everyday	core	1		zd:2658/zd:2729	sense inferred
+s52809	w48980	1	n		everyday	core	2		zd:4772/zd:9559/zd:2939	
+s52810	w48981	1	n		social/work	core	2		zd:7727/zd:1313	
+s52811	w48982	1	n		home/travel	core	2		zd:1738/zd:7310	
+s52812	w48983	1	adv		everyday	core	2		zd:850/zd:9885	
+s52813	w48984	1	v		everyday	core	2		zd:3579/zd:6373/zd:2990	
+s52814	w48985	1	n	animal	nature	core	2		zd:7194/zd:6940	
+s52815	w48986	1	v		social/travel	core	2		zd:3242/zd:4332/zd:6759	
+s52816	w48987	1	n		work/politics	core	1	Burmese	zd:5998/zd:7343	only in one phrase
+s52817	w48988	1	v		social	core	2		zd:5866/zd:6929/zd:2829	
+s52818	w48989	1	n		nature/everyday	core	2		zd:6780/zd:6769/zd:6719	
+s52819	w48990	1	part		everyday	core	1		zd:7347/zd:4901/zd:9888	
+s52820	w48991	1	name	people	social	core	1		zd:8699	
+s52821	w48992	1	v		social	core	2		zd:5881/zd:3246/zd:6913	
+s52822	w48993	1	adj		home	core	2		zd:6788/zd:6738	
+s52823	w48994	1	n		home/everyday	core	2		zd:6996/zd:8232/zd:4818	
+s52824	w48995	1	n		travel	core	2		zd:6743/zd:6797/zd:6798	
+s52825	w48996	1	n		nature	core	2		zd:6538/zd:1620/zd:7619	
+s52826	w48997	1	n		social	core	2		zd:4265/zd:1861/zd:3651	
+s52827	w48998	1	v		work/politics	core	2		zd:10182/zd:250/zd:7662	
+s52828	w48998	2	v		travel	core	1		zd:4598	one sentence
+s52829	w48999	1	n		media	core	2		zd:7690/zd:7099/zd:2170	
+s52830	w49000	1	n		nature	core	1		zd:6726	
+s52831	w49001	1	n		family	core	2		zd:7901/zd:3243	
+s52832	w49002	1	pron		everyday	core	2		zd:9635/zd:6138/zd:9863	
+s52833	w49003	1	n		nature	core	2		zd:6715/zd:6538	
+s52834	w49004	1	n		education	core	2	Burmese	zd:6055/zd:7149/zd:7726	
+s52835	w49005	1	v		everyday/religion	core	2		zd:8418/zd:4964/zd:8229	
+s52836	w49006	1	n		social/religion	core	2		zd:6476/zd:7979/zd:7760	
+s52837	w49007	1	n		social/politics	core	2		zd:2735/zd:6861	
+s52838	w49008	1	v		religion	core	2		zd:7943/zd:7679	
+s52839	w49009	1	n		social/religion	core	2		zd:3081/zd:7085	
+s52840	w49010	1	n		everyday	core	2		zd:2980/zd:2150	
+s52841	w49011	1	n		home/social	core	2		zd:8018/zd:4089/zd:6939	
+s52842	w49012	1	v		social/work	core	2		zd:9193/zd:4820/zd:7471	
+s52843	w49013	1	phrase		media	core	1		zd:7110/zd:8005	poetic
+s52844	w49014	1	n		social	core	2		zd:1783/zd:3262	
+s52845	w49015	1	ppm		everyday	core	2		zd:3335/zd:5764	
+s52846	w49016	1	n		nature	core	2		zd:8363/zd:9797	
+s52847	w49017	1	n		home	core	2		zd:8033/zd:2875	
+s52848	w49018	1	v		everyday/work	core	2		zd:10159/zd:3885/zd:8088	
+s52849	w49019	1	adv		everyday	core	2		zd:8129/zd:1340/zd:7963	
+s52850	w49020	1	name		politics	core	1		zd:8699/zd:8153	
+s52851	w49021	1	v		everyday	core	2		zd:1861/zd:3250	
+s52852	w49022	1	name	city	travel	core	2		zd:4519/zd:8166	
+s52853	w49023	1	v		everyday	core	2		zd:8354/zd:6010/zd:8190	
+s52854	w49024	1	adv		everyday	core	2		zd:8208/zd:7335	
+s52855	w49025	1	n		education	core	2		zd:8238/zd:7759	
+s52856	w49026	1	n		everyday	core	2		zd:957/zd:3996/zd:6234	
+s52857	w49027	1	n		travel	core	1	Burmese	zd:8451/zd:5927	origin inferred
+s52858	w49028	1	v		everyday/work	core	2		zd:1288/zd:5863/zd:8112	
+s52859	w49029	1	adv		work/everyday	core	2		zd:8105/zd:3323	
+s52860	w49030	1	adv		everyday	core	1		zd:7799/zd:6354	inferred from a few varied sentences
+s52861	w49031	1	det		time	core	2		zd:6344/zd:8017	
+s52862	w49032	1	adj		everyday	core	2		zd:6281/zd:2990	
+s52863	w49033	1	n		social/media	core	2		zd:8115/zd:4429/zd:9335	
+s52864	w49034	1	n		social/politics	core	2		zd:8156/zd:8631	
+s52865	w49035	1	n		social	core	2		zd:7326/zd:9688	
+s52866	w49036	1	n		travel	core	2		zd:10367/zd:7591	
+s52867	w49037	1	v		social/politics	core	2		zd:10562/zd:9849	
+s52868	w49038	1	v		everyday/social	core	2		zd:4295/zd:1861/zd:9109	
+s52869	w49039	1	n		it	core	2	English	zd:10032/zd:10529	
+s52870	w49040	1	adv		everyday	core	2		zd:7293/zd:6018/zd:5564	
+s52871	w49041	1	v		travel/everyday	core	2		zd:4733/zd:10483	
+s52872	w49042	1	adv		everyday/media	core	2		zd:9778/zd:8490/zd:9276	
+s52873	w49043	1	n		work/politics	core	2	English	zd:3601/zp:2839	
+s52874	w49044	1	name	khua	religion/travel	core	2		zd:8057/zd:6857	
+s52875	w49045	1	adv		everyday	core	1		zd:551/zd:6837	inferred from few sentences
+s52876	w49046	1	n		politics/social	core	2		zd:6264/zd:2668	
+s52877	w49047	1	name	city	politics/travel	core	2		zd:10601/zd:8589	
+s52878	w49048	1	n		nature/home	core	2		zd:4291/zd:5093	
+s52879	w49049	1	n		social	core	2		zd:7334/zd:7342	
+s52880	w49050	1	n		nature/time	core	2		zd:6240/zd:537	
+s52881	w49051	1	n		social	core	2		zd:8469/zd:7322	
+s52882	w49052	1	v		travel/everyday	core	1		zd:5235	few plain sentences
+s52883	w49053	1	v		social/politics	core	2		zd:6435/zd:9652	
+s52884	w49054	1	v		social/everyday	core	2		zd:1370/zd:6431/zd:8509	
+s52885	w49055	1	name	people	social	core	2		zd:8040/zd:4313	
+s52886	w49056	1	n		social/religion	core	2		zd:769/zd:5784/zd:8504	
+s52887	w49057	1	n		media	core	2		zd:8388/zd:8452	
+s52888	w49058	1	v		religion/travel	core	1		zd:1305/zd:8480/zd:7178	mostly seen in one phrase
+s52889	w49059	1	v		everyday/social	core	2		zd:4060/zd:5535	
+s52890	w49060	1	n		food/nature	core	2		zd:7229/zd:1753	
+s52891	w49061	1	n		family	core	2		zd:6993/zd:7051	
+s52892	w49062	1	adv		everyday	core	2		zd:7826/zd:3307	
+s52893	w49063	1	v		work	core	2		zd:7694/zd:3616/zd:16639	
+s52894	w49064	1	n		food	core	1		zd:2239	seen in three articles only
+s52895	w49065	1	adv		everyday	core	1		zd:6367/zd:2532	descriptive word inferred from few sentences
+s52896	w49066	1	ppm		everyday	core	2		zd:4831/zd:8786	
+s52897	w49067	1	v		everyday	core	2		zd:9197/zd:2926	
+s52898	w49068	1	v		education	core	2		zd:6918/zd:5857/zd:583	
+s52899	w49069	1	part		everyday	core	2		zd:3393/zd:6710	
+s52900	w49070	1	adj		work	core	2		zd:4151/zd:7339	
+s52901	w49071	1	v		everyday	core	2		zd:5861/zd:3863	
+s52902	w49072	1	v		everyday	core	2		zd:6077/zd:6944/zd:3086	
+s52903	w49073	1	adv		social	core	2		zd:8526/zd:1861	
+s52904	w49074	1	n		education/religion	core	2		zd:7941/zd:3138	
+s52905	w49075	1	prep		travel/everyday	core	2		zd:706/zd:3180/zp:3743	
+s52906	w49076	1	adj		everyday	core	2		zd:7695/zd:3262	
+s52907	w49077	1	v		everyday	core	2		zd:8578/zd:3280	
+s52908	w49078	1	n		politics	core	2		zd:3322/zd:3468	
+s52909	w49079	1	v		everyday	core	2		zd:3427/zd:7638	
+s52910	w49080	1	pron		everyday	core	2		zd:5169/zd:9544	
+s52911	w49081	1	n		health	core	2		zd:7841/zd:10419/zd:3414	
+s52912	w49082	1	adj		everyday	core	2		zd:3414/zd:7381	
+s52913	w49083	1	v		everyday	core	2		zd:7743/zd:936	
+s52914	w49084	1	adv		everyday	core	2		zd:9084/zd:1412	
+s52915	w49085	1	n		everyday	core	2		zd:4201/zd:2473	
+s52916	w49086	1	name		it	core	2		zd:6267/zd:8557	
+s52917	w49087	1	v		social/family	core	1		zd:8021/zd:7606	few sentences
+s52918	w49088	1	v		everyday	core	1		zd:6042	one clear sentence
+s52919	w49089	1	n		time	core	2		zd:352/zd:2525/zd:5183	
+s52920	w49090	1	phrase		everyday	core	2		zd:8345/zd:716	
+s52921	w49091	1	pron		everyday	core	2		zp:155/zd:9051/zd:4562	
+s52922	w49092	1	adj		everyday	core	1		zd:4209/zd:6440/zd:6364	meaning inferred from few sentences
+s52923	w49093	1	n		religion	core	2		zp:3867	
+s52924	w49094	1	name		religion	core	2		zd:5093/zp:141	
+s52925	w49095	1	v		everyday	core	2		zd:4426/zd:5886/zd:6318	
+s52926	w49096	1	n		education/religion	core	2		zd:4687/zd:4682	
+s52927	w49097	1	n		everyday	core	2		zd:5493/zd:9329/zd:5503	
+s52928	w49098	1	v		everyday	core	2		zd:5708/zd:8352/zd:5888	
+s52929	w49099	1	phrase		everyday	core	1		zp:389/zd:8337	two different uses in few sentences
+s52930	w49100	1	adv		social	core	1		zd:5870/zd:5861	poetic use
+s52931	w49101	1	v		religion	core	2		zd:8513/zd:3252	
+s52932	w49102	1	v		everyday	core	2		zd:6037/zd:4995	
+s52933	w49103	1	n		education	core	2		zd:7326	
+s52934	w49104	1	n		social	core	1		zd:6511/zd:4313	meaning inferred from few sentences
+s52935	w49105	1	adv		nature	core	1		zd:1407	few and unclear sentences
+s52936	w49106	1	n		education	core	2		zd:6428/zd:6584	
+s52937	w49107	1	n		food/nature	core	2		zd:4291/zd:6862/zd:6275	
+s52938	w49108	1	n		body	core	2		zd:8169	
+s52939	w49108	2	adj		body/health	core	1		zd:5378/zd:3618	meaning inferred from few sentences
+s52940	w49109	1	name		travel	core	1		zd:10259	few sentences
+s52941	w49110	1	ppm		everyday	core	2		zd:9416/zd:6413	
+s52942	w49111	1	n	animal	nature	core	1		zd:7194	few sentences
+s52943	w49112	1	name		travel/politics	core	2		zd:7225/zp:2488	
+s52944	w49113	1	name	people	social	core	1		zd:7238	few sentences
+s52945	w49114	1	name		social/travel	core	2		zd:7326/zd:1407	
+s52946	w49115	1	adj		everyday	core	2		zd:6367/zd:6393/zd:8014	
+s52947	w49116	1	adv		everyday/time	core	2		zd:7441/zd:6240	
+s52948	w49117	1	v		everyday	core	2		zd:1915/zd:10019/zd:5138	
+s52949	w49118	1	adv		time	core	2		zd:7680/zd:5733/zd:6332	
+s52950	w49119	1	adv		everyday/social	core	1		zd:7018/zd:5786/zd:604	sense inferred from the verbs it follows
+s52951	w49120	1	n		family/social	core	2		zd:8780/zd:6861	
+s52952	w49121	1	n		work/home	core	2		zd:8322/zd:9624/zd:8115	
+s52953	w49122	1	n		home/education	core	1		zd:8072	few sentences outside songs
+s52954	w49122	2	n		food/social	core	1		zd:8344/zd:6038	song word, sense inferred
+s52955	w49123	1	n		family/social	core	2		zd:15227/zd:6304/zd:22196	
+s52956	w49124	1	adj		everyday	core	2		zd:3196/zd:7085/zd:7350	
+s52957	w49125	1	adv		religion/everyday	core	1		zd:9450	only one use is clear
+s52958	w49126	1	v		social/religion	core	2		zd:1517/zd:7320	
+s52959	w49127	1	v		media/education	core	2		zd:3596/zd:7346	
+s52960	w49128	1	name	city	travel	core	2		zp:1673/zd:9871	
+s52961	w49129	1	n		time	core	2		zd:7764/zd:10009/zd:4736	
+s52962	w49130	1	v		everyday/social	core	2		zd:7687/zd:5630/zd:16644	
+s52963	w49131	1	n		social/education	core	2		zd:11742/zd:6655/zd:9762	
+s52964	w49132	1	n		social/education	core	2		zd:8464/zd:8726	
+s52965	w49133	1	adv		time	core	2		zd:9268/zd:3253/zd:6399	
+s52966	w49134	1	adj		everyday	core	2		zd:3928/zd:5666	
+s52967	w49135	1	n		home/work	core	2		zd:9529/zd:26716/zd:9791	
+s52968	w49136	1	adj		everyday/health	core	1		zd:3370/zd:8542	few sentences, mostly one article
+s52969	w49137	1	v		everyday	core	2		zp:3476	
+s52970	w49138	1	n		education	core	2		zd:8072/zd:2529	
+s52971	w49139	1	name	people	social	core	2		zd:8026/zd:4313/zd:551	
+s52972	w49140	1	adv		social/everyday	core	2		zd:8131/zd:957	
+s52973	w49141	1	n		education/religion	core	2		zd:1865/zd:2019	
+s52974	w49142	1	n	animal	nature/home	core	2		zd:5644/zd:1991	
+s52975	w49143	1	n		social	core	1		zd:6652/zd:4775	only in songs
+s52976	w49144	1	n		politics/work	core	2		zd:9070/zd:9530	
+s52977	w49145	1	name		religion	core	2		zd:5008/zd:2939	
+s52978	w49146	1	name	khua	social	core	1		zp:994	few sentences
+s52979	w49147	1	v		social	core	2		zd:4496/zd:8019	
+s52980	w49148	1	adv		everyday	core	2		zd:16931/zd:6921	
+s52981	w49149	1	v		everyday	core	2		zd:6078/zd:5655	
+s52982	w49150	1	n		family	core	2		zd:4211/zd:3771/zd:6536	
+s52983	w49151	1	n		health/work	core	2	English	zd:5328/zd:3243	
+s52984	w49152	1	n		education	core	2		zd:5196/zd:7248	
+s52985	w49153	1	name		religion	core	2		zd:1699/zd:8624	
+s52986	w49154	1	conj		everyday	core	2		zd:6605/zd:7317	
+s52987	w49155	1	v		everyday	core	2		zd:5965/zd:772/zd:7319	
+s52988	w49156	1	v		food/social	core	2		zd:6428/zd:8321/zd:6042	
+s52989	w49157	1	n		social	core	2		zd:6450/zd:8450	
+s52990	w49158	1	name	people	social	core	2		zd:8323	
+s52991	w49159	1	adv		nature	core	1		zd:7242/zd:7254	three articles of one writer
+s52992	w49160	1	n		work/health	core	2		zd:4515/zd:7417	
+s52993	w49161	1	n		everyday	core	2		zd:8661/zd:8500	
+s52994	w49162	1	n		social	core	1		zd:8362	found only in songs
+s52995	w49163	1	name		religion	core	2		zd:8476	
+s52996	w49164	1	v		everyday	core	2		zd:8113/zd:6153	
+s52997	w49165	1	n		everyday	core	2		zd:8009/zd:8010/zp:3476	
+s52998	w49166	1	adj		work	core	2		zd:6114/zd:9073	
+s52999	w49166	2	adj		everyday	core	1		zd:6042	one text in several copies
+s53000	w49167	1	n		time	core	2		zd:4256/zd:4751	
+s53001	w49168	1	n		politics	core	2	Burmese	zd:6153	
+s53002	w49169	1	v		travel/social	core	2		zd:8105/zd:6940/zd:5583	
+s53003	w49170	1	adv		everyday	core	2		zd:1281	
+s53004	w49171	1	v		everyday	core	2		zd:6188/zd:6024/zd:851	
+s53005	w49172	1	v		everyday	core	2		zd:3196/zd:9640/zd:4436	
+s53006	w49173	1	name		travel	core	2		zd:3602	
+s53007	w49174	1	n		family	core	1		zd:3278/zd:5453	three articles on marriage custom
+s53008	w49175	1	n		family/social	core	2		zd:3278/zd:5459	
+s53009	w49176	1	adj		food	core	2		zd:6042/zd:6024	
+s53010	w49177	1	adj		everyday	core	2		zd:7781/zd:8726	
+s53011	w49178	1	n		education	core	1		zd:7317/zd:6055	one writer's word
+s53012	w49179	1	adj		everyday	core	2		zd:8471/zd:6291	
+s53013	w49180	1	n		home/social	core	1		zd:3073	kind of cloth not clear
+s53014	w49181	1	n		social	core	2		zd:9792/zd:2980	
+s53015	w49182	1	v		everyday	core	2		zd:2149/zd:9890/zd:2232	
+s53016	w49183	1	n		nature	core	1		zd:8017	few and unclear sentences
+s53017	w49184	1	n		politics	core	2		zd:6672	
+s53018	w49185	1	v		social	core	1		zd:4313	found only in songs
+s53019	w49186	1	name	beh	family	core	2		zp:196	
+s53020	w49187	1	n		social	core	2		zd:7985/zd:11096/zd:5526	
+s53021	w49188	1	n		social	core	2		zd:7850/zd:2888/zd:8632	
+s53022	w49189	1	v		body	core	2		zd:3599/zd:4852	
+s53023	w49190	1	v		family/social	core	2		zd:4686/zd:9088/zd:11742	
+s53024	w49191	1	n		social	core	2		zd:9766/zd:5566/zd:2931	
+s53025	w49192	1	n		body	core	2		zd:5566/zd:5564/zd:3243	
+s53026	w49193	1	v		social/work	core	1		zd:2337/zd:6039/zd:8105	the things taken differ from sentence to sentence
+s53027	w49194	1	adj		everyday/media	core	1		zd:3262/zd:9522	few sentences
+s53028	w49195	1	part		everyday	core	1		zd:6386/zd:4757/zd:5568	the force of the ending is inferred from a few sentences
+s53029	w49196	1	n		home	core	2		zd:5571/zd:2632/zd:8213	
+s53030	w49197	1	v		social/everyday	core	1		zd:4685/zd:5571/zd:5887	the sense unable of <lah> is inferred from the sentences
+s53031	w49198	1	v		media/everyday	core	2		zd:8556/zd:7965/zd:8560	
+s53032	w49199	1	prep		everyday/time	core	2		zd:8579/zd:26711/zd:7760	
+s53033	w49200	1	adv		everyday	core	1		zd:8371/zd:8348/zd:6663	the shade of meaning differs from sentence to sentence
+s53034	w49201	1	v		education/everyday	core	2		zd:6945/zd:5225/zd:2149	
+s53035	w49202	1	n		family/time	core	2		zd:6971/zd:5459/zd:9643	
+s53036	w49203	1	adj		social/everyday	core	2		zd:6890/zd:5891/zd:5237	
+s53037	w49204	1	n		social/family	core	1		zd:7427/zd:9417/zd:2838	few prose sentences
+s53038	w49205	1	v		social	core	2		zd:7926/zd:5868/zd:5225	
+s53039	w49206	1	n		body/social	core	1		zd:6328/zd:5615	songs and letters only
+s53040	w49207	1	n		travel/social	core	1		zd:5585/zd:6788/zd:8664	few sentences
+s53041	w49208	1	n		social	core	2		zd:6844/zp:3105	
+s53042	w49209	1	adv		everyday	core	2		zd:6101/zd:6847	
+s53043	w49210	1	n		politics/social	core	2		zd:22196/zd:6844	
+s53044	w49211	1	v		social/media	core	2		zd:6844/zd:3253/zd:8555	
+s53045	w49212	1	v		everyday/it	core	2		zd:3885/zd:4297	
+s53046	w49213	1	n		it	core	1	English	zd:1269/zd:7401	few sentences, all in computer lessons
+s53047	w49214	1	v		everyday/work	core	2		zd:7545/zd:7582	
+s53048	w49215	1	adv		everyday	core	2		zd:7887/zd:8329/zd:5735	
+s53049	w49216	1	v		health/everyday	core	2		zd:7061/zd:8632/zd:8419	
+s53050	w49217	1	n		social/politics	core	2		zd:6919/zd:6300/zd:6944	
+s53051	w49218	1	n		everyday/travel	core	2		zd:5576/zd:8728/zd:8364	
+s53052	w49219	1	n		work/nature	core	1	English	zd:8747/zd:3079	few sentences
+s53053	w49220	1	v		social/politics	core	2		zd:6858/zd:7759/zd:7998	
+s53054	w49221	1	v		social/media	core	2		zd:8735/zd:1268/zd:3253	
+s53055	w49222	1	v		social/work	core	2		zd:564/zd:2047/zd:9849	
+s53056	w49223	1	n		health	core	1		zd:3119/zd:7898	few sentences
+s53057	w49224	1	v		everyday	core	2		zd:3252/zd:6997/zd:6626	
+s53058	w49225	1	n		work	core	2		zd:5715/zd:5719	
+s53059	w49226	1	n		social	core	2		zd:5171/zd:4384/zd:9624	
+s53060	w49227	1	v		everyday	core	2		zd:8632/zd:965/zd:5849	
+s53061	w49228	1	v		social/everyday	core	2		zd:5341/zd:8115/zd:2828	
+s53062	w49229	1	v		politics/social	core	2		zd:8357/zd:10426/zd:5992	
+s53063	w49230	1	n		nature	core	1		zd:6038/zd:9088/zd:6268	songs and wishes only
+s53064	w49231	1	prep		travel/everyday	core	2		zd:8451/zd:321/zd:1384	
+s53065	w49232	1	v		education/everyday	core	2		zd:5001/zd:5869/zd:473	
+s53066	w49233	1	v		everyday/social	core	1		zd:6339/zd:7083/zd:3592	meaning inferred from few sentences
+s53067	w49234	1	n		everyday/social	core	1		zd:516/zd:7174/zd:1015	the uses are few and varied
+s53068	w49235	1	v		work/home	core	2		zd:4427/zd:3196/zd:944	
+s53069	w49236	1	n		education	core	2		zd:2630/zd:584/zp:183	
+s53070	w49237	1	adv		everyday	core	2		zd:2575/zd:736	
+s53071	w49238	1	adv		everyday	core	1		zd:239/zd:5389	meaning inferred from few sentences
+s53072	w49239	1	n		body/politics	core	2		zd:6180	
+s53073	w49240	1	n		family	core	2		zd:4441/zd:7018	
+s53074	w49241	1	n		social	core	2		zd:7010/zd:1793/zd:3591	
+s53075	w49242	1	n		religion	core	2		zd:8707/zd:5453	
+s53076	w49243	1	v		everyday	core	2		zd:7776/zd:7241/zd:4347	
+s53077	w49244	1	n		social/family	core	2		zd:842/zd:5145/zd:6040	
+s53078	w49245	1	phrase		everyday	core	2		zd:946/zd:9652	
+s53079	w49246	1	phrase		everyday	core	2		zd:946/zd:5824/zd:3322	
+s53080	w49247	1	v		work/politics	core	2		zd:940/zd:10288	
+s53081	w49248	1	adv		everyday	core	2		zp:2938/zd:722/zd:3908	
+s53082	w49249	1	phrase		media/everyday	core	2		zd:7939/zd:7400/zd:8509	
+s53083	w49250	1	name	land	politics/travel	core	2		zd:2102/zd:7389/zd:1469	
+s53084	w49251	1	n		health/food	core	2	English	zd:9587/zd:9759	
+s53085	w49252	1	adj		politics	core	2		zd:1831/zd:1323/zd:1997	
+s53086	w49253	1	n		religion	core	2		zd:6853/zd:4523/zd:1396	
+s53087	w49254	1	pron		everyday	core	2		zd:7648/zd:9832/zd:3665	
+s53088	w49255	1	n		social	core	2		zd:6270/zd:6917/zd:5270	
+s53089	w49256	1	name	city	politics	core	2		zd:3288/zd:789	
+s53090	w49257	1	name	river	nature	core	2		zd:8008/zd:7231	
+s53091	w49258	1	n		nature/food	core	2		zd:1682/zd:5122/zd:7621	
+s53092	w49259	1	n		religion	core	1		zd:8137	taken as a spelling of the word for church from one article and a church name
+s53093	w49260	1	v		work	core	2		zd:1682/zd:6392/zd:6298	
+s53094	w49261	1	n		work/education	core	2	English	zd:8008/zp:2078	
+s53095	w49262	1	part		everyday	core	2		zd:1839/zd:851/zd:8730	
+s53096	w49263	1	v		work/social	core	2		zd:1920/zd:6176	
+s53097	w49264	1	phrase		everyday	core	2		zd:1863/zd:2834/zd:8320	
+s53098	w49265	1	adj		social	core	2		zd:1854/zd:8220/zd:4979	
+s53099	w49266	1	adj		education	core	1		zd:7009/zd:1940	few clear sentences
+s53100	w49267	1	prep		everyday	core	2		zd:3180/zd:1996	
+s53101	w49268	1	adj		work/everyday	core	1		zd:2055/zd:8115/zd:7948	meaning inferred from few sentences
+s53102	w49269	1	v		everyday	core	2		zd:9522/zd:2029/zd:8566	
+s53103	w49270	1	n		everyday/religion	core	2		zd:5078/zd:8234/zp:4294	
+s53104	w49271	1	adv		travel	core	2		zd:4519/zd:8497/zd:3567	
+s53105	w49272	1	n		media/religion	core	2		zd:2084/zd:5874/zd:10185	
+s53106	w49273	1	name	city	travel	core	2		zd:8606/zd:2101	
+s53107	w49274	1	name	city	travel	core	2		zd:8606/zd:2101	
+s53108	w49275	1	n		nature	core	2		zd:6345/zd:2101/zd:6538	
+s53109	w49276	1	n		nature	core	2	English	zd:5884/zd:2104	
+s53110	w49277	1	n		body	core	2		zd:2105/zd:6217	
+s53111	w49278	1	name	people	social	core	2		zd:8699	
+s53112	w49279	1	v		everyday/social	core	2		zd:9759/zd:11097	
+s53113	w49280	1	v		social	core	2		zd:4848/zd:2868/zd:5230	
+s53114	w49281	1	n		education	core	1	English	zd:6434/zd:2376	three articles, mostly in brackets after a Zolai term
+s53115	w49282	1	v		everyday/social	core	2		zd:2888/zd:5994/zd:2377	
+s53116	w49283	1	v		everyday	core	2		zd:2403/zd:5639	
+s53117	w49284	1	n		everyday	core	2		zd:7078/zd:2403	
+s53118	w49285	1	adv		time/everyday	core	2		zd:6625/zd:6684	
+s53119	w49286	1	v		everyday	core	2		zd:4430/zd:5453	
+s53120	w49287	1	n		religion	core	1	Latin	zd:4636	few sentences
+s53121	w49288	1	v		everyday	core	2		zd:6543/zd:2521	
+s53122	w49289	1	n		everyday/education	core	2		zd:5690/zd:5873	
+s53123	w49290	1	n		politics/social	core	2		zd:7967/zd:3210/zd:8541	
+s53124	w49291	1	n		family	core	2		zd:6600/zd:4627	
+s53125	w49292	1	adv		social/politics	core	2		zd:6512/zd:9744	
+s53126	w49293	1	adj		social	core	1		zd:9845/zd:1416	two sentences
+s53127	w49294	1	adv		everyday	core	2		zd:9201/zd:3673/zd:5387	
+s53128	w49295	1	n		everyday/social	core	2		zd:4400/zd:7889/zd:8180	
+s53129	w49296	1	n		everyday	core	1		zd:2927/zd:10561	few sentences
+s53130	w49297	1	n		travel	core	2		zd:827/zd:1997	
+s53131	w49298	1	adj		everyday	core	2		zd:6300/zd:2280	
+s53132	w49299	1	n		everyday/social	core	2		zd:5305/zd:3026/zd:5026	
+s53133	w49300	1	n		politics	core	2		zd:6549/zd:3917	
+s53134	w49301	1	v		social/everyday	core	2		zd:6235/zd:7282	
+s53135	w49302	1	n		politics/everyday	core	2		zd:1757/zd:2998	
+s53136	w49303	1	v		everyday/politics	core	2		zd:5904/zd:7809/zd:3119	
+s53137	w49304	1	v		food	core	2		zd:5802/zd:6765/zp:3456	
+s53138	w49305	1	v		everyday	core	2		zd:5886/zd:4408	
+s53139	w49306	1	v		everyday/media	core	2		zd:958/zd:7007	
+s53140	w49307	1	v		food/social	core	1		zd:6845/zd:5028	few sentences and more than one use
+s53141	w49308	1	v		social/education	core	2		zd:6944/zd:3068/zd:8126	
+s53142	w49309	1	v		travel	core	2		zd:5178/zd:3195	
+s53143	w49310	1	v		travel/everyday	core	2		zd:7709/zd:6354/zd:6115	
+s53144	w49311	1	n		family/social	core	1		zd:2742/zd:3254	few sentences
+s53145	w49312	1	v		everyday/travel	core	2		zd:3332/zd:4067/zd:7560	
+s53146	w49313	1	adv		everyday	core	2		zd:901/zd:2719	
+s53147	w49314	1	v		food/social	core	2		zd:5724/zd:5857	
+s53148	w49315	1	n		family	core	2		zd:8512	
+s53149	w49316	1	v		everyday/social	core	2		zd:4206/zd:9305/zd:3752	
+s53150	w49317	1	v		body/everyday	core	2		zd:3212/zd:3750	
+s53151	w49318	1	n		home/work	core	2		zd:5159/zd:3243/zd:7962	
+s53152	w49319	1	n		travel	core	2		zd:8107/zd:8105	
+s53153	w49320	1	v		everyday/social	core	2		zd:9188/zd:7083	
+s53154	w49321	1	adv		everyday	core	1		zd:8357/zd:5534	few sentences and the sense is inferred
+s53155	w49322	1	n		politics	core	2	English	zd:7322/zd:4524	
+s53156	w49323	1	n	animal	nature	core	2		zd:715/zd:3908	
+s53157	w49324	1	n		health/food	core	2	English	zd:1803/zd:3895	
+s53158	w49325	1	n		nature	core	2		zd:4444/zd:8233	
+s53159	w49326	1	n		time	core	2		zd:5846/zd:4013	
+s53160	w49327	1	name	land	politics/travel	core	2		zd:4050/zp:787	
+s53161	w49328	1	v		everyday	core	1		zd:3891/zd:5469/zd:4568	the force of the second part is inferred
+s53162	w49329	1	adj		everyday	core	2		zd:3094/zd:8778	
+s53163	w49330	1	adv		everyday/body	core	1		zd:882/zd:940/zd:4138	descriptive word, the picture is inferred
+s53164	w49331	1	n		social	core	1		zd:4030	song word known from few lines
+s53165	w49332	1	n		travel	core	1		zp:3981	few sentences, what exactly was built is not clear
+s53166	w49333	1	adv		nature	core	2		zd:8501/zd:26715/zd:4315	
+s53167	w49334	1	v		everyday	core	2		zd:5770/zd:1454/zd:8509	
+s53168	w49335	1	adj		body	core	1		zd:6969/zd:4384	few sentences
+s53169	w49336	1	n		family/social	core	2		zd:8532/zd:4488	
+s53170	w49337	1	v		social/work	core	2		zd:1858/zd:3596	
+s53171	w49338	1	v		everyday	core	2		zd:8538	
+s53172	w49339	1	n		nature	core	2		zd:4524/zd:1407	
+s53173	w49340	1	v		work/politics	core	2		zd:2729/zd:2170	
+s53174	w49341	1	v		everyday	core	2		zd:8156	
+s53175	w49342	1	n		everyday	core	2		zd:3253/zd:4595	
+s53176	w49343	1	name	place	nature/travel	core	2		zd:7231/zd:8022	
+s53177	w49344	1	v		everyday	core	2		zp:3194/zd:7178/zd:4325	
+s53178	w49345	1	v		everyday	core	2		zd:1796/zd:4642/zd:5229	
+s53179	w49346	1	adv		everyday	core	1		zd:879/zd:6835	left undetermined in an earlier scan, the force of the negative is unclear
+s53180	w49347	1	name	place	nature	core	2		zd:8583/zd:4336	
+s53181	w49348	1	name	people	social	core	2		zd:2742/zd:7225	
+s53182	w49349	1	name	khua	social	core	1		zd:8583	known from one sentence as a village
+s53183	w49350	1	n		social/politics	core	2		zd:8583/zd:4562	
+s53184	w49351	1	n		home	core	1		zd:8450/zd:7194	kind of pot not clear
+s53185	w49351	2	n		politics/media	core	2		zd:1402/zd:4925	
+s53186	w49352	1	v		everyday/social	core	2		zd:10555/zd:7641	
+s53187	w49353	1	v		everyday	core	2		zd:8152/zd:7296	
+s53188	w49354	1	adj		everyday	core	2		zd:9647/zd:8130/zd:5256	
+s53189	w49355	1	v		everyday	core	2		zd:4742/zd:7932	
+s53190	w49356	1	v		education/politics	core	2		zd:5263/zd:8123	
+s53191	w49357	1	part		everyday	core	1		zd:8079/zd:604	few sentences and the force of the ending is not certain
+s53192	w49358	1	v		everyday	core	2		zd:9736/zd:7927/zd:4522	
+s53193	w49359	1	adj		education	core	2		zd:7739/zd:7328	
+s53194	w49360	1	n		education	core	2		zd:10543/zd:5232	
+s53195	w49361	1	n		religion	core	2		zd:7076/zd:9399/zd:4209	
+s53196	w49362	1	n		religion/family	core	2		zd:5304/zd:1104	
+s53197	w49363	1	n		time	core	1		zd:10010/zd:8500	the same spelling is also used for the kidney in one article
+s53198	w49364	1	n		social	core	2		zd:9328/zd:261	
+s53199	w49365	1	adj		politics	core	1		zd:7323/zd:7329	one writer's word
+s53200	w49366	1	adv		everyday	core	2		zd:2634/zd:6396/zd:5427	
+s53201	w49367	1	num		everyday	core	2		zd:10007/zd:5478	
+s53202	w49368	1	v		everyday	core	2		zp:3476/zp:3470	
+s53203	w49369	1	conj		everyday	core	2		zd:9738/zd:5532	
+s53204	w49370	1	v		social	core	2		zd:16639/zd:2969	
+s53205	w49371	1	n		time	core	2		zd:8123	
+s53206	w49372	1	n		social	core	2		zd:7075/zd:5897	
+s53207	w49373	1	adj		everyday	core	2		zd:4457/zd:5897/zd:8332	
+s53208	w49374	1	v		everyday/travel	core	2		zd:5687/zd:5601/zd:5865	
+s53209	w49375	1	n		education	core	2		zd:9275/zd:8033/zd:5931	
+s53210	w49376	1	v		social	core	2		zd:9343/zd:5931	
+s53211	w49377	1	v		everyday/media	core	2		zd:9129/zd:4871	
+s53212	w49378	1	adv		everyday	core	1		zd:5931/zd:5886	the exact shade differs between sentences
+s53213	w49379	1	v		education	core	2		zd:8137/zd:6380	
+s53214	w49380	1	v		social	core	2		zd:5990/zd:7962	
+s53215	w49381	1	v		everyday	core	2		zd:6267/zd:7777	
+s53216	w49382	1	adj		everyday/body	core	1		zd:3825/zd:5882	two sentences only
+s53217	w49383	1	n		social	core	1		zd:8780/zd:6018	inferred from the saying and a few sentences
+s53218	w49384	1	n		social	core	1		zd:9624/zd:8537	only in one fixed phrase
+s53219	w49385	1	v		nature	core	1		zd:7764/zd:8421	only in one saying
+s53220	w49386	1	n		social/family	core	2		zd:5453/zd:2239	
+s53221	w49387	1	adj		everyday	core	2		zd:7975/zd:7568/zd:6041	
+s53222	w49388	1	n		everyday	core	2		zd:3200/zd:4627	
+s53223	w49389	1	n		body/social	core	2		zd:5441/zd:6107/zd:3172	
+s53224	w49390	1	n		politics/work	core	2		zd:4901/zd:7296	
+s53225	w49391	1	v		everyday	core	2		zd:6227/zd:7327	
+s53226	w49392	1	part		everyday	core	1		zd:5868/zd:6318	several of the sentences are broken lines
+s53227	w49393	1	n		politics	core	2		zd:2850/zd:4241/zd:6241	
+s53228	w49394	1	adj		family/time	core	2		zp:579/zd:9759/zd:7022	
+s53229	w49395	1	v		everyday	core	2		zd:5687/zd:1699	
+s53230	w49396	1	v		education/work	core	2		zd:6920/zd:6300/zd:5196	
+s53231	w49397	1	v		everyday	core	2		zd:8636/zd:1181	
+s53232	w49398	1	n		social/religion	core	1		zd:6017	what is done with the skulls is inferred
+s53233	w49399	1	n		body/media	core	1		zd:6455	mostly in song lines
+s53234	w49400	1	adv		time	core	1		zd:6312/zd:6934	few sentences
+s53235	w49401	1	pron		everyday	core	2		zd:10636/zd:6312/zd:3863	
+s53236	w49402	1	v		social	core	1		zd:7069/zd:16642	inferred from a few sentences about disunity
+s53237	w49403	1	adj		everyday	core	2		zd:6273/zd:1751/zd:3250	
+s53238	w49404	1	v		nature/work	core	2		zd:6321/zd:4216	
+s53239	w49405	1	name	khua	travel	core	2		zd:6326/zd:8018	
+s53240	w49406	1	n		home/health	core	2		zd:6180/zd:8574	
+s53241	w49407	1	n		religion	core	2		zd:7494	
+s53242	w49408	1	v		work/social	core	2		zd:7839/zd:6875	
+s53243	w49409	1	v		everyday	core	2		zd:7310/zd:6625	
+s53244	w49410	1	n		media	core	1		zd:8699/zd:8617	poetic word, sense inferred from song lines
+s53245	w49411	1	name	people	politics	core	2	English	zd:10268/zd:2117	
+s53246	w49412	1	adv		everyday	core	1		zd:5171/zd:3831	few sentences
+s53247	w49413	1	n		everyday	core	2		zd:262/zd:15106	
+s53248	w49414	1	v		religion	core	2		zd:3153/zd:7244	
+s53249	w49415	1	v		everyday	core	1		zd:6339/zd:5363/zd:8036	the base {toi} is not attested alone
+s53250	w49416	1	adj		social	core	2		zd:5723/zd:4753/zd:6905	
+s53251	w49417	1	name	river	nature	core	1		zd:5797	one report repeated in several articles
+s53252	w49418	1	n		everyday	core	1		zd:7043/zd:6260/zd:6703	sense inferred from few sentences
+s53253	w49419	1	n		social	core	2		zd:4847/zd:7445	
+s53254	w49420	1	n		social	core	1		zd:6267/zd:2350	literary word, few sentences
+s53255	w49421	1	n		work	core	2		zd:5295/zd:8376	
+s53256	w49422	1	n		food	core	2		zd:5798/zd:5258	
+s53257	w49423	1	v		social/family	core	2		zd:1861/zd:2634	
+s53258	w49424	1	n		media/social	core	1		zd:8080/zd:6329	only named in lists of song kinds
+s53259	w49425	1	n		time/travel	core	2		zd:9044/zd:7726	
+s53260	w49426	1	n		social	core	2		zd:7801/zd:7310	
+s53261	w49427	1	adj		religion	core	2		zd:7679/zd:7310	
+s53262	w49428	1	n		religion	core	2		zd:2516/zd:7494	
+s53263	w49429	1	n		home/social	core	2		zd:7351/zp:3470	
+s53264	w49430	1	n		nature	core	1		zd:5458	known from one song and one word list
+s53265	w49431	1	v		everyday	core	2		zd:6358/zd:5236/zd:6391	
+s53266	w49432	1	n		home/social	core	1		zd:2499/zd:9765	sense of the fixed phrase inferred from four sentences
+s53267	w49433	1	n		nature/work	core	1		zd:7021/zd:7420	inferred from hunting accounts
+s53268	w49434	1	n		home/food	core	2		zd:7020/zd:6039	
+s53269	w49435	1	v		everyday	core	1		zd:8178/zd:8601	mostly in songs and letters
+s53270	w49436	1	n		body/work	core	2		zd:9624/zd:9409	
+s53271	w49437	1	n		education/media	core	2		zd:7347/zd:5138	
+s53272	w49438	1	n		politics	core	2		zd:7383/zd:5031	
+s53273	w49439	1	name	land	politics	core	2		zd:10213/zd:7474	
+s53274	w49440	1	v		everyday	core	2		zd:6779/zd:5941/zd:6765	
+s53275	w49441	1	v		everyday	core	2		zd:6877/zd:5159	
+s53276	w49442	1	n		nature/social	core	2		zp:3272/zd:4091	
+s53277	w49443	1	v		everyday	core	2		zd:10550/zd:7552	
+s53278	w49444	1	name	city	politics	core	2		zd:2178/zd:4332	
+s53279	w49445	1	name	place	politics	core	2		zd:7615/zd:1198	
+s53280	w49446	1	v		everyday/travel	core	2		zd:7582/zd:5977/zd:5899	
+s53281	w49447	1	n		everyday/social	core	2		zd:603/zd:7598	
+s53282	w49448	1	v		social/family	core	2		zd:5222/zd:5217/zd:4304	
+s53283	w49449	1	v		social	core	2		zd:10154/zd:2149	
+s53284	w49450	1	n		social/everyday	core	2		zd:7991/zd:9312	
+s53285	w49451	1	n		social/religion	core	2		zd:6224	
+s53286	w49452	1	adj		everyday	core	2		zd:7383/zd:1272/zd:770	
+s53287	w49453	1	adv		social	core	1		zd:2445/zd:5703	
+s53288	w49454	1	adv		everyday	core	1		zd:6319/zd:10617/zd:9012	inferred from varied uses
+s53289	w49455	1	adv		social	core	2		zd:8301/zd:7991	
+s53290	w49456	1	v		everyday	core	2		zd:7794/zd:9522	
+s53291	w49457	1	n		social	core	1		zp:2548/zd:7186	
+s53292	w49458	1	adj		everyday	core	2		zd:6584/zd:8211	
+s53293	w49459	1	n		social/politics	core	2		zd:7975/zd:7977	
+s53294	w49460	1	v		everyday	core	2		zd:7975/zd:5788	
+s53295	w49461	1	adj		everyday/nature	core	1		zd:6971/zd:7835	
+s53296	w49462	1	v		everyday	core	1		zd:6867/zd:8632/zd:944	
+s53297	w49463	1	n		social	core	2		zd:8125/zd:2815	
+s53298	w49464	1	n		religion/work	core	2		zd:2943/zd:7928	
+s53299	w49465	1	v		everyday	core	2		zd:7878/zd:7756	
+s53300	w49466	1	n		social	core	2		zd:6543/zd:8154	
+s53301	w49467	1	n		social/politics	core	2		zd:9593/zd:8717	
+s53302	w49468	1	name	beh	family	core	2		zd:8162/zd:9890	
+s53303	w49469	1	n		home	core	2	Burmese	zd:8346	
+s53304	w49469	2	v		travel	core	1		zd:8333/zd:6369	may be a miswriting of zin
+s53305	w49470	1	name		travel	core	2		zp:1644/zd:813	
+s53306	w49471	1	n		work/everyday	core	2		zd:8662/zd:8039	
+s53307	w49472	1	v		everyday	core	2		zd:6674/zd:6942	
+s53308	w49473	1	n		politics/social	core	2		zd:8632/zp:3358/zd:8459	
+s53309	w49474	1	n		time/family	core	2		zd:8459/zd:5535	
+s53310	w49475	1	n		health	core	2		zd:4744/zd:5333	
+s53311	w49476	1	n		work/politics	core	2		zd:4109/zd:7605	
+s53312	w49477	1	n		work	core	2	Burmese	zd:7526/zd:5802	
+s53313	w49478	1	adv		everyday	core	1		zd:7321/zd:8350	
+s53314	w49479	1	v		everyday	core	2		zd:3581/zd:5861	
+s53315	w49480	1	name	khua	travel	core	2		zd:8040	
+s53316	w49481	1	n		social/religion	core	2		zd:8018/zp:3981	
+s53317	w49482	1	adv		everyday/education	core	2		zd:6018/zd:3250	
+s53318	w49483	1	adj		everyday	core	2		zd:9182	
+s53319	w49484	1	n		social/politics	core	2		zd:9443/zd:4872	
+s53320	w49485	1	adj		social	core	2		zd:4950/zd:4734	
+s53321	w49486	1	adv		everyday	core	1		zd:6650/zd:5596	
+s53322	w49487	1	v		food/everyday	core	2		zd:5692/zd:4011	
+s53323	w49488	1	phrase		everyday	core	2		zd:10024	
+s53324	w49489	1	adj		work/education	core	2		zd:7888/zd:7948	
+s53325	w49490	1	n		politics	core	2		zd:10612/zd:10562	
+s53326	w49491	1	n		social/politics	core	2		zd:569/zd:10058/zd:3357	
+s53327	w49492	1	n		time	core	1		zd:2431/zd:7715	the force of the ending is not clear
+s53328	w49493	1	n		social/food	core	1		zd:3278/zp:3860	the custom is inferred from few sentences
+s53329	w49494	1	n		everyday	core	2		zd:6575/zd:7144	
+s53330	w49495	1	n		media/social	core	2		zd:2874/zd:7985/zd:6010	
+s53331	w49496	1	v		social	core	2		zd:6409/zd:8116	
+s53332	w49496	2	phrase		everyday	core	2		zd:1032/zd:1648	
+s53333	w49497	1	adj		everyday	core	2		zd:9510/zd:6867	
+s53334	w49498	1	name	place	politics	core	2		zd:3567/zd:10597	
+s53335	w49499	1	v		everyday	core	2		zd:5692/zd:5578	
+s53336	w49500	1	v		travel/everyday	core	2		zd:4025/zd:1259	
+s53337	w49501	1	name		politics	core	2		zd:6947/zd:4177	
+s53338	w49502	1	n		body	core	2		zd:6383/zd:3596	
+s53339	w49503	1	n		travel	core	1		zd:3590/zd:6376	also met as lam and vai for building matters
+s53340	w49504	1	v		media/social	core	2		zd:5888/zd:10287	
+s53341	w49505	1	adv		everyday	core	2		zd:6894/zd:5694	
+s53342	w49506	1	v		social/work	core	2		zd:6338/zd:358	
+s53343	w49507	1	n		nature	core	1		zd:9864/zd:5446	a second use, zungthuk a khasa of what has taken deep root, is left out
+s53344	w49508	1	v		everyday/social	core	2		zd:314/zd:7140/zd:8423	
+s53345	w49509	1	n		social	core	2		zd:6072/zd:8183	
+s53346	w49510	1	v		social/everyday	core	2		zd:1603/zd:465	
+s53347	w49511	1	name	land	politics	core	2		zd:4979/zd:10395	
+s53348	w49512	1	name		education/social	core	2		zd:569	
+s53349	w49513	1	n		everyday/social	core	2		zd:1287/zd:6540/zd:6435	
+s53350	w49514	1	n		everyday/work	core	2		zd:7072/zd:5764	
+s53351	w49515	1	n		food/home	core	2		zd:1670/zd:4546/zd:5956	
+s53352	w49516	1	v		everyday	core	1		zd:2445/zd:5784	few sentences, all of one writer
+s53353	w49517	1	v		social/home	core	2		zd:4950/zd:5956	
+s53354	w49518	1	n		media/social	core	1		zd:569/zd:2445	word of one writer
+s53355	w49519	1	conj		everyday	core	2		zd:595/zd:3263	
+s53356	w49520	1	n		family	core	2		zd:4402/zd:1870	
+s53357	w49521	1	n		work	core	2		zd:6034/zd:959	
+s53358	w49522	1	n		education/everyday	core	2		zd:5630/zd:5682/zd:1305	
+s53359	w49523	1	name	place	travel	core	2		zd:234	
+s53360	w49524	1	name		religion	core	2		zd:7793/zd:1364	
+s53361	w49525	1	adj		food	core	1		zd:1409	also written for other senses of the same word
+s53362	w49526	1	v		social/everyday	core	2		zd:8531/zd:317/zd:5257	
+s53363	w49527	1	name	land	politics	core	2		zd:1754/zd:9487	
+s53364	w49528	1	v		social/politics	core	2		zd:2898/zd:7339/zd:7327	
+s53365	w49529	1	adv		everyday/social	core	1		zd:4446	inferred from four sentences
+s53366	w49529	2	v		media	core	2		zd:5387/zd:9186	
+s53367	w49530	1	n		social/politics	core	2		zd:9403/zd:6213/zd:583	
+s53368	w49531	1	v		politics	core	2		zd:3079/zd:2110/zd:8356	
+s53369	w49532	1	n		education	core	2		zd:6017/zd:4212/zd:9880	
+s53370	w49533	1	n		home/social	core	2		zd:2237/zd:5992/zd:6101	
+s53371	w49534	1	v		everyday	core	2		zd:2267/zd:7085	
+s53372	w49534	2	v		politics	core	1		zd:7463	three sentences
+s53373	w49535	1	name	people	politics	core	2		zd:2178/zd:2382	
+s53374	w49536	1	adv		body/everyday	core	1		zd:6950	few and unclear sentences
+s53375	w49537	1	n		social/politics	core	2		zd:5178/zd:2400/zd:6470	
+s53376	w49538	1	n		media/social	core	2		zd:2464/zd:3262/zd:6762	
+s53377	w49539	1	n		family	core	2		zd:7270/zd:6638/zd:8471	
+s53378	w49540	1	adv		social/family	core	1		zd:2509/zd:3978/zd:9182	may be a spelling of liailiai
+s53379	w49541	1	v		everyday/work	core	2		zd:5984/zd:7009	
+s53380	w49542	1	n		education	core	2	English	zd:8054/zd:2713	
+s53381	w49543	1	n		everyday	core	2		zd:5222/zd:2757	
+s53382	w49544	1	n		social	core	2		zd:7122/zp:787	
+s53383	w49545	1	name		religion	core	2		zd:7941	
+s53384	w49546	1	conj		everyday/time	core	2		zd:2926/zd:3970/zd:9825	
+s53385	w49547	1	n		religion/social	core	2		zd:3154/zd:2992/zd:7244	
+s53386	w49548	1	n		family/education	core	2		zd:5874/zd:6863/zd:7039	
+s53387	w49549	1	v		everyday	core	2		zd:1929/zd:1567	
+s53388	w49550	1	n		religion	core	1		zd:3138/zd:7097	parts not confirmed as words of the lexicon
+s53389	w49551	1	v		social/politics	core	2		zd:1882/zd:1832/zd:9792	
+s53390	w49552	1	n		nature	core	2		zd:3211/zd:2930/zd:3245	
+s53391	w49553	1	v		nature	core	2		zd:7323/zd:4091	
+s53392	w49554	1	adv		body	core	1		zd:8113/zd:5948/zd:7978	meaning inferred from descriptions of build
+s53393	w49555	1	n		everyday	core	1		zd:3322	few sentences
+s53394	w49556	1	name	khua	social	core	1		zd:2302	location not shown by the sentences
+s53395	w49557	1	adj		everyday/home	core	1		zd:4216/zd:4140	inferred from two sentences, a song and one other use are unclear
+s53396	w49558	1	name	place	politics/travel	core	2		zd:8019/zd:1073	
+s53397	w49559	1	ppm		everyday	core	2		zp:1783/zd:8032/zd:9280	
+s53398	w49560	1	n		education	core	2		zp:2424/zp:2411	
+s53399	w49561	1	v		everyday/health	core	1		zd:4983/zd:4276/zd:7073	
+s53400	w49562	1	adv		everyday	core	2		zd:6911/zd:6360/zd:4276	
+s53401	w49563	1	adv		everyday	core	2		zp:2113/zd:6630/zd:8320	
+s53402	w49564	1	v		everyday/politics	core	2		zd:6372/zd:6882/zd:5226	
+s53403	w49565	1	n		body	core	2		zd:1773/zd:1261	
+s53404	w49565	2	v		social	core	1		zd:4481	one article
+s53405	w49566	1	name		religion	core	2		zd:8126/zd:6857	
+s53406	w49567	1	pron		everyday	core	2		zd:6667/zd:940/zd:4617	
+s53407	w49568	1	n		everyday/social	core	2		zd:9300/zd:5416/zd:6738	
+s53408	w49569	1	n		everyday	core	1		zd:2849/zd:352/zd:4724	few sentences
+s53409	w49570	1	conj		everyday	core	2		zd:6138/zd:4919	
+s53410	w49571	1	adv		food	core	2		zd:6714/zd:8229/zd:4985	
+s53411	w49572	1	v		everyday	core	2		zd:6862/zd:6432	
+s53412	w49573	1	adj		everyday	core	1		zd:7019/zd:5862	few and partly poetic sentences
+s53413	w49574	1	v		social	core	2		zd:3241/zd:5171/zd:5584	
+s53414	w49575	1	n		health	core	2		zd:5311/zd:9459	
+s53415	w49576	1	v		social	core	2		zd:5551/zd:7296/zd:7307	
+s53416	w49577	1	n		work/politics	core	2		zd:10430/zd:9965	
+s53417	w49577	2	n		body	core	1		zd:5496	one sentence
+s53418	w49578	1	n		education	core	2	English	zd:10913/zd:6819	
+s53419	w49579	1	v		everyday	core	2		zd:5767/zd:6345	
+s53420	w49580	1	v		home/travel	core	2		zd:2447/zd:6727	
+s53421	w49581	1	v		body/nature	core	1		zd:4833/zd:6383/zd:6106	meaning inferred from few sentences
+s53422	w49582	1	adv		media	core	1		zd:9762/zd:6490	poetic
+s53423	w49583	1	v		body	core	1		zd:5641/zd:6538	few sentences
+s53424	w49584	1	n		home/food	core	2		zd:7947/zd:8035/zd:6898	
+s53425	w49585	1	n		home/social	core	2		zd:5543/zd:5876/zd:3212	
+s53426	w49586	1	n		social/time	core	2		zd:6600/zd:5093	
+s53427	w49587	1	n		social/family	core	2		zd:6008/zd:5624/zd:5453	
+s53428	w49588	1	n		time/social	core	2		zd:1035/zd:5895/zd:9937	
+s53429	w49589	1	part		everyday	core	1	Burmese	zd:6737/zd:6757	origin and meaning inferred from few sentences
+s53430	w49590	1	adj		everyday	core	1		zd:5756/zd:3596	meaning inferred from the contrast with {azaii}
+s53431	w49591	1	conj		everyday	core	1		zd:7268/zd:1517	
+s53432	w49591	2	v		work	core	1		zd:6511/zd:4139	
+s53433	w49592	1	n		work	core	1		zd:4879	one sentence
+s53434	w49593	1	part		everyday	core	1		zd:6534/zd:1929	few sentences
+s53435	w49594	1	n		religion	core	2		zd:7684/zd:6648	
+s53436	w49595	1	n		social	core	2		zd:6320/zd:5178/zd:2512	
+s53437	w49596	1	v		everyday/nature	core	2		zd:5678/zd:3616/zd:9119	
+s53438	w49597	1	v		body/health	core	2		zd:10600/zd:6828/zd:6288	
+s53439	w49598	1	n		nature	core	1		zd:6862/zd:8201	few sentences
+s53440	w49599	1	v		work/nature	core	2		zd:6862/zd:10435	
+s53441	w49599	2	v		body	core	1		zd:8661/zd:23164	
+s53442	w49600	1	adj		social	core	2		zd:255/zd:9918	
+s53443	w49601	1	name		politics	core	2		zd:7326/zd:7345/zd:1407	
+s53444	w49602	1	n		social	core	2		zd:7194/zd:10405	
+s53445	w49603	1	adj		everyday	core	1		zd:7194/zd:6302/zd:8211	meaning inferred from few sentences
+s53446	w49604	1	v		travel/social	core	2		zd:7949/zd:7225	
+s53447	w49605	1	n		everyday	core	2		zd:6381/zd:6208/zd:2875	
+s53448	w49606	1	n		home	core	2		zd:5895/zd:5888	
+s53449	w49607	1	n		social	core	2		zd:6240/zd:7346	
+s53450	w49608	1	n		social/religion	core	1		zd:6452/zd:6450	few sentences
+s53451	w49609	1	adj		time	core	1		zd:2085/zd:6713/zd:6121	few sentences
+s53452	w49610	1	adj		work/politics	core	1		zd:256/zd:3616	few sentences
+s53453	w49611	1	v		everyday	core	1		zd:6924/zd:5849	few sentences
+s53454	w49612	1	n		everyday	core	2		zd:8427/zd:7712	
+s53455	w49613	1	n		time	core	2		zd:6406/zd:1423/zd:8220	
+s53456	w49614	1	adv		everyday	core	2		zd:5956/zd:7826/zd:6083	
+s53457	w49615	1	v		everyday	core	2		zd:7974/zd:7981/zd:7826	
+s53458	w49616	1	name		politics	core	1		zd:6267/zd:3566	taken as a spelling of Zogam from the historical sentences
+s53459	w49617	1	n		education	core	2		zd:7858/zd:1862	
+s53460	w49618	1	n		politics	core	2		zd:8632/zd:6077/zd:7900	
+s53461	w49619	1	v		nature	core	2		zd:257/zd:7922	
+s53462	w49620	1	v		family/religion	core	2		zd:6330/zd:8509/zd:7928	
+s53463	w49621	1	v		religion/everyday	core	2		zd:2813/zd:6866/zd:4901	
+s53464	w49622	1	part		everyday	core	2		zd:4367/zd:7999/zd:10023	
+s53465	w49623	1	adj		everyday	core	2		zd:7999/zd:3475	
+s53466	w49624	1	n		nature	core	1		zd:6382/zd:2336	only in the phrase gam palak
+s53467	w49625	1	name	river	nature	core	2		zd:7230	
+s53468	w49626	1	name	river	nature	core	2		zd:1567/zd:8008	
+s53469	w49627	1	adv		time	core	2		zd:2110/zd:2974/zd:8030	
+s53470	w49628	1	n		family	core	2		zd:8344/zd:6649/zd:6822	
+s53471	w49629	1	name		education	core	2		zd:1173/zd:8013	
+s53472	w49630	1	n		social/politics	core	2		zd:22961/zd:3433/zd:2850	
+s53473	w49631	1	n		time	core	2		zd:22961/zd:2297	
+s53474	w49632	1	v		everyday	core	2		zd:6251/zd:6867/zd:8707	
+s53475	w49633	1	n		home	core	1		zd:9029/zd:6903	song lines only
+s53476	w49634	1	v		education	core	2		zd:8416/zd:604	
+s53477	w49635	1	num		everyday	core	2		zd:4995/zd:8750	
+s53478	w49636	1	n		religion/everyday	core	2		zd:4256/zd:2684/zd:8376	
+s53479	w49637	1	adj		everyday	core	2		zd:10420/zd:7495	
+s53480	w49638	1	v		everyday	core	2		zd:3616/zd:10097	
+s53481	w49639	1	n		everyday	core	1		zd:3596/zd:7494	
+s53482	w49640	1	phrase		everyday	core	2		zd:604/zd:4744	
+s53483	w49641	1	n		politics	core	2		zd:8632/zd:4818/zd:9670	
+s53484	w49642	1	n		food/social	core	2		zd:8450/zd:3278	
+s53485	w49643	1	n		social	core	2		zd:4687/zd:2290	
+s53486	w49644	1	n		politics	core	2		zd:10318/zd:10322	
+s53487	w49645	1	adv		everyday	core	2		zd:4036/zd:2665/zd:6138	
+s53488	w49646	1	adj		everyday	core	2		zd:2686/zd:5909	
+s53489	w49647	1	v		everyday	core	2		zd:315/zd:4654	
+s53490	w49648	1	v		time	core	2		zd:8201/zd:8194/zd:6601	
+s53491	w49649	1	adv		everyday	core	2		zd:9791	
+s53492	w49649	2	adv		everyday	core	2		zd:8526/zd:6402	
+s53493	w49650	1	v		everyday	core	1		zd:4972	one song line only
+s53494	w49651	1	adv		everyday	core	2		zd:551/zd:3079	
+s53495	w49652	1	name	place	travel	core	1		zd:667	place inferred from few sentences
+s53496	w49653	1	n		home/religion	core	1		zd:1773/zp:994	
+s53497	w49654	1	name	land	politics	core	2		zd:4151/zp:1018	
+s53498	w49655	1	name	city	politics	core	2		zd:1301/zd:1150	
+s53499	w49656	1	n		it	core	2		zd:1215/zd:5699	
+s53500	w49657	1	n		body	core	2		zd:6371/zd:1081/zd:3910	
+s53501	w49658	1	n		politics	core	2		zd:1870/zd:7323	
+s53502	w49659	1	v		everyday/body	core	2		zd:6307/zd:5623	
+s53503	w49660	1	adv		everyday	core	1		zd:9878	few sentences and the other uses are unclear
+s53504	w49661	1	v		everyday	core	2		zd:6932/zd:6656/zd:5450	
+s53505	w49662	1	adv		nature	core	1		zd:2840	in songs meibang theng may hold another mei, something that clears away
+s53506	w49663	1	n		home/nature	core	2		zd:5901/zd:2931	
+s53507	w49664	1	n		travel	core	2		zd:4343/zd:6186	
+s53508	w49665	1	n		home/work	core	2		zd:10154/zd:8357	
+s53509	w49666	1	n		everyday	core	2		zd:4185/zd:632/zd:1567	
+s53510	w49667	1	adv		everyday	core	2		zd:8380/zd:4308/zd:3842	
+s53511	w49668	1	name	place	nature	core	1		zd:26715	three articles of one village history
+s53512	w49669	1	v		religion	core	2		zd:4480/zd:4734/zd:6866	
+s53513	w49670	1	n		work/politics	core	2	English	zd:4623/zd:6590	
+s53514	w49671	1	n		religion/everyday	core	1		zd:1259	one sentence repeated in several articles
+s53515	w49672	1	conj		everyday	core	2		zd:4858/zd:7714	
+s53516	w49673	1	adj		everyday/religion	core	2		zd:1224/zd:9927/zd:2028	
+s53517	w49674	1	n		religion/family	core	2		zp:3981/zd:7866/zd:5069	
+s53518	w49675	1	adv		everyday	core	1		zd:3852/zd:854	three Zolai sentences; the other uses are Malay text
+s53519	w49676	1	name	land	politics	core	2		zd:7357	
+s53520	w49677	1	n		everyday	core	2		zd:7545/zd:7832/zd:697	
+s53521	w49678	1	name	khua	politics	core	2		zd:8115	
+s53522	w49679	1	n		social/religion	core	2		zd:7187/zd:5784	
+s53523	w49680	1	n		time	core	2		zd:5784	
+s53524	w49681	1	v		work/social	core	2		zd:5075/zd:8438	
+s53525	w49682	1	n		home	core	2		zd:2149/zd:7020	
+s53526	w49683	1	n		social/food	core	1		zd:8450/zd:6448	meaning taken from one explanation in a description of the feast
+s53527	w49684	1	adv		everyday	core	1		zd:6318/zd:7322	inferred from few sentences
+s53528	w49685	1	name	people	religion	core	2		zd:6837/zd:3085	
+s53529	w49686	1	n		nature	core	2		zd:6720	
+s53530	w49687	1	name	land	politics	core	2		zd:1946/zd:6720	
+s53531	w49688	1	v		social	core	2		zd:8156/zd:5710	
+s53532	w49689	1	n		work/travel	core	2		zd:6743/zd:6798	
+s53533	w49690	1	name	place	work	core	1		zd:7615	known only from one repeated notice
+s53534	w49691	1	n		media/education	core	1		zd:7974/zd:7979	three articles, may be a misspelling
+s53535	w49692	1	n		social	core	2		zd:7445/zd:9529	
+s53536	w49693	1	name	city	politics	core	2		zd:8110/zd:8096	
+s53537	w49694	1	name	place	politics	core	2		zd:6857	
+s53538	w49695	1	v		everyday/travel	core	2		zd:5040/zp:3470/zp:429	
+s53539	w49696	1	adj		everyday/time	core	1		zd:851/zd:4896	the sense with names of peoples is not certain
+s53540	w49697	1	adj		media/religion	core	2		zd:8110/zd:9012	
+s53541	w49698	1	n		everyday/work	core	2		zd:10547/zd:10549	
+s53542	w49699	1	n		family/social	core	1		zd:9088	few sentences
+s53543	w49700	1	n		everyday	core	2		zd:583/zd:7730	
+s53544	w49701	1	v		everyday/religion	core	2		zd:7041	
+s53545	w49702	1	n		social/food	core	1		zd:8450/zd:6454	three articles on feast custom
+s53546	w49703	1	adj		everyday	core	2		zd:1640/zd:6355	
+s53547	w49704	1	phrase		body/everyday	core	2		zd:5610/zd:1208/zd:7337	
+s53548	w49705	1	v		everyday/religion	core	2		zd:5716/zd:726	
+s53549	w49706	1	n		health/home	core	2		zd:8326/zd:2785	
+s53550	w49707	1	n		politics/social	core	2		zd:6668/zd:7936	
+s53551	w49708	1	n		home/nature	core	1		zd:7420	one article
+s53552	w49708	2	n		social	core	1		zd:5469/zd:10024	
+s53553	w49709	1	name		travel	core	2		zp:3981/zp:2143	
+s53554	w49710	1	adj		social	core	2		zd:6310/zd:4016	
+s53555	w49711	1	n		social/politics	core	2		zp:1498/zd:26715	
+s53556	w49712	1	v		everyday/education	core	2		zp:3345/zd:7957	
+s53557	w49713	1	conj		everyday	core	2		zd:4884/zd:7494	
+s53558	w49714	1	v		everyday/religion	core	2		zd:8509/zd:1318	
+s53559	w49715	1	n		social/religion	core	1		zd:6055	always paired with kawsah
+s53560	w49716	1	n		politics	core	2	Burmese	zd:7356	
+s53561	w49717	1	v		everyday/travel	core	2		zd:6866/zd:8146	
+s53562	w49718	1	n		education/work	core	2		zd:7327/zd:7328	
+s53563	w49719	1	v		social	core	2		zd:8352/zd:6755	
+s53564	w49720	1	n		family/social	core	2		zd:9088/zd:6816	
+s53565	w49721	1	phrase		everyday	core	2		zp:2895/zd:7471	
+s53566	w49722	1	n		social/politics	core	2		zd:8745/zd:7948	
+s53567	w49723	1	v		everyday	core	2		zd:6494/zd:5183	
+s53568	w49724	1	name	city	travel	core	2		zd:6170/zd:5157	
+s53569	w49725	1	n		social	core	1		zd:7334/zd:3596	one writer, meaning taken from the contrast with breadth
+s53570	w49726	1	name	land	politics/travel	core	2		zd:8419	
+s53571	w49727	1	n		religion	core	2		zd:8105/zd:8098	
+s53572	w49728	1	v		social	core	1		zd:2064	few and mixed sentences
+s53573	w49729	1	n		body/family	core	1		zd:3278	one article for the cord
+s53574	w49730	1	name	place	travel	core	2		zd:7145/zd:4645	
+s53575	w49731	1	n		politics	core	2	English	zd:8632/zp:1574	
+s53576	w49732	1	n		work/it	core	2	English	zd:6778	
+s53577	w49733	1	v		everyday/family	core	2		zd:10154/zd:9875	
+s53578	w49734	1	n		education	core	2	Burmese	zp:2622/zp:1783	
+s53579	w49735	1	n		religion/education/work	core	2		zp:2754/zp:2846	
+s53580	w49736	1	v		home/social	core	2		zp:3713/zp:3732/zp:3701	
+s53581	w49737	1	name	place	education	core	2		zp:212/zp:2866	
+s53582	w49738	1	adj		everyday/social	core	2		zd:10023/zd:632	
+s53583	w49739	1	n		everyday/media	core	2		zd:3588/zd:10162	
+s53584	w49740	1	n		media/it	core	2		zd:6877/zd:7020/zd:10144	
+s53585	w49741	1	n		media	core	1		zd:5377/zd:946	few sentences
+s53586	w49742	1	n		social/politics	core	2		zd:11097/zd:6967/zd:7933	
+s53587	w49743	1	v		social/religion	core	2		zd:9655/zd:2485	
+s53588	w49744	1	n		body/social	core	1		zd:7931/zd:6879	known mostly from one phrase
+s53589	w49745	1	phrase		everyday	core	2		zd:22961/zd:2055/zd:3092	
+s53590	w49746	1	conj		time	core	2		zd:8213/zd:4390	
+s53591	w49747	1	v		everyday/politics	core	2		zd:1081/zd:7880	
+s53592	w49748	1	n		home	core	1		zd:5565	few sentences
+s53593	w49749	1	n		food	core	2		zd:3936/zd:4201	
+s53594	w49750	1	n		social	core	2		zd:7999/zd:9186	
+s53595	w49751	1	v		everyday	core	2		zd:5571/zd:5226/zd:3202	
+s53596	w49752	1	n		social	core	1		zd:7465/zd:4685/zd:5694	meaning taken from the pairing
+s53597	w49753	1	n		food/work	core	2		zd:6334	
+s53598	w49754	1	n		social/time	core	2		zd:2756/zd:7999	
+s53599	w49755	1	n		home	core	1		zd:8144/zp:3476	inferred from four sentences
+s53600	w49756	1	adv		media	core	1		zd:5225/zd:5895	poetic use only
+s53601	w49757	1	v		travel	core	1		zd:5585/zd:8778	two sentences
+s53602	w49758	1	v		nature/everyday	core	2		zd:5866/zd:6971/zd:5633	
+s53603	w49759	1	v		social/media	core	2		zd:6855/zd:6854	
+s53604	w49760	1	adv		everyday	core	2		zd:10023/zd:7952	
+s53605	w49761	1	part		everyday	core	2		zd:6845/zd:8237	
+s53606	w49762	1	phrase		everyday	core	2		zd:10023/zd:6844	
+s53607	w49763	1	adv		everyday	core	2		zd:6844	
+s53608	w49764	1	v		everyday	core	2		zd:8027/zd:6844	
+s53609	w49765	1	adj		everyday	core	2		zd:5520/zd:1266	
+s53610	w49766	1	phrase		everyday/health	core	2		zd:8329/zd:7447	
+s53611	w49767	1	part		everyday	core	2		zd:6585/zd:1388/zd:6973	
+s53612	w49768	1	n		social/religion	core	2		zd:3981/zd:8179	
+s53613	w49769	1	n		everyday	core	2		zd:6344/zd:7061/zd:6316	
+s53614	w49770	1	v		it/work	core	2		zd:1264/zd:8558/zd:1263	
+s53615	w49771	1	phrase		media	core	2		zd:5250/zd:1938	
+s53616	w49772	1	part		everyday	core	2		zd:1534/zd:8556	
+s53617	w49773	1	v		social	core	2		zd:1268/zd:3261	
+s53618	w49774	1	prep		everyday	core	2		zd:957/zd:22961/zd:7083	
+s53619	w49775	1	v		everyday/social	core	2		zd:6373/zd:7496	
+s53620	w49776	1	n		social/media	core	1		zd:9694/zd:8254	meaning taken from the pair
+s53621	w49777	1	v		home/work	core	2		zd:9051/zd:5854	
+s53622	w49778	1	phrase		everyday/media	core	2		zd:2645/zd:7278	
+s53623	w49779	1	v		family/social	core	2		zd:4501/zd:5603	
+s53624	w49780	1	n		time	core	2		zd:7658/zd:4884	
+s53625	w49781	1	v		everyday	core	2		zd:742/zd:3453	
+s53626	w49782	1	v		everyday	core	2		zd:8686/zd:7909	
+s53627	w49783	1	adv		everyday	core	1		zd:8461/zd:5931	inferred from few sentences
+s53628	w49784	1	v		work	core	2		zd:6109/zd:6625	
+s53629	w49785	1	v		everyday	core	2		zd:3582/zd:5579/zd:7020	
+s53630	w49786	1	v		social	core	2		zd:2828/zd:5233/zd:4276	
+s53631	w49787	1	n		family	core	2		zd:2830	
+s53632	w49788	1	n		social	core	1		zd:7078/zd:1045	exact sense of the base inferred from the lists it stands in
+s53633	w49789	1	adv		everyday	core	1		zd:2611/zd:715	sense inferred from three sentences
+s53634	w49790	1	prep		nature/travel	core	2		zd:292/zd:5018/zd:7860	
+s53635	w49791	1	n		everyday	core	2		zd:697/zd:690	
+s53636	w49792	1	v		nature	core	2		zd:9269/zd:1281	
+s53637	w49793	1	name	people	politics	core	2	English	zd:2974/zd:2280	
+s53638	w49794	1	v		everyday	core	2		zd:2005/zd:529/zd:901	
+s53639	w49795	1	name	khua	travel	core	2		zd:473/zd:6316	
+s53640	w49796	1	n		politics	core	1		zd:517/zd:5926	inferred from refugee notices
+s53641	w49797	1	adv		everyday	core	2		zd:573/zd:5082	
+s53642	w49798	1	n		health	core	1		zd:608/zd:611	inferred from three reports on Ebola
+s53643	w49799	1	name	city	travel	core	2		zp:1248/zd:617	
+s53644	w49800	1	v		food	core	2		zd:2149/zd:5453/zd:6378	
+s53645	w49801	1	n		family	core	2		zd:5453	
+s53646	w49802	1	v		nature	core	2		zd:2445/zd:3616	
+s53647	w49803	1	adv		everyday	core	1		zp:4033/zd:7001/zd:6530	inferred from few sentences; in two others it seems to be {den dan}, like or in the manner of
+s53648	w49804	1	n		media	core	2		zd:4445/zd:1019	
+s53649	w49805	1	v		everyday	core	2		zd:2817/zd:1019	
+s53650	w49806	1	n		everyday	core	2		zd:3397/zd:7397	
+s53651	w49807	1	phrase		everyday	core	2		zd:5905/zd:8459	
+s53652	w49808	1	v		everyday	core	2		zd:8664/zd:8337	
+s53653	w49809	1	v		everyday	core	2		zd:2831/zd:2238	
+s53654	w49810	1	v		everyday	core	2		zd:6914/zd:9567	
+s53655	w49811	1	v		social	core	2		zd:1178/zd:7696	
+s53656	w49812	1	v		work	core	2		zd:5502/zd:5483	
+s53657	w49813	1	v		social	core	2		zd:1323/zd:3939/zd:9312	
+s53658	w49814	1	v		everyday	core	2		zd:206/zd:2070	
+s53659	w49815	1	phrase		everyday	core	2		zd:7729/zd:430	
+s53660	w49816	1	v		social	core	2		zd:1526/zd:7341	
+s53661	w49817	1	v		health	core	2		zd:5644/zd:2513	
+s53662	w49818	1	v		everyday	core	2		zd:2997/zd:6890/zd:6828	
+s53663	w49819	1	n		politics	core	2	Burmese	zd:3601/zp:3730	
+s53664	w49820	1	n		politics	core	2	Burmese	zp:1033/zd:9830	
+s53665	w49821	1	name	people	politics	core	2		zd:3694/zd:1836	
+s53666	w49822	1	adv		everyday	core	1		zd:8021/zd:1837	inferred from a few sentences
+s53667	w49823	1	adj		everyday	core	2		zd:1852/zd:3219	
+s53668	w49824	1	prep		everyday	core	2		zd:7916/zd:9288	
+s53669	w49824	2	v		everyday	core	2		zd:1889	
+s53670	w49825	1	v		everyday	core	2		zd:1355/zd:615	
+s53671	w49826	1	adj		everyday	core	2		zd:5744/zd:2094	
+s53672	w49827	1	v		everyday/work	core	2		zd:1882/zd:4201	
+s53673	w49828	1	n	plant	nature	core	2		zd:6382/zd:2084	
+s53674	w49829	1	v		nature/work	core	2		zd:2106/zd:6321	
+s53675	w49830	1	name	place	nature	core	1		zd:26711	few sentences, the same spelling also occurs once as a common word of unclear meaning
+s53676	w49831	1	v		travel	core	2		zd:3401/zd:2275	
+s53677	w49832	1	v		everyday	core	2		zd:3864/zd:8426	
+s53678	w49833	1	v		work/family	core	2		zd:2275/zd:7726	
+s53679	w49834	1	v		social/politics	core	2		zd:2665/zd:2538	
+s53680	w49835	1	adj		everyday	core	2		zd:2728/zd:5126/zd:2376	
+s53681	w49836	1	v		work/social	core	2		zd:7036	
+s53682	w49837	1	n		work/everyday	core	2		zd:1404/zd:493	
+s53683	w49838	1	adj		everyday/media	core	2		zd:6482/zd:7991	
+s53684	w49839	1	phrase		everyday	core	1		zd:4901/zd:2538	two uses in few sentences
+s53685	w49840	1	n		politics	core	2		zd:3864/zd:2538	
+s53686	w49841	1	v		social/politics	core	2		zd:2538/zd:748	
+s53687	w49842	1	v		everyday/home	core	2		zd:2538/zd:6435/zd:5369	
+s53688	w49843	1	n		everyday/social	core	2		zd:2713/zd:7420/zd:8669	
+s53689	w49844	1	pron		everyday/social	core	2		zd:782/zd:1090	
+s53690	w49845	1	v		everyday/body	core	2		zd:2528/zd:2521	
+s53691	w49846	1	n		everyday/social	core	2		zd:2632/zd:3104	
+s53692	w49847	1	adj		everyday/social	core	2		zd:10915/zd:1751	
+s53693	w49848	1	v		everyday/social	core	2		zd:6837/zd:2572	
+s53694	w49849	1	n		politics	core	2		zd:2668	
+s53695	w49850	1	adv		everyday	core	2		zd:2523	
+s53696	w49851	1	adv		everyday	core	2		zd:2831/zd:9012	
+s53697	w49852	1	v		everyday/travel	core	2		zd:2831/zd:7464	
+s53698	w49853	1	v		everyday/travel	core	2		zd:6792/zd:2831	
+s53699	w49854	1	phrase		everyday	core	1		zd:6494/zd:2927	few sentences
+s53700	w49855	1	phrase		everyday	core	2		zd:7343/zd:3976	
+s53701	w49856	1	adj		education/social	core	2		zd:5208/zd:2927	
+s53702	w49857	1	pron		everyday	core	2		zd:6349/zd:8475/zd:4297	
+s53703	w49858	1	n		social	core	2		zd:3908/zd:7270/zd:5453	
+s53704	w49859	1	adv		everyday	core	1		zd:813/zd:1940/zd:1365	two uses in few sentences
+s53705	w49860	1	v		everyday/work	core	2		zd:6919/zd:8107	
+s53706	w49861	1	v		everyday/politics	core	2		zd:3468	
+s53707	w49862	1	part		media	core	2		zd:1335/zd:1402	
+s53708	w49863	1	n		nature/work	core	2		zd:5551	
+s53709	w49864	1	v		religion/social	core	2		zd:3092/zd:5096	
+s53710	w49865	1	adj		everyday	core	2		zd:7083/zd:3063	
+s53711	w49866	1	n		home	core	2		zd:5256/zd:3067	
+s53712	w49867	1	v		everyday	core	2		zd:6341/zd:6936	
+s53713	w49868	1	adv		everyday	core	2		zd:7307/zd:9765	
+s53714	w49869	1	v		everyday	core	2		zd:3199/zd:1770/zd:926	
+s53715	w49870	1	v		everyday	core	1		zd:3070	the sentences use it in several ways
+s53716	w49871	1	v		everyday	core	2		zd:9635/zd:3888	
+s53717	w49872	1	adj		social	core	2		zd:4469/zd:3208	
+s53718	w49873	1	adv		nature	core	1		zd:6736/zd:3209	meaning inferred from a few descriptions of landscape
+s53719	w49874	1	n		home	core	2		zd:3208/zd:1861	
+s53720	w49875	1	n		family	core	2		zd:8005/zd:8778	
+s53721	w49876	1	adv		time	core	2		zd:3330/zd:5960	
+s53722	w49877	1	v		travel/health	core	2		zd:10076/zd:3388/zd:7040	
+s53723	w49878	1	v		everyday	core	2		zd:6431	
+s53724	w49879	1	v		everyday	core	2		zd:5008/zd:7417/zd:4592	
+s53725	w49880	1	adv		everyday	core	2		zd:6135/zd:9268/zd:8731	
+s53726	w49881	1	n		food	core	2		zd:7181/zd:3752/zd:7656	
+s53727	w49882	1	n		nature	core	2		zd:16643/zd:4972	
+s53728	w49883	1	v		everyday	core	2		zd:6100/zd:4439	
+s53729	w49884	1	v		everyday	core	2		zd:8461/zd:3801/zd:2824	
+s53730	w49885	1	n		everyday	core	2		zd:4963/zd:4735	
+s53731	w49886	1	v		everyday	core	2		zd:7545/zd:1073	
+s53732	w49887	1	v		everyday	core	2		zd:4120/zd:5685/zd:10287	
+s53733	w49888	1	name	people	social	core	2		zd:3902/zd:7974	
+s53734	w49889	1	n		work	core	2		zd:6267/zd:4019	
+s53735	w49890	1	n		nature	core	2		zd:8333/zd:5737/zd:4020	
+s53736	w49891	1	n		everyday	core	2		zd:9624/zd:4032	
+s53737	w49892	1	v		work	core	2		zd:6824/zd:6298/zd:5580	
+s53738	w49893	1	n		education	core	2		zd:4080/zd:3673/zp:2866	
+s53739	w49894	1	n		time/nature	core	2		zd:3977/zd:2505	
+s53740	w49895	1	v		social	core	2		zd:4136/zd:2837/zd:4372	
+s53741	w49896	1	adv		nature/social	core	1		zd:4136/zd:8615	poetic use inferred from few lines
+s53742	w49897	1	v		everyday	core	2		zd:7832/zd:4268	
+s53743	w49898	1	n		social	core	2		zd:5646/zd:4408	
+s53744	w49899	1	n		everyday	core	2		zd:8426/zd:4315	
+s53745	w49900	1	n		religion	core	2		zd:4315/zd:2812	
+s53746	w49901	1	v		social/religion	core	2		zd:4388/zd:7162	
+s53747	w49902	1	v		everyday/social	core	2		zd:7067/zd:4390	
+s53748	w49903	1	v		everyday	core	2		zd:6517/zd:4390	
+s53749	w49904	1	phrase		everyday	core	2		zd:8459/zd:8152	
+s53750	w49905	1	n		time	core	2		zd:7947/zd:7599	
+s53751	w49906	1	v		everyday	core	2		zd:6195	
+s53752	w49907	1	phrase		politics/everyday	core	2		zd:16931/zd:4540/zd:4207	
+s53753	w49908	1	v		social	core	2		zd:7357/zd:4621	
+s53754	w49909	1	v		social/everyday	core	2		zd:1913/zd:6830	
+s53755	w49910	1	n		media	core	2		zd:8712/zd:4802	
+s53756	w49911	1	name	land	politics	core	2		zd:5031/zd:4813	
+s53757	w49912	1	adv		everyday	core	1		zd:7926/zd:5994/zd:4029	the make-up of the word is inferred
+s53758	w49913	1	n		social	core	2		zd:7906/zd:1834	
+s53759	w49914	1	n		nature	core	1		zd:7225/zd:8699	
+s53760	w49915	1	n		everyday/education	core	2		zd:7839/zd:8540	
+s53761	w49916	1	n		nature/politics	core	2		zd:8583/zd:7291	
+s53762	w49917	1	adj		everyday	core	1		zd:8583/zd:1510	
+s53763	w49918	1	v		everyday/media	core	2		zd:8583	
+s53764	w49919	1	name	beh	social/family	core	2		zd:8583	
+s53765	w49920	1	n		family/social	core	2		zd:4304/zd:4877	
+s53766	w49921	1	n		religion	core	2		zd:261	
+s53767	w49922	1	v		politics	core	2		zd:4888/zd:5992	
+s53768	w49923	1	phrase		time	core	2		zd:5048/zd:5371/zd:2849	
+s53769	w49924	1	adv		everyday	core	2		zd:6309/zd:9888	
+s53770	w49925	1	n		time	core	2		zd:8137/zd:6862	
+s53771	w49926	1	n		food	core	2		zd:5931/zd:6726	
+s53772	w49927	1	n		home/everyday	core	2		zd:9864/zd:6862/zd:3994	
+s53773	w49928	1	n		everyday	core	2		zd:2902/zd:2232	
+s53774	w49929	1	pron		everyday	core	2		zd:5263/zd:7956	
+s53775	w49930	1	adv		time	core	1		zd:827/zd:7590	few sentences and one of them unclear
+s53776	w49931	1	phrase		time	core	1		zd:726/zd:6251	
+s53777	w49932	1	adj		everyday	core	2		zd:6339/zd:5683	
+s53778	w49933	1	v		education	core	1		zd:4433/zd:6017	two sentences
+s53779	w49934	1	n		nature	core	2		zd:5329/zd:3268	
+s53780	w49935	1	v		everyday	core	2		zd:7471/zd:2189	
+s53781	w49936	1	adj		social/everyday	core	2		zd:5823/zd:3209	
+s53782	w49937	1	phrase		everyday	core	2		zd:7336/zd:5369	
+s53783	w49938	1	v		food	core	2		zd:6529/zd:5369	
+s53784	w49939	1	n		work/everyday	core	2		zd:6314/zd:5689/zd:5584	
+s53785	w49940	1	name	people	social	core	2		zd:8009	
+s53786	w49941	1	n		time	core	2		zd:9123/zd:9095/zd:7225	
+s53787	w49942	1	n		everyday	core	2		zd:4828/zd:5667	
+s53788	w49943	1	n		social	core	2		zd:5534/zd:748	
+s53789	w49944	1	adv		everyday	core	1		zd:6913/zd:5622/zd:5693	meaning inferred from a few verbs
+s53790	w49945	1	n		social/politics	core	2		zd:959/zd:8735	
+s53791	w49946	1	n		work/nature	core	1		zd:11444/zd:5690	explained in one article
+s53792	w49947	1	n		food	core	2		zd:5690/zd:2321	
+s53793	w49948	1	v		everyday	core	2		zd:3971/zd:6878	
+s53794	w49949	1	adv		everyday	core	2		zd:6944/zd:3047	
+s53795	w49950	1	adv		everyday	core	2		zd:6700/zd:5949	
+s53796	w49951	1	v		everyday	core	1		zd:8780/zd:5931	few sentences
+s53797	w49952	1	adv		everyday	core	2		zd:6710/zd:6792	
+s53798	w49953	1	pron		everyday	core	2		zd:6088/zd:7796	
+s53799	w49954	1	v		everyday/home	core	2		zd:2827/zd:8201	
+s53800	w49955	1	adv		everyday	core	2		zd:6797/zd:6748	
+s53801	w49956	1	n		work/education	core	2		zd:5953/zd:5946	
+s53802	w49957	1	adv		everyday	core	1		zd:5884/zd:5636/zd:5931	meaning inferred from few sentences
+s53803	w49958	1	n		home/food	core	2		zd:4312/zd:8314	
+s53804	w49959	1	adv		everyday	core	2		zd:6536/zd:6795	
+s53805	w49960	1	v		nature	core	2		zd:7974/zd:5937/zd:8345	
+s53806	w49961	1	adv		everyday	core	1		zd:2638/zd:1965	meaning inferred from few sentences
+s53807	w49962	1	v		education	core	2		zd:8664/zd:8538	
+s53808	w49963	1	part		everyday	core	1		zd:5946/zd:5901/zd:5939	one writer and no sure equivalent
+s53809	w49964	1	v		home/work	core	2		zd:5230/zd:6321/zd:6930	
+s53810	w49965	1	v		everyday	core	2		zd:3287/zd:1423	
+s53811	w49966	1	v		social	core	1		zd:8062/zd:5800	few sentences
+s53812	w49967	1	n		family/social	core	1		zd:6861/zd:6009	proverbs and one statement
+s53813	w49968	1	part		everyday	core	1		zd:3020/zd:5187/zd:5086	form not explained
+s53814	w49969	1	name		social	core	2		zd:7329	
+s53815	w49970	1	v		social	core	2		zd:26710/zd:8080	
+s53816	w49971	1	v		social/food	core	2		zd:8110/zd:5894/zd:4266	
+s53817	w49972	1	adj		social	core	2		zd:7135/zd:1424	
+s53818	w49973	1	intj		everyday	core	2		zd:1213/zd:6214	
+s53819	w49974	1	adj		social	core	2		zd:7323/zd:7310	
+s53820	w49975	1	v		social	core	2		zd:7319/zd:7346	
+s53821	w49976	1	adv		everyday	core	1		zd:3247/zd:7890/zd:3249	meaning inferred from few verbs
+s53822	w49977	1	adv		everyday	core	2		zd:551/zd:4307	
+s53823	w49978	1	v		nature/work	core	2		zd:11444/zd:2108	
+s53824	w49979	1	n		nature	core	2		zd:7357/zd:6289	
+s53825	w49980	1	phrase		everyday	core	1		zd:5642/zd:4734	set phrase
+s53826	w49981	1	adj		nature	core	1		zd:6455/zd:7062	only in song lines
+s53827	w49982	1	name		politics	core	2		zd:6516	
+s53828	w49983	1	n		religion/time	core	2		zd:7764/zd:1807	
+s53829	w49984	1	phrase		politics	core	2		zd:8005/zd:16642	
+s53830	w49985	1	conj		everyday	core	2		zd:6569/zd:3192	
+s53831	w49986	1	n		everyday/work	core	2		zd:6569/zd:5328	
+s53832	w49987	1	n		everyday	core	2		zd:4753/zd:6536	
+s53833	w49988	1	v		everyday	core	2		zd:374/zd:1644	
+s53834	w49989	1	v		everyday	core	1		zd:26711	one sentence
+s53835	w49989	2	n		nature/family	core	1		zd:6625	few sentences
+s53836	w49990	1	n		nature	core	2		zd:6625/zd:11444	
+s53837	w49991	1	n		everyday	core	2		zd:4615/zd:6627/zd:7694	
+s53838	w49992	1	adv		everyday	core	1		zd:6975/zd:6640	few sentences and the parts are not certain
+s53839	w49993	1	n		everyday/politics	core	2		zd:8722/zd:6131	
+s53840	w49994	1	n		everyday	core	2		zd:8166/zd:3915	
+s53841	w49995	1	n		social	core	2		zd:2642/zd:10182	
+s53842	w49996	1	name	city	travel	core	2		zd:9740/zd:9742	
+s53843	w49997	1	n		social	core	2		zd:22196/zd:6257	
+s53844	w49998	1	name	people	social	core	2	English	zd:6823/zd:7346	
+s53845	w49999	1	name	city	travel	core	2		zd:8109/zd:6823	
+s53846	w50000	1	v		everyday/family	core	2		zd:5832/zd:6818	
+s53847	w50001	1	n		everyday	core	2		zd:6815/zd:8451	
+s53848	w50002	1	name	land	travel	core	2		zd:2649/zd:3015	
+s53849	w50003	1	name	place	nature	core	1		zd:8319	few sentences with several uses
+s53850	w50004	1	n		everyday	core	2		zd:7461/zd:6574	
+s53851	w50005	1	v		everyday	core	2		zd:6717/zd:5784	
+s53852	w50006	1	v		work	core	1		zd:7125	one sentence
+s53853	w50007	1	n		time/nature	core	1		zd:3616	few sentences
+s53854	w50008	1	adj		home	core	1		zd:314	inferred from the pairing with bansau
+s53855	w50009	1	n		media/social	core	1	English	zd:6974	few sentences
+s53856	w50010	1	n		social	core	2		zd:8654/zd:9933	
+s53857	w50011	1	adj		everyday	core	2	Burmese	zd:2419/zd:4285	
+s53858	w50012	1	v		everyday/work	core	2		zd:9681/zd:3025/zd:4686	
+s53859	w50013	1	v		social/travel	core	2		zd:8699/zd:7999/zp:3777	
+s53860	w50014	1	v		social	core	2		zd:10238/zd:9871	
+s53861	w50015	1	n		social	core	2		zd:7850/zd:6734	
+s53862	w50016	1	prep		everyday	core	1		zd:2934/zd:7011	mixed uses
+s53863	w50017	1	v		nature/everyday	core	2		zd:6605/zd:4441	
+s53864	w50018	1	v		everyday	core	1		zd:7324/zd:7322	meaning inferred from a few sentences of one style of writing
+s53865	w50019	1	v		everyday/religion	core	2		zd:7313/zd:8573	
+s53866	w50020	1	v		everyday	core	2		zd:6251/zd:7336	
+s53867	w50021	1	n		everyday	core	2		zd:7345	
+s53868	w50022	1	n		politics/social	core	1		zd:8631	one sentence
+s53869	w50023	1	n		social/politics	core	2		zd:7332/zd:8156	
+s53870	w50024	1	v		everyday	core	2		zd:1773/zd:7959	
+s53871	w50025	1	n		politics	core	2		zd:7310/zd:6490	
+s53872	w50026	1	v		politics	core	2		zd:6424/zd:7325	
+s53873	w50027	1	n		social/work	core	2		zd:5862/zd:2571	
+s53874	w50028	1	v		everyday	core	2		zd:26710/zd:6883	
+s53875	w50029	1	n		food	core	1		zd:1215/zd:7021	inferred from few sentences
+s53876	w50030	1	adv		everyday	core	2		zd:8083/zd:3186	
+s53877	w50031	1	n		everyday/social	core	2		zd:6887/zd:5708	
+s53878	w50032	1	v		social	core	2		zd:8426/zd:7967	
+s53879	w50033	1	name	city	travel	core	2		zd:6759/zd:7885	
+s53880	w50034	1	n		family	core	2		zd:7388/zd:8142	
+s53881	w50035	1	v		food/social	core	2		zd:8346/zd:5611	
+s53882	w50036	1	adj		everyday/social	core	1		zd:5716	few sentences
+s53883	w50037	1	n		politics/social	core	1		zd:7321/zd:7343	few sentences
+s53884	w50038	1	v		social	core	2		zd:2052/zd:7343	
+s53885	w50039	1	n		travel/everyday	core	2		zd:6767/zd:8108/zd:9596	
+s53886	w50040	1	v		work/social	core	2		zd:9863/zd:8038/zd:4265	
+s53887	w50041	1	adv		home/nature	core	2		zd:8475/zd:6570	
+s53888	w50042	1	v		everyday/religion	core	2		zd:6152/zd:2834/zd:6779	
+s53889	w50043	1	v		everyday/travel	core	1		zd:9070	only in one repeated notice heading
+s53890	w50044	1	v		social	core	2		zd:7070/zd:7270/zd:6039	
+s53891	w50045	1	n		social/religion	core	2		zd:7082/zd:7615	
+s53892	w50046	1	pron		everyday	core	2		zd:529/zd:7502	
+s53893	w50047	1	v		everyday/health	core	2		zd:7582/zd:8126/zd:6208	
+s53894	w50048	1	v		home/work	core	1		zd:7545/zd:2445	few sentences
+s53895	w50049	1	v		everyday	core	2		zd:7582/zd:1301	
+s53896	w50050	1	n		social	core	2		zd:7598/zd:7667	
+s53897	w50051	1	prep		everyday	core	2		zd:5341/zd:7949/zd:6800	
+s53898	w50052	1	v		everyday/religion	core	2		zd:5900/zd:6941/zd:5893	
+s53899	w50053	1	phrase		everyday/social	core	1		zd:10914/zd:6934	few sentences
+s53900	w50054	1	n		social/politics	core	2		zd:6934/zd:8746/zd:5270	
+s53901	w50055	1	phrase		everyday	core	2		zd:5784/zd:4139	
+s53902	w50056	1	n		education	core	2		zd:9044/zd:6055	
+s53903	w50057	1	phrase		nature/time	core	1		zd:2315/zd:4749	{Tanlai sang} in one heading seems to be a middle school
+s53904	w50058	1	phrase		time/everyday	core	2		zd:2532/zp:758	
+s53905	w50059	1	v		food	core	2		zd:6268/zd:8334/zd:4489	
+s53906	w50060	1	adj		social	core	2		zd:6430	
+s53907	w50061	1	n		time/family	core	2		zd:748/zd:7726	
+s53908	w50062	1	adv		everyday/body	core	1		zd:7726/zd:7328	expressive adverb after words of colour, fullness, health and brightness, sense seems to be evenly or all over
+s53909	w50063	1	v		everyday/media	core	2		zd:10285/zd:7546/zp:3981	
+s53910	w50064	1	n		everyday/work	core	2		zd:7816/zd:8540	
+s53911	w50065	1	n		social	core	2		zd:7885/zd:7688	
+s53912	w50066	1	adv		everyday	core	2		zd:7714/zd:7891/zd:7777	
+s53913	w50067	1	phrase		everyday	core	2		zd:7777/zd:2955/zd:9905	
+s53914	w50068	1	n		nature	core	1		zd:7400/zd:7186	only in song lines, the tree is not identified
+s53915	w50069	1	v		everyday/religion	core	2		zd:9273/zp:511	
+s53916	w50070	1	v		everyday/body	core	2		zd:1313/zd:7851	
+s53917	w50071	1	n		travel/work	core	2		zd:7889/zd:6884	
+s53918	w50072	1	n		work	core	2		zd:8631/zd:7889	
+s53919	w50073	1	v		social/politics	core	2		zd:7463	
+s53920	w50074	1	v		everyday	core	1		zd:2961/zd:9643	few sentences
+s53921	w50074	2	n		religion	core	2		zd:3335	
+s53922	w50075	1	v		everyday/religion	core	1		zd:3252/zd:6851	in one sentence {lemsa in koih} is rather lay ready
+s53923	w50076	1	n		religion	core	1		zd:632/zd:3748	few sentences
+s53924	w50077	1	adv		everyday	core	1		zd:8022/zd:5864	meaning inferred from four sentences
+s53925	w50078	1	adv		time	core	2		zd:8778/zd:8022	
+s53926	w50079	1	ppm		time	core	1		zd:8022/zd:5326	only two clear sentences
+s53927	w50080	1	n		travel/everyday	core	2		zd:206/zd:10914	
+s53928	w50081	1	n		home/family	core	2		zd:5992/zd:3247	
+s53929	w50082	1	n		social	core	2		zd:7901/zd:4041	
+s53930	w50083	1	n		home/religion	core	2		zd:8125/zd:7238	
+s53931	w50084	1	name	people	social	core	2		zd:2529/zd:8153	
+s53932	w50085	1	v		everyday	core	2		zd:4736/zd:5030	
+s53933	w50086	1	n		social/politics	core	1		zd:8158/zd:8116	only in this pair
+s53934	w50087	1	n		social/politics	core	2		zd:8780/zd:8158	
+s53935	w50088	1	adv		everyday	core	1		zd:1740/zd:6797	few sentences and not all alike
+s53936	w50089	1	name	river	nature	core	2		zd:8497	
+s53937	w50090	1	n		body	core	2		zd:5127/zd:5947	
+s53938	w50091	1	adv		everyday	core	1		zd:2991/zd:8451	meaning inferred from few sentences
+s53939	w50092	1	v		everyday	core	2		zd:8699/zd:2586	
+s53940	w50093	1	phrase		everyday	core	2		zd:1424/zd:8459	
+s53941	w50094	1	name	place	religion/nature	core	2		zd:9721/zd:5793	
+s53942	w50095	1	adv		everyday	core	2		zd:6789/zd:8474	
+s53943	w50096	1	v		social	core	2		zd:879/zd:9268	
+s53944	w50097	1	n		religion	core	2		zd:7010/zd:4308	
+s53945	w50098	1	phrase		everyday	core	2		zd:4969/zd:8698	
+s53946	w50099	1	n		everyday/home	core	2		zd:22980/zd:4464	
+s53947	w50100	1	name	khua	social	core	2		zd:8497	
+s53948	w50101	1	v		everyday	core	2		zd:8801/zd:8245	
+s53949	w50102	1	v		social	core	2		zd:8432/zd:7328	
+s53950	w50103	1	n		social/home	core	2		zd:6352/zd:5723	
+s53951	w50104	1	v		family	core	2		zd:6648/zd:5034	
+s53952	w50105	1	n		health/body	core	2		zd:9314	
+s53953	w50106	1	phrase		work	core	2		zd:7748/zd:9678	
+s53954	w50107	1	n		religion	core	2		zp:3981/zp:2886	
+s53955	w50108	1	v		everyday	core	2		zd:3829/zd:8662	
+s53956	w50109	1	n		religion/social	core	2		zd:8662/zp:3981	
+s53957	w50110	1	n		religion	core	1	Greek	zd:8348	mostly in brackets as a gloss
+s53958	w50111	1	v		social	core	2		zd:1921/zd:5685	
+s53959	w50112	1	v		everyday/travel	core	2		zd:6077/zd:1215/zd:10467	
+s53960	w50113	1	n		everyday/social	core	1		zd:8725	two passages only
+s53961	w50114	1	name	land	politics	core	2		zd:25690/zd:641	
+s53962	w50115	1	name	city	politics	core	2		zd:9972/zd:5974	
+s53963	w50116	1	adj		everyday	core	2		zd:8664/zd:4644	
+s53964	w50117	1	v		everyday/travel	core	2		zd:8574/zd:8362/zd:8664	
+s53965	w50118	1	n		social/religion	core	2		zd:7845/zd:2988	
+s53966	w50119	1	n		everyday	core	2		zd:9051/zd:10098/zd:5316	
+s53967	w50120	1	v		everyday/media	core	2		zd:8321/zd:8388/zd:10144	
+s53968	w50121	1	v		everyday	core	1		zd:2500/zd:7828	few and unlike sentences
+s53969	w50122	1	n		family/social	core	2		zd:10229/zd:7389	
+s53970	w50123	1	n		everyday	core	2		zd:603/zd:2280	
+s53971	w50124	1	v		everyday	core	1		zd:6452/zd:8169	two sentences, both of skin
+s53972	w50125	1	n		work	core	2		zd:10433/zd:7828	
+s53973	w50126	1	adv		everyday	core	1		zd:1914/zd:1674	few sentences
+s53974	w50127	1	adv		everyday	core	2		zd:8014/zd:8317/zd:6879	
+s53975	w50128	1	name	city	travel	core	2		zd:2107/zd:2988	
+s53976	w50129	1	n		media	core	2		zd:1434/zd:6968/zd:5608	
+s53977	w50130	1	v		education	core	2		zd:3581/zd:9820	
+s53978	w50131	1	name	city	education/travel	core	2		zd:8115/zd:5581	
+s53979	w50132	1	name	khua	travel	core	2		zd:8057/zd:7230	
+s53980	w50133	1	part		everyday	core	1		zd:1793/zd:5610	inferred from a few lines of dialogue
+s53981	w50134	1	v		everyday	core	2		zd:7073/zd:4322/zd:4016	
+s53982	w50135	1	v		everyday	core	2		zd:3656/zd:5681/zd:10909	
+s53983	w50136	1	v		education/everyday	core	2		zd:8152/zd:6225/zd:5295	
+s53984	w50137	1	n		social/education	core	2		zd:8357/zp:3389	
+s53985	w50138	1	conj		everyday	core	1		zd:9872	few sentences, the parts are inferred
+s53986	w50139	1	n		home/work	core	1		zd:7226	mostly from one story
+s53987	w50140	1	n		nature/home	core	2		zd:6336/zd:4295/zd:10123	
+s53988	w50141	1	v		education	core	2		zd:5046/zd:5573/zd:4322	
+s53989	w50142	1	v		everyday	core	2		zd:10311/zd:5009	
+s53990	w50143	1	adj		everyday/social	core	2		zd:5744/zd:3593	
+s53991	w50144	1	adv		nature/everyday	core	2		zd:6715/zd:3209/zd:4107	
+s53992	w50145	1	n		time/religion	core	2		zd:3592/zd:569	
+s53993	w50146	1	n	animal	nature	core	2		zd:6902/zd:569	
+s53994	w50147	1	n		education	core	2		zd:6207/zd:7345	
+s53995	w50148	1	adj		everyday	core	2		zd:7318/zd:7339	
+s53996	w50149	1	n		family	core	2		zd:7393/zd:7340	
+s53997	w50150	1	v		social/everyday	core	2		zd:7165/zd:4256/zd:10188	
+s53998	w50151	1	adj		everyday	core	2		zd:5533/zd:9737/zd:7494	
+s53999	w50152	1	n		religion/nature	core	2		zd:7991/zd:7494	
