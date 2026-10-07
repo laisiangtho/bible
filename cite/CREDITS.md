@@ -8,7 +8,7 @@ A sense or an example names its source by the code shown here.
 
 ### `zai`: zolai-ai merged dictionary
 
-English to Zolai dictionary data of the zolai-ai project, merged there from the dictionaries of Thang Khan Dal, Dal Lian Haokip, Mang Cin Pau Gualnam and the ZomiDictionary application. The locator is the English headword.
+English to Zolai dictionary data of the zolai-ai project, merged there from the dictionaries of Thang Khan Dal, Dal Lian Haokip, Mang Cin Pau Gualnam and the ZomiDictionary application, and the English to Zolai word list of the same project. The locator is the English headword.
 
 - Owner: Peter Lianpi and the Zolai Project Contributors
 - Credit line: Dictionary data from the zolai-ai project, github.com/peterlianpi/zolai-ai

@@ -18,7 +18,7 @@ s42015	track/pursue/follow after/keep track of	follow on the tracks of someone, 
 s42016	searching out/tracking	<sulzuih> follow on the tracks of, with <in> which links it to the next verb	
 s42017	follow at once/pursue at once	<sulzuih> and <pah> written as one word: follow after someone at once, of police after a suspect or robbers after a victim	
 s42018	keep following/trail	<sulzuih>, follow after, with <zuih> said twice for an action that goes on: keep following behind	
-s42019	money/wealth	money, and wealth counted in money; {sum hau} is be rich, <sum leh pai> is money and goods	
+s42019	money/wealth/cash	money, and wealth counted in money; {sum hau} is be rich, <sum leh pai> is money and goods	
 s42020	treasure	a store of something precious, said of hidden treasure and of the riches of wisdom and knowledge	
 s42021	mortar	the wooden mortar in which grain is pounded, kept at the <sumtawng> of the house; apart from {sum}, money	
 s42022	money/wealth	<sum> written with a capital at the start of a sentence; {Sum haute}, those rich in money, are the rich	
@@ -26,7 +26,7 @@ s42023	free of charge/at no cost/for free	<sum>, money, <beilo>, not used up, an
 s42024	pay a contribution/pay in/contribute money	<sum>, money, and <don>, here pay in a share: pay the contribution or premium that every member of a fund owes; {sum don zah} is the amount to be paid, and the name of the fund stands before it	
 s42025	bribe/bribe money/bribery	<sum>, money, and <golhguk>, bribe: money given in secret to win someone over, and so bribery, corruption; {sum golhguk pia} is offer a bribe and {sum golhguk nekna} is the taking of bribes	
 s42026	money transfer/remittance/sending money	<sum>, money, and <khakna>, sending, from <khak>, send: the sending of money to someone far away, a remittance, and a service or means by which money is sent	
-s42028	income/receipts/earning	<sum>, money, and <ngahna>, getting: money received, or the getting of it; {sum ngahna leh zatna} is income and expenditure in accounts, {huhna sum ngahna} is donations received, and {sum ngahna ding} is in order to earn money	
+s42028	income/receipts/earning/receipt	<sum>, money, and <ngahna>, getting: money received, or the getting of it; {sum ngahna leh zatna} is income and expenditure in accounts, {huhna sum ngahna} is donations received, and {sum ngahna ding} is in order to earn money	
 s42029	counting of money/money table	<sum>, money, with <simna>, counting: the reckoning of money, the heading of the table of coins from the pice to the kyat	
 s42030	earn money/work for wages	<sum>, money, and <thalawh>, work for: to earn money by one's labour, to work for a living; often followed by <theihna>, a way of earning, or <dingin>, in order to earn	
 s42031	earning money/livelihood/work for wages	<sum>, money, and <thalawhna>, earning: the earning of money by one's labour, a livelihood, the noun of <sum thalawh>; with a following <in> it says what someone does for a living or for what purpose he went abroad	
@@ -55,7 +55,7 @@ s42053	free of charge/without cost	<sum>, money, <bei>, be used up, and <lo>, no
 s42054	amount of cost/expenses/total spent	<sumbei> and <zah> written as one word: the amount of money that is or will be spent	
 s42055	only money/money alone	<sum>, money, and <bek>, only, written as one word: money and nothing else	
 s42056	cash alone/money only	<sum> and <bekbek> written as one word: money and nothing else, in cash alone	
-s42057	market/marketplace	place of buying and selling; {sumbuk vante} is merchandise, {sumbuk bawlte} are traders	
+s42057	market/marketplace/shop	place of buying and selling; {sumbuk vante} is merchandise, {sumbuk bawlte} are traders	
 s42058	market/marketplace/forum	<sumbuk> written with a capital, at the start of a sentence and in the place name {Appias Sumbuk}, the Forum of Appius	
 s42059	in the market/of the market	<sumbuk> market with <a>, in or of	
 s42060	in the marketplace/at the market	<sumbuk> marketplace with the place marker <ah>	
@@ -82,9 +82,9 @@ s42080	cash rich
 s42081	the rich/rich people		
 s42082	Sumhrang		
 s42083	for money/with money	<sum> money with the marker <in>	
-s42084	put out/extinguish/snuff out	make a lamp or fire go out	
+s42084	put out/extinguish/snuff out/snuff	make a lamp or fire go out	
 s42085	switch off/turn off/shut off	stop an engine or cut off the electric current, a present-day use beside putting out a fire; the thing stopped is named before it, as {Engine sumit}	
-s42086	steward/foreman/paymaster	<sum> money with <keem> keep and <pa> man, the man who keeps the money and pays the workers	
+s42086	steward/foreman/paymaster/treasurer	<sum> money with <keem> keep and <pa> man, the man who keeps the money and pays the workers	
 s42087	treasurer/keeper of money	one who keeps the money of a group, a king or a city; <sum>, money, with <kem>, keep	
 s42088	treasurer/steward/manager	a man who keeps and manages the money or goods of his master; <pa> marks a man	
 s42089	treasurer/chief treasurer	<sumkem>, treasurer, with the ending {-pi}, chief: the treasurer of an organisation or church	
@@ -137,7 +137,7 @@ s42140	wealthy/having money	<sum> money with <nei> have; {sumnei pa} is a man of
 s42141	money one has/having money	<sum>, money, and <neih>, have, written as one word: the money a person has, and the having of money; {sumneih sunsun} is what little money one has	
 s42142	poor/penniless/without money	<sum> and <neilo> written as one word: having no money	
 s42143	creditors/lenders	<sumnei> having money with the plural <te>; set against <leibate>, debtors	
-s42144	small coin/coin	a coin of little value; {sumnen tang nih}, two small coins	
+s42144	small coin/coin/change	a coin of little value; {sumnen tang nih}, two small coins	
 s42145	make money/earn money/get money	<sum>, money, with <ngah>, get: earn or make money; {sumngah nading} is a way of making money	
 s42146	income/earnings	the money that a person or a household gets, {sumngah} used as a noun after a possessive or before <pen> and <vekpi>: {sumngah vekpi} is the total income	
 s42147	income/earnings/money received	<sumngah>, get money, with the noun suffix {-na}: the money that is received or taken in, or the getting of it	
@@ -184,7 +184,7 @@ s42187	molten metal	<sum> metal, with <tui> liquid, metal melted for casting or 
 s42188	finance/money matters/financial affairs	<sum>, money, with <vai>, affair: matters of money, finance or funds	
 s42189	surplus money/abundance/spare wealth	<sum> money with <val> extra, money beyond what is needed	
 s42190	amount of money/sum	<sum> money with <zah> amount; {na sumzah mah} is the full amount of your money	
-s42191	expense/spending/expenditure	<sum>, money, and <zat>, use, written as one word: the money that is spent, and the spending of it	
+s42191	expense/spending/expenditure/outlay	<sum>, money, and <zat>, use, written as one word: the money that is spent, and the spending of it	
 s42192	currency	the money in use in a country	
 s42193	expenditure/spending/expenses	<sum>, money, and <zatna>, using, written as one word: the money that is spent, or the way one spends it	
 s42194	financial management/budgeting/handling of money	<sum>, money, with <zekna>, managing, from <zek>: the way money is managed and spent, a budget; often paired with <sumzatna>, spending	
@@ -222,7 +222,7 @@ s42227	in/inside	<sung> inside with <ua>, the plural marker <uh> joined with <a>
 s42228	in	<sung>, inside, with the linking <a>: that is in, placed between a noun and what is found inside it	
 s42229	within		
 s42230	in/inside/within	<sung>, inside, and <aa> written as one word, placed between a noun and what is inside it: {pumpi sungaa}, that is in the body	
-s42231	inside		
+s42231	inside/in		
 s42232	within		
 s42233	as for in/among	<sung>, in, and <ahbel>, as for in, written as one word after a noun: within that one, for its part, set against others	
 s42234	also in/inside too	<sungah> and <zong> written as one word: in it also, inside as well	
@@ -244,7 +244,7 @@ s42249	wife's family/head of the wife's family	the second of the appointed posit
 s42250	chief in-law	<sungh> with {-pi}, chief: the principal one of the in-laws on the wife's side as a role in the kinship order of a household, second in the list of those who receive a share of meat	
 s42251	parents-in-law/in-laws	<sungh>, parent-in-law, with plural <te>: the parents of one's wife or husband and their household; {a sunghte inn} is the house of his in-laws	
 s42252	within		
-s42253		word combined with a noun to indicating a time or period thah	
+s42253	during	word combined with a noun to indicating a time or period thah	
 s42254	within/in	<sungin> within a period with <ah>; {nai khat sunginah} is within one hour	
 s42255	constipation	<sung>, the inside, with <khak>, shut: blocked bowels, constipation; some sentences write {sungkhak ah} where {sungkhat ah}, in one, seems meant	
 s42256	inside a/in one	<sung>, inside, and <khat>, one, written as one word after a noun: the inside of a certain one, as {Hotel sungkhat ah}, in a hotel; {tun sungkhat pan} is from one womb, of the same mother	
@@ -255,7 +255,7 @@ s42260	for only about/just around	<sungkhawng>, for about, and <bek>, only, writ
 s42261	throughout/all through	<sung> and <khempeuh> written as one word: the whole inside of something, everywhere in it	
 s42262	pour out	<sung>, pour, with <khia>, out: of water, blood or a drink offering, and of the heart poured out before God	
 s42263	present/put forward/set out/submit	lay thoughts, points or a proposal before others in speech or writing, as a writer does with {kong sungkhia} or a party with a bill in parliament; the thing set out is <thu>, <ngaihsutna> or <muhna>, not a liquid and not the heart before God	
-s42265	internal organs/entrails/intestines	the organs inside the body of an animal or a person, the entrails	
+s42265	internal organs/entrails/intestines/innards	the organs inside the body of an animal or a person, the entrails	
 s42266	internal organs/entrails/inner parts	plural of <sungkua>, the organs inside the body of an animal	
 s42267	inside/inner side	<sung>, inside, and <lam>, side; the opposite of <pualam>, the outside	
 s42268	internal illness/internal disease	<sunglam>, the inside, and <damlohna>, illness: an illness of the inner organs, said without naming the disease; common in death notices, followed by <tawh> or <hangtawh>, of, from	
@@ -273,7 +273,7 @@ s42279	insider/member/inner self	<sung>, inside, with <mi>, person: a person who
 s42280	nausea/queasiness	the sick feeling in the stomach that comes before vomiting	
 s42281	make nauseous/sicken	<sungnim>, nausea, and causative <sak> written as one word: make someone feel sick in the stomach	
 s42282	mother-in-law	the mother of a man's wife; <nu> marks a woman	
-s42283	inner/inmost	placed after a noun, as in {biakinntual sungnung} the inner court	
+s42283	inner/inmost/inward	placed after a noun, as in {biakinntual sungnung} the inner court	
 s42284	inner room/inner sanctuary	the innermost room of the temple	
 s42285	of the inner sanctuary/in the inner room	<sungnung> inner room with <a>, in or of	
 s42286	in the inner part/into the inner part/in the inner room	<sungnung> inner, inner room, with the place marker <ah>: in or into the inner part; {tual sungnungah} is into the inner court, {biakinn sungnungah} in the inner sanctuary	
@@ -315,7 +315,7 @@ s42323	insides/interiors/rooms	<sung>, inside, with plural <te>: the inner parts
 s42324	wife's family/in-laws	the family of a man's wife, the relatives on the wife's side	
 s42325	underwear/undergarment/underpants	a garment worn under the outer clothes; <bombi sungteen> is underpants	
 s42326	underwear/underpants/undergarment	clothing worn next to the body under other clothes; {pheituam sungten} is underpants	
-s42327	within/throughout/during all	<sung>, during, with <teng>, all: through the whole of a time; {khan sungteng} is the whole length of a life	
+s42327	within/throughout/during all/during	<sung>, during, with <teng>, all: through the whole of a time; {khan sungteng} is the whole length of a life	
 s42328	throughout/within	<sungteng> with <ah>, in the whole of an area	
 s42329	during/throughout/all the while	<sungteng>, within the whole of, with the ending <in>; {tua sungtengin}, all that while	
 s42330	the whole of/all within/throughout	<sungteng>, all within or throughout, and the topic marker <pen>, written as one word after a place or a length of time: the whole area within it, or all through that time, as the topic of the sentence	
@@ -415,7 +415,7 @@ s42424	Susanna	one of the women who followed Jesus and supported him and the dis
 s42425	sushi	the Japanese dish of rice with fish; many Zomi abroad work in or own a sushi shop, {Sushi sai}	
 s42426	sushi shop/sushi bar/sushi counter	{sushi} with <sai>, shop or stall, not the word for elephant: a shop or counter that makes and sells sushi, a common business of Zomi people abroad; {Kawlsai} and <Zosai> are Burmese and Zo food shops	
 s42427	Susi	man of the tribe of Manasseh, father of Gaddi, one of the twelve spies	
-s42428	destroy	bring to ruin or to an end: destroy a people, enemies, a city or idols	
+s42428	destroy/ravage	bring to ruin or to an end: destroy a people, enemies, a city or idols	
 s42429	demolish/tear down/break down	pull down something built, such as a temple, a wall or an altar	
 s42430	destroy	<susia>, destroy, capitalised at the start of quoted speech and in {A Susia pa}, the Destroyer	
 s42431	will destroy/to ruin	<susia> and <ding> written as one word: in order to destroy or ruin, about to destroy	
@@ -523,11 +523,11 @@ s42538	rebuke/reproof	<taai> rebuke with the noun suffix <na>; {taaina thuak} is
 s42539	run off at once/flee at once	<taai>, run, with <pah>, at once, written as one word	
 s42541	gopher	a conifer tree and its wood, said with <sing>, tree; {noah-taak sing} is the gopher wood of the ark	
 s42542	worthy/worth/fit	placed after a verb or noun: worth doing or fit to be so, as <etteh taak>, worth imitating, exemplary, {belh taak}, worth relying on, and <muantaak>; not the tree	
-s42543	drip/drain out/trickle out	of a liquid, come out in drops	
+s42543	drip/drain out/trickle out/exude	of a liquid, come out in drops	
 s42544	drain out/let drip out	<taakkhia> drip out with <sak>, cause or let; said of blood	
 s42545	Taaklam	a Zomi village, named in the articles through the associations of its people abroad	
 s42546	if	closes an if clause in an oath, {na sih taktak kei taakleh}, if you do not surely die; the part <taak> is not clear	
-s42547	not worthy/not fit/unfit	the negative with <lo> of the word seen in {zuih taak}, worthy to be followed, written as one word after a verb: not fit to be followed, used or asked; compare <kilawm>	
+s42547	not worthy/not fit/unfit/unworthy	the negative with <lo> of the word seen in {zuih taak}, worthy to be followed, written as one word after a verb: not fit to be followed, used or asked; compare <kilawm>	
 s42548	pour out/drain/let run out	of blood, let it run out onto a place	
 s42549	let dry/parch	of the throat, let it become dry with thirst	
 s42550	juniper/fir/cypress	evergreen timber tree named beside <taamtaak>, the cedar; its wood was used for the panels, floors and doors of the temple	
@@ -558,7 +558,7 @@ s42574	shine/give light	of the sun, a lamp, lightning or a face, give out light;
 s42575	lose/be deprived of	no longer have a land, a king, power or goods	
 s42576	Taanach	Canaanite royal city near Megiddo, in the territory of Manasseh, given to the Levites	
 s42577	Taanath Shiloh	place on the border of the territory of Ephraim, east of Mikmethath	
-s42578	shine/be bright	give out light, of the sun, moon, stars, a lamp or a face; <nitaang> is sunlight and <khataang> moonlight	
+s42578	shine/be bright/glitter	give out light, of the sun, moon, stars, a lamp or a face; <nitaang> is sunlight and <khataang> moonlight	
 s42579	wheat/grain/millet	a grain crop; wheat in Matthew 13, millet in Ezekiel 4.9	
 s42580	stanza/verse	one stanza of a song or hymn, counted as {taang khat}, {a taang nihna}, the second stanza; not grain and not shine	
 s42581	stand for/take the place of	be in the place of another thing, as a word for a word of another language; compare <tangin>, in place of; not shine and not grain	
@@ -581,22 +581,22 @@ s42598	shine out/give out light/radiate	<taangkhia>, shine out, with <sak>, caus
 s42599	stretch out/put forth	of the hand, {khut taangkhiasak}: reach out the hand to strike	
 s42600	shone/have shone	<taang>, shine, with <khin>, already: the past form the book gives for {a taang hi}, it shines	
 s42601	be fully lit/shine all over	<taang>, shine, with <kim>, complete: be bright in every part	
-s42602	proclaim/announce/declare	make known publicly and aloud; {va taangko in} is go and proclaim	
+s42602	proclaim/announce/declare/herald	make known publicly and aloud; {va taangko in} is go and proclaim	
 s42603	announce/proclaim/report	form of <taangko>, announce, used before <khiat>: {taangkoh khiatna} is an announcement	
 s42604	announce/proclaim/declare	<taangko>, proclaim, with <khia>, out: announce publicly, make an official statement	
-s42605	proclamation/announcement/decree	a public announcement made aloud through a land; {taangkona bawl} is make a proclamation	
+s42605	proclamation/announcement/decree/declaration	a public announcement made aloud through a land; {taangkona bawl} is make a proclamation	
 s42606	have proclaimed/cause to proclaim	<taangko> proclaim with <sak>, cause	
 s42607	ancient/of old	placed before a noun: of long ago	
 s42608	ancient times/long ago	the far past, as {taanglai pek panin}, from long ago	
 s42609	long ago/from of old/in ancient times	<taanglai>, ancient times, and <pek>, far back: very long ago, mostly followed by <pan>, <panin> or <akipan>, from: since ancient times, from of old	
 s42610	be very bright/be too bright	<taang> shine with <lua>, exceedingly; also the great brightness of a light	
-s42611	ambassador/envoy/messenger	a person sent to speak for a king or for another	
+s42611	ambassador/envoy/messenger/delegate/representative	a person sent to speak for a king or for another	
 s42612	envoys/ambassadors/messengers	plural of <taangmi>	
 s42613	general public/public/common/general	the people at large, and what is common to all or usual; {a taangpi in} is in general, and the pair <taangpi taangta> is the public at large	
 s42614	the will of the people/public will/popular will	<taangpi>, the public, and <deihna>, wish or will: what the people at large want, set against the wish of one person, {mimal deihna}; {taangpi deihna tawh ki-uk} is be governed by the will of the people, a way of saying democracy	
 s42615	general public/ordinary people/the people at large	<taangpi> and <taangta>, a pair that is always said together: the general public, the ordinary people as distinct from leaders and officials; often after <mipi> and before <te> or <khempeuh>	
 s42616	the general public/ordinary people/the common people	<taangpi>, the public, with the plural <te>: people in general, the many as against the few	
-s42617	make shine/cause to shine	<taang> shine with the causative <sak>; {mai taangsak} is to make the face shine on someone, to show favour	
+s42617	make shine/cause to shine/brighten/illuminate	<taang> shine with the causative <sak>; {mai taangsak} is to make the face shine on someone, to show favour	
 s42618	making shine	<taangsak>, make shine, with the linking suffix <in>; {maitang taangsak} is to make the face shine on someone	
 s42619	common people/public/laity	second half of the pair <taangpi taangta>, the general public, the ordinary people as distinct from leaders and officials; see <taangpi>	
 s42620	common people/ordinary people/the public	plural of <taangta>, mostly in the pair {taangpi taangtate}, the general public	
@@ -699,7 +699,7 @@ s42720	Tai-imnu
 s42721	run	<tai>, run, with the command ending <in> written with a hyphen: run, said to one person	
 s42722	Tyre	ancient Phoenician port city on the Mediterranean coast north of Israel, home of King Hiram	
 s42723	will run/will flee	<tai> and <ding.1> written as one word: will run or flee, to run or flee; of a bus or train, will run a route	
-s42724	rebuke/scold severely	<tai>, rebuke, with <gawp>, severely	
+s42724	rebuke/scold severely/reproach	<tai>, rebuke, with <gawp>, severely	
 s42725	run off/flee/bolt	<tai> run or flee with <gawp>, wildly: run away in a rush, of people fleeing or of a vehicle driven off; a different word from {taigawp} scold, told apart by a place or a pursuer in the sentence	
 s42726	rebuking severely	<taigawp>, rebuke severely, with the linking suffix <in>	
 s42727	hit/run into/knock down/sweep away	strike against with force: of a car or train, hit or run over; of water, sweep away	
@@ -721,12 +721,12 @@ s42742	sweep away/carry off	of a flood, carry someone away; ends in the causativ
 s42743	try to rob/attempt a robbery	<taih> and <sawm>, intend, written as one word after <damiah>, robbery: try to rob someone	
 s42744	run over/ram/crash into	<taih>, run into or over, with <suk>, down: of a vehicle, hit and run over a person or drive hard into another vehicle or a barrier	
 s42745	crash into/ram into/run into	<taihsuk>, ram, and <kha.4>, happen to, written as one word: of a vehicle, happen to crash into another	
-s42746	rebuke/scold/reprove	speak sharply to someone to stop or correct him; said also of God rebuking the sea or the nations and of Jesus rebuking demons	
+s42746	rebuke/scold/reprove/chide	speak sharply to someone to stop or correct him; said also of God rebuking the sea or the nations and of Jesus rebuking demons	
 s42747	cheerful/bright	of the face, in {mai taii-na}, a cheerful face	
 s42748	run/flee/run away	a spelling of <tai>, run: run off or flee, often with {lau in}, in fear; no one is rebuked	
 s42749	be swept away/be carried off	with <tui-in>, by the water: be carried off by the stream, said of a thing that has fallen into a river	
 s42750	rebuke/denounce/scold	<taii> rebuke with <bawl> do: treat someone with harsh rebuke	
-s42751	rebuke/discipline/correction/reproof	<taii>, rebuke, with <na>: words or acts that correct someone	
+s42751	rebuke/discipline/correction/reproof/castigation	<taii>, rebuke, with <na>: words or acts that correct someone	
 s42752	make cheerful/brighten	<taii> cheerful with <sak>, cause; {mai taiisak} is make the face cheerful	
 s42753	run about/run around	<tai>, run, and <kawikawi>, to and fro, written as one word: run here and there, as children do in a house	
 s42754	while running/run along	<tai>, run, and <kawm>, while, written as one word: do something while running	
@@ -863,7 +863,7 @@ s42886	not really/not quite/hardly	<tak> and <lo> written as one word after a ve
 s42887	really/indeed/truly	<tak> and the emphatic <mah> written as one word after a describing word or a number: very much so, indeed; {tampi takmah} is very many indeed	
 s42888	most/the most	<tak> and the superlative <pen> written as one word after a describing word, as in {etteh takpen}, the most worthy of imitation; <pen> may also be the topic marker	
 s42889	reach fully/amount to as much as	<tak> and <pha> written as one word after a number or measure: come to fully that many, as much as	
-s42890	truly/surely/indeed/really	also as {takpi-in}; {aman takpi kong cih-inah} means truly I tell you	
+s42890	truly/surely/indeed/really	also as <takpi-in>; {aman takpi kong cih-inah} means truly I tell you	
 s42891	true/real/sincere/genuine	placed after a noun: real and not pretended, as in <lungsim takpi>, a sincere heart, and {min takpi}, the real name	
 s42892	will really/will indeed	<takpi> and <ding> written as one word after a verb: will truly happen	
 s42893	if really/if indeed	<takpi>, really, and <leh>, if, written as one word after a verb: if that really happens; <leh> can also be and, as in {nasimnop takpileh thuhoih}, truly pleasant to read and good	
@@ -874,7 +874,7 @@ s42897	those who truly are	<takpi>, truly, with plural <te>, placed after a desc
 s42898	plump/full/well filled	of grain, having a full kernel, not empty; {gah taksa} is the full grain	
 s42899	body/flesh/physical	the body of flesh as against <kha>, the spirit, or <lungsim>, the mind; <pumpi taksa> is the physical body and {taksa damna} bodily health	
 s42900	make thirsty/let go dry	of the throat, <dang>, let it become dry; {dang tak} is be thirsty, with the causative <sak>	
-s42901	believe/be convinced/accept as true	<tak> true with <sang> receive; in the verses negated, not believe	
+s42901	believe/be convinced/accept as true/trust	<tak> true with <sang> receive; in the verses negated, not believe	
 s42902	good grain/wheat	<taksa>, full of kernel, with the plural <te>: the full grains as against <ansite>, the chaff	
 s42903	juniper/fir/pine	an evergreen timber tree of Lebanon, named together with <taamtak>, the cedar; {taksing kung} is a juniper tree	
 s42904	junipers/firs/pines	plural of <taksing>, an evergreen timber tree	
@@ -981,7 +981,7 @@ s43006	lament/lamentation	a song or cry of mourning for the dead or the ruined
 s43007	if there is much/when there are many	<tam>, many, and <leh>, if, written as one word: if or when something is much or many, the more there is of it	
 s43008	few/not many/not much	<tam>, many, and <lo>, not, written as one word: not many, only a few	
 s43009	not many/few/not much	<tam>, many, and <loh>, not, written as one word, the form used before words such as <manin> and <hangin>: not being many, not much	
-s43010	too much/too many/very many	<tam> many with <lua>, excessively	
+s43010	too much/too many/very many/excessive	<tam> many with <lua>, excessively	
 s43011	not very many/not much	<tam>, many, and <lualo>, not very, written as one word: not very many, not much	
 s43012	be very much/be too much	form of <tamlua> used before <ciangin>; of water in clouds, be very full	
 s43013	excess/too much/overabundance	<tamluat>, be too much, with the noun suffix {-na}: there being too much of something; {guahtui tamluatna hangin} is because of too much rain	
@@ -1011,14 +1011,14 @@ s43036	where there are most/place with the most	<tampen>, most, with the noun su
 s43037	the very most/most numerous	<tam> and <penpen> written as one word: the greatest in number of all	
 s43038	much/great	seen in {man tampha zaw}, of much greater value; compare <manpha>, valuable	
 s43039	especially many/particularly frequent	<tam> and <phadiak> written as one word: many or frequent to a special degree, more than elsewhere or at other times	
-s43040	numerous/many/much	a large number or amount of something, placed after the noun: {mi tampi} is many people and {thu tampi} many things	quantity of being, plural form of <tam>
+s43040	numerous/many/much/myriad	a large number or amount of something, placed after the noun: {mi tampi} is many people and {thu tampi} many things	quantity of being, plural form of <tam>
 s43041	rather many/quite a lot/somewhat much	<tam>, many, and <pian> written as one word: fairly many or much, or becoming more	
 s43042	very many/a great many	<tampi> and <mah> written as one word, placed after the noun: a great many, very much	
 s43043	many	<tampi> with a shortened <in> written as one word: many, as the doer of the action; {mi tampin} is many people did. With a capital it is also a town in Malaysia.	
 s43044	Tampines	a residential town in the east of Singapore	
 s43045	very many/in large amounts/abundant	<tampi> many, with <pi> repeated for emphasis	
 s43046	for many/during many	<tampi> many and <sung> during, written as one word after a word of time: {kum tampisung} is for many years and {nai tampisung} for many hours	
-s43047	very many/a great number	<tampi> many with the intensive <tak>	
+s43047	very many/a great number/myriad/numerous	<tampi> many with the intensive <tak>	
 s43048	very many/a great many	<tampitak>, very many, with the marker <in>, written as one word: very many of them, as the doer of the action	
 s43049	very many/a great many	<tampitak> very many with the plural <te>, written as one word: a great many people or things, also after a noun	
 s43050	with many/with much	<tampi>, many, and <tawh>, with, written as one word after a noun: with many of them, with a great deal of it	
@@ -1061,7 +1061,7 @@ s43086	far more/many more/much more numerous	<tam>, many, with <zawtham>, much m
 s43087	manage many/be able to do much	<tam>, many, with <zo>, be able; {thah tamzo} is manage to kill many	
 s43088	fast/abstain	abstain from, in {an tan}, go without food, usually written with a final apostrophe	
 s43089	as far as/up to/as much as	marks a measure of extent in time or distance: {bang tan} is how much or how long, and {suang lot khat tan} is about a stone’s throw	
-s43090	cut off/sever	cut or break through, cut a thing in two	
+s43090	cut off/sever/cut	cut or break through, cut a thing in two	
 s43091	redeem/ransom/rescue	buy back or bring out of the power of another, also as {tan khia}	
 s43092	grade/standard/class	a school year, followed by its number: {Tan 10} or {tan sawm} is the tenth standard, the last year of high school; the same word as <atan>, and unlike the verb senses	
 s43093	share/portion	placed after the name of a kinship role: the share of meat that falls to that role when a slaughtered animal is shared out, as {sunghpi tan}, the share of the sunghpi	
@@ -1123,7 +1123,7 @@ s43150	dough/cake/bread	dough or cake made of flour; {tangho su} is knead the do
 s43151	persistently/always/steadily	placed after a verb: keep on doing it, every time or without giving up	
 s43152		emphatic word placed after a verb, before <hi> or <leh>: really, indeed, in fact; {nong sap tangial leh} is if you really call me	
 s43153	eighth grade/eighth standard	<tan>, school class, and <giat>, eight, written as one word: the eighth class of school; {tangiat sang} is a school that teaches up to that class, a middle school	
-s43154	instead of/in place of/on behalf of	placed after a noun or pronoun: in the place of, or speaking and acting for someone; {ama tangin uk} is reign in his place, succeed him	
+s43154	instead of/in place of/on behalf of/for	placed after a noun or pronoun: in the place of, or speaking and acting for someone; {ama tangin uk} is reign in his place, succeed him	
 s43155	fast/abstain/keep/observe	<tang> with the linking ending <in>: keeping from something or keeping a day, as in {an tangin}, fasting, and {sabbath tangin}, keeping the Sabbath	
 s43156	Tangin		
 s43158	Tangkak	town and district in the state of Johor, Malaysia, next to Muar	
@@ -1215,12 +1215,12 @@ s43243	be fulfilled/come true/succeed/come to pass	of a plan, word or promise, b
 s43244	not be fulfilled/not come true/fail	<tangtung> and <lo> written as one word: of a dream, a plan or a promise, not be fulfilled	
 s43245	fulfil/bring to pass/grant/make succeed	<tangtung>, come to fulfilment, with the causative <sak>: make a word, wish or plan come true	
 s43246	be able to succeed/succeed	<tangtung>, be fulfilled, with <zo>, be able	
-s43247	fulfilment/accomplishment	<tangtun>, fulfil, with the noun suffix <na>	
+s43247	fulfilment/accomplishment/success	<tangtun>, fulfil, with the noun suffix <na>	
 s43248	fulfil/accomplish/carry out	<tangtun> with the causative <sak>: bring a word, plan or promise to completion	
 s43249	complete/finish/accomplish	carry a task through to its end; apparently the form of <tangtun> used before words such as <zawh> and <ding>	
 s43250	alive/while still living	in {a hing tangun}, still alive, with <un> for a plural subject	
 s43251	by/according to	in {a beh tangun}, by their clans, clan by clan	
-s43253	boy/youth/young man	a young unmarried man; {tangval lai} is still young	of unmarried adult man
+s43253	boy/youth/young man/bachelor	a young unmarried man; {tangval lai} is still young	of unmarried adult man
 s43254	good boy		
 s43255	gentleman/young man		
 s43256	young man	<tangval> written with a capital at the start of a sentence and in the speaker headings of the Song of Songs, where it is the young man who is the lover	
@@ -1236,7 +1236,7 @@ s43265	broaden/widen/extend	<tangzai>, wide, with the causative <sak>, written a
 s43266	broadly/widely/extensively	<tangzai> and <tak> written as one word, usually followed by <in>: in a broad and open way	
 s43267	wider/more extensive	of work or its reach, more widely spread; ends in the comparative <zaw>	
 s43268	leader/front runner/the foremost	the one who goes ahead of the others; the saying of the rats explains it with <makai>, leader, and the list of opposites sets it against <tuantual>, lag behind	
-s43269	advanced/quick/ahead	going ahead well and fast; the book gives it as the opposite of <tuantual>, lag behind	
+s43269	advanced/quick/ahead/brisk	going ahead well and fast; the book gives it as the opposite of <tuantual>, lag behind	
 s43271	Tangzang		
 s43272	brighter	<taang>, shine, here written <tang>, with the comparative <zaw>	
 s43273	portion/share/allotment	the part that falls to someone: a share of food, of land or of an inheritance	
@@ -1384,7 +1384,7 @@ s43417	straight ahead/straight forward	of four creatures moving, each going in o
 s43418	wrong/error/wrongdoing/going astray	a wrong act or a going wrong, in Numbers 15 one done without intent	
 s43419	wrongs/wrongdoings/guilt		
 s43420	redeem/ransom/buy back	<tat> redeem with <khiat> out: set free by paying a price; form used before <ding>, <nading>, <manin> and <mite>	
-s43421	redemption/ransom	act of setting free by paying a price, or the price paid: {tatkhiatna sum}, ransom money	
+s43421	redemption/ransom/atonement	act of setting free by paying a price, or the price paid: {tatkhiatna sum}, ransom money	
 s43422	redeemed/ransomed	<tatkhiat> redeem with <sa> already done: whom someone has redeemed	
 s43423	the redeemed/redeemed ones	<tatkhiatsa> redeemed with the plural <te>: those whom someone has redeemed	
 s43424	redeem/buy back	get back by payment what was sold or dedicated; <tat> with <kik> back	
@@ -1408,7 +1408,7 @@ s43441	without a break/continuously/nonstop	<tatsat> and <lo> written as one wor
 s43442	act wickedly/be cruel/be violent	behave badly toward others, oppress; apparently <tat> as in <gamtat>, behave, with <sia>, bad	
 s43443	act wickedly/do violence	form of <tatsia> used before <ding>	
 s43444	wrongdoers/evildoers	<tatsia>, act wickedly, with <te>, those who	
-s43445	evil deed/crime/wickedness	noun of <tatsiat>: a wicked or destructive act; in 2 Samuel 24:16 the destruction itself	
+s43445	evil deed/crime/wickedness/cruelty	noun of <tatsiat>: a wicked or destructive act; in 2 Samuel 24:16 the destruction itself	
 s43446	crimes/evil deeds	plural of <tatsiatna>	
 s43447	those who sharpen/those who whet	<tat>, whet or sharpen a blade, with <te>, those who	
 s43448	Tattenai	Persian governor of the province beyond the Euphrates in the time of King Darius, who questioned the rebuilding of the temple	
@@ -1454,7 +1454,7 @@ s43487	altars
 s43488	be put to shame/be disappointed	in both verses with a negative: whoever trusts in him will never be put to shame	
 s43489	Tavai		
 s43490	responsibility/duty/obligation	what a person is answerable for; <tavuan la> is take on a responsibility	
-s43491	take responsibility/take charge	<tavuan>, responsibility, and <la>, take: take on the responsibility or the charge of something; the one who takes it stands before with <in>, and a thing or place taken charge of stands directly before the pair	
+s43491	take responsibility/take charge/undertake	<tavuan>, responsibility, and <la>, take: take on the responsibility or the charge of something; the one who takes it stands before with <in>, and a thing or place taken charge of stands directly before the pair	
 s43492	take responsibility/take on a duty	<tavuan> and <la> written as one word: take a responsibility upon oneself	
 s43493	whole duty/all one's duty	<tavuan>, duty, with <teng>, all	
 s43494	blind	said of the eyes: {mit taw} is blind	
@@ -1526,7 +1526,7 @@ s43560	while holding/holding	<tawi>, hold, with <kawmin>, while: holding somethi
 s43561	while still holding/while carrying	<tawikawm>, while holding, and <sa> written as one word, followed by <in>: with the thing still held in the hand while doing something else	
 s43562	happen to hold/come to carry	<tawi>, hold or carry, and the particle <kha> written as one word: happen to have a thing in hand, end up carrying it	
 s43563	weigh/weigh out	find the weight of something on scales; also weigh out money in payment, and of God weighing a person or his deeds	
-s43564	scales/balance	<tawikhai>, weigh, with the noun ending <na>: the instrument for weighing; {tawikhaina man} is honest scales, {tawikhaina man lo} dishonest scales	
+s43564	scales/balance/scale	<tawikhai>, weigh, with the noun ending <na>: the instrument for weighing; {tawikhaina man} is honest scales, {tawikhaina man lo} dishonest scales	
 s43565	something held in the hand	<tawi>, hold in the hand, and <khat>, one, written as one word: one thing that is held or carried in the hand	
 s43566	hold together/take along with/carry together	<tawi>, hold or carry, with <khawm>, together: hold or carry several things together	
 s43567	draw out/draw	<tawi>, draw water, with <khia>, out: draw water out of a well	
@@ -1543,7 +1543,7 @@ s43577	make hold/have carry/put in the hand	<tawi>, hold or carry, with the caus
 s43578	will make hold/will have carry/will issue	<tawisak> and <ding> written as one word: will have someone hold or carry a thing, as a card or paper	
 s43579	draw for	<tawisak> draw water for someone with the linking ending <in>: having drawn water for someone, and then	
 s43580	those who draw for/water carriers	<tawisak> draw water for someone with the plural <te>: the people who draw water for others	
-s43581	lift up/exalt/raise/uphold	<tawi>, hold, with <sang>, high: hold high, raise the standing of a people, a faith or a way of life	
+s43581	lift up/exalt/raise/uphold/extol	<tawi>, hold, with <sang>, high: hold high, raise the standing of a people, a faith or a way of life	
 s43582	uplifting/exaltation/raising up	<tawisang>, lift up, with the noun ending <na>: the act of raising the standing of someone; {minam tawisangna} is the uplifting of the nation	
 s43583	be skilled with/handle skilfully	<tawi>, hold or wield, with <siam>, skilled; {thal tawisiam}, skilled with the bow	
 s43584	weight	stone used as a weight on scales; {tawisuang man} is an honest weight, {tawisuang nam nih} two differing weights	
@@ -1576,15 +1576,15 @@ s43611	not tired	<tawl>, be tired, and <lo>, not, written as one word
 s43612	be too weary/be very tired	<tawl>, be weary, with <lua>, too much	
 s43613	be very tired/be exhausted	<tawl> and <mahmah> written as one word, the first word here in the meaning be tired: be very tired	
 s43614	whether tired/is he tired	<tawl>, be tired, and the question word <maw>, written as one word: tired, is it; in {tawlmaw tawllo}, whether tired or not	
-s43615	weariness/hardship/trouble	<tawl>, be weary, with the noun ending <na>; used in the pair {gimna tawlna}, suffering and hardship	
+s43615	weariness/hardship/trouble/fatigue/lassitude	<tawl>, be weary, with the noun ending <na>; used in the pair {gimna tawlna}, suffering and hardship	
 s43616	rest	stop working or moving in order to recover strength	
 s43617	relax	be at ease, free from work or trouble	
-s43618	pause/cease/stop	stop for a time; {tawlnga loin} is without stopping, unceasingly	
+s43618	pause/cease/stop/halt	stop for a time; {tawlnga loin} is without stopping, unceasingly	
 s43619	rest/cease	<tawlnga>, rest or cease, written with a capital in the text	
 s43620	to rest/will rest	<tawlnga> and <ding> written as one word: will rest, in order to rest or take time off from work	
 s43621	rest/take a rest/come to rest	form of <tawlnga> used before words such as <khit>, <lai>, <theih> and <nading>	
 s43622	rest time/break/time off/holiday	<tawlngak>, rest, and <hun>, time: a time of rest, a break in work or school, a holiday; said with verbs such as <la>, <zang> and <pia>	
-s43624	rest/resting place/repose	<tawlngak>, rest, with the noun ending <na>: rest, or a time or place of rest; {tawlngakna mun} is a resting place, {tawlngakna sabbath} a sabbath of rest	
+s43624	rest/resting place/repose/recess	<tawlngak>, rest, with the noun ending <na>: rest, or a time or place of rest; {tawlngakna mun} is a resting place, {tawlngakna sabbath} a sabbath of rest	
 s43625	let rest/give rest to	<tawlngak> and the causative <sak> written as one word: let a person, the body or the mind rest	
 s43626	without rest/unceasing	<tawlnga>, rest or stop, and <lo>, not, written as one word: not resting, not stopping; mostly {tawlngalo in}	
 s43627	make rest/give rest/let rest	<tawlnga>, rest, with the causative <sak>; in Exodus 5:5 of making people stop their work	
@@ -1597,7 +1597,7 @@ s43633	tire oneself for/take trouble over/labour for	<tawl>, be weary, with <pih
 s43634	for quite a while/for some time	<tawl>, a while, with the ending for great and <khat>, one: a fairly long while, longer than <tawlkhat>; {tawlpikhat sung} is for quite some time	
 s43635	for quite a while/for some time	<tawlpikhat>, quite a while, and <sung>, during, written as one word	
 s43636	must be tired/be probably tired	<tawl>, be tired, with <tuak> for a supposition: the speaker supposes that someone is tired without knowing it	
-s43637	few/little/small	small in number or amount; {tawm khat} is a little, a few, and {tawm mahmah} very few	
+s43637	few/little/small/meagre	small in number or amount; {tawm khat} is a little, a few, and {tawm mahmah} very few	
 s43638		placed after a verb, often one that begins with <ki>, to show that the subject does the action himself, to himself or on his own: {kigawt tawm} is deny oneself	
 s43639	pick up/gather/glean	pick up from the ground, gather what lies scattered; {ansang tawm} is glean ears of grain, {suang tawm} pick up stones	
 s43640	how much/the amount/little or much	<tawm>, few, and <atam>, many, the two opposites said together after <a>, as {a tawm atam}: whether little or much, the size of an amount or number; mostly with a negative, {a tawm atam hilo in}, no matter how much	
@@ -1614,7 +1614,7 @@ s43650	Tawmging	a Zomi clan name; one writer adds <Tawmbing> in brackets beside 
 s43651		<tawm> with the linking ending <in>, placed after a verb to show that the subject does the action himself, on his own: {hanciam tawmin}, making the effort oneself	
 s43652	pick up/take up	<tawm>, pick up, with the linking ending <in>, followed by another verb: picking up and then	
 s43653	few/little	<tawm>, few, with the linking ending <in>: being few; {tawm tawmin} is little by little	
-s43654	a few/a little/some	a small number or amount, placed after the noun: {ni tawmkha}, a few days	
+s43654	a few/a little/some/few	a small number or amount, placed after the noun: {ni tawmkha}, a few days	
 s43655	sparingly/little	in a small amount or degree	
 s43656	a little/a few/some	<tawm>, few, with <khat>, one: a small amount or number, some of a thing; {tawmkhat sung} is for a little while	
 s43657	a few/few	<tawmkha> a few with the plural <te>, placed after the noun: {mi tawmkhate}, a few people	
@@ -1636,7 +1636,7 @@ s43672	little/few	<tawmno> with the plural <te>; {tuuhon tawmnote}, little flock
 s43673	pick up at once	<tawm>, pick up, with <pah>, at once, written as one word: pick something up right away	
 s43674	fewest/smallest/least	<tawm>, few, with <pen>, most: the smallest in number	
 s43675	at least/at the minimum	{a tawmpen} before a number or an amount: not less than that, at least; the adjective sense compares things, this one sets a lower limit	
-s43676	decrease/reduce/make less	<tawm>, few, with the causative <sak>: make less; {a man tawmsak} is lower the price	
+s43676	decrease/reduce/make less/minimise	<tawm>, few, with the causative <sak>: make less; {a man tawmsak} is lower the price	
 s43677		placed after a verb that begins with <ki>: do the action to oneself, make oneself so, as {kisiangtho tawmsak}, consecrate oneself; <tawm> self with causative <sak>	
 s43678	let pick up/let glean	<tawm>, pick up, with <sak>, let or cause, and the linking <in>	
 s43679	become fewer/decrease/grow less	<tawm>, few, with <semsem>, more and more, written as one word: fewer and fewer, less and less	
@@ -1650,7 +1650,7 @@ s43686	decrease/become fewer/lessen	become smaller in number or amount than befo
 s43687	will decrease/will lessen	<tawmtuam> and <ding> written as one word: will become less or fewer	
 s43688	short while/short time/little while	<tawm>, few, with <vei>, time: a short stretch of time, used with <sung>, within, or <ciangin>, after	
 s43689	for a short while/within a short time/briefly	<tawmvei>, a short while, with <sung>, within, written as one word: for a short time; {tawmveisung in} is in a short time, quickly	
-s43690	less/fewer/smaller/scarcer	<tawm>, few, with <zaw>, more: fewer, less; <sangin> marks what it is compared with	
+s43690	less/fewer/smaller/scarcer/lesser	<tawm>, few, with <zaw>, more: fewer, less; <sangin> marks what it is compared with	
 s43691	will be less/will be fewer	<tawmzaw>, less, with <ding>, will, written as one word: will be less or smaller	
 s43692	less/fewer/lower	<tawm>, little, and <zawk>, more, written as one word; the form of <tawmzaw> used before <nadingin> and <leh>: be less, become lower	
 s43693	not less/no fewer	<tawmzaw> and <lo> written as one word: not fewer, not less; after a number with <sang> or <sanga> it means no fewer than, at least	
@@ -1704,7 +1704,7 @@ s43740		<tawntung>, always, with plural <te>; after a verb, those who always do 
 s43741	throughout/for all	<tawntung>, throughout, with the plural ending <un>, used when several people are addressed; {na khang tawntungun} is throughout your generations	
 s43742	throughout/all through	<tawn>, along, with the ending <un> used of several people; in {khan tawnun}, all through life, as long as one lives	
 s43743	forever/always	in {a nungta tawnung mipa}, the one who lives forever, the Ancient of Days; possibly the word <tawntung>	
-s43744	end/stop/finish/cease	come to an end or bring to an end: a boundary ends at a place, a person stops doing something, a storm stops	
+s43744	end/stop/finish/cease/desist	come to an end or bring to an end: a boundary ends at a place, a person stops doing something, a storm stops	
 s43745	last/final	coming at the end, after all the others; {Ni tawp Ni} is the last day	
 s43746	kiss	touch with the lips in love or greeting	
 s43747	utmost/best/limit	the furthest point of what can be done, after <theih> or <hihtheih>; {a hihtheih tawp} is the best one can do and {a hoih theih tawp in} is as well as it can	
@@ -1720,13 +1720,13 @@ s43756	end/conclusion/last	the very end of a matter; {a tawpkhakna-ah}, at last,
 s43757	fall away/turn back/give up again	<tawp> stop with <kik> back: give up the faith after having begun in it	
 s43758	fall away at once/give up quickly	<tawp>, stop, with <kik>, back, and <pah>, immediately	
 s43759	ceasing/coming to an end	<tawp>, stop, with <lam>: the fact of having stopped; {ta neih a tawplam}, that she had stopped bearing children	
-s43760	end/last	<tawp>, end, with the noun suffix <na>: the point where something finishes; {a tawpna ah} is in the end, finally	
+s43760	end/last/cessation/stop	<tawp>, end, with the noun suffix <na>: the point where something finishes; {a tawpna ah} is in the end, finally	
 s43761	full stop/period	punctuation mark, the end: the full stop that closes a sentence	
 s43762	end/last	<tawpna>, end, written with a capital as a title of God, the End, beside <Kipatna>, the Beginning	
 s43763	finally/in the end/at last	<tawpna>, end, and <ah>, at: with <a> before it, {a tawpna ah}, at its end, begins a sentence and means in the end, finally	
 s43764	last day/closing date/deadline	<tawp> with <ni>: the last day of something, also the closing date for a list or registration; {ni tawpni} is the last of days	
-s43765	stop/bring to an end/dismiss	<tawp>, stop, with <sak>, cause: make work stop, or put someone out of his work	
-s43766	give up/quit/abandon/stop	<tawp>, stop, with the ending {-san}, leaving behind: stop doing something and leave it, give up a work, a habit or an effort	
+s43765	stop/bring to an end/dismiss/terminate	<tawp>, stop, with <sak>, cause: make work stop, or put someone out of his work	
+s43766	give up/quit/abandon/stop/cease/relinquish	<tawp>, stop, with the ending {-san}, leaving behind: stop doing something and leave it, give up a work, a habit or an effort	
 s43767	have ceased/have stopped/be over	<tawp> end with <ta>, marking a change that has now taken place	
 s43768	end completely/come to a full end	<tawp>, end, and <taktak>, really, written as one word: come to a real and final end, as a sentence that is finished	
 s43769	kiss	<tawp>, kiss, said twice: kiss again and again	
@@ -1824,7 +1824,7 @@ s43862	to choose/will choose	<teel>, choose, and <ding>, will or to, written as 
 s43863		name of one of the three voices of the <phiit> pipes, listed after <aw lai>, the middle voice, and <hual>; which pitch it is the page does not say	
 s43864	worth choosing/to be chosen/preferable	<teel>, choose, with the suffix <huai>, worthy of: that should be chosen, a good choice	
 s43865	choose/select	<teel> with the linking suffix <in>, choosing and then	
-s43866	choose/select/set apart	<teel>, choose, with <khia>, out: pick out from among others and set apart	
+s43866	choose/select/set apart/handpick	<teel>, choose, with <khia>, out: pick out from among others and set apart	
 s43867	will be selected/to be chosen	<teelkhia> and <ding> written as one word, mostly after <aki>: that will be picked out, that are to be selected	
 s43868	choose wrongly/make the wrong choice	<teel>, choose, and <khial>, wrongly, written as one word	
 s43869	choose wrongly/make a wrong choice	<teel>, choose, and <khialh>, wrongly, written as one word	
@@ -1873,11 +1873,11 @@ s43911	dwell/live/reside	form of <teng> written with an apostrophe before a suff
 s43912	clothing/clothes	only in the pair {silh le teen} or {silh leh teen}, what is put on and what is wrapped round the body: clothing as a whole, with <silh>, wear; not {teen}, dwell	
 s43913	marrying/living together with	<teen>, form of <teng>, dwell, with <pih>, together with, and the noun suffix <na>; of taking foreign women as wives	
 s43915	teenager	a young person of about thirteen to nineteen years, mostly added as an English word beside a Zolai description	
-s43916	dwell/live/settle/inhabit	live in a place, make one’s home there; a spelling of <teng> with a long vowel	
+s43916	dwell/live/settle/inhabit/abide/reside	live in a place, make one’s home there; a spelling of <teng> with a long vowel	
 s43917	live permanently/stay settled/dwell	<teeng>, dwell, with <cip>, fast, written as one word: live in a place without leaving it	
 s43918	dwell/live/settle	<teeng> with the ending <in>, which links it to the following verb: dwelling, living there and	
 s43919	wear/put on	<teeng>, wear a garment on the lower body such as trousers or a skirt, with the linking ending <in>: wearing; not <teeng>, dwell, which follows a place with <ah> or <sungah>	
-s43920	live together/live with/dwell with	<teeng>, live, with <khawm>, together: live in the same place as someone; <tawh> marks the companion	
+s43920	live together/live with/dwell with/cohabit	<teeng>, live, with <khawm>, together: live in the same place as someone; <tawh> marks the companion	
 s43921	not wear on the lower body/wear nothing below	<teeng> and <lo>, not, written as one word and set beside <silhlo>, not wearing on the upper body; <teeng> is here wear a garment round the waist, not dwell	
 s43922	inhabitants/residents/dwellers	<teeng>, live, with <mi>, person, and the plural <te>: the people who live in a place	
 s43923	dweller/he who dwells	<teeng> dwell with <pa>, marking a man: the one who lives in a place; in both verses said of God	
@@ -1886,8 +1886,8 @@ s43925	inhabitants/those who were living	<teeng>, dwell, with <sa>, already, and
 s43926	playing house/make-believe play	the play of children who pretend to keep house; {teengta van} is a toy or plaything	
 s43927	now live/have settled	<teeng> and <ta> written as one word: now live, have come to live in a place	
 s43928	inhabitants/dwellers/those who live	<teeng>, live, with the plural <te>: the people living in a place	
-s43929	dwelling/dwelling place/home	<teen>, dwell, with the noun suffix <na>: the place where someone lives; {teenna mun} is a dwelling place	
-s43930	house/dwelling/residence/home	<teenna>, dwelling, and <inn>, house: a house that people live in, as against a church, a school or a shop; usual in reports that count the buildings damaged, with the owners before it, {mipi teenna inn}, the homes of civilians, and the number after it	
+s43929	dwelling/dwelling place/home/abode/domicile/residence	<teen>, dwell, with the noun suffix <na>: the place where someone lives; {teenna mun} is a dwelling place	
+s43930	house/dwelling/residence/home/abode	<teenna>, dwelling, and <inn>, house: a house that people live in, as against a church, a school or a shop; usual in reports that count the buildings damaged, with the owners before it, {mipi teenna inn}, the homes of civilians, and the number after it	
 s43931	place to live/for living in/housing	<teenna>, dwelling, and <ding>, for, written as one word: for living in, or a place to live; {teennading inn} is a house to live in	
 s43932	marry/take as wife	<teen>, live, with <pih>, together with: take a woman to live with as wife	
 s43933	will marry	<teenpih>, marry or live with as spouse, and <ding>, will, written as one word: will marry, the one to be married	
@@ -1921,7 +1921,7 @@ s43963	weigh out/measure out	<teh>, measure, with <khia>, out: weigh out silver 
 s43964	those who weigh out	<tehkhia>, weigh out, with the plural <te>: the people who weigh out silver	
 s43965	measure again	<teh>, measure, with <kik>, again; of sounding the depth of water	
 s43966	trap/snare	a trap set to catch an animal or a person; often named together with <thangzak>, snare	
-s43967	measure/measuring tool/scales	<teh>, measure, with the noun suffix <na>: a thing used for measuring length, amount or weight; {tehna piciang} is a measuring rod and {tehna khau} a measuring line	
+s43967	measure/measuring tool/scales/scale	<teh>, measure, with the noun suffix <na>: a thing used for measuring length, amount or weight; {tehna piciang} is a measuring rod and {tehna khau} a measuring line	
 s43968	comparison	<teh> in the sense compare, with the noun suffix <na>: the comparing of one thing with another; {tawh tehna in} after a noun is compared with	
 s43969	measures/scales/balances	plural of <tehna>, a thing or standard for measuring length, weight or amount	
 s43970	young leaf/sprout/shoot/blade	<teh>, leaf, with <no>, young: the first new leaves of a plant	

@@ -18,7 +18,7 @@ s32015	disease prevention/immunity/protection against disease	<natna>, disease, 
 s32016	underlying disease/chronic illness/serious illness	<natna>, disease, and <gil>, belly, here the inside or core: a serious or lasting disease that a person carries, such as tuberculosis or cancer; {natna gil neite} are people with an underlying condition	
 s32017	dreadful disease/deadly disease/serious illness	<natna>, disease, and <gilo>, evil: a grave and feared disease such as cancer or an epidemic, not an evil in the moral sense	
 s32018	infection/spread of disease/transmission	<natna>, disease, and <kilawhna>, passing from one to another: the spread of a disease among people, or the number of cases of it; often after the name of the disease, as in {Covid-19 natna kilawhna}	
-s32019	germ/pathogen/virus/microbe	<natna>, disease, and <lungno>, worm: the tiny living thing that causes a disease, a germ, virus or bacterium; {natna lungno ngah} is to be infected	
+s32019	germ/pathogen/virus/microbe/bacillus	<natna>, disease, and <lungno>, worm: the tiny living thing that causes a disease, a germ, virus or bacterium; {natna lungno ngah} is to be infected	
 s32020	germs/pathogens/disease germs	<natna>, disease, and <lungnote>, small worms: the microbes that cause disease, such as bacteria and viruses	
 s32021	be infected/catch a disease/fall ill	<natna>, disease, and <ngah>, get: catch a disease, be infected; {natna ngah mi} are the infected persons, the cases counted in a report	
 s32022	sickness/illness/affliction	<natna>, sickness, with the rhyming <satna>: a paired expression for sickness and bodily suffering of every kind; used like a single noun, often beside <haksatna>, hardship	
@@ -79,7 +79,7 @@ s32078	have a baby/bear a child	<nau>, baby, with <nei>, have, written as one wo
 s32079	have a child/bear a child	<nau>, child, and <neih>, have, written as one word; {nauneih theih nading} is in order to be able to have a child	
 s32080	small child/little one/infant	<nau>, child, with <nen>, small: very young children, named after <naupang> or with <nupi>, women	
 s32081	Nawnghkio/Naungcho	town in the north of Shan State, Myanmar, on the road from Mandalay to Lashio	
-s32082	baby/infant/child	a baby or very young child, born or unborn; another spelling of <naungek>	
+s32082	baby/infant/child/babe	a baby or very young child, born or unborn; another spelling of <naungek>	
 s32083	infants/babies/newborn children	plural of <naungeek>, baby	
 s32084	baby/infant	a baby or very young child; {nawi ne naungek} is a baby still at the breast	
 s32085	newborn baby/newborn	<naungek>, baby, and <suakthak>, newly born: a baby just born, the term used in news and in registration matters	
@@ -117,7 +117,7 @@ s32117	still a child/still young	<naupang>, child, and <lai>, here still, writte
 s32118	child swing/baby swing	<naupang>, child, and <luai>, cradle, written as one word: a hanging seat in which a small child is swung, said of a toddler swing sold by a toy company	
 s32119	small child/little boy/youth	<naupang> child with <neu> small	
 s32120	infant/baby/small child	<naupang>, child, with <ngek>, tiny and tender, written as one word: a very young child, a newborn	
-s32121	little child/small child/young child	<naupang> child with <no> small, young	
+s32121	little child/small child/young child/kid	<naupang> child with <no> small, young	
 s32122	little children/young children/boys	plural of <naupangno>, little child	
 s32123	girl/little girl	<naupang>, child, with the female ending {-nu}: a girl child	
 s32124	boy/lad	<naupang> child with <pa>, male: a boy, here a young servant	
@@ -132,7 +132,7 @@ s32132	Nauru	small island country in the Pacific Ocean
 s32133	next younger brother	<nau>, younger sibling, with <sawn>, in turn: the brother next in age	
 s32134	miscarry	<nau> child with <sia> be spoiled: lose a child before birth; also of the woman to whom it happens	
 s32135	give birth/bear a child	<nau>, child, with <suah>, bring out: give birth; also names childbirth, as in {nausuah natna}, birth pains, and {nausuah hun}, the time of delivery	
-s32136	childbirth/childbearing/delivery	<nausuah> give birth with the noun suffix <na>; {nausuahna tutphah} is the delivery stool	
+s32136	childbirth/childbearing/delivery/birth	<nausuah> give birth with the noun suffix <na>; {nausuahna tutphah} is the delivery stool	
 s32137	labour/labor	the labour of a woman giving birth; {numei nausuak} is a woman in labour	
 s32138	childbirth		
 s32139	give birth/deliver	{nausuak} used as a verb: bear a child, with the mother as subject and often a place before it, as in {lamzikpi tungah nausuak}, give birth on the road	
@@ -210,7 +210,7 @@ s32213	milk	milk as a drink, from <nawi>, milk or breast, with <tui>, liquid; in
 s32214	milk powder/powdered milk/infant formula	<nawi>, milk, and <vui>, powder, written as one word: dried milk that is mixed with water, given to a baby in place of mother's milk	
 s32215	milk	milk of a mother or an animal, as what the breast gives and as food; also a picture of simple teaching for new believers	
 s32216	collide/strike/rush against	strike or rush against something with force, as flood water against a house	
-s32217	bump/bang	knock or strike against someone or something	
+s32217	bump/bang/knock	knock or strike against someone or something	
 s32218	face/go through/confront	meet and go through something hard or important that lies ahead, such as a trial, a challenge, an election or a battle front; {nawk zo} is to get through it	
 s32219	will hit/will strike	<nawk> strike or rush against and the future marker <ding> written as one word: will hit, said mostly of a storm reaching a place	
 s32220	batter/beat against/lash/sweep over	<nawk>, strike against, with <gawp>, violently: said of wind, flood, terror and anger that beat on someone or something	
@@ -250,7 +250,7 @@ s32253	edge/border/outskirts	the outer edge of a place or the area just outside 
 s32254	outside/outskirts/edge	<nawl>, edge or outskirts, with the ending <a>, at	
 s32255	outside/at the edge of/beyond	<nawl> edge with the place marker <ah>, at the edge or outside of a place	
 s32257	edge/edges	the outer edge of the beard, {khamul nawlhui}; from <nawl> edge	
-s32259	reject/refuse/turn away from	push aside a person or his word and have nothing more to do with him	
+s32259	reject/refuse/turn away from/set aside	push aside a person or his word and have nothing more to do with him	
 s32260	reject/let go/set aside	<nawlkhin>, reject, with the ending <in> that links to the next verb	
 s32261	rejection/exclusion	<nawlkhin>, reject, with the noun suffix <na>: the act of pushing a person aside, or the state of being pushed aside by others	
 s32262	way of rejecting/way of setting aside	<nawlkhin>, reject, with <zia> manner	
@@ -273,10 +273,10 @@ s32280	trouble/bother/hindrance	not a marsh: with <kai> it is the two-word spell
 s32281	troublesome/tangled/complicated	in disorder and causing trouble; {nawngkaai sak} is to trouble or disturb someone	
 s32282	be troubled/be disturbed/be hindered	{nawngkai sa} is feel disturbed or annoyed; {nawngkai sak} is to trouble, stir up or hinder	
 s32283	be badly disrupted/be thrown into turmoil	<nawngkai>, be disturbed, and <gawp>, severely, written as one word: be badly disturbed, or a serious disturbance	
-s32284	hindrance/disturbance/trouble	<nawngkai> be troubled or hindered with the noun suffix <na>	
+s32284	hindrance/disturbance/trouble/complication/nuisance	<nawngkai> be troubled or hindered with the noun suffix <na>	
 s32285	exception	a case that does not follow the rule, said of the sounds and spelling of a language; the book gives the English word exception for it	
 s32286	be annoyed/feel troubled	<nawngkai>, be troubled, with <sa> feel	
-s32287	trouble/bother/disturb/hinder	cause trouble or difficulty to someone: <nawngkai> with the causative <sak>	
+s32287	trouble/bother/disturb/hinder/badger	cause trouble or difficulty to someone: <nawngkai> with the causative <sak>	
 s32288	will trouble/will disturb	<nawngkaisak>, cause trouble to, and <ding> written as one word: will trouble or inconvenience, intending to disturb	
 s32289	trouble/hinder/put obstacles before	<nawngkaisak>, trouble or hinder, with the ending <in> that links to the next verb	
 s32290	harassment/disturbance/molestation/trouble	<nawngkaisak>, trouble or disturb, with the noun suffix <na>: the act of troubling or harassing someone, also used of an offence in law	
@@ -308,12 +308,12 @@ s32317	brush/scrub/polish	rub a surface to make it clean or bright, as {ha nawt}
 s32318	Nawt		
 s32319	treat violently/assault/mistreat	<nawt>, push or thrust, with <gawp>, violently, and the ending <in>	
 s32320	onward/forward/pressing on	<nawt>, push on, with the linking ending <in>; {mai nawtin pai} is go forward	
-s32321	push out/drive out/thrust out/depose	<nawt>, push, with <khia>, out	
+s32321	push out/drive out/thrust out/depose/cast out/expel	<nawt>, push, with <khia>, out	
 s32322	wear away/wash away	<nawt>, rub or wear, with <khiat>, form of <khia> out, used before <bangin> and other following words	
 s32323	wiper/brush/wiping	<nawt>, rub or wipe, with the noun suffix {-na}: the wiping or brushing of something, or the thing used for it; {ha nawtna} is a toothbrush or brushing the teeth, {puan nawtna} a cloth for wiping	
 s32324	pushing ahead/advance	in {mai nawtna}, pressing forward, going on ahead	
 s32325	advance further/cause to advance more	<nawt>, press forward, with the causative <sak> and <zaw> more; {mai nawtsakzaw}, make something go forward all the more	
-s32326	rub clean/scrub/brush/polish	<nawt>, rub, with <siang>, clean: rub or brush a thing until it is clean; {ha nawtsiang} is brush the teeth	
+s32326	rub clean/scrub/brush/polish/scour	<nawt>, rub, with <siang>, clean: rub or brush a thing until it is clean; {ha nawtsiang} is brush the teeth	
 s32327	press on/go right through/march on	<nawt> push forward with <suak> through to the end; {mai nawtsuak} is march on	
 s32328	press on/go right on	<nawtsuak>, press on to the end, with the ending <in> that links to the next verb	
 s32329	sweep down/push down into	<nawt> push forward with <suk> downward: of flood water, press on down into a land	
@@ -346,7 +346,7 @@ s32356	you follow/you keep	<na>, you, and <zui>, follow or keep, written as one 
 s32357	NBC	an American television network and its news service, named as a source of news	
 s32359	Nationwide Ceasefire Agreement/NCA	the ceasefire agreement between the government of Myanmar and ethnic armed groups, written with its English initials	
 s32360	Nationwide Ceasefire Agreement/NCA	<NCA>, the English initials, and <thukimna>, agreement: the Nationwide Ceasefire Agreement between the government of Myanmar and ethnic armed groups; one signs it, <suaikai>, or takes part in it, <kihel>	
-s32361	eat	take food; {an ne} is eat a meal; the form <nek> or <neek> is used before <ding>, <theih> and <nading>	
+s32361	eat/consume	take food; {an ne} is eat a meal; the form <nek> or <neek> is used before <ding>, <theih> and <nading>	
 s32362	Neiel	first part of {Ne-i-el}, Neiel, a town on the border of the territory of Asher	
 s32363	Neah	place on the border of the territory of Zebulun	
 s32364	Neapolis	seaport in Macedonia where Paul landed on his way to Philippi	
@@ -386,7 +386,7 @@ s32398	too delicate/very tender	<neel>, smooth or soft, with <lua> too much; {a 
 s32399	smoothness	<neel> smooth with the noun suffix <na>; {a neelna mun} is the smooth part, the place where it is smooth	
 s32400	make smooth/make level	<neel> smooth with the causative <sak>	
 s32401	fine	<neel>, fine, with the plural <te>; {an neelte} is fine flour	
-s32402	soft/gentle/weak	not hard or strong: {tha neem} is become weak, {kam neem} a gentle word, {mit-hah neem} weak eyes	
+s32402	soft/gentle/weak/limp/mild	not hard or strong: {tha neem} is become weak, {kam neem} a gentle word, {mit-hah neem} weak eyes	
 s32403	weakness/softness/gentleness	<neem>, soft or weak, with the noun suffix <na>; {tha neemna} is weakness, a weak point, set against {tha hatna}, strength	
 s32404	fine/minute/in small pieces	very small or fine, of pieces into which something is cut or ground; placed after a verb it says that the action is done finely or thoroughly	
 s32405	to/beside/with	poetic word for <kiangah>, used in songs; not the adjective fine	
@@ -418,7 +418,7 @@ s32430	tearful/moved to tears/tender-hearted	easily moved to tears, soft of hear
 s32431	nearest	seen once of the part of a gateway on the temple side; apparently <neh>, be close, with <pen> most and the ending <a>	
 s32432	lean against/lean over to	<neh>, come close, with <phei> sideways	
 s32433	approach/go up to/come up to	move over to a person or thing and come close beside it, often after <gei> or <lam> and before speaking or acting; the body does not lean on anything	
-s32434	sneer at/scorn/belittle	treat someone with contempt, said along with laughing at and rejecting them; also with <san>, as in <nehpiksan>	
+s32434	sneer at/scorn/belittle/jeer	treat someone with contempt, said along with laughing at and rejecting them; also with <san>, as in <nehpiksan>	
 s32435	sneer at/scorn/despise	purse the lips at someone in contempt, from <neh>, lip, and {piksan}, purse: sneer at, treat with scorn	
 s32436	draw near/close in on	<neh>, come close or press upon, with <ta>, now	
 s32437	confront/come against/attack	<neh>, press upon, with <thawh>, rise	
@@ -486,7 +486,7 @@ s32500	lack/not having/absence	<neih> and <lohna> written as one word: the state
 s32501	Neihluut		
 s32502	before having/before holding	<neih>, have or hold, and <ma>, before, written as one word and mostly followed by <in>: before one has, makes or holds the thing named	
 s32503	because of having	<neih>, have, and <man>, because, written as one word: because one has, on account of having	
-s32504	having/possession	the act or state of having; {thu neihna} is a lawsuit or dispute	
+s32504	having/possession/ownership	the act or state of having; {thu neihna} is a lawsuit or dispute	
 s32505	possessive	grammar term: possessive, of a word that shows whose a thing is, as in <neihna mintaang>, possessive pronoun	
 s32506	possessive case/possessive	<neihna>, having, with <lak>, show: the grammar term for the form of a noun that shows the owner, written with an apostrophe as in {pasalno' laibu}, the boy's book	
 s32507	possessive pronoun	a word that shows the owner and stands in place of the noun, as <kei a>, <nanga>, <ei a> and <amau a>; set beside <neihna lak pianzia>	
@@ -501,7 +501,7 @@ s32515	have had/have held before	<neih>, have or hold, and <ngei>, ever, written
 s32516	held before/had before	<neih>, hold or have, with <ngeisa>, formerly, written as one word: that has been held or had before; {i neihngeisa mah bang in} is just as we have held it before	
 s32517	hold with/have with/conduct for	<neih>, have, and <pih>, together with, written as one word: hold a meeting, a talk or a service together with someone or for someone	
 s32518	hold with/conduct for	<neihpih> and <in> written as one word: holding a prayer, a meeting or a talk together with or for someone, and so	
-s32519	property/possessions/wealth	what a person owns	
+s32519	property/possessions/wealth/belongings/estate	what a person owns	
 s32520	apostrophe	punctuation mark, the apostrophe, named for its use as the mark of possession, from <neihsa>, what is owned; the same mark is called <tanglak>; page 88 prints {neihsa la}, the later lesson and the word list {neihsa lak}	
 s32521	apostrophe	the punctuation mark ' that shows possession, also called <tanglak>	
 s32522	possessive pronoun	the grammar term for the pronoun that names the thing owned: <kei a>, <nang a>, <ei a>, <amau a>, mine, yours, ours, theirs	
@@ -721,7 +721,7 @@ s32735	soften/make gentle/weaken	<nem>, soft, with the causative <sak>: make sof
 s32736	Nemuel	name of two men: a son of Simeon, ancestor of the Nemuelite clan, and a Reubenite, son of Eliab and brother of Dathan and Abiram	
 s32737	into pieces/small/fine	into small pieces, after a verb of cutting, striking or breaking, as {sem nen}, {at nen} and {sat nen}	
 s32738	press down/crush	first part of {nen’niam} oppress and {nen’niamna} oppression	
-s32739	weigh down/press down/overwhelm	<nen> press down, with <cip> tightly: bear down heavily on someone, said of sin and wickedness	
+s32739	weigh down/press down/overwhelm/oppress	<nen> press down, with <cip> tightly: bear down heavily on someone, said of sin and wickedness	
 s32740	pin down/crush/press down/trap under	press a person or thing down with real weight so that it cannot move, as a vehicle or a load does in an accident; {ki nencip} is be pinned or trapped under, where the other sense is the weight of sin or wickedness	
 s32741	keep eating/eat again and again/devour	<ne>, eat or drink, said twice for repeated or continued action: eat or drink again and again, eat as a habit, or go on devouring	
 s32742	drinkers/drunkards	<nene> keep eating or drinking, with the plural <te>: those who drink habitually; {zu nenete} is drunkards	
@@ -822,10 +822,10 @@ s32836	small/little/tiny	<neu>, small, with the diminutive <no>: small or slight
 s32837	one who is small/man of little	<neu>, small, with the male suffix <pa>: a man who is small in something; {upna neupa} is a man of little faith	
 s32838	smallest/least/youngest	<neu>, small, with <pen>, most: the smallest of all, the least in rank, or the youngest	
 s32839	the smallest/the least/the lowliest	<neupen>, smallest, with the plural <te>: those who are smallest or lowest of all, whether people or things	
-s32840	make small/humble/bring low	<neu>, small, with the causative <sak>: make small in number, or bring low in standing	
+s32840	make small/humble/bring low/belittle	<neu>, small, with the causative <sak>: make small in number, or bring low in standing	
 s32841	belittle/look down on/make small	treat a person, a people or oneself as small and of little worth	
 s32842	making smaller	reducing the size of something, here a measure for grain, with the linking suffix <in>	
-s32843	belittle/make small/underrate/narrow down	treat a person or thing as small or of little worth, or narrow the reach of a name or idea; with <ki> belittle oneself; compare <neusak>	
+s32843	belittle/make small/underrate/narrow down/minimise	treat a person or thing as small or of little worth, or narrow the reach of a name or idea; with <ki> belittle oneself; compare <neusak>	
 s32844	become small/be brought low	<neu>, small, with <ta>, marking a change of state: become small, be brought low from a high standing	
 s32845	small/little	<neu>, small, with the plural <te>, said of several things: {khua neute} are villages, {ta neute} little children, {thu neute} small matters	
 s32846	smaller upward/narrowing	<neu> small with <to> upward, becoming smaller level by level going up	
@@ -860,7 +860,7 @@ s32876	fishing/catching fish	<nga>, fish, with <bet>, hunt: catching fish, a fis
 s32877	canned fish/tinned fish	fish, <nga>, sold in a tin	
 s32878	Ngadet		
 s32879	Ngafu		
-s32880	receive/get/obtain	come to have something that is given or gained, such as a blessing, an inheritance, wages or favour	
+s32880	receive/get/obtain/acquire/attain/gain	come to have something that is given or gained, such as a blessing, an inheritance, wages or favour	
 s32881	receive and/get and	<ngah>, receive or get, and the linking <a>, and, written as one word: having received, got and then	
 s32882	get easily/get quickly/be prone to	<ngah>, get, and <baih>, easy or soon, written as one word: get something easily or quickly, said often of a disease and also of a job	
 s32883	receive as well/gain in addition	<ngah> receive with <beh> in addition	
@@ -882,7 +882,7 @@ s32898	happen to get/catch/come to have	<ngah>, get, with the particle <kha>, ha
 s32899	happen to get/incur	<ngah>, get, with <khak>, by chance: come to get something unwanted; with {loh nading}, so as not to incur	
 s32900	will happen to get/may get	<ngahkhak>, happen to get, and <ding>, the marker of what is to come, written as one word: will or may come to get something, wanted or unwanted, such as a job or a disease	
 s32901	receive together/share in/receive along with	<ngah>, receive, with <khawm>, together: receive along with others, share in what they receive	
-s32902	obtain/win/gain/capture	<ngah>, get, with <khia>, out: get something out of an effort or from another, such as a prize, an office, freedom or weapons taken in battle	
+s32902	obtain/win/gain/capture/achieve	<ngah>, get, with <khia>, out: get something out of an effort or from another, such as a prize, an office, freedom or weapons taken in battle	
 s32903	obtain/win/capture	form of <ngahkhia> used before words such as <ding>, <nading> and <kuan>	
 s32904	have received/have already received	<ngah>, receive, with <khin>, already done	
 s32905	have already received/have already got	<ngah>, receive or get, and <khinta>, already done, written as one word; with <ki>, has already been received or is already available	
@@ -910,7 +910,7 @@ s32926	recipient/one who has got	<ngah> and <mi> written as one word: the person
 s32927	ford/crossing	a shallow place where a river is crossed on foot, as on the Jordan, the Jabbok and the Arnon	
 s32928	at the ford/at the crossing	<ngahmun> ford with the place marker <ah>	
 s32929	fords/crossings	<ngahmun>, ford, with the plural <te>; with <ah> it means at the fords	
-s32930	gain/getting/obtaining	<ngah>, get, with the noun suffix <na>: the getting of something or the means of getting it; {thuman lo-a ngahna} is ill-gotten gain and {pahtak ngahna} is a way to honour	
+s32930	gain/getting/obtaining/acquisition/receipt	<ngah>, get, with the noun suffix <na>: the getting of something or the means of getting it; {thuman lo-a ngahna} is ill-gotten gain and {pahtak ngahna} is a way to honour	
 s32931	in order to get/for getting	<ngah>, get, and <nading>, in order to, written as one word: for getting, so as to obtain	
 s32932	have yet got/have yet received	<ngah>, get, with <nai>, yet, written as one word and followed by <lo>: {ngahnai lo} is not yet got, not yet received	
 s32933	not yet receive/not yet get	<ngah>, get, and <nailo>, not yet, written as one word: have not yet received or obtained	
@@ -928,7 +928,7 @@ s32944	the getting/what is received	<ngah>, get, and the topic marker <pen> writ
 s32945	even if one gets	<ngah> and <phial> written as one word: even if one gets or obtains it, followed by <zongin>	
 s32946	obtain for/win for/gain for	<ngah>, get, with <pih>, for or with someone: get something for a person or a group, bring it to them	
 s32947	received/obtained/acquired	<ngah>, receive, with <sa>, already done: what has been received or gained; it stands before a noun, or alone after a possessor	
-s32948	cause to receive/bring/grant/give	<ngah>, receive, with the causative <sak>: make someone get or have something, whether good or bad	
+s32948	cause to receive/bring/grant/give/award/bestow/confer	<ngah>, receive, with the causative <sak>: make someone get or have something, whether good or bad	
 s32949	causing to receive/inflicting	<ngahsak> cause to receive with the linking suffix <in>; {gim ngahsakin}, making someone suffer	
 s32950	be able to give/enable to receive	<ngahsak> cause to receive with <thei> be able	
 s32951	manage to get for	<ngahsak> cause to receive with <zo> be able, succeed in getting something for someone	
@@ -937,7 +937,7 @@ s32953	try to get/seek to obtain/aim to win	<ngah>, get, with <sawm>, intend: se
 s32954	receive in turn/receive a share from	<ngah> receive with <sawn> onward, receive out of what another has received	
 s32955	whenever one gets/every time one has	<ngah>, get, and <sim>, every time, as in <simin>, written as one word and followed by <in>: each time one gets something, mostly in {hun ngahsim in}, whenever there is time	
 s32957	those gained/converts	the ones who have been won, from <ngah> get, with plural <te>	
-s32960	received	<ngah>, receive, with <ta>, marking that the action has now taken place	
+s32960	received/acquired	<ngah>, receive, with <ta>, marking that the action has now taken place	
 s32961	will get/will now receive/be available	<ngah>, get, and <tading> written as one word: will now get; with <ki>, will now be obtainable	
 s32962	get by oneself	<ngah> get with <tawm> by oneself, without the help of another	
 s32963	those who receive/recipients	<ngah>, receive, with the plural <te>: the people who receive or have something; {gupna ngahte} are those who are saved	
@@ -1006,7 +1006,7 @@ s33026	loveliest/most beloved	<ngaih>, dear or lovely, with <pen>, most, and plu
 s33027	love along with/be in love with	<ngaih>, love, with <pih>, together with: love someone as one of one’s own; {ki ngaihpih} is the one a person is in love with	
 s33028	listen attentively/listen to/pay attention to	<ngaih>, a form of <ngai>, listen, with <sak>: listen carefully to what someone says	
 s33029	raise the voice/make loud	<ngaih.3>, loud, with <sak>: make the voice loud, after <aw>, voice; not the listening of the other sense	
-s33030	think/consider/think about	use the mind: think about something, consider it, or regard a person or thing in a certain way; {ngaihsun un} is the command to several people	
+s33030	think/consider/think about/cogitate/contemplate/deem	use the mind: think about something, consider it, or regard a person or thing in a certain way; {ngaihsun un} is the command to several people	
 s33031	thinking of/considering	<ngaihsun>, think, with the linking <a>: while thinking about something, or with someone in mind	
 s33032	thinking/considering/meaning/having in mind	<ngaihsun>, think, with the linking suffix <in>: having something in mind while doing the next action, or meaning something by what is said	
 s33033	think at the same time/hope meanwhile	<ngaihsun>, think, with <kawm>, while: think or hope something at the same time as doing something else	
@@ -1033,7 +1033,7 @@ s33054	think/suppose/have in mind	form of <ngaihsutkha>, happen to think, come t
 s33055	think again/think back on/reconsider	<ngaihsut>, think, with <kik>, again or back, written as one word: think a thing over again, or look back on it	
 s33056	not consider/not think/disregard	<ngaihsut> and <lo> written as one word, after a describing word: not think it so; {thupi ngaihsutlo} is not consider it important	
 s33057	not think/not consider	<ngaihsut> and the negative <loh> written as one word: not think of, not consider; {ngaihsutloh kaalin} is while one is not thinking of it, unnoticed	
-s33058	idea/thought	<ngaihsut>, think, with the noun suffix <na>: what a person thinks, a thought or idea	
+s33058	idea/thought/conception/notion/thinking/view	<ngaihsut>, think, with the noun suffix <na>: what a person thinks, a thought or idea	
 s33059	plan/purpose/counsel	<ngaihsut>, think, with the noun suffix <na>: what has been thought out, a plan or purpose; also the advice that one gives	
 s33060	mind/intellect/thinking brain	<ngaihsutna>, thought, and <khuak>, brain: the brain as the seat of thinking, the mind or intellect; with <nei> also the idea for something	
 s33061	thoughts/plans	plural of <ngaihsutna>: thoughts or plans, of God or of people	
@@ -1085,7 +1085,7 @@ s33110	fall in love at once/take to at once	<ngai>, love, <thei>, can, and <pah>
 s33112	Ngaizam		
 s33113	love more/hold dearer/be more attached to	<ngai>, here love or long for, and <zaw>, more, written as one word: love someone or something more	
 s33114	obey/heed	<ngai>, listen, with <zo>, carry through: do what one was told; {thu ngaizo} is obey a word	
-s33115	wait/wait for/keep watch	wait for someone or something, or stay awake and keep watch	
+s33115	wait/wait for/keep watch/await/watch	wait for someone or something, or stay awake and keep watch	
 s33116	waiting for/awaiting	<ngak>, wait for, and the linking <a> written as one word: while waiting for, depending on; {lupna ngaka} is confined to bed	
 s33117	wait for/await	<ngak>, wait, and <bawl> written as one word: wait on purpose for something to happen or to pass	
 s33118	wait/keep watch/stand guard	<ngak>, wait, and <cip>, firmly, written as one word: wait without leaving, or stay on guard at a place	
@@ -1102,7 +1102,7 @@ s33128	will have to wait/must wait	<ngak>, wait, and <kulding>, will have to, wr
 s33129	long for/wait eagerly/be eager	wait for or want something with impatience, be eager for it; {an ngaklah} is be greedy for food	
 s33130	eagerly awaited/worth waiting for	<ngaklah>, wait eagerly, and <huai>, worthy of, written as one word: something one looks forward to or is eager to see	
 s33131	longing/yearning	<ngaklah>, long for, with the linking suffix <in>: longing, while longing	
-s33132	longing/eager waiting/impatience	<ngaklah>, wait eagerly, with the noun ending {-na}: eager or impatient waiting for something, also the complaint of one who is tired of waiting	
+s33132	longing/eager waiting/impatience/eagerness	<ngaklah>, wait eagerly, with the noun ending {-na}: eager or impatient waiting for something, also the complaint of one who is tired of waiting	
 s33133	still wait/wait longer/go on waiting	<ngak> wait, with <lai> still, any longer	
 s33134	be waiting for/be awaiting	<ngak>, wait, with <laitak>, at the very time, written as one word: at present still waiting; after <ki>, is now being awaited	
 s33135	semicolon	punctuation mark: the semicolon, a longer stop than <husanna>, the comma, and shorter than <ngakna>, the colon	
@@ -1216,7 +1216,7 @@ s33246	five times	<ngavei>, five times, written with a capital at the start of a
 s33247	fifth/fifth time	<ngavei>, five times, with the ordinal suffix <na>: the fifth time	
 s33248	at last/finally/just then	written twice, {ngaw ngaw} or {ngaw-ngaw}: at last, only then, after a wait or several attempts	
 s33249	neck	probably a spelling of <ngawng>, neck; {a ngawg kuaitan} is break its neck	
-s33250	hold accountable/blame/charge/accuse	lay the guilt for something on someone; {sihna sisan ngawh} is hold someone accountable for a death	
+s33250	hold accountable/blame/charge/accuse/impute	lay the guilt for something on someone; {sihna sisan ngawh} is hold someone accountable for a death	
 s33251	harshly/roughly/angrily	placed before or after a verb, harshly or in anger; {ngawh dawn} is answer harshly	
 s33252	accuse/blame	<ngawh>, accuse, with <bawl>, do: lay the blame on someone, often for something not proved	
 s33253	accusation/allegation/charge	<ngawh>, accuse, with <bawlna>, doing, written as one word: the act of accusing someone, or the accusation made	
@@ -1314,7 +1314,7 @@ s33351	confidently/as if certain	<ngel>, certainly, with the suffix <in>; {thei 
 s33352	plan/planning/design	what is planned or arranged in the mind; {ngaihsutna ngelna} is thoughts and plans	
 s33353	surely/certainly/most likely	<ngel> said twice, placed after a verb; with <ding> it says that something must surely be so	
 s33354	surely will/must surely	<ngelngel>, surely, and <ding>, will, written as one word after a verb: it must surely be so	
-s33355	ask for/request	ask someone to give something; the form <nget> is used in dependent clauses	
+s33355	ask for/request/appeal/ask/beg/entreat/implore	ask someone to give something; the form <nget> is used in dependent clauses	
 s33356	pray	pray, in the phrase {thu ngen}, literally ask a matter; {Topa tungah thu ngen} is pray to the Lord	
 s33357	net/fishing net	a net for catching fish, birds or animals; {ngen paai} is cast a net	
 s33358	to ask for/will ask for/will request	<ngen>, ask for, and <ding>, will, written as one word; {huhna ngending in} is in order to ask for help	
@@ -1352,7 +1352,7 @@ s33389	ask for/request/pray	form of <ngen>, ask for, used before <peuhmah>, <ban
 s33390	as requested/as asked	<nget>, ask for, and <bang>, like, written as one word: just as was asked, usually {a ngetbang}	
 s33391	ask further/request more/ask for an extension	<nget>, ask for, with the ending {-beh}, in addition, as in <behlap>: ask for something more, or ask again for more time	
 s33392	claim/request for return/appeal	<nget>, ask for, and <kikna>, back or again, written as one word: a request to get something back or to have a matter looked at again	
-s33393	request/petition	<nget>, ask, with the noun suffix <na>: what is asked for, a request made to a person or to God	
+s33393	request/petition/appeal	<nget>, ask, with the noun suffix <na>: what is asked for, a request made to a person or to God	
 s33394	application/petition/application form	<ngetna>, request, and <laipi>, formal letter: a written application or petition handed in to a body, as the application to be a delegate	
 s33395	make a request/petition/appeal/ask for	<ngetna>, a request, and <nei>, have: to make a request or an appeal; the thing asked for stands before the pair, often as a clause with <ding>, and the one asked takes <tungah> or <kiang>	
 s33396	requests/petitions/pleas	<ngetna> request, with the plural <te>	
@@ -1445,7 +1445,7 @@ s33488	patiently/longingly	placed after <ngak>, wait
 s33489	steadily/fixedly/unmoved	expressive word after a verb of staying in one state, such as <kip>, be firm, <tu>, sit, or <um>, believe: remaining so without moving or changing, where the sense of waiting is absent	
 s33490	white/bright white	white or shining bright, said of snow, wool, cloth, hair and cloud	
 s33491	NGO/non-governmental organisation	the English abbreviation, written in capitals as {NGO}: an aid or welfare organisation that is not part of a government, not the colour word	
-s33492		a named part of a slaughtered animal in the customary sharing of meat, counted as {ngoi kawnkhat} and {ngoi tumkhat}; when a pig is killed one lump of it is given in place of the full set of entrails; which part of the animal it is, is not stated on the page	
+s33492	colon	a named part of a slaughtered animal in the customary sharing of meat, counted as {ngoi kawnkhat} and {ngoi tumkhat}; when a pig is killed one lump of it is given in place of the full set of entrails; which part of the animal it is, is not stated on the page	
 s33493	fasting/going without	going without; in {an ngolhna}, going without food, fasting	
 s33494	deaf/dull	of the ear, unable to hear; {bil ngong} is deaf	
 s33495	harsh/violent/cruel	harsh and violent in dealing with people, in {ngong bawl}, treat harshly, and {ngong hihna}, violence	
@@ -1460,7 +1460,7 @@ s33503	to commit violence/to attack	<ngongtat>, do violence, and <ding> written 
 s33504	being violent/violently	<ngongtat>, be violent, with <in>, linking to what follows	
 s33505	be too violent/be very harsh/be cruel	<ngongtat>, be violent, and <lua>, too much, written as one word: act too harshly or cruelly	
 s33506	corruption		
-s33507	violence	<ngongtat>, be violent, with the noun suffix <na>: violent and cruel treatment of others	
+s33507	violence/brutality	<ngongtat>, be violent, with the noun suffix <na>: violent and cruel treatment of others	
 s33508	acts of violence/violent deeds/abuses	<ngongtatna> violence, with the plural <te>	
 s33509	want to do violence/be bent on violence	<ngongtat> and <nuam> written as one word: want to act with violence; {mi ngongtatnuam} is a person given to violence	
 s33510	violent man	<ngongtat> be violent, with <pa> marking a man	
@@ -1469,7 +1469,7 @@ s33512	terror plot/planned attack	the noun of <ngongtatsawm>: a plan or attempt 
 s33513	would-be attacker/man who plotted an attack	<ngongtatsawm>, plot an attack, and <pa> written as one word: the man who planned or attempted a violent attack	
 s33514	the violent/violent people/ruthless people	plural, used after <mi>; {mi ngongtatte} are people who act with violence	
 s33515	the deaf	<ngong>, deaf, with the plural <te>: those whose ears are deaf	
-s33517	whiten/make white	<ngo>, white, with the causative <sak>: make something white or fair, as the skin	
+s33517	whiten/make white/bleach	<ngo>, white, with the causative <sak>: make something white or fair, as the skin	
 s33518	rot/decay/be ruined	of cloth buried in the ground, become spoiled and useless	
 s33519	forceful/aggressive	the book gives it as the opposite of <duai>, patient and gentle: apparently forceful, pushing hard, quick to act	
 s33520	be completely ruined/rot away	<ngot>, rot, with <gawp>, thoroughly: be completely ruined and useless	
@@ -1504,7 +1504,7 @@ s33551	sun	the sun, written with a capital at the start of a sentence or in the 
 s33552	on the day	<ni>, day, with <in> shortened to {'n}; {tu ni'n} is today	
 s33553	on the day	<ni>, day, with the marker <in>, written with a hyphen; {tu ni-in} is today	
 s33554	hazily/murkily/in a muddle	placed after a verb: thick and unclear, of smoke that fills a place or of a dazed and muddled mind	
-s33555	deny/reject/refuse/dispute	say no to a person, a claim or a command: deny knowing someone, refuse to do something, or reject what is said or offered	
+s33555	deny/reject/refuse/dispute/disavow	say no to a person, a claim or a command: deny knowing someone, refuse to do something, or reject what is said or offered	
 s33556	keep denying/deny flatly	<nial>, deny, <cip>, firmly, and <den>, always, written as one word: go on denying a thing firmly	
 s33557	keep denying/always contradict	<nial>, deny or dispute, with <den>, always, written as one word: go on denying, or argue against something all the time	
 s33558	oppose utterly/reject outright	<nial> reject, with <gawp> thoroughly	
@@ -1515,7 +1515,7 @@ s33562	have denied/finish denying	<nial>, deny, with <khit>, finish; before <mat
 s33563	deny again	<nial>, deny, with <kik>, again	
 s33564	deny in reply/rebut/counter	<nial>, deny, with <kik> in its meaning back, in return: answer a charge or a report by denying it, mostly after <ci'n>, saying; it is a first denial given in reply, not a denial made a second time	
 s33565	not refuse/not object/accept	<nial> and <lo> written as one word: not refuse or contradict; {niallo in} is without objecting	
-s33566	refusal/denial/opposition/rejection	<nial>, refuse or deny, with the noun suffix <na>: the act of refusing, rejecting or opposing	
+s33566	refusal/denial/opposition/rejection/objection	<nial>, refuse or deny, with the noun suffix <na>: the act of refusing, rejecting or opposing	
 s33567	dare to dispute/talk back	<nial> dispute, with <ngam> dare	
 s33568	keep refusing/keep protesting/go on disputing	<nial> deny, refuse, dispute, said twice for continued action	
 s33569	want to dispute/be contentious	<nial> dispute, with <nuam> want to	
@@ -1625,7 +1625,7 @@ s33672	twice/as many as two times	<nihvei>, twice, with the emphatic <tak>, writ
 s33673	both/the two also	<nih> and <zong> written as one word, after a noun: both of them, the two as well	
 s33678	overcast/gloomy/dim	dull and dark, said of the sky or the day in <khua niim>; the same word as <nim>	
 s33679	on the day	<ni> day, with the marker <in>; usually written <ni-in>	
-s33680	dirty/filthy/unclean	a spelling of <nin>, dirty, with a long vowel, not the day word <ni-in>: of water, people or words, dirty; {kam niin} is foul language	
+s33680	dirty/filthy/unclean/mucky	a spelling of <nin>, dirty, with a long vowel, not the day word <ni-in>: of water, people or words, dirty; {kam niin} is foul language	
 s33681	dirt/filth/waste	{niin} as a noun: dirt and waste, what people throw away or pass from the body; {huih niin} is dirt in the air, pollution	
 s33682	stubble	dry stalks left in a field, which fire burns up quickly; also written <ninpa>; the build of the word is not clear	
 s33683	defile/desecrate/make unclean	make a holy place or thing unclean; a spelling of <ninsak> with a long vowel	
@@ -1676,7 +1676,7 @@ s33728	four days/fourth day	<ni>, day, and <li>, four, written together; in date
 s33729	the day itself/feast day	<ni>, day, and <lian>, great, written as one word after the name of a festival: the very day of the feast, as {Christmas nilian}, Christmas day itself	
 s33730	shadow/shade	the shadow or shade made when the sun is blocked, from <ni>, sun, and <liim>, shadow; also a picture of what passes quickly	
 s33731	shade/shadow	the shade or shadow made when the sun is blocked, also a picture of a life that passes quickly; a spelling of <niliim>	
-s33732	reject/cast out/throw away/remove	<nil>, throw, with <khia>, out: throw out or put away from oneself or from a place, and so reject a person	
+s33732	reject/cast out/throw away/remove/exclude	<nil>, throw, with <khia>, out: throw out or put away from oneself or from a place, and so reject a person	
 s33733	sweep away/cast away utterly	<nil>, throw, with <khia>, out, and <mang>, away and lost: sweep away completely	
 s33734	reject/cast out/throw away	form of <nilkhia> used before a noun or an ending: {a nilkhiat suang} is the stone that was rejected	
 s33735	continually/always/constantly	placed after a verb: keep on doing without ceasing, as {thungen niloh}, pray continually	
@@ -1698,7 +1698,7 @@ s33750	Nimrod	son of Cush, a mighty warrior and hunter who founded a kingdom in 
 s33751	Nimshi	father of Jehoshaphat and grandfather of Jehu king of Israel, who is often called son of Nimshi	
 s33752	dark black/jet black	of hair: deep black; taken from {A sam a nimvom hi} and from <vom>, black	
 s33753	Nimzawl		
-s33754	dirty/unclean	dirty, not clean; the opposite of <siang>, clean	
+s33754	dirty/unclean/foul/impure	dirty, not clean; the opposite of <siang>, clean	
 s33755	dirt/filth/impurity	dirt or uncleanness; {nin nei}, have uncleanness, is said of a woman in her monthly period	
 s33756	rubbish/garbage/waste/litter	things thrown away, household waste, rather than dirt on a surface; brought out by <paih>, throw away, and by {nindum}, a rubbish bin	
 s33757	Dung	<nin>, dirt or filth, written with a capital in the name {Nin Kongpi}, the Dung Gate of Jerusalem, and at the start of the cry {Nin, nin}, Unclean, unclean	
@@ -1749,11 +1749,11 @@ s33801	Saturday	the day of the week before <nipi>, Sunday, also {nino ni}; {Nipi
 s33802	rising sun/morning sun	<ni>, sun, with <no>, young: the sun that has just risen, as in {zing nino}, used as a picture of a new beginning; not a day of the week	
 s33803	unclean man/unclean person	<nin>, unclean, with <pa> marking a man	
 s33804	stubble	dry stalks that fire burns up; a spelling of <niinpa>	
-s33805	rubbish dump/garbage dump/rubbish bin	<nin>, dirt or rubbish, with <paihna>, the place of throwing: a place or container where rubbish is thrown away	
+s33805	rubbish dump/garbage dump/rubbish bin/dump	<nin>, dirt or rubbish, with <paihna>, the place of throwing: a place or container where rubbish is thrown away	
 s33806	ash heap/rubbish heap/dunghill	<nin>, dirt, with <phual>, place	
 s33807	rubbish carrying/garbage collection	<nin>, rubbish, and <puakna>, carrying, written as one word: the carrying away of rubbish; {ninpuakna mawtaw} is a garbage truck	
 s33808	defiled/made unclean	<nin>, unclean, with <sa>, already done	
-s33809	defile/make unclean/desecrate	<nin>, unclean, with the causative <sak>: make a person, a place or a holy thing unclean	
+s33809	defile/make unclean/desecrate/befoul/contaminate/soil	<nin>, unclean, with the causative <sak>: make a person, a place or a holy thing unclean	
 s33810	defiling/making unclean	<ninsak>, defile, with the linking ending <in>, which joins it to the following verb	
 s33811	defile/happen to defile	<ninsak>, defile, with <kha>, happen to: make something unclean, even without meaning to	
 s33812	make dirty again/soil again	<ninsak> make unclean, with <kik> again	
@@ -1792,7 +1792,7 @@ s33846	week	<ni> day, with <sagih> seven: seven days
 s33847	Nisan	first month of the Hebrew year, in spring, the month of the Passover	
 s33848	heat of the day/heat of the sun	form of <nisa>; {sun nisat hun} is the hot part of the day around noon, {nisat hun} the hot season	
 s33849	ten days	<ni>, day, with <sawm>, ten; {nisawm-le-nih} is twelve days, and with <ni> after it the day of the month, {nisawm leh nili ni} the fourteenth day	
-s33850	daily/every day/regularly	<ni> day with <sim>, each; also placed before a noun as in {nisim nasep}, daily work	
+s33850	daily/every day/regularly/day-to-day	<ni> day with <sim>, each; also placed before a noun as in {nisim nasep}, daily work	
 s33851	daily life/everyday life	<nisim>, daily, and <nuntakna>, living: the life of every day; a possessive such as <i> or <na> stands before it and <ah> or <sungah> after it	
 s33852	almost every day/practically daily/day after day	<nisim>, every day, with <phial>, even or quite: so often that it is as good as every day; mostly followed by <in> or <a> at the head of a clause	
 s33853	daily/of each day/every day	<nisim>, daily, with the linking <a>	
@@ -1932,7 +1932,7 @@ s33991	uncomfortable/unpleasant/awkward/embarrassing	not pleasant to bear, causi
 s33992	unease/trouble/discomfort	{lungsim nopmawhna} is a troubled conscience	
 s33993	feel uncomfortable/be bothered/be upset	<nopmawh>, unpleasant, with <sa>, feel, written as one word: find something unpleasant, be bothered or embarrassed by it	
 s33994	trouble/make uncomfortable/make difficult/bother	<nopmawh>, uncomfortable, and <sak>, written as one word: make things unpleasant or hard for a person or a matter; also find something uncomfortable	
-s33995	peace/well-being/happiness/pleasure	a state of peace, well-being or enjoyment; {nopna om ta hen} is a greeting, peace be with you	
+s33995	peace/well-being/happiness/pleasure/joy/welfare	a state of peace, well-being or enjoyment; {nopna om ta hen} is a greeting, peace be with you	
 s33996	wish/desire/intention	after a verb, the wish or intention to do it; {cih nopna}, what one wants to say, is the meaning of a word or name	
 s33997	peace/well-being	{Nopna lampi} is the way of peace	
 s33998	joy and sorrow/glad and sad occasions	<nopna>, happiness, and <dahna>, grief: a pair for the happy and sad events of community life, such as weddings and funerals; mostly as <nopna dahna ah>, at times of joy and of mourning	

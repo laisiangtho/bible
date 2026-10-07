@@ -10,7 +10,7 @@ s18008	Khaute
 s18009	whip	a whip made of cords, <khau>; the same verse in the other text has <khautep>	
 s18010	whip	a whip made of cords, <khau>; the same verse in the other text has <khauteep>	
 s18011	noose/snare	loop of cord set on the ground to catch something; <khau> is cord	
-s18012	cord/measuring line	a length of cord used for measuring	
+s18012	cord/measuring line/string/twine	a length of cord used for measuring	
 s18013	fibre/dietary fibre	the fibre in food, the stringy part of vegetables and grains that helps digestion; said of what is in food, {an sungah}, where the other sense is a cord	
 s18014	cord/rope	cord such as is used to lead an animal; set beside <khauhualpi>, a thick rope	
 s18015	plumage/feathers	the feathers of a bird; of the great eagle, {khaveng hoih mahmah}, very fine plumage	
@@ -20,7 +20,7 @@ s18018	keep looking out/keep watching	<khawdak> with <dak> repeated, showing tha
 s18019	Khawei		
 s18020	farm	work a field to grow crops; {lo khawh} is farm a field and {lo khawh hun} is ploughing time	
 s18021	cultivate	prepare and work land or plants so that they bear a crop	
-s18022	spear/stab/thrust	thrust or throw a spear at an animal or a target, with <tei> or <teipi>, spear; {tei khawh} is also a spear contest; not the {khawh} of working a field	
+s18022	spear/stab/thrust/jab	thrust or throw a spear at an animal or a target, with <tei> or <teipi>, spear; {tei khawh} is also a spear contest; not the {khawh} of working a field	
 s18023	pin/spear fast	thrust a spear through someone so that he is fixed to the wall or the ground	
 s18024	let pin/pin	<khawhcip>, pin with a spear, with <sak>; {hong khawhcipsak in}, let me pin him	
 s18025	throw at/hurl at	<khawh>, throw or thrust something at a person, with the linking suffix <in>; a different word from <khawh>, farm	
@@ -56,7 +56,7 @@ s18054	sections/panels/compartments	plural of <khawk>, a section or enclosed par
 s18055	village headman/headman	named beside <ukpite>, the chiefs, as those who ruled the people harshly under British rule; apparently the headman of a village under the chief	
 s18056	village headmen/headmen	<khawkuk> with the plural <te>	
 s18057	accompany		
-s18058	stop/rest/cease/retire	stop what one is doing: pause to rest or stay a while on the way, cease an activity, and after <pan>, from, leave a job or office; {khawl sak} is make stop, suspend, and {khawl phot} is stop for now	
+s18058	stop/rest/cease/retire/halt	stop what one is doing: pause to rest or stay a while on the way, cease an activity, and after <pan>, from, leave a job or office; {khawl sak} is make stop, suspend, and {khawl phot} is stop for now	
 s18059	Khawlawm		
 s18060	stop/pause/leave off	stop doing something, for a while or for good; {ki khawlbawl} is be discontinued	
 s18061	stand still/stop completely/come to a standstill	<khawl>, stop or rest, with <cip>, firmly: stop completely and stay still, as the sun and moon in the sky or a work that is halted	
@@ -81,7 +81,7 @@ s18079	haven/resting place/harbour	<khawl> stop or rest, with <mun> place; {teem
 s18080	stop/station/parking place	a place where a bus, boat, taxi or car stops for passengers or is parked, often beside the English words bus or stop; a present-day use beside the resting place and the harbour for ships	
 s18081	haven/resting place/lodging place	<khawlmun>, a place to stop and rest, capitalised in place names: {Khawlmun Nuam}, Fair Havens; {Khimham Khawlmun}, Geruth Kimham	
 s18082	harbours/resting places	<khawlmun>, a place to stop and rest, with the plural <te>; of ships, a harbour	
-s18083	rest/resting place/stopping place/harbour	<khawl>, stop or rest, with the ending <na>: the act of stopping, or a place to stop and rest; {teembaw khawlna mun} is a harbour and {teembaw khawlna sikkawi} is an anchor	
+s18083	rest/resting place/stopping place/harbour/halt/stop	<khawl>, stop or rest, with the ending <na>: the act of stopping, or a place to stop and rest; {teembaw khawlna mun} is a harbour and {teembaw khawlna sikkawi} is an anchor	
 s18084	stop yet	<khawl> and <nai> written as one word, followed by <lo>: has not yet stopped	
 s18085	stops/stations/stopping places	<khawlna>, stopping place, with the plural <te>: places where vehicles or people stop, as {bus khawlnate}, bus stops	
 s18086	day off/rest day/holiday	<khawl>, stop or rest, with <ni>, day: a day on which work stops, as in {nasep khawlni}; also the day on which something is given up	
@@ -102,7 +102,7 @@ s18100	stop at once/suspend at once	<khawlsak>, stop or suspend, and <pah>, at o
 s18101	suspend/stop for the time being/halt for now	<khawlsak>, make stop, and <phot>, for the time being, written as one word: suspend a person from work or a service from running until a matter is settled; mostly with <ki>, be suspended	
 s18102	try to stop/attempt to halt	<khawlsak>, make stop, and <sawm>, intend or try, written as one word: try to stop a vehicle or a person, said of police and guards	
 s18103	be able to stop/manage to stop	<khawlsak>, make stop, with <thei>, be able, written as one word: manage to bring a vehicle, a person or an act to a stop	
-s18104	stop/cease/give up/cancel	<khawl>, stop, with the ending {-san}, leaving behind: stop doing something and leave it, give up or call off what was done or planned	
+s18104	stop/cease/give up/cancel/abandon	<khawl>, stop, with the ending {-san}, leaving behind: stop doing something and leave it, give up or call off what was done or planned	
 s18105	stopping/cessation/halt	<khawlsan>, stop, with the noun suffix {-na}: the stopping of something; {kikaptuahna khawlsanna} is a ceasefire	
 s18106	not intend to stop/not try to stop	<khawl>, stop, and <sawmlo> written as one word	
 s18107	stop/cease/step down/resign	<khawl>, here stop or rest, and <ta.2> written as one word: has stopped, has given up a work or an office; {apanmun pan khawlta} is has stepped down from his post	
@@ -209,11 +209,11 @@ s18214	changing/altering	<kheel>, change, with the ending {-in}, linking to the 
 s18215	change back/relent/revoke	<kheel> change with <kik>, back again; {lungsim kheelkik}, change one's mind	
 s18217	change/transform	<kheel>, change, with <sak>: make something change, as when a person is given a new name	
 s18218	be able to change/resist	<kheel>, change, with <zo>, be able: be able to alter what was said or decided	
-s18219	lie/deceive	say what is false to someone, deceive or mislead; in the Gospels also tempt, as the devil does	
+s18219	lie/deceive/beguile/cheat/defraud/delude/dupe	say what is false to someone, deceive or mislead; in the Gospels also tempt, as the devil does	
 s18220	deceit	deceiving, pretence; {mi kheem} is a deceiver and {it kheem} is love that is only pretended	
 s18221	tricking/by deceit	<kheem>, deceive, with <bawl>, do, and <in>: by using trickery	
 s18222	deceiving/cheating	<kheem>, deceive, with the ending {-in}, linking to the next verb	
-s18223	deceit/deception/trickery/scheme	<kheem>, deceive, with the noun suffix <na>: deceit, a trick or scheme used to mislead someone	
+s18223	deceit/deception/trickery/scheme/hoax	<kheem>, deceive, with the noun suffix <na>: deceit, a trick or scheme used to mislead someone	
 s18224	temptation	being enticed or tested to do wrong; {kheemna thuak} is to be tempted, as in the Lord's Prayer	
 s18225	deceiver	<kheem>, deceive, with <pa>: the man who deceives	
 s18226	deceivers/deceitful people	<kheem>, deceive, with the plural <te>; {mi kheemte} are people who deceive	
@@ -300,7 +300,7 @@ s18308	deceiving/cheating	<khem>, deceive, with the linking suffix <in>: deceivi
 s18309	keep deceiving/betray	<khem>, deceive, said twice: go on deceiving again and again	
 s18310	deceiving	<khemkhem>, go on deceiving, with the linking suffix <in>: deceiving others all the while	
 s18311	not deceive/not pretend	<khem> and <lo> written as one word: not deceive, without deceiving	
-s18312	deceit/deception/trickery	<khem>, deceive, with the noun suffix <na>: deceit, a trick, the act of deceiving; {khemna tawh} is by deceit	
+s18312	deceit/deception/trickery/trick	<khem>, deceive, with the noun suffix <na>: deceit, a trick, the act of deceiving; {khemna tawh} is by deceit	
 s18313	way of soothing/means of soothing	<khem>, soothe a crying child, with the noun ending <na>: what one does to quiet the child; {ka khemna ding ka theilo} is I do not know how to soothe it	
 s18314	deceits/lies	<khemna>, deceit, with <teng>, all: all their deceits	
 s18315	want to deceive	<khem>, deceive, with <nop>, want to: want to deceive someone	
@@ -346,8 +346,8 @@ s18355	nail fast/crucify	<khen>, hammer, with <cip>, firmly: nail fast, as on a 
 s18356	way of dividing/classification	<khen>, divide, and <dan>, way, written as one word: how something is divided into kinds or parts, and in writing how words are separated	
 s18357	Khene	first part of the name <Khene-anah>, Kenaanah, the father of the false prophet Zedekiah	
 s18358	Kenaanah	father of Zedekiah, the false prophet in the time of King Ahab	
-s18359	pass by/go past/go beyond	go past a person, a place or a boundary	
-s18360	change/exchange/amend	put one thing in the place of another, the same word as <khek>: exchange goods for other goods with <tawh>, or change a law, as in {thukhunpi kheng}, amend the constitution	
+s18359	pass by/go past/go beyond/outstrip	go past a person, a place or a boundary	
+s18360	change/exchange/amend/alter	put one thing in the place of another, the same word as <khek>: exchange goods for other goods with <tawh>, or change a law, as in {thukhunpi kheng}, amend the constitution	
 s18361	rump	in the saying of the monkey that does not see its own but points out that of its friends: apparently the bare rump of a monkey, and so a fault of one's own; the book gives <khawn> beside it	
 s18362	Kheng		
 s18363	footstool/footrest	<khe> foot with <ngak>: a place to rest the feet; {khengak nading}, for a footstool	
@@ -362,7 +362,7 @@ s18371	passing over/passing by	<khengsuak>, pass by, with <in>
 s18372	have passed/have come to pass	<kheng>, pass, with <ta>, now or already	
 s18373	passing up beyond/going above	<kheng>, pass, with <to>, upward, and <in>	
 s18374	go too far/overstep/be presumptuous	go beyond what is right or allowed; {khengval lua}, go much too far	
-s18375	exceed/be in excess/be over	be more than a set time or amount, without the thought of wrongdoing; {hun khengval} is beyond the set hours, overtime, {a khengval in} is in excess, and {thau khengval} is overweight	
+s18375	exceed/be in excess/be over/surpass	be more than a set time or amount, without the thought of wrongdoing; {hun khengval} is beyond the set hours, overtime, {a khengval in} is in excess, and {thau khengval} is overweight	
 s18376	Khengval	the verb <khengval>, go too far, written with a capital at the start of a sentence: {Khengval lua uh teh}, you have gone too far	
 s18377	presumptuously/going too far	<khengval>, overstep, with <a>, joining it to the next verb	
 s18378	presumptuously/excessively/beyond the limit	<khengval> go beyond with <in>; doing more than is right or allowed	
@@ -382,7 +382,7 @@ s18391	judge together/decide together	<khen>, in {thu khen}, judge, with <khawm>
 s18392	divide up/split apart/separate	<khen>, divide, doubled: go on dividing, split people or things into several groups or kinds	
 s18393	by divisions/group by group	<khen>, divide, said twice, with <in>: each in its own division	
 s18394	divisions/groups	<khen>, divide, said twice, with the plural <te>: the several divisions of a body of people	
-s18395	separate/split/set apart	take one thing away from another so that they are apart; set people or things apart for a purpose	
+s18395	separate/split/set apart/detach	take one thing away from another so that they are apart; set people or things apart for a purpose	
 s18396	divide/part	split something so that it opens, as God parted the sea	
 s18397	break up		
 s18398	publish/print/bring out	bring out a book or songs in print, with objects such as <labu> and <la>, often after <kaikhawmin>, having collected them; not the separating of the other senses	
@@ -406,7 +406,7 @@ s18415	two parts/two halves	<khen>, divide, with <nih>, two; {khennih suah} is m
 s18416	two divisions/two companies	<khennih>, two parts, with the plural <te>	
 s18417	judge/one who decides	in {thu khenpa}, the one who decides a matter; <pa> marks a male person	
 s18419	part/division/section	one of the main parts into which a whole is divided, such as a part of a book, a branch of a group or a division of a country; from <khen>, divide, with the suffix <pi>, great	
-s18420	judge/decide/settle	with <thu>: decide a matter for someone, give judgement	
+s18420	judge/decide/settle/adjudicate	with <thu>: decide a matter for someone, give judgement	
 s18421	divide/apportion/allot	<khen>, divide, with <sak>: divide a thing into parts or share it out for someone, with the number of parts or the share before it and without <thu>; not giving judgement	
 s18422	judge/decide	<khensak>, decide a matter for someone, with the linking ending <in>: giving judgement, and then going on to the next action	
 s18423	judge rather/judge instead	<khensak>, decide a matter for someone, with <zaw>, rather: be the one who judges instead of another	
@@ -415,7 +415,7 @@ s18425	deciding/having decided	<khensat>, decide, with <in>; {thu khensatin} is 
 s18426	decision	<khensat>, decide, with the noun suffix <na>: what has been decided	
 s18427	decide/make a decision/rule/resolve	<khensatna>, decision, with <nei>, have: come to a decision, of a court, a meeting or a person; what is decided stands before it, often with <ding> or after <thu>	
 s18428	decisions	plural of <khensatna>: the things a person or a body has decided	
-s18429	decided/determined	<khensat> decide with <sa>, already done: what has been decided beforehand	
+s18429	decided/determined/resolved	<khensat> decide with <sa>, already done: what has been decided beforehand	
 s18430	ten parts/ten divisions	<khen>, divide, with <sawm>, ten: ten parts; {khensawm leh khennih} is twelve divisions, the number of tenses the book counts	
 s18431	distinguish/discern/tell apart	<khen>, separate, with <siam>, skilled: know how to keep two things apart and judge between them rightly	
 s18432	drive down/hammer down	<khen> hammer with <suk>, downward: drive a peg down into something	
@@ -589,7 +589,7 @@ s18600	shorten/cut short	<khiap> with the causative <sak>: make shorter, cut sho
 s18601	be able to reduce/can cut down	<khiap>, reduce, and <theih>, be able, written as one word: {khiaptheih nading} is so that it can be reduced	
 s18602	send out/drive out/let out	<khia> out with the causative <sak>, placed after a verb: make someone or something go out or away, as {ciah khiasak} send on the way	
 s18603	have brought out/have made manifest	<khiasak>, make come out, with <zo>, have done; {kilang khiasakzo} is has made clearly seen	
-s18604	let down/lower/throw down	<khia>, let go, with <suk>, downward: let down, drop or throw something down, as a person by a rope, a boat into the sea or a staff on the ground	
+s18604	let down/lower/throw down/drop	<khia>, let go, with <suk>, downward: let down, drop or throw something down, as a person by a rope, a boat into the sea or a staff on the ground	
 s18605	putting down/placing under	<khiasuk>, put or let down, with the linking ending <in>: putting something down or under, and then going on to the next action	
 s18606	out/away	form of <khia> used after a verb when another word such as <phetin>, <ciangin> or <ding> follows	
 s18607	throw in/put in/drop/cast	let a thing fall or throw it into a place, as coins into a treasury or a person into the sea, a pit or a prison	
@@ -781,14 +781,14 @@ s18794	Khlantsing
 s18795	Chloe	woman whose household brought Paul news of the quarrels in the church at Corinth	
 s18796	Chloe	woman whose household brought Paul news of the quarrels in the church at Corinth	
 s18797	farm/practise farming/plow/till	work the land, plow or cultivate a field; almost always in {lo kho}, farm a field, and {lo khopa} is a farmer	
-s18798	strong/well built/firm/secure	firm, strong and lasting; {kho takin} is firmly and {kip kho} is stand firm, endure	
+s18798	strong/well built/firm/secure/stable/steady	firm, strong and lasting; {kho takin} is firmly and {kip kho} is stand firm, endure	
 s18799		<kho>, work a field, with the ending <in>, and: working the field, and then	
 s18800	urge/press/entreat	press someone strongly to do or not to do something; also invite pressingly	
 s18801	withstand/bear/hold out against	stand up under a weight or against a force without giving way, as a bridge built for a load of so many tons or a person against the blows of a storm; not pressing a person to do something	
 s18802	invited	<khoh>, urge or invite, with <sa> for a completed action: already invited; {a khohsa mite} is those who have been invited	
 s18803	invited	<khoh>, urge or invite, with <sak> and <sa>, already done: {ka khohsaksa mite} is those I have invited	
 s18804	invited guests/those invited	<khoh>, urge or invite, with <sa>, already done, and plural <te>: those who have been invited to a feast	
-s18805	bring up/rear/nurture/care for	look after and feed a child, a young animal or a person in need; often paired with <vaak>, feed	
+s18805	bring up/rear/nurture/care for/look after	look after and feed a child, a young animal or a person in need; often paired with <vaak>, feed	
 s18806	touch/nudge	touch someone with the hand, here as a secret sign	
 s18807	move/touch/affect	stir the feelings of a person, said with <lungsim>, heart, before {khoih}: {ka lungsim hong khoih hi}, it touched my heart	
 s18808	touch/affect/move	<khoih>, touch, and <kha>, happen to, written as one word: touch someone, or touch and move the heart or life of a person	
@@ -982,7 +982,7 @@ s19000	bee feast	the Zomi custom of celebrating over bees taken from the hive: t
 s19001	bee rite	<khuai-aih> with the noun ending <na>: the rite in which bees are honoured and set free, which the book explains as a pledge that people and bees will guard one another, so that the bees keep the flies from a person who dies	
 s19002	bee feast/celebration of bees	in the old Zomi custom, the feast held for <khuai>, bees, with <aih> and the noun ending <na>; like other feasts it was planned for the time after death, so that flies would not swarm on the dead body	
 s19003	day of the bee rite/third day of Khuado	<khuai-aih> and <ni>, day, written as one word: the third of the three days of <Khuado>, on which the rite for the bees is held and wasp nests are opened to foretell the year	
-s19004	honeycomb/bees' nest	<khuai>, bee, with <bu>, nest: the comb in which bees store honey	
+s19004	honeycomb/bees' nest/hive	<khuai>, bee, with <bu>, nest: the comb in which bees store honey	
 s19005	bee rope	<khuai>, bee, with <khau>, rope: a rope that goes with the taking of a bees' nest; the young men hold it as they come home in procession with the nest on the day before <Khuado>	
 s19006	take a bees' nest/gather bees	<khuai>, bee, and <la>, take, written as one word: take a nest of bees in the forest, a custom of the Khuado festival; the noun is <khuailak>	
 s19007	bee song	<khuai>, bee, with <la>, song: the song sung by those who come back from taking the bees' nest at Khuado	
@@ -1019,7 +1019,7 @@ s19037	surrounding villages/area around a village/neighbourhood	<khua>, village 
 s19038	engraving/carving	<khuak> carve with linking <in>: {khuakin ki-at} is be engraved	
 s19039	city gate/gate	<khua>, town, with <kongpi>, main gate: the gate of a walled town	
 s19040	city gates/gates	plural of <khuakongpi>: the gates of a walled town	
-s19041	intelligent/sharp-minded/clever	<khuak>, brain, and <pil>, wise, written as one word: having a brain that works well; also used as a verb, be mentally sharp	
+s19041	intelligent/sharp-minded/clever/brainy	<khuak>, brain, and <pil>, wise, written as one word: having a brain that works well; also used as a verb, be mentally sharp	
 s19042	brain/inside of the brain	<khuak>, here brain, and <sung>, inside, written as one word: the inside of the brain, the brain as the place of thought and of illness; {khuaksung nasepna} is the working of the brain	
 s19043	city wall/wall	<khua>, town, with <kulh>, wall: the wall built round a town for its defence	
 s19044	on the city wall/at the wall	<khuakulh> city wall with the place marker <ah>	
@@ -1060,7 +1060,7 @@ s19078	warmth/heat/temperature	warm or hot weather, and how warm it is; {khualum
 s19079	Khualung		
 s19080	town entrance/entrance to the town	<khua> town with <lutna> entering: {Hamath khualutna} is the entrance of Hamath, the NIV Lebo Hamath	
 s19081	care more for/favour	<khual>, care for, and <zaw>, more, written as one word: think of one person or cause more than of another, which stands before it with <sang>	
-s19082	travel	<khual>, away from home, with <zin>, travel: go on a journey	
+s19082	travel/journey	<khual>, away from home, with <zin>, travel: go on a journey	
 s19083	tour		
 s19084	trip		
 s19085	travel	<khualzin> written with a capital at the start of a sentence or in a place name, as {Khualzin Mite’ Kuam}, the valley of the travellers	
@@ -1070,8 +1070,8 @@ s19088	will travel/to travel/about to travel	<khualzin> and <ding> written as on
 s19089	travelling/on a journey	<khualzin>, travel, with <in> joining it to the next verb: while travelling, on a journey	
 s19090	traveller/tourist/passenger	<khualzin>, travel, with <mi>, person: a person on a journey; {gamdang khualzinmi} is a foreign tourist	
 s19091	travellers/tourists	plural of <khualzinmi>: people on a journey, tourists	
-s19092	journey/travel	<khualzin>, travel, with the noun suffix <na>: a journey	
-s19093	traveler/wayfarer	<khualzin> travel with <pa>, a man: a man on a journey	
+s19092	journey/travel/travelling	<khualzin>, travel, with the noun suffix <na>: a journey	
+s19093	traveler/wayfarer/traveller	<khualzin> travel with <pa>, a man: a man on a journey	
 s19094	traveling companions/fellow travelers	<khualzin> travel with <pih>, together with, and plural <te>	
 s19095	travelers/wayfarers/strangers	<khualzin>, travel, with plural {-te}: people on a journey	
 s19096	travel	<khualzin> with the last part doubled: travel about, keep travelling	
@@ -1098,7 +1098,7 @@ s19118	capitals/pillar tops	plural of <khuamluzepna>: the ornamented heads of pi
 s19119	frame/board	<khuam>, post, with <peek>, flat board: an upright wooden frame or board of the tabernacle wall	
 s19120	frames/boards	plural of <khuampeek>: the upright wooden frames that form the walls of the tabernacle	
 s19121	foundation	setting up of house posts, the foundation someone has laid	
-s19122	pillar/post	<khuam>, post, with <pi>, great: a large pillar or main post of a building	
+s19122	pillar/post/column	<khuam>, post, with <pi>, great: a large pillar or main post of a building	
 s19123	pillar	<khuampi> written with a capital at the start of a sentence or in {Khuampi Innpi}, the Hall of Pillars built by Solomon, colonnade in the NIV	
 s19124	top of the pillar/capital	<khuampi> main pillar with <luzang> top of the head	
 s19125	pillars/posts	plural of <khuampi>: the pillars of a building, the posts of the tabernacle court, and in poetry the pillars of the earth and the sky	
@@ -1181,7 +1181,7 @@ s19202	lightning/flash of lightning	lightning, a flash of lightning in the sky; 
 s19203	lightnings/flashes of lightning	plural of <khuaphialep>	
 s19204	lightning flash/flashing	{khua phia} lightning flashes, with the noun suffix <na>	
 s19205	Khuapho		
-s19206	city/town	a large town, <khua>, town, with <pi>, great	
+s19206	city/town/metropolis	a large town, <khua>, town, with <pi>, great	
 s19207	land/country		
 s19208	capital/capital city	the chief city of a country or people, said with a possessive before it, as in {a khuapi}, its capital; apart from that it is any large town	
 s19209	Khuapi		
@@ -1229,7 +1229,7 @@ s19250	from the town/out of the city	<khuasung> and <pan> written as one word: f
 s19251	the whole town/throughout the city	<khuasung>, the inside of a town, and <teng>, here meaning all, written as one word, mostly after the name of a city: all of the town, everywhere in it	
 s19252	walk about town/go about in public	go about in the streets of a town, from <khuasung> and <vak>, walk about; {khuasungvak te} are the people out in the street, passers-by or pedestrians	
 s19253	dig up/paw/scratch	scrape at the ground with the feet or hands, or dig something out of it	
-s19254	village/countryside	a village, the villages of the countryside as against the town; often paired as <khuaneu khuata>, and {khuata mi} is a villager, a countryman	
+s19254	village/countryside/hamlet	a village, the villages of the countryside as against the town; often paired as <khuaneu khuata>, and {khuata mi} is a villager, a countryman	
 s19255	small village/little village	<khuata>, village, with the ending {-no}, little: a small village of the countryside, set against <khuapi>, city	
 s19256	villages/country villages	<khuata>, village, and the plural <te>, written as one word: the villages of the countryside	
 s19257	lower end of the village/foot of the village	the lower end of a village and the land just below it, from <khua>, village, and <taw>, bottom; after a village name, below that village; the upper end is <khualu>	
@@ -1281,12 +1281,12 @@ s19305	the whole town	all the people of the town together, with plural <un>
 s19306	thick darkness/gloom/dark cloud	named with <khuamial> darkness and <meii> cloud	
 s19307	gloom/thick darkness/blackness	form of <khuazing> used before a following noun: {khuazin’ ni}, a day of thick darkness	
 s19308	travel/go visiting	not darkness: <khua>, village, with <zin>, guest or traveller: go on a journey to other villages or places, as in {khuazin gamvakna}, travelling about	
-s19309	gloom/deep darkness/thick darkness	paired with <khuamial>, darkness	
+s19309	gloom/deep darkness/thick darkness/dark	paired with <khuamial>, darkness	
 s19310		paired with <khuavak> for the unseen spirits, which the book calls <dawi> and <kau>; fighting them is the <do> of <Khuado>	
 s19311	journey/trip/travel	<khuazin>, travel, with the noun suffix <na>: a journey or stay away from home; one writer explains it as {milak paina}, going among people	
 s19312	the weather also/the daylight also	<khua>, the weather or the light of day, and <zong>, also, written as one word, as in {khuazong vot} the weather too is cold and {khuazong vak} it is also light	
 s19313	the village also/the town also	<khua>, village or town, and <zong>, also, written as one word after a place name: that town as well	
-s19314	cover/spread over	put one thing over another so as to hide, shade or protect it	
+s19314	cover/spread over/cap	put one thing over another so as to hide, shade or protect it	
 s19315	net/catch	catch fish or animals by covering them, as with a net	
 s19316	cough	force air from the chest with a sudden sound, and as a noun a cough, as in {khuh natna}, a coughing illness; told from {khuh} cover by the talk of illness, nose and mouth	
 s19317	cover over/cover completely/overwhelm	<khuh>, cover, with <cip>, tightly or closely	
@@ -1294,7 +1294,7 @@ s19318	cover/spread over	form of <khuh>, cover, with the linking suffix <in>: co
 s19319	catch/enclose	of a net taking in fish	
 s19320	cover again/put back over	<khuh> cover with <kik> again, back	
 s19321	not cover	<khuh> cover with the negative <lo>	
-s19322	covering/cover	something that covers, such as a tent covering, a canopy or a veil	
+s19322	covering/cover/lid	something that covers, such as a tent covering, a canopy or a veil	
 s19323	covered	<khuh> cover with <sa> already done; {lu khuhsa-in}, with the head covered	
 s19324	caught/netted	<khuh> catch with a net, with <sa> already done	
 s19325	cover over/cast over/cover	<khuh> cover with <sak>: spread a net over someone, or cover sins	
@@ -1348,7 +1348,7 @@ s19373	roof/housetop	the top covering of a building; {inn khum} is the roof of a
 s19374	record	put songs on tape or disc, with <lakhui>, <la> or album before it: record a song or an album	
 s19375	close/conclude/end	end a letter with a closing phrase before the name, such as {Hong it den}; the phrase stands before <tawh> or <zangin>	
 s19376	on the roof	<khum>, roof, with the place marker <ah>: {tausang khumah} is on the roof of the tower	
-s19377	shut in/confine/keep in custody/pen up/isolate	<khum>, put in, with <cip>, tightly: keep a person or an animal shut up, as a prisoner in custody, a sick person apart from others, or a bull in its pen	
+s19377	shut in/confine/keep in custody/pen up/isolate/detain	<khum>, put in, with <cip>, tightly: keep a person or an animal shut up, as a prisoner in custody, a sick person apart from others, or a bull in its pen	
 s19378	will be confined/will be locked up	<khumcip> and <ding> written as one word, after <ki>: will be shut in, will be kept in prison	
 s19379	taking captive/confining	<khumcip>, shut in, with the linking suffix <in>: shutting in, taking captive	
 s19380	confinement/detention/custody	<khumcip>, shut in, with the noun ending <na>: the keeping of a person shut in, detention or imprisonment	
@@ -1533,7 +1533,7 @@ s19565	mutual love/love for one another	<ki>, one another, with <itna>, love: th
 s19566	be fond of each other/love each other	<ki>, one another, with <it>, love, and <pih>, together with: be bound to someone in mutual affection; {ki-itpih deuhte} are those one is fonder of	
 s19567	accompany one another/be escorted	<uap>, accompany, with the prefix <ki>; written with a hyphen because two vowels meet; the page gives the word alone	
 s19568	stand by one another/attend one another	<uap>, accompany, with the prefix <ki>, one another: come to each other's side and help at times of joy and of mourning	
-s19569	pride/arrogance/boasting	plural with <te> of {ki-uatsakna}, pride or boasting; used beside <kisaktheihna>, pride	
+s19569	pride/arrogance/boasting	plural with <te> of <ki-uatsakna>, pride or boasting; used beside <kisaktheihna>, pride	
 s19570	be on good terms/be close/get along	<uitui> with the prefix <ki>: be close to one another, be on friendly terms; written with a hyphen because two vowels meet	
 s19573	control oneself/be self-controlled	<uk>, rule, with <ki>, oneself, and <tawm>, by oneself: keep one's own body under control	
 s19575	be enclosed/be shut in/be besieged	<um>, surround, with <cip>, tightly, and the passive prefix <ki>; {a ki-umcip} before a noun means enclosed, as a garden, or besieged, as a city	
@@ -1571,9 +1571,9 @@ s19606	decline/decrease/downward trend	<kiam> and <lam> written as one word: the
 s19607	drop by as much as/go down even	<kiam>, decrease, and <liang>, even, written as one word after an amount: go down by as much as that	
 s19608	decrease/reduction/decline	a becoming less in amount, number or strength	
 s19609	decrease at once/drop quickly/go down straight away	<kiam>, decrease, and <pah>, at once, written as one word	
-s19610	reduce/decrease/diminish	<kiam>, become less, with the causative <sak>: make less, or let become fewer	
+s19610	reduce/decrease/diminish/minimise	<kiam>, become less, with the causative <sak>: make less, or let become fewer	
 s19611	decrease more and more/keep falling	<kiam> and <semsem> written as one word: become less and less	
-s19612	sink/go down/subside	<kiam>, go down, with <suk>, downward: sink or subside, as the Nile after its flood	
+s19612	sink/go down/subside/decrease/wane	<kiam>, go down, with <suk>, downward: sink or subside, as the Nile after its flood	
 s19613	decline/decrease/downfall	<kiamsuk>, go down, with the noun ending {-na}: a going down in strength, number or standing, the opposite of progress	
 s19614	has decreased/has lessened	<kiam> and <ta> written as one word: has become less	
 s19615	can decrease/may diminish	<kiam>, decrease, and <thei>, able, written as one word: can or may become less	
@@ -1584,7 +1584,7 @@ s19619	decrease more/be less/be lower	<kiam> and <zaw> written as one word: go d
 s19620	presence/side	the place beside or with someone; mostly in <kiangah>, to, and {kiang panin}, from	
 s19621	husband	poetic word for <pasal>, used in songs; the word a wife uses of her husband	
 s19622	to/beside/near/with	<kiang> with the suffix <a>, used where the phrase describes a following noun or verb, as in {pasian kianga thu nget}, praying to God, and {a kianga ding}, standing beside him	
-s19623	to/beside/with	<kiang>, presence or side, with the place marker <ah>: to, beside or with a person; it follows the person who is spoken to or approached	
+s19623	to/beside/with/near	<kiang>, presence or side, with the place marker <ah>: to, beside or with a person; it follows the person who is spoken to or approached	
 s19624	to me	<kiangah>, to or beside, run together with <hong>, toward the speaker; elsewhere written as two words, probably a printing error	
 s19625	also to/to as well/also with	<kiangah>, to or with a person, and <zong>, also, written as one word after the person named	
 s19626	Kianglam		
@@ -1598,7 +1598,7 @@ s19633	sentence/jail/imprison	after <thong>, prison: send someone to prison by t
 s19634	will be sentenced/will be jailed	<kiasak>, send to prison, and <ding>, the marker of what is to come, written as one word; {thong kum 1 sung ki kiasakding} is will be sentenced to one year in prison	
 s19635	sending down/causing to fall	<kiasak>, cause to fall, with the linking suffix <in>	
 s19636	can be sentenced to/may be jailed	<kiasak>, cause to fall, and <thei>, can, written as one word; with <thong>, prison, and the passive <ki>: can be sent to prison, as the penalty a law allows	
-s19637	fall down/come down/go down/descend	<kia>, fall, with <suk>, downward: fall or come down from a higher place	
+s19637	fall down/come down/go down/descend/tumble	<kia>, fall, with <suk>, downward: fall or come down from a higher place	
 s19638	falling down	<kiasuk>, fall down, with the linking suffix <in>	
 s19639	fall back down/come down again	<kiasuk>, fall down, and <kik>, back, written as one word: fall back to the ground after going up, as an aircraft after take-off	
 s19640	fall down suddenly/crash down	<kiasuk>, fall down, with <mawk>, which marks the event as unexpected, written as one word: fall or crash down all at once	
@@ -1652,7 +1652,7 @@ s19688	still be like	<kibang>, be like, with <lai>, still: after <tawh>, still b
 s19689	just the same/no different	<kibang> and <lel> written as one word: merely the same, no different, mostly after <tawh>	
 s19690	exactly the same/identical/exactly alike	<kibang>, the same, with <lian>, here exactly, written as one word; what it is compared with is followed by <tawh>	
 s19691	not exactly the same/not quite alike	<kibanglian>, exactly the same, and <lo>, not, written as one word: not exactly alike, differing somewhat	
-s19692	different/not the same/unlike	<kibang> and <lo> written as one word: not alike, different from each other	
+s19692	different/not the same/unlike/dissimilar	<kibang> and <lo> written as one word: not alike, different from each other	
 s19693	those that differ/different ones	<kibang>, alike, with <lote>, those that are not, written as one word: people or things that are not alike; after a noun, those who differ in it, as in {ngaihsutna kibanglote}, those of different views	
 s19694	in the same way/just the same	<kibang> same with the emphatic <mah> and the suffix <in>; another spelling of <kibangmahin>	
 s19695	in the same way/just the same	<kibang> same with the emphatic <mah> and the suffix <in>	
@@ -1671,9 +1671,9 @@ s19707	like	used with <tawh>, with: be like someone or something
 s19708	as	with <tawh>: being as another is, or seeming as if something were so	
 s19709	similar/alike	alike, the same as each other; {a kibat kei leh} is if they are not alike	
 s19710	different/unlike/not alike	<kibat> and <loh> written as one word: not being alike; {kibatloh hang} is although not the same, and {kibatloh na} is a difference	
-s19711	difference/unlikeness	the fact of not being alike, a difference: <kibat> be alike, <loh> not, with the noun suffix <na>	
+s19711	difference/unlikeness/discrepancy/variance	the fact of not being alike, a difference: <kibat> be alike, <loh> not, with the noun suffix <na>	
 s19712	differences	<kibatlohna>, difference, with the plural <te>: the ways in which people or things are not alike	
-s19713	likeness/resemblance/similarity	how one thing is like another, or what two have in common; {tawh a kibatna} is likeness to something	
+s19713	likeness/resemblance/similarity/semblance/uniformity	how one thing is like another, or what two have in common; {tawh a kibatna} is likeness to something	
 s19714	equality/likenesses	<kibatna>, likeness, with the plural <te>: the ways in which one is like or equal to another, as in {Pasian tawh kibatnate}, equality with God	
 s19715	be like/be alike with/be equal to	<kibat> be like with <pih> together with: be like another; {ka kibatpih ding}, one for me to be like, my equal	
 s19716	fellows/peers	<kibatpih> with the plural <te>: those who share the thing named before it, as {biakna kibatpihte}, people of the same religion, {tan kibatpihte}, classmates, and {lungsim kibatpihte}, the like-minded	
@@ -1783,8 +1783,8 @@ s19819	sprinkling on oneself/throwing on oneself	<kibuak> with the linking suffi
 s19820	place of pouring out/dump/heap	<kibuak>, be poured out, with the noun suffix <na>: the place where something is poured or thrown out; {vut kibuakna} is the ash heap	
 s19821	wallow/be immersed in/indulge in	the prefix <ki> with <bual>, wallow: roll or bathe in water, and so be sunk in or given over to something, as in {siatna sungah kibual}, wallow in evil	
 s19822	be raped/be violated/be mistreated	be seized and used with violence; said of women when a city is taken	
-s19823	wrestle/grapple/struggle	two people or sides seize each other and struggle, as a sport at a feast or in a fight, often with <tawh>, with; no violation is meant	
-s19824	wrestling/wrestling match	the sport of wrestling, two people struggling to throw each other; in news of war also violent assault on women	
+s19823	wrestle/grapple/struggle/tussle	two people or sides seize each other and struggle, as a sport at a feast or in a fight, often with <tawh>, with; no violation is meant	
+s19824	wrestling/wrestling match/tussle	the sport of wrestling, two people struggling to throw each other; in news of war also violent assault on women	
 s19825	be violated/be raped/be ravished	<kibuan>, be violated, with <sak>: said of women forced by men	
 s19826	shed/poured out	<kibua> be poured out, with <sa> for a completed action; said of blood	
 s19827	go into hiding/hide away/stay hidden	<kibu> and <cip> written as one word: hide oneself away so as not to be found	
@@ -1847,7 +1847,7 @@ s19884	those listed/those recorded/those registered	<kiciamteh> be recorded with
 s19885	swear instead/swear rather	<kiciam> swear with <zaw>, rather or instead	
 s19886	have sworn	<kiciam> swear, with <zo> for an action already carried out	
 s19887	firm/sure/sound/well-founded	firm and reliable: said of a place that holds, of a plan or a matter that is well grounded, and of a hope or a house that is sure	
-s19888	proper/definite/clear/valid	clear, exact and in good order, not vague or makeshift: said of a permit or permission that is valid, of a job that is regular, and of a list or figure that is settled; {kician takin} is properly, clearly	
+s19888	proper/definite/clear/valid/lucid	clear, exact and in good order, not vague or makeshift: said of a permit or permission that is valid, of a job that is regular, and of a list or figure that is settled; {kician takin} is properly, clearly	
 s19889	be laid/be built up/be built	of stones or a wall, be laid one on another and built up in courses	
 s19890	piled up/lying one upon another	<kiciang>, be laid one on another, with the linking ending <in>; said here of corpses lying in heaps	
 s19891	be built up again/be rebuilt	<kiciang>, be built up in courses, with <kik>, again; said of a city wall	
@@ -1858,7 +1858,7 @@ s19895	be piled up/be built up high	<kiciang> be built up in courses, with <to> 
 s19896	clearly/definitely/firmly	<kician>, firm and sure, and <in> written as one word: in a clear and definite way, for certain	
 s19897	a definite one/a firm one	<kician> and <khat> written as one word after a noun: a definite, firm or proper one, as in {deihna kiciankhat}, a definite aim	
 s19898	be rebuilt/be built again	said of city walls being built up again; perhaps another spelling of <kiciangkik>	
-s19899	unclear/uncertain/unreliable/improper	<kician>, sure, and <lo>, not, written as one word: not clear or not certain; of a person, not proper or not to be trusted	
+s19899	unclear/uncertain/unreliable/improper/indistinct/obscure	<kician>, sure, and <lo>, not, written as one word: not clear or not certain; of a person, not proper or not to be trusted	
 s19900	definite statement/certainty/clarity	<kician>, definite and clear, with the noun ending {-na}: something definite; {genkhiat kicianna neinailo} is has not yet made a definite statement	
 s19901	make sure/ascertain/find out for certain	<kician>, sure, with the causative <sak>: make a matter sure by finding out more about it	
 s19902	clearly/definitely/exactly/firmly	<kician>, firm and sure, with <tak>, written as one word and mostly followed by <in>: in a clear, exact and reliable way, said of telling, teaching, knowing and holding to something	
@@ -1913,7 +1913,7 @@ s19955	perfect/complete	<kicing> complete with the linking <a>; {a kicinga a kin
 s19957	fully/completely/in full	<kicing> with the ending <in>: in a complete way, with nothing lacking	
 s19958	be ready beforehand/be already complete	<kicing> complete with <khol>, beforehand	
 s19959	be fully supplied/be complete in everything	<kicing> complete with <kim>, all or fully	
-s19960	not enough/insufficient/incomplete/lacking	<kicing>, enough or complete, and <lo>, not, written as one word; {khuak kicinglo} is of deficient mind	
+s19960	not enough/insufficient/incomplete/lacking/imperfect/inadequate	<kicing>, enough or complete, and <lo>, not, written as one word; {khuak kicinglo} is of deficient mind	
 s19961	be complete at once/be enough as it is	<kicing>, be complete, and <pah>, at once, written as one word: be complete straight away, with nothing more needed	
 s19962	fully trained/already complete	<kicing> complete with <sa>, already, and the linking <a>	
 s19963	fulfill/complete/make complete/supply/make perfect	<kicing>, complete, with the causative <sak>: make full or perfect, fulfill, supply what is lacking	
@@ -1927,7 +1927,7 @@ s19970	enough/sufficient in number	<kicing> enough with <zah> amount: as many as
 s19971	more complete/fuller/greater	<kicing> complete with <zaw> more; {a kicingzaw semsemin} is more and more fully	
 s19972	be enough/be quite sufficient	<kicing> enough with <zo>, fully reached	
 s19973	worth making complete	<kicing>, be complete, be enough, in the form used before a suffix, with <huai>, worthy of: worth making complete	
-s19974	shortcoming/inadequacy/deficiency	what is not complete or not good enough in a person or a piece of work, named together with <kisapna>, need, and <thanemna>, weakness	
+s19974	shortcoming/inadequacy/deficiency/shortage	what is not complete or not good enough in a person or a piece of work, named together with <kisapna>, need, and <thanemna>, weakness	
 s19975	lack/not have enough/fall short	<kicin>, be complete, and the negative <loh> written as one word: not be complete, not have enough; {kicinloh manin} is because of not having enough	
 s19976	insufficiency/lack/shortage/inadequacy	<kicin>, be complete, with <lohna>: the state of not being complete or not having enough of the thing named before it	
 s19977	shortcomings/deficiencies/failings	plural of <kicinlohna>: the things that are lacking or imperfect in a person or a piece of work	

@@ -12,7 +12,7 @@ s16009	mourners/those who weep	<kah> weep with the plural <te>; {misi kahte}, th
 s16010	all who attend/all the attendees	<kah>, attend, and <teng>, all, written as one word: all those who attend a meeting or gathering	
 s16011	be able to attend/can attend	<kah>, here attend a school or a course, and <thei>, able, written as one word: be able to attend, get to study at	
 s16012	being able to attend/admission/right to attend	<kah>, attend, and <theihna>, ability, written as one word: being able or allowed to attend a school or a meeting; {kahtheihna laihuan} is an entrance examination	
-s16013	go up/ascend/climb/rise	<kah>, climb, with <to>, upward: go or climb up to a higher place, as a mountain, a ship or heaven; also of smoke rising	
+s16013	go up/ascend/climb/rise/mount	<kah>, climb, with <to>, upward: go or climb up to a higher place, as a mountain, a ship or heaven; also of smoke rising	
 s16014	go up/climb/ascend	form of <kahto> used before endings such as <ciangin> and {lai takin}	
 s16015	to climb up/to go up	<kahtoh> and <ding> written as one word: to go up, going up as something to be done or allowed	
 s16016	ascent/way up/pass	place where a road climbs, a slope or mountain pass	
@@ -27,7 +27,7 @@ s16024	I help/we help	<ka>, the first person marker, and <huh>, help, written as
 s16025	they attend/they climb	<kah>, go up or attend, with the plural marker <uh>, written as one word: they go up, they attend school	
 s16026	weep more	<kah> weep with <zaw>, more	
 s16027	be able to weep/weep for	<kah> weep with <zo>, be able	
-s16028	pull/draw/drag	draw something toward oneself or along behind	
+s16028	pull/draw/drag/tug	draw something toward oneself or along behind	
 s16029	form/gather/come over	of cloud, mist, dew, sweat or a rainbow: form, gather or settle; {meiipi kai} is clouds gather, {daitui kai} is dew falls, {khua-ul kai} is sweat breaks out	
 s16030	Caiaphas	high priest in Jerusalem at the time of the trial of Jesus, son-in-law of Annas	
 s16031	Caiaphas	high priest in Jerusalem at the time of the trial of Jesus, son-in-law of Annas	
@@ -60,7 +60,7 @@ s16057	pull/seize/grab	<kaih> pull, with <sak>: take hold of and pull, as a dog 
 s16059	winning over/drawing to oneself	<kaih> draw, with <zawh>, be able, and the noun suffix <na>; {lawma kaihzawhna}, being able to draw someone as a friend	
 s16060	forming/appearing	of mist or cloud, forming and hanging; the same word as <kaai>, with <in>	
 s16061	one bunch/one stalk/a cluster	<kai> and <khat> written as one word: one hanging bunch, the collective word for a whole stalk of bananas, {nahtang kaikhat}, and for a cluster of bees, {khuai kaikhat}	
-s16062	gather/collect/assemble/bring together	<kai>, draw, with <khawm>, together: bring people or things together in one place	
+s16062	gather/collect/assemble/bring together/amass	<kai>, draw, with <khawm>, together: bring people or things together in one place	
 s16063	collect and/compile and	<kaikhawm>, collect, with the linking ending {-a}, and then: having collected songs, followed by <khenkhiapa> or <khet>, publish	
 s16064	gathering/assembling/bringing together	<kaikhawm> with <in>, gathering and then doing the next action	
 s16065	gather again/gather back	<kaikhawm>, gather, with <kik>, again: bring back together those who were scattered	
@@ -122,8 +122,8 @@ s16120	vaccine	a medicine given by injection to protect against a disease, in th
 s16121	I discuss with/we consult with	<ka> and <kuppih> written as one word: I talk a matter over with someone, or with <uh>, we do	
 s16122	kidney	one of the two kidneys of an animal, named among the parts burned on the altar	
 s16123	week	week, always after <nipi>: {nipi kal khat} is one week, {nipi kal pawi} is the Festival of Weeks	
-s16124	step/pace	one stride in walking, also a step of a stairway or sundial	
-s16125	demand/require	claim what is owed or due, as a debt, a vow, tribute or obedience; the form before another word is <kalh>	
+s16124	step/pace/footstep	one stride in walking, also a step of a stairway or sundial	
+s16125	demand/require/claim	claim what is owed or due, as a debt, a vow, tribute or obedience; the form before another word is <kalh>	
 s16126	between/interval/while	the space or time between, a short form of <kikal>: after a pair it means between them, as {nupa kal}, between husband and wife, and after a verb with <in> it means while, as {ihmut kal in}, while asleep	
 s16127	first step/first week	<kal>, a step or a week, and <masa>, first: the first step, mostly in the figurative sense of the first thing done toward an aim; after the name of a month, the first week of that month	
 s16128	Kala		
@@ -159,7 +159,7 @@ s16157	I buy/I bought	<ka> and <lei> written as one word: I buy or bought, and w
 s16158	Kalemyo/Kalay	town in Sagaing Region of Myanmar, the name in the records of the government for the town the Zomi call <Kawlpi>; also written <Kalaymyo>	
 s16160	Kaletwa		
 s16161	Kalewa	town and township on the Chindwin river in Sagaing Region, Myanmar, east of Kalaymyo; its Zolai name is given as <Gunkhawm>	
-s16162	lock/bolt/bar	fasten a door or gate with a bolt, bar or key	
+s16162	lock/bolt/bar/latch	fasten a door or gate with a bolt, bar or key	
 s16163	demand/require	form of <kal>, demand, used before another word such as <nate> or <masak>	
 s16164	shut up/lock/lock tight	<kalh> lock, with <cip>, tightly: lock or shut a door fast	
 s16165	insert in between/put in between/interpose	<kal>, between, with <helh>, mix in: put something in between other things, as a remark into what is being said	
@@ -304,7 +304,7 @@ s16306	rumour/report	news passed on by word of mouth
 s16307	interpreter/translator/interpreting	one who puts the speech of one language into another, and the work of doing so; also used as a verb, interpret	
 s16308	Kamlo		
 s16309	Kamlwei		
-s16310	word/speech	<kam>, mouth, with <mal>, a single unit: a word, a thing said	
+s16310	word/speech/term	<kam>, mouth, with <mal>, a single unit: a word, a thing said	
 s16311	bad language/abusive words/insult	<kammal>, word, and <hoihlo>, not good: rude, hurtful or abusive speech; with <tawh> before a verb of scolding it means to curse or abuse someone	
 s16312	phrase	<kammal>, word, with <lom>, bundle: a group of words without a verb, a phrase; the page prints {lammal lomte} and glosses it phrase	
 s16313	dictionary	<kammal>, word, with <saal>, storehouse: a store of words, the Zolai name the book gives for a dictionary	
@@ -321,7 +321,7 @@ s16323	argument/dispute/quarrel	<kamnial>, argue, with the noun suffix {-na}: an
 s16324	Kamon	place in Gilead where the judge Jair was buried	
 s16325	from the mouth/by word of mouth	<kam>, mouth, with <pan>, from, written as one word: out of the mouth, in what someone says	
 s16326	Kampar	a town and district in the state of Perak in Malaysia	
-s16327	language/speech/words	<kam>, mouth, with <pau>, speak: the language a people speaks, or what a person says	
+s16327	language/speech/words/tongue	<kam>, mouth, with <pau>, speak: the language a people speaks, or what a person says	
 s16328	spoken language/colloquial speech	the spoken form of a language, in which words taken as understood, such as {kei in}, are left out, as opposed to <laipau>, the written form	
 s16329	composition	<kampau>, speech, with <luanzia>, the way something flows: composition, the way words are put together in speaking and writing	
 s16330	speech/manner of speaking/way with words	<kampau>, speech, and <mukpau>, speech of the lips: a pair that names the way a person talks to others, the manner and choice of words; with <siam>, be well-spoken, and listed beside conduct as part of a person's character	
@@ -359,7 +359,7 @@ s16362	prophecy/prophesying	<kamsan>, prophesy, with the noun ending {-na}: a me
 s16363	prophet/prophets/seers	spelling of <kamsangte>, prophets, found in Micah 3:7, where the English versions have seers	
 s16364	prophets/seers	apparently a misprint of <Kamsangte>	
 s16365	evil speech/harsh words/bad language	<kam>, mouth, with <sia>, bad: evil or hurtful speech	
-s16366	unfortunate/unlucky/wretched	having bad fortune, in a wretched state; used in a cry of misery, woe is me	
+s16366	unfortunate/unlucky/wretched/ill-fated	having bad fortune, in a wretched state; used in a cry of misery, woe is me	
 s16367	smooth talk/fine words/compliment	<kam> mouth with <siam> skilled; pleasant or skilful speech, and as a verb speak kindly to or greet	
 s16368	eloquence/gracious speech	<kamsiam>, skilled in speech, with the noun suffix <na>: eloquent or gracious speech	
 s16369	disaster/misfortune/calamity	form of <kamsia>, unfortunate, used before a noun; {kamsiat ni}, the day of disaster	
@@ -372,7 +372,7 @@ s16375	in the mouth	<kamsung> and <ah> written as one word: in the mouth, into t
 s16376	messenger/envoy	one sent to carry a message, a messenger or envoy; {kamtai sawl} is send a messenger	
 s16377	messenger	<kamtai>, messenger, with <pa>, the man: the man sent with a message	
 s16378	messengers/envoys	<kamtai>, messenger, with the plural <te>; {kamtaite sawl} is send messengers	
-s16379	talkative/loud/noisy	<kam>, mouth or word, with <tam>, many: given to much or noisy talk; {kamtam sak} is make someone loud	
+s16379	talkative/loud/noisy/chatty/garrulous	<kam>, mouth or word, with <tam>, many: given to much or noisy talk; {kamtam sak} is make someone loud	
 s16380	quarrel/argue/have words	after <ki>, exchange many angry words with one another, often beside {ki kamnial} or <kitawng>; a mutual quarrel, not the habit of talking much	
 s16381	many words/much talk	<kam>, word, and <tampi>, many, written as one word; {kamtampi pau} is speak a lot	
 s16382	by mouth/in words/verbally	<kam>, mouth, and <tawh>, with, written as one word: with the mouth, in spoken words, often set against what is done or thought	
@@ -392,9 +392,9 @@ s16395	clause/sentence/utterance	a stretch of speech that makes one statement, s
 s16396	expression/saying/usage/wording	<kam>, speech, with <zat>, use: the way words are used, an expression or saying that is current; also the speech that a person or people uses	
 s16397	flattery/flattering words/smooth talk	<kam>, word, with <zol>, persuade: pleasant words used to win someone over or deceive	
 s16398	conjunction	grammar term, another name for <thuzopna>: a word that joins words or sentences	
-s16399	search/look for	look for someone or something that is lost or wanted, or look closely into a matter	
+s16399	search/look for/seek	look for someone or something that is lost or wanted, or look closely into a matter	
 s16400	explore	look into something thoroughly in order to understand it	
-s16401	ask	ask or inquire about a matter, often as {thu kan}; {Topa kiangah thu kan} is inquire of the Lord	
+s16401	ask/enquire	ask or inquire about a matter, often as {thu kan}; {Topa kiangah thu kan} is inquire of the Lord	
 s16402	cross/step over/get past	go over or beyond something, as a doorway; {kongbiang kan lo} is does not get past the door	
 s16403	Cana	town in Galilee where Jesus turned water into wine at a wedding	
 s16404	Canaan	son of Ham and grandson of Noah, ancestor of the Canaanites	
@@ -459,14 +459,14 @@ s16462	dry up at once/stop at once	<kang> dry up or stop flowing, with <pah>, im
 s16463	White House	in {Inn Kangpi}, the great white house: the White House, home and office of the president of the United States; from <kang>, white	
 s16464	white	<kang>, white, with <sa>, already: that which is already white, said of hair	
 s16465	dry up/make dry	<kang>, dry up, with <sak>, cause: make water or moisture dry up	
-s16466	burn/set on fire	<kang>, burn, with <sak>, cause: set something on fire so that it burns	
+s16466	burn/set on fire/kindle	<kang>, burn, with <sak>, cause: set something on fire so that it burns	
 s16467	turning white/making white	<kang> white, with <sak> cause and the connective <in>: making something white, as a skin disease does the hair	
 s16468	one who started the fire	<kangsak> cause to burn, with <pa>, the man who: the man who set something on fire	
 s16469	Kuala Kangsar	second word of the name Kuala Kangsar, a town in the state of Perak, Malaysia	
 s16470	gray-haired people/white-haired people	<kangsa> already white, with plural <te>; with <sam> hair, those whose hair is white, the aged	
 s16472	white/gray	<kang>, white, with the plural <te>, after a noun: {sakol kangte} is white horses, and {sam kangte} is gray hair and so the aged	
 s16473	rise up/lift up	<kang>, rise into the air, with <to>, upward	
-s16474	consume/burn up	<kang>, burn, with <tum>, completely: of fire, burn something up until nothing is left	
+s16474	consume/burn up/incinerate	<kang>, burn, with <tum>, completely: of fire, burn something up until nothing is left	
 s16475	burn up completely/be engulfed by fire	<kangtum> and <cip> written as one word: of fire, burn a thing up entirely so that nothing can be saved	
 s16476	will burn up/will burn down	<kangtum> and <ding> written as one word: will be burnt up completely; in reports also of what is reckoned to have burnt	
 s16477	burn up completely/be gutted by fire/burn to ruin	<kangtum>, burn up, and <gawp>, severely, written as one word: of fire, destroy a building, goods or land entirely	
@@ -487,7 +487,7 @@ s16491	than/more than	placed after the thing compared, like <sangin>: more than,
 s16492	search out/investigate/ponder/study	<kan>, search or examine, doubled to show continued careful searching	
 s16493		follows <liing>, tremble, to picture continued shaking: {liing kankan}, trembling all over	
 s16494	search around/inquire around/look everywhere	<kan> and <kawikawi> written as one word: search or ask here and there	
-s16495	search out/find out	<kan>, search, with <khia>, out: search a matter through until it is found out	
+s16495	search out/find out/detect	<kan>, search, with <khia>, out: search a matter through until it is found out	
 s16496	will investigate/will find out	<kankhia> and the future marker <ding> written as one word: will search a matter out, will investigate	
 s16497	search out at once/track down immediately	<kankhia>, search out, and <pah>, at once, written as one word: look for and find a person without delay, said of the police	
 s16498	find out/search out/sound out	form of <kankhia>, find out, used before {khit ciangin} and similar words	
@@ -554,7 +554,7 @@ s16559	cannabis/marijuana/ganja	the hemp plant used as a drug, smoked with <teep
 s16560	even more/exceedingly/surpassing	beyond the usual measure; after a verb, all the more, and {a kanzaw siamna} is an outstanding skill	
 s16561	look into/study a little	<kan>, search or look into, and <zek>, a little, written as one word: look into a matter somewhat, do some inquiry	
 s16562	leap over/scale/get over	<kan>, cross over, with <zo>, be able: manage to get over a wall	
-s16563	weep/cry/mourn	shed tears: weep, cry or mourn for someone; {nakpi-in kap} is weep bitterly	
+s16563	weep/cry/mourn/wail	shed tears: weep, cry or mourn for someone; {nakpi-in kap} is weep bitterly	
 s16564	shoot	shoot with a bow and arrow, as in {thal tawh kap}, shoot with the bow	
 s16565	pair/team/yoke	two that work together as one: two men sawing wood, {sing at nih}, and two draught animals, {lengkai gan nih}, are each {kap khat}; not the verbs weep and shoot	
 s16566	fire heavily/shell/bombard	<kap>, here shoot, and <ziahziah>, freely and without stopping: fire heavily and continuously; the weapon stands before it with <tawh>	
@@ -796,8 +796,8 @@ s16802	narrow	<kawcik> narrow, with <ah>, at or in: in a narrow place
 s16803	narrow	<kawcik> narrow, with the linking suffix <in>: being narrow	
 s16805	where	short form of <koi-ah>, at which place; the page gives <koi-ah> and {kawh} as the same and counts it among the short forms that need no apostrophe	
 s16806	cave/grotto/burrow	a hollow in the rock or in the ground, a cave; {suang kawhawm} is a cave in the rock	
-s16807	embrace/hug	put the arms around someone; {ngawng kawi} is throw the arms around the neck of someone	
-s16808	crooked/devious/perverse	not straight, bent; of the heart or mind, devious and perverse, as in {lungsim kawi}	
+s16807	embrace/hug/enfold	put the arms around someone; {ngawng kawi} is throw the arms around the neck of someone	
+s16808	crooked/devious/perverse/bent/curved	not straight, bent; of the heart or mind, devious and perverse, as in {lungsim kawi}	
 s16809	turn/curve/go around	go in a bend or roundabout way rather than straight, of a boundary that turns or of someone walking about, as in {kawi pai}	
 s16810		<kawi>, crooked, with the subject marker <in>: the crooked one, as the doer of the action	
 s16811	hug tightly/embrace/clasp	<kawi> and <cip> written as one word: put the arms around someone and hold tight	
@@ -812,7 +812,7 @@ s16819		<kawikawina> with plural <te>; after a verb, the acts of doing it here a
 s16820		<kawikawi> about, with <pa>, the man who: in {pai kawikawipa}, he who walks about	
 s16821	make wander	<kawikawi> about, with <sak>, cause: in {vak kawikawisak}, make someone wander about	
 s16822	those who go about	<kawikawi> about with <te> marking the people who do so; {pai kawikawite}, those who go around, {gensia kawikawite}, those who go about slandering	
-s16823	crookedness/perversity	from <kawi> crooked; {lungsim kawina}, a perverse heart	
+s16823	crookedness/perversity/curvature	from <kawi> crooked; {lungsim kawina}, a perverse heart	
 s16824	embrace/embracing/hug	from <kawi> embrace; {ngawng kawina}, putting the arms round the neck	
 s16825	wife	poetic word for <zi>, used in songs; the word a husband uses of his wife	
 s16826	bend/make crooked/twist/distort	<kawi>, crooked, with the causative <sak>: make a thing bent or crooked; of the truth, twist it	
@@ -828,13 +828,13 @@ s16835	flaw/fault/blemish	something to point at and find fault with
 s16836	blameworthy/at fault	used with <lo>, not: {kawkbang lo}, blameless; also written <kawkbaang>	
 s16837	cackle/squawk	the loud cry of a hen that has laid an egg or is alarmed; said also of people who make a noise about a thing at once	
 s16838	pointing at/pointing to	<kawk>, point at, with the linking ending <in>: pointing at something, before a second verb	
-s16839	point out/identify	<kawk> point, with <khia>, out	
+s16839	point out/identify/indicate	<kawk> point, with <khia>, out	
 s16840	refer back to/point back to	<kawk>, refer to, and <kik>, back, written as one word: refer back to something that was said before, as {tua sakol} refers back to {sakol khat}	
 s16841	definite reference/specific reference	<kawk>, point to, with a second part meaning exactly: the pointing of a word to one particular thing; <khat> as an article has none, {tua ... pen} and {tua ... in} have it	
 s16842	reference/pointing at/denotation	the act of pointing at or referring to someone or something, from <kawk>; also what a word refers to	
 s16843	single out/point out specially	<kawk>, refer to, and <tuam>, apart, written as one word: point to one thing apart from the others; named beside <kawkkik>, refer back	
 s16844	pigeon	in {kawl vakhu}, the pigeon as distinct from <vakhu> the dove	
-s16845	rocks/crags	rocky place away from towns, in one verse only	
+s16845	rocks/crags/cliff	rocky place away from towns, in one verse only	
 s16846	Burmese/Burman/Myanmar	the Burman people, their language and their country, usually written {Kawl}; before a noun it means Burmese, as in {Kawl galkap}, the Myanmar army, {Kawl kumpi}, the Myanmar government, and <Kawlgam>, Myanmar	
 s16847	Kawl ak		
 s16848		Saying: even a Burman is talked with over water; if one receives a guest, one should receive him well	
@@ -922,7 +922,7 @@ s16931	clefts/gaps/spaces between	the spaces among or between things, as among r
 s16932	wall/wall surface	<kawm>, wall, and <tung>, upon, written as one word: the face of a wall, where pictures are hung or painted; {kawmtung a kisuang} is hung on the wall	
 s16933	while/as	<kawm>, while, with <un>, used when the subject is plural: while they were doing something, another action went on	
 s16934	lattice/opening in the wall	<kawm>, wall, with <vang>, opening: an opening or lattice in a wall through which one can look	
-s16935	waist/loins	the waist or loins, the middle of the body where a belt is tied; {kawng gak} is to tie something around the waist	
+s16935	waist/loins/loin	the waist or loins, the middle of the body where a belt is tied; {kawng gak} is to tie something around the waist	
 s16936	at the loins/by the loins/at the waist	<kawng>, loins or waist, with the place ending {-a}; {a kawnga om} means that is near the loins	
 s16937	on the waist/around the waist	<kawng>, waist, with the place ending {-ah}: on or round the waist	
 s16938	waist level/hip level	<kawng> waist, with <ciang>, as far as: the height of the waist or hips; the NIV has buttocks	
@@ -1001,11 +1001,11 @@ s17011	young goats/kids	<keelno>, kid, with the plural <te>
 s17012	female goat/she-goat	<keel>, goat, with <nu>, female	
 s17013	female goat/she-goat	<keel> goat with <pi> marking the female, as against <keeltal> the male goat	
 s17014	she-goats/female goats	<keelpi> with plural <te>; <pi> marks the grown female, the mother animal	
-s17015	male goat/he-goat/goat	<keel>, goat, with <tal>, male: a male goat, often named as an animal for sacrifice	
+s17015	male goat/he-goat/goat/billygoat	<keel>, goat, with <tal>, male: a male goat, often named as an animal for sacrifice	
 s17016	goats	<keel>, goat, with the plural <te>	
 s17017	goatskin	<keel> goat with <vun> skin	
 s17018	goat skins	<keel> goat and <vun> skin with the plural <te>; the NIV has another type of durable leather here	
-s17019	keep/guard/look after/care for	keep, guard or look after a person or thing, the same word as <kem>; said of God, care for his people	
+s17019	keep/guard/look after/care for/maintain	keep, guard or look after a person or thing, the same word as <kem>; said of God, care for his people	
 s17020	care for/look after/keep	<keem> keep or look after, with the linking suffix <in>	
 s17021	keeper/steward	<keem> keep, with <pa>, a man: the man who keeps or is in charge of something; {sumpi keempa} is a steward of money	
 s17022	entrust/hand over/commit to	<keem>, keep, with the causative <sak>: give something or someone into the keeping of another	
@@ -1062,7 +1062,7 @@ s17074	if not/unless	the negative <kei> and <leng>, if, written as one word afte
 s17075	not at all/really not	<kei>, not, and <lua>, very, written as one word after a verb: strongly not, not at all; {thusim keilua} is pay no heed at all	
 s17076	my/mine	possessive form of <kei>, placed before a noun: my; {keima aa} means mine	
 s17077	my	<keima>, my, capitalised when God is the speaker	
-s17078	my/I myself/me	<kei> with the emphatic <mah>: I myself or me, and before a noun my own; {keimah in} marks the subject	
+s17078	my/I myself/me/myself	<kei> with the emphatic <mah>: I myself or me, and before a noun my own; {keimah in} marks the subject	
 s17079	I/I myself	emphatic first person singular, <keimah>; written with a capital when God or Jesus is the speaker	
 s17080	I myself/myself	emphatic form of <keimah>, I and no other	
 s17081	Keimatungah	not a name: <keima>, my, with <tungah>, upon, written as one word at the start of a sentence in Genesis 16:5: upon me	
@@ -1236,7 +1236,7 @@ s17253	hatch	<keuh> hatch, with <sak>, cause: bring eggs to hatching
 s17254	dry up/wither away	<keu>, dry, with <mang>, away: dry up completely, of pastures and trees	
 s17255	drought/dryness/dry place	noun from <keu> dry; {khua keuna} is drought, {gam keuna} or {mun keuna} dry land	
 s17256	small bowls/basins	apparently <keu> bowl with <neu> small and plural <te>: vessels used in the temple service	
-s17257	dry up/make dry/wither	<keu> dry with the causative <sak>: make water, land or plants dry	
+s17257	dry up/make dry/wither/dehydrate	<keu> dry with the causative <sak>: make water, land or plants dry	
 s17258	drying up/withering	<keusak> make dry, with the connective <in>	
 s17259	be dry/be parched	<keu> dry, with <ta>, now or already: has become dry	
 s17260	cups/small bowls	drinking vessels, named beside <hai> and <kuang>	
@@ -1268,7 +1268,7 @@ s17285	Kha-in
 s17287	hold out/send	hold out or send towards someone: {khut khaak} is hold out the hand, and {mangpha khaak} is bid farewell	
 s17288	dry season/summer/hot season	the hot dry part of the year, named beside <tuuk>, the harvest season, and <phalbi>, the cold season; also {khua khaal}	
 s17289	groin	the fold of the body where the thigh joins the belly	
-s17290	forbid/prohibit/stop/restrain	tell someone not to do a thing, or hold a person or thing back; {khaam zo} is be able to stop	
+s17290	forbid/prohibit/stop/restrain/interdict	tell someone not to do a thing, or hold a person or thing back; {khaam zo} is be able to stop	
 s17291	celebrate	with <pawi>, feast: hold a celebration, as {zawhna pawi} a victory feast	
 s17292	bet/wager	stake money on something, as a man who promises a sum to anyone able to lift him	
 s17293	youth house	given by the book as another name of <sawm>, the young people's house of a village and its company	
@@ -1309,7 +1309,7 @@ s17327	release/set free/let loose	<khah> with the linking suffix <in>, letting g
 s17328	let go by accident/release by mistake	<khah>, let go, with <kha>, happen to, written as one word: let go of something without meaning to, as the brake of a car; in one article it stands in {aki khahkha Video}, a video that was posted, where <khah> is post	
 s17329	keep posting/keep putting out	<khah> said twice: go on posting or releasing things, as videos on Facebook, one after another	
 s17330	send out	<khah>, let go, with <khia>, out: send out or let loose, as wild animals or anger	
-s17331	to cause/set free/release/rescue	set free or bring out from the power of another: release a prisoner or a slave, rescue from the hand of an enemy	
+s17331	to cause/set free/release/rescue/extricate/liberate	set free or bring out from the power of another: release a prisoner or a slave, rescue from the hand of an enemy	
 s17332	release/publish/issue/post	make a video, photo or statement public, on social media or to the press; the thing released stands before it, as {Statement khahkhia} and {Video ki khahkhia}, where the other senses let loose a living thing or free a prisoner	
 s17333	will release/will issue/will set free	<khahkhia>, release, and <ding>, will, written as one word: will let out, said of prisoners set free and of a statement or update made public	
 s17334	release again/set free again/let go again	<khahkhia> and <kik> written as one word: let someone who was held go free again	
@@ -1375,7 +1375,7 @@ s17395		<khaisuk> let down, with the noun suffix <na>: the place where someone w
 s17396	hangings/curtains	<khaisuk> hang down, with plural <te>: after <puan> cloth, cloths that hang down	
 s17397	curtains/hangings	<khai> hang with plural <te>, in {puan khaite}, cloths that are hung, the curtains of a tent	
 s17398	soothsayers/sorcerers	in {khong khaite}, those who practise soothsaying or sorcery	
-s17399	hang up/raise/put up	<khai>, hang, with <to>, up: raise a banner or hang up a curtain	
+s17399	hang up/raise/put up/hoist	<khai>, hang, with <to>, up: raise a banner or hang up a curtain	
 s17400	lift up/raise up	form of <khaito>, <khai> hang with <to> up, used before another word	
 s17401	reap		
 s17402	reapeth		
@@ -1425,7 +1425,7 @@ s17446	shutting/closing/locking	<khak>, shut, with <in> joining it to the next v
 s17447	sending	<khak>, send a letter or message, with <in>; {mangpha khakin} is saying goodbye	
 s17448	send by mistake/happen to send	<khak>, here send, with <kha>, happen to, written as one word: happen to send something, such as a photo, to someone	
 s17449	keep sending/send again and again	<khak>, here the verb send, said twice: keep sending letters or messages to someone	
-s17450	send out/send/issue	<khak>, send, with <khia>, out: send a message, money or goods out to someone; {ki khakkhia} is be sent out or issued	
+s17450	send out/send/issue/despatch/dispatch/transmit	<khak>, send, with <khia>, out: send a message, money or goods out to someone; {ki khakkhia} is be sent out or issued	
 s17451	spread out/stretch out	of the hands held out to a god in prayer, with <khin> showing a completed act; meaning taken from this one verse	
 s17452	send back/send in return/reply	<khak>, here in the sense of send, with <kik>, back, written as one word: send something back or send it in reply, said of money, messages, parcels and letters	
 s17453	close again/shut again	<khak>, shut, and <kik>, again, written as one word: shut a door once more	
@@ -1457,7 +1457,7 @@ s17478	things sent	<khak> send, with <sa> already done and the plural <te>: here
 s17479	phlegm/sputum/mucus	the thick matter coughed up from the throat and lungs	
 s17480	forward/pass on/send on	send on to another person something one has received, as a message, a photo or a video; the second part is <sawn>, onward	
 s17481	phlegm/sputum	thick matter coughed up from the chest; {khaksuah etna} is a sputum test	
-s17482	hinder/stop/block/thwart	stand in the way of someone or something: block a road, stop a person, hinder a work or a plan	
+s17482	hinder/stop/block/thwart/intercept	stand in the way of someone or something: block a road, stop a person, hinder a work or a plan	
 s17483	blocking/stopping/cutting off	<khaktan>, block or stop, with the linking suffix <in>	
 s17484	restriction/obstruction/barrier/hindrance	<khaktan>, hinder, with the noun suffix <na>: what blocks or holds back, a restriction or ban set by an authority	
 s17485	block/hinder/prevent	<khaktan>, block, with <sak>, cause: put a stop to something, keep it from happening, close a way	
@@ -1509,7 +1509,7 @@ s17530	gold	the precious yellow metal, often named together with <ngun>, silver;
 s17531	full/satiety/enough/be satisfied	have eaten or drunk as much as one wants; {an kham} is have enough food, and {ne-in kham} is eat and be satisfied	of eating
 s17532	drunk	overcome by wine or strong drink; {zu kham} is drunk with wine	of alcohol, drug
 s17533	inebriated/intoxicated/bacchanal/bacchanalian	having drunk too much; {zu a kham lo mi} is a person who does not get drunk	
-s17534	precipice/steep drop	steep ground that falls away; the book gives it with <ken> as the opposite of <zaang>, level ground	
+s17534	precipice/steep drop/cliff	steep ground that falls away; the book gives it with <ken> as the opposite of <zaang>, level ground	
 s17535	gold	<kham>, gold, written with a capital at the start of a sentence or a line; {Kham citak} is pure gold	
 s17536	probably/may well	<kha>, happen to, with the emphatic <mah>, written as one word after a verb and before <ding>: it may well be so, it will probably happen	
 s17537	will probably/may well	<khamah>, probably, and <ding>, will, written as one word after a verb: it will probably be so	
@@ -1573,7 +1573,7 @@ s17595	hill people/highlanders	<khamtung>, the hills, with <mi>, people: the peo
 s17596	hill peoples/highlanders	plural of <Khamtungmi>: the peoples of the hills of Myanmar	
 s17597	comfort/reassurance/peace of mind	being at ease and without worry, or what gives that ease; {khamuan huai} is reassuring, comforting	
 s17598	be heartened/feel secure/be at ease/be encouraged	<kha>, spirit, with <muang>, trust: be in good heart, feel secure and content; {khamuang sak} is hearten, give confidence to	
-s17599	comfort/consolation/peace of mind	<kha>, spirit, with <muanna>, trust: inner peace, comfort of the spirit	
+s17599	comfort/consolation/peace of mind/solace	<kha>, spirit, with <muanna>, trust: inner peace, comfort of the spirit	
 s17600	beard	hair growing on the chin	
 s17601	leftovers/surplus	food left over after eating one's fill; more than enough to eat	
 s17602	leftovers/what is left over	food remaining after people have eaten their fill	
@@ -1651,9 +1651,9 @@ s17674	south	<khanglam>, south, written with a capital at the start of a sentenc
 s17675	in the south/on the south side	<khanglam> and <ah> written as one word: in the south, to the south, or on the lower side of a house	
 s17676	south	<khanglam> south with the plural <te>, which here covers the pair {saklam leh khanglam}, the north and the south	
 s17677	grow up/grow big	<khang> and <lian> written as one word: grow up from childhood, grow big	
-s17678	awake/wake up	wake from sleep; {khanglo in} is the call to wake up	
+s17678	awake/wake up/wake	wake from sleep; {khanglo in} is the call to wake up	
 s17679	awake/wake up	<khanglo> written with a capital in a call to wake up	
-s17680	wake/wake up/awaken	<khanglo> be awake with the causative <sak>: rouse someone from sleep	
+s17680	wake/wake up/awaken/arouse/awake	<khanglo> be awake with the causative <sak>: rouse someone from sleep	
 s17681	ancient	of former generations, of long ago; {khanglui ngeina} is the tradition handed down from the elders	
 s17682	bygone		
 s17683	bygone age	the time of former generations, as in {khanglui laipek panin}, from the days of old	
@@ -1666,7 +1666,7 @@ s17689	young	young in age, of a child
 s17690	young/youthful	<khangmoi>, young, with <lai>, the time when: still young, in the time of youth	
 s17691	the young/youths	<khangmoi> with the plural <te>, set against <khanghamte>, the old	
 s17692	two generations	<khang> and <nih> written as one word: two generations; {khangkhat khangnih} is one or two generations	
-s17693	young/youthful	young in age; {a khangno lai} is while still young, and {khangno mite} are young people, the opposite of {khangham mite}	
+s17693	young/youthful/adolescent	young in age; {a khangno lai} is while still young, and {khangno mite} are young people, the opposite of {khangham mite}	
 s17694	youth	the time of being young, as in {khangno lai}	
 s17695	youth organization/youth association/youth fellowship	<khangno>, young, and <kipawlna>, association: an organization of young people, such as the youth association of a people or the youth fellowship of a church	
 s17696	youth/time of youth	<khangno> young, with <lai>, the time when	
@@ -1677,7 +1677,7 @@ s17700	become young	<khangno> young, with <suak>, become
 s17701	young people/youths/young men	<khangno>, young, with the plural <te>: young people, set against <khanghamte>, the old	
 s17702	younger	<khangno> with <zaw>, more	
 s17703	younger people/younger ones	<khangnozaw> with the plural <te>	
-s17705	multiply/make grow/increase/raise up	<khang>, grow, with the causative <sak>: make something grow or become more, or raise up a person such as a judge or a prophet	
+s17705	multiply/make grow/increase/raise up/augment/enlarge	<khang>, grow, with the causative <sak>: make something grow or become more, or raise up a person such as a judge or a prophet	
 s17706	make grow and/build up and	<khangsak> with the linking <a> written as one word: makes something grow or increase, and then the sentence goes on	
 s17707	making grow/enlarging/increasing	<khangsak>, make grow or increase, with the linking suffix <in>, followed by a second verb	
 s17708	one who makes grow/giver of growth	<khangsak>, make grow, with <pa>, the one who does it: the one who gives growth, said of God	
@@ -1698,7 +1698,7 @@ s17722	new generation/next generation/coming generation	<khangthak>, new generat
 s17723	cannot grow/fail to develop/cannot rise	<khang>, grow or rise, and <theilo>, unable, written as one word: not able to grow, said of a child, or not able to rise, said of rank	
 s17724	history/genealogy/family history	the account of the generations: the line of a family or the history of a people or country	
 s17725	grow/grow up/increase/rise	<khang>, grow, with <to>, upward: become bigger, taller or more; said of a child, a plant, wealth, a people, or rising waters	
-s17726	develop/progress/advance/be developed	of a country, a town, a people or a person: make progress in education, wealth and way of life, not grow in size or number; {gam khangto} is a developed country	
+s17726	develop/progress/advance/be developed/flourish/improve/thrive	of a country, a town, a people or a person: make progress in education, wealth and way of life, not grow in size or number; {gam khangto} is a developed country	
 s17727	developed countries/advanced nations	<khangto>, develop, and <gamte>, countries: the developed countries of the world, as a fixed term; it stands after <a>, as in {a khangto gamte ah}, in the developed countries	
 s17730	developing/progressing	<khangto>, grow or develop, and the linking <in>, written as one word: growing or making progress, and so	
 s17731	undeveloped/backward	<khangto>, grow or develop, with <lo>, not, written as one word: not developed, of a people or country	
@@ -1761,7 +1761,7 @@ s17789	will increase/will rise/will grow	<khanto>, a spelling of <khangto>, grow
 s17790	progress/advance/grow	<khan>, grow, with <toh>, upward: develop and prosper; {khantoh nading} is for the progress or advancement of	
 s17791	to progress/will progress	<khantoh>, progress, and <ding> written as one word: to progress, the progressing that is still to come	
 s17792	worth developing/promising	<khangto>, progress, develop, in the form used before a suffix, with <huai>, worthy of: worth developing	
-s17793	progress/advancement/welfare	<khantoh>, progress, with the noun suffix <na>	
+s17793	progress/advancement/welfare/development/improvement	<khantoh>, progress, with the noun suffix <na>	
 s17794	for the progress of/for development	<khantoh> and <nading> written as one word: for the progress or development of something	
 s17795	development/for development	<khantoh>, progress, with {-nang}, a short form of <nading>: for development, the cause of development; used like <khantohna>	
 s17796	developments/progress	plural of <khantohna>: the ways in which a place or people has advanced	
@@ -1798,7 +1798,7 @@ s17827	ten months	<kha> month with <sawm> ten; {khasawm leh khanih}, ten months 
 s17828	be dismayed/be troubled/grieve/be disheartened	be troubled or saddened in spirit, from <kha> spirit and <sia> bad	
 s17829	be very upset/be deeply grieved	<khasia>, be troubled in spirit, and <lua>, very, written as one word: be very upset or heartbroken	
 s17830	Holy Spirit	<kha>, spirit, and <siangtho>, holy, written as one word and usually with a capital: the Holy Spirit	
-s17831	sadden/grieve/hurt the feelings of/dishearten	<khasia>, be saddened, and <sak.1>, cause, written as one word: make someone sad, hurt their feelings	
+s17831	sadden/grieve/hurt the feelings of/dishearten/aggrieve	<khasia>, be saddened, and <sak.1>, cause, written as one word: make someone sad, hurt their feelings	
 s17832	pity/have compassion on/spare	feel pity for someone and so spare them; {ka khasiat kei ding hi} is I will not pity	
 s17833	be sad/be grieved/be upset	feel sorrow or hurt at what has happened, not pity for a person; {khasiat huai} is sad or saddening, said of news or of a state of things, and {khasiat sak} is to sadden or hurt someone	
 s17834	sadly/sorrowfully	<khasia> and <tak> written as one word and followed by <in>: with sorrow, in grief	
@@ -1887,7 +1887,7 @@ s17918	from one/from a	<khat> and <pan> written as one word, after the noun that
 s17919	from a/from one	<khat> and <panin> written as one word, after a noun: from a, from one such place or thing	
 s17920	one of them/the other one	<khatpa>, one man, and the topic marker <pen> written as one word: one of the men, the other man, as the one spoken about	
 s17921	one/the one	<khat>, one, with the topic marker <pen>, written as one word: one of them, a certain one, as the one spoken about	
-s17922	anyone	<khat>, one, with <peuh>, any: anyone, or any one thing; {mi khatpeuh} is any person	
+s17922	anyone/anybody	<khat>, one, with <peuh>, any: anyone, or any one thing; {mi khatpeuh} is any person	
 s17923	in any/at any/at every	<khatpeuh>, any one, with the place ending {-ah}, after a noun of place: in or at any such place; {mun khatpeuhah} means anywhere, wherever	
 s17924	at any/at some	<khatpeuh>, any one, with the time marker <in>: {ni hun khatpeuhin}, on some day and hour or other	
 s17925	anyone/any one/someone	<khatpeuh>, any one, with the agent marker <in>: any person or thing of a kind as the doer of the action, alone or after a noun as in {sepna khatpeuhin}, any work; not the time expression of the other sense	
@@ -1917,7 +1917,7 @@ s17948	only once/just once	<khatvei>, once, and <bek>, only, written as one word
 s17949	once/once again/on one occasion	<khatvei>, once, and the emphatic <mah>, written as one word: one time, with <ngei> once before and with <kik> or <leuleu> once again	
 s17950	first time	<khatvei>, once, with the ending <na>: the first time something is done	
 s17951	once each/once every	<khatvei>, once, with the distributive <ta>, each, written as one word after a period of time: once in every such period, as in {khakhat in khatveita}, once a month	
-s17952	sometimes/at times	<khatvei> once, with <vei> repeated: now and then	
+s17952	sometimes/at times/occasionally	<khatvei> once, with <vei> repeated: now and then	
 s17953	even once/not once	<khatvei> and <zong> written as one word: even once; with a negative verb, never, not a single time	
 s17954	the other/one or the other	one of two as against the other; mostly {a khatzaw}, the other one, and {khatzaw zaw}, either one of the two	
 s17955	either one/any one/one or the other	<khat>, one, with <zawkzawk>: one of those named, whichever it is; placed after a list or after <lak>, among	
@@ -1930,7 +1930,7 @@ s17961	rope/cord/string	a rope, cord, string or thread of any thickness; {khau d
 s17962	like a cord	<khau> and <bang> written as one word: like a cord, a simile of songs and poetic speech for what is drawn out, traced or entangled	
 s17963	blue cord	<khau>, cord, with <dum>, blue: a blue cord or blue thread	
 s17964	vine/creeper	<khau>, rope, with <gui>, vine: a climbing or trailing plant with long stems like cords, also used for tying	
-s17965	hard/stiff/unyielding/strong	hard, firm or strong, not giving way; {lung khauh} and {lungsim khauh} mean stubborn or hard-hearted, and {khauh takin} means firmly or severely	
+s17965	hard/stiff/unyielding/strong/stern	hard, firm or strong, not giving way; {lung khauh} and {lungsim khauh} mean stubborn or hard-hearted, and {khauh takin} means firmly or severely	
 s17966	strong/hard	<khauh> written with a capital in a heading, {Itna in Sihna Zahin Khauh}, love is as strong as death	
 s17967	stubbornly/stiffly/firmly	<khauh>, hard, with the ending <in>; after <lung> or <lungsim> it means stubbornly, with a hard heart	
 s17968	become strong again/regain strength	<khauh>, strong, with <kik>, again: become strong again	

@@ -14,17 +14,17 @@ s46011	w42615	1	n			bible	2		19.64.2
 s46012	w42615	2	n			bible	2		21.11.2	
 s46013	w42616	1	n		social/everyday	core	2		zd:16254/zd:24481	
 s46014	w42617	1	n		social/everyday	core	2		zd:16254/zd:14760	
-s46015	w42618	1	adj		social	core	2		zd:22658/zd:17291/zd:26643	
+s46015	w42618	1	adj		social	core	2		zd:22658/zd:17291/zd:26643/zai:courteous	
 s46016	w42619	1	n		social	core	1		zd:24594/zd:25616/ts:301	
 s46017	w42620	1	prep		social	core	2		zd:21421/zd:25616	
 s46018	w42621	1	n			bible	2			
 s46019	w42622	1	n			bible	2			
 s46020	w42623	1	v			bible	2			
-s46021	w42623	2	n		everyday	core	2		zd:24253/zd:17328/zd:21362	
+s46021	w42623	2	n		everyday	core	2		zd:24253/zd:17328/zd:21362/zai:secret	
 s46022	w42624	1	n			bible	2			
 s46023	w42625	1	n			bible	2			
 s46024	w42626	1	adv			bible	2		42.8.17	
-s46025	w42627	1	v		social/everyday	core	2		zd:16009/zd:21341/zd:23680	
+s46025	w42627	1	v		social/everyday	core	2		zd:16009/zd:21341/zd:23680/zai:disregard/zai:disrespect/zai:disdain	
 s46026	w42628	1	n			bible	2			
 s46027	w42629	1	n			bible	2			
 s46028	w42630	1	n			bible	2			
@@ -36,15 +36,15 @@ s46033	w42635	1	v		education/religion	core	2		zd:17723/zd:24574/zd:10966
 s46034	w42636	1	n		education/religion	core	2		zd:9430/zd:20403/zd:26643	
 s46035	w42637	1	n		education/religion	core	2		zd:20775	
 s46036	w42638	1	v			bible	2			
-s46037	w42638	2	v		politics/social	core	2		zd:19465/zd:14701/zd:18014	
+s46037	w42638	2	v		politics/social	core	2		zd:19465/zd:14701/zd:18014/zai:interrogate	
 s46038	w42639	1	v		politics	core	2		zd:14797	
 s46039	w42640	1	v			bible	2			
-s46040	w42641	1	n			bible	2		44.25.9	
+s46040	w42641	1	n			bible	2		44.25.9/zai:trial	
 s46041	w42642	1	v		politics/media	core	2		zd:17145/zd:17149	
 s46042	w42643	1	v		politics	core	2		zd:17524/zd:13255	
 s46043	w42644	1	adv		politics	core	2		zd:19199/zd:20732	
 s46044	w42645	1	v		work/politics	core	1		zd:15681/zd:16406	
-s46045	w42646	1	n		politics/media	core	2		zd:25022/zd:16210/zd:25461	
+s46045	w42646	1	n		politics/media	core	2		zd:25022/zd:16210/zd:25461/zai:communique	
 s46046	w42647	1	n			bible	1			
 s46047	w42647	2	n		media/politics	core	2		ts:4549/ts:8561/ts:4005	
 s46048	w42648	1	v		media/politics	core	2		ts:4549/zd:15329/ts:8561	
@@ -55,9 +55,9 @@ s46052	w42651	2	n		education/media	core	1		zd:11170/zd:15047
 s46053	w42652	1	phrase		religion	core	2		zd:23432/zd:17087	
 s46054	w42653	1	n		politics/social	core	1		zd:26658/zd:16150	
 s46055	w42654	1	n		media/politics	core	1		zd:17344	
-s46056	w42655	1	n			bible	2		19.119.138	
+s46056	w42655	1	n			bible	2		19.119.138/zai:truth	
 s46057	w42656	1	adv			bible	2			
-s46058	w42657	1	n			bible	2			
+s46058	w42657	1	n			bible	2		zai:fidelity	
 s46059	w42658	1	n			bible	2			
 s46060	w42659	1	n			bible	2			
 s46061	w42660	1	adj		everyday/social	core	2		zd:25043/zd:23112	
@@ -79,12 +79,12 @@ s46076	w42675	1	n			bible	2
 s46077	w42676	1	n			bible	2			
 s46078	w42677	1	n			bible	2			
 s46079	w42678	1	n			bible	2			
-s46080	w42679	1	n		social	core	2			
-s46081	w42680	1	n			bible	2			
+s46080	w42679	1	n		social	core	2		zai:news	
+s46081	w42680	1	n			bible	2		zai:news	
 s46082	w42681	1	n		media/politics	core	1		ts:10582/ts:11444	
 s46083	w42682	1	n		media	core	2		zd:24643	
 s46084	w42683	1	n			bible	2			
-s46085	w42684	1	n		media	core	2		zd:14965/zd:14652/zd:12407	
+s46085	w42684	1	n		media	core	2		zd:14965/zd:14652/zd:12407/zai:rumour	
 s46086	w42685	1	n		media	core	2		zd:22728/zd:19906	
 s46087	w42686	1	n		media	core	2		zd:19197/zd:17547	
 s46088	w42687	1	adj			bible	2			
@@ -113,7 +113,7 @@ s46110	w42707	1	adv		everyday	core	2		zd:24253/zd:24491
 s46111	w42708	1	n		media	core	2		zd:24488/zd:22590	
 s46112	w42709	1	adj		everyday/nature	core	2		zd:21027/zd:9433/zd:22827	
 s46113	w42710	1	adj		nature/everyday	core	2		zd:18147	
-s46114	w42711	1	v			bible	2		44.25.3	
+s46114	w42711	1	v			bible	2		44.25.3/zai:appeal/zai:entreat	
 s46115	w42711	2	v			bible	2			
 s46116	w42712	1	v			bible	2			
 s46117	w42713	1	v		social	core	1		zd:14581/zd:11396	
@@ -121,7 +121,7 @@ s46118	w42713	2	v		politics	core	1		zd:17393
 s46119	w42714	1	adj		religion	core	1		zd:23079	
 s46120	w42715	1	n			bible	2		25.3.56	
 s46121	w42715	2	n			bible	2			
-s46122	w42715	3	n		social/media	core	2		zd:16947/zd:19906/zd:19932	
+s46122	w42715	3	n		social/media	core	2		zd:16947/zd:19906/zd:19932/zai:apology	
 s46123	w42716	1	n			bible	2			
 s46124	w42717	1	v			bible	2		24.7.16	
 s46125	w42718	1	v			bible	2			
@@ -143,7 +143,7 @@ s46140	w42731	1	n			bible	2
 s46141	w42732	1	n		media/social	core	2		zd:12936/ts:1919/zd:15627	
 s46142	w42733	1	n			bible	2			
 s46143	w42734	1	n			bible	1			
-s46144	w42735	1	v			bible	2			
+s46144	w42735	1	v			bible	2		zai:convince	
 s46145	w42736	1	n		social/politics	core	2		zd:13076/zd:24630/zd:23332	
 s46146	w42736	2	n		social/religion	core	1		zd:25194	
 s46147	w42737	1	n		work/politics	core	1		zd:13154/zd:16556	
@@ -152,8 +152,8 @@ s46149	w42739	1	n			bible	2
 s46150	w42740	1	n			bible	2			
 s46151	w42741	1	phrase		everyday	core	2		zd:24641/zd:12050	
 s46152	w42742	1	n		education	core	2		pk:63/pk:64	
-s46153	w42743	1	n			bible	2			
-s46154	w42744	1	n			bible	2			
+s46153	w42743	1	n			bible	2		zai:lie	
+s46154	w42744	1	n			bible	2		zai:lie	
 s46155	w42745	1	n			bible	2			
 s46156	w42746	1	n			bible	2			
 s46157	w42747	1	n			bible	2			
@@ -240,7 +240,7 @@ s46237	w42827	1	name	khua		name	2
 s46238	w42828	1	name	khua		name	2			
 s46239	w42829	1	phrase		education	core	2		pk:184	
 s46240	w42830	1	name		politics	core	2		ts:3882/zd:16262	
-s46241	w42831	1	part			bible	2			
+s46241	w42831	1	part			bible	2		zai:up	
 s46242	w42831	2	v			bible	2			
 s46243	w42831	3	n			bible	2			
 s46244	w42831	4	part		everyday	core	2		zd:23489/zd:17574	
@@ -267,7 +267,7 @@ s46264	w42851	1	name	male		bible	2		9.1.1
 s46265	w42852	1	name	male		bible	2		10.8.9	
 s46266	w42853	1	n		home	core	2	English	zd:13089/zd:15732	
 s46267	w42854	1	part			bible	2			
-s46268	w42855	1	v			bible	2			
+s46268	w42855	1	v			bible	2		zai:stir	
 s46269	w42855	2	v			bible	1			
 s46270	w42856	1	n		politics	core	1		zd:11110	
 s46271	w42857	1	v			bible	2			
@@ -288,7 +288,7 @@ s46285	w42872	1	v			bible	2
 s46286	w42873	1	v			bible	2			
 s46287	w42874	1	n			bible	2			
 s46288	w42875	1	v			bible	2			
-s46289	w42876	1	n	animal		bible	1			
+s46289	w42876	1	n	animal		bible	2		zai:snail	
 s46290	w42877	1	name	city	travel	core	2		zd:17432/zd:25918	
 s46291	w42878	1	adj			bible	2			
 s46292	w42879	1	name	male		bible	2		1.46.13/13.7.1	
@@ -299,13 +299,13 @@ s46296	w42883	1	name	city		bible	2		44.21.7
 s46297	w42884	1	v			bible	2			
 s46298	w42885	1	v			bible	2			
 s46299	w42885	2	v			bible	1			
-s46300	w42885	3	v		body/nature	core	2		zd:20083/zd:14734/zd:12187	
+s46300	w42885	3	v		body/nature	core	2		zd:20083/zd:14734/zd:12187/zai:slide	
 s46301	w42886	1	v			bible	2			
 s46302	w42887	1	v			bible	2			
 s46303	w42888	1	v		nature/travel	core	2		zd:21563/zd:15693	
 s46304	w42889	1	v		body/everyday	core	2		zd:21690	
 s46305	w42890	1	v			bible	2			
-s46306	w42891	1	adj		everyday	core	2		24.25.23	
+s46306	w42891	1	adj		everyday	core	2		24.25.23/zai:short/zai:brief	
 s46307	w42891	2	v			bible	2			
 s46308	w42892	1	adj		everyday/home	core	1		zd:11506	
 s46309	w42893	1	name	beh		name	2			
@@ -317,7 +317,7 @@ s46314	w42897	1	n		time	core	2		zd:18164/zd:24712
 s46315	w42898	1	n		time	core	2		zd:11860/zd:22023/zd:21340	
 s46316	w42899	1	n			bible	2			
 s46317	w42900	1	n			bible	2			
-s46318	w42901	1	adj		media/education	core	2		zd:10788/zd:11434/zd:23170	
+s46318	w42901	1	adj		media/education	core	2		zd:10788/zd:11434/zd:23170/zai:concise	
 s46319	w42902	1	adj		media/education	core	2		zd:17639/zd:16302	
 s46320	w42903	1	n		education/media	core	2		zd:25110/zd:17051/zd:22646	
 s46321	w42904	1	n		education/media	core	2		zd:9212/zd:24931/zd:12948	
@@ -333,7 +333,7 @@ s46330	w42912	2	n			bible	2
 s46331	w42913	1	adj			bible	2		19.73.19	
 s46332	w42914	1	n			bible	2			
 s46333	w42915	1	adj		everyday	core	2		zd:24786/zd:21308	
-s46334	w42916	1	v			bible	2			
+s46334	w42916	1	v			bible	2		zai:shorten/zai:abridge/zai:curtail	
 s46335	w42917	1	v			bible	1			
 s46336	w42918	1	adj		everyday	core	2		zd:21063/ts:2963	
 s46337	w42919	1	adj		everyday	core	1		zd:24641	
@@ -384,7 +384,7 @@ s46381	w42961	1	v			bible	2
 s46382	w42962	1	name	khua	travel	core	2		zd:21233/zd:14867/zd:20673	
 s46383	w42963	1	name	beh		name	2			
 s46384	w42964	1	adj		everyday/time	core	2		zd:14579/zd:21904	
-s46385	w42965	1	n			bible	2			
+s46385	w42965	1	n			bible	2		zai:madam	
 s46386	w42966	1	n			bible	2			
 s46387	w42967	1	name		travel	core	2		zd:11416/zd:22124	
 s46388	w42968	1	name	khua		name	2			
@@ -393,8 +393,8 @@ s46390	w42970	1	n		work	core	1	English	zd:16926/zd:16410
 s46391	w42971	1	v			bible	2			
 s46392	w42971	2	adj		media	core	2	English	zd:15061/zd:17634/zd:21282	
 s46393	w42972	1	name	land		bible	2			
-s46394	w42973	1	n			bible	2		1.43.20	
-s46395	w42974	1	n			bible	2		5.2.17	
+s46394	w42973	1	n			bible	2		1.43.20/zai:lord	
+s46395	w42974	1	n			bible	2		5.2.17/zai:lord	
 s46396	w42975	1	name	male	religion	core	2		zd:25138/zd:16428	
 s46397	w42976	1	name	male	religion	core	2		zd:21125/zd:11163	
 s46398	w42977	1	n		religion	core	2		zd:21761/zd:12383	
@@ -489,7 +489,7 @@ s46486	w43060	1	n		education	core	2		pk:184
 s46487	w43061	1	adj			bible	2			
 s46488	w43061	2	v		everyday/body	core	2		zai:sit	
 s46489	w43061	3	n		family	core	2		zai:grandchild	
-s46490	w43061	4	n		work	core	2		pk:31	
+s46490	w43061	4	n		work	core	2		pk:31/zai:hoe	
 s46491	w43062	1	n		education/time	core	2		pk:70	
 s46492	w43063	1	n		education	core	2		pk:71	
 s46493	w43064	1	n		education	core	2		pk:71	
@@ -507,8 +507,8 @@ s46504	w43075	1	phrase			bible	2
 s46505	w43076	1	v		everyday/religion	core	1		pk:139	
 s46506	w43077	1	adv		everyday/time	core	2		zai:now	
 s46507	w43078	1	n		work	core	2		pk:31	
-s46508	w43079	1	pron		everyday	core	2			
-s46509	w43080	1	pron			bible	2		9.25.3	
+s46508	w43079	1	pron		everyday	core	2		zai:that	
+s46509	w43080	1	pron			bible	2		9.25.3/zai:that	
 s46510	w43081	1	conj		everyday	core	2		zd:23943/zd:12112	
 s46511	w43082	1	conj		everyday	core	2		zd:21085/zd:20572	
 s46512	w43083	1	adv		everyday	core	2		zd:20942/zd:9240	
@@ -525,7 +525,7 @@ s46522	w43093	1	pron		everyday	core	1		zd:16958/ts:11247
 s46523	w43094	1	adv		everyday	core	2		zd:21458/zd:17860	
 s46524	w43095	1	conj		everyday	core	2		zd:22827	
 s46525	w43096	1	adv		everyday	core	2		zd:17542/zd:17689/zd:15467	
-s46526	w43097	1	conj		everyday	core	2		zd:11702/zd:11224	
+s46526	w43097	1	conj		everyday	core	2		zd:11702/zd:11224/zai:moreover/zai:besides	
 s46527	w43098	1	adv		everyday	core	2		zd:24248/zd:18206/zd:19800	
 s46528	w43099	1	adv		time	core	2		zd:18077/zd:15283	
 s46529	w43100	1	adv		everyday/media	core	2		zd:21850/zd:23343	
@@ -533,7 +533,7 @@ s46530	w43101	1	adv		everyday	core	2		zd:12023/zd:17060
 s46531	w43102	1	adv		everyday	core	2		zd:19166/zd:22827/zd:20627	
 s46532	w43103	1	det		everyday	core	2		zd:19239/zd:12115/zd:21389	
 s46533	w43104	1	adv		time	core	2		zd:24276/zd:18139	
-s46534	w43105	1	adv		everyday	core	2		zd:20092/zd:14824	
+s46534	w43105	1	adv		everyday	core	2		zd:20092/zd:14824/zai:accordingly/zai:likewise/zai:thus	
 s46535	w43106	1	adv		everyday	core	2		zd:21869/zd:13124	
 s46536	w43107	1	pron		everyday	core	2		zd:19166/zd:15946	
 s46537	w43108	1	pron		everyday	core	2		zd:18244	
@@ -542,7 +542,7 @@ s46539	w43110	1	conj		everyday	core	2		zd:23972/zd:20769/zd:23432
 s46540	w43111	1	conj		everyday	core	2		zd:13222/zd:12942	
 s46541	w43112	1	conj			bible	2			
 s46542	w43113	1	adv		everyday/time	core	2		zd:15920/zd:16598/zd:15067	
-s46543	w43114	1	conj		everyday/time	core	2		zd:20755/zd:24276/zd:21015	
+s46543	w43114	1	conj		everyday/time	core	2		zd:20755/zd:24276/zd:21015/zai:then	
 s46544	w43115	1	v			bible	2			
 s46545	w43116	1	adv		everyday	core	2		zd:18206/zd:17599/zd:20834	
 s46546	w43117	1	adv		everyday	core	2		zd:15951	
@@ -582,7 +582,7 @@ s46579	w43146	1	name	beh		name	2
 s46580	w43147	1	v			bible	1			
 s46581	w43148	1	v			bible	2			
 s46582	w43149	1	v			bible	2			
-s46583	w43150	1	n		everyday/religion	core	2		zd:23551/zd:24224	
+s46583	w43150	1	n		everyday/religion	core	2		zd:23551/zd:24224/zai:fortune	
 s46584	w43151	1	v		social	core	2		zd:23022/zd:21843	
 s46585	w43152	1	adj			bible	2			
 s46586	w43153	1	v			bible	1			
@@ -596,8 +596,8 @@ s46593	w43158	1	phrase		everyday	core	2		zd:19468/zd:12974
 s46594	w43159	1	n			bible	2			
 s46595	w43160	1	v		travel/everyday	core	2		zd:19054/zd:19431	
 s46596	w43161	1	v		health/everyday	core	2		zd:12422/zd:12042	
-s46597	w43162	1	n			bible	2			
-s46598	w43162	2	n		travel/media	core	2		zd:19979/zd:15368/zd:17777	
+s46597	w43162	1	n			bible	2		zai:disaster/zai:misfortune	
+s46598	w43162	2	n		travel/media	core	2		zd:19979/zd:15368/zd:17777/zai:accident	
 s46599	w43163	1	n		media/travel	core	2		zd:14818/zd:15816	
 s46600	w43164	1	n			bible	2			
 s46601	w43165	1	v			bible	1			
@@ -618,7 +618,7 @@ s46615	w43178	1	phrase		education	core	2		pk:47
 s46616	w43179	1	adv		everyday	core	1		zd:20317/zd:25572	
 s46617	w43180	1	v			bible	2			
 s46618	w43180	2	adv			bible	2		2.32.15	
-s46619	w43180	3	v			bible	1		1.4.15	
+s46619	w43180	3	v			bible	2		1.4.15/zai:experience/zai:face	
 s46620	w43180	4	v		everyday	core	2		pk:38/pk:39	
 s46621	w43180	5	v		everyday	core	1		pk:39	
 s46622	w43181	1	adv			bible	2			
@@ -654,9 +654,9 @@ s46651	w43204	1	v		everyday	core	2		zd:20736/zd:20627
 s46652	w43205	1	n			bible	2			
 s46653	w43206	1	v			bible	2			
 s46654	w43207	1	v			bible	2			
-s46655	w43208	1	v			bible	2		15.9.13	
+s46655	w43208	1	v			bible	2		15.9.13/zai:inflict	
 s46656	w43208	2	v		health/everyday	core	1		zd:17239/zd:12490	
-s46657	w43209	1	v			bible	2			
+s46657	w43209	1	v			bible	2		zai:descend	
 s46658	w43210	1	v			bible	1			
 s46659	w43211	1	v			bible	1			
 s46660	w43212	1	n		everyday	core	2		zd:9430/zd:11046	
@@ -675,7 +675,7 @@ s46672	w43222	1	adv		travel/everyday	core	1		zd:11110
 s46673	w43223	1	n			bible	2			
 s46674	w43223	2	n		travel	core	2		zd:15309/zd:17297/zd:22736	
 s46675	w43224	1	adv		time	core	2		zd:24231/zd:19581	
-s46676	w43225	1	adv		everyday/media	core	1		zd:25203/zd:11827	
+s46676	w43225	1	adv		everyday/media	core	2		zd:25203/zd:11827/zai:there	
 s46677	w43226	1	adv		everyday/media	core	2		zd:13157/zd:12935	
 s46678	w43227	1	n		everyday/travel	core	2		zd:12691/zd:11209/zd:13002	
 s46679	w43228	1	adv		time	core	2		zd:15368/zd:16490/zd:15125	
@@ -721,11 +721,11 @@ s46718	w43263	1	n			bible	2
 s46719	w43264	1	n		social/religion	core	1		pk:128	
 s46720	w43265	1	v		social/travel	core	1		zd:26097	
 s46721	w43266	1	n			bible	2			
-s46722	w43267	1	n		politics/social	core	2		zd:16254/zd:20667	
-s46723	w43268	1	n		politics/social	core	2		zd:24221/zd:24115	
+s46722	w43267	1	n		politics/social	core	2		zd:16254/zd:20667/zai:homicide	
+s46723	w43268	1	n		politics/social	core	2		zd:24221/zd:24115/zai:murder	
 s46724	w43269	1	adj		travel/work	core	1		zd:15182	
 s46725	w43270	1	name	khua		name	2			
-s46726	w43271	1	v			bible	2		26.1.23	
+s46726	w43271	1	v			bible	2		26.1.23/zai:cover	
 s46727	w43271	2	adj		everyday	core	2			
 s46728	w43271	3	adv		everyday	core	2		zd:19408/zd:22496/zd:17675	
 s46729	w43272	1	adv		everyday	core	2		zd:9124/zd:20814/ts:3508	
@@ -741,7 +741,7 @@ s46738	w43279	1	v		social/everyday	core	1		zd:16752/zd:11778
 s46739	w43280	1	n		social/politics	core	2		ts:4823	
 s46740	w43281	1	name	khua		name	2			
 s46741	w43282	1	adj		everyday/social	core	2		zd:11648/zd:20999	
-s46742	w43283	1	v			bible	2			
+s46742	w43283	1	v			bible	2		zai:enfold/zai:swathe	
 s46743	w43284	1	v			bible	2			
 s46744	w43285	1	n			bible	2			
 s46745	w43286	1	adj			bible	2			
@@ -803,7 +803,7 @@ s46800	w43332	1	n			bible	2
 s46801	w43333	1	adj			bible	1			
 s46802	w43334	1	v		travel	core	2		zd:13276/zd:12891	
 s46803	w43334	2	part		everyday	core	1		zd:11980	
-s46804	w43335	1	v			bible	2		7.12.14	
+s46804	w43335	1	v			bible	2		7.12.14/zai:mount	
 s46805	w43336	1	v			bible	2			
 s46806	w43337	1	v			bible	1			
 s46807	w43338	1	v		travel	core	2		zd:14555/zd:15307/zd:14557	
@@ -856,12 +856,12 @@ s46853	w43383	1	v		social/politics	core	2		zd:21228/zd:21383
 s46854	w43384	1	n		social	core	2		pk:164	
 s46855	w43385	1	adj		everyday	core	2		zd:9142/zd:26049	
 s46856	w43386	1	pron			bible	2			
-s46857	w43387	1	n		body/health	core	2		zd:21388/zd:24276/zd:20841	
+s46857	w43387	1	n		body/health	core	2		zd:21388/zd:24276/zd:20841/zai:lung	
 s46858	w43388	1	pron			bible	2			
 s46859	w43389	1	adv		everyday/time	core	2		zd:20806/zd:12271/zd:17009	
 s46860	w43390	1	adv		everyday	core	2		zd:17605/zd:19569/zd:17572	
 s46861	w43391	1	pron		everyday	core	2		zd:15759/zd:16786/zd:11060	
-s46862	w43392	1	pron		everyday	core	2		zd:21075/zd:12341/zd:25919	
+s46862	w43392	1	pron		everyday	core	2		zd:21075/zd:12341/zd:25919/zai:that	
 s46863	w43393	1	n		everyday/media	core	2		zd:17023/zd:19562	
 s46864	w43394	1	adv		everyday	core	1		zd:19790/zd:12477	
 s46865	w43395	1	adv		everyday	core	1		zd:22977	
@@ -875,7 +875,7 @@ s46872	w43402	1	n		work	core	2		zd:19863/zd:12327
 s46873	w43403	1	adv		everyday	core	2		zd:16796/zd:22293/zd:14665	
 s46874	w43404	1	adv		everyday	core	2		zd:17297/zd:19754/zd:19520	
 s46875	w43405	1	adv		everyday/travel	core	2		zd:10821/zd:15592	
-s46876	w43406	1	v			bible	2			
+s46876	w43406	1	v			bible	2		zai:calculate/zai:reckon/zai:assess	
 s46877	w43406	2	v		everyday	core	2		zd:24491/zd:17154/zd:25340	
 s46878	w43407	1	adv		time	core	2		zd:26049/zd:24481	
 s46879	w43408	1	adv		everyday	core	2		zd:16331/zd:15619	
@@ -896,7 +896,7 @@ s46893	w43422	1	phrase		everyday	core	2		zd:20734/zd:23984
 s46894	w43423	1	pron		everyday	core	2		zd:17094/zd:15243/zd:19860	
 s46895	w43424	1	n		everyday	core	2		zd:21876/zd:11880/zd:14660	
 s46896	w43425	1	phrase		everyday/work	core	2		zd:16901	
-s46897	w43426	1	n			bible	2			
+s46897	w43426	1	n			bible	2		zai:calculation/zai:estimation	
 s46898	w43427	1	v		work/everyday	core	2		zd:25287/zd:21458	
 s46899	w43428	1	v		politics/media	core	2		zd:16146/zd:18145	
 s46900	w43429	1	v		everyday	core	2		zd:23332/zd:13169	
@@ -935,10 +935,10 @@ s46932	w43460	1	adv		time	core	2		zd:21745/zd:25687
 s46933	w43461	1	adv			bible	2		40.27.8	
 s46934	w43462	1	adv		time	core	2		zd:11782/zd:12053/zd:11945	
 s46935	w43463	1	n	ni	time	core	2	English	zd:15342/zd:15729	
-s46936	w43464	1	n		work/home	core	1		zd:15996	
+s46936	w43464	1	n		work/home	core	2		zd:15996/zai:haft/zai:helve	
 s46937	w43465	1	n		home/work	core	1		pk:128	
-s46938	w43466	1	v			bible	2		21.11.4	
-s46939	w43466	2	v		social	core	1		zd:21085/zd:20513	
+s46938	w43466	1	v			bible	2		21.11.4/zai:sow	
+s46939	w43466	2	v		social	core	2		zd:21085/zd:20513/zai:contest	
 s46940	w43467	1	v			bible	2			
 s46941	w43468	1	v			bible	2			
 s46942	w43469	1	v		politics/social	core	2		zd:22369/zd:25330	
@@ -961,9 +961,9 @@ s46958	w43482	1	adv			bible	2
 s46959	w43482	2	adv			bible	2			
 s46960	w43483	1	adv		time	core	2		zd:17493/zd:20131	
 s46961	w43484	1	n		social/politics	core	2		zd:17586	
-s46962	w43485	1	n		food/nature	core	2			
+s46962	w43485	1	n		food/nature	core	2		zai:water	
 s46963	w43485	2	v		nature/food	core	2		pk:10	
-s46964	w43486	1	n			bible	2			
+s46964	w43486	1	n			bible	2		zai:water	
 s46965	w43487	1	n		food/health	core	2		zd:16665/zd:24276/zd:15730	
 s46966	w43488	1	v		religion	core	2		zd:11159/zd:14927/zd:18081	
 s46967	w43489	1	phrase		social	core	1		pk:173	
@@ -978,7 +978,7 @@ s46975	w43497	1	n			bible	2
 s46976	w43498	1	phrase		nature/everyday	core	2		zd:17416/zd:14545	
 s46977	w43499	1	n		home	core	2		pk:43	
 s46978	w43500	1	name	khua		name	2			
-s46979	w43501	1	n			bible	2			
+s46979	w43501	1	n			bible	2		zai:reservoir	
 s46980	w43502	1	n			bible	2			
 s46981	w43503	1	n			bible	2			
 s46982	w43504	1	name	khua		name	2			
@@ -987,7 +987,7 @@ s46984	w43505	2	n		social/time	core	2		zd:19051/zd:19260/zd:23485
 s46985	w43505	3	v		nature/home	core	1		zd:17177	
 s46986	w43506	1	n			bible	2			
 s46987	w43507	1	n		social/time	core	2		zd:12115/zd:19342	
-s46988	w43508	1	v			bible	2			
+s46988	w43508	1	v			bible	2		zai:water	
 s46989	w43509	1	n			bible	2			
 s46990	w43510	1	v		media/nature	core	2		zd:26566/zd:19826	
 s46991	w43511	1	n		everyday/body	core	2		zd:20430/zd:20177	
@@ -1025,7 +1025,7 @@ s47022	w43538	1	n		home/work	core	1		zd:22650
 s47023	w43539	1	adv			bible	1			
 s47024	w43541	1	adv			bible	1			
 s47025	w43542	1	n		nature/health	core	2		zd:25223/zd:16114	
-s47026	w43543	1	n			bible	2			
+s47026	w43543	1	n			bible	2		zai:wave	
 s47027	w43544	1	n		nature/social	core	2		zd:22305/zd:23806	
 s47028	w43545	1	n			bible	2			
 s47029	w43546	1	n			bible	2			
@@ -1033,7 +1033,7 @@ s47030	w43547	1	n			bible	2
 s47031	w43548	1	name	river	nature/travel	core	1		pk:123	
 s47032	w43549	1	n			bible	2			
 s47033	w43550	1	n			bible	2			
-s47034	w43551	1	n			bible	2		18.6.16	
+s47034	w43551	1	n			bible	2		18.6.16/zai:ice	
 s47035	w43552	1	n			bible	2			
 s47036	w43553	1	n		nature	core	2		zd:14983/zd:13239	
 s47037	w43554	1	n			bible	2		18.22.16	
@@ -1047,8 +1047,8 @@ s47044	w43560	1	v			bible	1
 s47045	w43561	1	name	khua	travel	core	2		zd:25479/ts:3168	
 s47046	w43562	1	n		nature/work	core	2		zd:20627/zd:22650	
 s47047	w43563	1	n			bible	2		24.51.16	
-s47048	w43564	1	n			bible	2		1.26.19	
-s47049	w43565	1	n			bible	2			
+s47048	w43564	1	n			bible	2		1.26.19/zai:well	
+s47049	w43565	1	n			bible	2		zai:well	
 s47050	w43566	1	n			bible	2			
 s47051	w43567	1	n			bible	2			
 s47052	w43568	1	n			bible	2			
@@ -1065,8 +1065,8 @@ s47062	w43577	1	n			bible	2
 s47063	w43578	1	n			bible	2		11.7.44	
 s47064	w43579	1	n			bible	2			
 s47065	w43580	1	n			bible	2			
-s47066	w43581	1	n			bible	2		66.16.20	
-s47067	w43582	1	n			bible	2			
+s47066	w43581	1	n			bible	2		66.16.20/zai:island	
+s47067	w43582	1	n			bible	2		zai:island	
 s47068	w43583	1	adv		nature/travel	core	1		zd:20218	
 s47069	w43584	1	n			bible	2			
 s47070	w43585	1	n		nature/travel	core	2		zd:17958/zd:11058	
@@ -1075,7 +1075,7 @@ s47072	w43587	1	phrase		nature/travel	core	2		zd:16304/zd:11600
 s47073	w43588	1	n			bible	2			
 s47074	w43588	2	n		home/politics	core	2		zd:17834/zd:15590	
 s47075	w43588	3	n		nature/travel	core	1		zd:15002	
-s47076	w43589	1	n			bible	2			
+s47076	w43589	1	n			bible	2		zai:canal	
 s47077	w43589	2	n		home/social	core	2		zd:17335/zd:15590	
 s47078	w43590	1	n			bible	2			
 s47079	w43590	2	n		travel/politics	core	2		zd:22785/zd:19960/zd:24040	
@@ -1085,7 +1085,7 @@ s47082	w43592	1	name	khua	travel	core	2		zd:16983/zd:11409
 s47083	w43593	1	n			bible	2			
 s47084	w43594	1	n			bible	2		41.5.1	
 s47085	w43595	1	n			bible	2			
-s47086	w43596	1	n			bible	2			
+s47086	w43596	1	n			bible	2		zai:deluge	
 s47087	w43597	1	n			bible	2			
 s47088	w43598	1	n			bible	2			
 s47089	w43599	1	n			bible	2			
@@ -1102,7 +1102,7 @@ s47099	w43609	1	name	khua		name	2
 s47100	w43610	1	n	animal		bible	2			
 s47101	w43611	1	name	khua		name	2			
 s47102	w43612	1	v			bible	1			
-s47103	w43612	2	adv		time	core	2		zd:19729/zd:20753/zd:12386	
+s47103	w43612	2	adv		time	core	2		zd:19729/zd:20753/zd:12386/zai:now	
 s47104	w43613	1	n		nature	core	2		zd:17387/zd:15996	
 s47105	w43614	1	n			bible	2		14.32.4	
 s47106	w43615	1	n			bible	2			
@@ -1117,7 +1117,7 @@ s47114	w43623	1	n		home/health	core	2		zd:17295/zd:12387
 s47115	w43624	1	n			bible	2			
 s47116	w43625	1	n		nature/home	core	2		zd:16871	
 s47117	w43626	1	n		home/work	core	2		zd:20297/zd:17387	
-s47118	w43627	1	v			bible	2			
+s47118	w43627	1	v			bible	2		zai:swim	
 s47119	w43628	1	n			bible	2			
 s47120	w43629	1	v		everyday/nature	core	2		zd:11762/zd:22910	
 s47121	w43630	1	phrase		nature	core	2		zd:17517/zd:14914	
@@ -1125,20 +1125,20 @@ s47122	w43631	1	n			bible	2
 s47123	w43632	1	n			bible	2			
 s47124	w43634	1	n			bible	1			
 s47125	w43635	1	n			bible	1			
-s47126	w43636	1	n			bible	1			
+s47126	w43636	1	n			bible	2		zai:foam	
 s47127	w43637	1	n			bible	1			
-s47128	w43638	1	v			bible	2			
+s47128	w43638	1	v			bible	2		zai:baptize	
 s47129	w43638	2	n		religion	core	2		zd:21547/zd:22928/zd:16016	
 s47130	w43639	1	n		religion	core	2		zd:21547/zd:24186	
-s47131	w43640	1	n			bible	2		42.20.7	
+s47131	w43640	1	n			bible	2		42.20.7/zai:baptism	
 s47132	w43641	1	n			bible	2			
 s47133	w43642	1	n			bible	2		40.17.13	
 s47134	w43643	1	v			bible	2			
 s47135	w43644	1	n		religion	core	2		zd:20636/zd:14735	
-s47136	w43645	1	n			bible	2			
+s47136	w43645	1	n			bible	2		zai:sea	
 s47137	w43646	1	name	khua		name	2			
 s47138	w43647	1	n		travel/social	core	2		zd:22054/zd:16686	
-s47139	w43648	1	n	land	nature/travel	core	2		zd:9211/zd:21803/zd:22557	
+s47139	w43648	1	n	land	nature/travel	core	2		zd:9211/zd:21803/zd:22557/zai:coast	
 s47140	w43649	1	n			bible	2			
 s47141	w43650	1	n		travel/social	core	2		zd:20507/zd:16588	
 s47142	w43651	1	n		nature/travel	core	2		zd:17649	
@@ -1155,7 +1155,7 @@ s47152	w43660	1	phrase		nature/travel	core	2		zd:11501/zd:12936
 s47153	w43661	1	n			bible	2			
 s47154	w43661	2	n			bible	2			
 s47155	w43662	1	n			bible	2			
-s47156	w43663	1	n		home/everyday	core	2		zd:14824/zd:23767	
+s47156	w43663	1	n		home/everyday	core	2		zd:14824/zd:23767/zai:oilcloth/zai:rain-wear	
 s47157	w43664	1	n		food/home	core	2		zd:15425/zd:25223	
 s47158	w43665	1	n		food/home	core	2		zd:19987	
 s47159	w43666	1	v			bible	2			
@@ -1174,8 +1174,8 @@ s47171	w43676	1	n		food/health	core	2		zd:14790/zd:25909
 s47172	w43677	1	n		home/food	core	2		zd:17668/zd:18042/zd:17958	
 s47173	w43678	1	n			bible	2			
 s47174	w43679	1	v		everyday/food	core	2		zd:24276/zd:24320	
-s47175	w43680	1	v			bible	2			
-s47176	w43681	1	v			bible	2			
+s47175	w43680	1	v			bible	2		zai:melt	
+s47176	w43681	1	v			bible	2		zai:dissolve	
 s47177	w43682	1	name	beh		name	2			
 s47178	w43683	1	phrase			bible	2			
 s47179	w43684	1	adv		nature/everyday	core	2		zd:14301/zd:20747/zd:19427	
@@ -1198,7 +1198,7 @@ s47195	w43699	1	n		nature/work	core	2		zd:22650/ts:5049
 s47196	w43700	1	name	khua		name	2			
 s47197	w43701	1	name	khua	travel	core	2		zd:16924	
 s47198	w43702	1	n			bible	2		9.26.11	
-s47199	w43703	1	n	animal	nature	core	2		zd:23767	
+s47199	w43703	1	n	animal	nature	core	2		zd:23767/zai:dragonfly	
 s47200	w43704	1	n			bible	2			
 s47201	w43704	2	n			bible	2			
 s47202	w43705	1	n			bible	2			
@@ -1214,8 +1214,8 @@ s47211	w43714	1	name	khua	travel	core	1		zd:24049/zd:18896
 s47212	w43715	1	n			bible	2			
 s47213	w43716	1	name	khua	social	core	2		zd:25734/zd:23278	
 s47214	w43717	1	n		home/nature	core	2		zd:18200/zd:17939	
-s47215	w43718	1	n			bible	2			
-s47216	w43719	1	n		home/work	core	2		zd:17834/zd:23767	
+s47215	w43718	1	n			bible	2		zai:tube	
+s47216	w43719	1	n		home/work	core	2		zd:17834/zd:23767/zai:hose	
 s47217	w43720	1	n			bible	2			
 s47218	w43721	1	phrase		everyday/nature	core	2		zd:20902/zd:12869	
 s47219	w43722	1	v		everyday	core	2		19.37.24	
@@ -1249,7 +1249,7 @@ s47246	w43744	1	v			bible	1
 s47247	w43745	1	n			bible	2			
 s47248	w43746	1	n		home/body	core	1		pk:118	
 s47249	w43747	1	n		home/body	core	1		pk:118	
-s47250	w43748	1	n		media	core	2		zd:23427/zd:10892/zd:11714	
+s47250	w43748	1	n		media	core	2		zd:23427/zd:10892/zd:11714/zai:football	
 s47251	w43749	1	n		time/nature	core	1		zd:23699	
 s47252	w43750	1	v			bible	2			
 s47253	w43751	1	v			bible	2			
@@ -1265,7 +1265,7 @@ s47262	w43760	1	adv		time	core	2		zd:15031
 s47263	w43761	1	adv		time	core	2		zd:12259/zd:19018	
 s47264	w43762	1	adv		time	core	2		zd:20173/zd:19558/zd:19567	
 s47265	w43763	1	adv		time	core	2		zd:12271/zd:12164/zd:12259	
-s47266	w43764	1	num			bible	2		4.31.45	
+s47266	w43764	1	num			bible	2		4.31.45/zai:thousand	
 s47267	w43765	1	det		time/media	core	2		zd:19659	
 s47268	w43766	1	adv		time	core	2		zd:24242/zd:23904	
 s47269	w43767	1	det			bible	2			
@@ -1335,7 +1335,7 @@ s47332	w43829	1	num			bible	2
 s47333	w43830	1	num			bible	2			
 s47334	w43831	1	n			bible	2			
 s47335	w43832	1	v		everyday/social	core	2			
-s47336	w43832	2	v		everyday	core	1		pk:30	
+s47336	w43832	2	v		everyday	core	2		pk:30/zai:enter	
 s47337	w43832	3	v		nature/time	core	2		pk:88	
 s47338	w43832	4	v		everyday/social	core	2		pk:163	
 s47339	w43833	1	adv			bible	2			
@@ -1356,7 +1356,7 @@ s47353	w43846	2	v		media	core	1		zd:16442
 s47354	w43846	3	v		travel/nature	core	1		zd:18920	
 s47355	w43847	1	v			bible	2			
 s47356	w43847	2	v		travel/everyday	core	1		zd:21015	
-s47357	w43848	1	n		media/social	core	2		zd:19756/zd:21286/zd:26310	
+s47357	w43848	1	n		media/social	core	2		zd:19756/zd:21286/zd:26310/zai:music	
 s47358	w43849	1	v		everyday	core	1		zd:21458/zd:20176	
 s47359	w43850	1	v			bible	2			
 s47360	w43850	2	v			bible	2		4.5.24	
@@ -1368,11 +1368,11 @@ s47365	w43854	2	v			bible	2
 s47366	w43855	1	v			bible	2			
 s47367	w43855	2	v			bible	2			
 s47368	w43856	1	n	plant		bible	2			
-s47369	w43857	1	n	direction	nature	core	2		zd:24227/zd:9424	
+s47369	w43857	1	n	direction	nature	core	2		zd:24227/zd:9424/zai:west	
 s47370	w43858	1	v		politics	core	1		zd:12103	
 s47371	w43859	1	v			bible	2			
 s47372	w43860	1	n			bible	2		5.34.2	
-s47373	w43860	2	n			bible	2		6.20.4	
+s47373	w43860	2	n			bible	2		6.20.4/zai:entrance/zai:entry/zai:access	
 s47374	w43860	3	n			bible	2			
 s47375	w43861	1	n		everyday	core	2		zd:15372/zd:18005	
 s47376	w43862	1	n			bible	2			
@@ -1386,7 +1386,7 @@ s47383	w43868	1	n			bible	2
 s47384	w43869	1	v			bible	1			
 s47385	w43870	1	adj			bible	1			
 s47386	w43870	2	adj			bible	1			
-s47387	w43871	1	v			bible	2			
+s47387	w43871	1	v			bible	2		zai:admit	
 s47388	w43871	2	v			bible	1			
 s47389	w43871	3	v			bible	2			
 s47390	w43872	1	n			bible	2			
@@ -1430,15 +1430,15 @@ s47427	w43904	1	adv		time/travel	core	2		zd:16337/zd:26708
 s47428	w43905	1	v			bible	2			
 s47429	w43906	1	v			bible	2			
 s47430	w43907	1	v		travel/everyday	core	2		zd:25394/zd:17383	
-s47431	w43908	1	v			bible	2		15.7.8/43.20.8	
+s47431	w43908	1	v			bible	2		15.7.8/43.20.8/zai:arrive/zai:reach	
 s47432	w43908	2	prep			bible	2		1.1.2/1.1.26	
 s47433	w43908	3	prep		everyday	core	2		ts:2400/zd:25136	
 s47434	w43909	1	ppm			bible	1			
 s47435	w43910	1	adv			bible	2			
 s47436	w43910	2	prep			bible	2		1.1.7	
 s47437	w43911	1	prep		everyday	core	2		zd:20778/zd:23005	
-s47438	w43912	1	adv			bible	2			
-s47439	w43912	2	prep			bible	2			
+s47438	w43912	1	adv			bible	2		zai:over	
+s47439	w43912	2	prep			bible	2		zai:above/zai:on	
 s47440	w43912	3	prep		everyday/social	core	2		ts:301/ts:9579	
 s47441	w43913	1	v		everyday	core	2		zd:24064/zd:25891/zd:23394	
 s47442	w43914	1	v		everyday/social	core	2		zd:16150/zd:21551/zd:20264	
@@ -1473,7 +1473,7 @@ s47470	w43940	1	v			bible	2
 s47471	w43941	1	v		travel	core	2		zd:12005/zd:17323	
 s47472	w43942	1	v			bible	1			
 s47473	w43942	2	v		travel	core	2		zd:22095/zd:25393/zd:14821	
-s47474	w43943	1	adv			bible	2			
+s47474	w43943	1	adv			bible	2		zai:above	
 s47475	w43944	1	adv			bible	2			
 s47476	w43945	1	adv		everyday	core	2		zd:24276/zd:17442	
 s47477	w43946	1	phrase		everyday	core	2		zd:15272/zd:19800	
@@ -1482,7 +1482,7 @@ s47479	w43947	1	adv		everyday	core	1		zd:17402/zd:17332
 s47480	w43948	1	v		everyday/travel	core	2		zd:16245/zd:12337/zd:23932	
 s47481	w43949	1	name	beh		name	2			
 s47482	w43950	1	adv		time/travel	core	2		zd:25789	
-s47483	w43951	1	n			bible	2			
+s47483	w43951	1	n			bible	2		zai:clay	
 s47484	w43951	2	v		travel/time	core	2		zd:18110/zd:16101/zd:17060	
 s47485	w43952	1	v		travel/everyday	core	2		zd:11450/zd:21366	
 s47486	w43953	1	v		everyday	core	1		zd:11617/zd:12153	
@@ -1646,7 +1646,7 @@ s47643	w44097	1	v		travel	core	2		zd:22784/zd:25624
 s47644	w44098	1	adj			bible	2			
 s47645	w44099	1	v		travel/everyday	core	2		zd:23554/zd:18952/zd:20862	
 s47646	w44100	1	n		travel/everyday	core	2		zd:17264/zd:20125/zd:19915	
-s47647	w44101	1	n			bible	2			
+s47647	w44101	1	n			bible	2		zai:granddaughter	
 s47648	w44102	1	v			bible	2			
 s47649	w44103	1	v		travel	core	2		zd:19166/zd:17060	
 s47650	w44104	1	adv			bible	2			
@@ -1658,19 +1658,19 @@ s47655	w44108	1	n		everyday/travel	core	2		zd:21900
 s47656	w44109	1	v			bible	1			
 s47657	w44110	1	v			bible	2			
 s47658	w44110	2	v			bible	1			
-s47659	w44111	1	n			bible	2		24.36.11	
+s47659	w44111	1	n			bible	2		24.36.11/zai:grandson	
 s47660	w44111	2	n			bible	2			
 s47661	w44112	1	adv		time	core	2		zd:11135	
 s47662	w44113	1	n			bible	2			
 s47663	w44114	1	v			bible	1			
-s47664	w44115	1	n			bible	2			
+s47664	w44115	1	n			bible	2		zai:spade	
 s47665	w44116	1	n		work/home	core	2		zd:25457/zd:22550	
 s47666	w44117	1	adj			bible	1			
 s47667	w44117	2	n		nature/travel	core	2		zd:24452/zd:25159/zd:20486	
 s47668	w44117	3	n		work/home	core	1		ts:3369	
 s47669	w44118	1	v			bible	2			
 s47670	w44119	1	n		everyday/work	core	2		zd:17309/zd:16844	
-s47671	w44120	1	n			bible	2			
+s47671	w44120	1	n			bible	2		zai:aim/zai:intention/zai:intent/zai:target	
 s47672	w44120	2	n			bible	1			
 s47673	w44121	1	n		everyday/work	core	2		zd:23725/zd:10743	
 s47674	w44122	1	n		everyday/social	core	2		zd:15570/ts:11679/zd:25919	
@@ -1684,7 +1684,7 @@ s47681	w44129	1	v			bible	2
 s47682	w44129	2	v		travel	core	2		zd:15342/zd:11827	
 s47683	w44130	1	v			bible	1			
 s47684	w44131	1	v			bible	2			
-s47685	w44132	1	n			bible	2			
+s47685	w44132	1	n			bible	2		zai:great-grandchild	
 s47686	w44133	1	adv			bible	1			
 s47687	w44134	1	n			bible	2			
 s47688	w44135	1	v			bible	2			
@@ -1724,7 +1724,7 @@ s47721	w44164	1	n		social/family	core	2		zd:21155/zd:21908/ts:7820
 s47722	w44165	1	phrase		everyday	core	2		pk:161	
 s47723	w44166	1	n			bible	2			
 s47724	w44167	1	n		home/social	core	1		zd:16832/zd:20751	
-s47725	w44168	1	n			bible	2			
+s47725	w44168	1	n			bible	2		zai:seat	
 s47726	w44169	1	phrase		home/travel	core	1		pk:180	
 s47727	w44170	1	n			bible	2			
 s47728	w44171	1	n			bible	2			
@@ -1750,10 +1750,10 @@ s47747	w44189	1	adv			bible	1
 s47748	w44190	1	adv		time	core	1		zd:25668/zd:15805	
 s47749	w44191	1	adv			bible	2			
 s47750	w44192	1	adv		time/everyday	core	2		zd:12271/zd:16406	
-s47751	w44193	1	n	animal		bible	2			
+s47751	w44193	1	n	animal		bible	2		zai:sheep	
 s47752	w44193	2	v		social/politics	core	1		zd:23471	
 s47753	w44193	3	n		family	core	2		pk:168	
-s47754	w44194	1	n			bible	2			
+s47754	w44194	1	n			bible	2		zai:sheep	
 s47755	w44195	1	n			bible	2			
 s47756	w44196	1	n			bible	2			
 s47757	w44197	1	n			bible	2			
@@ -1815,7 +1815,7 @@ s47812	w44249	1	n	animal		bible	2
 s47813	w44250	1	n	animal		bible	2			
 s47814	w44251	1	n	animal		bible	2			
 s47815	w44252	1	n			bible	2			
-s47816	w44253	1	adv			bible	2			
+s47816	w44253	1	adv			bible	2		zai:tonight	
 s47817	w44254	1	adv			bible	2			
 s47818	w44255	1	v			bible	1			
 s47819	w44256	1	conj			bible	2			
@@ -1826,7 +1826,7 @@ s47823	w44256	5	prep			bible	2
 s47824	w44257	1	adv		time	core	2		zd:25119/zd:25138/zd:25046	
 s47825	w44258	1	adv		time	core	2		zd:12900/zd:15651	
 s47826	w44259	1	adv		time	core	2		zd:17483/zd:15811	
-s47827	w44260	1	n			bible	1			
+s47827	w44260	1	n			bible	2		zai:mattock	
 s47828	w44261	1	n			bible	2		10.12.31	
 s47829	w44262	1	n		media/home	core	2	English	zd:10957/zd:23240/zd:22686	
 s47830	w44263	1	name		it/media	core	2		zd:13041	
@@ -1895,7 +1895,7 @@ s47892	w44327	1	part			bible	2
 s47893	w44327	2	part		everyday	core	2		zd:16897/zd:22479/zd:16820	
 s47894	w44327	3	part		everyday	core	1		zd:15902/zd:20289	
 s47895	w44328	1	adv		everyday	core	2		zd:11487/zd:11253	
-s47896	w44329	1	n	animal	nature/home	core	2			
+s47896	w44329	1	n	animal	nature/home	core	2		zai:dog	
 s47897	w44330	1	phrase		home	core	1		zd:16588/zd:25908	
 s47898	w44331	1	phrase		social	core	1		pk:173	
 s47899	w44332	1	n	animal	nature/home	core	2		pk:61	
@@ -1911,14 +1911,14 @@ s47908	w44341	1	n			bible	2
 s47909	w44342	1	v		health	core	1		zd:15182	
 s47910	w44343	1	n	star		bible	1			
 s47911	w44344	1	n		nature/home	core	2		zd:15848/zd:19398	
-s47912	w44345	1	n	animal		bible	2			
+s47912	w44345	1	n	animal		bible	2		zai:flea	
 s47913	w44346	1	n			bible	2			
 s47914	w44347	1	n			bible	2			
-s47915	w44348	1	n	animal	nature/home	core	2		zd:17992/zd:20930/zd:15358	
+s47915	w44348	1	n	animal	nature/home	core	2		zd:17992/zd:20930/zd:15358/zai:whelp	
 s47916	w44349	1	phrase		nature/home	core	2		zd:15848/zd:15283	
 s47917	w44350	1	n	animal		bible	2			
 s47918	w44351	1	n	animal		bible	2			
-s47919	w44352	1	n	animal	nature/home	core	2		zd:19295/zd:15283	
+s47919	w44352	1	n	animal	nature/home	core	2		zd:19295/zd:15283/zai:bitch	
 s47920	w44353	1	n	animal	nature/work	core	2		zd:11792/zd:21291/zd:15344	
 s47921	w44354	1	n		food	core	2		zd:13133/zd:15283	
 s47922	w44355	1	adj			bible	1			
@@ -1931,13 +1931,13 @@ s47928	w44360	1	n	animal		bible	2		42.16.21
 s47929	w44361	1	v		social	core	2		zd:24594/zd:19671/zd:25488	
 s47930	w44362	1	phrase		social	core	1		pk:171	
 s47931	w44363	1	n			bible	2			
-s47932	w44363	2	n			bible	2			
+s47932	w44363	2	n			bible	2		zai:rule	
 s47933	w44363	3	n			bible	2			
-s47934	w44363	4	n			bible	2			
+s47934	w44363	4	n			bible	2		zai:govern/zai:administer	
 s47935	w44363	5	v		everyday	core	2		zd:16442/zd:21529	
-s47936	w44364	1	n			bible	2		61.1.11	
-s47937	w44365	1	v			bible	2		24.27.8	
-s47938	w44366	1	n		politics	core	2		zd:10957/zd:25099/zd:22293	
+s47936	w44364	1	n			bible	2		61.1.11/zai:reign/zai:rule	
+s47937	w44365	1	v			bible	2		24.27.8/zai:control/zai:dominate	
+s47938	w44366	1	n		politics	core	2		zd:10957/zd:25099/zd:22293/zai:oppression	
 s47939	w44367	1	v			bible	1			
 s47940	w44368	1	v		politics	core	2		ts:8689	
 s47941	w44369	1	n		politics	core	2		zd:22910/zd:17536	
@@ -1955,8 +1955,8 @@ s47952	w44379	1	v			bible	1
 s47953	w44380	1	v		politics	core	2		zd:24318/zd:10702	
 s47954	w44381	1	n			bible	2			
 s47955	w44382	1	v		everyday	core	2		zd:13343/zd:21406/zd:17450	
-s47956	w44383	1	n			bible	2			
-s47957	w44383	2	n			bible	2			
+s47956	w44383	1	n			bible	2		zai:administration/zai:government	
+s47957	w44383	2	n			bible	2		zai:command	
 s47958	w44383	3	n			bible	2			
 s47959	w44383	4	v			bible	2			
 s47960	w44384	1	n			bible	2			
@@ -1968,7 +1968,7 @@ s47965	w44389	1	n			bible	2
 s47966	w44390	1	n			bible	2			
 s47967	w44391	1	n		social	core	2			
 s47968	w44392	1	n			bible	2			
-s47969	w44393	1	n			bible	2			
+s47969	w44393	1	n			bible	2		zai:ruler/zai:chieftain	
 s47970	w44394	1	n			bible	2			
 s47971	w44395	1	name	land	politics	core	2		zd:17361	
 s47972	w44396	1	name	land	politics	core	2		zd:25603/zd:25650/zd:9211	
