@@ -1,4 +1,4 @@
-"""The generated credits file: every source named in ``r`` and every Bible text read."""
+"""The generated credits file: every listed source and every Bible text read."""
 
 from __future__ import annotations
 
@@ -39,7 +39,7 @@ def build(config: Config) -> str:
         "",
         "## Sources",
         "",
-        "A row or an example names its source in `r` by the code shown here.",
+        "A sense or an example names its source by the code shown here.",
     ]
     for code, entry in config.sources.items():
         lines += ["", f"### `{code}`: {entry['name']}", "", entry["description"], ""]

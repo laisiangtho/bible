@@ -30,3 +30,6 @@ __pycache__/
 # Environment files
 .env
 .env.test
+
+# Markup files being typed or pulled for an import
+cite/inbox/

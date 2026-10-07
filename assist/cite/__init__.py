@@ -1,5 +1,5 @@
-"""Zolai-English dictionary source: markup, rules and queries.
+"""Tooling for the Zolai-English dictionary data in ``cite/``.
 
-The row format is specified in ``cite/Markup.md``; every closed list is read
-from ``cite/configuration.json``.
+The format is described in ``cite/Format.md``; every closed list is in
+``cite/configuration.json``.
 """

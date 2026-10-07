@@ -1,106 +1,276 @@
 {
   "name": "cite",
   "title": "Zolai–English dictionary source",
-  "description": "Configuration of the cite data: the files that hold the rows, the row markup, and every closed list the markup refers to. The file is the single source for both tooling and readers; Markup.md explains the same rules in prose. Every list below is closed: a value that is not listed is an error.",
-  "version": 2,
+  "description": "Configuration of the cite data, format 3: the tables that hold the lexicon, the ids that link them, the markup in which entries are typed and shown, and every closed list. The file is the single source for both tooling and readers; Format.md explains the same rules in prose. Every list below is closed: a value that is not listed is an error.",
+  "version": 3,
   "language": {
     "keyword": {
       "code": "ctd",
       "name": "Zolai (Tedim)",
       "description": "Language of every keyword, of the attributes s, a, b and v, and of the Zolai part of an example."
     },
-    "term": {
-      "code": "eng",
-      "name": "English",
-      "description": "Language of the attributes w, d, o, q, of the description and of the English part of an example."
+    "gloss": {
+      "eng": {
+        "name": "English",
+        "description": "Terms and definitions in English; translations of the examples."
+      },
+      "mya": {
+        "name": "Burmese",
+        "description": "Terms and definitions in Burmese; translations of the examples."
+      },
+      "nob": {
+        "name": "Norwegian",
+        "description": "Terms and definitions in Norwegian Bokmål; translations of the examples."
+      }
     }
   },
   "format": {
-    "description": "Physical rules of a data file.",
+    "description": "Physical rules of a table file. The first line names the columns. A value never holds a tab or a line break; an absent value is empty. Rows are sorted by their columns, an id by its number.",
     "encoding": "utf-8",
-    "bom": false,
     "newline": "\n",
-    "finalNewline": true,
-    "tab": false,
-    "extension": ".cite",
-    "filename": "{language}-{file}{extension}",
-    "comment": "#",
-    "separator": "=",
-    "example": "{language}-{file}.example{extension}",
-    "translation": "ext/{language}-{code}{extension}",
-    "link": "ext/eng-{language}{extension}",
-    "index": "index/{code}.txt"
+    "separator": "\t",
+    "extension": ".tsv",
+    "list": "/",
+    "shard": "{block:04d}",
+    "inbox": "inbox",
+    "markup": ".cite"
   },
-  "file": {
+  "id": {
+    "description": "An id is a letter and a number. A number is given once and never reused. A sharded table keeps a row in the file named by the block of its first column: the number divided by the block size.",
+    "word": {
+      "prefix": "w",
+      "block": 5000
+    },
+    "sense": {
+      "prefix": "s",
+      "block": 2000
+    },
+    "example": {
+      "prefix": "e",
+      "block": 5000
+    }
+  },
+  "table": {
+    "word": {
+      "description": "Every written form. A word without a sense is a form that only points at other words through a relation.",
+      "path": "word",
+      "shard": true,
+      "columns": {
+        "id": "Word id.",
+        "spelling": "The word as written. Case is significant. Unique.",
+        "status": "Code of the word status list."
+      }
+    },
+    "sense": {
+      "description": "Every meaning of a word.",
+      "path": "sense",
+      "shard": true,
+      "columns": {
+        "id": "Sense id.",
+        "word": "Word id.",
+        "number": "Number of the sense within its word, shown as khut.1. Never reused. May be empty for a sense of type todo.",
+        "type": "Code of the type list.",
+        "category": "Codes of the category list.",
+        "field": "Codes of the field list.",
+        "set": "Code of the set list.",
+        "status": "Code of the sense status list.",
+        "origin": "Language or word the keyword was borrowed from.",
+        "source": "Where the sense is attested: Bible verses and codes of the source list with a locator.",
+        "note": "Remark that belongs to the status: what is uncertain, what a reviewer needs to know."
+      }
+    },
+    "gloss": {
+      "description": "Terms and definition of a sense in one language. One folder per language code.",
+      "path": "gloss/{language}",
+      "shard": true,
+      "columns": {
+        "sense": "Sense id.",
+        "terms": "Words of that language with the meaning of the sense, the best first.",
+        "definition": "Explanation of the meaning. May hold links and mentions.",
+        "text": "Remark on usage or grammar that is not the meaning itself. May hold links and mentions."
+      }
+    },
+    "relation": {
+      "description": "Links between senses and words. The kinds are in the relation list.",
+      "path": "relation",
+      "shard": true,
+      "columns": {
+        "from": "Sense id; for the kind see, a word id.",
+        "kind": "Code of the relation list.",
+        "to": "Word id, or a sense id when one meaning of the target is meant.",
+        "order": "Position of the target among the targets of the same kind, from 1."
+      }
+    },
+    "example": {
+      "description": "Every example sentence or fragment, stored once.",
+      "path": "example",
+      "shard": true,
+      "columns": {
+        "id": "Example id.",
+        "source": "Where the text comes from: a Bible verse or a code of the source list with a locator. May be empty.",
+        "text": "The text in Zolai, in full."
+      }
+    },
+    "usage": {
+      "description": "Which sense an example shows, and where in the text the keyword stands.",
+      "path": "usage",
+      "shard": true,
+      "columns": {
+        "example": "Example id.",
+        "sense": "Sense id.",
+        "start": "Positions of the word of the text at which the keyword starts, counted from 1. A position is repeated when the keyword stands more than once in that word.",
+        "length": "Number of words the keyword covers."
+      }
+    },
+    "translation": {
+      "description": "Translation of an example in one language. One folder per language code.",
+      "path": "translation/{language}",
+      "shard": true,
+      "columns": {
+        "example": "Example id.",
+        "text": "The translation."
+      }
+    },
+    "link": {
+      "description": "Words of a language that are not a term of any sense, each sent to the closest senses. One file per language code. A link does not state that the meanings are equal.",
+      "path": "link/{language}",
+      "shard": false,
+      "columns": {
+        "term": "The word, in lowercase.",
+        "senses": "Sense ids, the closest first.",
+        "source": "How the link was found.",
+        "status": "Code of the sense status list.",
+        "note": "Remark that belongs to the status."
+      }
+    },
+    "note": {
+      "description": "Open points for an editor: concepts without a keyword, words whose meaning is not settled.",
+      "path": "note/open",
+      "shard": false,
+      "columns": {
+        "kind": "Code of the note list.",
+        "subject": "The concept or word.",
+        "source": "Where it was met.",
+        "text": "What was found."
+      }
+    },
+    "sequence": {
+      "description": "The highest id number given out, per kind of id.",
+      "path": "sequence",
+      "shard": false,
+      "columns": {
+        "table": "word, sense or example.",
+        "last": "Highest number given out."
+      }
+    }
+  },
+  "status": {
+    "description": "State of review. The table holds the code; the markup holds the name in q.",
+    "sense": {
+      "0": {
+        "name": "retired",
+        "description": "No longer part of the lexicon. The row stays so that its id is not reused."
+      },
+      "1": {
+        "name": "low",
+        "description": "Drafted on thin evidence; likely to need correction."
+      },
+      "2": {
+        "name": "draft",
+        "description": "Drafted and not yet reviewed. The status of a typed row without q."
+      },
+      "3": {
+        "name": "reviewed",
+        "description": "Read by a reviewer who found no fault; not yet confirmed by the maintainer."
+      },
+      "4": {
+        "name": "confirmed",
+        "description": "Confirmed by a speaker of the language."
+      },
+      "5": {
+        "name": "disputed",
+        "description": "Reviewers disagree, or a fault was reported and is not yet resolved."
+      }
+    },
+    "word": {
+      "0": {
+        "name": "retired",
+        "description": "No longer part of the lexicon."
+      },
+      "1": {
+        "name": "standard",
+        "description": "The spelling the lexicon uses."
+      },
+      "2": {
+        "name": "variant",
+        "description": "Another accepted spelling of a standard word."
+      },
+      "3": {
+        "name": "nonstandard",
+        "description": "A spelling met in texts that the lexicon does not recommend."
+      }
+    }
+  },
+  "relation": {
+    "s": {
+      "name": "synonym",
+      "description": "The target has the same meaning."
+    },
+    "a": {
+      "name": "antonym",
+      "description": "The target has the opposite meaning."
+    },
+    "b": {
+      "name": "base",
+      "description": "The keyword is a plural, suffixed or prefixed form of the target."
+    },
+    "j": {
+      "name": "join",
+      "description": "The keyword joins or respells the targets. Several targets: separate words written as one, in their order. One target: the same word in another spelling."
+    },
+    "v": {
+      "name": "variant",
+      "description": "The target is another spelling of the keyword and has no sense of its own."
+    },
+    "see": {
+      "name": "redirect",
+      "description": "From a word to a word: the form occurs only as part of the target."
+    }
+  },
+  "set": {
     "core": {
       "name": "Core lexicon",
-      "description": "General vocabulary of everyday life and of modern subjects, independent of the Bible text. A sense lives in one data file only: a general sense belongs here, a sense that is specific to the Bible text stays in the draft file."
+      "description": "General vocabulary of everyday life and of modern subjects, independent of the Bible text."
     },
-    "draft": {
+    "bible": {
       "name": "Bible lexicon",
-      "description": "Vocabulary and names drawn from the Bible text, sorted by keyword; rows of one keyword list its senses in order. A row with q was drafted from verse evidence and is not yet confirmed by a speaker of the language; a confirmed row carries no q."
+      "description": "Vocabulary drawn from the Bible text."
     },
-    "digit-number": {
-      "name": "Digits",
-      "description": "Numbers written with digits in the Bible text.",
-      "require": {
-        "t": "num"
-      }
+    "name": {
+      "name": "Names",
+      "description": "Names of persons, peoples, places, clans, months, days and books."
+    }
+  },
+  "note": {
+    "concept": {
+      "name": "Concept without keyword",
+      "description": "A concept of the core lexicon that still lacks a Zolai keyword."
     },
-    "noun-beh": {
-      "name": "Clan names",
-      "description": "Zomi clan (beh) names.",
-      "require": {
-        "t": "name",
-        "c": "beh"
-      }
+    "english": {
+      "name": "English word without sense",
+      "description": "A common English word for which no sense is close enough."
     },
-    "noun-khua": {
-      "name": "Village and town names",
-      "description": "Names of villages and towns (khua).",
-      "require": {
-        "t": "name",
-        "c": "khua"
-      }
+    "article": {
+      "name": "Undetermined word of the articles",
+      "description": "A word frequent in the news articles whose meaning could not be determined."
     },
-    "noun-kha": {
-      "name": "Months",
-      "description": "Zolai names of the months (kha). The keyword is the Zolai name; the English month is the term.",
-      "require": {
-        "t": "n",
-        "c": "kha"
-      }
+    "book": {
+      "name": "Undetermined word of the grammar book",
+      "description": "A word of Paunam Khenna leh Kampau Luanzia whose meaning could not be determined."
     },
-    "noun-ni": {
-      "name": "Days of the week",
-      "description": "Zolai names of the days of the week (ni). The keyword is the Zolai name; the English day is the term.",
-      "require": {
-        "t": "n",
-        "c": "ni"
-      }
-    },
-    "noun-min": {
-      "name": "Personal names",
-      "description": "Zomi personal names (min).",
-      "require": {
-        "t": "name"
-      }
-    },
-    "noun-testament": {
-      "name": "Testaments",
-      "description": "Names of the two testaments of the Bible.",
-      "require": {
-        "t": "name",
-        "c": "testament"
-      }
-    },
-    "noun-book": {
-      "name": "Bible books",
-      "description": "Names of the 66 books of the Bible, in canonical order.",
-      "require": {
-        "t": "name",
-        "c": "book"
-      }
+    "editor": {
+      "name": "Note for the editor",
+      "description": "A remark on a keyword of the Bible lexicon."
     }
   },
   "keyword": {
@@ -114,189 +284,108 @@
       "144"
     ]
   },
-  "symbol": {
-    "=": {
-      "name": "separator",
-      "description": "The first = on a line ends the keyword and starts the body. A line without = is a keyword-only row."
-    },
-    "#": {
-      "name": "comment",
-      "description": "A line whose first character is # is a comment. A comment cannot follow a row on the same line."
-    },
-    "()": {
-      "name": "attribute",
-      "description": "Parentheses are reserved for attributes, written (key:value). They never appear in a keyword, inside a value or in the description."
-    },
-    "/": {
-      "name": "list separator",
-      "description": "Separates the items of a list attribute. In a text attribute and in the description it is an ordinary character."
-    },
-    "~": {
-      "name": "keyword placeholder",
-      "description": "Stands for the keyword in the Zolai part of an example row. Allowed only there."
-    },
-    "|": {
-      "name": "translation separator",
-      "description": "In an example row, separates the Zolai example from its English translation. Allowed only there, exactly once per row."
-    },
-    "<>": {
-      "name": "cross-reference",
-      "description": "Encloses a keyword that exists in the data, or the key of one sense, as in khat.2; a tool shows it as a link. Several are written one after another or joined by the list separator, so that <a/b> is the same as <a> and <b>. Allowed in the attributes d and q and in the description."
-    },
-    "{}": {
-      "name": "mention",
-      "description": "Encloses Zolai text inside English prose that is not a link: a phrase, an ending such as -pa, a form without a row, or the keyword of the row itself. A tool shows it as Zolai. A single keyword that has a row is written as a cross-reference instead. Allowed in the attributes d and q and in the description."
-    },
-    ".": {
-      "name": "sense key",
-      "description": "Joins a keyword and a sense number into the key of one sense, as in kipat.2. A sense key starts every row of an example file and of a translation file."
-    }
+  "markup": {
+    "description": "The markup in which entries are typed and shown. A row is a keyword, the separator and attributes written (key:value); an example row is a sense key, the separator, the Zolai text with the keyword written as ~, the translation separator and the English translation. The commands import and pull turn markup into table changes and tables into markup.",
+    "separator": "=",
+    "comment": "#",
+    "remove": "-",
+    "placeholder": "~",
+    "translation": "|",
+    "done": "# done"
   },
   "attribute": {
     "i": {
       "name": "sense",
-      "description": "Number of this sense of the keyword: a positive whole number, unique among the rows of one keyword in all data files and never reused. Keyword and number form the sense key, as in kipat.2.",
-      "value": "number",
+      "description": "Which sense the row is. Absent: a new sense. A number or a sense id: that sense is replaced by the row. A plus sign: a new sense although a similar one exists.",
       "list": false,
-      "required": false,
-      "order": 0,
       "example": "(i:2)"
     },
     "t": {
       "name": "type",
       "description": "Word class of the keyword. Exactly one code from the type list.",
-      "value": "code",
       "list": false,
-      "required": true,
-      "source": "type",
-      "order": 1,
       "example": "(t:v)"
     },
     "c": {
       "name": "category",
       "description": "What kind of thing the keyword names. One or more codes from the category list.",
-      "value": "code",
       "list": true,
-      "required": false,
-      "source": "category",
-      "order": 2,
       "example": "(c:land)"
     },
     "f": {
       "name": "field",
       "description": "Subject area in which this sense is used. One or more codes from the field list.",
-      "value": "code",
       "list": true,
-      "required": false,
-      "source": "field",
-      "order": 3,
       "example": "(f:health)"
     },
     "w": {
       "name": "term",
       "description": "English word or words with the same meaning as this sense of the keyword. Items of one row are interchangeable; a different meaning goes on its own row.",
-      "value": "english",
       "list": true,
-      "required": false,
-      "order": 4,
       "example": "(w:begin/start)"
     },
     "d": {
       "name": "definition",
       "description": "English explanation of the meaning, used when no English term fits or in addition to one. May contain cross-references.",
-      "value": "english",
       "list": false,
-      "required": false,
-      "xref": true,
-      "order": 5,
       "example": "(d:postpositional marker indicating place or time)"
     },
     "s": {
       "name": "synonym",
-      "description": "Keywords with the same meaning. Every item is a keyword that exists in the data.",
-      "value": "keyword",
+      "description": "Keywords with the same meaning. An item is a keyword, or a sense key such as khut.1 when one meaning is meant.",
       "list": true,
-      "required": false,
-      "resolve": true,
-      "order": 6,
       "example": "(s:leh)"
     },
     "a": {
       "name": "antonym",
-      "description": "Keywords with the opposite meaning. Every item is a keyword that exists in the data.",
-      "value": "keyword",
+      "description": "Keywords with the opposite meaning. An item is a keyword or a sense key.",
       "list": true,
-      "required": false,
-      "resolve": true,
-      "order": 7,
       "example": "(a:lian)"
     },
     "b": {
       "name": "base",
       "description": "The keyword this form is built from, for plural, suffixed and prefixed forms. One keyword that exists in the data.",
-      "value": "keyword",
       "list": false,
-      "required": false,
-      "resolve": true,
-      "order": 8,
       "example": "(b:vantung)"
     },
     "j": {
       "name": "joins",
       "description": "The keywords that this written form joins or respells. Several items: separate words written as one, as aom joins a and om. One item: the same word in another spelling; such a row may leave out w and d and then carries the meaning of the keyword it names. Every item is a keyword that exists in the data.",
-      "value": "keyword",
       "list": true,
-      "required": false,
-      "resolve": true,
-      "order": 9,
       "example": "(j:a/om)"
     },
     "v": {
       "name": "variant",
-      "description": "Other spellings of the same keyword. An item is never the keyword of another row.",
-      "value": "keyword",
+      "description": "Other spellings of the same keyword. An item has no sense of its own; a word row with the status variant is made for it.",
       "list": true,
-      "required": false,
-      "resolve": false,
-      "order": 10,
       "example": "(v:Shoute)"
     },
     "o": {
       "name": "origin",
       "description": "Language the keyword comes from, optionally followed by a comma and the source word.",
-      "value": "english",
       "list": false,
-      "required": false,
-      "order": 11,
       "example": "(o:Hebrew, kerub)"
     },
     "r": {
       "name": "reference",
       "description": "Where this sense is attested. A Bible verse is written book.chapter.verse with book numbers 1 to 66, and a verse range uses a hyphen. Any other source is written as a code from the source list, optionally followed by a colon and a locator inside that source.",
-      "value": "reference",
       "list": true,
-      "required": false,
-      "pattern": "^(?:(?:[1-9]|[1-5][0-9]|6[0-6])\\.[1-9][0-9]{0,2}\\.[1-9][0-9]{0,2}(?:-[1-9][0-9]{0,2})?|(?P<source>[a-z][a-z0-9]*)(?::[^\\s/()<>|~=][^/()<>|~=]*)?)$",
-      "order": 12,
       "example": "(r:1.1.1/1.2.4-6/zai:market)"
     },
     "q": {
-      "name": "query",
-      "description": "Open question about the row. Its presence marks the row as not verified.",
-      "value": "english",
+      "name": "status",
+      "description": "Name of the sense status, optionally followed by a comma and a remark. Absent: draft.",
       "list": false,
-      "required": false,
-      "xref": true,
-      "order": 13,
-      "example": "(q:meaning not confirmed)"
+      "example": "(q:low, inferred from one sentence)"
+    },
+    "e": {
+      "name": "example",
+      "description": "On an example row: the id of the example that the row replaces, or a plus sign for a new example although one with the same text and source exists.",
+      "list": false,
+      "example": "(e:e88120)"
     }
   },
-  "text": {
-    "name": "description",
-    "description": "Free English text after the last attribute: a remark on usage or grammar that is not the meaning itself. May contain cross-references.",
-    "value": "english",
-    "xref": true
-  },
+  "reference": "^(?:(?:[1-9]|[1-5][0-9]|6[0-6])\\.[1-9][0-9]{0,2}\\.[1-9][0-9]{0,2}(?:-[1-9][0-9]{0,2})?|(?P<source>[a-z][a-z0-9]*)(?::[^\\s/()<>|~=][^/()<>|~=]*)?)$",
   "type": {
     "n": {
       "name": "noun",
@@ -356,12 +445,12 @@
     },
     "see": {
       "name": "redirect",
-      "description": "Row that only points to another keyword. The body is the type followed by exactly one cross-reference.",
+      "description": "A form that only points to another keyword. Typed as the type followed by exactly one link; stored as a relation of the kind see, not as a sense.",
       "meaning": false
     },
     "todo": {
       "name": "to do",
-      "description": "Keyword collected but not yet described.",
+      "description": "Keyword collected but not yet described. The note of the status says why.",
       "meaning": false
     }
   },
@@ -554,162 +643,12 @@
       "permission": "Requested by the editor in October 2026; the wording of the credit is not yet received. Only single words and short fragments of sentences are quoted.",
       "url": "https://tongsan.org"
     },
-      "pk": {
-        "name": "Paunam Khenna leh Kampau Luanzia",
-        "description": "Zolai grammar and composition book, written in Zolai, with lessons, word lists, word pairs, sayings and Zomi customs. The locator is the page number printed in the book.",
-        "owner": "Sia Cin Sian Pau; set again by Lia Cingsen, 2008",
-        "credit": "Words, word pairs, sayings and examples from Paunam Khenna leh Kampau Luanzia by Sia Cin Sian Pau",
-        "permission": "Not yet asked. Only single words, word pairs, sayings and short fragments of sentences are quoted; the text of the book is not stored."
-      }
-  },
-  "translation": {
-    "mya": {
-      "name": "Burmese",
-      "description": "Terms and definitions in Burmese."
-    },
-    "nob": {
-      "name": "Norwegian",
-      "description": "Terms and definitions in Norwegian Bokmål."
-    }
-  },
-  "link": {
-    "description": "English words that are not a term of any sense, each linked to the closest senses. A row is the English word in lowercase, the separator and one or more sense keys, the closest first, optionally followed by the attributes r and q. A link does not state that the meanings are equal; it sends a reader to the nearest keyword.",
-    "attribute": [
-      "r",
-      "q"
-    ]
-  },
-  "example": {
-    "description": "Examples are kept beside each data file in an example file. A row is a sense key, the separator, the Zolai example with the keyword written as ~, the translation separator and the English translation, optionally followed by the attribute r naming where the example comes from. A sense may have any number of example rows.",
-    "attribute": [
-      "r"
-    ]
-  },
-  "index": {
-    "description": "Generated lists for lookup; never edited by hand. The keyword index lists every keyword under a form that ignores case, hyphens, spaces and apostrophes, with its sense keys. The term index lists every English term in lowercase with the sense keys it leads to. The join index lists every keyword named in j with the sense keys of the written forms that join or respell it.",
-    "keyword": "ctd",
-    "term": "eng",
-    "join": "join"
-  },
-  "alias": {
-    "description": "Type tags used before version 1 and the attributes that replace them. Used only to convert existing rows; an alias is not valid in a version 1 row.",
-    "type": {
-      "names": {
-        "t": "name"
-      },
-      "prm": {
-        "t": "name",
-        "c": "male"
-      },
-      "prf": {
-        "t": "name",
-        "c": "female"
-      },
-      "people": {
-        "t": "name",
-        "c": "people"
-      },
-      "beh": {
-        "t": "name",
-        "c": "beh"
-      },
-      "land": {
-        "t": "name",
-        "c": "land"
-      },
-      "place": {
-        "t": "name",
-        "c": "place"
-      },
-      "city": {
-        "t": "name",
-        "c": "city"
-      },
-      "khua": {
-        "t": "name",
-        "c": "khua"
-      },
-      "river": {
-        "t": "name",
-        "c": "river"
-      },
-      "mountain": {
-        "t": "name",
-        "c": "mountain"
-      },
-      "valley": {
-        "t": "name",
-        "c": "valley"
-      },
-      "well": {
-        "t": "name",
-        "c": "well"
-      },
-      "tower": {
-        "t": "name",
-        "c": "tower"
-      },
-      "star": {
-        "t": "name",
-        "c": "star"
-      },
-      "kha": {
-        "t": "n",
-        "c": "kha"
-      },
-      "ni": {
-        "t": "n",
-        "c": "ni"
-      },
-      "book": {
-        "t": "name",
-        "c": "book"
-      },
-      "testament": {
-        "t": "name",
-        "c": "testament"
-      },
-      "animal": {
-        "t": "n",
-        "c": "animal"
-      },
-      "plant": {
-        "t": "n",
-        "c": "plant"
-      },
-      "tree": {
-        "t": "n",
-        "c": "plant"
-      },
-      "stone": {
-        "t": "n",
-        "c": "stone"
-      },
-      "direction": {
-        "t": "n",
-        "c": "direction"
-      },
-      "pronoun": {
-        "t": "pron"
-      },
-      "determiner": {
-        "t": "det"
-      },
-      "preposition": {
-        "t": "prep"
-      },
-      "number": {
-        "t": "num"
-      },
-      "interjection": {
-        "t": "intj"
-      },
-      "exclamation": {
-        "t": "intj"
-      },
-      "uppercase": {
-        "t": "todo"
-      }
+    "pk": {
+      "name": "Paunam Khenna leh Kampau Luanzia",
+      "description": "Zolai grammar and composition book, written in Zolai, with lessons, word lists, word pairs, sayings and Zomi customs. The locator is the page number printed in the book.",
+      "owner": "Sia Cin Sian Pau; set again by Lia Cingsen, 2008",
+      "credit": "Words, word pairs, sayings and examples from Paunam Khenna leh Kampau Luanzia by Sia Cin Sian Pau",
+      "permission": "Not yet asked. Only single words, word pairs, sayings and short fragments of sentences are quoted; the text of the book is not stored."
     }
   },
   "bible": {
@@ -726,229 +665,111 @@
       "judson1835"
     ]
   },
-  "word": {
-    "description": "Word lists generated from the Bible translations, one file per language and model. Each word carries its number of occurrences and the first verse where it occurs.",
-    "path": "cite/word/{language}-ord-{model}.json",
-    "language": {
-      "ctd": [
-        "3561",
-        "tedim1932"
-      ],
-      "eng": [
-        "niv2011"
-      ]
-    },
-    "model": {
-      "plain": "Runs of letters. A hyphen or apostrophe ends a word.",
-      "dash": "Whole written forms that contain a hyphen.",
-      "apostrophe": "Whole written forms that contain or end with an apostrophe. A right single quotation mark directly after a letter counts as an apostrophe.",
-      "exclamation": "Written forms directly followed by an exclamation mark, listed with the mark.",
-      "question": "Written forms directly followed by a question mark, listed with the mark.",
-      "number": "Runs of digits."
-    }
-  },
   "rule": [
     {
       "id": "E01",
-      "level": "error",
-      "name": "file",
-      "description": "A listed file is missing, a data file in the directory is not listed, or a file is not UTF-8, starts with a byte order mark, or contains a tab or carriage return."
+      "name": "file order",
+      "description": "The rows of a table file are sorted by their columns and no row occurs twice."
     },
     {
       "id": "E02",
-      "level": "error",
-      "name": "keyword",
-      "description": "The keyword is empty or does not match the keyword pattern."
+      "name": "id",
+      "description": "An id is the letter of its kind and a number; an id, and a key that is one per row, occurs once."
     },
     {
       "id": "E03",
-      "level": "error",
-      "name": "empty body",
-      "description": "Nothing follows the separator."
+      "name": "sequence",
+      "description": "The sequence table holds one row per kind of id, and no id is above the last number given."
     },
     {
       "id": "E04",
-      "level": "error",
-      "name": "parenthesis",
-      "description": "A parenthesis is not part of a well-formed attribute: unbalanced, nested, or used in the description."
+      "name": "reference",
+      "description": "An id written in a column names an existing row of the table it points at."
     },
     {
       "id": "E05",
-      "level": "error",
-      "name": "unknown attribute",
-      "description": "The attribute key is not in the attribute list."
+      "name": "code",
+      "description": "A code is listed in the configuration: status, type, category, field, set, relation kind, note kind. A code is named once."
     },
     {
       "id": "E06",
-      "level": "error",
-      "name": "repeated attribute",
-      "description": "The same attribute key occurs more than once in a row."
+      "name": "spelling",
+      "description": "A word is written as the keyword pattern allows, and a spelling occurs once."
     },
     {
       "id": "E07",
-      "level": "error",
-      "name": "empty value",
-      "description": "An attribute value or a list item is empty."
+      "name": "sense number",
+      "description": "A sense of a type that carries a meaning has a positive whole number that no other sense of the word has."
     },
     {
       "id": "E08",
-      "level": "error",
-      "name": "type",
-      "description": "The attribute t is missing or its value is not in the type list."
+      "name": "meaning",
+      "description": "A sense of a type that carries a meaning has a term or a definition, or joins exactly one target."
     },
     {
       "id": "E09",
-      "level": "error",
-      "name": "category",
-      "description": "A value of the attribute c is not in the category list."
+      "name": "text",
+      "description": "A value holds nothing that the markup cannot hold: parentheses, the placeholder, the translation separator, double spaces; terms hold no empty or repeated term and no link or mention."
     },
     {
       "id": "E10",
-      "level": "error",
-      "name": "meaning",
-      "description": "The row has neither w nor d, its type is not see or todo, and it does not name exactly one keyword in j."
+      "name": "link mark",
+      "description": "A link in prose is written <keyword> or <keyword.number> and names an existing word or sense; prose of an active sense names nothing retired."
     },
     {
       "id": "E11",
-      "level": "error",
-      "name": "placeholder",
-      "description": "The symbol ~ or | is used outside an example row, the Zolai part of an example has no ~, or an example row has more than one |."
+      "name": "mention",
+      "description": "A mention in prose is written {text}; braces are balanced and not empty, hold no link, and do not name a standard word of the lexicon other than the keyword."
     },
     {
       "id": "E12",
-      "level": "error",
-      "name": "cross-reference",
-      "description": "The symbols < and > are unbalanced, used outside d, q and the description, or enclose something that is not a keyword or a sense key."
+      "name": "relation",
+      "description": "A redirect leads from a word to one other word; every other kind leads from a sense. The targets of one kind are ordered from 1. A variant is a word with the status variant and no sense. A join does not name its own keyword. An active sense or word does not lead to a retired one, and a retired word is not redirected."
     },
     {
       "id": "E13",
-      "level": "error",
-      "name": "unresolved keyword",
-      "description": "A keyword named in s, a, b or a cross-reference, or a sense key named in a cross-reference, does not exist in the data."
+      "name": "source",
+      "description": "A source is a Bible verse written book.chapter.verse or the code of a listed source with an optional locator."
     },
     {
       "id": "E14",
-      "level": "error",
-      "name": "variant",
-      "description": "A value of the attribute v is not a valid keyword, or is the keyword of a row."
+      "name": "example",
+      "description": "An example has a text that the markup can hold, is used by at least one sense, and does not repeat the text, source and translation of another example."
     },
     {
       "id": "E15",
-      "level": "error",
-      "name": "reference",
-      "description": "A value of the attribute r is neither book.chapter.verse nor a code of the source list with an optional locator."
+      "name": "usage",
+      "description": "A usage gives the positions and the length in words at which the keyword of the sense stands in the example."
     },
     {
       "id": "E16",
-      "level": "error",
-      "name": "duplicate",
-      "description": "Two rows are identical in keyword, type, category, term and definition, two example rows of one sense have the same Zolai text, or a translation file has two rows for one sense."
+      "name": "translation",
+      "description": "An example has a translation in at least one language; a translation is a text that the markup can hold."
     },
     {
       "id": "E17",
-      "level": "error",
-      "name": "name case",
-      "description": "The keyword of a row of type name does not start with an uppercase letter or a digit."
+      "name": "link",
+      "description": "A linked word is lowercase, is not a term of a sense in that language, and names each of its senses once."
     },
     {
       "id": "E18",
-      "level": "error",
-      "name": "redirect",
-      "description": "A row of type see has anything other than exactly one cross-reference after the type."
+      "name": "name",
+      "description": "A keyword with a sense of the type name begins with a capital letter or a digit."
     },
     {
       "id": "E19",
-      "level": "error",
-      "name": "file scope",
-      "description": "A described row lacks an attribute value that its file requires."
+      "name": "duplicate sense",
+      "description": "Two senses of one word do not share type, category, terms and definition."
     },
     {
       "id": "E20",
-      "level": "error",
-      "name": "translation",
-      "description": "An example row has no English translation after the Zolai."
+      "name": "note",
+      "description": "A note has a subject."
     },
     {
       "id": "E21",
-      "level": "error",
-      "name": "sense",
-      "description": "A row with a meaning lacks the attribute i, the value is not a positive whole number, or two rows of one keyword share a number."
-    },
-    {
-      "id": "E22",
-      "level": "error",
-      "name": "field",
-      "description": "A value of the attribute f is not in the field list."
-    },
-    {
-      "id": "E23",
-      "level": "error",
-      "name": "unresolved sense",
-      "description": "The key of an example row or of a translation row is not the sense key of a row in the data files."
-    },
-    {
-      "id": "E24",
-      "level": "error",
-      "name": "link",
-      "description": "A link row names a word that is already a term of a sense, no sense key, a sense key that is not in the data files, or the same sense key twice."
-    },
-    {
-      "id": "E25",
-      "level": "error",
-      "name": "mention",
-      "description": "Braces are unbalanced, empty, used outside d, q and the description, enclose a cross-reference, or enclose one keyword that has a row of its own."
-    },
-    {
-      "id": "E26",
-      "level": "error",
-      "name": "joined form",
-      "description": "The attribute j names the keyword of the row itself, or the same keyword twice."
-    },
-    {
-      "id": "F01",
-      "level": "form",
-      "name": "separator spacing",
-      "description": "The separator is not written as one space, =, one space."
-    },
-    {
-      "id": "F02",
-      "level": "form",
-      "name": "spacing",
-      "description": "The line has leading or trailing spaces, repeated spaces, spaces inside the parentheses or around a list separator, or a translation separator not written as one space, |, one space."
-    },
-    {
-      "id": "F03",
-      "level": "form",
-      "name": "attribute order",
-      "description": "The attributes are not in the configured order."
-    },
-    {
-      "id": "F04",
-      "level": "form",
-      "name": "description position",
-      "description": "The description is not after the last attribute."
-    },
-    {
-      "id": "F05",
-      "level": "form",
-      "name": "final newline",
-      "description": "The file does not end with exactly one newline."
-    },
-    {
-      "id": "F06",
-      "level": "form",
-      "name": "index",
-      "description": "A generated index file is missing or differs from the data."
-    },
-    {
-      "id": "F07",
-      "level": "form",
       "name": "credits",
-      "description": "The generated credits file is missing or differs from the source list."
+      "description": "CREDITS.md is generated from the source list and the Bible texts and is up to date."
     }
-  ],
-  "level": {
-    "error": "The row or file is invalid and needs an editor's decision.",
-    "form": "The content is valid but not in canonical form; the repair is mechanical and changes no meaning."
-  }
+  ]
 }

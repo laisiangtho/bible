@@ -8,7 +8,6 @@ from typing import Optional, Sequence
 
 from assist.cite import cli as cite_cli
 from assist.cite.config import CiteError
-from assist.cite3 import cli as cite3_cli
 
 EXIT_OK = 0
 EXIT_FOUND = 1
@@ -22,7 +21,6 @@ def build_parser() -> argparse.ArgumentParser:
     )
     groups = parser.add_subparsers(dest="group", metavar="group", required=True)
     cite_cli.register(groups)
-    cite3_cli.register(groups)
     return parser
 
 
