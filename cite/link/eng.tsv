@@ -1,27 +1,20 @@
 term	senses	source	status	note
-accommodation	s50564/s35926	moby:lodging	1	
 accommodations	s50564/s35926	moby:lodging	2	
 accordance	s23641	moby:in accordance with	1	
-accurate	s8931/s28669	moby:correct	2	
 accurately	s43857/s27027	moby:exactly	1	
-actual	s28960/s42856	moby:real	1	
 adamant	s17965/s35757	moby:unyielding	1	
-adieu	s28803	moby:farewell	2	
 admiration	s49489	moby:respect	1	
 ado	s6574/s10592	moby:commotion	1	
 adorable	s9927/s33004	moby:lovely	2	
 adventurous	s12375/s12401	moby:daring	1	
-agony	s11488/s27682	moby:pain	2	
 alcoholic	s50966/s51039	moby:drunkard	1	
 allegiance	s7457	moby:faithfulness	1	
 alright	s13746	moby:fine	1	
-altercation	s23612/s22075	moby:quarrel	2	
 altitude	s38988	moby:height	2	
 ambiguous	s23359	moby:unclear	1	
 amends	s9173/s27183	moby:restitution	1	
 amigo	s25949	moby:friend	2	
 amnesty	s28496/s29236	moby:forgiveness	1	
-ample	s19953	moby:enough	1	
 analogy	s9917	moby:comparison	1	
 analyze	s16546/s9834	moby:examine	1	
 annoy	s32287/s36624	moby:bother	1	
@@ -33,7 +26,6 @@ antidote	s49941	moby:medicine	1
 antique	s17681/s27498	moby:ancient	1	
 anxious	s27720/s27712	moby:be anxious	2	
 anytime	s36156	moby:whenever	1	
-apparatus	s32342	moby:equipment	2	
 appreciation	s27635	moby:gratitude	1	
 archangel	s48767	moby:angel	1	
 aria	s24868	moby:song	1	
@@ -57,22 +49,17 @@ authentic	s7823/s28960	moby:genuine	1
 authenticity	s42918/s42895	moby:genuineness	1	
 authorization	s36257	moby:permission	2	
 authorize	s36243	moby:permit	1	
-avenue	s25562/s25525	moby:road	1	
 aware	s36376/s36388	moby:be aware	2	
-awe	s20587/s23838	moby:reverence	1	
-awful	s40238/s25825	moby:terrible	1	
 awfully	s28324	moby:very	2	
 bacon	s49094	moby:pork	1	
 ballad	s24868	moby:song	1	
 banter	s7185	moby:joke	1	
 barbaric	s33495	moby:cruel	1	
-barf	s27347/s27384	moby:vomit	2	
 bash	s39091/s49138	moby:hit	1	
 baton	s7250/s7246	moby:stick	1	
 beau	s15412	moby:lover	1	
 behavior	s10722/s10753	moby:conduct	2	
 believable	s48134	moby:credible	2	
-benevolent	s29926/s8932	moby:kind	2	
 bickering	s23612/s22075	moby:quarrel	2	
 biscuit	s30606	moby:wafer	1	
 bison	s10435/s10658	moby:wild ox	1	
@@ -96,7 +83,6 @@ booze	s50856	moby:strong drink	2
 boring	s7676	moby:tiresome	1	
 borough	s18925	moby:town	1	
 boulevard	s25525/s24314	moby:street	1	
-brass	s42151/s42164	moby:bronze	1	
 breakup	s20962	moby:separation	1	
 brig	s45224/s45236	moby:prison	1	
 brilliance	s42635/s48637	moby:brightness	1	
@@ -121,24 +107,19 @@ career	s31899	moby:job	1
 carmine	s4648	moby:crimson	1	
 carnage	s20564/s23398	moby:slaughter	2	
 carnival	s35783	moby:festival	1	
-casket	s12431	moby:coffin	2	
 castle	s24595	moby:fortress	1	
 catalog	s39464	moby:list	1	
 catastrophe	s40512/s46012/s46597	moby:disaster	2	
 cellar	s38318	moby:storeroom	1	
 cent	s8293	moby:penny	1	
-cereal	s6671/s3138	moby:grain	1	
 champ	s50794	moby:victor	1	
-chaos	s6574/s23274	moby:turmoil	1	
 chaotic	s50275	moby:disorderly	1	
 chap	s35593	moby:man	1	
 chapel	s6274	moby:church	1	
 char	s16438	moby:scorch	1	
 charitable	s7721/s7820	moby:generous	2	
-charity	s36966	moby:donation	1	
 chaste	s40384/s40405	moby:pure	1	
 chastity	s40455	moby:purity	1	
-chatty	s16379	moby:talkative	2	
 chauffeur	s12723	moby:driver	1	
 chill	s18961/s49126	moby:cold	1	
 chilling	s27102/s25825	moby:frightening	2	
@@ -157,35 +138,25 @@ cling	s26528/s6029/s26605	moby:cling to	2
 clutch	s26523	moby:hold	1	
 colorful	s22097	moby:colourful	1	
 colossal	s26775/s11639	moby:huge	2	
-combat	s10238/s20144	moby:battle	2	
 combustion	s16753/s29551	moby:burning	1	
 commandant	s10314/s28798	moby:commander	2	
 commemorate	s36375	moby:remember	1	
-commence	s22221	moby:begin	2	
 commentary	s13444	moby:explanation	1	
-compassionate	s29926	moby:kind	1	
 compensate	s27162/s9111	moby:make restitution	1	
-comply	s28715	moby:obey	2	
 component	s36473/s39551	moby:part	1	
 compulsory	s36274	moby:necessary	1	
 compute	s46876	moby:calculate	2	
-comrade	s25949/s20883	moby:companion	2	
 condescending	s1558	moby:haughty	1	
 confidential	s40997	moby:secret	2	
 conscious	s36376	moby:be aware	1	
 consciously	s33484/s12320	moby:deliberately	1	
-consensus	s45643/s23553	moby:agreement	2	
 consequently	s855	moby:therefore	2	
 conserve	s17138	moby:keep	1	
 conspicuous	s21865	moby:visible	1	
-constable	s35373	moby:police	2	
-construct	s5599/s39092	moby:make	2	
 consultant	s25517/s45717	moby:adviser	1	
 consumer	s26346	moby:buyer	1	
 contaminated	s33754/s44593	moby:unclean	1	
-contemplate	s33030/s27844	moby:think about	2	
 contrast	s21291/s19711	moby:difference	1	
-convict	s45243/s21079	moby:prisoner	1	
 coop	s10796	moby:pen	1	
 corps	s35813	moby:division	1	
 corral	s10796	moby:pen	1	
@@ -204,7 +175,6 @@ crappy	s13777/s40196	moby:bad	1
 craven	s29502	moby:cowardly	2	
 credibility	s30858	moby:trustworthiness	1	
 crest	s30766	moby:hilltop	1	
-crock	s5819	moby:pot	1	
 croft	s27129	moby:farm	1	
 crucial	s45932/s36273	moby:important	2	
 crucifix	s41094	moby:cross	1	
@@ -213,11 +183,9 @@ crypt	s12333	moby:tomb	1
 cryptic	s44895/s23359/s45686	moby:obscure	2	
 cuddle	s16807/s37421	moby:embrace	2	
 daffy	s12102	moby:foolish	1	
-daft	s12102/s12117	moby:foolish	2	
 dagger	s44164	moby:knife	1	
 dale	s24430/s11810	moby:valley	1	
 damnation	s45592/s22947	moby:condemnation	1	
-damsel	s34282	moby:maiden	2	
 daylight	s19269/s42213	moby:light	2	
 dealer	s42047/s50884	moby:trader	1	
 decor	s23972/s50301	moby:decoration	1	
@@ -225,9 +193,7 @@ deduct	s18570	moby:subtract	2
 defenseless	s7644	moby:helpless	1	
 deity	s35616	moby:god	2	
 dell	s11810/s24430	moby:valley	1	
-demise	s40638	moby:death	2	
 demolition	s23115	moby:destruction	1	
-depend	s30840/s30843	moby:rely on	2	
 depraved	s11444/s10741	moby:wicked	1	
 depressed	s17492/s8060	moby:dejected	1	
 depressing	s8051	moby:sad	2	
@@ -251,13 +217,11 @@ discredit	s30190	moby:disgrace	1
 disgruntled	s27773	moby:discontented	2	
 dislocated	s21378/s21560	moby:be dislocated	1	
 dismantle	s36474/s42429	moby:take apart	2	
-dispense	s12731/s12741	moby:distribute	2	
 disrupt	s6583/s32287	moby:disturb	1	
 distraught	s27731	moby:be distressed	1	
 diverse	s4528/s35852/s46727	moby:various	2	
 diversity	s46788/s46782	moby:variety	1	
 divulge	s11276/s16186	moby:disclose	2	
-dominate	s47988/s47937	moby:control	1	
 donor	s37164	moby:giver	2	
 doom	s40512	moby:ruin	1	
 dopey	s12102	moby:stupid	1	
@@ -273,19 +237,15 @@ dumb	s12102	moby:stupid	1
 dunk	s8848	moby:dip	2	
 duo	s24321	moby:pair	1	
 dynamic	s44499	moby:energetic	1	
-eccentric	s47351/s46769	moby:strange	1	
 ecstasy	s27638	moby:joy	1	
 ecstatic	s27619	moby:joyful	1	
 educate	s13405/s41197	moby:teach	2	
-eject	s34064/s12703	moby:expel	1	
 elegance	s9930/s32998	moby:beauty	1	
 elegant	s9927/s29687	moby:beautiful	1	
 elevated	s38797	moby:high	2	
 eligible	s21382	moby:fit for	1	
-eliminate	s5953/s24152	moby:wipe out	1	
 embarrass	s28502	moby:put to shame	2	
 embarrassment	s28538	moby:shame	1	
-eminent	s30280	moby:famous	1	
 emissary	s16376/s35349	moby:envoy	2	
 empathy	s25124/s12895	moby:compassion	1	
 employment	s31899	moby:work	2	
@@ -293,13 +253,10 @@ endeavor	s12344/s12092	moby:strive	2
 endorsement	s45652	moby:approval	1	
 enhance	s13806/s13751	moby:improve	2	
 enigma	s46095/s45506	moby:mystery	2	
-enquire	s9234/s45555	moby:inquire	2	
 ensign	s8866/s8873	moby:flag	1	
 ensure	s19901	moby:make sure	2	
 envious	s9762	moby:be envious of	2	
 equity	s46063	moby:justice	1	
-equivalent	s21106/s19676	moby:equal	2	
-eradicate	s36578/s5927	moby:wipe out	2	
 ere	s28143	moby:before	1	
 errand	s39277	moby:mission	1	
 estranged	s20946	moby:separated	1	
@@ -325,28 +282,21 @@ famished	s11431/s11438	moby:hungry	2
 fantasize	s11083	moby:imagine	1	
 fantastic	s25401/s25418	moby:wonderful	1	
 faraway	s10561	moby:far away	2	
-fatigue	s43615/s11486	moby:weariness	2	
 favorite	s15413	moby:favourite	2	
 feat	s29192	moby:achievement	1	
-feces	s9574	moby:excrement	2	
 felicity	s27620/s27638	moby:joy	1	
 felon	s18558/s29260	moby:wrongdoer	1	
 felony	s43445	moby:crime	1	
 ferocious	s25835/s14657	moby:fierce	1	
 fertile	s10197	moby:fruitful	1	
-feud	s23612	moby:quarrel	2	
 fiction	s43233	moby:tale	1	
-fidelity	s7457/s30858	moby:faithfulness	2	
-fiend	s8403	moby:devil	1	
 fiesta	s35783	moby:festival	2	
 fighter	s10277	moby:warrior	2	
 flavor	s26999	moby:flavour	2	
-folk	s29845/s30331	moby:people	2	
 folklore	s46850/s43233	moby:old story	1	
 foreboding	s25877	moby:apprehension	1	
 formidable	s20582/s25825	moby:dreadful	1	
 forth	s18506	moby:out	1	
-foul	s33754	moby:dirty	1	
 frail	s44575/s44824	moby:weak	2	
 frankly	s25708	moby:openly	1	
 freeway	s25525/s25527	moby:highway	1	
@@ -361,20 +311,16 @@ furthest	s10576	moby:farthest	2
 fused	s10898	moby:joined	1	
 gab	s7147/s35755	moby:chatter	1	
 gabby	s16379	moby:talkative	1	
-gallant	s12375/s12401	moby:brave	2	
 garner	s16062	moby:gather	2	
 geezer	s37988/s17643	moby:old man	1	
-generate	s37061	moby:produce	2	
 genocide	s20564	moby:massacre	1	
 genre	s31627/s31628	moby:kind	1	
 getaway	s42774	moby:flight	1	
-ghastly	s31068/s27102	moby:horrible	2	
 gibberish	s5439/s2572	moby:nonsense	1	
 gigantic	s26775/s26772	moby:huge	2	
 giggle	s34198	moby:laugh	2	
 glamorous	s32994/s8588	moby:attractive	1	
 glamour	s32998	moby:charm	1	
-glee	s27620/s27638/s22174	moby:joy	2	
 glen	s11810/s24430	moby:valley	1	
 gloat	s31172	moby:gloat over	2	
 globe	s26407/s26350	moby:earth	1	
@@ -385,19 +331,15 @@ godforsaken	s40996/s22155	moby:desolate	1
 goofy	s12102	moby:foolish	1	
 gorgeous	s29687/s9927	moby:beautiful	2	
 gorilla	s50125/s50121	moby:ape	1	
-gown	s37766/s37733	moby:robe	1	
 graceful	s9927	moby:lovely	1	
 gracefully	s9928	moby:beautifully	1	
 grand	s26773	moby:great	1	
 grandeur	s26868/s45960	moby:majesty	2	
-granny	s36895	moby:grandmother	2	
-grease	s39122/s44721	moby:oil	1	
 grill	s9713	moby:roast	1	
 grinder	s2918	moby:mill	1	
 gringo	s10481/s30158	moby:foreigner	1	
 grizzly	s49101	moby:bear	1	
 gross	s20483/s9954	moby:disgusting	2	
-gruesome	s31068/s7582	moby:horrible	2	
 gulp	s48525	moby:swallow	1	
 guru	s40192	moby:teacher	1	
 guts	s12439	moby:courage	1	
@@ -413,7 +355,6 @@ hark	s32985	moby:listen	2
 harness	s16286	moby:bridle	1	
 hassle	s6574	moby:trouble	1	
 hatchet	s12920	moby:axe	1	
-havoc	s23115/s22947	moby:destruction	1	
 hazard	s25831	moby:danger	1	
 hazardous	s20585	moby:dangerous	1	
 heartbreak	s27617/s8061	moby:grief	1	
@@ -426,7 +367,6 @@ heirloom	s10506	moby:inheritance	1
 heist	s41884	moby:robbery	1	
 hence	s855/s5369	moby:therefore	2	
 hereditary	s37128	moby:inborn	1	
-heroism	s12439	moby:bravery	2	
 hex	s38739/s36766	moby:curse	1	
 hideous	s29711	moby:ugly	2	
 hither	s13133	moby:here	2	
@@ -438,7 +378,6 @@ homage	s49489	moby:reverence	1
 hooch	s50856/s17588	moby:strong drink	1	
 hooker	s35341	moby:female prostitute	1	
 hoop	s24419	moby:ring	1	
-horrendous	s25825/s27102/s31068	moby:terrible	2	
 horrid	s27102/s31068	moby:horrible	2	
 horseback	s46815	moby:mounted	1	
 horseman	s46813	moby:rider	2	
@@ -449,19 +388,15 @@ icy	s49119	moby:cold	1
 ideal	s7747	moby:perfect	1	
 idiot	s29945	moby:fool	2	
 idiotic	s12102/s12117	moby:foolish	2	
-ignite	s24482/s12243	moby:kindle	2	
 illusion	s45783	moby:delusion	1	
 illustrious	s30280/s30281	moby:famous	2	
 imbecile	s29945	moby:fool	1	
-immaculate	s40384	moby:clean	2	
-immense	s26775/s26772/s26776	moby:huge	2	
 immensely	s31567/s28332	moby:greatly	2	
 immortality	s43737	moby:everlastingness	1	
 impeccable	s7747	moby:perfect	1	
 impending	s31437	moby:near	1	
 imperative	s36274/s24576	moby:necessary	1	
 imperial	s24701	moby:royal	1	
-implore	s45740/s46114/s33397	moby:beg	2	
 imply	s7783	moby:mean	1	
 impotent	s44575/s44825	moby:weak	1	
 imprint	s7203/s7298	moby:mark	1	
@@ -471,7 +406,6 @@ incomprehensible	s23359/s44895	moby:unintelligible	2
 inconsistent	s27750	moby:changeable	1	
 incredibly	s28324	moby:very	1	
 incriminate	s29275	moby:accuse	1	
-indication	s20520	moby:sign	2	
 indictment	s29280/s21714	moby:accusation	2	
 induce	s50644/s48062	moby:persuade	1	
 inferno	s12989/s12958	moby:hell	1	
@@ -485,9 +419,7 @@ inquest	s16514/s16501	moby:inquiry	1
 inquisition	s16514/s44074	moby:inquiry	1	
 insane	s12102	moby:foolish	1	
 insanity	s12118/s12151	moby:foolishness	1	
-insignificant	s32816/s32834	moby:little	1	
 instance	s11269	moby:example	2	
-intact	s6839	moby:whole	1	
 intellectual	s46088/s37256	moby:learned	1	
 intentional	s10976	moby:planned	1	
 intercourse	s28003	moby:sexual intercourse	2	
@@ -502,26 +434,21 @@ isle	s47066	moby:island	2
 ivy	s11860	moby:creeper	1	
 jackass	s24877	moby:donkey	1	
 jeopardize	s17554	moby:risk	1	
-jeopardy	s25831	moby:danger	2	
 jeweler	s17575	moby:goldsmith	1	
 jiffy	s46316/s30506	moby:moment	2	
 jitters	s25877	moby:nervousness	1	
 jog	s42714	moby:run	1	
 jolly	s27619/s27943	moby:joyful	2	
 joyous	s27619/s27943	moby:joyful	2	
-judgement	s45592/s18411	moby:judgment	2	
 jug	s46972/s5819	moby:pitcher	2	
 jumbo	s26775/s44505	moby:huge	1	
 juvenile	s17693	moby:young	1	
 kitten	s50018	moby:cat	1	
-knack	s40335	moby:skill	2	
 kosher	s40414	moby:clean	1	
 lag	s50238	moby:be slow	1	
 lagoon	s6599/s27100	moby:lake	1	
 lair	s24401	moby:den	2	
 laird	s43844/s27266	moby:landowner	1	
-lass	s34282/s34259	moby:girl	2	
-latch	s16172/s16162	moby:bolt	1	
 lawful	s46617	moby:be lawful	1	
 leash	s18014/s17961	moby:cord	1	
 ledger	s39464/s7204	moby:account	1	
@@ -535,7 +462,6 @@ liberated	s17345	moby:freed	2
 liberation	s41564	moby:freedom	2	
 liege	s46243/s46394	moby:lord	1	
 lightweight	s49394	moby:light	1	
-liquid	s46962	moby:water	1	
 litigation	s21956	moby:lawsuit	1	
 loch	s47084/s27100/s6599	moby:lake	2	
 logic	s45855	moby:reasoning	1	
@@ -544,8 +470,6 @@ loony	s12102	moby:foolish	1
 lore	s46850/s33311	moby:tradition	1	
 lousy	s40196/s13777	moby:bad	1	
 lowlife	s29935	moby:scoundrel	1	
-loyalty	s7457	moby:faithfulness	2	
-lucid	s44128	moby:clear	2	
 ludicrous	s12161	moby:absurd	2	
 lug	s37537/s16028	moby:carry	1	
 lumber	s41035	moby:timber	2	
@@ -560,7 +484,6 @@ malicious	s11444	moby:wicked	1
 mammy	s34074	moby:mother	2	
 mandatory	s36274	moby:necessary	1	
 maniac	s29945/s12135	moby:madman	1	
-mansion	s15138	moby:great house	1	
 mantle	s37778/s37733	moby:cloak	2	
 manufactured	s19748	moby:made	1	
 manufacturer	s5672	moby:maker	2	
@@ -569,24 +492,18 @@ mart	s42057	moby:market	2
 marvelous	s25401	moby:marvellous	1	
 masquerade	s21947	moby:pretend	1	
 massive	s11639/s11616/s26772	moby:large	2	
-matrimony	s23386	moby:marriage	2	
 mausoleum	s12333	moby:tomb	1	
 mayhem	s23274/s10592	moby:confusion	1	
 mediocre	s29313	moby:ordinary	1	
 memento	s36400	moby:reminder	1	
-menace	s43722	moby:threat	1	
 menacing	s25825	moby:fearful	1	
 mentality	s37663/s33076	moby:mindset	2	
-merciful	s8932/s29926	moby:gracious	1	
-merry	s27619/s34125/s27943	moby:joyful	2	
 messy	s33754	moby:dirty	1	
 metaphor	s9917/s45487	moby:figure of speech	1	
 metro	s26341	moby:subway	1	
-metropolis	s19206	moby:city	2	
 microscopic	s32821	moby:tiny	1	
 midge	s45280/s45212	moby:gnat	2	
 milady	s46385	moby:lady	1	
-military	s10301	moby:army	1	
 milord	s46394	moby:lord	1	
 mindless	s12102	moby:senseless	1	
 miniature	s32821/s32814	moby:tiny	1	
@@ -600,7 +517,6 @@ misunderstood	s36392	moby:misunderstand	1
 moat	s12686	moby:ditch	1	
 mobilize	s16062/s16043	moby:assemble	1	
 mode	s8266	moby:method	1	
-mom	s34074	moby:mother	2	
 momentarily	s43607	moby:briefly	1	
 monarch	s24700/s24728	moby:king	2	
 monster	s38423/s39030	moby:beast	1	
@@ -622,11 +538,8 @@ muscular	s44380/s12528	moby:strong	1
 mutilated	s13004	moby:disfigured	1	
 mutiny	s26174/s25697	moby:rebellion	2	
 mythology	s43233	moby:myth	1	
-nab	s28672/s29106	moby:catch	2	
 naive	s18316	moby:gullible	1	
 narrative	s43232	moby:story	2	
-nasty	s40196/s13777	moby:bad	1	
-naught	s5395	moby:nothing	2	
 nay	s13456	moby:no	1	
 negotiator	s35349	moby:mediator	1	
 nemesis	s10239/s10361	moby:enemy	1	
@@ -635,22 +548,18 @@ nervous	s25815	moby:afraid	1
 nibble	s36109	moby:bite	1	
 nigh	s31437/s11014	moby:near	2	
 nipple	s32201	moby:breast	1	
-nobility	s30066/s30487	moby:nobles	1	
 nobleman	s30063/s47997	moby:great person	1	
 nook	s23725	moby:corner	1	
 norm	s33311	moby:custom	1	
 normally	s33335	moby:usually	2	
 nostalgia	s33016	moby:longing	1	
 noticeable	s21865	moby:visible	1	
-notion	s33058	moby:idea	2	
 novelist	s11050	moby:writer	1	
 obliged	s22341	moby:be obliged	1	
 obscene	s51072/s20483	moby:shameful	1	
-observer	s9750	moby:watcher	1	
 obsolete	s27521	moby:outdated	1	
 obvious	s23369/s44128	moby:clear	1	
 obviously	s23347/s23353	moby:clearly	2	
-odor	s11489	moby:smell	2	
 optimism	s25446	moby:hope	1	
 orchard	s14326	moby:garden	1	
 ordeal	s45507	moby:trial	2	
@@ -686,7 +595,6 @@ peril	s25831	moby:danger	2
 perilous	s25825	moby:dreadful	1	
 perky	s27943/s44499	moby:cheerful	1	
 perspective	s30971	moby:opinion	1	
-pesky	s7676	moby:troublesome	1	
 petite	s32813/s32821	moby:small	2	
 petrified	s25815	moby:frightened	1	
 phantom	s40715	moby:ghost	1	
@@ -756,12 +664,10 @@ pup	s47896	moby:dog	1
 puss	s50018	moby:cat	1	
 pussycat	s50018	moby:cat	2	
 puzzle	s45506	moby:riddle	1	
-quest	s20716	moby:search	1	
 rabble	s30331/s14136	moby:crowd	1	
 ranch	s27129	moby:farm	1	
 rascal	s29935	moby:scoundrel	2	
 rational	s27886/s37256	moby:sensible	1	
-realization	s36425	moby:awareness	1	
 rebellious	s36524/s27744	moby:unruly	1	
 reborn	s41532	moby:be born again	2	
 recollection	s22377/s36400	moby:memory	1	
@@ -773,14 +679,11 @@ rein	s16286	moby:bridle	1
 reins	s16286	moby:bridle	2	
 relaxation	s18083	moby:rest	1	
 reluctant	s27708	moby:hesitant	1	
-rely	s30840/s6008	moby:rely on	2	
 remark	s11090	moby:say	1	
 remarkable	s47351/s25401	moby:extraordinary	1	
 remorse	s23085/s22975	moby:self-reproach	2	
-remote	s10561	moby:distant	2	
 rendezvous	s23631/s21045	moby:meeting	1	
 renounce	s34467/s35094	moby:abandon	1	
-repel	s34051/s34064	moby:drive back	2	
 respectable	s49485/s35071	moby:respected	2	
 respective	s7307	moby:own	1	
 resurrect	s44781/s13531/s45270	moby:raise from the dead	2	
@@ -795,7 +698,6 @@ rigid	s17965	moby:stiff	2
 riled	s12843	moby:angry	2	
 ripple	s47026	moby:wave	1	
 robust	s44380/s12528	moby:strong	2	
-rogue	s29935	moby:scoundrel	1	
 rover	s48504	moby:wanderer	1	
 rowdy	s51050/s16379	moby:unruly	1	
 ruckus	s10592/s10596	moby:commotion	2	
@@ -804,7 +706,6 @@ runaway	s10389	moby:fugitive	1
 ruse	s18312/s18223	moby:trickery	2	
 sadistic	s33495	moby:cruel	1	
 saloon	s28733	moby:tavern	1	
-sanctity	s40419/s40455	moby:holiness	2	
 sarcasm	s7178	moby:mockery	1	
 satisfactory	s8587/s27771	moby:acceptable	2	
 savage	s33495/s14657	moby:cruel	1	
@@ -829,7 +730,6 @@ shaggy	s31071	moby:hairy	2
 shipment	s48742/s48752	moby:cargo	1	
 shiver	s26915/s26914/s37903	moby:tremble	2	
 shivering	s26919/s17128	moby:trembling	1	
-shove	s39383/s34051	moby:push	2	
 shoving	s39383/s34051/s32314	moby:push	2	
 sibling	s38824	moby:brother	2	
 sidekick	s25949	moby:companion	1	
@@ -847,7 +747,6 @@ smarts	s44003/s32167	moby:intelligence	2
 smug	s23567	moby:self-important	1	
 snitch	s12946	moby:inform against	1	
 snout	s31505	moby:nose	1	
-solace	s12880/s20424	moby:consolation	2	
 solidarity	s20865	moby:unity	1	
 somber	s27973	moby:gloomy	1	
 sordid	s33754	moby:dirty	1	
@@ -898,10 +797,8 @@ swindle	s18297	moby:cheat	2
 tad	s32823	moby:a little	1	
 tainted	s33754/s8424	moby:unclean	1	
 technique	s8266	moby:method	1	
-tedious	s7676	moby:tiresome	2	
 temper	s12864	moby:anger	1	
 temperament	s37663/s37156	moby:disposition	1	
-terminate	s43765/s5939	moby:bring to an end	2	
 terminated	s21655	moby:finished	1	
 terribly	s28324/s31573	moby:very	2	
 terrific	s13801	moby:excellent	2	
@@ -937,8 +834,6 @@ troupe	s35813/s14094	moby:group	1
 truce	s21469/s10339/s10258	moby:peace	1	
 trucker	s12723	moby:driver	1	
 tubby	s44722	moby:fat	1	
-tug	s16028	moby:pull	2	
-tumble	s37813/s47219	moby:fall down	2	
 tummy	s11422/s11459	moby:belly	2	
 turbulent	s14657	moby:raging	1	
 twig	s13169/s41061	moby:branch	1	
@@ -967,11 +862,8 @@ upbeat	s27943/s28507	moby:cheerful	1
 upstanding	s8931/s45752/s8967	moby:honest	2	
 urgency	s32197/s21911	moby:haste	1	
 urn	s5819	moby:jar	1	
-vacate	s34467/s35247	moby:leave	1	
-vague	s23359	moby:unclear	2	
 vale	s24430/s11810	moby:valley	2	
 valor	s12439/s33193	moby:courage	2	
-vanquish	s50595/s50001	moby:defeat	2	
 vapor	s47047/s29528	moby:vapour	2	
 vendetta	s45530/s36688	moby:revenge	1	
 vending	s50879	moby:selling	1	
@@ -984,7 +876,6 @@ vibrating	s26915/s26919	moby:shake	1
 vibration	s17128	moby:shaking	1	
 viceroy	s28805/s29758	moby:governor	1	
 vigilant	s20311/s37301	moby:alert	1	
-villain	s29927/s11453	moby:wicked person	1	
 violet	s9441/s38790	moby:purple	1	
 virtually	s8680/s8683	moby:almost	2	
 virtuous	s8931/s45752/s11346	moby:just	2	
@@ -1012,7 +903,6 @@ whine	s36823	moby:complain	1
 whining	s36823/s36853	moby:grumble	1	
 whoop	s4838/s21138	moby:shout	1	
 wizard	s1116	moby:sorcerer	1	
-wondrous	s25401/s25418	moby:wonderful	2	
 wooden	s41035	moby:wood	1	
 workout	s22844/s23018	moby:exercise	1	
 wraith	s40715	moby:ghost	2	
@@ -1022,4 +912,3 @@ yank	s16028/s16057	moby:pull	1
 yea	s4740/s4809/s13125	moby:yes	2	
 yogurt	s44733	moby:curds	1	
 youngster	s32111	moby:child	2	
-yummy	s26958	moby:delicious	2	

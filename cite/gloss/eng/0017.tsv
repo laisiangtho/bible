@@ -72,7 +72,7 @@ s34069	novel	a long written story, a book of fiction; in {novel coronavirus} it 
 s34070	November		
 s34071	you also/you too	<no>, you, said to more than one person, and <zong>, also, written as one word	
 s34072	New Straits Times/NST	abbreviation of New Straits Times, an English-language newspaper of Malaysia, named as the source of news	
-s34074	mother	mother; {a nu leh a pa} is his mother and father	
+s34074	mother/mama, mommy/mom	mother; {a nu leh a pa} is his mother and father	
 s34075	woman	a woman, placed after a word that describes her; {tua nu} is that woman, she	
 s34076	feminine	marks a female person or animal at the end of a word, as <pa> marks a male one	
 s34077	female	the female of a pair or of an animal, set against <pa>, the male	
@@ -119,9 +119,9 @@ s34119	suppress/crush/crack down on	put down opponents by force, or press someon
 s34120	sulk/take offence	be offended and withdraw; {nuak ciah} seems to be go home in resentment, the English versions do not render the word	
 s34121	leave to sulk/freedom to sulk	<nuak>, sulk, with <khuan>, leave or permission: the freedom to sulk and be coaxed, which a person has only with his or her own parents	
 s34122	shun/boycott/turn away from	turn away from a person or a thing in displeasure and have no part in it, from <nuak>, take offence	
-s34123	want	want or be willing to do something, placed after the verb; with <kei> or <lo>, not want to	
+s34123	want/desire	want or be willing to do something, placed after the verb; with <kei> or <lo>, not want to	
 s34124	delight	find pleasant; {nuam sa} is take delight in	
-s34125	happy/glad/pleasant	happy or glad; {nuam mahmah} is very glad, and {lung nuam} is glad at heart	
+s34125	happy/glad/pleasant/joyful	happy or glad; {nuam mahmah} is very glad, and {lung nuam} is glad at heart	
 s34126	pleasant/fair/peaceful	<nuam>, pleasant or at peace, written with a capital in the place name {Khawlmun Nuam}, Fair Havens, and at the start of the farewell {Nuam takin pai in}, go in peace	
 s34127	be happy/be pleased/enjoy	<nuam.3>, happy or pleasant, and <kisa>, feel oneself: feel happy, be pleased, enjoy something; here <nuam> is not want; often followed by <mahmah>	
 s34128	wanting/wishing	<nuam> want with the linking ending <a>, joined to the verb before it; {that nuama}, wanting to kill	
@@ -145,10 +145,10 @@ s34145	not want/be unwilling	<nuam> and <lo> written as one word: after a verb, 
 s34146	those who do not want to/the unwilling	<nuam> and <lote> written as one word, after a verb: those who do not want to do it	
 s34147	overjoyed/very glad	<nuam>, happy, with <lua>, too much	
 s34148	want very much/be eager/long to	placed after a verb, <nuam.1> want with <lua>, too much: want very much to do what the verb says, as in {sem nuamlua}, be eager to work; not the being happy of the other sense	
-s34149	very pleasant/want very much	<nuam> and <mahmah>, very, written as one word: very pleasant or comfortable, and after a verb want very much to do it	
+s34149	very pleasant/want very much/delightful	<nuam> and <mahmah>, very, written as one word: very pleasant or comfortable, and after a verb want very much to do it	
 s34150	bother/trouble/pick on	be ill-disposed towards someone, find fault with	
 s34151	fret/be uneasy	with <lung>, heart: be troubled in mind	
-s34152	joy/gladness/pleasure	<nuam>, happy, with the noun suffix <na>: joy or gladness, often paired with <lungdamna>	
+s34152	joy/gladness/pleasure/glee/happiness/mirth	<nuam>, happy, with the noun suffix <na>: joy or gladness, often paired with <lungdamna>	
 s34153	want any longer/want any more	<nuam> and <nawn> written as one word after a verb and before a negative such as <keng> or <loin>: no longer want to do it	
 s34154	no longer want to	<nuam>, want, and <nawnlo>, no longer, written as one word after a verb: not want to do it any more	
 s34155	one who wants to	<nuam>, want, with <pa>, the male one; after a verb, the man who wants to do it	
@@ -157,8 +157,8 @@ s34157	best/most pleasant/most comfortable	<nuam>, pleasant, with <pen>, most; o
 s34158	best/most pleasant	<nuampen>, most pleasant, with plural <te>; of seats, the most desirable ones	
 s34159	whoever wants to/anyone wishing to	<nuam>, want, and <peuh>, any, written as one word after a verb: anyone at all who wants to do it	
 s34160	want greatly/long	<nuam>, want, with <pipi>: while wanting very much; {nei nuampipi} is though longing to have a husband	
-s34161	be happy/enjoy/be content	<nuam>, pleasant, with <sa>, feel or deem: be happy, enjoy something; {mi nuamsa} is a blessed or happy person	
-s34162	gladden/cheer/make happy	<nuam>, glad, with causative <sak>; {lung nuamsak} is gladden the heart	
+s34161	be happy/enjoy/be content/delight/rejoice	<nuam>, pleasant, with <sa>, feel or deem: be happy, enjoy something; {mi nuamsa} is a blessed or happy person	
+s34162	gladden/cheer/make happy/gratify	<nuam>, glad, with causative <sak>; {lung nuamsak} is gladden the heart	
 s34163	gladdening/cheering/making merry	<nuamsak>, gladden, with the linking ending <in>; {lung nuamsakin om} is enjoy oneself	
 s34164	happiness/pleasure/enjoyment	<nuamsa>, be happy or enjoy, with the noun suffix {-na}: the state of being happy, pleasure or comfort	
 s34165	not be happy/not enjoy/be unwilling	<nuamsa> and <lo> written as one word: not be happy with, not enjoy doing	
@@ -175,7 +175,7 @@ s34175	those who want to	<nuamte>, those who want, and the subject marker <in>, 
 s34176	be able to be at ease/can be glad	<nuam>, be glad, with <thei>, be able; {lungsim nuamthei nawn lo} is the mind could no longer be at ease	
 s34177	be relieved/be comforted/get better	feel easier after pain, grief or sickness; with <sak>, give relief to	
 s34178	restfully/in relief	<nuamtuam>, be relieved, with <in>: being at ease, said of one who sleeps a healing sleep	
-s34179	comfort/give relief to/refresh	<nuamtuam>, be relieved, with <sak>, cause	
+s34179	comfort/give relief to/refresh/alleviate/assuage	<nuamtuam>, be relieved, with <sak>, cause	
 s34180	prefer/would rather	<nuam> want with <zaw> more, used with <sangin> than	
 s34181	better/more pleasant/more comfortable	<nuam> pleasant with <zaw> more	
 s34182	will be more pleasant/more comfortable/easier	<nuamzaw>, more pleasant, and <ding> written as one word: so as to be or that will be more pleasant or convenient	
@@ -186,7 +186,7 @@ s34187	Nebuchadnezzar	king of Babylon who captured Jerusalem and carried its peo
 s34188	nuclear	placed before a noun; <nuclear galvan> is nuclear weapons	
 s34189	nuclear weapon/nuclear weapons	<nuclear>, the English word, and <galvan>, weapons: a nuclear weapon or nuclear arms	
 s34190	NUG/National Unity Government	the National Unity Government of Myanmar, formed in 2021 in opposition to military rule	
-s34191	smear/anoint/rub on/apply	put oil, blood or ointment on something by smearing or rubbing; {sathau nuh} is anoint with oil	
+s34191	smear/anoint/rub on/apply/besmear	put oil, blood or ointment on something by smearing or rubbing; {sathau nuh} is anoint with oil	
 s34192	anoint/smear/rub on	connective form of <nuh>, putting oil, perfume or blood on something, followed by another verb	
 s34193		in {Nuhkaa ni}, the Nuhkaa day: a named day of the funeral observances of Zo custom whose pairing of partners in rice beer is the model for the day of death and the {Khandal} day; what the word itself means is not settled	
 s34194	putting on/smearing on	<nuh>, smear or rub on, with <kawmin>, while doing: as he put it on	
@@ -198,7 +198,7 @@ s34199	laugh	form of <nui> used before another word such as <hun>, time
 s34200	joke/jest/fun	joking, what is said in fun and not meant; {nuihciam lel} is only as a joke, the same as <ciamnuih> with its parts in the other order	
 s34201	laughable/funny/ridiculous	<nuih>, the form of <nui>, laugh, used before a suffix, with <huai>, worthy of: laughable	
 s34202	smile/be cheerful	<nuih>, laugh, with <mai>, face: smile, show a glad face; also used as a noun, a smile	
-s34203	laughter/laughing	<nuih>, laugh, with the noun suffix <na>: laughing, laughter	
+s34203	laughter/laughing/laugh	<nuih>, laugh, with the noun suffix <na>: laughing, laughter	
 s34204	laughter	<nuihna>, laughter, with plural <te>	
 s34205	laugh with	<nuih>, laugh, with <pih>, together with someone	
 s34206	laugh at/mock/ridicule/deride	<nuih>, laugh, with {-san}, at or toward someone	
@@ -206,7 +206,7 @@ s34207	laugh at/mock/scorn	<nuihsan> with the linking ending <in>
 s34208	laughingstock/derision/scorn	someone who is laughed at by others	
 s34209	smile at/laugh at	smile or laugh toward someone; in this verse a kindly smile, not mockery	
 s34210	object of scorn/laughingstock	<nuihsat>, being laughed at, with <in>; used with <om> or <bawl>: be or make a laughingstock	
-s34211	mockery/scorn/ridicule	<nuihsat>, laugh at, with the noun suffix <na>	
+s34211	mockery/scorn/ridicule/derision	<nuihsat>, laugh at, with the noun suffix <na>	
 s34212	try to laugh/mean to laugh	<nuih>, laugh, and <sawm>, intend, written as one word: make a point of laughing	
 s34213	make laugh	<nuih>, the form of <nui>, laugh, used before a suffix, with <suah>, bring out or become: make laugh; the page lists the form without a meaning	
 s34214	fit to be laughed at	<nuih>, the form of <nui>, laugh, used before a suffix, with <tuak>, be fitting: fit to be laughed at	
@@ -231,7 +231,7 @@ s34233	wiping	<nul>, wipe, with <in> linking it to the next verb
 s34234	wipe dry/dry off	<nul>, wipe, and <keu>, dry, written as one word: wipe something until it is dry, as the face after washing	
 s34235	wipe dry	<nul>, wipe, with <keu>, dry, and <sak>, cause or do for someone	
 s34236	wipe off/wipe away	<nul>, wipe, with <khia>, out or off	
-s34237	wipe away/erase/blot out	<nul>, wipe, with <mang>, away: wipe something out so that it is gone, said of past mistakes, old records and tears	
+s34237	wipe away/erase/blot out/efface/expunge	<nul>, wipe, with <mang>, away: wipe something out so that it is gone, said of past mistakes, old records and tears	
 s34238	wiper/wiping cloth	<nul>, wipe, with the noun ending {-na}: a thing for wiping, named after what is wiped, or the act of wiping	
 s34239	wipe/wipe away/wipe dry	<nul>, wipe, with <sak>, do it for another	
 s34240	woman who wiped	<nulsak>, wipe for another, with <nu> marking a woman: the woman who wiped	
@@ -240,7 +240,7 @@ s34244	Numbo
 s34245	woman	an adult female person	
 s34246	female		
 s34247	woman	<numei> written with a capital at the start of a sentence or where the word is given as a name	
-s34248	prostitute/sex worker	<numei>, woman, and <kizuak>, sell oneself: a woman who sells herself, a prostitute; used as a noun, with <khat> or a number after it	
+s34248	prostitute/sex worker/harlot/whore	<numei>, woman, and <kizuak>, sell oneself: a woman who sells herself, a prostitute; used as a noun, with <khat> or a number after it	
 s34249	brothel/prostitution	<numei>, woman, and <kizuakna>, selling: the selling of women, that is prostitution, and the place where it is done, a brothel; with <ah> and a verb of sending, into prostitution or to a brothel	
 s34250	women and children	<numei>, woman, and <naupang>, child, set side by side without <leh>: women and children, named together as those who are weak and to be protected; in other sentences the same two words are a female child, a girl	
 s34251	women and men/both sexes/male and female	<numei>, woman, and <pasal>, man, set side by side without <leh>, and: women and men together, people of either sex; {numei pasal cih omlo} is without regard to sex	
@@ -273,7 +273,7 @@ s34278	blow softly/blow in a light breeze	<nung>, here said of wind, to blow, a 
 s34279	behind/after	at the back of or following after, <nung> with the place ending <a>; follows a possessive	
 s34280	blow	of wind, the verb <nung> blow followed by the linking <a>	
 s34281	behind/after	placed after the noun, of place or of time	
-s34282	young woman/girl/maiden	a young unmarried woman, a virgin	
+s34282	young woman/girl/maiden/damsel	a young unmarried woman, a virgin	
 s34283	young woman/maiden	<nungak>, young woman, with a capital at the start of a sentence and in the speaker headings of the Song of Songs, {Nungak} the woman, {Nungak dangte} the other young women	
 s34284	young men and women/young couple	<nungak>, unmarried young woman, <leh>, and, <tangval>, unmarried young man, always in this order: the unmarried young people as a group, or a girl and a young man who court each other, set against the married <nupi> and <papi>	
 s34285	virgin	<nungak>, young woman, and <siangtho>, holy: a virgin, a woman who has not been with a man, said above all of Mary the mother of Jesus; among Roman Catholics also a nun, a religious sister	
@@ -281,13 +281,13 @@ s34286	young people/young women and men/unmarried youth	<nungak>, a young woman,
 s34288	as a young woman/as a maiden	<nungak> young unmarried woman with the ending <in>, telling the state someone is in; {nungakin a om}, while still an unmarried girl	
 s34289	maidenhood/girlhood	<nungak> and <lai> written as one word: the time when a woman is still young and unmarried	
 s34290	virginity	<nungak> with {-na}, the state of being a virgin; {nungakna lim} is the sign or proof of it	
-s34291	young woman/young girl/young virgin	<nungak>, young unmarried woman, with <no>, young; {nungakno hun} is the time of a woman’s youth	
+s34291	young woman/young girl/young virgin/girl/lass	<nungak>, young unmarried woman, with <no>, young; {nungakno hun} is the time of a woman’s youth	
 s34292	young women/girls/maidens	<nungakno>, young unmarried woman, with the plural <te>	
 s34293	young woman/girl	<nungak>, young woman, with <nu> marking a female person: the young woman, one particular girl	
 s34294	virgins/young women/maidens/girls	<nungak>, young unmarried woman, with the plural <te>; {Jerusalem nungakte} is the daughters of Jerusalem	
 s34295	afterwards/later/hereafter	<nung> and <ciang> written as one word: afterwards, later on; before a noun, the time to come, also the life after death	
 s34296	afterwards/later/in the future	<nung>, after, with <ciang>, time, and <a>; {a nungcianga piang ding} is what will happen afterwards	
-s34297	afterward/later/then	<nung>, after, with <ciangin>, when; {tua nungciangin} is after that, {a nungciangin} is afterward or in turn	
+s34297	afterward/later/then/afterwards/by and by	<nung>, after, with <ciangin>, when; {tua nungciangin} is after that, {a nungciangin} is afterward or in turn	
 s34298	as rear guard	{nungdal}, what shields the rear, with <in>, as: marching last to guard those in front	
 s34299	rear guard/rear troops	the men who come behind or are posted at the back of an army; plural with <te>	
 s34300	pursue/chase after/run after	<nung>, behind, with <delh>, chase	
@@ -312,7 +312,7 @@ s34318	retreat/withdraw/turn back/draw back	go back from where one has advanced,
 s34319	turn back/go back/shrink back	form of <nungkik> with {-in}, linking to what follows	
 s34320	turning back/retreat	<nungkik>, turn back, with the noun suffix <na>	
 s34321	turn back/drive back/make retreat	<nungkik> go back with <sak>, cause	
-s34322	go backward/shrink back/turn back	draw back instead of going forward, set against <mainawt>, go forward	
+s34322	go backward/shrink back/turn back/backslide/flinch/retreat	draw back instead of going forward, set against <mainawt>, go forward	
 s34323	drawing back/shrinking back	<nungkin>, go backward, with <in> linking it to the next verb	
 s34324	last year	<nung>, behind or after, with <kum>, year: the year before this one	
 s34325	last year/during last year	<nung>, back, <kum>, year, and <sung>, during, written as one word: in the course of last year	
@@ -344,7 +344,7 @@ s34350	blow down/sweep down	of wind: <nung> blow, with <suk> downward; paired wi
 s34351	recently/lately/in recent days	<nung>, behind, past, with <sungteng>, throughout: during the time just past, in recent days or weeks	
 s34352	alive		
 s34353	living		
-s34354	alive/live/be alive	live, be alive; {a nungta lai} is still living	
+s34354	alive/live/be alive/survive	live, be alive; {a nungta lai} is still living	
 s34355	the living God	<nungta>, alive, and <Pasian>, God: the living God, a fixed term of Christian speech, nearly always with <a> before it as {a nungta Pasian}, the God who lives, set against idols and the gods of the forefathers	
 s34358	live again/come back to life/revive	<nungta>, live, with <kik>, again; with <sak>, raise to life again	
 s34360	be still alive/survive/remain alive	<nungta> live with <lai> still; {a nungtalai} is one who is still alive, a survivor	
@@ -362,7 +362,7 @@ s34371	back up/support/reinforce	<nung>, behind, with <thuap>, add a layer: stan
 s34372	suffix	<nung>, behind, with <thuap>, add on: a syllable that is put after a word, the counterpart of <mathuap>, prefix	
 s34373	defender/back	in football, a player of the back line who defends; named in a list of awards between <kungpang>, goalkeeper, and <maikah>, striker; from <nung>, back	
 s34374	blow up/blow upward	of wind: <nung>, blow, with <to>, upward; paired with <nungsuk>, blow down, and said to the south wind in the verse	
-s34375	go backward/fall back/regress/backslide	move back instead of forward: draw back from an undertaking, decline instead of progressing, fall away in faith	
+s34375	go backward/fall back/regress/backslide/give ground	move back instead of forward: draw back from an undertaking, decline instead of progressing, fall away in faith	
 s34376	after	<nung>, after, and the plural marker <un>, written as one word after a verb whose subject is more than one: after they had done it	
 s34377	back	the back of the body	
 s34378	on the back	<nungzang>, the back of a person or animal, with the place marker <ah>	
@@ -448,7 +448,7 @@ s34463	woman/married woman/lady	<nupi>, woman, with <nu>, the female one: a grow
 s34464	married woman/wife	<nupi>, married woman, with <sa>, already: a woman who is already married, as against a girl	
 s34465	women	plural of <nupi>, grown or married women	
 s34466	nurse	a nurse; {Nurse nu} is a female nurse and {Nurse pa} a male nurse	
-s34467	leave/forsake/abandon/leave behind	go away from a person or place, or let something stay behind; of God or his law, forsake	
+s34467	leave/forsake/abandon/leave behind/depart/desert/quit/relinquish	go away from a person or place, or let something stay behind; of God or his law, forsake	
 s34468	pass away	leave this world, depart from life, as in {leitung nusia}	
 s34469	abandon/leave behind/forsake	<nusia>, leave, with <cip>, firmly: leave and not come back for it	
 s34470	neglect/leave out/leave behind	<nusia>, leave, with <kha>, happen to	
@@ -573,7 +573,7 @@ s34594	be	exist, be present, be in a place or in a state; {a om} is there is, {o
 s34595	become	come to be, come into existence or come upon someone, often with <hong> or <pah>	
 s34596	make	in instructions {om ding hi}, there is to be, stands where the English says make	
 s34597	happen/occur	of an event such as war, famine or mourning: take place, there is	
-s34598	abide	stay or live in a person or a place, remain there	
+s34598	abide/dwell/live/reside	stay or live in a person or a place, remain there	
 s34599	be/exist	<om> written with a capital, at the start of a sentence or in the name {Kumpi Gam Om Lo}, No Kingdom There	
 s34600	be still/stay quiet/keep calm/rest	<om>, stay, and <hithiat>, at ease: stay still and quiet, doing nothing and not stirring; often a piece of advice, with <in> or <ding> after it, and with <daitak>, quietly, before it	
 s34601	there is and/exist	<om>, be or there is, and the linking <a> written as one word: there is, and; it ends a clause and joins it to the next	
@@ -591,7 +591,7 @@ s34612	remaining still/being left speechless	<omcip>, stay still, with the linki
 s34613	staying put/staying in/remaining	<omcip>, stay without moving, with the noun suffix: a staying in one place, as staying indoors, or the place where one always stays	
 s34614	keep inside/confine/make stay put	<omcip>, stay still, with the causative <sak>: make people stay where they are and not leave, as in a lockdown	
 s34615	there really is/be right there	<om>, be, with the emphatic <citciat> written as one word: it is plainly there, there is indeed	
-s34617	ways/conduct/way of life	<om>, be, with <dan>, manner: how a person or a people live and behave; also how someone is getting on	
+s34617	ways/conduct/way of life/behaviour	<om>, be, with <dan>, manner: how a person or a people live and behave; also how someone is getting on	
 s34618	conduct/manners/way of life	<omdan>, way of being, and <khawldan>, way of staying: a pair that names as one thing how a person lives and behaves among others	
 s34619	ways/conditions/behaviour	plural of <omdan>: how things are, or how a person lives and behaves	
 s34620	remain/continue/stay on	<om>, be, with <den>, continually: go on being so, stay as it is	
@@ -621,7 +621,7 @@ s34643	happen to be/chance to be	form of <omkha> used before <leh>, <loh> and <p
 s34644	if there happens to be/if there should be	<omkha>, happen to be, and <leh>, here if, written as one word: if there should be any	
 s34645	there is none/not be there	<omkha> and <lo> written as one word: there happened to be none, no one was there, often of people killed or hurt	
 s34646	there may be/may occur	<om>, be, and <khathei>, perhaps, written as one word: there may well be, it could happen	
-s34647	be with/stay together/live together	<om>, be, with <khawm>, together: be, stay or live with someone; <tawh> marks the companion	
+s34647	be with/stay together/live together/co-exist/cohabit	<om>, be, with <khawm>, together: be, stay or live with someone; <tawh> marks the companion	
 s34648	be with/stay with/live with	<omkhawm> with the linking ending <in>: being together with someone, <tawh> marks the companion	
 s34649	being together/standing together	<omkhawm>, be together, with the noun suffix <na>	
 s34650	cause to be with/put together with	<omkhawm>, be together, with <sak>, cause: make or let someone be in the same place as others	
@@ -693,7 +693,7 @@ s34715	harmless/unsuspecting	of a person or animal that is quietly minding its o
 s34716	idly/while just sitting/at leisure	<ommuan> and <in> written as one word: while one is just sitting or staying with nothing else to do	
 s34717	be frequent/be often	<om>, be, with <mun>, often; {ommun lo} is be rare	
 s34718	locate/find	<om>, be, with the noun suffix <na>: the place where someone or something is; {omna peuhah} is wherever there is, and {omna panin} is from the presence of	where there is
-s34719	place to stay/dwelling/location	used alone as a noun for a place to live or the place where a thing is, as in {omna neilo}, having no place to stay; the listed sense is the same word after a subject, the place where someone is	
+s34719	place to stay/dwelling/location/abode/accommodation/residence	used alone as a noun for a place to live or the place where a thing is, as in {omna neilo}, having no place to stay; the listed sense is the same word after a subject, the place where someone is	
 s34720	dwelling place/place where one is	<omna> written with a capital: the place where someone is or sits; {note’ omna peuhah} is wherever you are	
 s34721	each one's place/wherever each is	<omna>, the place where one is, and <ciat>, each: the place where each one is; mostly as {i omna ciat ah}, wherever each of us is, in blessings and exhortations to people who live scattered	
 s34722	residence/dwelling/home	<omna>, the place where one is, and <inn>, house: the house where a person lives or stays, a residence; a possessive such as <a> or <ka> stands before it	
@@ -744,7 +744,7 @@ s34766	Omri	king of Israel who built Samaria, father of Ahab; also the name of t
 s34767	existing/already there/established	<om>, be, with <sa>, already: that which already is or was there before; {thu omsa bangin} is according to the word already given, {ngeina kip omsa} is the established rule	
 s34768	put	<om>, be, with <sak>, cause: cause to be somewhere, put	
 s34769	place	set or keep someone or something in a place, let remain there	
-s34770	cause/bring about/give rise to/create	make something exist or arise, not put it in a place: the object is a state or an event, as {buaina omsak}, cause trouble, and {kimuanna omsak lo}, create no trust	
+s34770	cause/bring about/give rise to/create/generate	make something exist or arise, not put it in a place: the object is a state or an event, as {buaina omsak}, cause trouble, and {kimuanna omsak lo}, create no trust	
 s34771	putting/placing/causing to be	<omsak>, cause to be, with the linking suffix <in>	
 s34772	restore/reestablish/bring back	<omsak> with <kik>, again: cause to be as before, put back in its place; {ki-omsakkik} is the passive	
 s34773	let remain/leave alone still	<omsak>, let be, with <lai>, still: leave a thing as it is for a while longer	
@@ -807,7 +807,7 @@ s34829	be more	there is more of something, used with <sangin> than
 s34830	have been/have stayed	<om>, be or stay, with <zawh>, completed: the time that one has spent in a state, followed by a count of days or years	
 s34832	keep happening/be there often	<om>, be or happen, and <zel>, repeatedly, written as one word: there is again and again, be somewhere often	
 s34833	keep happening/occur again and again/often be	<om>, be, with <zelzel>, repeatedly, written as one word: there is again and again, it keeps occurring	
-s34834	condition/state/ways/way of life/welfare	how a person is or lives, both his circumstances and his conduct; {omzia dong}, ask how someone is, means greet	
+s34834	condition/state/ways/way of life/welfare/manner	how a person is or lives, both his circumstances and his conduct; {omzia dong}, ask how someone is, means greet	
 s34835	ways/conditions/features	<omzia>, how a person or thing is, with the plural <te>; of a person, his ways, and of a land, what it is like	
 s34836	be there in great numbers/be all over	<om>, be, and <zihziah> written as one word: be present in great numbers, be found all over a place	
 s34837	be able to stand/be able to be/be able to remain	<om>, be or stay, with <zo>, be able: be able to be, remain or stand in a certain state or place	
@@ -850,7 +850,7 @@ s34875	online/on the internet	on the internet; {online pan} is from the internet
 s34876	Ono	town in the territory of Benjamin near Lod, with a plain named after it	
 s34877	Ontario	province of Canada; Lake Ontario is the lake on its southern border	
 s34878	Ooredoo	a mobile phone company, one of the telecoms operators of Myanmar	
-s34879	brood/sit on eggs/hatch	of a bird: sit on eggs or cover the young to keep them warm	
+s34879	brood/sit on eggs/hatch/incubate	of a bird: sit on eggs or cover the young to keep them warm	
 s34880	deposit/scum/rust	only in {kang-op}, the burnt crust stuck inside a cooking pot	
 s34882	Lord	part of {TOPA}, the Lord, printed in the text as {T OPA} with a space	
 s34883	raid/immigration raid/operation	an operation of the Malaysian police or immigration officers in which people without documents are checked and arrested; {Oparasi tawh kiman} is arrested in a raid	
@@ -915,7 +915,7 @@ s34941	oxygen cylinder/oxygen tank	<oxygen> with <bung>, here a container or tan
 s34942	Ozem	name of two men: the sixth son of Jesse, and a son of Jerahmeel	
 s34943	Ozni	son of Gad, ancestor of the Oznite clan	
 s34944	ozone	the gas that forms a layer high in the air and keeps off harmful rays of the sun; {Ozone Dalpi} is the ozone layer	
-s34945	father	male parent; with a possessive, as in {ka pa}, my father, and {a pa}, his father	
+s34945	father/dad/daddy/papa	male parent; with a possessive, as in {ka pa}, my father, and {a pa}, his father	
 s34946	man	a man or male person, mostly after <tua> or <hih>: {tua pa}, that man, {hih pa}, this man	
 s34947	male	male, said mostly of animals for sacrifice; {a pa khat} is one male	
 s34948	masculine	marks the masculine gender, in contrast to <nu>, feminine	
@@ -992,7 +992,7 @@ s35023	page	a page of a person or group on Facebook or other social media, where
 s35024	Pagiel	son of Okran, leader of the tribe of Asher in the wilderness	
 s35025	pagoda	a Buddhist shrine or temple tower	
 s35026	Pagoh	a town in Johor, Malaysia, on the North-South Highway	
-s35028	immediately/at once/right away/instantly	placed after a verb: the action happens at once, without delay	
+s35028	immediately/at once/right away/instantly/forthwith	placed after a verb: the action happens at once, without delay	
 s35029	as soon as	after a verb and followed by <leh>: as soon as the action happens	
 s35030	outright/simply/of all things	<pah>, at once, and <malam>: placed after a verb and before {uh hi} or <hi>, it says that the thing happened outright and against what was wanted or expected, often with regret or reproach	
 s35031	straight away/at once/without delay	<pah>, immediately, strengthened by <vingveng>, hurriedly: placed after a verb, mostly a verb of going, to say that it is done at once and in haste	
@@ -1028,9 +1028,9 @@ s35061	favour/approval/honour	the good opinion of others; {pahtak ngah} is to ga
 s35063	speak well of/praise/treat with favour	<pahtak>, favour or approval, with <bawl>, do or make: show someone approval	
 s35064	honoured/admirable/worthy of honour	<pahtak>, favour or honour, with <huai>, worthy of: deserving honour or admiration	
 s35065	favour/the fact of favouring	<pahtak>, favour or be pleased with, with <lam>, the fact or manner of	
-s35066	approval/favour/honour/praise	<pahtak>, favour, with the noun suffix <na>: the approval, favour or honour that someone gives; {pahtakna ngah} is win favour	
+s35066	approval/favour/honour/praise/compliment	<pahtak>, favour, with the noun suffix <na>: the approval, favour or honour that someone gives; {pahtakna ngah} is win favour	
 s35067	veranda/open platform	poetic word for <innka>, the open platform at the front of the house, used in songs	
-s35068	honor/exalt/glorify	show honour to someone or lift him up in rank or praise; of God and his name, exalt and glorify	
+s35068	honor/exalt/glorify/extol	show honour to someone or lift him up in rank or praise; of God and his name, exalt and glorify	
 s35069	award presentation/prize giving/honouring	<pahtawi>, honour, and <piakna>, giving: the presenting of awards or honours to people, and the part of a programme where this is done; those honoured stand before it, and <nei> or <om> follows for hold or take place	
 s35070	in honor of/honoring	<pahtawi>, honor, and the linking <a> written as one word: honoring someone and doing what follows	
 s35071	honourable/worthy of honour	deserving honour or respect: <pahtawi>, honour, with <huai>, worthy of	
@@ -1047,7 +1047,7 @@ s35081		<pah>, at once or readily, after a verb, with <te>, those who: {a zuak p
 s35082	immediately/at once/right away	<pah> and <uh> written as one word, placed after a verb: they do it at once	
 s35083		<pah>, at once, and <un>, the word closing a command to several people, written as one word: do it right away, all of you	
 s35084	come	move toward the speaker or the place spoken of, usually with <hong> before it: {hong pai}, come here	
-s35085	go	move from one place to another, go or walk to a place	
+s35085	go/walk	move from one place to another, go or walk to a place	
 s35086	pie/pice	the smallest copper coin of the old money, <dangkasan>, of which a number, not legible on the page, made one <pe>; not the verb go	
 s35087	go	<pai>, go, written with a capital at the start of quoted speech	
 s35088	Pau/Pai	the city of Hadad king of Edom; Pau in the NIV, Pai in older English Bibles	
@@ -1117,7 +1117,7 @@ s35152	can go out/be able to leave	<paikhia> and <thei> written as one word: be 
 s35153	go out/set out/leave	<paikhiat> with the ending <in>: when or as someone set out	
 s35154	slip out/get out	<paikhiat>, go out, with <khak>, happen to; with {loh nading}, so that no one gets out	
 s35155	going out/departure/leaving	<paikhiat> go out, with <lam>, the fact or manner of: that someone has gone out, the leaving of someone	
-s35156	departure/exodus/going out	<paikhiat>, go out, with the noun suffix <na>: the act of leaving, or before <gam> or <mun> the place someone came out from	
+s35156	departure/exodus/going out/egress	<paikhiat>, go out, with the noun suffix <na>: the act of leaving, or before <gam> or <mun> the place someone came out from	
 s35157	Exodus		
 s35158	man from whom something went out	<paikhiatna>, going out, with <pa> marking a man: in the verses the man out of whom the demons had gone	
 s35159	left/gone out from	<paikhiat>, go out, with <na>, place, and <sa>, already: that one has gone out from	
@@ -1207,7 +1207,7 @@ s35243	send back/send again/let come again	<paisak>, send or let go, with <kik>,
 s35244	not let go/not allow to go/not let pass	<paisak>, let go, and <lo>, not, written as one word: not allow someone to go to a place or to pass	
 s35245	sending/letting go	<paisak>, send or let go, with the noun suffix <na>: the act of sending or of letting go	
 s35246	send at once/dispatch immediately	<paisak>, send, and <pah>, at once, written as one word: send people or vehicles to a place without delay; with <ki>, be sent at once	
-s35247	depart/go away/leave	<pai>, go, with <san>, away from: go away from a person or place and leave it behind	
+s35247	depart/go away/leave/forsake	<pai>, go, with <san>, away from: go away from a person or place and leave it behind	
 s35248	Passover	the yearly feast that recalls how the Lord passed over the houses of Israel in Egypt; often {Paisan pawi}, the Passover feast	
 s35249	Passover	<Paisan>, Passover, with <pawi>, feast: the Passover feast, kept on the fourteenth day of the first month	
 s35250	leaving/going away from/going off	<paisan>, go away from, with the linking ending <in>: leaving a person, place or thing and then doing the next action	
@@ -1293,7 +1293,7 @@ s35330	rarely/not readily/hardly ever	<pakpak>, readily, and <lo>, not, written 
 s35331	open flower/blossom/flower in bloom	<pak>, flower, with <palh>, open out	
 s35332	flowers/blossoms/open flowers	<pakpalh>, open flower, with the plural ending <te>	
 s35333	be proud of/take pride in/rejoice over	written after a separate <ki>: {ki pakpih}, from <kipak>, rejoice, with <pih>, be glad and proud because of someone or something	
-s35334	praise/commend/admire/approve of	think well of someone or of what he does and say so	
+s35334	praise/commend/admire/approve of/compliment	think well of someone or of what he does and say so	
 s35335	have bloomed/be in flower	<pak>, bloom, and <ta>, now, written as one word: has come into flower; not the verb praise	
 s35336	promiscuous/loose/immoral	sexually immoral, placed after the noun; {numei paktat} is a prostitute or harlot, and {pasal paktat} a male prostitute	
 s35337	prostitute oneself/commit prostitution	act as a prostitute or be sexually immoral; also said of Israel being unfaithful to God	
@@ -1329,7 +1329,7 @@ s35368	be unfaithful to/commit adultery against	break faith with a husband or wi
 s35369	unfaithfulness/adultery	<palhngulh>, be unfaithful to, with the noun suffix <na>; in the verse of a people unfaithful to God	
 s35370	blooms/open flowers	<palh>, bloom, with the plural ending <te>; {pak palhte} is flowers in bloom	
 s35371	Pali	the old language of India in which the Buddhist scriptures are written, studied in Myanmar and Sri Lanka	
-s35373	officer/guard/police	loanword from English police: an officer who keeps order or guards; {palik bu} and {palik mang} are officers of the guard	
+s35373	officer/guard/police/constable	loanword from English police: an officer who keeps order or guards; {palik bu} and {palik mang} are officers of the guard	
 s35374	fake policeman/police impostor	<palik>, police, with <kineih>, pose as: someone who pretends to be a police officer; stands before a noun such as <pasal> or <mi>, a man or person posing as police, and has nothing to do with going to law	
 s35375	police station	<palik>, police, and <phualpi.2>, main camp or post: a police station, in war news one that is attacked or taken; the name of the town stands before it; not a furnace	
 s35376	police official/senior police officer/police authorities	<palik>, police, and {thunei}, one who has authority: a police officer in charge or speaking for the police; {palik thunei te} is the police authorities, and news reports name the officer after {palik thunei ahi}	
@@ -1349,7 +1349,7 @@ s35389	flourish/prosper/thrive	be in full bloom, and so of a land or a people: f
 s35391	transgress/violate/break	break a law, command or covenant	
 s35392	transgressing/violating/breaking	<palsat>, break a law or covenant, with the linking ending <in>: breaking it and so doing the next thing	
 s35393	break/transgress/violate	<palsat>, break or transgress, with <khak>, happen to: break a promise or command, even without meaning to; {na palsatkhak loh nadingun} is so that you do not break it	
-s35394	transgression/rebellion/offence	<palsat>, transgress, with the noun suffix <na>: the breaking of a law or command, usually in the phrase {thu palsatna}	
+s35394	transgression/rebellion/offence/violation	<palsat>, transgress, with the noun suffix <na>: the breaking of a law or command, usually in the phrase {thu palsatna}	
 s35395	transgressions/offenses	plural of <palsatna>, transgression; usually in the phrase {thu palsatnate}, the acts by which a person breaks the law of God	
 s35396	transgressors/those who break	<palsat> transgress, with the plural <te>: those who break a command; {thu palsatte} is transgressors	
 s35397	get through/pass through/come through/pass	go right through a hard time or a difficulty and come out on the other side; of a test or interview, pass it	
@@ -1377,7 +1377,7 @@ s35419	from side to side/glancing about	describes eyes turned this way and that,
 s35420	neighbours/those around	<pam> side, vicinity, with the plural <te>; used in the pairs {a veng a pamte} and {na kiim na pamte}, the people living all around	
 s35421	from/out of/by way of	placed after a noun to show the starting point or the way through, short form of <panin>	
 s35422		take a stand or act as, in {teci pan} bear witness	
-s35423	begin/start	begin something, on this page a letter with its words of address; {ci-in pan in} is begin by writing so	
+s35423	begin/start/commence	begin something, on this page a letter with its words of address; {ci-in pan in} is begin by writing so	
 s35424	or less/and below/and under	<pan>, from, with <anuai>, below it, and <siah>, onward: from that point downward; placed after an amount or number, that amount or less	
 s35425	start from/begin at/date from	<pan>, from, and <kipan>, begin: placed after a time, a place or a point in a text, begin there and go on from it; before a further clause it is as much as from that point onward, since	
 s35426	starting from/ever since/from	<pan>, from, and <kipanin>, beginning: placed after a word of time, a date or an amount, starting from that point and going on, ever since	
@@ -1476,12 +1476,12 @@ s35519	begin at once/start right away	<pan>, here begin as in <kipan>, and <pah>
 s35520	just beginning/only just	placed after a verb: the action is only just beginning or happens for the first time; {kipan panpan} is only just start	
 s35521	have just begun/be now starting	<panpan> and <ta> written as one word after <ki>: {ki panpanta} is has now just begun	
 s35522	start over/begin again/make a fresh start	begin once more from the start after a failure or defeat, mostly after <ki> and often with <kik>, again	
-s35523	help/support/side with	stand with someone, <pan> with <pih> together with; also join in with others and show partiality to	
+s35523	help/support/side with/aid/assist	stand with someone, <pan> with <pih> together with; also join in with others and show partiality to	
 s35524	will help/will support	<panpih>, help, and the future marker <ding> written as one word: will help, is to help	
 s35525	siding with/supporting/favouring	<panpih>, take the part of, with the linking ending <in>	
 s35526	not help/not support	<panpih>, help or side with, and <lo>, not, written as one word: give no help, take no side	
-s35527	support/upholding	<panpih>, take the part of, with the noun suffix <na>: the taking of someone’s side, upholding of a cause	
-s35528	aid/assistance/donation/relief	help given to people or a cause in need, mostly money or goods, as in {panpihna hong pia}, give a donation, and {panpihna a kisamte}, those who need help	
+s35527	support/upholding/backing	<panpih>, take the part of, with the noun suffix <na>: the taking of someone’s side, upholding of a cause	
+s35528	aid/assistance/donation/relief/contribution/help	help given to people or a cause in need, mostly money or goods, as in {panpihna hong pia}, give a donation, and {panpihna a kisamte}, those who need help	
 s35529	supports/help/assistance	plural of <panpihna>: acts of support, the help that people give	
 s35530	defender/supporter	<panpih>, side with, with <pa>, the one who; in the verse, one who pleads for others at the gate	
 s35531	supporters/helpers	<panpih>, support, with the plural <te>: those who support or help a person or a work	
@@ -1556,7 +1556,7 @@ s35601		in the pair {numei-pasalna}, woman and man: relations between the sexes,
 s35602	take a husband/be married	<pasal> man, husband, with <nei> have, said of a woman; paired with <zinei>, take a wife; {pasalnei thak} is a bride	
 s35603	marriage/taking a husband	<pasal>, husband, and <neih>, having, written as one word: a woman's marrying; paired with <zineih>, taking a wife, for marriage in general	
 s35604	two men	<pasal> and <nih> written as one word: two men	
-s35605	boy/male child	<pasal>, male, with <no>, young	
+s35605	boy/male child/lad	<pasal>, male, with <no>, young	
 s35606	boy's book	<pasalno>, boy, with the possessive apostrophe and <laibu>, book, written as one word	
 s35607	boy's property	<pasalno>, boy, with the possessive apostrophe and <neihsa>, property, written as one word: what belongs to the boy	
 s35608	a boy/one boy	<pasalno>, boy, and <khat>, one, written as one word	
@@ -1615,7 +1615,7 @@ s35661	sound the alarm/signal	<patau>, alarm, with <koh>, call out: give the ala
 s35662	alarm/alarm call	a loud signal of danger or war, sounded on a trumpet	
 s35663	be greatly troubled/be very alarmed	<patau>, be troubled, with <lua>, very much	
 s35664	panic/be alarmed/be thrown into a fright	<patau> be alarmed, with <man>; mostly as {ki patauman}: people take fright, there is alarm or panic	
-s35665	alarm/frighten/disturb	cause to be alarmed or to panic; <patau> with the causative <sak>	
+s35665	alarm/frighten/disturb/dismay	cause to be alarmed or to panic; <patau> with the causative <sak>	
 s35666	all be alarmed/panic	<patau>, be alarmed, and <tek>, each, written as one word: everyone is alarmed, all are in a panic	
 s35667	with the man	<pa>, man, and <tawh>, with, written as one word after a title or description: with the man who is that	
 s35668	beginning/start/first	<pat>, begin, and <cil>, at first, written as one word, after <ki>: {a ki patcil} is when it first began, the beginning, and {a ki patcil in} is at first, in the beginning	
@@ -1638,7 +1638,7 @@ s35685	threads/strings	<pat>, cotton, with <khau>, cord, and the plural <te>: co
 s35686	begin/lead off/start	<pat>, begin, with <khiat>, out; form of {patkhia} used before <ding>: start off a prayer or song for others to follow	
 s35687	origin/starting point	<patkhiat>, start off, with the noun ending <na>: where something starts; after <ki> it is the place a person or thing came from, as in {ki patkhiatna gam}, country of origin	
 s35688	have begun	<pat>, begin, with <khit>, finished; {patkhit ciangin} is after beginning	
-s35689	cotton gin	a wooden hand tool with rollers through which raw cotton, <pat>, is passed to take out the seeds	
+s35689	cotton gin/gin	a wooden hand tool with rollers through which raw cotton, <pat>, is passed to take out the seeds	
 s35690	tinder/tow	a bunch of cotton or fibre that catches fire easily; <pat>, cotton, with <lom>, bundle	
 s35691	Patmos	small island in the Aegean Sea where John was when he received the Revelation	
 s35692	beginning/start	<pat>, begin, with the noun suffix <na>: the beginning; often in {a patna pan a tawpna dong}, from beginning to end	
@@ -1656,7 +1656,7 @@ s35703	way of training/upbringing/way of raising	<pattah>, train, and <zia>, way
 s35704	Pattani	town and province in the far south of <Thailand>, where most people are Muslim	
 s35705	Pattaya	a seaside city in Thailand	
 s35706		<pat>, begin, with the ending <un>; found in the pair {na pian’ na patun}, from birth and beginning, that is by birth	
-s35707	language/speech/word	the language a people speaks, or what a person says; {kam pau} is speech or language, and {pau lamdang} is speaking in tongues	
+s35707	language/speech/word/tongue	the language a people speaks, or what a person says; {kam pau} is speech or language, and {pau lamdang} is speaking in tongues	
 s35708	speak/talk		
 s35709	Pau	city of Hadad, one of the kings who reigned in Edom	
 s35710	be at fault/be blameworthy	form of <paubaang> used before <na>; {paubaan’na} is fault or blame, and {paubaan’na om lo} is blameless	
@@ -1691,7 +1691,7 @@ s35739	not speak/keep silent	<pau> and <loh> written as one word: not speaking, 
 s35740	Paulus	Sergius Paulus, the Roman proconsul of Cyprus who sent for Barnabas and Saul to hear the word of God	
 s35741	hardly able to talk/speech-impaired	<pau>, speak, with <mawl>, dull: speaking with difficulty	
 s35742	speech/words/speaking	<pau>, speak, with the noun suffix <na>: what a person says, or the act of speaking	
-s35743	proverb/saying/byword	a short wise saying handed down among a people; also a person or nation that others make a byword; <Paunak> is the name of the book of Proverbs	
+s35743	proverb/saying/byword/adage	a short wise saying handed down among a people; also a person or nation that others make a byword; <Paunak> is the name of the book of Proverbs	
 s35744	Proverbs		
 s35745	as the proverb says/in the proverb	<paunak>, proverb, and <in> written as one word: in the words of the proverb, placed before the saying that is quoted	
 s35746	proverbs/sayings	<paunak>, proverb, with the plural <te>	
@@ -1760,7 +1760,7 @@ s35809	festivals/feasts	<pawi>, festival, with the plural <te>: festivals or fea
 s35810	great festival/major event/important celebration	<pawi>, festival, and <thupi>, important, written as one word: a great festival or an important public event	
 s35811		<paw>, carry on the shoulder, and <kawm>, while, written as one word: while carrying on the shoulder	
 s35812	some/a part of	placed after a noun: some of them, a part of it	
-s35813	group/division/company/party	a group of people, as a division of an army, a company or a party; {pawl khat}, one group, is also used for some	
+s35813	group/division/company/party/league	a group of people, as a division of an army, a company or a party; {pawl khat}, one group, is also used for some	
 s35814	grade/standard/class	a class of a school, followed by its number: {pawl 4} is the fourth grade, and {pawl 4 zo} is pass the fourth grade	
 s35815	about/around	after a year or a word of time: about that time, around then, as in {1975 kum pawl}, around the year 1975	
 s35816	about/around/approximately	<pawl> and <a> written as one word after a year, an hour or a measure: at about, at around that	

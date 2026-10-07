@@ -12,7 +12,7 @@ s26009	Lawngtlai	town and district in the south of <Mizoram>, India
 s26010	throw/cast/hurl/toss	<lawn> with the linking suffix {-in}, throwing and then doing the next action	
 s26011	fire/shoot	<lawn.3>, fire, with the linking suffix {-in}, after <thau>, gun: firing a gun and then doing the next action, as at a funeral or a village rite; not throwing	
 s26012	touch/happen to touch/come in contact with	<lawn>, form of <lawng> touch, with <khak>, happen to	
-s26013	throw out/cast away/hurl/cast off	<lawn>, throw, with <khia>, out	
+s26013	throw out/cast away/hurl/cast off/fling/throw	<lawn>, throw, with <khia>, out	
 s26014	launch/fire	of a weapon: launch a missile or fire a shot, with words such as {thuapi}, <nuclear> or <thau> before it	
 s26015	cast away/reject/throw away	<lawn> throw with <khia>, out, and <mang>, away, lost	
 s26016	post at once/put out right away	<lawnkhia>, throw out, with <pah>, at once, written as one word: put a photo or video out on social media immediately	
@@ -84,7 +84,7 @@ s26084	fly	form of <leeng>, written {leen’} before <na>, <nawn>, <khiat> and o
 s26085	hold/take hold of/pick up	a spelling of <len.1>, hold: take in the hand, as in {ka khut hong leen}, take hold of my hand, or pick up a ringing phone; not {leen} fly	
 s26086	fly	move through the air with wings or as if with wings; before some endings it is written <leen>	
 s26087	if/even if	another spelling of <leng>, the conditional ending for we or I as subject, placed after the verb: if we; with <zong> it is even if we; not the verb fly	
-s26088	cart/carriage	a vehicle on wheels; {sakol leeng} is a cart drawn by a horse; not the verb fly	
+s26088	cart/carriage/coach	a vehicle on wheels; {sakol leeng} is a cart drawn by a horse; not the verb fly	
 s26089	in the chariot/into the chariot	<leeng> chariot, cart, with the place marker <ah>	
 s26090	wine	spelling of <leenggahzu>, grape wine	
 s26091	grape	grape; {leenggah gui}, vine; {leenggah lo}, vineyard	
@@ -250,7 +250,7 @@ s26254	creditors/debts	<leibatna> owing of a debt, with the plural <te>; in the 
 s26255	debts	plural of <leibat>, debt: the debts, sums of money owed	
 s26256	clay pot/earthen vessel/earthenware	pot made of clay; <lei> earth with <beel> pot	
 s26257	clay pots/earthen vessels	<leibeel>, clay pot, with the plural <te>: pots and other things made of clay	
-s26258	clay jar/earthen pot/earthenware	pot made of clay, <lei> earth with <bel> pot; also written <leibeel>	
+s26258	clay jar/earthen pot/earthenware/crock	pot made of clay, <lei> earth with <bel> pot; also written <leibeel>	
 s26259	earthly tent	<lei>, earth, with <buk>, tent or hut: the body as the dwelling in which a person lives on earth	
 s26260	foundations of the earth	<lei> earth with <bulpi>, foundation, and the plural <te>	
 s26261	Leicester	city in England	
@@ -262,7 +262,7 @@ s26266	foreign land/another land	<lei> and <dang> written as one word, paired wi
 s26267	cape/headland	<lei> land with <dawk>, stick out: point of land running out into the sea	
 s26268	to buy/will buy	<lei>, buy, and <ding> written as one word: to buy, going to buy, something to be bought	
 s26269	cavern/cave	a hollow in the earth or in a hillside, a cave; <lei>, earth, with <hawm>, hollow	
-s26270	grotto/hole in the ground	a hole or hollow in the ground where people hide or live	
+s26270	grotto/hole in the ground/burrow	a hole or hollow in the ground where people hide or live	
 s26271	the Pit/pit	<leihawm> written with a capital: the Pit, the deep place of the dead; {Leihawm sungah paisuk} is go down to the Pit	
 s26272	to the cave/in the cave	<leihawm> cave with the place marker <ah>	
 s26273	corruption	in the Psalms the great pit of the grave, where the body decays, written there with a capital	
@@ -366,7 +366,7 @@ s26371	out of the ground/from under the ground	<leisung>, under the ground, and 
 s26372	worth buying/affordable	<lei>, buy, with <tak>, worth: good to buy, worth its price	
 s26373	sea bed/bottom of the deep	with {tuipi nuai}, the ground under the sea	
 s26374	surface		same as <leitangtung>
-s26375	soil/ground	the soil of a land, which is worked and bears crops	
+s26375	soil/ground/earth	the soil of a land, which is worked and bears crops	
 s26376	land	a land or territory, and the land that a person owns or inherits	
 s26377	of the land/in the land	<leitang>, land, with the ending <a>, of or in, placed before what is in or comes from the land	
 s26378	in the land/to the land	<leitang>, land, with the place marker <ah>: in the land or to the land	
@@ -490,7 +490,7 @@ s26497	unrolling/opening	<lem> with the ending <in>; in the verse, of opening or
 s26498	take away/remove/roll away	in the verses, move the stone away from the mouth of a tomb	
 s26499	set right again/restore/reconcile	<lem> and <kik> written as one word: put right again what was spoiled; after <ki>, be reconciled again	
 s26500	blankly/wide-eyed	descriptive word placed after <en>, look, or <hak>, be awake: with the eyes open and fixed, staring without a word	
-s26501	benefit/be better off	<lem>, be convenient or work out, and <lawh>, as a result, written as one word: gain or be better off through something	
+s26501	benefit/be better off/gain	<lem>, be convenient or work out, and <lawh>, as a result, written as one word: gain or be better off through something	
 s26502	leaf through/turn over/browse	turn the pages of a book or newspaper one after another, look through it	
 s26503	not convenient/not suitable/not workable	<lem>, here be convenient or fitting, and <lo>, not, written as one word; after a verb with <ding>, it is not convenient or not possible to do it	
 s26504	not convenient/not workable/not working out	form of <lemlo>, not convenient, used before words such as <ciangin>, <hangin> and <hun>: when a thing does not work out or does not suit	
@@ -521,7 +521,7 @@ s26528	hold fast/grip/bind/cling to	<len>, hold, with <cip>, tightly: hold and n
 s26529	holding fast/holding back	<lencip>, hold tightly, with the linking ending <in>	
 s26530	if	if I, should I; conditional ending for a first person singular subject, matching <leh> for other persons	
 s26531	cart/carriage/wagon	a wheeled vehicle that an animal pulls	
-s26532	fly	move through the air, as in {mei leng}, a fire flies, which the book sets against the one word <meileng>, train; also written <leeng>	
+s26532	fly/soar	move through the air, as in {mei leng}, a fire flies, which the book sets against the one word <meileng>, train; also written <leeng>	
 s26533	it is good to/it would be good if/should	<leng>, if, and <hoih>, good: placed after a verb to give advice, it is good to do so, one should do so; {kei leng hoih} after the verb advises against it, and {leng hoih pen hi} is it is best to	
 s26534	it is best to/would be best	<leng>, if, and <hoihpen>, best: placed after a verb and followed by <hi> or {ding hi}, it is best to do that; the usual way of giving advice, as {zang leng hoihpen hi}, it is best to use	
 s26535	it would be fitting to/ought to/might well	<leng>, if I or if we, and <kilawm>, fitting: placed after a verb, it would be right or likely that I or we do so, I had better, I may well; often followed by <sa> and <ing>, I think it fitting	
@@ -572,7 +572,7 @@ s26582	cicada	an insect that sings loudly at dusk; {Zo Lengthe} is the name of t
 s26583	be able to fly/can fly	<leng>, fly, and <thei>, able, written as one word: be able to fly, also of people travelling by plane	
 s26584	aircraft/flying craft	a thing that can fly, such as a plane or a balloon	
 s26585	cannot fly/be unable to fly	<lengthei>, be able to fly, with <lo>, not, written as one word: of a plane, be unable to fly; of people, be unable to fly to another country	
-s26586	fly up/soar up	<leng>, also written <leeng>, fly, with <to> upward; paired with <lengsuk>	
+s26586	fly up/soar up/soar	<leng>, also written <leeng>, fly, with <to> upward; paired with <lengsuk>	
 s26587	Lengtonghoih	the famous beautiful girl of a Zomi folk tale, the only sister of seven brothers who gave her all she wished for; also the name of a music group founded in Manipur	
 s26588	sky/heaven	word of songs and poetry for the sky or heaven	
 s26589	at high speed/speeding	of a vehicle: the verb for running or moving along, with <zeza>, strongly, written as one word and followed by <in>: racing along fast	
@@ -703,7 +703,7 @@ s26714	she/her	third person singular for a female; the book says that the forefa
 s26715	hers	<lia>, she, with <a>, the thing owned: hers, said after the thing spoken of	
 s26716	hers	<lia>, the girl, with the possessive <a>: what belongs to her, standing in place of the noun; the lesson form for English hers	
 s26717	the girl's skirt/Lia's skirt	<Lia> with the possessive apostrophe and <nik>, skirt: stands for {Lia ii nik}; the word is the title of a girl and may here be a girl's name	
-s26718	cover/overshadow/shade/hide	come between something and the light, heat or sight, so as to shade, shield or hide it	
+s26718	cover/overshadow/shade/hide/conceal/mask/obscure	come between something and the light, heat or sight, so as to shade, shield or hide it	
 s26719	lick/lap	form of <liak>, lick, used before <bangin>; said of an animal that licks or laps something up	
 s26720	attend/escort	at a wedding, stand beside the bride or the groom as attendant; said after <mo>, <monu> or <mopa>, and distinct from covering or licking	
 s26721	in the shelter/in the covert	<liah>, cover, hide, with <ah>, at; {mual liahah}, at the hidden or sheltered side of the hill, where the NIV has mountain ravine	
@@ -739,7 +739,7 @@ s26750	unhurt/uninjured/not injured	<liam>, be injured, with <lo>, not, written 
 s26751	serious injury/severe wound	<liam>, be injured, and <luatna>, great degree, written as one word: being badly hurt; mostly with <omlo>, no serious injury	
 s26752	wound/sore/injury	a wound or sore on the body; {liamma dam} is a wound heals	
 s26753	wounds	plural of <liamma>, wound	
-s26754	wound/injury/sore	<liam>, be wounded, with the noun suffix <na>: a wound or injury	
+s26754	wound/injury/sore/lesion	<liam>, be wounded, with the noun suffix <na>: a wound or injury	
 s26755	injury/casualties/harm	<liamna>, wound, and <baina>, harm, said as a pair: injury and bodily harm of any kind, as after an accident or an attack; mostly with <om>, there is, or <ngah>, receive, and often denied, {liamna baina om lo}, nobody was hurt	
 s26756	be wounded/be injured/get hurt	<liamna>, a wound, and <ngah>, get: receive an injury, be wounded in fighting or in an accident; stands after the person or the number of persons hurt, and reports set it beside <si>, die	
 s26757	be injured/be wounded/get hurt	<liamna>, injury, and <tuak> in the sense meet with: suffer an injury, the usual wording of news reports for the injured, who stand before it with <in>; {liamna tuak mi} is an injured person	
@@ -757,7 +757,7 @@ s26768	pass away	<liam>, here go out of sight, with <san>, here leaving others b
 s26769	harm/injure/hurt	cause a wound or injury to someone	
 s26770	the wounded/the injured	those who are wounded, <liam> with plural {-te} used as a noun	
 s26771	all be injured/each be injured	<liam.2>, be injured, and <tek>, each, written as one word: every one of those named is injured	
-s26772	large	big in size	
+s26772	large/big	big in size	
 s26773	great	great in power, rank or worth	
 s26774	major	chief or leading among others of its kind, as a leading city or a senior priest	
 s26775	huge		
@@ -821,7 +821,7 @@ s26832	chief/highest	<lianpen> greatest, with <pa> marking a man: the man highes
 s26833	the very largest/the very greatest/biggest of all	<lian>, large or great, and <penpen>, the very most, written as one word	
 s26834	greatest ones/chiefs/largest	<lianpen> with plural <te>: the highest in rank or the biggest of their kind	
 s26835	highest/chief	<lianpen> greatest with plural <te>; {Siampi Lianpente} are the high priests	
-s26836	great/large/big	<lian> with the strengthening ending <pi>; {lam lianpi} is a highway and {awging lianpi} a loud voice	
+s26836	great/large/big/immense	<lian> with the strengthening ending <pi>; {lam lianpi} is a highway and {awging lianpi} a loud voice	
 s26837	a big/a great/a major	<lianpi>, great, and <khat>, one, written as one word after a noun: a big one, a great one	
 s26838	great/very great/mighty	<lianpi> great with the last part doubled, said of several great things or to stress the greatness; placed after the noun	
 s26839	very great/huge	plural form of <lianpipi>, said of several very large things; {inn lianpipite}, great houses, stands for palaces and fortresses	
@@ -898,7 +898,7 @@ s26911	overhang/canopy	a covering that gives shade over an entrance
 s26912	overshadowing/shading	<liimsun> overshadow with the ending <in>	
 s26913	shadows	<liim>, shadow, with the plural <te>	
 s26914	tremble/shake	written {liin’} before <na>; {liin’na} is trembling, often paired with <launa> fear	
-s26915	tremble/shake/quake	shake or tremble, of the earth in an earthquake or of people in fear	
+s26915	tremble/shake/quake/shudder	shake or tremble, of the earth in an earthquake or of people in fear	
 s26916	shake/quake	<liing> tremble, quake, with the linking <a>, and	
 s26917	trembling/shaking	<liing> tremble with <cip>, completely, and the ending <in>: of hands shaking with fear; the NIV has go limp	
 s26918	tremble violently/shake with fear	<liing> tremble with <gawp>, severely	
@@ -926,7 +926,7 @@ s26939	Lillehammer	Lillehammer, a town in Norway where some Zomi live; the usual
 s26940	image	the likeness of a person or thing, as on a coin, or the likeness in which someone is made	
 s26941	picture		usually in general terms
 s26942	form		
-s26943	delicious/tasty	of food and drink: good to taste, as in {an lim}, delicious food; {lim sa} is find something tasty	
+s26943	delicious/tasty/yummy	of food and drink: good to taste, as in {an lim}, delicious food; {lim sa} is find something tasty	
 s26944	sign/token/mark	something that shows a fact or a quality that cannot itself be seen, not a likeness or a picture; often at the end of a sentence, as {kiamsukna lim ahi hi}, it is a sign of decline	
 s26945	in the likeness/in the form	<lim> image, form, with <a>, in; {kua lima kibawl}, make oneself out to be whom, where the NIV has who do you think you are	
 s26946	in the shade of/in the shadow of	<lim>, shade or shadow, with the place marker <ah>; {inn limah} is in the porch or entryway of a house	
@@ -1003,7 +1003,7 @@ s27019	be badly damaged/be wrecked	be badly damaged, said of vehicles and buildi
 s27020	seriously/in earnest/truly	in a serious or real way: of an illness, grave; of people who suit one another or who read, really and properly	
 s27021	inspect/check thoroughly/scrutinise/search	examine closely and in detail, as officials check persons, luggage, phones or permits; with <sit>, examine	
 s27022	draw/paint/sketch	<lim>, picture, with <suai>, draw: make a picture or a plan by drawing or painting; {limsuai siam} is skilled at drawing, an artist	
-s27023	painter/artist	a person who draws or paints pictures	
+s27023	painter/artist/draftsman	a person who draws or paints pictures	
 s27024	painting/drawing	the making of pictures as an art or skill, from <lim>, picture, and <suaih>, draw; <limsuaih siam> is a skilled painter, an artist	
 s27025	painter/artist	<limsuaih>, painting, and <siam>, skilled: a person skilled in painting or drawing, an artist; a country name stands before it and the name of the person after it	
 s27026	painting/drawing/art of painting	<limsuaih> with the noun ending {-na}: the making of pictures, or the work that is made; {limsuaihna innkhan} is a room for painting	
@@ -1029,7 +1029,7 @@ s27045	shake/tremble/be shaken	form of <ling>, written {lin’} before endings
 s27046	fourth	<li>, four, with the ordinal suffix <na>: the fourth in a series	
 s27047	Linus	Christian in Rome who sent greetings to Timothy through Paul	
 s27048	line/connection	a telephone, power or pipe line, and the connection it gives: {phone line} is the telephone network; {Line Car} is a bus that runs a regular route	
-s27049	thorn	a sharp point on a plant, or a plant that bears them; {ling lak} is among thorns	
+s27049	thorn/prickle	a sharp point on a plant, or a plant that bears them; {ling lak} is among thorns	
 s27050	tremble/shake/quake	shake: of a person or a voice in fear, and of the earth in an earthquake; a spelling of <liing>, used as a verb after <a> or <hong> and before <keuhkeuh>	
 s27051	thorns/thorn bush/brambles	a thorny bush or thicket of thorns that chokes other plants	
 s27052	thorns/thorn bushes	plural of <lingbulsum>	
@@ -1081,7 +1081,7 @@ s27098	shake violently/convulse	<lin>, form of <ling> tremble, with the causativ
 s27099	scale/fish scale	one of the small hard plates that cover the skin of a fish; {phe leh lip} is fins and scales	
 s27100	lake/pool/pond	a body of standing water; {tui lipi} is a pool or dammed water, {mei lipi} the lake of fire	
 s27101	be horrified/shudder at/dread	feel horror at something; {mite’ lipkhap ding} is an object of horror to people, and {lipkhap huai} is dreadful	
-s27102	dreadful/frightening/horrible	<lipkhap>, be horrified, with <huai>, worthy of: causing horror or dread	
+s27102	dreadful/frightening/horrible/gruesome/horrendous	<lipkhap>, be horrified, with <huai>, worthy of: causing horror or dread	
 s27103	dreadful/horrifying/abominable	<lipkhaphuai> written with a capital in {Lipkhaphuai na}, the dreadful thing, for the abomination that causes desolation in Daniel	
 s27104	horror/dread/loathing	<lipkhap>, shudder at, with the noun suffix {-na}: dread of a thing, or the loathing with which people look on someone; {lipkhapna thuak} is to be loathed	
 s27105	scabby/scaly	apparently <lip> scale, <nei> have, with the plural <te>; {meima lipneite}, sores with scabs, where the NIV has festering sores	
@@ -1159,7 +1159,7 @@ s27177		<lo> and the question word <hiam> written as one word at the end of a cl
 s27178	without	negative <loh> with the linking ending <in>, placed after a verb: without doing, not doing	
 s27179	greens/green plants/fresh vegetables	green growing plants; {anteh lohing} is fresh vegetables as sold in a market	
 s27180	pay off/pay in full/finish paying	<loh>, pay, with <khit>, finish: pay a debt to the end	
-s27181	repay/pay back	<loh>, pay, with <kik>, back	
+s27181	repay/pay back/reimburse	<loh>, pay, with <kik>, back	
 s27182	to repay/be to be repaid	<lohkik>, pay back, and <ding> written as one word: is to be paid back, of a loan	
 s27183	restitution/repayment	<lohkik>, pay back, with the noun suffix <na>: payment made for a wrong or a loss; {lohkikna bawl} is make restitution	
 s27184	be able to repay	<lohkik>, repay, with <zo>, be able	
@@ -1200,8 +1200,8 @@ s27218	shake violently/shake	<lok>, shake, with <gawp> marking a thorough or vio
 s27219	harvest/gather	get to pick or harvest a crop, with <kha> marking that the action comes about; negated in the verse: you will not harvest its fruit	
 s27220		particle prefixed to form nouns	
 s27221	farming/agriculture/cultivation	the working of fields to grow crops, <lo>, field, with <khawh>, till: used as a noun and before <nading> and <dan>, and paired as {lokhawh singpuak}, farm work in general	
-s27222	plowing/farming/cultivation	<lokhawh>, work the fields, with the noun suffix <na>: farming, plowing; {lokhawhna leeng} is the plow and {lokhawhna tu} the plowshare	
-s27223	farming/farm/plow/till	work the land to grow crops, from <lo>, field, and <kho>, till; {lokho mi} is a farmer	
+s27222	plowing/farming/cultivation/agriculture	<lokhawh>, work the fields, with the noun suffix <na>: farming, plowing; {lokhawhna leeng} is the plow and {lokhawhna tu} the plowshare	
+s27223	farming/farm/plow/till/cultivate	work the land to grow crops, from <lo>, field, and <kho>, till; {lokho mi} is a farmer	
 s27224	farmer/cultivator	<lokho>, farm, and <mi>, person, written as one word: one who works the land	
 s27225	farmer	<lokho>, farm, with <pa> for a man: a man who works the land	
 s27226	farmers	<lokho>, farm, with the plural <te>: those who work the land	
@@ -1323,7 +1323,7 @@ s27343	rather not/instead not	<lo>, not, with <zaw> in its meaning rather or ins
 s27344	also not/even without	<lo>, not, and <zong>, also, written as one word after a verb: it may also be that something was not done	
 s27345	head	the head of a person or an animal; {lu tung} is the top of the head	
 s27346	too/too much/excessively	placed after a verb or adjective to show that something is more than is right or bearable; {lua-in} links it to what follows and {lua kei in} means do not overdo	
-s27347	vomit	bring up from the stomach what was eaten or drunk	
+s27347	vomit/barf	bring up from the stomach what was eaten or drunk	
 s27348	very/so much/greatly	placed after a verb or adjective as a plain intensifier with no idea of excess, often followed by <mahmah> or <takpi>: very, so much, as {nuam lua}, want very much, and {nasia lua}, very fierce	
 s27349	all that much/particularly	<lua>, too much, and <lawmlawm>, to such a degree: stands after a verb or adjective and before a negative such as <lo>, meaning not very, not all that	
 s27350	will be very/will surely	<lua>, very much or too much, with <ding>, will, written as one word after a verb or describing word: it will be very much so	
@@ -1345,7 +1345,7 @@ s27365	inherited/possessed	<luah> possess with <sa>, already: taken as a possess
 s27366	cause to inherit/give as a possession/let occupy	<luah> inherit, possess, with causative <sak>	
 s27367	inherit/receive by descent	<luah>, inherit, with <suk>, down: receive something handed down from parents or from those who came before	
 s27368	inheritance/heritage/possessions	plural of <luah>; in the Psalms the {luahte} of God are the people who belong to him	
-s27369	succeed to/take over/inherit	<luah>, inherit, with <to>, up: step up into the office, throne or position that another held	
+s27369	succeed to/take over/inherit/succeed	<luah>, inherit, with <to>, up: step up into the office, throne or position that another held	
 s27370	nauseating/disgusting/sickening/loathsome	<lua>, vomit, with <huai>: making one feel sick, from a great height or from disgust	
 s27371	capture/occupy/take control of	<luah>, occupy, and <zo>, manage to, written as one word: succeed in occupying a town or a position in war	
 s27372	palanquin/litter/carriage	a covered seat on which a person is carried	
@@ -1360,7 +1360,7 @@ s27380	vomit	what has been vomited
 s27381	scoop out/empty out/remove	take out loose matter such as ashes, used with <khia>	
 s27382	not too much/not very	<lua> and <kei> written as one word after a verb: not too much; with <in>, do not do it too much	
 s27383	too/too much	<lua> too much, with <kha>; placed after the verb, in the verse of having lived too long	
-s27384	vomit/vomit out/spit out	<lua>, vomit, with <khia>, out: vomit something out; also said of a land casting out the people who live in it	
+s27384	vomit/vomit out/spit out/barf	<lua>, vomit, with <khia>, out: vomit something out; also said of a land casting out the people who live in it	
 s27385	vomit back up/throw up again	<luakhia> and <kik> written as one word: bring back up what was eaten or drunk	
 s27386	not very/not all that/hardly	<lua>, too much, and <khollo>, not much, written as one word after a describing word: not to any great degree	
 s27387	remove/scoop out/empty out	<luak> with <khia> out: take out loose matter such as ashes	
@@ -1392,7 +1392,7 @@ s27412	even at the risk of life	<luangkham>, at the risk of life, with <liang>, 
 s27413	one body/one carcass	<luang>, here body, used in counting dead bodies and whole slaughtered animals, and <khat>, one, written as one word: {misi luangkhat} is one dead body and {vok luangkhat} one whole pig, not the verb flow	
 s27414	flow together/go together/merge	<luang> and <khawm> written as one word: flow together in one stream, and so of matters or people, go together and be at one	
 s27415	overstep/exceed/go beyond	<luang>, flow, with <kheng>, go beyond: go over a limit, as in {thuneihna luangkheng}, overstep authority	
-s27416	flow out/pour out/gush out	<luang> flow with <khia>, out; said of water and blood	
+s27416	flow out/pour out/gush out/gush	<luang> flow with <khia>, out; said of water and blood	
 s27417	pour out heavily/gush out	<luangkhia> and <gawp> written as one word, said of blood: flow out in great quantity	
 s27418	make flow out/cause to flow/pour out	<luangkhia>, flow out, with the causative <sak>: make water, wine or blood flow out	
 s27419	flow away/flow out	<luangkhia> with plural <te>, said of waters that run off	
@@ -1448,7 +1448,7 @@ s27468	Ludim/Lud/Ludites	name of a son of Shem, and of a people descended from E
 s27469	healthy/well	second word of the pair {cidam ludam}, in good health in every way; used in greetings, prayers and blessings	
 s27470	health/well-being	noun of <ludam>, second word of the pair {cidam ludamna}: good health in every way, used in greetings and blessings	
 s27471	luggage/suitcase/bag		
-s27472	skull	<lu> head with <guh> bone	
+s27472	skull/cranium	<lu> head with <guh> bone	
 s27473	raid/invade/break into/plunder	enter a place by force to attack or rob it	
 s27474	break in/raid	<luh> break into with {-a}, linking it to the next verb: breaking in	
 s27475	conduct/behaviour/manners	found only as the second word of the pair <gamtat luheek>, with <gamtat>, behave: the way a person acts and carries himself, behaviour and manners	
@@ -1479,7 +1479,7 @@ s27499	cock/rooster	the male of the fowl, said with the prefix <a> as {a lui}; t
 s27500	Wadi/stream/ravine/brook	<lui>, stream, written with a capital as part of a place name or at the start of a sentence: {Izipt Lui} is the Wadi of Egypt and {Gialheek Lui} the Ravine of the Poplars	
 s27501	will set out/will serve	<lui> in the sense of set a dish before people, as in <kilui>, with <ding>, written as one word; {ankuang luiding} are those who will give a meal and {mekuang luiding} those who will stand in an election; not the noun stream or the adjective old	
 s27502	candidates	<luiding> with the plural <te> written as one word: those who will contest; {meekuang luidingte} are the candidates in an election	
-s27503	course of a stream/length of a stream	<lui> stream with <dung> length: along the stream; NIV has the waters of En Shemesh	
+s27503	course of a stream/length of a stream/channel	<lui> stream with <dung> length: along the stream; NIV has the waters of En Shemesh	
 s27504	all along the river/whole length of the river	<lui>, river, with <dungteng>, the whole length: the whole stretch along a river	
 s27505	other side of the stream/across the river	<lui>, stream, and <gal>, the far side, written as one word: the far bank, the land across the stream	
 s27506	riverside/stream bank/riverbank	<lui>, stream, and <gei>, side, written as one word: the land beside a stream or river	
@@ -1492,7 +1492,7 @@ s27512	babble/keep on repeating	say many empty words over and over
 s27513	old	<lui>, old, and the question word <maw> written as one word: is it old, in a list of choices such as {hoih maw, hoihlo, luimaw, thak}	
 s27514	osprey/vulture/falcon	a large bird of prey that may not be eaten, <lui> is river and <mu> is a bird of prey, the English versions vary between osprey, black vulture and falcon	
 s27515	feast/shared meal	mostly in <ankuang luina>, a meal that people sit down to together, a dinner given for guests	
-s27516	small stream/brook	<lui> stream with <neu> small	
+s27516	small stream/brook/creek/rill	<lui> stream with <neu> small	
 s27517	former/ex-	<lui> and <pa> written as one word, placed after a title or relation: the man who formerly held it, as {PM luipa}, the former prime minister	
 s27518	riverbank/riverside/bank of a stream	<lui>, stream, with <pang>, side: the land along the edge of a river or stream	
 s27519	river/large stream/torrent	<lui> stream with <pi> big; {Egypt luipi} is the Wadi of Egypt	
@@ -1503,7 +1503,7 @@ s27523	set before/serve	<lui>, set food before someone, with <sak>, let; {hong l
 s27524	old things/former things	plural of <luisa> old; {thu luisate} is the old order of things	
 s27525	grow old/wear out	<lui> old with <suak> become	
 s27526	river/inside of a river	<lui>, stream or river, with <sung>, inside, written as one word; {luisung ah} is in the river	
-s27527	brook/small stream	<lui>, stream, with <ta>, child: a small stream or a branch of a stream	
+s27527	brook/small stream/rill	<lui>, stream, with <ta>, child: a small stream or a branch of a stream	
 s27528	stream bed/valley	<lui> stream with <taw>, bottom: the bed of a stream, a dry valley	
 s27529	brooks/streams	<lui>, stream, with the plural <te>	
 s27530	old ones/the old/former ones	<lui>, old, with the plural <te>: the old things or customs, or the former holders of an office, the opposite of {a thakte}, the new ones; found after <a>, <ngeina> or <kumpi> and not the plural of the stream	
@@ -1549,7 +1549,7 @@ s27569	be warm enough	<lum> warm with <khop> enough; {a lumkhop ding} is enough 
 s27570	lie down again/go back to sleep	<lum> lie down with <kik> again	
 s27571	still lie/be still in hospital	<lum>, lie, with <lai>, still, written as one word: still lying, said of a patient who is still in hospital, as in {zato lumlai}	
 s27572	turn over/flip	turn the other side up; {khuttung lumleh bangin} is like the turning over of a hand, said of something that changes quickly and completely	
-s27573	overturn/overthrow/turn upside down	turn something upside down: overturn a table or a dish, overthrow a city or a kingdom	
+s27573	overturn/overthrow/turn upside down/reverse/upset	turn something upside down: overturn a table or a dish, overthrow a city or a kingdom	
 s27574	pervert/distort/twist	turn a message or a matter upside down so that it is no longer true; of a person, wrong him by deceit	
 s27575	distort/pervert utterly	<lumlet> turn upside down with <gawp>, which marks a thorough or violent action	
 s27576	overturn/overthrow	<lumlet> with the linking ending <in>: overturning	
@@ -1587,7 +1587,7 @@ s27607	headache	pain in the head as one complaint named in a list beside others 
 s27608	sickness/disease	sickness, used in the pair {cinatna lunatna}, sicknesses and diseases	
 s27609	lunch/midday meal	the midday meal, mostly as an item in the programme of a meeting	
 s27610	heart/mind	the heart or mind as the seat of feeling and thought, mostly in set expressions: {lung kham}, be troubled; {lung dam}, be glad; {lung muang}, be secure; {lung kituak}, be of one mind	
-s27611	worm/maggot	a small worm or maggot that eats into something, not the heart; said of decaying teeth as {ha lung nek}, teeth eaten by worms	
+s27611	worm/maggot/caterpillar	a small worm or maggot that eats into something, not the heart; said of decaying teeth as {ha lung nek}, teeth eaten by worms	
 s27612	terrify/trouble/unsettle	make the heart, <lung>, disturbed or afraid, with the causative <sak>; also written <lungamsak>	
 s27613	be humiliated/be dismayed	be cast down in heart from shame; in the verse it follows {mai zum}, be ashamed; probably the same word as <lunggam>	
 s27614	faint/pass out/collapse	lose consciousness or strength suddenly, from smoke, shock or illness, mostly as {lungam in tuksuk}, faint and fall down; of the body, not of shame	
@@ -1595,7 +1595,7 @@ s27615	terrify/dismay	<lungam>, be dismayed, with the causative <sak>: make some
 s27616	be confused/be perplexed/be troubled in mind	<lung>, mind, with <buai>, be in turmoil: not know what to think or do, be worried and unsettled; also the state itself, confusion	
 s27617	sorrow/grief	sorrow, from <lung>, heart, with <dah>, be sad, and the noun suffix <na>	
 s27618	peace of mind/calm/peace	<daihna>, quietness, said of the heart: a calm and untroubled mind, and among a people, peace	
-s27619	happy/glad/joyful	glad or happy at heart, from <lung>, heart, and <dam>, well	
+s27619	happy/glad/joyful/merry	glad or happy at heart, from <lung>, heart, and <dam>, well	
 s27620	joy/gladness	joy or gladness, as in {lungdam la}, song of joy, and {lungdam ko}, express joy or give thanks	
 s27621	delight/rejoice/be glad	be glad, rejoice, or take delight in someone or something	
 s27622	thank you/thanks	said to thank someone; the same word as {lungdam}, glad	
@@ -1613,8 +1613,8 @@ s27634	Thanksgiving Day/Thanksgiving	<lungdamkoh>, give thanks, and <ni>, day: T
 s27635	thanksgiving/thanks/gratitude	the giving of thanks, from <lungdamkoh>, give thanks, with the noun suffix <na>; {lungdamkohna la} is a song of thanksgiving	
 s27636	unhappy/not glad/displeased	<lungdam>, glad, and <lo>, not, written as one word	
 s27637	overjoyed/very glad/very thankful	<lungdam> glad and <lua> very much, written as one word: very happy; {lungdamlua ung} is we thank you very much	
-s27638	joy/gladness	joy or gladness, from <lungdam>, be glad, with the noun suffix <na>	
-s27639	thanksgiving/thanks	thanks given to God, the same word as {lungdamna}, joy; {lungdamna ko} is to give thanks	
+s27638	joy/gladness/glee/happiness/jubilation	joy or gladness, from <lungdam>, be glad, with the noun suffix <na>	
+s27639	thanksgiving/thanks/gratitude	thanks given to God, the same word as {lungdamna}, joy; {lungdamna ko} is to give thanks	
 s27640	joy/good news	<lungdamna>, joy, written with a capital at the start of a sentence or in {Lungdamna Thu}, the Good News or gospel	
 s27641	the Gospel/the Good News	<lungdamna>, joy, and the loanword <gospel>: the Christian message of salvation, the joyful gospel; it mostly stands before <thu> with a verb of telling, as {Lungdamna Gospel thu tangko}, proclaim the gospel	
 s27642	we give thanks/we express our thanks	<lungdamna>, joy or gratitude, and <iko>, we express: a formula of thanks in speeches and reports, we thank; the one who is thanked stands before it with <tungah>, and <hi> closes the sentence	
@@ -1624,11 +1624,11 @@ s27645	joys/pleasures	plural of <lungdamna>: joys, also the pleasures of life
 s27646	gospel/good news	<lungdamna> and <thu> written as one word: the good news of Christ, the gospel	
 s27647	be glad readily/be pleased	<lungdam>, be glad, with <pah>, at once; in the verse it is negated: he takes no pleasure in doing so	
 s27648	happiest/most joyful	<lungdam>, glad, with the superlative <pen>, most	
-s27649	rejoice with/congratulate	<lungdam>, be glad, with <pih>, together with: share someone’s joy, congratulate him on his good fortune	
+s27649	rejoice with/congratulate/felicitate	<lungdam>, be glad, with <pih>, together with: share someone’s joy, congratulate him on his good fortune	
 s27650	rejoice in/delight in/be glad about	take pleasure in a thing; {lungdampih khuapi} is a city one delights in, a city of revelry	
-s27651	rejoicing with	<lungdampih>, rejoice with someone, with the noun suffix <na>; with <ding> it means in order to rejoice together	
+s27651	rejoicing with/congratulation/felicitation	<lungdampih>, rejoice with someone, with the noun suffix <na>; with <ding> it means in order to rejoice together	
 s27652	gladly/joyfully	<lungdam>, glad, and <sa> written as one word, mostly before <in>: being already glad, in a glad state while doing something	
-s27653	make glad/please/gladden	<lungdam>, be glad, with the causative <sak>: make someone glad, please someone	
+s27653	make glad/please/gladden/exhilarate/gratify	<lungdam>, be glad, with the causative <sak>: make someone glad, please someone	
 s27654	make glad again/restore joy	<lungdamsak>, make glad, with <kik>, again: give someone back his joy	
 s27655	pleasing/making glad	<lungdamsak>, make glad, with the noun suffix <na>; with <ding> it means in order to please, to seek the favor of	
 s27656	the man who made glad	<lungdamsak>, make glad, with <pa>, which marks a man: the man who made someone glad	
@@ -1654,10 +1654,10 @@ s27675	consider/think about	turn something over in the mind, consider; probably 
 s27676	be disgraced/be dismayed	be cast down in heart from shame; in the verse it follows <maizum>, be ashamed; probably the same word as <lungam>	
 s27677	thought/idea/imagination	<lung>, mind, with <gelna>, plan: what the mind thinks out or pictures, a thought, idea or plan; {sunmang lunggelna} is a daydream	
 s27678	be troubled/be distressed/be weary/be in anguish	be heavy or worn out in heart from worry, fear or grief, from <lung>, heart, and <gim>, be weary	
-s27679	wearisome/troubling/distressing	<lunggim>, be troubled, with <huai>, which marks what causes a feeling: wearying or troubling to the heart	
+s27679	wearisome/troubling/distressing/burdensome	<lunggim>, be troubled, with <huai>, which marks what causes a feeling: wearying or troubling to the heart	
 s27680	be distressed/be in anguish	<lunggim>, be distressed, with the linking ending <in>: in distress, in bitterness of heart	
 s27681	stress	<lunggim>, be weary in heart, with <lelh>, be overcome: being worn down by worry; {lunggimlelh-natna} is the writer's word for stress as an illness, found in one article	
-s27682	anguish/distress/grief	anguish or distress of heart, from <lunggim>, be troubled, with the noun suffix <na>	
+s27682	anguish/distress/grief/trouble	anguish or distress of heart, from <lunggim>, be troubled, with the noun suffix <na>	
 s27683	distress/anguish/grief	<lunggimna>, distress, written with a capital at the start of a sentence or in a section heading such as {Kikhen Man-a Lunggimna}, distress because of parting	
 s27684	distresses/troubles/anguish	plural of <lunggimna>: the distresses that someone suffers	
 s27685	be anxious for/be distressed for/be in anguish over	<lunggim>, be troubled, with <pih>, together with or for another person: be anxious or in anguish for someone	
@@ -1705,14 +1705,14 @@ s27728	hesitate/waver/falter	be of two minds, be unsteady in heart, hesitate; {l
 s27729	Lungka		
 s27730	crooked/warped/perverse	crooked in heart, from <lung>, heart, with <kawi>, crooked, and the ending <a>	
 s27731	be troubled/be distressed/worry/grieve	be anxious, troubled or distressed in mind, from <lung>, heart, and <kham>; {a lungkham mite} are people in trouble	
-s27732	distressing/wretched/grievous	causing worry or sorrow, from <lungkham>, be troubled, with <huai>, worthy of or causing a feeling	
+s27732	distressing/wretched/grievous/miserable	causing worry or sorrow, from <lungkham>, be troubled, with <huai>, worthy of or causing a feeling	
 s27733	be distressed/be in anguish/despair/grieve	<lungkham>, be distressed, with the ending <in>, which links it to the following verb: being distressed, in anguish	
 s27734	be very worried/be too distressed/worry too much	<lungkham>, be troubled, and <lua>, too much, written as one word	
-s27735	distress/trouble/anguish/sorrow	distress, trouble or anguish, from <lungkham>, be troubled, with the noun suffix <na>	
+s27735	distress/trouble/anguish/sorrow/affliction/agony/misery/tribulation	distress, trouble or anguish, from <lungkham>, be troubled, with the noun suffix <na>	
 s27736	trouble/distress	<lungkhamna>, trouble, written with a capital at the start of a sentence or in {Lungkhamna Kuam}, Valley of Trouble, the Valley of Achor	
 s27737	troubles/distresses/anxieties	plural of <lungkhamna>: troubles, distresses	
 s27738	grieve with/be troubled with	<lungkham>, be troubled, with <pih>, together with someone, and the linking ending <in>: sharing another person’s trouble	
-s27739	distress/trouble/grieve/cause sorrow	<lungkham>, be troubled, with the causative <sak>: make someone troubled or sad, bring trouble on someone	
+s27739	distress/trouble/grieve/cause sorrow/afflict	<lungkham>, be troubled, with the causative <sak>: make someone troubled or sad, bring trouble on someone	
 s27740	distressing/tormenting	<lungkhamsak>, distress, with the noun suffix <na>: the distress caused to someone	
 s27741	troubler	<lungkhamsak>, trouble, with <pa>, which marks a man: the man who brings trouble	
 s27742	those who distress/troublers	<lungkhamsak>, distress, with the plural <te>: those who bring distress on someone	
@@ -1725,7 +1725,7 @@ s27748	stubborn ways/stubbornness	plural of <lungkhauhna>: the stubborn ways a p
 s27749	harden	<lungkhauh> with <sak>, cause: make someone hard-hearted	
 s27750	fickle/changeable	<lung> heart with <kheel> change: changing one's mind easily	
 s27751	Lungkhin		
-s27753	be discouraged/lose heart/be dismayed	<lung> heart with <kia> fall: lose courage or hope, be dismayed or discouraged	
+s27753	be discouraged/lose heart/be dismayed/despair	<lung> heart with <kia> fall: lose courage or hope, be dismayed or discouraged	
 s27754	do not lose heart/do not be discouraged	<lungkia>, lose heart, and <ken>, here the word that forbids after a verb, do not, and not the pronoun I: do not lose heart, a formula of encouragement in letters, sermons and advice, said to one person	
 s27755	lose heart/be disheartened/be discouraged	<lungkia>, lose heart, and <thanem>, weak: a pair of near synonyms said as one verb, be discouraged and without strength to go on; often forbidden with {kei ni} or <kenla>	
 s27756	be utterly dismayed/be confounded	<lungkia> lose heart with <gawp>, which marks a thorough or violent action	
@@ -1738,17 +1738,17 @@ s27762	depression	in <lungkiat natna>, the illness of depression: a lasting low 
 s27763	depression	<lungkiat>, loss of heart, and <natna>, illness: depression as an illness, the name used for the English word depression, often with <ngah>, get, after it	
 s27764	discouraging/disheartening	<lungkiat>, lose heart, with the ending <huai>: causing one to lose heart	
 s27765	not lose heart/not be discouraged	<lungkiat>, the form of <lungkia>, lose heart, with the negative <loh>, written as one word and followed by <ding> or <nading>: not to lose heart	
-s27766	discouragement/loss of heart/dismay	<lungkiat> lose heart with the noun suffix <na>: the state of having lost courage or hope	
+s27766	discouragement/loss of heart/dismay/despair	<lungkiat> lose heart with the noun suffix <na>: the state of having lost courage or hope	
 s27767	depression	the illness of lasting low mood; in health writing the word given for English depression, named beside <lunggimna> stress and <launa> fear, where the Bible sense is loss of courage	
 s27768	be very discouraged/be downcast/be depressed	<lungkiat>, lose heart, with <tuak> written as one word, mostly before <mahmah>: be in a clearly low and dejected state; what <tuak> adds here is not certain, it seems to strengthen the verb as in {thanemtuak}	
 s27769	be united/be of one heart/be in harmony	<lung>, heart, with <kihual>, be knit together, written as one word: be united in heart and mind	
 s27770	be satisfied/be pleased/be content	<lung> heart with <kim> complete: be satisfied, pleased or content with someone or something; with <kei> or <lo>, be displeased	
-s27771	pleasing/acceptable/satisfying	<lungkim>, be satisfied, with <huai>, worthy of: such as pleases; with <lo>, displeasing	
+s27771	pleasing/acceptable/satisfying/delightful	<lungkim>, be satisfied, with <huai>, worthy of: such as pleases; with <lo>, displeasing	
 s27772	contentedly/with contentment/willingly/confidently	form of <lungkim> with {-in}, being content or assured	
 s27773	displeased/sullen/discontented	<lungkim> be pleased with <lo>, not	
 s27774	be dissatisfied/be displeased	<lungkim> be satisfied and <loh> not written as one word: not be content; also the state itself, dissatisfaction, and {lungkimloh lahna} is a protest, a showing of dissatisfaction	
-s27775	displeasure/indignation	<lungkim> be pleased with <loh>, not, and the noun suffix <na>; in the verse beside <hehna> and <thangpaihna> for God's wrath	
-s27776	pleasure/delight/favour/satisfaction	being pleased with someone or something	
+s27775	displeasure/indignation/dissatisfaction	<lungkim> be pleased with <loh>, not, and the noun suffix <na>; in the verse beside <hehna> and <thangpaihna> for God's wrath	
+s27776	pleasure/delight/favour/satisfaction/contentment	being pleased with someone or something	
 s27777	be pleased with/approve/consent to	<lungkim> with <pih>: be pleased about a thing, agree to it	
 s27778	please/satisfy	<lungkim> be satisfied with the causative <sak>: please someone, or give them all they need	
 s27779	please/satisfy	<lungkimsak> with the linking suffix <in>	
@@ -1774,7 +1774,7 @@ s27799	poplar/balsam tree/mulberry tree	a kind of tree, named with <kung> as {lu
 s27800	be interested/take an interest	<lung>, mind, with <lut>, enter: have the mind drawn to something; <lunglut huai> is interesting	
 s27801	interesting/fascinating	<lunglut>, be interested, with the suffix <huai>, causing that feeling: interesting, worth one's attention; stands before a noun with <a> or ends a statement, often with <mahmah>	
 s27802	interesting	<lunglut>, be interested, with <huai>, worthy of: that draws interest; {a lungluthuai khat} is an interesting thing	
-s27803	interest/attention/enthusiasm	<lung>, mind, with <lutna>, entering: what the mind goes into, interest in or attention to something	
+s27803	interest/attention/enthusiasm/zest	<lung>, mind, with <lutna>, entering: what the mind goes into, interest in or attention to something	
 s27804	with interest/attentively/keenly	<lunglut>, be interested, and <tak> written as one word: with interest, with close attention	
 s27805	those who are interested/interested people	<lunglut>, be interested, with the plural <te>: the people who are interested, usually as {a lunglutte in} in an invitation or notice	
 s27806	be more interested/care more about	<lunglut>, be interested, and <zaw>, more, written as one word: be more interested in something, or with <ki> be found more interesting	
@@ -1783,10 +1783,10 @@ s27809	be troubled/be perplexed/be amazed	form of <lungmang> written with an apo
 s27810	be troubled/be perplexed/be dismayed	be upset or at a loss in the heart, from worry, fear or wonder	
 s27811	be troubled/be dismayed/be amazed/wonder	<lungmang> written with a capital at the start of a sentence; {Lungmang kei in} is do not be troubled	
 s27812	be perplexed/be troubled/be in anguish	form of <lungmang> with {-in}, being at a loss or deeply troubled	
-s27813	unsettle/upset/trouble	<lungmang> be troubled, perplexed, with the causative <sak>; in the verse of upsetting the faith of believers	
+s27813	unsettle/upset/trouble/bewilder	<lungmang> be troubled, perplexed, with the causative <sak>; in the verse of upsetting the faith of believers	
 s27814	surprising/astonishing	<lungmang> be amazed with <huai>, which marks what causes or deserves a feeling; negated in the verse: it is no wonder	
 s27815	perplexity/anxiety/bewilderment	the state of being troubled or at a loss in the heart; the noun in {-na} of <lungmang>, named beside <lungbuai>, confusion	
-s27816	simple-minded/ignorant/foolish	<lung>, mind, with <mawl>, dull: slow of understanding, simple or ignorant	
+s27816	simple-minded/ignorant/foolish/daft	<lung>, mind, with <mawl>, dull: slow of understanding, simple or ignorant	
 s27817	bug/bedbug	a small ugly bug that was found in great numbers in village houses and made people itch at night, probably the bedbug; the article calls it a kind of <lunggam> and says the young no longer know the word; also in the old saying {lungme thahlah}	
 s27818	caterpillar/grub	a hairy grub or caterpillar that lives in stored maize stalks, comes out at night and gets into the bedding; named with lice and bedbugs as a pest of an unclean house	
 s27819	be secure/be confident/be at peace	form of <lungmuang> used before <na>; {lungmuan'na} is security, confidence, peace of mind	
@@ -1814,7 +1814,7 @@ s27840	more humble/meeker	<lungnem> humble with the comparative <zaw>
 s27841	be discouraged/lose heart/be downhearted/feel hurt	<lung> heart with <neu> small: feel small and low in spirit, be easily hurt or discouraged; {lungneu sak} is make someone feel so	
 s27842	dejection/low spirits/hurt feelings/melancholy	the state of feeling small and hurt in the heart, downcast or aggrieved; named beside <hehna>, anger, and <lunggimna>, weariness of mind	
 s27843	discourage/make feel small/belittle	<lungneu>, lose heart, and <sak> written as one word: make someone feel small; with <ki> before it, belittle oneself, feel inferior	
-s27844	ponder/consider/think about	think over in the heart; also have in mind or intend to do something	
+s27844	ponder/consider/think about/contemplate/think	think over in the heart; also have in mind or intend to do something	
 s27845	remember/think about	<lungngai> written with a capital at the start of a quoted line; with {nawn lo} it means remember no more	
 s27846	meditate/ponder/reflect	think deeply about something; {lungngaih kik} is come to one’s senses	
 s27847	thought/intention	what a person thinks or plans in the heart	
@@ -1826,21 +1826,21 @@ s27854	be dismayed/be discouraged/be downcast	<lung> heart with <niam> low: the 
 s27855	humble/meek	<lung> heart with <niam> low and <khiat>; {Lungniamkhiat mite} are the humble	
 s27856	humility/humbleness	<lung> heart, <niam> low and <khiat> bring down, with the noun suffix <na>: bringing the heart low	
 s27857	the humble	those who make the heart low: <lung> heart, <niam> low, the causative <sak> and the plural <te>	
-s27858	worm/maggot	a small crawling creature such as a worm or maggot; also a picture of what is low and weak	
+s27858	worm/maggot/larva	a small crawling creature such as a worm or maggot; also a picture of what is low and weak	
 s27859	germ/virus/microbe	a living thing too small to see that causes illness, a germ or virus, also alone as a short form of <natna lungno>; the Bible sense is a worm that can be seen	
 s27860	delight/be glad/be cheerful	form of <lungnuam> used before <nading> and <ciangin>: be glad, cheerful or at ease in the heart	
 s27861	pleasant/delightful/amusing	<lungnop>, be glad, with the suffix <huai>: causing gladness, pleasant to see	
 s27862	displeasure/unhappiness/dissatisfaction/bad mood	<lungnop>, be glad, with <lohna>, the state of not: the feeling of not being pleased or at ease	
 s27863	distress/offence/unease	a heart that is not at ease: <lung> heart, <nop> pleasant, <mawh> hard or wrong, with the noun suffix <na>	
 s27864	offend/distress/cause to stumble	make the heart of someone uneasy, with the causative <sak>	
-s27865	peace/contentment/joy	a glad and easy heart	
+s27865	peace/contentment/joy/happiness	a glad and easy heart	
 s27866	peace/joys	plural of <lungnopna>, here of the kinds of peace the world gives	
 s27867	refresh/gladden/cheer	<lungnop> be glad at heart with the causative <sak>	
 s27868	germs/microbes/worms	<lungno> with the plural <te>: small living things such as worms and insects, and in writing about health the germs that cause disease, <natna lungnote>	
 s27869	disinfectant/antibiotic/germicide	a substance that kills germs or pests, <lungno>, sprayed on things or taken as medicine; {lungnoza kap} is spray disinfectant	
-s27870	delight/be glad/be at ease/be at peace	<lung> heart with <nuam> pleasant: be glad and at ease; {lungnuam takin} means happily, in peace or safely	
+s27870	delight/be glad/be at ease/be at peace/rejoice	<lung> heart with <nuam> pleasant: be glad and at ease; {lungnuam takin} means happily, in peace or safely	
 s27871	integrity	<lungnuam> with the ending <in>, used before a verb: gladly, at ease, in peace or safely, as in {lungnuamin om}, live in peace	
-s27872	unhappy/displeased/not at ease	<lungnuam>, be glad, and <lo>, not, written as one word: not happy or not at ease about something	
+s27872	unhappy/displeased/not at ease/sad	<lungnuam>, be glad, and <lo>, not, written as one word: not happy or not at ease about something	
 s27873	cheer/gladden/comfort/refresh	<lungnuam> with causative <sak>: make someone glad or at ease	
 s27874	peacefully/happily/at ease	<lungnuam>, be at ease, with <tak>, written as one word and mostly before <in>: with a glad and easy mind	
 s27875	Lungpang		
@@ -1865,7 +1865,7 @@ s27893	Lungsawi
 s27894	Lungseing		
 s27895	lose heart/be dismayed/falter	literally the heart dies, <lung> heart with <si> die; said of sudden fear or loss of courage	
 s27896	righteousness/purity of heart	<lung> heart with <siangtho> holy, pure; in the verse the thing hungered for, righteousness in the English	
-s27897	thought/heart/mind	the heart or mind as the seat of thought, feeling and will; {lungsim sungah} is in the heart, and <lungsim ngaihsutna> is the thoughts of the heart	
+s27897	thought/heart/mind/intellect	the heart or mind as the seat of thought, feeling and will; {lungsim sungah} is in the heart, and <lungsim ngaihsutna> is the thoughts of the heart	
 s27898	heart/mind	{Lungsim takpi tawh} is with a true heart, sincerely	
 s27899	mental health/sound mind/healthy mind	<lungsim>, mind, and <cidam>, healthy: a healthy mind, mental health, often set beside {pumpi cidam}, a healthy body; also said of a person who is sound in mind	
 s27900	mental health/mental well-being	<lungsim>, mind, and <cidamna>, health: mental health, named beside {pumpi cidamna}, bodily health, and {kha cidamna}, spiritual health	
@@ -1948,7 +1948,7 @@ s27978	gloomy/dismal/dreadful	<lungzin>, gloomy, with <huai> for what causes a f
 s27979	gloom/anguish/distress	<lungzin>, gloomy, with the noun suffix <na>: heaviness and darkness of mind, often named together with <khuamial>, darkness	
 s27980	long for/yearn	feel longing at heart; with <huai>, {lungzuan huai} is what stirs longing, in the verse a sweet voice	
 s27981	be sad/grieve/feel lonely	be heavy at heart from loss or loneliness, not longing for something; also as a noun, sorrow, paired with <khuangaihna>, and {lungzuan huai} is saddening	
-s27982	pine away/languish/be lovesick	be weak with longing or sorrow, of a lovesick person or a woman left desolate	
+s27982	pine away/languish/be lovesick/yearn	be weak with longing or sorrow, of a lovesick person or a woman left desolate	
 s27983	pine/languish/long for	<lungzuang> with the linking ending <in>, pining, in sorrow or longing	
 s27984	sweet/lovely	stirring longing in the heart: <lungzuan> with <huai> for what causes a feeling; said of a voice	
 s27985	sad song/song of longing	<lungzuan>, be sad or long for, and <la>, song, written as one word: a sorrowful song of longing or loss	

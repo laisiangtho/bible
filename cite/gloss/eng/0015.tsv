@@ -189,7 +189,7 @@ s30187	disgrace/shame/dishonor/reproach	<mindai>, be disgraced, with the noun su
 s30188	disgraces/shame	plural of <mindaina>: the disgraces a people has suffered or brought on itself	
 s30189	all the disgrace/disgrace	<mindaina>, disgrace, with <teng>, all: the whole of one's disgrace	
 s30190	disgrace/dishonor/put to shame	<mindai>, be disgraced, with the causative <sak>: bring shame or dishonor on someone	
-s30191	scorn/insult/shaming	<mindaisak>, put to shame, with the noun suffix <na>: the scorn or insults by which others shame someone	
+s30191	scorn/insult/shaming/defamation	<mindaisak>, put to shame, with the noun suffix <na>: the scorn or insults by which others shame someone	
 s30192	Mindanao	the large island and region in the south of the Philippines	
 s30193	other name/another name	<min>, name, with <dang>, other: a second name of a person, or a name other than the one just mentioned	
 s30194	Mindat	a town and township in the south of Chin State, Myanmar, and its people	
@@ -260,7 +260,7 @@ s30258	bearing the name/named	follows the name that something carries: {Zomi min
 s30259	teknonym	the name by which a parent is called after a child, the name of the child followed by <pa> or <nu>, as {Lianpu pa}, father of Lianpu, and {Lam Vung nu}, mother of Lam Vung	
 s30260	bad name/disgrace/ill repute	<min>, name, with <sia>, bad; {minsia tun} is to bring a bad name on someone and {minsia sak} is to disgrace	
 s30261	proclaim one's name/boast/vow	call out one's own name and deeds in the traditional manner of men, as a boast, a challenge or a strong vow	
-s30262	disgrace/dishonor/shame/defame	<minsia>, bad name, with the causative <sak>: give someone a bad name, bring disgrace on someone	
+s30262	disgrace/dishonor/shame/defame/denigrate	<minsia>, bad name, with the causative <sak>: give someone a bad name, bring disgrace on someone	
 s30263	be disgraced/get a bad name	form of <minsia>, bad name, used as a verb before <ding>: get a bad name; set against <minphat>, be praised	
 s30264	disgraceful/shameful	<minsia>, bad name, with <tham>, worth: enough to bring a bad name, deserving disgrace	
 s30265	be disgraced by/get a bad name through	<minsiat> and <lawh.2> written as one word: get a bad name as the outcome of something done	
@@ -278,7 +278,7 @@ s30276	names	plural of <min>, name
 s30277	new name	<min>, name, with <thak>, new; {minthak phuah} is to give a new name	
 s30278	glorious/famous/renowned	form of <minthang>, famous or glorious, used before a suffix; found mostly in {minthan’na}, glory or honour	
 s30279	for the glory of/to the glory of	<minthan>, glorious, and <nading>, for: placed after a name in the possessive, most often <Pasian>, God, to say that a thing is done for the glory of that one	
-s30280	popular/famous/well known	known and spoken of by many people, held in honor among them	
+s30280	popular/famous/well known/famed	known and spoken of by many people, held in honor among them	
 s30281	renown/renowned/glorious/majestic	of great name, glorious, said of a city, a throne or the name of God	
 s30282	fame/renown	a great name known far and wide	
 s30283	glorious/majestic/renowned	<minthang>, glorious, written with a capital in titles of God: {Minthang Kumpipa} is the King of glory and {Vanglian Minthang pa} the Majestic Glory	
@@ -290,7 +290,7 @@ s30289	renowned/once famous	<minthang>, famous, with <sa>, already: that has bee
 s30290	glorify/exalt/honor	<minthang>, famous or glorious, with the causative <sak>: give glory or honor to someone	
 s30291	renown/famous men/the renowned	plural of <minthang>: famous people; {mi minthangte} are men of renown	
 s30292	glorious/praiseworthy/worthy of fame	<minthan>, the form of <minthang>, be famous, used before a suffix, with <huai>, worthy of: glorious	
-s30293	glory/splendor/fame/honor	<minthan>, glorious, with the noun suffix <na>: glory, splendor or fame, of God or of a person; also written {minthan’na}	
+s30293	glory/splendor/fame/honor/renown	<minthan>, glorious, with the noun suffix <na>: glory, splendor or fame, of God or of a person; also written {minthan’na}	
 s30294	glories/glory/splendor	<minthanna>, glory, with the plural <te>: glories, all the splendor of a person or kingdom	
 s30295	make famous/glorify	<minthan>, the form of <minthang>, be famous, used before a suffix, with <suah>, bring out or become: make famous; the page lists the form without a meaning	
 s30296	deserving fame/fit to be renowned	<minthan>, the form of <minthang>, be famous, used before a suffix, with <tuak>, be fitting: deserving fame	
@@ -436,7 +436,7 @@ s30439	kill
 s30440	in the eyes/in the sight/on the eyes	<mit>, eye, with the place marker <ah>: on the eyes or in the eyes; after <Topa> or a pronoun it means in the sight of	
 s30441	crowded/populous/many people	<mi>, people, and <tam>, many, written as one word: having many people, or the many people; {mitam na mun} is a crowded place	
 s30442	crowded place/crowd	<mi> and <tamna> written as one word: where people are many; {mitamna mun} is a crowded place	
-s30443	many people	<mi> and <tampi> written as one word: many people, a great number of people	
+s30443	many people/crowd/throng	<mi> and <tampi> written as one word: many people, a great number of people	
 s30444	very many people/a great many people	<mi> and <tampitak> written as one word: a great number of people	
 s30445	many people	<mi>, person, and <tampite>, many, written as one word: many people, the many	
 s30446	eye/eyesight	apparently the same as <mittang>, eye	
@@ -597,7 +597,7 @@ s30603	basket of bread/bread basket	<moh>, bread, with <lawh>, basket: a basket 
 s30604	bread/loaf	<moh>, bread, with <lum>, round lump: bread, or a loaf of it	
 s30605	small loaf/little cake	<moh>, bread, with <neu>, small: a small loaf or cake	
 s30606	wafer/thin cake/thin loaf	<moh>, cake, with <pheng>, flat: a thin flat cake of bread, a wafer	
-s30607	thin cakes/wafers/flat loaves	plural of <mohpheng>: thin flat cakes or wafers of bread	
+s30607	thin cakes/wafers/flat loaves/loaves	plural of <mohpheng>: thin flat cakes or wafers of bread	
 s30608	cakes/loaves	plural of <moh>: cakes or loaves; {thei mohte} are cakes of pressed figs	
 s30609	bakery/bread shop/cake shop	<moh>, bread or cake, with <zuakna>, shop, written as one word: a shop that sells bread and cakes	
 s30610	young	young in age, the opposite of <ham>, old; {a moi pen} is the youngest, and {a moi a ham} is young and old alike	
@@ -626,7 +626,7 @@ s30633	tool/pawn/instrument	a figure of speech for a person or group that others
 s30634	as a club/club	<molhtum>, club, with the marker <in>: as a club	
 s30635	clubs/cudgels	plural of <molhtum>; {kulh sukkhap nading molhtumte} are battering rams	
 s30636	best man/groomsman/wedding companion	one who attends the bridegroom at his wedding; {moliah pa}, the man who does so	
-s30637	bridesmaid	the young woman who attends the bride at her wedding	
+s30637	bridesmaid/maid of honour	the young woman who attends the bride at her wedding	
 s30638	best man/groomsman/wedding companion	<moliah> with <pa> marking a man: the companion who attends the bridegroom	
 s30639	Molid	son of Abishur and Abihail, of the tribe of Judah	
 s30640	Molek	spelling of <Molek> in Acts, the god to whom Israel carried a shrine in the wilderness	
@@ -734,7 +734,7 @@ s30746	teeming/swarming	descriptive word for countless creatures moving about to
 s30747	in a mass/in swarms/in great numbers	placed after a verb of movement, of a great crowd or swarm moving together	
 s30748	mattress/quilt	a thick padded mat to sleep on, also a padded quilt	
 s30749	Muaizawl		
-s30750	come to meet/seek out/welcome	go out to meet or receive someone	
+s30750	come to meet/seek out/welcome/greet	go out to meet or receive someone	
 s30751	welcome/come to meet	<muak>, come to meet, and <in> written as one word: meeting or welcoming someone, and then doing what follows	
 s30752	welcome/welcoming/reception	<muak>, go to meet, with the noun ending {-na}: the welcoming of a person or of a feast or season; {muakna in} is to welcome or to mark an occasion	
 s30753	mountain/hill	a mountain or hill; {mual tung} is on the mountain, {mual sang} a high mountain and {mual neu} a small hill	
@@ -780,7 +780,7 @@ s30792	horizon/skyline	<mual>, mountain, with <mong>, edge: the far line of the 
 s30793	far off/a distant prospect/out of reach	<mualmong>, horizon, and <et>, look at: gazing at the horizon; with <bang> or {mah bang}, like, it is said of a hope or plan that is still far from being reached	
 s30794		Saying: even smoke on the <mualmong>, the far skyline, is a comfort; in grief, worry and hardship even one person who is merely there beside us feels like a comfort	
 s30795	indistinctly/in a mutter	doubled word after <pau> speak: speaking in a low unclear voice, muttering	
-s30796	hill/small hill	<mual>, hill, with <neu>, small: a hill as against a great mountain	
+s30796	hill/small hill/hillock	<mual>, hill, with <neu>, small: a hill as against a great mountain	
 s30797	hills/small hills	<mualneu>, hill, with the plural <te>: the lower hills, often set beside <mualliante>, the great mountains	
 s30798	hills/small hills	<mualneute>, the hills, written with a capital at the start of a clause	
 s30799	hill/small hill	<mual>, hill, with <no>, small: a small hill; {Areopagas mualno} is the hill of the Areopagus in Athens, Mars Hill	
@@ -797,7 +797,7 @@ s30809	high hills/heights/high mountains	plural of <mualsang>: the high hills or
 s30810	accomplish/achieve/carry through/reach the goal	bring a task, an aim or a struggle through to its end; {mualsuah dong} is until the goal is reached	
 s30811	bring through/lead to the goal/see through	<mualsuah>, reach the goal, and <pih>, with or for someone, written as one word: bring a person or a task through to its end	
 s30812	win through/succeed/come through	come through to the end of a struggle, an illness or a hard task; {dam mualsuak} is recover fully	
-s30813	memorial stone/pillar/tombstone	a stone set up in memory of someone, as over a grave; <suang> is stone	
+s30813	memorial stone/pillar/tombstone/monument	a stone set up in memory of someone, as over a grave; <suang> is stone	
 s30814	memorial stones/pillars/monuments	plural of <mualsuang>: the monuments of the dead, and the sacred pillars of Egypt	
 s30815	Mualsun		
 s30816	viper/poisonous snake	a poisonous snake; in the verses always in the address {mualtan’ suante}, brood of vipers	
@@ -817,14 +817,14 @@ s30829	mountains/hills	<mualtung> with the plural <te>: the mountains or hills o
 s30830	mountain top/summit/peak	the top of a mountain, its summit	
 s30831	plateau/tableland	level high ground, from <mual>, hill, and <zang>, flat: a plateau	
 s30832	hold in the mouth/keep in the mouth	keep something in the mouth without swallowing it; doubled as {muam muam}, go on holding it there	
-s30833	sweet/candy/chocolate	<muam>, hold in the mouth, with <khum>, sweet: a sweet that is sucked, also used for chocolate	
+s30833	sweet/candy/chocolate/lolly	<muam>, hold in the mouth, with <khum>, sweet: a sweet that is sucked, also used for chocolate	
 s30834	keep in the mouth/savour	<muam> hold in the mouth, doubled: go on holding and tasting something	
 s30835	holding in the mouth/chewing	<muam>, hold in the mouth, with the noun ending <na>: the keeping of something such as tobacco in the mouth, named beside eating and drinking	
 s30836	in great numbers/in swarms/teeming	follows a verb to picture many people or creatures moving or gathered together	
 s30837	trust/rely on/put hope in	second stem of <muang>, trust, used before endings such as <nading>; {muan’na} is trust or confidence, and {muan’huai} is trustworthy	
 s30838	trusted ones/those relied on/support	<muan>, trust, <leh>, and, and a second verb of leaning on: the persons or groups that one trusts and depends on, the hope of a people; not <suan.1>, descendant	
 s30839	make firm/make secure/make trustworthy	{muan’huai} trustworthy with the causative <sak>	
-s30840	trust/rely on/hope in	put one’s trust or hope in God, a person or a thing; the second stem is <muan>	
+s30840	trust/rely on/hope in/rely	put one’s trust or hope in God, a person or a thing; the second stem is <muan>	
 s30841	secure/at ease/unafraid	<muang> with the linking <a>; {lung muanga}, with the heart at rest	
 s30842	trusting/trusting in/relying on	<muang>, trust, with the linking ending <in>: trusting, and so; {lung muangin} is with a secure heart	
 s30843	trust/depend on/rely on	<muang> trust with <kha>, which marks an action one falls into: come to put trust in, often wrongly	
@@ -839,7 +839,7 @@ s30851	cause to trust/let trust	<muang> trust with <sak> cause: make or let some
 s30852	those who trust	<muang> with plural <te>: people who trust or hope in someone	
 s30853	be able to trust	<muang> trust, with <zo> be able; in the verse negated: not able to trust	
 s30854	fortified/secure/strong	safe to rely on, said of a place; {mun muanhuai} is a stronghold and {khuapi muanhuai} a fortified city	
-s30855	trustworthy/reliable	said of a person or thing that can be trusted or relied on, from <muan>, trust, and <huai>, worthy of	
+s30855	trustworthy/reliable/dependable	said of a person or thing that can be trusted or relied on, from <muan>, trust, and <huai>, worthy of	
 s30856	unsafe/untrustworthy/unreliable	<muanhuai>, safe or trustworthy, and <lo>, not, written as one word	
 s30857	safety/security/place of safety	<muanhuai>, secure, with the noun suffix <na>: the state or place of being safe; {mun muanhuaina} is a fortress	
 s30858	faithfulness/trustworthiness	<muanhuai>, trustworthy, with the noun suffix <na>: the quality of being faithful and reliable	
@@ -853,7 +853,7 @@ s30865	trustworthy/reliable	plural of <muanhuai> said of people who can be relie
 s30866	more reliable/safer/more trustworthy	<muanhuai>, reliable, and <zaw>, more, written as one word	
 s30867	trust/depend on/rely on	<muan>, trust, with the ending <in>, used in {muanin nei}, have as one’s trust, put one’s trust in	
 s30868	doubt/waver/distrust	be unable to trust, be in doubt, from <muan> trust	
-s30869	distrust/doubt/mistrust	<muanlah>, be unable to trust, with the noun suffix {-na}: the state of not trusting, named beside <uplahna>	
+s30869	distrust/doubt/mistrust/misgiving/suspicion	<muanlah>, be unable to trust, with the noun suffix {-na}: the state of not trusting, named beside <uplahna>	
 s30870	mainstay/those relied on	<muan> trust, <le> and, <suan> rely: the ones a people depends on; in the verse the strong young men of Israel	
 s30871	not trust/distrust	<muan>, trust, with the negative <loh>, written as one word: not trust; before a noun, the one who is not trusted, as {i muanloh mikhat}, a person we do not trust	
 s30872	distrust/lack of trust/mistrust	<muan>, trust, with <lohna>, written as one word: not trusting; {ki muanlohna} is distrust of one another or lack of confidence in oneself	
@@ -862,13 +862,13 @@ s30874	suspicious/suspect	causing distrust, giving reason to suspect something w
 s30875	suspect/suspected person	<muanmawh>, suspect, and <mi>, person, written as one word: a person who is suspected of something	
 s30876	suspicion/distrust/doubt	the feeling that someone cannot be trusted or has done wrong	
 s30877	trust in/rely on	<muan> trust doubled, used before a noun: {muanmuan kulhpi} is the stronghold that is trusted in	
-s30878	trust/confidence/reliance	<muan>, trust, with the noun suffix <na>: trust in or reliance on someone or something, confidence	
+s30878	trust/confidence/reliance/assurance/faith	<muan>, trust, with the noun suffix <na>: trust in or reliance on someone or something, confidence	
 s30879	dare to trust/have confidence in	<muan>, trust, and <ngam>, dare, written as one word: trust without fear	
 s30880	the one trusted	<muan> trust, with <pa> marking a man: the man in whom someone trusts	
 s30881	trust/reliance/security	<muan> trust, with <pi>: the one greatly relied on	
 s30882	give confidence	<muan>, the form of <muang>, trust, used before a suffix, with <suah>, bring out or become: give confidence; the page lists the form without a meaning	
 s30883	ambush/waylay	attack a person who suspects nothing	
-s30884	trustworthy/reliable	worthy of trust, <muan> trust with <taak> worthy	
+s30884	trustworthy/reliable/dependable	worthy of trust, <muan> trust with <taak> worthy	
 s30886	trusted ones/trusted friends	<muan> trust with plural <te>, the people one relies on; {lawm muante} is trusted friends	
 s30887	be able to trust/can rely on	<muan> trust with <theih> can; {muantheih ding} is something or someone that can be trusted	
 s30888	trustworthy/fit to be trusted	<muan>, the form of <muang>, trust, used before a suffix, with <tuak>, be fitting: trustworthy	
@@ -917,7 +917,7 @@ s30931	detestable/abominable/disgusting/vile	deserving to be hated, from <muhdah
 s30932	detestableness/abomination	<muhdahhuai> detestable with the noun suffix <na>: the hatefulness of what was done	
 s30933	hated/odious/obnoxious	<muhdah> hate with <in>, as: after a possessor, as one hated by him	
 s30934	hate greatly	<muhdah> hate, with <luat> too much, the form of <lua> used before another word	
-s30935	hatred/hate/malice	<muhdah>, hate, with the noun suffix <na>: hatred or ill will; {muhdahna tawh} is out of hatred	
+s30935	hatred/hate/malice/loathing	<muhdah>, hate, with the noun suffix <na>: hatred or ill will; {muhdahna tawh} is out of hatred	
 s30936	hated ones	<muhdah> hate, with plural <te>: those who are hated	
 s30937	view/opinion/way of seeing	<muh>, see, with <dan>, way: the way someone sees a matter, a view or opinion; {ka muhdan} is my view	
 s30938	views/opinions/ways of seeing	plural of <muhdan>, view: the ways in which someone sees a matter	
@@ -1019,7 +1019,7 @@ s31034	not see/fail to see/not notice	<mukha>, happen to see, with <lo>, not: no
 s31035	those who see/passers-by	<mukha> happen to see, with plural <te>: those who come upon something	
 s31036	see together	<mu> see, with <khawm> together	
 s31037	meet/meet together	after a separately written <ki>, {ki mukhawm}: of two or more people, come together and see one another, meet; the same as the single word <kimukhawm>	
-s31038	find out/discover/perceive/realize	see and so come to know, <mu> see with <khia> out	
+s31038	find out/discover/perceive/realize/unearth	see and so come to know, <mu> see with <khia> out	
 s31039	will find/will discover	<mukhia>, find out, and <ding>, will, written as one word: will find or discover	
 s31040	find again/recover/find	<mukhia>, find, and <kik>, again or back, written as one word: find again something or someone that was lost or missing; with <ki> before it, be found again	
 s31041	misjudge/misunderstand/see wrongly	<mu>, see, with <khial>, wrong: see or judge someone or something wrongly, get a mistaken view of it	
@@ -1049,7 +1049,7 @@ s31064	if we see/when we see	<mu>, see, and the conditional ending <leng> writte
 s31065	see exactly/find just then	<mu>, see or find, with <lian>, exactly: see or find the very thing, see it oneself	
 s31066	razor	tool for shaving hair, from <mul> hair and <kiat> shave	
 s31067	be appalled/be horrified/shudder	feel horror so that the hair stands on end; <mulkimhuai> is horrifying	
-s31068	horrifying/dreadful/horrible	making the hair stand on end; {a mulkimhuai suak} is become an object of horror	
+s31068	horrifying/dreadful/horrible/gruesome/horrendous	making the hair stand on end; {a mulkimhuai suak} is become an object of horror	
 s31069	more horrible	<mulkimhuai> horrible, with the comparative <zaw>	
 s31070	shearers	<mul> hair or wool, <met> shear, with plural <te>: those who shear	
 s31071	hairy	<mul> hair, with <nei> have	
@@ -1254,7 +1254,7 @@ s31275		short form of <in> written after an apostrophe on a word ending in a vow
 s31276	you/your	second person marker: before a verb it means you, before a noun your	
 s31277	object/article/item/thing/goods	a thing, object or possession; {na khempeuh} is everything, all the goods someone owns	
 s31278	already/beforehand	placed before a verb whose subject is not you, it shows that the action took place earlier or away from the speaker, as in {na om hi}, was there; often left untranslated, while the pronoun {na} means you or your	
-s31279	be ill/hurt/be in pain	be sick or in pain, said of the body or a part of it, as in {a ci hong na}, he or she fell ill; before a following word the form is <nat>	
+s31279	be ill/hurt/be in pain/ache	be sick or in pain, said of the body or a part of it, as in {a ci hong na}, he or she fell ill; before a following word the form is <nat>	
 s31280	question particle	sentence-final question word of spoken style, listed by the book with <hia>, <hiam> and <maw>: {sang ka kah nuam na} is do I want to go to school	
 s31281	your/you	<na> written with a capital at the start of a sentence or quoted line; second person marker placed before a noun or verb	
 s31282	anything/something/whatever thing	<na.2>, thing, and <khatpeuhpeuh>, any one at all: any thing whatever, used as subject or object of a sentence; <na> is here not the pronoun you	
@@ -1408,7 +1408,7 @@ s31437	near/close	near in place or time, not far
 s31438	not yet at all/still far from	<nai>, here yet, and <hetlo>, not at all: placed after a verb or describing word, not yet at all; {sawt nai hetlo} is not long ago at all	
 s31439	how many hours	<nai>, hour, and <bangzah>, how many, written as one word: how many hours	
 s31440	headcloth/turban	a cloth worn wound round the head, as Burmese men wear; it is put on with <khim>	
-s31442	approach/draw near/come near	form of <nai> near used as a verb with an object or before endings such as <ciangin>	
+s31442	approach/draw near/come near/near	form of <nai> near used as a verb with an object or before endings such as <ciangin>	
 s31443	not yet at all/still not	<nai>, yet, and <hetlo>, not at all, written as one word after a verb: it has still not happened at all	
 s31444	approaching/drawing near/coming near	<naih> with the linking ending {-in}, used when another action follows: approached and	
 s31445	approach again/go up again	<naih> approach, with <kik> again	
@@ -1532,11 +1532,11 @@ s31564	insist/speak strongly	<pau> speak, with the intensive <nak> before it
 s31565	nose/nostril	part of the nose through which a cord or ring is passed	
 s31566	nose hook/nose ring	hook or ring put in the nose to lead an animal or a captive	
 s31567	greatly/very much/loudly/bitterly	with great force or to a great degree, usually as <nakpi-in> or {nakpi takin}	
-s31568	great/intense/loud	placed before a noun: great in force or degree, as {nakpi launa} great fear and {nakpi aw} a loud voice	
-s31570	greatly/very much/strongly	<nakpi>, greatly, with <in>, written with a hyphen because two vowels meet	
+s31568	great/intense/loud/severe	placed before a noun: great in force or degree, as {nakpi launa} great fear and {nakpi aw} a loud voice	
+s31570	greatly/very much/strongly/severely	<nakpi>, greatly, with <in>, written with a hyphen because two vowels meet	
 s31571	very strongly/vehemently	<nakpi> strongly, repeated for emphasis, with the adverb marker <in>	
 s31572	greatly/very much/strongly	<nakpi> and <tak.1> written as one word, alone or followed by <in>: to a great degree, with great force	
-s31573	very/so/greatly/very much/loudly	<nakpi> strongly with <tak> and the adverb ending <in>, written as one word: to a great degree or with great force	
+s31573	very/so/greatly/very much/loudly/considerably	<nakpi> strongly with <tak> and the adverb ending <in>, written as one word: to a great degree or with great force	
 s31574	deeply condole/mourn deeply with	<nakpitakin>, greatly, and <kidahpih>, grieve with each other: the set words of a message of condolence, by which a society or family declares its sorrow with the bereaved; it stands at the end of the notice, after the name of the body that sends it, and is commonly joined with <kilainatpih>	
 s31575	work hard/labour intensely	work hard and with great effort, often as {na naksep mahmah}, work very hard	
 s31576	be badly ruined/be utterly destroyed	<siat> be ruined with <nak> before it, strongly, greatly: the ruin was great	
@@ -1600,7 +1600,7 @@ s31633	catch/arrest/seize	<man>, catch, with the particle <na> before it, usuall
 s31634	you obey/obey	<na> and <mang.1> written as one word: you obey, mostly after <thu>, word	
 s31635	arrest at once/seize immediately	the narrative particle <na> written together with <manpah>: caught or arrested him right away, said of what others did	
 s31636	you idly/you in vain	<na>, you, and <mawk>, idly or for nothing, written as one word before a verb: {sum namawk beisak} is you waste money for nothing	
-s31637	number	a number as a figure or a count, from English number	
+s31637	number/figure	a number as a figure or a count, from English number	
 s31638	number	{Late Lai Siangtho Nambat nihna} is Psalm number two, the second Psalm	
 s31639	arithmetic	arithmetic as a school subject, <nambat>, number, with <sehna>, reckoning; the book adds the English word arithmetic	
 s31640	numbers/figures	<nambat>, number, with the plural <te>	
@@ -1618,7 +1618,7 @@ s31651	you click/you press	<na>, you, with <mek>, press, written as one word: yo
 s31652	whether/perhaps	placed after a verb or after <ahih> to show that the speaker does not know whether it is so: whether it will be, who knows if	
 s31653	your acquaintance/someone you know	<na> and <meltheih> written as one word: a person you know; {nameltheih tanau te} is the relatives and people you know	
 s31654	petroleum/oil/fuel oil	oil from the ground and the fuel made from it; {namgim tui} is liquid fuel such as kerosene or petrol, and {namgim khuk} is an oil well	
-s31655	oil/lamp oil	oil burned in a lamp	
+s31655	oil/lamp oil/kerosene	oil burned in a lamp	
 s31656	petroleum/oil/petrol/fuel	mineral oil from the ground and the fuel made from it for engines, not oil for a lamp: {namgimtui khuk} is an oil well and {namgimtui zuakna} a place that sells petrol	
 s31657	six kinds	<nam>, kind, and <guk>, six, written as one word: six kinds or sorts	
 s31658	six kinds/six sorts	<nam>, kind, and <guk.1>, six, written as one word: six kinds	
@@ -1663,7 +1663,7 @@ s31697	let kiss/allow to kiss	<nam>, kiss, with the causative <sak>: let someone
 s31698	Namhsan	town in the north of Shan State, Myanmar	
 s31699	sword	a weapon with a long blade; {namsau tawh that} is kill with the sword	
 s31700	swords	plural of <namsau>, sword	
-s31701	smelly/stinking/foul-smelling	having a bad smell, smell bad; {gim namsia} is a bad smell	
+s31701	smelly/stinking/foul-smelling/fetid	having a bad smell, smell bad; {gim namsia} is a bad smell	
 s31702	very smelly/stinking	<namsia> and <lua> written as one word: smelling very bad, too smelly	
 s31703	of many kinds/varied	<nam>, kind, and <tam>, many, written as one word: of many kinds, in many kinds	
 s31704	many kinds/many sorts	<nam> and <tampi> written as one word: many kinds of something	
@@ -1791,7 +1791,7 @@ s31831	blow one's nose	<nap> and <nit> written as one word: blow the nose; of pe
 s31832	the one kissed	<nap> kiss with <pa>, the man: {ka nappa} is the man I kiss	
 s31833	kiss/let kiss/let smell	<nap>, kiss or smell, with the <sak> that follows a verb: give a kiss to someone, or let someone kiss or smell something	
 s31834	Naphtali	son of Jacob and Bilhah, ancestor of the tribe of Naphtali	
-s31835	nasal mucus	used in the pair <khitui naptui>, tears and running nose, for bitter weeping	
+s31835	nasal mucus/mucus	used in the pair <khitui naptui>, tears and running nose, for bitter weeping	
 s31836	had taken/already sent	<na>, already, and <puak>, send or bring, written as one word: someone had already taken or sent a person or thing somewhere	
 s31837	you bring/you carry	<na>, you, and <puak>, send or bring, written as one word: you bring or carry something to others	
 s31838	your clothes/your clothing	<na>, your, and <puansilh>, clothing, written as one word: the clothes you wear	
@@ -1823,7 +1823,7 @@ s31863	commanded/told	<na>, the particle for an earlier action, and <sawl>, comm
 s31864	Nasdaq	a stock exchange in the United States on which companies are listed	
 s31866	servants	<nasem>, servant, with the plural <te>, here spelled with ee; the same verse also has <nasemte>	
 s31867	servant/worker	one who works for or serves another, from <na>, work, and <sem>, do; also a hired worker	
-s31868	work/serve	do work, or serve an employer. From <na>, work, with <sem>, do, written as one word	
+s31868	work/serve/labour	do work, or serve an employer. From <na>, work, with <sem>, do, written as one word	
 s31869	servant	<nasem> written with a capital at the start of a sentence, and once of Jesus as the Servant of God	
 s31870	work/having worked	<nasem>, work, and the linking <a> written as one word: working and, having worked and	
 s31871	to work/in order to work	<nasem> and <ding> written as one word: who will work or in order to work; {nasemding in apai} is went in order to work and {nasemding mi} is people to do the work	
@@ -1854,7 +1854,7 @@ s31895	all the workers/all the staff	<nasem>, worker, with <teng>, here all of t
 s31896	new worker/new staff/new employee	<nasem>, worker, and <thak>, new, written as one word: a worker who has just started	
 s31897	can work/be able to work	<nasem>, work, and <thei>, can, written as one word	
 s31898	be able to work/work well	<nasem>, work, with <zo>, be able, written as one word: be able to work or to get work done; {nasemzo nawnlo} is no longer able to work	
-s31899	work/job/service/duty	the work a person does or is given to do: a task, a duty, an occupation; from <na>, work, and <sep>, do	
+s31899	work/job/service/duty/occupation/task	the work a person does or is given to do: a task, a duty, an occupation; from <na>, work, and <sep>, do	
 s31900	employer/the one who gives work	<nasep>, work, and {a guan}, who provides: stands before a noun such as Boss or Employer, or alone, for the one who gives work to others, an employer	
 s31901	working hours/work time/working time	<nasep>, work, and <hun>, time: the hours or days of work of a job, a heading in job notices, followed by the hours or the number of days	
 s31902	stop work/quit work/leave a job	<nasep>, work, and <khawl>, here stop or rest: to stop working, either for a time or by leaving a job; with <sak> after it, to make somebody stop work, to suspend or dismiss	
@@ -1877,8 +1877,8 @@ s31918	go to work/set out for work	<nasep>, work, and <kuan>, set out, written a
 s31919	term of office/working year/year of service	<nasep> and <kum> written as one word: the year or the years for which someone holds an office or does a work	
 s31920	not working/off duty	<nasep>, work, and <loh>, not, written as one word: being without work or off duty; {naseploh hunsung} is while off duty	
 s31921	workplace		
-s31922	work		
-s31923	task		
+s31922	work/labour/working		
+s31923	task/mission		
 s31924	creation		
 s31925	work/service/acts/deeds	<nasepna> written with a capital at the start of a sentence or in a title; {Solomon’ Nasepna Laibu} is the book of the acts of Solomon	
 s31926	at work/in the work	<nasepna>, work, with the place marker <ah>	
@@ -1887,7 +1887,7 @@ s31928	works/deeds/acts	plural of <nasepna>: the things someone has done, in the
 s31929	employer	<nasep>, work, and <nei>, have, written as one word: one who has work to give, an employer; also said of people who have a job	
 s31930	unemployed/jobless/out of work	<nasep>, work, and <neilo>, not have, written as one word: having no work; also the people who have none	
 s31931	the work/the job	<nasep>, work, and the topic marker <pen> written as one word: the work or job, as the thing spoken about	
-s31932	fellow worker/co-worker/fellow servant	one who works together with another; <nasep> work with <pih> together with	
+s31932	fellow worker/co-worker/fellow servant/colleague	one who works together with another; <nasep> work with <pih> together with	
 s31933	to be a co-worker/as an employee	<naseppih>, fellow worker, and <ding>, to be, written as one word: for someone to work with, as when an employer calls a worker	
 s31934	fellow workers/co-workers/fellow servants	plural of <naseppih>, one who works or serves together with another	
 s31935	product of labour/produce/earnings	<nasep> work with <sa>, already done: what one has worked for and produced	
@@ -1905,7 +1905,7 @@ s31946	work also/the job too	<nasep>, work, and <zong>, also, written as one wor
 s31948	Nahshon	son of Amminadab and father of Salmon, leader of the tribe of Judah in the wilderness and an ancestor of David	
 s31949	Nashville	city in the state of Tennessee in the United States, home of a Zomi community	
 s31950	you die	<na>, you, and <si>, die, written as one word; the same letters are also the Malay word for rice in names of dishes such as Nasi Lemak	
-s31951	severe/grievous/intense	very great in a bad or painful way, of famine, sin, grief or punishment; {nasia takin} is severely, bitterly	
+s31951	severe/grievous/intense/grave/serious	very great in a bad or painful way, of famine, sin, grief or punishment; {nasia takin} is severely, bitterly	
 s31952	greatly/tremendously/impressively	as an intensifier with no bad meaning, of something done or found on a grand scale: {nasia takin} before a verb is in a big way, and {nasia} before <thupi> is very grand	
 s31953	too severe/so terrible	<nasia>, severe, with <lua>, too much: so severe or terrible, said of a plague	
 s31954	you are skilled/you are good at	<na>, you, and <siam>, skilled, written as one word: you are skilled, you are good at the thing named before it	
@@ -1913,7 +1913,7 @@ s31955	most severe/worst	<nasia>, severe, with <pen>, most: the most severe, the
 s31956	make severe/make worse/aggravate	<nasia>, severe, with the causative <sak>: make suffering or trouble more severe	
 s31957	severe/intense/great	the form of <nasia> severe used before <ma-in> and <lam>; {a nasiat ma-in} is before it grows severe	
 s31958	severely/intensely/very hard/greatly	<nasia> and <tak> written as one word, often followed by <in>: to a very great degree, of bad things and also of effort or celebration	
-s31959	greatly/intensely/strongly/vigorously	<nasia>, intense, with <takin>, which makes an adverb, written as one word: to a great degree, with great force or effort	
+s31959	greatly/intensely/strongly/vigorously/seriously/severely	<nasia>, intense, with <takin>, which makes an adverb, written as one word: to a great degree, with great force or effort	
 s31960	if severe/when severe	<nasiat> and <leh> written as one word: if or when an illness is severe	
 s31961	intensity/degree/severity	<nasiat>, intense, with the noun suffix {-na}: how strong or great something is, the thing an adverb of degree shows	
 s31962	more severe/worse/greater	<nasia> severe with the comparative <zaw>	

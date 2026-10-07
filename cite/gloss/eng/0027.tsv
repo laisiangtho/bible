@@ -92,7 +92,7 @@ s54099	door side/doorway	<kong>, door, with <lam>, direction: the side where the
 s54100	utterance/speech/words spoken	word of songs and poetry: what a person says or sings out, the voice heard	
 s54101	Leisenzo	a village in the Champhai area of Mizoram, India, near the border with Chin State	
 s54102	Tualcheng	a village in the Champhai area of Mizoram, India	
-s54103	endless/inexhaustible/never ending	<beithei>, can come to an end, and <lo>, not, written as one word: that cannot run out or end	
+s54103	endless/inexhaustible/never ending/infinite	<beithei>, can come to an end, and <lo>, not, written as one word: that cannot run out or end	
 s54104	day of joy/day of celebration/festive day	<lungdam>, joy, and <ni>, day, written as one word	
 s54105	protect/defend/guard	<a> and <huu>, protect, written as one word: the one who protects, often paired with <akeem>, the one who looks after	
 s54106	unity/harmony/bond	<kihual>, be knit together, with the noun suffix <na>: the state of being bound up with one another	
@@ -104,7 +104,7 @@ s54111	be distributed/be given out/be issued	form of <kihawmkhia> used before a 
 s54112	usage/way it is used	<zatzia>, way of using, with the prefix <ki>: the way in which a word or a thing is used	
 s54113	Gawsing	a Zomi village in the Tedim area of Chin State	
 s54114	Murlen	the name of Murlen, a village in the Champhai area of Mizoram, with <ah> written as one word: at Murlen, to Murlen	
-s54115	unclothed/naked/without clothes	<puansilh>, put on clothes, and <lo>, not, written as one word: wearing no clothes	
+s54115	unclothed/naked/without clothes/nude	<puansilh>, put on clothes, and <lo>, not, written as one word: wearing no clothes	
 s54116	be collected/be raised	passive of <khon>, collect: of money or goods, be collected from people for a purpose	
 s54117	rice beer/traditional beer	<zu>, beer, with <pi>, great: the traditional rice beer of the Zomi, drunk at the feasts of the old religion; also explained as {zozu}	
 s54118	within the people/among the nation	<minam>, people, and <sung>, in, written as one word: the inside of a people or nation	
@@ -115,7 +115,7 @@ s54122	Kanyan	name of an early people of Myanmar, named beside the Pyu and the T
 s54123	quite long/rather long	of time, quite long, a good while; compare <sawtsimsim>	
 s54124	Sunthla	a village near Falam in Chin State	
 s54125	finish translating/have translated	<tei>, translate, and <khin>, already, written as one word: the translation is completed	
-s54126	speed/quickness/swiftness	<manlang>, quick, with the noun suffix <na>	
+s54126	speed/quickness/swiftness/velocity	<manlang>, quick, with the noun suffix <na>	
 s54128	be founded/be established	<aki> and <saat> written as one word, a spelling of {a kisat}: of a village or town, that was founded	
 s54129	time when one can/time to be able	<theih>, be able, and <hun>, time, written as one word, after a verb: the time when it can be done	
 s54130	come in/enter	<ong>, here a spelling of <hong>, and <luut> written as one word: come in, enter a country or a group from outside	
@@ -169,10 +169,10 @@ s54182	ferment/brew/steep	leave grain, beans or leaves to ferment for some days,
 s54183	dove	word of songs and poetry for <vahui>, the dove, whose cooing stands for longing	
 s54184	every week/weekly	<kaal>, week, with <sim>, every: every week, often followed by <in>	
 s54185	discussion/deliberation/consultation	noun from {kikupnawi}, talk a matter over back and forth: a discussion or a meeting held to discuss, close to <kikupna>	
-s54186	clash/fight each other	fight one another, said of armies, peoples and parties that come to blows	
+s54186	clash/fight each other/fight	fight one another, said of armies, peoples and parties that come to blows	
 s54187	eight times	<giat>, eight, and <vei>, time, written as one word: eight times; after <a>, the eighth time	
 s54189	developing country/country that develops	<gam>, country, and <khang>, grow, written as one word and followed by <to>, up: {gamkhang to} is the country develops or a developed country, the same as <gamkhangto>	
-s54190	indifference/neglect/disregard	<awlmawh>, heed, and <lohna>, not doing, written as one word: not caring about a person or a matter	
+s54190	indifference/neglect/disregard/negligence	<awlmawh>, heed, and <lohna>, not doing, written as one word: not caring about a person or a matter	
 s54191	again/back	<kiik>, a spelling of <kik>, again, and <ding>, will or to, written as one word after a verb: to do again, will do again	
 s54192	to listen/will listen	<ngai>, listen, and <ding>, will or to, written as one word: to listen, will listen; in a few sentences <ngai> is love or long for	
 s54193	own place/respective place	<a> and <muntek> written as one word: each one's own place, mostly before <ah>, each in their own place	
@@ -244,7 +244,7 @@ s54263	be unequal/unequal	<kikim> and <loh> written as one word: not being equal
 s54264	hard work/toil/labour		
 s54266	anyone/whoever/everyone	<mi> and <peuh> written as one word: any person, whoever does so.	
 s54267	your brothers and sisters/your siblings	<na> and <sanggamte> written as one word: your brothers and sisters.	
-s54269	laws/statutes		
+s54269	laws/statutes/acts		
 s54270	meet/come together/converge	Used with <ki>: to arrive and meet at one place.	
 s54271	admire/long for/covet	To look at with longing: to admire, or to desire what is seen.	
 s54272	if not yet	<naikei> and <leh> written as one word after a verb: if it has not yet been done.	
@@ -317,3 +317,1588 @@ s54342	Sukzo Bawmkhai	a Zomi clan, given as the clan of persons in Zomipedia
 s54343	Tamdeng	a Zomi village, given as the home village of persons in Zomipedia	
 s54344	Thangkaai Suangpi	a Zomi village, given as the home village of persons in Zomipedia	
 s54345	Zangzawl	a Zomi village, given as the home village of persons in Zomipedia	
+s54346	sticky/glutinous	holding fast to what touches it, as cooked sticky rice does; compare <kimat>, joined or stuck together	
+s54347	shy/bashful	timid and uneasy before others, the same as <zakta>	
+s54348	fence/fencing	a fence put round a house, garden or ground; another spelling of <daai>; {dai kai} is put up a fence and {dai umna} is the fencing round a place	
+s54349	frying pan/griddle	a flat or shallow iron pan set over the fire for frying or baking	
+s54350	abhor/detest/be fed up with/tire	be weary of or disgusted with something or someone, have had enough of it; compare <cimtak>	
+s54351	abhorrence/tedium/weariness	the feeling of being weary of or disgusted with something, from <ning>, be fed up with, with the noun suffix <na>	
+s54352	lunacy/mental derangement	the state of being out of one's mind, <hai> in its sense of mad, with the noun suffix <na>	
+s54353	buffet/sock/strike with the fist	hit with the fist, as in {khut tawh tum}; also said of boxing	
+s54354	abolish/annul/revoke/abrogate	do away with a law, a custom, an organisation or a habit so that it is no longer in force or in use	
+s54355	approval	the finding of something good, approval of what is done or is to be done, from {pha sa}, deem good, not from <phasak>, make numerous	
+s54356	acidify/make sour	<thuk>, sour, with <sak>, cause: make something sour	
+s54357	deepen/make deeper	<thuk>, deep, with <sak>, cause: make deeper, as a hole in the ground or the meaning given to a word	
+s54358	treat/deal with	act toward a person or thing in a certain way, or tend a sick person	
+s54359	top/tip/end	<a> and <dawn> written as one word: the top or far end of a thing, as of a tree or pole, set against <abul>, its base	
+s54360	or	set after each of two or more alternatives, {khat hiam nih hiam} is one or two, and after <bang>, as {bang hiam khat}, something or other	
+s54361	tough	hard to break, tear or chew, giving without snapping, of leather, meat or cane	
+s54362	administration/management	the managing of the affairs of a household, body or land, from <vaihawm>, manage, with the noun suffix <na>	
+s54363	interest/keenness/zeal/zest	a strong liking for a thing or pastime, from <uk>, be keen on, with the noun suffix <na>; not the {ukna} of ruling	
+s54364	loose/loosen/release/relax	make loose or slack what is tied or tight, or let it go: <kol>, loose, with the causative <sak>; the opposite of {gaksak}	
+s54365	apprise/inform/tell/let know	tell someone a thing so that he knows it, without the idea of teaching	
+s54366	basket/sieve	a woven basket, also one used for sifting	
+s54367	earn/gain	get as the gain of work or effort, as in {lawh nei}, have earnings, and <thalawh>	
+s54368	affiance/betroth/be engaged	of a young man and woman, be pledged to each other to marry	
+s54369	ordain/consecrate	set a person apart for an office or a work, the verb of <kipsakna> in its sense of ordination	
+s54370	affix/attach/patch/graft	fasten one thing onto another, as a patch onto cloth or a shoot onto a tree	
+s54371	bleach/whiten	<kang>, white, with the causative <sak>: make white, take the colour out of cloth	
+s54372	contravene/oppose/go against/contradict	go against a decision, rule or statement, speak or act contrary to it	
+s54373	aisle/passage	the passage between rows of seats, as in a church	
+s54374	allocate/allot	cause someone to receive a share, give out as a portion	
+s54375	coeval/of the same age	of the same age or generation as another, a peer; the other is marked by <tawh>	
+s54376	allege/charge/accuse	say that someone has done wrong without clear proof, beside <ngawh>	
+s54377	gift/donation/alms/offering	what is given freely, a gift or donation to the needy or to the church	
+s54378	only/alone	after a noun, only that and nothing else, as <bek>; {kia hilo} is not only	
+s54379	analysis/breakdown	the separating of a thing into its kinds or parts so as to examine it, from <khen>, divide	
+s54380	total/whole/entirety	the whole of a thing, all of it taken together, from <a> and <pumpi>	
+s54381	amass/gather/collect	take things and bring them together into one store, from <la>, take, with <khawm>, together	
+s54382	amazement/surprise/wonder	the feeling of finding something strange, from <lamdang>, strange, with <sakna>, the feeling or considering	
+s54383	around/all around/round about	on every side of a place or person, following the noun, as {khua kiimkot}, around the village, and {na kiimkot ah}, all around you	
+s54384	destination	the place a person sets out to reach	
+s54385	amendment/correction/improvement/reform	the making good or putting right of something, as the amending of a law or the correcting of what is bad, from <bawlpha>	
+s54386	harmony/agreement/accord/concord	the state of people being at one with each other, without quarrel or dispute, as in {ki-itna leh kituahna}, love and harmony	
+s54387	enlarge/expand/magnify/make bigger	make a thing larger in size, from <lian>, big, with the causative <sak>	
+s54388	lie/lie curled up	of an animal, lie down curled round in a ring, as in {gankual}	
+s54389	smear/rub	rub a substance on a surface, spread it on by rubbing	
+s54390	answer/reply/response	<sang> in the sense answer a call, with the noun suffix <na>: what is said in reply, beside <dawnna>	
+s54391	any	after a noun, any one of the kind, whichever it may be; {mi khatpeuh} is any person	
+s54392	disperse/break up/part	of people gathered together, as a meeting or a school, part and go each a separate way	
+s54393	divorce/separate	of husband and wife, part from each other and end the marriage, as in <nupa kikhen>	
+s54394	rightly/correctly/aright	in the right way, as it should be: <a> and <man>, right, with the adverb ending <in>; not the conjunction because	
+s54395	bridge	a structure built across a river or a gap for crossing over, as {lei dawh}, build a bridge; a different word from {lei}, land	
+s54396	tongue	the tongue in the mouth, the organ of taste and speech; a different word from {lei}, land	
+s54397	bracelet/armlet	a band worn round the wrist or arm as an ornament, beside <tau>	
+s54398	wrist	the joint between the hand and the arm, also called {khutbom} and {khut ngawng}	
+s54399	armlet/bracelet/bangle	a band worn round the arm or wrist as an ornament; not {tau}, altar	
+s54400	arrange/range/line up	set things or people side by side in a row or in order, the verb of {gual}, a row	
+s54401	hospitality/generosity/kindness	kindness and open-handedness toward guests and people in need, named beside <citna>; {zindo siamna} is the good receiving of guests	
+s54402	artificial/man-made	made by people and not natural or inborn; placed after the noun, as in {milim bawltawm}, a man-made image	
+s54403	counterfeit/fake/forged	made in imitation of the real thing in order to deceive, as money or a document; {VISA bawltawm} is a forged visa	
+s54404	ass/donkey/mule	a donkey, kept for riding and carrying loads; also written <laa>	
+s54405	attention/listening/heed	the giving of ear to what is said, <thungai>, listen, with the noun ending {-na}	
+s54406	status/rank/designation	what a person is in standing or office, high or low; the being of <hi> taken as a position	
+s54407	topic/headline/theme	the main matter of a talk or a writing, <thu> with <pi>, great: its subject or heading	
+s54408	magnificent/majestic/glorious	great in show or worth to the eye, said of what is impressive and fine and not only of what matters	
+s54409	backbite/talk behind someone's back	<gen>, speak, with <sim>, secretly: speak about people when they are not there to hear, mostly to speak ill of them	
+s54410	hinder/obstruct/block	close off a way or stand in the way of a person or an action, beside <dal>; the meaning shut applied to a road or a course of action	
+s54411	hindrance/obstruction/impediment	what stands in the way of an action or a course, from <dal>, block or hinder, with the noun suffix <na>; not a curtain and not the prevention of harm	
+s54412	blockade/hindrance/obstruction/blocking	noun from <khak>, shut or block: the closing off of a way, as {lampi khakna}, the blocking of a road, and what stands in the way	
+s54413	bamboo	a kind of bamboo, named beside <gua>, the general word for bamboo	
+s54414	barricade/enclose/fence in	shut a place in with a fence or wall; {huang sung um} is fence in within an enclosure	
+s54415	beat/strike/knock	hit with a blow, given in the word list beside <sat> and <vua>; not the particle after a number	
+s54416	basis/root	the root or ground from which a matter comes and on which the rest stands, not a base of stone	
+s54417	basket	a kind of woven basket, named in the list beside <seeng> and <bawm>	
+s54418	basket	a kind of woven basket, named in the list beside <seeng> and <bawm>; not the verb lose	
+s54419	bastard/illegitimate child	a child born outside marriage, as <zawlta>; not the verb push	
+s54420	each/apiece	placed after a numeral to share out one by one, as in {khat ta in}, one each	
+s54421	bath/bathe	wash the whole body in water, as in {tuisunga kibual}; the plain act and not the figure of being sunk in something	
+s54422	batter/beat severely	strike again and again with great force; <khawng>, knock or beat, with <gawp>, which shows that the action is severe	
+s54423	battery	a cell that stores electric power, as for a torch; also <datmeitang>	
+s54424	jab/stab/poke	thrust a pointed thing into something, as <dawt>; not the noun day	
+s54425	be	the linking verb, is, am or are, that joins a subject with what it is, as in {ka hi hi}, I am	
+s54426	yes	said alone in reply: it is so, yes	
+s54427	challenge/defy/dare	dare someone to a fight or contest without fear, as <tawng>; not the word for up or for dig	
+s54428	staunch/stop	make a flow such as bleeding cease; <kam>, cease, with the causative <sak>	
+s54429	bedbug/bug	a small insect that lives in beds and bites people, named for its bad smell	
+s54430	beget	bring forth children and descendants, the verb beside the noun for a descendant	
+s54431	on behalf of/in lieu of/behalf/lieu	in the place of someone, as a substitute or representative, following the noun it relates to like <taangin>	
+s54432	distinction/difference	the way in which things are set apart from one another and are not alike	
+s54433	bier/stretcher	a frame on which a dead body is carried, {misi puakna}	
+s54434	only/just	nothing more than what is named, placed after it like <bek>	
+s54435	layer/covering	what is wrapped or laid over a thing, its covering; the prefix {a-} with <tuam>, wrap	
+s54436	bite	seize or cut with the teeth, said of an animal or a person	
+s54437	wall	the wall of a house, named in the word list beside <kawm>	
+s54438	boredom/weariness	being tired of a thing, from too much of it or from having nothing to do; <cim> in the sense be fed up	
+s54439	borrow	take a thing for a time, to be given back or repaid later	
+s54440	bowels/intestine	the intestines, named in the word list beside <gilzang>; also written <ngoi>	
+s54441	brake	the part of a vehicle or a machine that stops it, <a> with <khawlsakna>	
+s54442	bran/chaff/husk	the husk of rice, millet or other grain that is left when the grain is pounded and winnowed	
+s54443	brawl/quarrel/dispute	<hau>, scold, with <ki>, one another: quarrel loudly, scold each other	
+s54444	sesame	the sesame plant and its seed, from which oil is pressed; {si sathau} is sesame oil	
+s54445	brightness/light/shining	<taan>, shine, with <na>: the shining of a light, its brightness	
+s54446	bubble	a ball of air in or on water	
+s54447	broken/bust	broken or smashed, as in <kitamkham> and <leitam>; not {tam}, many	
+s54448	bye-bye/goodbye/stay well	said on parting to the one who stays, stay well; <om>, stay, with <nuam>, pleasant; the list notes it as said to children	
+s54449	bye-bye/goodbye/go well	said on parting to the one who leaves, go well; <pai>, go, with <nuam>, pleasant; the list notes it as said to children	
+s54450	calf/elephant calf	the young of an elephant, <sai> with <no>, young; written without a capital, not the village name	
+s54451	gene/hereditary stock/seed	what is passed on from father and mother and makes the child like them; the seed or stock of a family, as in <khaici>	
+s54452	cane/rattan	a very long thorny climbing plant of the forest whose stem is used as rope and for binding, also <ciing-gui>; not the verb plant	
+s54453	revenue/land tax/tribute	the tax on land paid to the rulers of a territory, apart from {maangmu} a vision	
+s54454	sublime/magnificent/glorious	<a> and <thupi> written as one word for what is grand and glorious, beyond merely important	
+s54455	kiss	touch with the nose and lips in affection, the Zolai way of kissing by smelling; <kinam> is kiss one another	
+s54456	smell/sniff/nose	take in the scent of something with the nose; apart from {nam} a kind or a people	
+s54457	carton/cardboard box/cardboard	thick paper and the box made of it, as the box in which medicine or cigarettes are packed	
+s54458	case/container	<a> and <kuang>, trough or box, written as one word: the case or box that holds a thing; not the verb burn	
+s54459	smell/odour/scent	<a> and <nam>, smell, written as one word: the smell of a thing, as in <agimnam>	
+s54460	cement	<suang>, stone, with <vui>, powder: the grey powder mixed with sand and water for building, also called <simen> or <bilaatmi>	
+s54461	certificate	a paper that certifies a fact, as the passing of an examination; not the signature and not the ticket	
+s54462	resignation	the giving up of a post or work, from <tawp> in the meaning stop or quit	
+s54463	torture/torment	severe pain laid on a person on purpose, harsher than punishment for a fault	
+s54464	chew	work food in the mouth with the teeth, as in {kam sung hai}; not the cup and not foolish	
+s54465	mango	the mango, the tree and its fruit, the fruit also called <haigah>; not the cup and not foolish	
+s54466	chin	the chin, the part of the face below the mouth; not the taste bitter	
+s54467	choice	what a person picks of his own will, as in {ama deihteel}, his own choice; the noun use of the verb choose	
+s54468	choose/select/pick out	pick out the one wanted from among several, beside <teel>; {deihpen teng} is pick out the best	
+s54469	claim/demand	<kal>, demand, with <khia>, out: insist that a thing is one's own and demand it	
+s54470	clash/contradict/conflict/be at odds	of two things said or wanted, go against each other and not agree, as the will of the people and the decision of the government	
+s54471	class/sort/kind	<pawl>, group, with the prefix <a>: a group of things of one kind, a class or sort	
+s54472	nail/claw	the hard nail at the tip of a finger or toe, and the claw of an animal or bird	
+s54473	club/cudgel	a short heavy stick or mallet used for striking	
+s54474	clump/cluster	a clump of trees growing from one base, as {gua phung} is a clump of bamboo	
+s54475	law/rule	a rule made to be followed, named beside <upadi> and <ngeina>	
+s54476	coerce/force	press someone to do a thing against the will, as {phuukhia teitei}	
+s54477	coffee	the drink coffee, a borrowed word, taken hot and holding caffeine	
+s54478	think over/imagine/envisage/cogitate	turn a matter over in the mind, picture or plan it in thought, the verb use of the noun, named beside <ngaihsun>	
+s54479	hem/edge/border	the edge or border of a thing, <a> with <zing>, as {azing zui-in} along its edge	
+s54480	thin	thin, not thick, of flat things, named beside <gawng>, lean	
+s54481	commend/speak well of	<gen>, say, with <pha>, good: speak well of a person or thing, tell it as it is to its credit	
+s54482	suitable/convenient	fitting or convenient, of a time or place that suits, named beside <kituak>	
+s54483	competitor/rival/contestant	the one who competes, a rival in business, a contest or an election	
+s54484	complaint/accusation	a charge brought against someone, from <heek> as a spelling of <hek>, accuse	
+s54485	finish/complete	bring a work to its end, get it done	
+s54486	handsome/good-looking/becoming	pleasing to look at, of a person or of the way a thing suits someone	
+s54487	consciousness/awareness/sensation	the being aware of or feeling something, <phawk> with the noun ending {-na}	
+s54488	equality/evenness	the being equal or even with others, as in share or number	
+s54489	making/construction/creation	the making of something, <bawl>, make, with the noun suffix <na>	
+s54490	treatment	the way a person or a sickness is treated; {cina bawlna} is the treating of the sick	
+s54491	expenditure/spending	the spending of money, as in {sum zatna}	
+s54492	contract/draw in/shrink	draw in and become shorter or smaller, as a limb pulled back to the body; the base of <tonsak>	
+s54493	contract/shrink	<ton>, draw in, with the causative <sak>: make something draw in and become smaller	
+s54494	contradiction/conflict	the state of two things being at odds with each other, as in {kikalhna bang mah om lo}, there is no contradiction at all	
+s54495	regret/rue/be sorry	feel sorry for what one has done or chosen; {kisiik lo} is have no regret	
+s54496	convert/change over	turn a thing from what it was into something else, as a private school into a state school	
+s54497	convoke/call together/summon	call a number of people to come together in one place, as for a meeting; <sam> call with <khawm> together	
+s54498	oil	oil, a fatty liquid used for cooking, for lamps or for rubbing on; wider than the fat of an animal	
+s54499	correspond/match/agree with	agree with or be suited to another person or thing, as a number that corresponds to a name; <kituak> with the ending {-pih}, apart from meeting on the way	
+s54500	cost/price/value/worth	<a> and <man>, price, written as one word: the price or the worth of a thing; not {a man}, true, and not the pronoun	
+s54501	counter/oppose/counteract/resist	act or fight back against a person, a plan or a force, so as to stop it or undo its effect; <leh> back with <do> fight, wider than rebelling against a ruler	
+s54502	coward	a person without courage, one who loses heart from fear and hangs back; the adjective used as a noun	
+s54503	creel/small basket	a small basket, as the one a fisherman carries his catch in; from <bawm>, basket; not the go-between	
+s54504	crooked/bent	not straight, bent or curved, named beside <kawi> and <kual>; apart from must and from bull	
+s54505	navel/belly button	the navel, the mark in the middle of the belly where the cord of birth was joined; {lai nuai} is below the navel	
+s54506	cushion/seat pad	a soft pad put under the bottom to sit on, from <taw.2>, bottom, and <dap.1>, pad	
+s54507	daddy/dad	a spelling of <pa>, father, as in {nuu leh paa}; the word a child calls its father by	
+s54508	hesitate/waver	hold back in heart before acting; {lunghiang kei in} is do not hesitate	
+s54509	debt	what is owed to another, money or thanks; as a verb owe, as in {sum baa}, owe money	
+s54510	struggle/grapple with/fight	fight hard against someone or something, beside <do>	
+s54511	sue/accuse	bring a charge against someone, before a court or in words	
+s54512	subtract	take a number or an amount away from a larger one	
+s54513	revoke/rescind/quash/annul	cancel a law, an order or a decision so that it no longer stands	
+s54514	draw	make a picture or a line with a pen, as {lim gelh}, draw a picture	
+s54515	rob/hold up	take the goods of a person by force or threat	
+s54516	detail/assign/tell off	<seh>, assign, with <khia>, out: appoint a person out of a group to do a particular task	
+s54517	diaphragm/midriff	the sheet of muscle inside the body that divides the chest from the belly	
+s54518	disconnect/sever/cut off	part a thing from what it is joined to, as <bottat>	
+s54519	distil/dribble/drain off	let a liquid run out in drops or drain it off from what it stands in, as {buhtui khit}, drain the water off rice; {khitkhia} is drain out	
+s54520	distillation/draining off	the letting of a liquid run off in drops, from <khit>, drain off, with the noun suffix {-na}	
+s54521	diversion/turning aside	the turning of something away from its course to another side, from <heikhiat>, turn away, with the noun suffix {-na}	
+s54522	doll	a small figure of a person made for a child to play with, sometimes dressed in cloth	
+s54523	effigy/figure	a figure of a person made of wood or stone, with no thought of worship	
+s54524	dormitory	a house where many people sleep together, given beside <sawm>, the young men's sleeping house	
+s54525	dragon	the great serpent-like beast of old stories, as the dragon of Revelation	
+s54526	eatable/edible	that can be eaten, fit to eat	
+s54527	survival	the coming through danger alive, noun of <suakta> in its sense of staying alive	
+s54528	gas/vapour	air-like matter, vapour or breath; the entry sets it beside <huih>, wind, and <dathuu>, petrol fumes	
+s54529	exhort/urge	press someone earnestly to do something, as {hihteitei dinga kun}, urge to do it without fail	
+s54530	expire/run out	<a> and <hunbei> written as one word: its time is over, the set time has run out	
+s54531	extension/enlargement/increase	<khansak>, make grow, with the noun suffix <na>: the making of a thing larger or more	
+s54532	factor/cause	the thing or person that brings something about, <a> and <piangsak> written as one word and used as a noun	
+s54533	fallacy/false belief/mistaken belief	a belief that is wrong, the holding of something untrue as true, from <up>, believe, and <khialh>, go wrong	
+s54534	fierce/bold	fierce and frightening, as a wild animal that cannot be held back; also written <hang>	
+s54535	weariness/tiredness/lassitude	the state of being tired and worn out, from <gim>, be tired, with the noun suffix <na>; paired with <tawlna>	
+s54536	foot/feet	the English measure of length of twelve inches, a loanword from feet	
+s54537	fortune/good fortune/luck	good luck, things turning out well for a person, from <hampha>, fortunate, with the noun suffix <na>	
+s54538	fen/marsh	wet low ground where water always stands, also {ciklak lei}	
+s54539	yeast/leaven/ferment	the substance put into a mash to make <zu> or into dough to make it rise, the same as <silngo>; apart from the meaning bald	
+s54540	file	a steel tool with a rough face for rubbing metal smooth, also {sik nawtna}; apart from the meaning of one blood	
+s54541	molt/shed skin	of an insect or a snake, cast off the old outer skin, also {li khia}; apart from the number four	
+s54542	former/first/earlier	that was before, the first or earlier one of two; {amasa sanga} is than the former	
+s54543	free/free of charge	having no price, given or had without payment	
+s54544	gadfly/gnat	a small biting fly, such as a gnat or a gadfly	
+s54545	yawn/gape	open the mouth wide, above all in yawning when sleepy; {ihmutsuak in haam} is yawn from sleepiness	
+s54546	gently/softly	with a light and careful touch or manner, without force or haste	
+s54547	girl/female child	<numei>, female, before <naupang>, child: a child who is a girl	
+s54548	glide/slide/slip down	move smoothly downward or along, slip down; beside {taalsuk}, slide down	
+s54549	gloom/darkness/dusk	the growing dark of the sky or the day, from {khua zing}, it grows dark; listed beside <mialna>, darkness	
+s54550	gourd	a gourd, the plant and its hard-shelled fruit, a spelling of <um> with the long vowel written double; {umm gah} is its fruit	
+s54551	graft/grafting/joining	noun of <peh>, join on: the joining of a branch of one tree onto another tree	
+s54552	grind/pulverize/crush to powder	<vui>, be powder or dust, with causative <sak>: make into powder, grind fine	
+s54553	guava	the guava tree and its fruit, grown in gardens; with <mang> before it the name of the pomegranate	
+s54554	guitar	the guitar, a loan from the English word: the stringed instrument played to accompany singing, as in {githa tum}, play the guitar	
+s54555	underworld/hades/netherworld	the world under the earth thought of as the place of the dead, {misi khua}	
+s54556	harassment/interference	<buaisak>, trouble or disturb, with the noun suffix <na>: the troubling of a person, getting in the way of what someone is doing	
+s54557	hardened/hard	<sak>, hard, with <sa>, already: that has become hard; here <sak> is neither the causative nor sing	
+s54558	heavy/not light	<zaang>, light in weight, with <lo>, not: not light, heavy; here <lo> is not field	
+s54559	heir/inheritor	the one who takes over the house and property of the family, as in {innluah ding}, the one to be heir; also the custom of inheriting the house, {innluah ngeina}	
+s54560	she/he/it	third person marker placed before a verb to show that he, she or it does the action, as in {a pai hi}, she goes; the full pronoun is <amah>	
+s54561	hookah/water pipe	a pipe for smoking through water, in full {tuibuuk teepna buuk}	
+s54562	humid/moist/damp	slightly wet, not dry, said of air, soil or cloth	
+s54563	illumination/lighting	the lighting of a torch or lamp, from <dee>, light, with the noun suffix {-na}	
+s54564	speed/swiftness	how fast something goes, <hat> in its meaning of fast with the noun suffix {-na}	
+s54565	important/necessary/significant	that matters much or cannot be done without, said in the same breath as <kisam> and <thupi>; {vai kiphamawh} is an urgent or important matter	
+s54566	impulse/push/impulsion	a push from behind that drives a thing or a person forward, <sawn> in the sense push with the noun ending {-na}	
+s54567	inaugurate/dedicate	open a new building such as a church, a school or a hostel for use with a ceremony of dedication	
+s54568	inauguration/dedication	the ceremony by which a new building such as a church, a school or a hostel is opened for use	
+s54569	scold/insult/taunt	speak harsh or mocking words to someone, scold or revile; <kosia> and <elko> are built on it	
+s54570	source/spring	the source of something, its spring or origin, as <tuinaak> is a spring of water; not the ribs of an animal	
+s54571	interpret/translate	put the speech or writing of one language into another, the word <kamlet> used as a verb	
+s54572	jungle/forest	the wild forest, land under thick trees; not the armed underground	
+s54573	knit/embroider	work thread or yarn with needles, as in {khauphan thei}, be able to knit	
+s54574	lather/foam/froth	the mass of small bubbles on water or made by soap, as in {tui phuan} and {satpiang phuan}	
+s54575	washing/laundry	the washing of clothes as a task, <puan> with <sawp>	
+s54576	vacancy/blank space/gap	an empty or unfilled place, such as a blank space on a page where something can be written	
+s54577	leg/shin	the leg, more exactly the lower leg or shin, named beside <khe>; not the wild boar	
+s54578	in lieu of/instead of/in place of/lieu	in the place of a person or thing, after the one replaced, as in {amah ai-in}, in his or her stead	
+s54579	lost/be gone	<mang>, be lost, with <khin>, already: have been lost, be gone for good	
+s54580	louse	a louse, a small insect that lives on the body, named beside <hik>; a noun apart from the verb release	
+s54581	luck/fortune	the luck or fortune that attends a person, good or bad	
+s54582	luminous/bright/shining	<a> with <taang>, shine, written as one word: what shines or is bright, as {ataang i mailam}, our bright future	
+s54583	sake/behalf/stead	<a> with <taang>, stand for, written as one word: the place or behalf of another, as {ataang in}, on behalf of, in place of	
+s54584	male/masculine	<a> with <tal>, male, written as one word: the male one, of an animal, named beside <apa>	
+s54585	match/contest/competition	a game or contest in which sides compete, as <tai kidemna>, a running race	
+s54586	quiet/silent/still	without sound or speech, keeping silent and still; with <in> it is an adverb, silently, as in {daidide in dingcip}, stand in silence	
+s54587	nape/back of the head/occiput	the back of the head and of the neck, {lutang nunglam}; a different word from <deek> bargain	
+s54588	nip/pinch	take hold of and squeeze between two edges, as a crab does with its claws	
+s54589	nowadays/at present/at this time	at the present time, in these days; also written <tu hun laitak>, and with <in> as {tu hun laitakin}	
+s54590	rebuke/scold/reprove	speak sharply to someone for a wrong done, to correct; the noun is <taina> and the stronger form <taigawp>	
+s54591	ounce	a unit of weight, apparently the borrowed word for ounce and not <ong> with <sa>	
+s54592	overtake/catch up with/reach	come up to someone or something that is ahead, reach it; the list sets it beside <makhelh>	
+s54593	overthrow/overturn	<lumlet>, turn upside down, with <gawp>: bring down a ruler or an order of things with violence	
+s54594	prepayment/advance payment	<piakkholh>, give beforehand, with the noun suffix {-na}: money paid before it is due	
+s54595	prevailing/widespread/well known	spread abroad and known everywhere, of a name, a report or a view; {thu dang saanga thang zaw} is more widely known than other matters	
+s54596	qualify/be sufficient/measure up	<cing> in its meaning be enough or complete, with <zo>, be able: come up to what is required; not the guarding sense	
+s54597	quench/abate/subside	of thirst, pain or anger, go down and be stilled; {tui duh kam} is thirst is quenched; a verb, not the noun mouth	
+s54598	row/line	<a> and <gual>, row, written as one word: a row or line of things or people set in order; {agual in} is in rows	
+s54599	spoil/damage/ruin	make a thing bad or unfit for use, without destroying it wholly	
+s54600	return/go back/come back	go or come back to a place, the verb itself and not the word placed after another verb; {ciah kik} is go back home	
+s54601	resemblance/likeness	<kisun>, look alike, in its second form with the noun ending {-na}: the looking alike of two people or things; not the word for an injection	
+s54602	resemble/look like	look like another person or thing in appearance; the verb behind the senses like and similar	
+s54603	resign/step down	<ki>, oneself, with <sutkhia>, take off: take oneself out of a post or an office, give up one's work	
+s54604	restaurant/eating house	<an>, food, with <sai>, shop: a place where cooked food is sold, written without a capital; the common noun behind the place name	
+s54605	roll/turn round	turn over and over or round and round, as a wheel does	
+s54606	rub/rub in	press and move the hand over something, as in {cikhum tawh nuai}, rub with salt; not the word for under	
+s54607	salable/sellable	that can be sold, fit for sale; <zuak>, sell, with <theih>, can	
+s54608	scholar/savant/learned person	an educated or learned person, one skilled in study; <lai>, writing or study, with <siam>, skilled	
+s54609	seat/place/location	the place where a person or thing is or stays; <om>, be, with <mun>, place	
+s54610	shift/transfer/move out	move a thing or person out of one place into another; <suan> with <khia>, out	
+s54611	shin	the front of the leg below the knee	
+s54612	silk	silk, the fine thread and the cloth made of it; {nai khau} is silk thread	
+s54613	treasure/wealth	stored wealth, goods and money laid up or handed down	
+s54614	sloth/slackness	the state of being <zulhzau> in everyday life: not keeping to one's duty, named beside <thadahna>, laziness	
+s54615	small/not big	<lian>, big, with <lo>, not: not big, small	
+s54616	sour	having a sharp acid taste, not sweet; the same word as <thuk>	
+s54617	soya bean/soybean	the soya bean, a bean grown in the field and eaten	
+s54618	spacing	the setting of things apart from one another with a gap between them; {kihal sakna}	
+s54619	thresh/tread out	tread or beat grain to separate it from the stalk; {buh cil} is thresh rice	
+s54620	spleen	the spleen, an organ of the body	
+s54621	sting/bite	of a snake or an insect, bite or sting; {gul in tu} is a snake bites	
+s54622	swing	a hanging seat on which children play, hung from a tree; the same word as the hanging cradle	
+s54623	thankfully/gratefully	with thanks, <lungdam> being thankful as well as glad	
+s54624	throat/palate	the throat or the inside of the mouth at the back, as in <dangtak>, be thirsty, a dry throat	
+s54625	toil/labour	work hard and long until weary, as in {tawl sem gim}	
+s54626	transference/transfer	the moving of a person or a work from one place to another, from <suan>, move on or pass on, with the prefix <ki> and the noun suffix <na>	
+s54627	treasury	the office or building where the money of a government or a body is kept, <sum> money with <kepna> keeping	
+s54628	uneasy/unpleasant/uncomfortable	not pleasant or not comfortable, of a thing, a place or a state, <nuam> pleasant with <lo> not; {a nuamlo} is what is unpleasant	
+s54629	unseen/not seen	that is not seen, <kimu> taken as be seen, with <lo> not	
+s54630	up/upward/upwards	toward the upper side, <tunglam> with the marker <ah>, of looking or moving	
+s54631	vapour/steam	the vapour of something, <a> with <huu>, vapour, as in {tui huu}, steam	
+s54632	violent/cruel	of a person or an act, using force to hurt, cruel and without restraint	
+s54633	wing/its wing	<a> and <kha.6> written as one word: the wing of a bird, its wing	
+s54634	womb	the part of a woman in which a child grows before birth	
+s54635	itch/yuke	of the skin, itch, as {ka ci thak}, my skin itches	
+s54636	Adam's apple	the lump at the front of the throat, <gawl>, that moves down and up when a person eats or drinks	
+s54637	shameless/brazen	<zakta>, ashamed, with <theilo>, unable: not able to feel shame	
+s54638	shameless/brazen	<zum>, feel shame, with <theilo>, unable: not able to feel shame	
+s54640	email	<van>, sky, with <thelnah>, the word of songs for a letter: a Zolai name given for email	
+s54641	abandon/desert/run away from	<taimang>, run away, with the ending {-san}, leaving behind: run off and leave a person or thing behind	
+s54642	abandonment/desertion	<taimangsan>, run away from, with the noun suffix {-na}: the act of running off and leaving someone or something behind	
+s54643	disuse/abolition/abandonment	<zat>, use, <nawn>, any more, and <lohna>, the fact of not doing, written as one word: the fact that something is no longer used	
+s54644	abase oneself	<kithupi>, self-important, <kawih> and <lo>, not, written as one word: not hold oneself to be important, make oneself low	
+s54645	abased/humbled	<a> and <kineusak> written as one word: the one who is made small or who makes himself small	
+s54646	humble/not proud	<a>, <kiphasak>, be proud, and <lo>, not, written as one word: the one who is not proud	
+s54647	abatement/lessening	a becoming somewhat less, built with <deuh>, somewhat, and the noun suffix {-na} on a first part taken to mean grow less	
+s54648	abatement/clearing	<theng>, clear away, <deuh>, somewhat, and the noun suffix {-na}, written as one word: a clearing away to some degree	
+s54649	relief/comfort/abatement	<nuamtuam>, be relieved, with the noun suffix {-na}: a feeling easier after pain or hardship, relief	
+s54650	abbreviate/shorten	<thu>, word, <kaih>, draw, and <tom>, short, written as one word: draw a word or a text short, abbreviate	
+s54651	abbreviate/abridge/shorten/condense	say or write something in a shorter form, <tom>, short, with <kaih>, draw	
+s54652	abbreviation	<a>, <ki> and <tomkaih>, shorten, written as one word: what has been shortened, a short form	
+s54653	resignation/renunciation/abdication	<tawpsan>, give up, with the noun suffix {-na}: the giving up of a position or of something one did	
+s54654	renunciation/abdication	<deih>, want, <nawn>, any more, and <lohna>, the fact of not doing, written as one word: the fact of no longer wanting something	
+s54655	abduct/drag away	<kai>, pull, with <mang>, away: drag a person off so that he is gone	
+s54656	abduct/take away/hijack	<pi>, lead along, with <mang>, away: take a person off by force, also said of hijacking an aeroplane	
+s54657	abduct/run off with	<tai>, run, <pih>, together with, and <mang>, away, written as one word: run off taking a person along	
+s54658	abduction	<taimangpih>, run away with, with the noun suffix {-na}: the carrying off of a person	
+s54659	aberration/going astray	<paikhial>, go astray, with the noun suffix {-na}: a going the wrong way	
+s54660	abeyance/suspension/pause	<khawl>, stop, <phawt>, for the time being, and the noun suffix {-na}, written as one word: a stopping for the time being	
+s54661	abhorrence/loathing/tiresomeness	<cimtakhuai>, wearisome, with the noun suffix {-na}: the state of being such that one is weary of it or loathes it	
+s54662	abilities	<hihtheih>, can do, <zah>, amount, and the plural <te>, written as one word: the things one is able to do, as much as one can do	
+s54663	vow/oath/abjuration	a solemn swearing, as when a person swears that something is true or swears to stop doing something	
+s54664	flammable/combustible	<kang>, burn, with <thei>, able: able to burn or to catch fire	
+s54665	flammable/combustible/inflammable	<kuang>, blaze, with <thei>, able: able to catch fire and burn	
+s54666	ablaze/brightly	<taang>, shine, <lela>, brightly, and <a>, written as one word: shining brightly, as something that is ablaze	
+s54667	what is possible	<a>, <hithei>, be possible, and <lam>, side, written as one word: the side of what can be, what is possible	
+s54668	bloom/blossom/come into flower	<paak>, bloom, with <khia>, out: of a plant, break out in flower	
+s54669	can be changed	<kikheel>, be changed, with <zo>, be able to: be able to change or to be changed	
+s54670	abomination/loathsomeness	<nin>, unclean, <huai>, causing that feeling, and the noun suffix {-na}, written as one word: something disgusting, or the state of being so	
+s54671	aborigine/first inhabitant	<gam>, land, <luah>, occupy, <cil>, at first, and <mi>, person, written as one word: one of the people who first lived in a land	
+s54672	abortive	<mi>, <zomto>, carry on, and <lo>, not, written as one word: not carried on, coming to nothing	
+s54673	rub hard/abrade/push around	<nawt>, rub or push, with <gawp>, violently: rub or scrape hard, and of people, push about roughly or oppress	
+s54674	abrade/rub down hard	<nawt>, rub, and <gawp>, violently, with a middle part taken to mean downward, written as one word: rub or scrape down hard	
+s54675	rub together/rub against each other	<ki>, <nawt>, rub, and <tuah>, bring together, written as one word: rub against each other	
+s54676	rub together/grind against each other	<ki>, <heek>, twist, and <tuah>, bring together, written as one word: twist or grind against each other	
+s54677	abrasion	<ki>, <heekgawp>, twist violently, and the noun suffix {-na}, written as one word: a rubbing or scraping, or the place that is scraped	
+s54678	abrasive	<a> and <nawtna> written as one word: the thing with which something is rubbed or scraped	
+s54679	abridgement/summary/abbreviation	<kaih>, draw, <tom>, short, and the noun suffix {-na}, written as one word: a shortening, a short form of a longer text	
+s54680	abridgement	<athu>, the matter, <tomkaih>, shorten, and the noun suffix {-na}, written as one word: the shortening of a text	
+s54681	abroad/overseas	<gampua>, abroad, <lam>, side, and the place marker <ah>, written as one word: in or to the lands outside one's own	
+s54682	be abrupt	<hi>, be, with <gaih>, written as one word: be so all at once	
+s54683	be sudden/be abrupt	<hi>, be, with <vat>, suddenly: be so or become so all at once	
+s54684	abscess/boil	a large swollen sore with a core, an abscess or boil	
+s54685	abscond/slip away	go off secretly and be gone, the first part as in <gelsim>, steal away, with <mang>, away	
+s54686	abscond/run away secretly/desert	<taimang>, run off and be gone, with <sim>, secretly: slip away so as not to be found, also said of a soldier who deserts	
+s54687	absence/not taking part/exclusion	<kihello>, not be included, with the noun suffix <na>: the fact of not being among others or not taking part	
+s54688	attraction/pull/gravity/suction	<huup>, draw to oneself, with the noun suffix <na>: the drawing or sucking in of a thing, and the pull of the earth, {leitung huupna}, gravity	
+s54689	absorption/sucking dry	<tawp> and <kang>, dry up, with the noun suffix <na>, written as one word: the sucking up of a liquid until none is left	
+s54690	abstain/restrain oneself/hold back	keep oneself from something one wants, as drink or a desire, the thing kept from is named with <pan>	
+s54691	abstinence/self-restraint/abstention	<kideek>, restrain oneself, with the noun suffix <na>: keeping oneself from food, drink, pleasure or a vote	
+s54692	exclude/take out/leave out	<khem> and <khia>, out, written as one word: set a thing aside so that it has no part	
+s54693	taking out/removal/abstraction	<eukhia>, tear or cut out, with the noun suffix <na>: the taking of a part out of a whole	
+s54694	false/untrue/wrong	<a> and <maanlo>, not true, written as one word: what is not true or not right	
+s54695	abutment/support	<a> <ki> and <nanna>, support, written as one word: the part against which a thing is propped	
+s54696	joint/meeting point/abutment	<a>, <kimat>, joined, and <tuahna> written as one word: the place where two things meet and hold each other	
+s54697	approve/agree/consent/accept	<pha>, good, with <sa>, feel: find a thing good and so agree to it or allow it	
+s54698	accelerate/go faster	<hat>, <pai> and <zaw>, more, written as one word: go faster than before	
+s54700	pronunciation/accent	<a>, <ki>, <lawh>, call, and <khiatna> written as one word: the way a word is sounded when it is said	
+s54701	approve/accept/appreciate	<hoihsak>, think good, with <pih>, together with: join someone in finding a thing good	
+s54702	acceptable/agreeable	<awi>, be willing or approve, and <theih>, can, written as one word: that can be agreed to	
+s54703	accidental	<tuahsiatna>, accident, and <lam>, side, written as one word: in the way of an accident, not intended	
+s54705	agree together/be in accord	<ki>, <awi>, approve, and <tuah> written as one word: agree with each other	
+s54706	account/budget/reckoning of money	<sum>, money, and <tuatna>, reckoning, written as one word: the counting up of money received and spent	
+s54707	in the name of/on account of	<min>, name, with the marker <in>: in the name of someone, on his account	
+s54708	accountancy/money management	<sum>, money, and <saina>, management, written as one word: the keeping of accounts	
+s54709	accuracy/exactness	<a>, <maan>, right, <lian> and the noun suffix <na> written as one word: being exactly right	
+s54710	exactly/precisely	<a>, <hi>, <zah>, amount, and <lian> written as one word: exactly as much as it is, neither more nor less	
+s54711	exact/precise	<adik>, right, with {geih}: exactly right	
+s54712	truly/rightly/correctly	<a>, <maan>, right, and <takin> written as one word: in a true and right way	
+s54713	accusable/chargeable/blameworthy	<ngawh>, accuse, and <theih>, can, written as one word: that can be blamed or charged	
+s54714	accusation/blame	<mawhsiat>, blame, with the noun suffix <na>: the charge that someone has done wrong	
+s54715	get used to/be accustomed	take a thing as usual after doing or meeting it often, from <ngeina>, custom	
+s54716	achievement/accomplishment	<zawhzawh>, be able to finish, with the noun suffix <na>: what one has managed to carry through	
+s54717	acknowledgement/reply	<koh>, express, <kik>, back, and the noun suffix <na> written as one word: an expression given in return, as thanks	
+s54718	acknowledgement/notice in return	<theihsak>, make known, <kik>, back, and the noun suffix <na> written as one word: letting someone know in return	
+s54719	acknowledgement/report back	<zaksak>, make hear, <kik>, back, and the noun suffix <na> written as one word: telling someone in return	
+s54720	highest point/culmination/acme	<tun>, reach, and <tawpna>, end, written as one word: the furthest point that is reached	
+s54721	top/summit/peak	<a> and <vum> written as one word: the top of a thing, set against <ataw>, the bottom	
+s54722	acquired/gained	<lemlawh>, benefit, and <ta>, marking a finished act, written as one word: has gained	
+s54723	acquisition/obtaining	<tan> and <zawhna>, being able, written as one word: the getting of a thing as one's share	
+s54724	harsh-tongued/bitter	quick to speak in a harsh and bitter way, said in a bad sense	
+s54725	grumbling/nagging/fault-finding	<phun>, grumble, and <hat>, strong, written as one word: given to complaining and hard to please	
+s54726	argumentative/quarrelsome	<kamnial>, argue, and <hat>, strong, written as one word: given to disputing, said in a bad sense	
+s54727	across	<a> and <kantanin>, across, written as one word: from one side to the other	
+s54728	activate/keep busy	<om>, <khawng>, <sak> and <lo>, not, written as one word: not let someone stay idle, set to work	
+s54729	actress	<akizang>, that is used, and <nu>, woman, written as one word: the woman who plays a part in a film or play	
+s54730	real/true	<a>, <hi> and <tak> written as one word: what truly is so, the actual thing	
+s54731	adaptation/fitting	<a>, <kituah>, <sak> and <na> written as one word: the making of a thing fit with another, adaptation	
+s54732	attachment/fastening/fitting	<kibulh>, be fastened on, with the noun suffix <na>: the fastening of one thing onto another or the place where it is fastened; the list gives it for adaptation	
+s54733	addicted/unable to change	<a>, <kikhel>, <thei>, <nawn> and <lo> written as one word: that can no longer be changed, said of one held by a habit	
+s54734	total/sum/addition	<a> and <gawmna> written as one word: the adding together of things, or what they come to when added	
+s54735	mixing/blending/addition	<helkhawm>, mix together, with the noun suffix <na>: the mixing of things into one, the adding of one thing to another	
+s54736	addition/supplement	<a> and <behlapna> written as one word: what is added on top of something, an addition or supplement; {abehlapna ah} is in addition	
+s54737	adequate/sufficient	<a> and <hunkhop> written as one word: that is enough, as much as is needed	
+s54738	attachment/adherence/fastening	<kilh>, fasten, <khop>, together, and <na> written as one word: the fastening of things firmly to each other	
+s54739	adhesion/cohesion	<kimat>, hold to each other, <tuah>, join, and <na> written as one word: a holding or sticking together	
+s54740	adhesion/joining together	<kizop>, <khawm>, <tuah> and <na> written as one word: the state of being joined together with each other	
+s54741	adhesion/stitching together	<kikhui>, be sewn, <tuah>, join, and <na> written as one word: a being sewn together, and so a holding together	
+s54742	be close to/be related to/adjoin	<kinaih>, be close, and <pih>, with, written as one word: be close to a person as a friend or relative, or lie next to something	
+s54743	adjustment/harmonizing	<kituaksak>, make agree, with the noun suffix <na>: the making of things fit or agree with each other	
+s54744	not tied fast/adrift	<gakcip>, bind fast, and <lo>, not, written as one word: not held or tied fast, of a boat left to drift	
+s54745	go first/go ahead/advance	<pai>, go, and <masa>, first, written as one word: go before the others, go in front	
+s54746	advantageous/beneficial	<a> and <phattuam> written as one word: that brings good or gain, or it benefits	
+s54747	arrival/coming/advent	<hongtun>, arrive here, with the noun suffix <na>: the coming or arrival of a person, a thing or an event	
+s54748	coming/visit	<hongpai>, come, with the noun suffix <na>: the coming of someone to a place; the list uses it for a coming that was not expected	
+s54749	adversary/opponent	<a>, <hong> and <dal> written as one word: the one who stands in the way of us, one who hinders	
+s54750	advertisement/publicity/promotion	<tangkopih>, make known publicly, with the noun suffix <na>: the making known of goods or a cause to the public	
+s54751	adze/hand axe	a small <hei> with a short handle, used by carpenters to trim and smooth wood	
+s54752	affable/pleasant/approachable	<neel>, smooth, with <huai>, worthy of: of a person, easy and pleasant to be with	
+s54753	not frightening/approachable/affable	<kihtaak>, fear, <huai>, causing, and <lo>, not, written as one word: of a person, not to be feared, easy to approach	
+s54754	kindly-looking/affable	{migiit}, a form of <migi>, kind, with <meel>, look: having the look of a kind person	
+s54755	affecting/saddening	<dah>, be sad, and <tuak> written as one word: the list gives it beside <hehpihhuai> for what moves to sorrow; in the one sentence found it means seem sad	
+s54756	affirmation/acceptance/recognition	<saan>, accept, <kip>, firm, and <na> written as one word: the firm accepting of a thing as so, as of a person for what he is	
+s54757	holding fast/affirmation/grip	<letkip>, hold firmly, with the noun suffix <na>: a holding firm, of a thing gripped or of what one has said	
+s54758	affirmative	<a>, <kipsakna> and <lam> written as one word: on the side of confirming, saying that a thing is so	
+s54759	fasten together/attach/affix	<kilh>, fasten, and <khawm>, together, written as one word: fasten one thing to another	
+s54760	against/on the opposite side	<a>, <langlam> and <ah> written as one word: on the other side, on the side opposed to something	
+s54761	ageless/never old	<teek>, old, <ngei>, ever, and <lo>, not, written as one word: that never grows old	
+s54762	stick together/glue together/agglutinate	<belh>, stick to, <khawm>, together, and the causative <sak> written as one word: make things stick to each other	
+s54763	join together/agglutinate	<mat>, hold, <khawm>, together, and the causative <sak> written as one word: make things hold together as one	
+s54764	raise in rank/aggrandise/exalt	<zalian>, high rank, with the causative <sak>: make someone great in rank or power	
+s54765	aggression/bullying/domination	<gualheu> with the noun suffix <na>: the overpowering of others, the use of strength against those who are weaker	
+s54766	past/last/ago	<a> and <paisa> written as one word: that has gone by, placed before a length of time, as in {apaisa kum 10}, the past ten years	
+s54767	past/gone by/ago	<a> and <paita> written as one word: that has now passed, of time	
+s54768	air pump	<muut>, blow, and <khiatna>, bringing out, written as one word: a device that blows or draws air out	
+s54769	raise the alarm/alarm	<patau>, be alarmed, and <ko>, voice, written as one word: call out that there is danger	
+s54770	alas	a cry of sorrow or regret	
+s54771	seed/grain	<khaici>, seed, and <tang>, grain, written as one word: a single seed or grain; the list gives it for albumen, apparently the substance of a seed	
+s54772	come together/come along with	<hong> and <paikhawm> written as one word: come here together with others; the list gives it for align	
+s54774	still healthy/still alive	<cidam>, healthy, and <lai>, still, written as one word: still in good health, still alive and well	
+s54775	allegation/suspicion	<upmawh>, suspect, <siat>, bad, and <na> written as one word: the thinking or saying that someone has done wrong when the matter is not yet certain	
+s54776	accused/alleged/allegedly	<a> and <kingawh> written as one word: who is accused of something, said to have done it	
+s54777	intoxication/drunkenness	<guih>, be drunk, with the noun suffix <na>: the state of being drunk or affected by something taken in; the list also uses it of an allergic reaction	
+s54778	allocate/apportion/give a share	<tan>, share, and <pia>, give, written as one word: give each one the part that falls to him	
+s54779	give a place/allocate/assign a post	<mun>, place, and <pia>, give, written as one word: give someone a place, a share of room or a position	
+s54781	allotment/apportioning	<tan>, share, the causative <sak> and the noun suffix {-na}, written as one word: the giving of a share to each, allotment	
+s54782	granting/provision/allotment	<ngahsak>, cause to receive, with the noun suffix {-na}: the act of letting someone have something, the supplying or allotting of it	
+s54783	allude/hint at	<hem>, indirectly, <gen>, say, and <pian>, somewhat, written as one word: say something in a rather indirect way, not speak of it outright	
+s54784	allusion/roundabout speaking	<kawi>, crooked or roundabout, and <genna>, saying, written as one word: speaking of a thing in a roundabout way and not straight out	
+s54785	aloft/on high/up high	<a> and <sangah>, on high, written as one word: up at the high place, aloft	
+s54786	raised/lifted up/aloft	<a> and <kilamto>, be lifted up, written as one word: what is raised up, held aloft	
+s54787	keep aloof/be set apart	<ki> and <koihtuam>, set apart, written as one word: put oneself apart from others, or be put apart	
+s54788	keep aloof/hold oneself apart	<kidang>, apart, and <koih>, put, written as one word: keep oneself apart from others, stay away from them	
+s54789	aloud/audibly	<awging>, the sound of the voice, and <takin>, which makes an adverb of manner, written as one word: with the voice sounding, aloud	
+s54790	quarrel with/altercate	<kihauh> in its meaning quarrel, with <pih>, together with, written as one word: have a quarrel with someone; the lexicon has that word only as be plentiful	
+s54791	quarrel/strife/row	<kihauh> in its meaning quarrel, with the noun suffix {-na}: an altercation, a quarrel with angry words between people; not that word in its meaning be plentiful	
+s54792	although/even though	<hitaleh>, even if it is, and <zong>, also, written as one word: although that is so, even so	
+s54794	amalgamation/merging	<kilom>, in one mass, and <khopna>, being together, written as one word: the coming together of separate things or groups into one mass	
+s54795	gather/collect/amass	<khawm>, gather, and <tuah>, bring together, written as one word: bring things together into one place, gather them up	
+s54796	amazing/most wonderful	<a> and <lamdanglua>, very wonderful, written as one word: what is very strange or wonderful	
+s54797	ambit/compass	<a>, its, <kual>, circle or area, and <sung>, inside, written as one word: what lies within the circle of something, its ambit	
+s54798	ambit/scope/sphere	<a>, its, and <huamsung>, the space within the bounds of something, written as one word: all that a thing takes in, its scope	
+s54799	jurisdiction/realm/ambit	<ukna>, rule, and <sung>, inside, written as one word: the area or state of being under the rule of someone	
+s54800	ambush	<lambun>, ambush, with the noun suffix {-na}: a lying in wait by the road to attack	
+s54801	ambush/waylay	lie hidden by the road, <lam>, and attack an enemy who comes along it; the list explains it as {lampi gei a gal guksan a kap}	
+s54802	fan	a thing for fanning oneself, from <kizaap>, fan oneself, with the noun suffix {-na}; the list gives it for a hand fan and for a punkah	
+s54803	friendship/fellowship/amiability	being on terms of close friendship with one another, built on <zawl>, close friend, with <ki> and the noun suffix {-na}	
+s54804	communication/dialogue/talks	<kiho>, talk together, <tuah>, bring together, and the noun suffix {-na}, written as one word: talking or exchanging letters between two sides, and so being on speaking terms	
+s54805	mutual goodwill/amity	<kideihsak>, wish one another well, <tuah>, bring together, and the noun suffix {-na}, written as one word: goodwill that each side has for the other	
+s54806	amount/sum	<a>, its, <sum>, money, and <phazah>, total, written as one word: how much money it comes to, the amount	
+s54807	be analogous to/resemble	<kivalak>, be similar, here with a long vowel, and <pih>, together with, written as one word: be much like another thing; the list gives it for analogy	
+s54808	ancestor/forebear	<hong>, {suangkhia}, come forth from, and <mi>, person, written as one word: the person from whom we have come forth, an ancestor	
+s54809	complement/completion	<kim>, in full, with the causative <sak> and the noun suffix {-na}: what makes a thing complete, or the making complete of it	
+s54810	helper/supporter/backer/assistant	<panpih>, help or side with, with the ending {-tu} for the one who does it: one who helps or backs another, an auxiliary	
+s54811	be new again/be renewed	<thak>, new, and <kik>, again, written as one word: become new once more, anew	
+s54812	angrily	<heh>, angry, and <takin>, which makes an adverb of manner, written as one word: in an angry way	
+s54814	anguish/deep grief	<dah>, grieve, <luat>, too much, and the noun suffix {-na}, written as one word: sorrow that is too great to bear	
+s54816	annexation/joining together	<zop>, join, and <khopna>, being together, written as one word: the joining of one thing onto another so that they are one, as of a territory	
+s54817	annular/ring-shaped/circular	<kual>, ring, and <beem>, round, written as one word: round like a ring	
+s54818	anointing/smearing/application	<nuh>, smear or anoint, with the noun suffix {-na}: the putting of oil, colour or ointment on something; {sathau siangtho nuhna} is the anointing with holy oil	
+s54819	opponent/antagonist	<a> and <kalh> written as one word, with the second word in the meaning go against: the one who opposes; the lexicon has it only as lock and demand	
+s54821	anvil	the block of iron on which a smith beats metal, from <sek>, hammer, and <do>, receive: what takes the blows of the hammer	
+s54822	anyway/whatever it may be	<bang>, what, and <hitaleh>, even if it is, written as one word: whatever it may be, in any case	
+s54823	apart/separately	<khen>, divide, <tuam>, separate, and the adverb ending <in>, written as one word: divided off from the rest, apart	
+s54824	apartment/separate room	<inndei>, room, and <tuam>, separate, written as one word: a room or set of rooms of its own within a building	
+s54825	ill will/lack of goodwill/apathy	<deihsak>, wish someone well, and <lohna>, the fact of not doing, written as one word: not wishing a person or a cause well, not caring for it	
+s54826	apex/highest point/summit	<a>, <sanna> and <pen> written as one word: the point of greatest height, the top	
+s54827	coma/apoplexy/stroke	a sudden loss of consciousness in which a person lies as if dead, noun of <sihbup>	
+s54828	appearance/outlook	<a>, <kilat> and <dan> written as one word: the way something appears or shows itself	
+s54829	appearance	<a>, <kimuh> and <dan> written as one word: the way something is seen, how it looks	
+s54830	appeasement	<hih> and <lungkimna> written as one word: the act of making someone satisfied or content	
+s54831	connect/join/append	<zom> and <tuah> written as one word: join one thing to another, link together	
+s54833	appetiser	<anduh> and <sakna> written as one word: something that makes one hungry for food	
+s54834	appetiser	<an>, <kamlim> and <sakna> written as one word: something that makes food taste good and gives an appetite	
+s54835	appetite	desire for food, hunger, noun of <anduh>	
+s54836	applicant	<angen> and <pen> written with a hyphen: the one who asks for something	
+s54837	appraise/value	<a>, <man> and <seh> written as one word: set the price or value of something	
+s54838	approve/appreciate	<pha> and <sakpih> written with a hyphen: regard as good together with someone, approve of it	
+s54839	approval/consent	the state of being pleased with what someone does, approval or consent given to it, noun of <lungkimpih>	
+s54840	area/valley	<a> and <kuam> written as one word: its valley or low ground, the area of a place	
+s54841	area/section/column	<a> and <khawk> written as one word: a section or division of something, an area of a place, a column	
+s54842	argument/disagreement	<thu> and <kikalhna> written as one word: words set against each other, a disagreement or dispute	
+s54843	arid/parched	dry and withered, said of land without water	
+s54845	armlet/bracelet	a band or ring worn round the arm as an ornament	
+s54847	warrior/soldier	<galdo> and <mi> written as one word: a person who fights in war	
+s54848	go out/depart	<paikhia> and the particle <ta> written with a hyphen: has now gone out, left	
+s54849	arise/stand up	<dingkhia> and the particle <ta> written with a hyphen: has now stood up, arisen	
+s54850	arouse/rouse/wake	<phawng> and <khia> written as one word: rouse someone out of sleep or rest	
+s54851	arrange/assemble/put together	put parts or things together in order so that they form a whole	
+s54852	arrangement/construction/assembly	the putting together of parts or things in order, noun of <lemkhawm>	
+s54853	arrogance/pride/haughtiness	the attitude of making oneself great above others	
+s54854	arrogant/conceited	<a> and <kisathei> written as one word: one who thinks much of himself, proud	
+s54855	arson	<inn>, <halsak> and <na> written as one word: the burning down of a house, setting a house on fire	
+s54856	support/favour/side with	<deih> and <pih> written as one word: want the same thing together with someone, be on his side in what he wants	
+s54857	ash	ash, given beside <vut>	
+s54858	asthma	<haihut> and <natna> written as one word: the disease asthma	
+s54859	ashore	<tui>, <piau> and <ah> written as one word: on or to the bank of the water, on the shore	
+s54860	appearance/aspect	<kilat> and <dan> written as one word: the way something appears, how it looks	
+s54861	appearance/aspect/looks	<melpuak> and <dan> written as one word: the way the face or form of someone looks	
+s54862	direction/trend/aspect	<ngatna> and <lam> written as one word: the side toward which something faces or is heading	
+s54863	cruelty/ruthlessness/harshness	harsh and merciless behaviour that makes others afraid, noun of <huham>	
+s54864	expectation/hope/aspiration	<a> and <lametna> written as one word: what someone hopes for or expects	
+s54865	assailant/attacker	the man who attacks someone	
+s54866	assent/approve	<pha>, <sakna> and <pia> written as one word: give approval, declare that one finds it good	
+s54867	assessment/calculation	<tuat> and <khiatna> written as one word: the working out of an amount or value	
+s54868	assessment/estimation/apportionment	the measuring off or fixing of an amount or share, noun of <sehkhia>	
+s54869	persistence/assiduity/compulsion	<hih>, <teitei> and <na> written as one word: doing something insistently without giving up, or the pressure to do it without fail	
+s54870	assiduous/persistent	<a>, <hih> and <teitei> written as one word: one who keeps doing something insistently	
+s54871	assimilation/digestion	the taking in of food by the body, and so the absorbing of one people into another, noun of <haizan>	
+s54872	assimilation/coordination	the making of people or things alike or in line with each other, noun of <kibatsak>	
+s54873	association/union	the joining together of people as one group, noun of <pawlkhop>	
+s54874	comforting/soothing	<khamuan> and <thei> written as one word: able to give ease of mind, soothing	
+s54875	comforting/soothing	<hehnem> and <thei> written as one word: able to comfort or console	
+s54876	atlas	<gamlim>, map, with <bu>, book: a book of maps	
+s54877	attach/stick together	<belh> and <khawm> written as one word: fasten or stick one thing to another so that they hold together	
+s54878	join together/string together/attach/enclose	<khil> and <khawm> written as one word: put several things or matters together into one, as papers in one cover or the points of a talk in one summary	
+s54879	attachment/adherence	<belh>, <khop> and <na> written as one word: the sticking or fastening of one thing to another	
+s54880	visit the sick	<dammawh> and <veh> written as one word: go to see and attend to a sick person	
+s54881	office attendance/going to work	<zumkah>, go to the office, with the noun ending {-na}: attendance at the office, and also the place where one goes to office	
+s54882	attention	<lungsim> and <piakna> written as one word: the giving of one's mind to something, attention	
+s54883	attentive	<lungsim> and <dawh> written as one word: holding out the mind toward what is said, attentive	
+s54884	give ear/listen/pay attention	<bil> and <ngat> written as one word: turn the ear toward, listen attentively	
+s54885	attire/adornment/dress	<kizeem>, be dressed or adorn oneself, with the noun ending {-na}: what one is dressed and adorned with	
+s54886	attitude	<lungsim>, <put> and <zia> written as one word: the way a person carries his mind, attitude; the articles also write {lungsim puakzia}	
+s54887	attraction/allure	<deihhuai>, <sak> and <na> written as one word: what makes a person or thing seem desirable	
+s54888	attraction	<lunggulh>, <sak> and <na> written as one word: what makes someone long for a person or thing	
+s54889	attractive/eye-catching	<mit> and <la> written as one word: taking the eye, drawing people to look	
+s54890	attractive/captivating/enchant	<lungsim> and <la> written as one word: taking the mind, winning the interest of people	
+s54891	auction	a sale in which a thing goes to the one who offers the most money	
+s54892	dare/dare to do	<hih> and <ngam> written as one word: have the courage to do something, be bold	
+s54893	audacious/reckless	bold in a foolish way, acting without thought of danger or respect	
+s54894	shameless/impudent/barefaced	without shame before others; in the articles {zummawh} is mostly a noun, the shame or nakedness that clothing covers, and an embarrassing matter	
+s54895	auger/drill	a tool for boring holes in <sing>, wood	
+s54896	aunty	a way of calling an aunt, built on <ni>, father's sister, with <nu> and <pi>	
+s54897	base of the ear	<bil> and <bul> written as one word: the root of the ear, where it joins the head	
+s54898	stingy/mean/austere	hard and sparing with what one has, not generous	
+s54899	greed/avarice	the strong craving to have more and more	
+s54900	greed/avidity	strong and eager craving; another spelling of <duhhamna>	
+s54901	awaken/wake up/rouse	<thokhia>, get up, with the causative <sak>: make someone get up out of sleep	
+s54903	awkward/clumsy	not able to do or handle a thing well and with ease	
+s54904	awoke/got up	<thokhia> and <ta> written as one word: has got up, has woken	
+s54905	babyhood/infancy	<naungeek> and <lai> written as one word: the time when one is a baby	
+s54906	babyish/like a baby	<naungeek> and <bang> written as one word: like a baby in nature or behaviour	
+s54907	backbone/spine	<nungzang>, back, with <guh>, bone: the row of bones down the middle of the back	
+s54908	backbone/spine	the backbone, also called <nungzangguh>	
+s54909	background/backdrop	what stands behind the person or thing in a picture, built on <nung>, back, <dal>, screen, and <pang>, side	
+s54910	undesirable/unpleasant/bad	<deihhuai> and <lo> written as one word: not good to have, not wanted	
+s54911	arm badge/armband	a mark of cloth or paper worn on the <ban>, arm, to show what one is	
+s54912	baggage/luggage	<khualzin> and <van> written as one word: the things taken along on a journey	
+s54913	fry/roast/bake	cook food in oil or by dry heat until it is dry and crisp	
+s54914	bake/roast/toast	<em> and <min> written as one word: bake or roast until cooked; after the name of a meat it is roast meat	
+s54917	argue/contradict	<nial> and <hat> written as one word: dispute or contradict strongly, be given to arguing back	
+s54918	bank	<sum>, money, with <saal>, storehouse: a house where money is kept	
+s54919	riverbank/riverside	<luipi>, river, with <gei>, edge: the land along the edge of a river	
+s54920	banyan tree/banyan	<mawng>, banyan, with <sing>, tree	
+s54921	iron bar/iron rod	a long piece of <sik>, iron	
+s54922	imprison/confine	put a person in bonds or in prison, built on <kol>, shackles	
+s54923	fishhook/barb/gaff	the bent hook with which fish are caught, <nga>, fish, with <kawi>, bent	
+s54924	ill-behaved/uncivilised/barbarous	<gamtat>, conduct, and <hoihlo>, not good, written as one word: of bad behaviour	
+s54925	barber	<sam>, hair, <meet>, shave or cut, and <pa>, man, written as one word: the man who cuts hair	
+s54926	songwriter/poet/bard	<laphuak>, compose songs, and <mi>, person, written as one word: a person who composes songs	
+s54927	bark	<ui>, dog, and <ham>, utter its cry, written as one word: of a dog, bark	
+s54928	barman/bartender	<zuzuak>, sell liquor, and <pa>, man, written as one word: the man who sells or serves drink	
+s54929	granary/barn	<buh>, grain or rice, and <buk>, hut, written as one word: the hut in which grain is stored	
+s54931	dam/barrage	<lui>, stream, with <khaakna>, a shutting off, written as one word: a barrier built across a river to hold back the water	
+s54932	dam/barrage	<lui>, stream, and <dalna>, barrier, written as one word: a barrier across a river	
+s54933	barricade/partition off/fence off	set up a barrier that divides or closes off a place, as between the two directions of a road	
+s54934	barter/trade with each other	<ki>, <lei>, buy, and <tuah> written as one word: buy from one another, exchange goods for goods; the list gives it as a noun	
+s54935	base/foundation	<a> and <tawphah> written as one word: the foundation of something, what it is built on	
+s54936	clash/collide	strike against one another, of things or of people and ideas that come into conflict; often with <ki> before it	
+s54937	basic/main/most fundamental	<a>, <bulpi>, main, and <pen>, most, written as one word: the most basic or the main one	
+s54938	basically/essentially	<ahi>, it is, <pen>, most, and <takin> written as one word: in what a thing most truly is, basically	
+s54939	basin	<kuang>, bowl, with <kuum> and <pi>, great, written as one word: a large deep bowl	
+s54940	basis/beginning/origin	<a>, <kipatcil>, beginning, and <na> written as one word: that from which something first began	
+s54941	endorse/approve	<pha>, good, <sak>, regard as, and <pih>, together with, written as one word: find a thing good along with someone, give it support	
+s54942	creel/basket	a kind of basket, given also for the basket of a fisherman	
+s54943	bass	the lowest part or voice in singing	
+s54944	sew together/baste/stitch together	<khui>, sew, and <khawm>, together, written as one word: join pieces by sewing, also said of bringing people or things together	
+s54946	bathos/anticlimax	<laih>, replace, <vat>, suddenly, and <na> written as one word: a sudden change, in speech or song the abrupt drop from something fine to something unfitting	
+s54947	cook through/boil	<huan>, cook, and <min>, be done, written as one word: cook a thing until it is done; of water, boil it	
+s54948	electric light	<dat>, here electricity, with <meitang>, light: a light that runs on electric power; the list gives it for battery	
+s54949	silly/batty/half-witted	<hai>, foolish, and <pian>, somewhat, written as one word: rather foolish, not quite sane	
+s54950	bayonet	<thau>, gun, and <tei>, spear, written as one word: the pointed blade fixed to the muzzle of a gun	
+s54951	steward/attendant/duty	a person who has the task of serving at a gathering, in a church or on a journey, and the duty that such a person holds	
+s54952	hunting dog	<ui>, dog, and <siam>, skilled, written as one word: a dog trained for hunting; the list gives it for beagle and greyhound	
+s54953	bearing	<a>, <kipeisak>, be made to turn, and <na> written as one word: the part of a machine on which something turns	
+s54954	bedspread	the cloth that covers a bed by day; the second part is <khuh>, cover	
+s54955	beech	a kind of tree that is planted along roads and in gardens, given as beech by the word list	
+s54957	behead/take a head	<lu>, head, and <la>, take, written as one word: cut off and take the head of a person, as head hunters did	
+s54958	look now/behold	<en>, look, and <ta> written as one word: look now, come to look at; as a call, behold	
+s54959	listen now	<ngai>, listen, <khia> and <ta> written as one word: listen now, a call for attention like behold	
+s54960	listen to it now	<a>, <thungai>, listen to what is said, and <ta> written as one word: listen to this now, a call for attention like behold	
+s54961	still be/being	<a> and <hilai> written as one word: is still so, while being so	
+s54962	belief/faith/trust	noun of <taksang>, believe, with {-na}: the holding of something as true, trust	
+s54963	cowbell	<bawng>, cow, and <long>, bell, written as one word: the bell hung on the neck of a cow	
+s54964	belly	<gilpi>, belly, and <vun>, skin, written as one word: the belly, properly its skin or outside	
+s54965	bemoan/mourn	grieve with longing for someone who has died	
+s54966	bend/flex	<kuai>, bend, and <kawi>, bent, written as one word: bend a thing so that it is no longer straight	
+s54967	bend/curl	<kuai>, bend, and <kuul> written as one word: bend a thing round	
+s54968	beneficial/useful	<a> and <phatuam>, be of use, written as one word: that which is of benefit	
+s54969	beneficiary	<a>, <phattuampih>, benefit from, and <mi>, person, written as one word: the person who benefits from something	
+s54970	beneficiary	the person who receives the benefit of something	
+s54971	benefit/gain	<hamphat>, benefit, <lawh>, as a result, and <na> written as one word: the good that a person gains from something	
+s54972	take away/deprive of	<la>, take, and <mang>, away for good, written as one word: take something away so that it is lost to its owner; the list gives it for bereave	
+s54973	besides/apart from that/by the way	<tualo>, apart from that, and the linking <in>, written as one word at the start of a clause: besides that, in addition	
+s54974	besiege	shut an enemy in on every side, from <khum>, shut in; the second part <biing> is not explained by the list	
+s54975	smear/besmear	smear or daub a thing over with something, given by the list beside <nuh>	
+s54976	be able to ask	<ngen>, ask for, and <zo>, be able to, written as one word; the list gives it for besought, the past form of beseech	
+s54977	be able to plead	<thuum>, plead, and <zo>, be able to, written as one word; the list gives it for besought, the past form of beseech	
+s54978	too wild	<lee>, wild, and <lua>, too much, written as one word: very wild, like a beast; the list gives it for bestial	
+s54979	leaning/inclination	<awn>, lean, and <deuhna>, being somewhat more, written as one word: a leaning to one side, a liking or gift for something; the list has it under bet, where its explanation fits the noun bent	
+s54980	betel leaf	the leaf, <teh>, of the betel, <kun>, that is chewed with the nut	
+s54981	in good time/at the right time/betimes	<ahun>, its time, and the marker <in>, written as one word: at the proper time, early enough	
+s54982	be betrothed to/betroth	<kikhaam>, be pledged to each other, with the ending <pih>, together with: be promised in marriage to someone	
+s54983	somewhat better/a little better	<damzaw>, be better in health, and <deuh>, somewhat, written as one word: a little better than before	
+s54984	make better/improve/better	<hoihzaw>, better, with the causative <sak>: make a thing better than it was	
+s54985	coffee	coffee, the drink and the plant; the list names it among the kinds of beverage	
+s54986	bib	<cil>, spit, and <dalna>, a thing that screens, written as one word: the cloth tied under the chin of a small child to keep its clothes dry	
+s54987	bide one's time/wait for a chance	<hunpha>, a good chance, and <ngak>, wait for, written as one word: wait for the right time; the list has it under bid beside words for stay, so the verb bide is meant	
+s54988	biennial/two-yearly	<kumnih>, two years, with the ending <ta>: lasting two years or coming once in two years	
+s54989	subdivide/divide up/bifurcate	<khen>, divide, and <nen>, into small pieces, written as one word: divide into smaller parts, split a whole up	
+s54990	be divided/branch out	<kihawm>, be divided, and <zaak>, spread out, written as one word: be split into parts that spread apart	
+s54991	bend/circuit/round	<kual>, going round, with the noun suffix <na>: the place where something goes round, as the bend of a river, or a going round, a circuit	
+s54992	bilberry	<mui>, myrtle, <gah>, fruit, and <dan>, kind: a berry of the kind of the myrtle berry, the rendering the list gives for bilberry	
+s54993	bold/courageous	<sin>, liver, with <pha>, good: having courage, bold; the list gives it for bile, the sentences use it of a brave person	
+s54994	quick temper/irritability	<hehbaih>, quick to anger, with the noun suffix <na>: the state of being easily made angry; the list gives it for bile in this sense	
+s54995	two languages/bilingual	<pau>, language, and <nih>, two, written as one word: two languages, said of one who speaks two	
+s54996	wallet/billfold/purse	<sum>, money, with <ip>, bag: a small folding case for money that is carried in the pocket	
+s54997	binding	<a> and <khihna>, binding, written as one word: that with which a thing is tied	
+s54998	be tied fast/be bound tightly/tight	<kikhih>, be tied, and <cip>, tightly, written as one word: be tied up fast, held tight	
+s54999	binoculars/telescope	a glass for seeing what is far off; the list gives it for the microscope as well	
+s55000	birthmark/mole	<sa>, flesh, with <vom>, black: a dark mark on the skin, one a person is born with	
+s55001	halve/bisect	<kim>, half, and <khen>, divide: divide into two equal parts	
+s55002	middle/halfway point	after <kha>, month, or <kum>, year: the middle of it, the point where it is half gone	
+s55003	female dog/bitch	<ui>, dog, with <nu>, female	
+s55004	she-wolf/vixen	<ngia>, wolf or fox, with <nu>, female	
+s55005	blackboard	<suanglai>, slate, with <pi>, big: the black board on which a teacher writes for the class	
+s55006	blackout/darkening	<mialsak>, make dark, with the noun suffix <na>: the making dark of a place, as the putting out of lights in wartime	
+s55007	blanket	<puanbu>, thick blanket, with <pi>, big: a large thick blanket	
+s55008	blare	sound loudly, as a trumpet, <pengkul>, does	
+s55010	deafen	make the ears deaf with noise, with the causative <sak>; the list gives it for blatant in the sense noisy	
+s55011	blaze	<meikuang>, flame, and <lala>, on and on, written as one word: burn with flames that keep leaping up	
+s55012	blister/pustule/bleb	a small raised swelling on the skin with fluid in it	
+s55013	fault/blemish	noun of <genbaang>, blame: something for which a person or thing can be blamed, a fault found	
+s55014	shortcoming/fault/blemish	a point in which a person or thing falls short, a failing	
+s55015	not praise/disparage	<phat>, praise, and <lo>, not, written as one word: not praise, leave unpraised; the list gives it for blemish as a verb, speak ill of	
+s55016	draw back/back out/withdraw	go back on what one has said or set out to do, pull back from it	
+s55017	turn a blind eye/ignore	<mit>, eye, with <sin>, cover: shut the eyes to something, act as if one did not see or know it	
+s55018	blister	of the skin, rise in blisters; also describes skin that is blistered	
+s55019	blister	a blister on the skin, named in the list beside <pol>; not {zuuk} as a spelling of <zuk>, rain	
+s55020	heartbeat/pulse/throb	the beating of the heart, <lungtang>; the list gives it for blood pressure and for throb	
+s55021	blossom	the blossom of a tree, with <paak>, flower; the sentences have it only as a name	
+s55022	blossom/cluster of flowers	<paak>, flower, with <bom>, cluster: the flowers of a tree or plant in a bunch	
+s55023	blowpipe/blower	a tube through which air is blown, as on a fire, from <muut>, blow	
+s55024	blowpipe	a tube for blowing air on a fire, another name beside <muutlawng>	
+s55025	blunt/dull	<hiam>, sharp, and <lo>, not, written as one word: not sharp, of a blade, and so of a mind	
+s55026	board/organization/committee	<vaisai>, those in charge, with <pawl>, group: a body of people that manages an affair, as in the Zolai name of the World Health Organization	
+s55027	bodice/bra	<nawi>, breast, with <bawm>, container: a garment of women that covers the breast	
+s55028	boil	heat a liquid until it boils, or put a thing such as a feeding bottle in boiling water to make it clean	
+s55029	boil water/boil	<tui>, water, and <sosak>, bring to a boil, written as one word	
+s55030	boldness/confidence	<maingal>, bold, with the noun ending <na>: being unashamed and confident before others	
+s55031	borer	<vutvang>, bore a hole, with the ending {-tu}: one who bores holes, or the tool or insect that does so	
+s55032	be troubled/worry/be uneasy	{lung nop mawh}, the heart finds no ease: be uneasy or troubled about something, with <huai> it is worrying	
+s55033	bottle	a bottle, as for medicine, {zatui thol}, compare <thawl>	
+s55034	glass bottle/bottle	a bottle, <thol>, of glass, named among things that can be recycled	
+s55035	bottom/base	the very bottom or base of a thing, <a> with {bulcin}, compare <bul>, base	
+s55036	bounce/rebound/spring back	of a ball or the like, strike something and spring back	
+s55037	bound	<hencip>, bind fast, with <ta>, already, written as one word: has been tied up, is bound	
+s55038	encircle/loop	<kual>, ring, with <vial>, encircle: go or put something round in a loop, be enclosed all round	
+s55039	give out generously	<cit>, generous, and <piakkhia>, give out, written as one word: give away freely, be bounteous	
+s55040	give out much	<tam>, much, <pia>, give, and <khia>, out, written as one word: give away in plenty, be bountiful	
+s55041	free gift/giving for nothing	<mawkpiak>, give for nothing, with the noun ending <na>: something given without asking a price, also a promise given lightly	
+s55042	bow	the bow that shoots arrows	
+s55043	bower/arbour	<sing>, tree, <sawl>, leafy branch, and <lim>, shade: a shelter of boughs where one rests from the heat of the sun	
+s55044	bowl/saucer	a shallow dish, a bowl or a saucer, compare <kuang>, bowl	
+s55045	bowl	<hai>, cup, with <dai>, shallow: a shallow cup, a bowl	
+s55046	box	the English word boxing in Zolai spelling: fight with the fists as a sport	
+s55047	bra/brassiere	<liang>, shoulder, with <khai>, hang: a garment that hangs from the shoulders by straps, given for the bra of a woman	
+s55048	support/brace/prop	<a> and <nanna>, support, written as one word: the part that holds something up or keeps it in place	
+s55049	brace/support	a part that holds something firm, with <kip>, firm, and the noun ending <na>	
+s55050	slow	slow, not quick, set against <manlang>, fast, compare <zekai>, be slow	
+s55051	brake	<a> and <khaamna>, holding back, written as one word: what holds a moving thing back or stops it	
+s55052	brass	brass, the yellow metal, <dal>, tin, with <ngo>, white	
+s55054	brawl	quarrel and fight noisily, <kilai>, fight, with <gawp>, severely	
+s55055	tear apart/break	pull or tear something apart, and with <ciamtehna>, record, break a record	
+s55056	break/shatter	<tamkham>, be broken, with the causative <sak>: break something to pieces, and of the heart, break it	
+s55057	breakage/breaking	<a>, <tapkhap>, break, and the noun ending <na>, written as one word: the fact of being broken	
+s55058	be divided/be scattered/split apart	<khenzak>, divide up, with the prefix <ki>: of a people, be split into parts that live apart, the list gives it for a breakaway	
+s55059	breakaway	<botkeek>, tear apart, with the prefix <ki>: a tearing apart, a breaking away from a group	
+s55060	breastplate	a plate of armour that shields the chest	
+s55061	breathing/breath/respiration	<naak>, breathe, with the noun ending <na>: the drawing of breath	
+s55062	have young/breed	<no>, young, and <nei>, have, written as one word: of an animal, have young or be with its young	
+s55063	shortness/brevity/shortage	<a> and <tomna>, shortness, written as one word: the fact of being short, in length or time, and so a falling short	
+s55064	shortness/brevity	<asau>, long, <loh>, not, and the noun ending <na>, written as one word: the fact of not being long	
+s55065	brevity/fewness of words	<kamtam>, talkative, <loh>, not, and the noun ending <na>, written as one word: saying little	
+s55066	brew	<zu>, beer, and <bilh>, ferment, written as one word: make beer by leaving grain to ferment	
+s55067	brick	a brick of fired clay, from <lei>, earth, and <hal>, burn	
+s55068	bridegroom	{mo nei}, take a bride, with {-pa} for a man: the man who is being married	
+s55069	bridge/join	<ma>, front, and <tuah>, join, written as one word: bring two ends together, as a bridge joins two sides	
+s55070	glowing/radiant/shining	<taang>, shine, and <lela>, brightly, written as one word: shining brightly, a bright glow	
+s55071	brine/salt water	water with salt in it, <tui> with <al>, salty	
+s55072	bring	<hong> and <tawi> written as one word: carry here, bring	
+s55073	give an education/school	<laisiam>, educated, with the causative <sak>: make a child educated, bring up with schooling	
+s55074	brink/outskirts/far edge	<a>, <mong>, edge, and <cin>, come to an end, written as one word: the outermost edge of a place or thing	
+s55075	side/edge/margin	<a> and <siik>, side, written as one word: the side or edge of something	
+s55076	corner/edge	<a> and <kil> written as one word, where the second part means corner and not wavy: the corner or outer edge of something	
+s55077	too salty/briny	<al>, salty, and <lua>, too much, written as one word: very salty or too salty	
+s55078	brisket/chest muscle	<awm>, chest, and <sa>, meat or flesh, written as one word: the meat of the breast of cattle, also the muscle of the chest of a person	
+s55079	beard/whiskers/bristle	<biang>, cheek, and <mul>, hair, written as one word: the hair that grows on the cheeks, beard or whiskers	
+s55080	broad/very wide	<lian>, large, and <deda>, said of what is flat or wide, written as one word: broad, wide and large	
+s55081	be broken/be cracked	has broken or cracked, with <ta> marking a changed state, given beside <kitamta>	
+s55082	small valley/gully/brook	<guam>, valley, and <no>, small, written as one word: a small valley or gully, which the list gives for the brook that runs in it	
+s55083	have brought	<hongtawi>, bring, with <zo>, manage to: have brought, succeeded in bringing	
+s55084	brow	the brow, given beside <taltang>, forehead	
+s55085	grey/greyish/brownish	<a> and <puang>, pale or grey, written as one word: of a dull colour between white and red or black, grey or brown	
+s55086	bruise	<sidup>, bruised, with the causative <sak>: cause a bruise, make the flesh black and blue	
+s55087	be bruised/be livid/bruise	<si>, blood, and <dup>, dark, written as one word: be black and blue where blood has gathered under the skin	
+s55088	brush	a brush for scrubbing, cleaning or painting, a loan word from English brush	
+s55089	bud	the bud of a plant, given beside <angeek>	
+s55090	bud/tender shoot	<a> and <ngeek>, tender and very young, written as one word: the tender new part of a plant, a bud	
+s55091	male animal/bull	<ganhing>, animal, with <pa>, male: the male of an animal, which the list gives for bull	
+s55092	bulldozer/road roller	a heavy machine, <set>, that presses and levels the ground for a road, <lam>	
+s55093	bulldozer	a heavy machine, <setpi>, that pushes and levels the ground, <lei>	
+s55094	jolt/bump/shake	be shaken with a sudden knock, as a car on a rough road or an aeroplane that lands hard	
+s55095	bumper/front guard	<a>, <mai>, front, and <dalna>, a thing that shields, written as one word: the guard on the front of a vehicle	
+s55096	buoyancy/floating	the power to float on water, <tui>, a noun in <na>	
+s55097	graveyard/burial ground/cemetery	<haan>, grave, and <mual>, hill, written as one word: the ground where the dead are buried	
+s55098	burnish/polish/rub smooth	<nawt>, rub, and <neel>, smooth, written as one word: rub a surface until it is smooth	
+s55099	burnish/polish	<nawt>, rub, and <naal>, slippery, written as one word: rub a surface until it is smooth and slippery	
+s55100	burnish/polish	rub a surface until it is smooth and shines, a compound of <nawt>, rub	
+s55101	have burnt/burn up	<hal>, burn something, and <zo>, manage to, written as one word: have burnt, succeed in burning	
+s55102	be burnt/have burnt	<kang>, be burned by fire, and <zo> written as one word: has burnt, is burnt up	
+s55103	rabbit hole/burrow	<bilpi>, rabbit, and <kua>, hole, written as one word: the hole in the ground where a rabbit lives	
+s55104	collapse/fall apart/burst	<cim>, collapse, and <gawp>, severely, written as one word: fall to pieces completely	
+s55105	bus	a large motor vehicle that carries passengers, a loan word from English bus	
+s55106	bushy	of a tree or plant, thick with branches and leaves	
+s55107	businessman/trader	a man, <pa>, who trades to make money, <sum>	
+s55108	bust/human chest	<mihing>, human, and <awm>, chest, written as one word: the chest of a person	
+s55109	nevertheless/but/even so	<ahita> and <zongin> written as one word: even though that is so	
+s55110	butcher's shop/meat stall	<sa>, meat, <zuak>, sell, and the noun suffix <na> written as one word: the place where meat is sold	
+s55111	butterfly	a butterfly, the insect with large coloured wings	
+s55112	butterfly		
+s55113	button/fastener	<puan>, cloth, and <kilhna>, fastener, written as one word: the thing that fastens a garment, a button	
+s55114	buttress/support	<a> and <thuapna> written as one word: what is put against a thing as a further layer to make it strong	
+s55115	buyer	<a>, <lei>, buy, and <mi>, person, written as one word: the one who buys	
+s55116	bypass	<a> and <pelhna> written as one word: the way by which a place is avoided, a road that goes round	
+s55117	bypass/bypass road	<lam>, road, with <pelhna>, avoiding: a road that goes round a town and not through it	
+s55118	shortcut/short way/bypass	<lam>, way, with <tom>, short: a shorter way to a place	
+s55119	cabbage	a vegetable with a round head of leaves	
+s55120	cactus	a thorny plant without leaves that bears flowers; its sap, {kildawn nai}, harms the eyes	
+s55121	land survey/land measurement	<gam>, land, with <tehna>, measuring: the measuring of land to record how much each owner has, as for the land tax	
+s55122	falling early	<pulh>, fall off, with <baih>, early: of leaves that drop off early	
+s55123	falling early	of the leaves of a tree, dropping off early; given beside <pulhbaih>	
+s55124	eating house/cafeteria/restaurant	the English word hotel in Zolai spelling, here a place where food and drink are sold and eaten	
+s55125	calamity/misfortune/disaster	<vaang> with <siatna>, ruin: great misfortune that brings trouble, panic or death	
+s55126	callus/callosity	a place where the skin has grown thick and hard from rubbing	
+s55127	thick-skinned/callused	<vun>, skin, with <sah>, thick: having thick, hard skin	
+s55128	callused	of skin, grown thick and hard, given beside <vunsah>	
+s55129	calm/calmer	of wind and rain, quieter than before, ending in <deuh>, somewhat	
+s55130	came	<hong>, <pai> and <zo> written as one word: has come, managed to come	
+s55131	camera	the device with which a <maan>, photograph, is taken	
+s55132	camera	<maan>, photograph, with <bawm>, box: a camera	
+s55133	truck/lorry	<motor> with <pi>, big: a large motor vehicle that carries many goods	
+s55134	cancellation/eradication/wiping out	<phiatmai>, wipe out, with the noun ending <na>: doing away with something so that nothing of it is left	
+s55135	chocolate/candy/sweet	the English word chocolate in Zolai spelling, also used for sweets in general	
+s55136	cane/rattan	a very long thorny climbing plant that hangs on trees, whose stem is used as rope	
+s55137	woodworm/weevil/canker	a small insect of the weevil kind that bores into wood, and the damage it does to a tree	
+s55138	cannon	a big gun	
+s55139	canvas	strong coarse cloth, as used for a floor covering	
+s55140	canvas shoe	<puan>, cloth, with <khedap>, shoe: a shoe made of cloth	
+s55141	capacity	<hihtheih>, can do, with <bang>, like: as much as one is able to do	
+s55142	tax/poll tax	<sum>, money, with <siah>, tax: a tax paid in money, given for capitation, a tax counted for each person	
+s55143	capon	<ak>, chicken, with <geh>: a castrated rooster	
+s55144	capsule	medicine in a small case that is swallowed whole, a kind of <zatang>, pill	
+s55145	leader/guide/captain	<lam>, way, with <kai>, draw: one who leads the way, a leader; it is also a personal name	
+s55146	capture/seize	<gal>, war, with <buluah>, seize: take by force in war	
+s55147	car/small car	<mawtaw>, motor vehicle, with <no>, little: a small car	
+s55148	carbon/carbon paper	<lai>, writing, with <vom>, black: carbon, and the black sheet laid between papers to make copies	
+s55149	unworried/unconcerned/careless	<lunghimawh>, worry, and <lo>, not, written as one word: without worry or concern, and so careless	
+s55150	careless/imprudent/unwise	<pilvang>, be alert, and <lo>, not, written as one word: not careful or prudent	
+s55151	caretaker	<a>, <cing>, guard, <deuh> and <pa>, man, written as one word: the man who chiefly looks after a place	
+s55152	tooth decay/caries	decay of <ha>, the teeth	
+s55154	carpet/floor covering	canvas or thick cloth spread over the floor of a room, ending in <phah>, spread	
+s55156	case/box/container	<a> and <bawm> written as one word: its box, case or basket, the container of a thing	
+s55157	in cash	<a>, <sum>, money, and <in> written as one word: in money, in cash	
+s55158	castigation/severe punishment	<gawt>, punish, with <gawp>, severely, and the noun ending <na>: harsh punishment	
+s55159	castrate/geld	remove the testicles of a male animal, as in <cilget>; not the English word get, which the articles also show	
+s55160	occasional/casual	<a>, <kal>, interval, and <laka>, among, written as one word: in between times, happening now and then, used only as the need arises	
+s55161	occasionally/now and then	<a> and <kallakah> written as one word: in between times, once in a while	
+s55162	caterpillar	a kind of <lung>, worm: a caterpillar	
+s55163	hold/catch	<len>, hold, with <zo>, manage to: manage to hold or keep hold of, catch	
+s55164	origin/source/cause	<a> and <piankhiatna> written as one word: its origin, that from which a thing comes into being	
+s55165	cave/rock shelter	a hollow in rock where one can shelter, <suang> with <buk>	
+s55166	speed/quickness/swiftness	how fast a thing moves or is done, <manlang> with the noun suffix <na>	
+s55167	cement	cement for building, the English word in Zolai spelling	
+s55168	cement	cement for building, a word taken from Burmese	
+s55169	centipede	a small creeping creature with many legs	
+s55170	grain crop/cereal plant	a plant that bears grain for food, as maize and rice, <antang> with <nei>	
+s55171	certify/affirm	<a>, <hihna> and <gen> written as one word: state that a thing is so	
+s55172	chafe/rub warm	make warm by rubbing, as the hands or the skin	
+s55173	chafe/rub warm	make warm by rubbing, <nawt> rub with a word for hot	
+s55174	chaff/husk	the husks of grain that are separated from the seed	
+s55175	confusion/perplexity/worry/trouble of mind	the state of not knowing what to think or do, <lungbuai> with the noun suffix <na>, the list gives it for chagrin	
+s55176	chairman	<hunuk> and <pa> written as one word: the man who leads a meeting or programme	
+s55177	watchman/keeper/attendant	one who waits on someone or keeps watch over a house, from <ngak> written with a long vowel, the list gives it for the chamberlain of a king	
+s55178	chew/chew well	chew food well, grinding it between the teeth	
+s55179	fame/renown	being known and talked about by many people, <mithang> with the noun suffix <na>, the list gives it for champion beside <gualzawhna>	
+s55180	strait/channel	a narrow stretch of sea, <tuipi> with <geek>	
+s55181	worrying/distressing	<a> and <lungkhamhuai> written as one word: that causes worry, the list gives it for chaotic	
+s55182	burn black/scorch	<kang> and <vom> written as one word: burn until black	
+s55183	charge	<thu>, matter, and <pua>, carry, written as one word, the list gives it for charge, lay a matter on someone	
+s55184	charm/attraction/enchantment	the quality that catches the eye and draws people	
+s55185	love charm	a charm or spell used to win the love of someone, <zawl> sweetheart with <ai> witchcraft	
+s55186	chasm/abyss	a deep hollow or cleft in the ground, the list also uses it for a gulf between the minds of people	
+s55187	chatter	<pau> and <zalzal> written as one word: talk fast and without stopping	
+s55188	pride/boasting/arrogance	making oneself or the own people out to be greater than others, the list gives it for chauvinism	
+s55189	cheap/low-priced	<man>, price, and <niam>, low, written as one word: costing little	
+s55190	cheap/inexpensive	<man>, price, and <tawm>, little, written as one word: costing little, of small worth	
+s55191	cheapen	make or become lower in price, <manniam> with a last part that is not explained	
+s55192	chef/head cook	<anhuan> and <pipa> written as one word: the man in charge of the cooking	
+s55193	cherish/nurture	<khoi> and <to> written as one word: go on caring for and holding dear	
+s55194	main/chief/foremost	<a> and <pipen> written as one word: the chief or greatest one	
+s55195	childhood	the time of being a child, <naupang> with the noun suffix <na>	
+s55196	chin	the point of the chin, the word for chin with <zum>, pointed	
+s55197	chink/crack	<inn> and <kawmvang> written as one word: a narrow opening in the wall of a house, as between its boards	
+s55198	sawdust/wood dust	fine particles of wood, <sing> with <vui>, the list gives it for chip	
+s55199	grit/small stones/stone chips	small broken pieces of stone, <suang> with <nen>	
+s55201	chitterlings/pig intestines	the intestines of a pig as food, also stuffed as a sausage	
+s55202	four-part singing/choir	<aw>, voice, <li>, four, and <la>, song: a song sung in four voices, the list gives it for choir	
+s55203	choke/strangle	<gawl> and <meek> written as one word: squeeze the throat	
+s55204	choosy/picky	<teel> and <haat> written as one word: hard to please in choosing	
+s55205	chopping	<at>, <nen> and <na> written as one word: the cutting of a thing into small pieces	
+s55206	chorus/refrain	<la>, <sak> and <kik> written as one word: singing the song again, the part of a song that is sung again	
+s55207	genealogy/chronicle	<khang>, <suut> and <na> written as one word: the tracing of the generations, an account of them in order	
+s55208	churn	a tool or vessel in which milk is stirred, from <tok>, stir	
+s55209	cicada	an insect that sings loudly in the trees, also called {theleng}	
+s55210	cigarette	a cigarette, the English word in Zolai spelling, the list also gives it for cigar	
+s55212	cinnamon	the sweet-smelling bark of a tree, used as a spice, and the tree itself	
+s55213	circuit/going round	<a>, {kikualh}, go round, and the noun suffix {-na}, written as one word: a going round something in a circle, a circuit	
+s55214	circuit/surroundings	<a>, <kiimkot>, all around, and <na>, written as one word: the going or lying all around something, a circuit	
+s55215	circular/round/ring-shaped	<a> and <kikual>, form a ring, written as one word: that which goes round in a ring, circular	
+s55216	go about/circulate	<vakkhia>, go out, with {khawikawi}, a spelling of <kawikawi>, about, written as one word: go out and move around from place to place	
+s55217	announcement/notice/circulation	<thu>, news, and <theihsakna>, a making known, written as one word: the making known of news to people, an announcement or notice	
+s55218	cordon off/surround/enclose	<umcih>, surround, with <sak>: close a place off on all sides, as the police do with a rope round the scene of a crime	
+s55219	encircle/enclose/circumscribe	go or draw a line round something on every side so that it is shut in	
+s55220	civilian/citizen/local person	<tualsung>, the home community, and <mi>, person, written as one word: a person of the community, and in news of war a civilian as distinct from a soldier	
+s55221	citron	a large sour fruit of the kind of the orange and the lime, and its tree, named beside <lengmaw> and <tampaza>	
+s55222	local person/villager/civilian	<khuatual>, the home village and its community, and <mi>, person, written as one word: a person of the local community	
+s55223	civility/courtesy/good manners	{migiit}, a spelling of <migit>, be kind, with <dan>, manner, written as one word: the way of a kind and well-mannered person in conduct and in speech	
+s55224	claimant	<a>, <kal>, demand, and <pa>, man, written as one word: the man who demands a thing as his own	
+s55225	claimant	<a>, <heek>, taken here to mean claim, and <pa>, man, written as one word: the man who claims a thing as his own	
+s55226	sweaty/clammy	<ul>, sweat, with <suak>, come out: damp with sweat, clammy	
+s55227	secret/furtive/stealthy	<aguk>, do by stealth, paired with <agal>: done in secret and out of sight of others	
+s55228	clang	<sik>, iron, and <ging>, sound, written as one word: make the ringing sound of metal striking metal	
+s55229	clearing up/clarification	<kihahsiang>, be cleared clean, with the noun suffix {-na}: a clearing up, and of a matter the making of it clear	
+s55230	wind instrument/musical instrument	<tumging>, played instrument, and <theih>, can, written as one word: an instrument that is blown to make a sound, given in the word list for the clarinet	
+s55231	clash/collide/strike together	of two things, strike against each other, as two cymbals or two pieces of iron do, <kitat>, here hit each other, with <tuah>, together	
+s55232	clash/knock together	<kikhong> and <tuah>, together, written as one word: of two things, knock against each other	
+s55233	claw hammer	a hammer, <sek>, with a claw on one side of its head for pulling out nails	
+s55234	be clear/be seen clearly	<ki> and <mutel>, see clearly, written as one word: be seen or understood clearly, be plain	
+s55235	division/split/disunity	<kikhenthang>, be divided and scattered, with the noun suffix {-na}: the state of people who have split apart from one another	
+s55236	hack/cleave/chop apart	cut something apart with blows of a blade, built like <phelkham>, split open	
+s55237	crack in the ground/cleft/fissure	<lei>, ground, and <khangkham>, crack open, written as one word: a place where the ground has cracked open	
+s55238	clemency/leniency	mildness toward someone who has done wrong, named beside <gitna> and <neemna>	
+s55239	clerk	<zum>, office, and <laiat>, writing, written as one word: a person who does the writing work of an office	
+s55240	ball of thread/clew	thread or string wound into a ball, {khaau} being a spelling of <khau>, string	
+s55241	climb a tree	<singtung>, treetop, and <kah>, climb, written as one word: climb up a tree	
+s55242	climb a mountain	<mualdawn>, mountain top, and <kah>, climb, written as one word: climb to the top of a hill or mountain	
+s55243	stick fast/cling to/adhere	<belh>, stick to, and <cip>, tightly, written as one word: stay fastened to something and not come off	
+s55244	knocking sound/clink	<khong>, here knock, with <ging>, sound: the sound of something being knocked, as of a knock on a door	
+s55245	clip off/shear off/cut off	<meet>, shear, and <khia>, off, written as one word: cut a part off close with a blade or shears	
+s55246	clip off/cut off	cut a piece off or out of something, the first part with <khia>, off	
+s55247	clip/clasp/fastener	<tepcip>, catch and hold tight, with the noun suffix {-na}: a thing that grips something and holds it in place	
+s55248	clippers	a tool for clipping whose blades, <tem>, close on what is cut	
+s55249	nail clippers/clippers	<cin>, fingernail, with <tanna>, cutting: a tool for cutting the nails	
+s55250	clique/small group	<pawl>, group, <no>, little, and <khat>, one, written as one word: a small closed group of people that lets no one else join	
+s55251	clod/lump	<buan>, mud or clay, and <lom>, lump, written as one word: a lump of earth or clay, also a lump or clot of other matter	
+s55252	clog/wooden shoe	<sing>, wood, and <khedap>, shoe, written as one word: a shoe made of wood	
+s55253	bring near/bring close	<nai>, near, with the causative <sak>: cause to be near, and with <ki> bring people close to one another or to God	
+s55254	close/very near		
+s55255	clothe/dress	<puansilh>, clothing, and <guan>, put upon, written as one word: put clothes on someone, provide with clothing	
+s55256	clothes line/drying rail	the line or rail of a house on which washed clothes and cloth are hung to dry, also {taangbaan siikkhau} when it is a wire	
+s55257	clothes moth	a small moth whose young eat holes in cloth, <puan>	
+s55258	cloudless/clear	<van> and <siang> written as one word: of the sky, clear, without a cloud	
+s55259	clump	<alom> and <po> written as one word: what grows in a mass, a clump of trees or bamboo	
+s55260	wearisome/tiresome	tedious, making one weary or sick of it, said of what goes on too long or is always the same	
+s55261	clunk	the dull sound of a thing that is hollow inside when it is struck	
+s55262	cluster/clump	<a> and <pokhawm> written as one word: what grows together, a cluster	
+s55263	cluster/bunch	<a> and <bom> written as one word: the cluster, the bunch	
+s55264	walking stick/crutch	a stick to lean on in walking, the first part as in <ciangkhut>, staff, with <khun>, lean on	
+s55265	cooperate with/work together with	<kithuah>, <khop> and <pih> written as one word: keep company and act together with someone	
+s55266	coordinate/fit together	<kimat>, <tuah> and <sak> written as one word: make parts or people hold together and fit each other	
+s55267	coagulate/congeal	<khalh>, a form of <khal>, congeal, and <suah> written as one word: of a liquid, turn thick or solid	
+s55268	coarse/rough	<a>, <phok> and <pi> written as one word: the very rough one, coarse and uneven	
+s55269	unfinished/unworked/coarse	<bawl>, <nai> and <loh> written as one word: not yet made or worked, still in a rough state	
+s55271	cobweb	dust and soot that hangs in threads, together with the threads of the <mompi>, spider	
+s55272	numbing drug/cocaine	a drug that takes away the feeling of pain, <hik>, numb, with <za>, medicine, the list gives it for cocaine	
+s55273	cock/rooster	the male fowl, <ak> with <pa>, male	
+s55274	cockade/hair ornament	a knot of ribbon worn as an ornament on the hair or hat, <sam>, hair, with <paak>, flower	
+s55275	coconut	<sing>, <thau> and <nei> written as one word, the tree that has fat or oil: a describing name for the coconut	
+s55276	coconut palm/coconut tree	the tree that bears coconuts, with <kung>, tree, as its second part, its fruit is {onggah}	
+s55277	cocoon	the case the silkworm spins around itself, <nailung>, silkworm, with <bu>, nest	
+s55278	cod-liver oil/fish liver oil	<ngasa>, <sin> and <zatui> written as one word: medicine made from the liver of a fish	
+s55279	equal/coequal/peer	one who is equal with another, <kim> with <pih>, in articles it mostly stands after <thu> or <lung> and means agree with	
+s55280	pressure/urging/coercion	pressing someone hard to do something, a demand made with force	
+s55281	coeval/of the same age	<ki> and <khangual> written as one word: be of the same age or generation as each other	
+s55282	coffer/large chest	<singkuang> and <pi> written as one word: a big chest, as one for keeping money and valuables	
+s55283	coffer/treasure chest	<gou> and <bawm> written as one word: a box in which property and valuables are kept	
+s55284	loop/coil/noose	<khau> and <kual> written as one word: a ring made of rope, a loop, coil or noose	
+s55285	col/saddle	the low place between one mountain ridge and the next	
+s55286	colander/strainer/sieve	<na> and <haihna> written as one word: a thing to sift or strain with, a plate or sheet full of small holes	
+s55287	not warm/cold	<lum> and <lo> written as one word: not warm	
+s55288	collapse/fall in	fall down in ruins, as a house blown down by a storm, compare <cim>	
+s55289	collect/gather	<van> and <khawm> written as one word: bring things together	
+s55290	collect/gather	bring together into one place, with <khawm>, together, as its second part	
+s55291	collection/taking together	<laak>, <khop> and <na> written as one word: the taking together of things, a collection	
+s55292	collective	<a> and <kilakhawm> written as one word: what is taken together as one	
+s55293	collector	<a>, <lakhawm> and <pen> written as one word: the one who takes things together, who collects	
+s55294	college	a school above the tenth standard	
+s55295	collide/crash/clash	<kiphu> and <tuah> written as one word: run into each other, also of people, face each other in conflict	
+s55296	collision/knocking together	the knocking of two things against each other	
+s55297	collision/impact	<kitattuah>, strike against each other, with the noun suffix <na>: the striking of one thing against another	
+s55298	collision/confrontation	<ki>, <phuut>, <tuah> and <na> written as one word: a running into each other, of things or of people who oppose each other	
+s55299	collision	{kikhawn}, knock against each other, with the noun suffix <na>	
+s55300	putting together/collection/collocation	<koih>, <khop> and <na> written as one word: the putting of things together, and the place where they are put together	
+s55301	arranging together/collocation	{lep}, set in order, with <khawm> and the noun suffix <na>: the setting of things side by side	
+s55302	collude/conspire	<kikheem> and <tuah> written as one word: share a secret plan with someone in order to deceive another	
+s55303	collude	<pangkhawm> and <sim> written as one word: side with each other in secret	
+s55304	colonize	attack another country and rule over it, {gaal}, a long spelling of <gal>, with <uk>	
+s55305	colour	the colour of a thing, as the list has it beside {a mel}	
+s55306	complexion/colouring	<a>, <melpuak> and <dan> written as one word: the way a person or thing looks, its colour and complexion	
+s55307	coma/unconsciousness	<khaw>, <phawk> and <lohna> written as one word: the state of not being aware of anything around one, unconsciousness	
+s55308	comb	<samhiat>, comb the hair, with the noun suffix <na>: the thing the hair is combed with, also the combing of the hair	
+s55309	comb	<sam>, hair, and <hiat>, comb, written as one word: comb the hair	
+s55310	combatant/opponent	<a>, <kisual> and <pih> written as one word: the one that someone fights against, the other side in a fight	
+s55311	combatant/opponent/enemy	<a>, <kido> and <pih> written as one word: the one that someone is at war with, the other side in a fight	
+s55312	combustible/flammable	<a>, <kang> and <thei> written as one word: that can burn, that catches fire	
+s55313	comforter	<a> and <lungmuangsak> written as one word: the one who makes a person feel secure and at ease	
+s55314	comforter/encourager	<khamuang>, be heartened, with <sak> and <pa> written as one word: the man who puts another in good heart	
+s55315	helper/supporter/assistant	<a> and <huhpa> written as one word: the one who helps a person, a supporter or an assistant	
+s55316	coming/arrival	<a>, <hongpai> and <na> written as one word: the coming of someone or something	
+s55317	gentleness/meekness/courtesy	<nunneem>, gentle in manner, with the noun suffix <na>: a gentle and mild way of behaving toward others	
+s55318	affability/friendliness	<honuam>, pleasant to talk with, with the noun suffix <na>: being pleasant and friendly in talk with others	
+s55319	commander/chief	<a> and <siapipa> written as one word: the head, the one in charge; the word list gives it for commander	
+s55320	commander/chief/officer	<a> and <mangpa> written as one word: its commander, the one in command	
+s55321	commemoration/remembrance	<phawk>, remember, and <tawntungna> written with a hyphen: remembering always, the keeping of something in memory	
+s55322	remembrance/memory/commemoration	<theih>, <gige> and <na> written as one word: knowing or keeping in mind continually, memory of a thing	
+s55323	commerce/trade/profit-making	<summeet>, profit, and <bawlna>, making, written as one word: doing business for gain	
+s55324	mix together/commingle/stir together	<tok>, stir, and <khawm>, together, written as one word: stir or mix things into one	
+s55325	communion/fellowship	<kiphawk>, <tuah> and <na> written as one word: being mindful of one another, fellowship of mind	
+s55326	compactness/fitting together	<a>, <kituah> and <khopna> written as one word: the fitting of parts closely together; the word list gives it for the adjective compact	
+s55327	companionship/association	<kipawlpih>, associate with, with the noun suffix <na>: being joined with someone as a companion or partner	
+s55328	companionship/company	<kikholhpih>, keep company with, with the noun suffix <na>: the keeping of company with someone	
+s55329	comparative/comparison	<a> and <tehkaakna>, comparison, written as one word: that which compares; the word list gives it for the adjective comparative	
+s55331	compendium/summary/digest	a short writing that takes up the main points of a longer one, <lak> with <tom>, short	
+s55332	competitive	<kitaitehna>, competing, and <lam>, side or matter, written as one word: having to do with competition	
+s55333	complement/completion	<bucingsak>, make complete, with the noun suffix <na>: what makes a thing whole, the making complete	
+s55334	complement	<a>, <kim>, <sak> and <na> written as one word: that which makes a thing complete	
+s55335	complement	<pawl>, <cin>, <sak> and <na> written as one word: what fills up the number, that which completes; the word list gives it for complementary	
+s55336	completely/fully/perfectly	<a>, <bucing> and <takin> written as one word: in a complete way, with nothing lacking	
+s55337	completion	<zawhsiang>, finish completely, with the noun suffix <na>: the finishing of a work to the end	
+s55338	hard to understand/complex	<theih>, know, and <haksa>, hard, written as one word: difficult to know or understand	
+s55339	be entangled/get tangled	<kikai>, be pulled, and <awk>, be caught, written as one word: become tangled like a rope, and so be complicated	
+s55340	complication/trouble/difficulty	<buaihuai>, troublesome, with the noun suffix <na>: something that causes trouble or confusion, a problem	
+s55341	mixture/compound	<a> and <kihelkhawm> written as one word: what is mixed together, a mixture	
+s55342	comprehension/clear understanding	<theician>, know clearly, with the noun suffix <na>: knowing or understanding a thing clearly	
+s55343	compel/force	<hih>, do, with <sak> and <teitei>, without fail, written as one word: make someone do a thing whether willing or not	
+s55344	indispensable/essential/unavoidable	<a>, <hilo> and <theilo> written as one word: that cannot not be, that must be so, compulsory	
+s55345	compunction/regret	<dahhuai>, grievous, with <sak> and <na>, written with a hyphen: finding a thing one has done sad, a feeling of regret	
+s55346	be concealed/be covered over/be shut in	<ki> and <liahcip>, cover completely, written as one word: be completely covered or hidden, also be blocked in so that there is no way out	
+s55347	conceit/pride	thinking too highly of oneself, making oneself out to be great	
+s55348	concentration	<laitaak>, have in the middle, with <sak> and <na> written as one word: putting a thing in the centre, fixing the mind on it	
+s55349	concept/conception	<hi>, be, with <sak>, consider, and <na> written as one word: what one takes a thing to be, an idea of it	
+s55350	perform/put on a show	<pawi>, festival, with <lak>, show: put on a show or entertainment, as of singing; also the show itself	
+s55351	concession	<lemlawh>, be better off, with <sak> and <na> written as one word: letting another gain an advantage, something granted	
+s55352	set aside/reserve/keep back	keep part of something back for later or for someone, as food kept for the next meal; the word list gives it for concession	
+s55353	be gentle/be conciliatory	<ki> and <neem>, soft, written as one word: be soft and gentle toward others, not harsh	
+s55354	conclusion	<a> and <thukhupna> written as one word: its conclusion, the closing judgment on a matter; the word list gives it for conclusive	
+s55355	agreement/concord/uniformity	<kituak>, agree or match, with the noun suffix {-na}: the fact that things or people agree with one another or are alike	
+s55356	coming together/gathering/concourse	<kituak>, meet, and <khawmna>, being together, written as one word: a meeting together of people in one place	
+s55357	firm/definite/concrete	<a> and <thukip>, a firm word, written as one word: that which is settled and sure	
+s55358	condensation	the forming of drops of water out of vapour, as the list gives it, a noun in {-sakna}, causing, on a first part {niak} that is not a word of the lexicon	
+s55359	condition/state	<ahiding>, will be or ought to be, and <dan>, way, written as one word: the way a thing is to be, how matters stand	
+s55360	conditional	<hih>, do, <dan>, way, <nei>, have, and <tuam>, separate, written as one word: having a way of its own in which it is done, depending on particular terms	
+s55361	condolence/sympathy/compassion	<khasiatpih>, be sad with or pity, with the noun suffix {-na}: the sharing of the grief of another, the words that tell it	
+s55362	condone/overlook	let a wrong pass as if it were not there, <hih>, do, with the second part that <maisak>, forgive, also holds	
+s55363	confluence	<lui>, stream, and <kituahna>, meeting place, written as one word: the place where two streams meet	
+s55364	structure/formation/formula	<a>, <kibawl>, be made, and <dan>, way, written as one word: the way a thing is made or put together	
+s55365	confuse/be unable to tell apart	<thei>, know, <kaak>, comparing, and <lo>, not, written as one word: not know which is which, not understand clearly	
+s55366	misunderstanding/confusion/mistake	<theihkhialh>, know wrongly, with the noun suffix {-na}: the fact of not knowing how a thing really is, of taking it for something else	
+s55367	be congested/crowd together	<kineh>, press close, and <gawp>, severely, written as one word: press against one another so that there is no room	
+s55368	chock-full/congested	<dim>, full, and <phitphet>, to the brim, written as one word: full so that nothing more goes in	
+s55369	rejoice with/congratulate/felicitate	<nuam>, be happy, with the ending {-pih}, together with: be glad with a person at his joy or success	
+s55370	congratulation/felicitation	<nuampih>, rejoice with, with the noun suffix {-na}: the sharing of the joy of another, the words that tell it	
+s55371	join/clasp/put together	<mat>, take hold, with <tuah>, join: bring two things together so that they hold on each other, as the two hands	
+s55372	connection/link	<zop>, join on, <tuah>, to each other, and the noun suffix {-na}, written as one word: a joining of one to another, a connection	
+s55373	connive/pretend not to know/turn a blind eye	<ki>, <thei>, know, <lo>, not, and <sak>, written as one word: make oneself as one who does not know, pretend not to know of a wrong	
+s55374	reference/meaning/connotation	<a> and <kawkna>, pointing at, written as one word: what a word points to, what it is meant to say	
+s55375	consecutively/in succession/successively	<a> and <kizomin> written as one word: one joined on to the other, following one another without a break	
+s55376	consequence/outcome/aftermath	<a> and <thunung> written as one word: what comes of a matter afterwards	
+s55377	conservation/preservation/reservation	<koihcing>, store up and keep, with the noun suffix {-na}: the keeping of a thing so that it is not lost or spoiled, the setting aside of a thing for later	
+s55378	consignment	<van>, goods, and <khakna>, sending, written as one word: the sending of goods, the goods that are sent	
+s55379	consignment/dispatch	<a>, <khakkhia>, send out, and the noun suffix {-na}, written as one word: the sending out of a thing, what is sent out	
+s55381	compatible/consonant	<kikop>, be paired or joined, and <thei>, able, written as one word: able to go together, fitting with one another	
+s55382	easily noticed/easily known	<kitheih>, be known, and <baih>, easy, written as one word: easily known or noticed, catching the eye, said for the English conspicuous	
+s55383	conspiracy/plot	<thusim>, secret, and <geelna>, plan, written as one word: a plan made in secret, as against a government	
+s55384	constancy/steadfastness	<laih>, exchange, <kawikawi>, to and fro, and <lohna>, the fact of not doing, written as one word: the fact of not changing now this way and now that	
+s55385	constant/unchanging	<kilaih>, be replaced, and <lo>, not, written as one word: not changed for another, staying the same	
+s55386	great fear/terror/consternation/panic	<lau>, be afraid, and <luatna>, excess, written as one word: fear that is too great	
+s55387	consultation/discussion	<thukikup>, discuss, <tuah>, with each other, and the noun suffix {-na}, written as one word: a talking over of a matter with one another	
+s55388	consultative/advisory	<dotna>, asking, and <lam>, side, written as one word: on the side of asking, having to do with seeking advice	
+s55389	user	<azangh>, the one who uses, and <mi>, person, written as one word: a person who uses goods or a service, said for the English consumer	
+s55390	consummation/completion/fulfilment	a bringing to its full end, a noun in {-na} that holds <cin>, be completed, after a first part that is not clear	
+s55391	growing up together/being contemporary	<khan>, grow up, and <khopna>, being together, written as one word: the fact of growing up at the same time, of being of one age	
+s55392	disregard/make light of/hold in contempt	<a>, <thu>, word, <la>, take, and <lo>, not, written as one word: not take a person or his word as counting for anything	
+s55394	look down on/despise	<niam>, low, and <et>, look at, written as one word: look at a person as low	
+s55395	contenders/fighters/opponents	<a> and <dote> written as one word: those who fight against someone	
+s55396	contenders/competitors/rivals	<a> and <demte> written as one word: those who compete or contend	
+s55397	rivals/contenders	<a>, <el>, envy or be hostile to, and the plural <te>, written as one word: those who set themselves against someone out of rivalry	
+s55398	contestant/competitor	<a>, <tuh>, compete for, and <mi>, person, written as one word: a person who takes part in a contest	
+s55399	contiguity/connection/adjoining	the state of being joined to or touching something, <kizoppih> with the noun suffix <na>	
+s55400	contiguity/nearness/closeness	<kinaih>, <pih> and <na> written as one word: the state of being close to or next to something	
+s55401	contiguous/adjacent/neighbouring	<a>, <kinaih> and <pih> written as one word: that is close to or next to something	
+s55402	continence/self-control/self-restraint	<kideek> and <zawhna> written as one word: the ability to hold oneself back, above all from bodily desire	
+s55403	continence/self-control/self-restraint	the ability to keep oneself in check, <kidaam> with <zawhna>; given beside <kideekzawhna>	
+s55404	continent/self-restrained	<a> and <kideek> written as one word: one who holds himself back, who has self-control	
+s55405	continent/self-restrained	one who keeps himself in check, <a> with <kidaam>; given beside <akideek>	
+s55406	continual/unbroken/unceasing	<a>, <kitatsat> and <lo> written as one word: that is not interrupted	
+s55407	continual/constant	<a>, <kizom> and <den> written as one word: that always goes on	
+s55408	continuous/continual/ongoing	<a> and <kizomtoto> written as one word: that keeps going on without a break	
+s55409	continually/one after another	<a> and <kizomzomin> written as one word: going on and on without stopping	
+s55410	continuation	<a> and <zopna> written as one word: the carrying on of something, its continuation	
+s55411	continue/keep on/carry on	<zom> and <zel> written as one word: go on with something again and again, keep continuing	
+s55412	continuity	<kizop>, <tohtoh> and <na> written as one word: the state of going on and on without a break	
+s55413	continuously/constantly	<a>, <kizom> and <denin> written as one word: going on all the time	
+s55414	continuously/without a break	<a>, <kizomtoto> and <in> written as one word: going on and on	
+s55415	contrary/opposite/opposed	<a> and <kilehngat> written as one word: that faces the other way, that is the opposite of something, after <tawh>	
+s55416	on the contrary/the opposite way	<a> and <lehlamin> written as one word: in the opposite way or direction	
+s55417	contraction/shrinkage	<a> and <tonna> written as one word: the drawing together of a thing so that it becomes smaller	
+s55418	disagreement/discord/discrepancy/contradiction	the state of not agreeing or not fitting together, said of people and of statements or things, <kituahloh> with the noun suffix <na>	
+s55419	the contrary/disagreement	<a>, <kituahloh> and <na> written as one word: that which does not agree with something, the contrary	
+s55420	convenient/opportune	<a> and <hunpha> written as one word: of a good or fitting time	
+s55421	conveyor/conveyor belt	a moving belt or band that carries things or people along; {kahlei duappi} is a moving stairway	
+s55422	cookie	a kind of small sweet baked <moh>, a cookie	
+s55423	cool/make cool	<a> and <votsak> written as one word: it cools something, and as a noun that which cools, a cooler	
+s55424	chicken coop/hen nest	<ak> and <bu> written as one word: the nest or small shelter where chickens are kept and lay eggs	
+s55425	chicken house/henhouse/chicken coop	<ak> and <inn> written as one word: a house for chickens	
+s55426	copper/tin	a metal named with <dal> and <sik>; the list gives it both for copper and for tin	
+s55427	copulate/have sex	of a man and a woman, have sexual intercourse; a coarse word	
+s55428	copy/transcript	<lai> and <teikhiat> written as one word: a writing copied out from another	
+s55431	humbly/cordially	<kiniamkhiat> and <takin> written as one word: in a humble way, lowering oneself before others	
+s55432	core/kernel/heart	<alai> and <mu> written as one word, <mu> here being the kernel or stone of a fruit: the innermost part of a thing	
+s55433	yolk/egg yolk	the yolk of an egg, the yellow middle of <aktui>; the list gives it under core for the innermost part	
+s55434	core/kernel	<asung> and <mu> written as one word, <mu> here being the kernel or stone of a fruit: the kernel inside a thing	
+s55435	corporal	a soldier of the rank of corporal, given beside {galkap san nih}, soldier with two stripes	
+s55436	correction/putting right	<a> and <puahphatna> written as one word: the setting right of something; the list gives it for the adjective corrective	
+s55437	correctly/properly/regularly/faithfully	<maan> and <takin> written as one word: in the right way, as it ought to be done, and so also regularly	
+s55438	correlation/mutual connection/communication	<kizop>, <tuah> and <na> written as one word: the linking of things or people with one another, also communication between them	
+s55439	correspond/suit/match	<a>, <ki> and <lempih> written as one word: that agrees with or suits something	
+s55440	exchange of messages/exchange of letters	the exchange of messages between people who are apart, given beside <kihotuahna> and {lai kikhaktuahna}	
+s55441	exchange of letters/sending of messages	the sending of word to one another from a distance, as by letter	
+s55442	matching/fitting	<a> and <kituahpih> written as one word: that goes with or matches another thing	
+s55443	corrigible/still correctable	<a>, <kibawl> and <theilai> written as one word: that can still be put right	
+s55445	corrosion/wearing away	the slow wearing away of a surface, as of metal by rust or rubbing	
+s55446	corrugated/ridged	having ridges or folds, like a corrugated iron sheet; the list marks it as a noun	
+s55447	valuably/profitably/preciously	<manphatak> and <in> written as one word: in a way that has great worth, to good use; the list gives it for costly	
+s55448	pen/fold/cote	<gan> and <khumna> written as one word: a place where animals are shut in	
+s55449	small house/cottage/hut	<inn>, house, and <neu>, small, written as one word: a small house, also a small building put up beside a main house	
+s55450	can be now/could	<hithei>, can be, and <ta>, marking a change, written as one word: it can now be, it has become possible	
+s55451	countenance/appearance/outward form	<melpuak>, the look a person or thing bears, and <zia>, manner, written as one word: the way a person or thing looks from outside	
+s55452	countenance/expression	<maitang>, face, <put>, look, and <zia>, manner, written as one word: the look that the face bears	
+s55453	counter/resist/oppose	<leh>, in return, and <nan>, withstand, written as one word: stand against a person or an attack in return	
+s55454	retort/answer back/counter	<dawng>, answer, and <gawp>, with force, written as one word: answer back hard	
+s55455	counterattack/retaliate/pay each other back	<ki>, each other, <thuk>, pay back, and <tuah>, meeting, written as one word: strike back at one who has struck, pay one another back	
+s55456	counterattack/fight back	<kido>, fight each other, and <tuah>, meeting, written as one word: attack in return the one who attacks	
+s55457	forged/counterfeit	<a>, <kigelh>, be written, and <tawm>, made up by oneself, written as one word: what is written falsely, said of a forged paper or false money	
+s55458	courageous/daring	<a>, <hih>, do, and <ngam>, dare, written as one word: the one who dares to do it	
+s55459	duration/term/tenure/course	<a> and <hunsung> written as one word: the length of time of a thing, the period that a course or a term of office lasts	
+s55460	court/woo	of a young man, visit a young woman at her house to win her love, given beside {nungak hel} and {zawl leeng}	
+s55461	cover/lid	<a> and <khuhna> written as one word: its cover, the lid of a pot or the thing that covers something	
+s55462	cow/intimidate/silence by threats	<vau>, threaten, and <dai>, quiet, written as one word: threaten a person until he keeps quiet and gives in	
+s55463	cowardly/not brave/coward	<hangsan>, brave, and <lo>, not, written as one word: without courage, also said of a person who has none	
+s55464	easily frightened/timid/cowardly	<lau>, afraid, and <baih>, quickly, written as one word: quick to take fright, also said of such a person	
+s55465	cower/crouch	shrink down low in fear, given beside {lau a ki-iiptantan}, draw oneself in from fear	
+s55466	rower/oarsman/boatman	<gunkuang>, boat, <hot>, row, and <pa>, man, written as one word: the man who rows a boat; the word list gives it for the cox of a racing boat	
+s55467	crack/split open	it cracks, given beside <apuakkham>, it bursts open, and {akitam kham}, it breaks apart	
+s55468	small boat/craft	<gunkuang>, boat, and <neu>, small, written as one word: a small boat	
+s55469	craftsman/artisan/skilled worker	<khutsiam>, skilled with the hands, and <mi>, person, written as one word: a person who makes things with skilled hands, such as a smith, a carpenter or a weaver	
+s55470	crag/cliff edge	a steep and rugged rock, <keen>, cliff, with a second part <kiil>	
+s55471	cram/fill up/stuff full	<thun>, put into, and <dim>, full, written as one word: put things in until it is full	
+s55472	cram/fill to overflowing	<thun>, put into, with {leet}, taken as <let>, overflow, in a spelling with a long vowel: put in so much that it runs over	
+s55473	cram/pack full/fill up	<guang>, put in or pack, and <dim>, full, written as one word: pack a bag or container until it is full	
+s55474	crane	a bird with long legs and a long neck, given beside {vasa ngawngsau}, the long-necked bird; <va>, bird, with a part meaning leg and <sang>, high	
+s55475	straight line/line/crease	<git>, draw a line, and <tang>, straight, written as one word: a straight line; also the line that a fold leaves on cloth or paper	
+s55476	crease/fold	the mark where cloth or paper has been folded, built on <kikhep>, be folded, with a further part	
+s55477	founding/establishment/creation	<phuatkhiat>, found, with the noun suffix {-na}: the bringing of something new into being, the setting up of an organisation	
+s55478	creator/maker	<a> and <siampa> written as one word, given beside <abawlpa>: the one who fashioned it, its maker	
+s55479	nursery/day care/creche	<nau>, child, and <cinna>, keeping, written as one word: a place where small children are looked after while their mothers work, also a nursery school	
+s55480	trust/confidence/credence	<muan>, trust, and <zawhna>, the being able to, written as one word: the being able to trust what a person says, acceptance of it as true	
+s55481	creed/tenet/chief belief	<thu>, matter, <up>, believe, <pi>, great, and <pen>, most, written as one word: the thing believed above all, the main point of a faith	
+s55482	bean vine/creeper	<be>, bean, and <gui>, vine, written as one word: the climbing stem of a bean plant; the word list gives it for any creeper	
+s55483	comb/cockscomb	given for crest beside {mualdung hiam}, the sharp top of a ridge; built on <ak>, fowl, and so taken as the comb on the head of a fowl	
+s55484	trough/manger/crib	<gan>, livestock, and <kuang>, trough, written as one word: the trough from which animals eat	
+s55486	crier/town crier	the man who calls out news and orders in a village, given beside <tangko-pa>; {au}, shout, with the ending {-pa}	
+s55487	criteria/standards	<a> and <thukhennate> written as one word: the things by which something is judged	
+s55488	criterion/standard	<a> and <thukhenna> written as one word: that by which a thing is judged or decided	
+s55490	criticise/find fault with	<en>, look at, and <sia>, bad, written as one word: look on a person or thing as bad, find fault and speak against it	
+s55491	old friend/crony	<lawm>, friend, and <lui>, old, written as one word: a friend of long standing	
+s55492	old companion/crony	<gual>, peer or companion, and <lui>, old, written as one word: a companion of long standing	
+s55493	crook/hooked staff	<ciang>, staff, and <kawi>, crooked, written as one word: a staff with a bent end	
+s55494	bent-line pattern	a design of bent lines, as worked on the traditional cloth {Tualpuan}; another dictionary uses the word for the swastika and for smocking	
+s55495	crop	<ak>, fowl, and <tangkhai>, crop, written as one word: the pouch in the throat of a fowl where its food first goes	
+s55496	cross out/strike out/cancel	<git>, draw a line, with <tan>, cut through: draw a line through something written so that it no longer counts	
+s55498	crash down on/crush	<dengsuk>, fall and strike from above, and <gawp>, hard, written as one word: come down on something with great force	
+s55500	pound grain/husk rice	<an>, grain, and <su>, pound, written as one word: pound grain in a mortar to husk or crush it	
+s55501	crusher	<a> and <gawina> written as one word: the thing with which something is ground or crushed	
+s55502	the difficulty/the hard part/crux	<a> and <haksatna>, hardship, written as one word: the difficulty of it, the hard part of a matter, and also his or her hardship	
+s55503	cry out/bawl	<awng>, cry out, with a second part {bebaa} that is not known apart from it: cry out loudly	
+s55504	cuckoo	a kind of bird, the cuckoo, named among the birds whose call is heard in the forest	
+s55505	culmination/highest point/furthest reach	<phak>, reach, and <tawp>, end, written as one word: the furthest or highest point that is reached	
+s55506	culpable/not justified/guilty	<diktang>, be counted righteous, and <lo>, not, written as one word: not in the right, deserving blame	
+s55507	hinder/encumber	<dongkholh>, be in the way, with the causative {-sak}: get in the way of a person or an effort, hold it back	
+s55508	hindrance/encumbrance	<dongkholhsak>, hinder, with the noun suffix {-na}: something that gets in the way and holds back	
+s55509	troublesome/bothersome	being a bother or a nuisance to other people, said of a person as in {mi noksak}, and also used as a verb, trouble others	
+s55510	gathering together/accumulation	<kikhawmtuah>, come together, with the noun suffix {-na}: a coming or heaping together into one	
+s55511	cumulative	<a>, <kibehlap>, be added, and <toto>, more and more, written as one word: what keeps being added to, growing by addition	
+s55512	cunning/crafty	clever in a way that deceives, wisdom, <pil>, without regard for others	
+s55513	cup with a handle	<hai>, cup, <bil>, ear, and <nei>, have, written as one word: a cup that has an ear, that is a handle	
+s55514	cupboard	<hai>, cup, and <koihna>, place of keeping, written as one word: the place where cups are kept	
+s55515	eagerness/enthusiasm/keen interest	<kithalawp>, be eager, with the noun suffix {-na}: eagerness for something, given by the word list for curiosity	
+s55516	currency	<a> and <kizang>, be used, with <taang>: what is in use, said of the money that is current	
+s55517	hollow/concavity/depression/notch	<kuak>, hollow, with the noun suffix {-na}: a place that is sunk or curved inward	
+s55518	cut in two/sever/cut off	cut a thing through so that it is in two pieces or more	
+s55519	cutting off/cut-off	<sattan>, cut off, with the noun suffix {-na}: the act or the point of cutting something off	
+s55520	cut off/divide off/separate	<khen>, divide, and <tan>, cut through, written as one word: part a thing in two so that the parts no longer join	
+s55521	cute/very pretty	<a>, <kilawm>, fitting or pretty, and <hilhial> written as one word: one that is charmingly pretty	
+s55522	shrewd/alert/watchful	<a> and <pilvang>, be alert, written as one word: the one who is watchful and sharp-witted, also said of a sentinel	
+s55523	cuticle/outer skin	the outermost layer of the skin, built with <vun>, skin, and <tung>, top	
+s55524	chicken skin	<ak>, chicken, and <vun>, skin, written as one word: the skin of a chicken, given by the word list for cuticle, the thin outer skin	
+s55526	duplicator/cyclostyle	<lai>, writing, and <heekna>, a thing that turns, written as one word: a machine turned by hand that makes copies of a writing	
+s55527	duckling	<vatawt>, duck, and <no>, young, written as one word: a young duck, also given for the young of a swan	
+s55528	tender shoot	<ziik>, shoot, and <ngeek>, tender, written as one word: the young tender tip of a plant, given by the word list for a cluster of flowers at the tip	
+s55529	shoot tip	<ziik>, shoot, and <dawn>, tip, written as one word: the very tip of a growing shoot, given by the word list for a cluster of flowers at the tip	
+s55530	tumour/growth/cyst/cancer	a lump of flesh that grows in the body where it should not, and {sameng natna}, the disease of such growths, cancer	
+s55531	cyst	a lump that forms in or under the skin	
+s55532	sprinkle water/sprinkling	<tui>, water, and <theh>, sprinkle, written as one word: sprinkle or splash water, and so baptism by sprinkling as set against <tuiphum>, and a name for a church that practises it	
+s55533	heartwood	the hard inner wood of the trunk of a tree, <sing>, valued for posts and carving because it lasts	
+s55534	valley	a valley, built on <guam>, valley, the second part is perhaps <kuam>	
+s55535	dam/reservoir	<tui>, water, and <cinna>, place of keeping, written as one word: a place where water is held back and kept	
+s55536	dam/sluice	<tui>, water, <khak>, shut, and the noun suffix {-na}, written as one word: a work that shuts water in	
+s55537	damageable/vulnerable/perishable	<a> and <kisiathei> written as one word: what can be damaged or ruined	
+s55539	marsh/damp place	<nawng>, marsh, and <lak>, midst, written as one word: wet and muddy ground, a dank place	
+s55540	dart/hurl	throw a spear or a dart at a target, built on <khawh>, thrust or throw a spear	
+s55541	be darted at/be hurled	<khawhzat>, hurl a spear or dart, with the prefix {ki-}: be thrown at, or throw at one another	
+s55542	not desire/not long for/be indifferent	<lunggulh>, long for, and <lo>, not, written as one word: have no desire for something	
+s55543	every day/daily/day-to-day	<ni>, day, and <sial>, each time, written as one word: every day, day after day	
+s55545	deadline/time limit	<a> and <hunciam> written as one word: the time fixed for it, the date by which a thing must be done	
+s55546	deadlock	<a>, <kilem>, <theih> and <lohna> written as one word: the state in which the sides cannot come to terms	
+s55547	deaf	not able to hear; also said of one whose ears are deafened by noise	
+s55548	deaf	not able to hear, with <bil>, ear	
+s55549	death toll	<a>, <si> and <zah> written as one word: the number of those who died	
+s55550	debacle/sudden disaster	<tuahsiat> and <vatna> written as one word: a misfortune that strikes all at once, a sudden collapse or rout	
+s55552	weakness/debility	<bah>, have no strength left, with the noun suffix {-na}: lack of strength, a weak point	
+s55553	spending/debit/disposal	<zeekkhia>, give out in a managed way, with the noun suffix {-na}: the giving out or spending of money or goods	
+s55554	debt	what is owed to another, a form of <leiba>	
+s55555	debt	money that is owed, <sum> with a long-vowel form of <ba>, owe	
+s55556	untruth/dishonesty/falsity/deceit	<thumaan> and <lohna> written as one word: the state of not being true or honest	
+s55557	wrong way/opposite	<a>, <hilo> and <lam> written as one word: the side that is not so, the wrong or contrary direction; it renders the English prefix mal	
+s55558	decided/settled	settled clearly and finally, with <khen>, divide	
+s55559	decision	the settling of a matter, a decision reached	
+s55560	declaration/announcement	<genzaak>, make known aloud, with the noun suffix {-na}: a making known, a public statement	
+s55561	worsening/decline/degeneration	<siatzaw>, worse, with the noun suffix {-na}: a becoming worse	
+s55562	downward slope/declination	<awnsuk>, lean downward, with the noun suffix {-na}: a leaning or sloping downward	
+s55563	rule no longer	<uk> and <nawnlo> written as one word: no longer rule, as a power that gives up a colony	
+s55564	break up/disband/scatter	divide a group or a people so that its parts lie apart, with <khen>, divide	
+s55565	not control/not rule	<uk> and <lo> written as one word: not rule or control, leave free	
+s55566	not control tightly	<ukcip> and <lo> written as one word: not hold under tight rule	
+s55567	decoration	<a> and <kizeem> with the noun suffix {-na}, written as one word: that with which a thing is adorned	
+s55568	lure/decoy/enticement	<a> and <zolna> written as one word: that by which it is enticed, a lure	
+s55569	subtraction/deduction/extraction	<dawhkhiat>, pull out, with the noun suffix {-na}: a pulling out, and in reckoning a taking away of an amount	
+s55570	be restless/be unquiet	<dai> and <lo> written as one word: not quiet, not at rest	
+s55571	defamation/slander	<minsiat> and <sakna> written as one word: the giving of a bad name to someone	
+s55572	defence/protection	<kihuu>, defend oneself or be defended, with the noun suffix {-na}: defence, protection	
+s55573	fencing/defence	<daikai>, put up a fence, with the noun suffix {-na}: a fencing in, a guarding against others	
+s55575	way of defence	<a>, <kihuutna> and <zia> written as one word: the manner in which one defends oneself	
+s55576	defer/put off	<suanto> and <lai> written as one word: go on moving a thing to a later time	
+s55578	defiant manner	the manner of one who stands against and refuses what is said, {tangnialna} with <zia>	
+s55579	deficiency/inefficiency	<cin> and <zawhlohna> written as one word: the failing to reach what is needed	
+s55580	deficiency/insufficiency	the state of not being enough, compare <cinlohna>	
+s55581	short of/insufficient/unfit	<cing>, reach the full amount, <zo> and <lo> written as one word: not able to reach the amount or standard needed	
+s55582	defile/make dirty	make a thing dirty or unclean	
+s55583	explanation/clarification	<a> and <gencianna> written as one word: his or her clear statement of a matter, what is said to make it clear	
+s55584	deflection	<kawi>, not straight, and <khiatna> written as one word: a bending away from the straight line	
+s55585	turning off/deflection/exit	<pialkhiat>, turn aside and leave, with the noun suffix {-na}: a turning away from a path, and the place where one leaves a road	
+s55587	deformed/malformed	born with a body that is not formed as usual, with <piang>, be born	
+s55589	abolish/discontinue	<omsak> and <nawnlo> written as one word: no longer let a thing be, do away with it	
+s55590	no longer good/defunct	<gina> and <nawnlo> written as one word: no longer of use, no longer working	
+s55591	degenerate/sink lower	<niamkiat> and <zaw> written as one word: go down further in quality or standing than before	
+s55592	bring down/drop/lower/downgrade	<kiasuk>, fall down, with the causative <sak>: make something or someone fall or come down, and so lower in rank or grade	
+s55593	dry out/toast/dehydrate	make dry by heat, as food that is toasted or dried out	
+s55594	be no longer used/fall into disuse	<kizang> and <nawnlo> written as one word: be used no more, be out of use	
+s55595	no longer good/gone bad	<hoih> and <nawnlo> written as one word: not good any more, spoiled or out of order	
+s55596	delay/slowness	<zia>, manner, with <ol>, slow, and the noun suffix <na>: being slow in coming or in acting	
+s55597	go in a curve/swerve/glance off	<kawi> and <pai> written as one word: go in a bend and not straight, said also of a bullet that hits a tree and turns aside	
+s55599	delicate/needing care	<dop>, treat gently, with <kul>, must: that has to be handled with care because it is easily spoiled	
+s55601	drawing out/deliverance	<thohkhia>, draw out, in its form before the noun suffix <na>: a taking out, given by the word list for deliverance	
+s55602	small deep valley	<guamthuk>, deep valley, with <zang>: the level floor of a deep valley, a small valley	
+s55603	not genuine/deceptive	<atatak> and <lo> written as one word: not real, only seeming to be so	
+s55604	reduce/lower/demote	<kiamsuk>, go down, with the causative <sak>: make less or lower, bring down in rank	
+s55605	not good/poor/unfit to eat	<limci> and <lo> written as one word: not fresh or good, of food not fit to eat or drink, and of other things poor	
+s55606	thickness/density	<a> and <sahna> written as one word: its thickness, how thick or dense a thing is	
+s55608	sweep away/wash away	<taai>, sweep away, with <mang>, away: of running water, carry off the soil or what lies on it	
+s55609	wear away/rub out/erode/obliterate	<nawt>, rub or wear, with <mang>, away: rub or wash a thing until nothing of it is left	
+s55610	retraction/revocation/withdrawal	<kheelkik>, change back, with the noun suffix <na>: taking back what was said or agreed	
+s55611	deny/not accept/not think so	<hisa> and <lo> written as one word: not consider a thing to be so, not agree that it is true	
+s55612	lament/moan	make sounds of grief, mourn aloud, the list gives it also for what is to be lamented	
+s55613	regrettable/deplorable/rueful	<kisik>, regret, here with a long vowel, and <huai>, worthy of: that is to be regretted	
+s55614	spread out/deploy	spread a thing out wide, with <khia>, out, of troops send them out over an area	
+s55615	press down/depress	<nengniam>, press down, with <suk>, downward: push a thing down low	
+s55616	loss/being deprived	<taan>, lose or be deprived of, with the noun suffix <na>: being without what one should have	
+s55617	very middle/depths	<a>, <laizang> and <tak> written as one word: the very middle of a thing, its inmost part	
+s55618	derived/taken from another	<a> and <kilasawn> written as one word: that is taken on from something that was there before, not original	
+s55619		<a>, <kilawm> and <zia> written as one word: the way in which someone or something is fitting or worthy, given by the word list for deserving	
+s55620	form/formation/how it came about	<a> and <piandan> written as one word: the way a thing is formed or the way an event happened	
+s55621	designer/planner	<a>, <geel> and <mi> written as one word: the person who plans or designs a thing	
+s55622	no longer make/stop doing/desist	<bawl> and <nawnlo> written as one word: make or do no more	
+s55623	desolate place/sad place	<a>, <dahhuai> and <mun> written as one word: a place that is sad to see, left waste	
+s55624	sending out/dispatch	<khakkhia>, send out, in its form before the noun suffix <na>: the sending of a person, a message or goods	
+s55625	despise/find hateful/loathe	<huathuai>, hateful, with <sa>, consider: feel a person or thing to be hateful	
+s55626	destination	<paisawm>, intend to go, with the noun suffix <na>: the place one means to go to	
+s55627	destroy/ruin/devastate	<siagawp>, be ruined, with the causative <sak>: bring to complete ruin	
+s55628	destroyer	<a>, <susia> and <mi> written as one word: the one who destroys	
+s55629	detainee/prisoner	<a>, <kikhum> and <mi> written as one word: a person who is shut in or held	
+s55630	detainee/person kept	<kep>, keep, with <mi>, person: a person who is kept or held, as the word list gives it, elsewhere it is seen for the one who keeps a child	
+s55631	search/detection/investigation/discovery	<zongkhia>, search out, in its form before the noun suffix <na>: the searching out of a thing, as of a hidden object or the cause of an illness	
+s55632	detector/finder	<zongkhia>, search out, with the ending {-tu}, the one that does it: a person or device that searches a thing out	
+s55633	detector/discoverer	<mukhia>, find out, with the ending {-tu}, the one that does it: a person or device that finds a thing out	
+s55634	soap	soap for washing the body or clothes, the same as <saban>	
+s55635		<ngimna>, aim, with <zia>, manner: the way a thing is aimed at, given by the word list for determinant	
+s55636		<tupna>, purpose, with <kip>, firm, and <zia>, manner: how firm a purpose is, given by the word list for determinant	
+s55637	determination/resolve	<ngim>, purpose, with <tentan>, persistently, and the noun suffix <na>: holding to an aim without giving up	
+s55638	be determined/resolve	<tum>, aim at, with <tentan>, persistently: set the mind on a thing and hold to it	
+s55639	rejection/refusal	<nolh>, reject, with the noun suffix <na>: the turning away of a person or a thing, the word list gives it also for deterrence	
+s55640	blow apart/shatter/detonate	<puak>, explode, with a second part that is not certain: burst so that the pieces fly apart	
+s55641	detour/roundabout way	<kual>, around, with <vial>, round, and the noun suffix <na>: going round by another way to avoid something	
+s55642	devastation/destruction	<siatgawp>, be utterly ruined, with <sakna>, written as one word: the act of laying waste, devastation	
+s55643	contrivance/device/invention	<ngaihsut>, think, with <khiatna>, bringing out, written as one word: something thought out, a device or contrivance	
+s55644	empty/vacant/idle	with nothing in it, empty, built on <awng>, empty, {hun awngkhong} is free time with nothing to do	
+s55645	empty/vacant	with nothing in it, empty, given beside <awngkhong> with the same meaning	
+s55647	alertness/shrewdness	<pilvang>, be alert or shrewd, with <zia>, manner, written as one word: the way of being alert and shrewd, given for dexterous	
+s55648	wisdom/cleverness	<pil>, wise, with <zia>, manner, written as one word: how wise someone or something is, the way of being wise	
+s55649	diary/journal	a book in which the events of each day are written down	
+s55650	have done/did/finish doing	<hih>, do, and <khin>, already, written as one word: have done, did	
+s55651	difference/unlikeness	<a>, <kibat>, alike, and <lohzia> written as one word: how things are not alike, the difference between them	
+s55652	difference/mismatch	<a>, <kituah>, match or agree, and <lohzia> written as one word: how things do not match, their difference	
+s55653	not make the same/differentiate	<kibangsak>, make the same, and <lo>, not, written as one word: not make alike, treat or make as different	
+s55654	be scattered/be dispersed/scatter	<kikhen>, be divided, with <zaak>, spread out, written as one word: be divided and spread over many places	
+s55655	shine in all directions/diffract	<taang>, shine, with <ziazua>, all about, written as one word: of light, shine out in every direction	
+s55656	be scattered/spread/diffuse	<kitheh>, be scattered, with <zaak>, spread out, written as one word: be scattered and spread about, of people, things or a liquid	
+s55657	dig/dig the ground	<lei>, ground, and <to>, dig, written as one word: dig the earth	
+s55658	dike/dam/embankment	<tui>, water, and <dalna>, barrier, written as one word with a long vowel: a bank that holds water back	
+s55659	diligence/industry	<kizen>, diligent, with the noun suffix {-na}: careful and steady effort at work	
+s55660	dip/immerse	<diah>, dip, and <suk>, down, written as one word: put a thing down into a liquid	
+s55661	point out/show/indicate/direct	<kawk>, point at, and <muh>, see, written as one word: point something out so that it is seen or known	
+s55662	direction/hint/pointing out	<kawkmuh>, point out, with the noun suffix {-na}: a pointing out, a direction or hint	
+s55663	way of directing	<kawkmuhna>, direction, with <zia>, manner, written as one word: the manner of pointing out, given for directive	
+s55664	way of commanding	<sawlna>, command, with <zia>, manner, written as one word: the manner of ordering, given for directive	
+s55665	way of instructing	<hilhna>, instruction, with <zia>, manner, written as one word: the manner of instructing, given for directive	
+s55666	disadvantage/lack of gain	<meet>, profit, with <lohna>, written as one word: the fact of not gaining, what is unprofitable in something	
+s55667	disadvantage/inconvenience	<a>, <kilem> and <lohna> written as one word: what does not go well or is not favourable, a disadvantage	
+s55668	disapprove/not think good	<pha>, good, <sa>, deem, and <lo>, not, written as one word: not find a thing good, disapprove of it	
+s55669	disapproval	<pha>, good, <sak>, deem, <pih>, together with, and <lohna> written as one word: the fact of not joining in finding a thing good, disapproval	
+s55670	disapproval/unwillingness	<awilo>, disapprove, with the noun suffix {-na}: the fact of not approving or not agreeing to something	
+s55671	not associate with/dissociate/excommunicate	<kipawlpih>, associate with, and <lo>, not, written as one word: keep no company with someone, shut out from fellowship	
+s55672	not accompany/disassociate	<kithuahpih>, keep company with, and <lo>, not, written as one word: not keep company with someone	
+s55673	disbelief/unbelief	<taksang>, accept as true, with <lohna>, written as one word: the fact of not believing	
+s55674	disbelieve/not believe/distrust	<taksang>, accept as true, and <lo>, not, written as one word: not believe	
+s55675	discernment/way of understanding	<theihsiam>, understand, with <zia>, manner, written as one word: how well a person understands and judges, given for discerning	
+s55676	not hide/disclose/be open about	<im>, hide, and <lo>, not, written as one word: not keep a thing secret, tell it openly	
+s55678	insecure/uneasy/not at ease	<lungmuang>, at ease, and <lo>, not, written as one word: not feeling safe or at rest in mind	
+s55679	discontinue/no longer continue	<zom>, continue, and <nawnlo>, no longer, written as one word: not go on with something any more	
+s55680	not encourage/discourage	<hansuah>, urge on, and <lo>, not, written as one word: not urge someone to do a thing	
+s55681	not encourage/discourage	<hanthawn>, urge on, and <lo>, not, written as one word: not urge or encourage someone to do a thing	
+s55682	discouragement/lack of encouragement	<hansuah>, urge on, with <lohna>, written as one word: the fact of not encouraging	
+s55683	make distrusted/bring into discredit	<muanglo>, not trust, with the causative <sak> written as one word: cause someone or something not to be trusted	
+s55684	discontinuous/separate/discrete	<zomto>, carry on, and <lo>, not, written as one word: not going on in one piece, standing apart	
+s55685	disgrace/humiliation/dishonour	<maizumsak>, put to shame, with the noun suffix {-na}: the act of shaming someone	
+s55686	disgust/loathing/abhorrence	<kih>, loathe, with the noun suffix {-na}: strong dislike of something	
+s55688	dishearten/discourage/frighten	<meidawi>, fainthearted, with the causative <sak>: take away the courage of someone	
+s55689	dishonest/untrustworthy	<diktat>, honest, and <lo>, not, written as one word: not honest or upright	
+s55690	not be infected/be unaffected/not spread	<kilawh>, be passed on or spread, and <lo>, not, written as one word: of a disease or a fire, not pass to someone or something, the list also gives it for disinfect	
+s55691	not infect/not pass on	<lawh> and <lo>, not, written as one word: of a disease, not pass to another, the list gives it for disinfect	
+s55692	disinherit/not let inherit	<luahsak>, let inherit, and <lo>, not, written as one word: not let someone inherit, cut off from an inheritance	
+s55693	not be united/disintegrate/fall apart	<kipumkhat>, be united, and <lo>, not, written as one word: not be as one, break up into parts	
+s55694	disconnect/disjoint/not let join	<kizomsak>, join, and <lo>, not, written as one word: not let things be joined, take apart what was connected	
+s55695	misplace/put in the wrong place/displace	<koih>, put, and <khial>, wrongly, written as one word: put a thing where it does not belong	
+s55696	termination/dismissal/ending/suspension	<tawpsak>, bring to an end, with the noun suffix {-na}: the ending of something, and after {nasepna pan} dismissal from work	
+s55697	disorderly/in disorder	in disorder, not in its arranged place	
+s55698	unequal/not matching/disparate	<kigual> and <lo> written as one word: not standing in one line with each other, not of the same rank or measure	
+s55699	not lacking/dispensable	<tangsam>, lack, and <lo>, not, written as one word: not be short of it, and so of a thing, one that can be done without	
+s55700	administer/be in charge of	<a> and <thusai>, the one in charge, written as one word: the one who is in charge of a matter and deals it out	
+s55701	display/expose/spread out/set out	<pho>, spread out, and <khia>, out, written as one word: lay a thing out in the open to dry or to be seen, and of a teaching set it out for people	
+s55703	disseminate/spread/circulate/share	<hawm>, share out, and <zaak>, spread out, written as one word: give out widely, as news, ideas or authority	
+s55704	quarrel/be in dissension	quarrel fiercely with one another, be in angry disagreement; the last part is the intensifier <gawp>	
+s55705	disagree/dissent/not agree with/not approve	<thukimpih>, agree with, and <lo>, not, written as one word: not agree with a person or a decision	
+s55706	dissent/disagreement	<thukimpih>, agree with, and <lohna>, not doing, written as one word: the fact of not agreeing with someone	
+s55707	soluble/dissoluble	<a>, <tui>, liquid, and <thei>, able, written as one word: that can turn to liquid, that can be dissolved	
+s55708	dissolution/separation/breaking up	<kikhensak>, make separate, with the noun suffix {-na} and written with a hyphen: the breaking up of a body into its parts	
+s55709	dissolution/dissolving	the turning of a thing into liquid, from <tui>, water	
+s55710	dissolve	<kitam>, be broken up, and <khawmsak>, bring together, written with a hyphen: make a thing break up and mix into another	
+s55711	dissolve/make melt away	<tuimang>, melt away, with the causative <sak>: make a thing turn to liquid and vanish	
+s55712	distance/gap	<a> and <kihalna> written as one word: how far apart two things are, the space between them	
+s55713	distinction/unlikeness/difference	<kibatpih>, be like, and <lohna>, not being, written with a hyphen: the fact of not being like another, what sets a thing apart	
+s55714	distort/twist out of shape	<heek>, twist, and <sia>, bad, written as one word: twist a thing so that it loses its proper shape or look	
+s55715	distortion/twisting	<kawikaih>, twist, with the noun suffix {-na}: the pulling of a thing or a matter out of its straight course	
+s55716	distortion/twisting	<hei>, turn, and <kawina>, crookedness, written as one word: the turning of a thing or a matter so that it is crooked	
+s55717	disturbance/troubling	the act of disturbing or troubling, {sukbuai}, disturb, with the noun suffix {-na}	
+s55718	those no longer used/disused things	<zatnawnloh>, no longer use, and the plural <te> written as one word: the things that are no longer used	
+s55719	diverge/spread out/branch off	<zaam>, spread, and <khia>, out, written as one word: spread outward and away from one line	
+s55720	diversify/make different	<kibanglo>, different, and the causative <sak> written as one word: make things be unlike one another	
+s55721	dividend/share	<a> and <kihawmna> written as one word: what is shared out, the part that falls to each when a thing is divided	
+s55723	dizzy/giddy	<lungmang>, be at a loss, with the descriptive {tiai-tuai}: the head swims and one is unsteady	
+s55724	dizzy/not clear-headed	<lung>, mind, <vaak>, be bright, and <lo>, not, written as one word: the mind is not clear	
+s55725	track/follow closely/dog	<kan>, look for, and <zui>, follow, written as one word: keep after someone, searching out where he goes	
+s55726	watch and follow/follow closely/dog	<en>, look, and <zui>, follow, written as one word: follow someone keeping the eyes on him	
+s55727	dogma/belief/doctrine	<thu>, matter, and <up>, believe, written with a hyphen: what is believed, a fixed teaching that is held as true	
+s55728	being done/in progress	<akisem>, it is done, and <laitak>, at the very time, written as one word: while it is being done, what is being done now	
+s55729	keep under/hold down/be confined	<op>, sit on as a bird on its eggs, and <cip>, tightly, written as one word: hold down under oneself, dominate a people or a country; of a sick person, lie confined to bed	
+s55731	beetle/dor beetle	a beetle, the name the other dictionary also gives for beetles in general	
+s55732	dot/point/spot	a small round mark made with the point of something	
+s55733	not of sound mind/feeble-minded/foolish	not sound or clear in the mind, said of a person who is weak in understanding	
+s55734	downward/down	<a>, <suk>, downward, and <lam>, direction, written as one word: the downward side, toward the lower part	
+s55735	be downcast/be dejected	<lung>, heart, <tung>, arrive, and <lo>, not, written as one word: the heart is not in it, be low in spirit	
+s55736	residue/pulp/draff	<a> and <tee>, pulp, written as one word: what is left of a thing when its juice or liquid has been taken out	
+s55737	dregs/sediment/draff	<a> and <dat> written as one word: what settles at the bottom of a drink or is left when the liquid is gone, as in <tawdat>	
+s55738	dregs/sediment	<a> and <tawdat> written as one word: its dregs, what settles at the bottom	
+s55739	dregs/draff/residue	its dregs, {niak}, what is left over when the liquid is taken off	
+s55740	drake/gander	<vatawt>, duck, and <pa>, male, written as one word: the male of a duck or goose	
+s55741	draper/cloth seller	<puan>, cloth, with <zuakpa>, seller, written as one word: a man who sells cloth	
+s55742	draught/current of air	<huih>, air, with <paina>, going, written as one word: a stream of air that passes through a room or a place	
+s55743	drawer	<kuang>, an open box, <dawh>, pull out, and <theih>, able, written as one word: a box that can be pulled out of a table or cupboard	
+s55744	drawer/chest of drawers	a drawer, and a piece of furniture with drawers	
+s55745	drawing	<lim>, picture, with <gelhna>, writing, written as one word: a picture made with lines, or the making of it	
+s55746	plan/thought/idea	<lunggeel> with the noun suffix {-na}: what someone thinks out or has in mind for the future, a plan or an aspiration	
+s55747	dregs	<a> and <tawkheng>, bottom, written as one word: what is left at the bottom of a vessel	
+s55748	driver	<a>, <hawl>, drive, and <mi>, person, written as one word: the person who drives	
+s55749	drizzle	light rain that falls in fine drops	
+s55750	drone/male bee	<khuai>, bee, with <pa>, male, written as one word: the male bee	
+s55751	drone	a name for the male bee; elsewhere the same letters are mostly {sak huai} written as one word after a word of feeling	
+s55752	drove/driven back	<not>, push or drive back, and <khin>, already, written as one word: have driven back	
+s55753	drove/driven	<hawl>, drive, and <khin>, already, written as one word: have driven	
+s55754	drunk/drink up	<dawn>, drink, and <khin>, already, written as one word: have drunk, drink to the end	
+s55755	dry/not wet	<kawt>, wet, and <lo>, not, written as one word: not wet, not made wet	
+s55756	soak in water/dip in water/duck	<tui>, water, and <diah>, dip, written as one word: put a thing or oneself into water	
+s55757	dug	<to>, dig, and <khin>, already, written as one word: have dug	
+s55758	dump/rubbish heap	a place where rubbish is thrown, apparently <mun>, place, with <buah>, pour	
+s55759	drive mad/make a fool of/dupe	<hai>, foolish or mad, <gawp>, utterly, and the causative <sak> written as one word: make someone quite foolish or mad	
+s55760	duplicate/matching	<a> and <koppih>, paired with, written as one word: the one that makes a pair with another, its copy	
+s55761	dye	<khau>, thread, with <zaa>, chemical, written as one word: a substance for colouring thread	
+s55762	dye	<a>, <niim> and <na> written as one word: that with which a thing is made dark in colour; the one article sentence has the form for the gloom of snow	
+s55763	dysentery	a sickness of the bowels with frequent loose stools	
+s55764	dysentery/diarrhoea	<eek>, stool, <tui>, water, and <natna>, disease, written as one word: a sickness with watery stools	
+s55765	eager/keen	having a strong wish for something or interest in it; with <sak>, make eager	
+s55766	eagerly/too eagerly	<ngaklah>, be eager, and <lua>, too much, written as one word: with great or too great eagerness	
+s55767	sharp-eyed/eagle-eyed/observant	<mit>, eye, with <pil>, wise, written as one word: quick to see and notice things	
+s55768	eaglet/young eagle	the young of an eagle or other large bird of prey; the last part is <no>, young	
+s55769	early/early in the morning	<zing>, morning, and <tuung>, just beginning, written as one word: at the very start of the morning	
+s55770	earring	an ornament worn in the ear	
+s55773	easy	<a> and <ol>, easy, written with a hyphen: what is easy, the easy one	
+s55774	echo	<a>, <mual>, hill, and <thawn>, resound, written as one word: a sound that comes back from the hills	
+s55775	edifice/large building	a large and imposing building, <inn> with a further part and <pi>, great	
+s55776	cut clean/shave off/efface	<meet>, shave, and <mai> written as one word: cut or shave a surface clean so that nothing stands on it, as grass along a road	
+s55777	efficiency/ability to complete	<picin>, be complete, with <zawhna>, being able, written as one word: the ability to carry a thing through to completion	
+s55778	help to the utmost	<theihtawp>, utmost, and <panpih>, help, written as one word: help with all that one can do	
+s55779	effort/endeavour/exertion	<tha>, strength, with <suah>, bring out, written as one word: the putting forth of strength	
+s55780	spread out/display	<zalh>, spread out, with <khia>, out, written as one word: spread a thing out flat or open to view	
+s55781	overflow/flow out/spill over	{leet}, the same word as <let>, overflow, with <khia>, out: of a liquid, rise over the edge and run out; also of things that come in great number	
+s55782	either/one side	<khat>, one, with <zawsang>, written as one word: one or the other of two, one side more than the other	
+s55783	elbow	<ban>, arm, with <kiu>, corner, written as one word: the joint of the arm	
+s55784	older/elder	<khangham>, aged, and <zaw>, more, written as one word: older, the older people	
+s55785	lift up high/elevate	<sang>, high, and <domto>, lift up, written as one word: raise to a higher place	
+s55786	raise/elevate	<kaangto>, rise up, with the causative <sak>, written as one word: make a thing rise	
+s55787	hold up high/raise high/elevate	<sang>, high, and <khaito>, raise, written as one word: lift a thing up high	
+s55788	elevator/lift	<a>, <khaitoh>, lift up, and <na> written as one word: the thing that lifts up, a lift in a building	
+s55789	elevator/lift	<a>, <domsang>, lift up, and <na> written as one word: the thing that raises up, a lift in a building	
+s55790	press down/suppress/keep under	<nuai>, under, with <nen>, press down, written as one word: push someone down and keep him under, and so pass over or leave out	
+s55791	pass over/skip	<pai>, go, <nelh>, over, and <to>, onward, written as one word: go on over something, leave it out	
+s55792	withdrawal/getting away/removal	<kihepkhiat> with the noun suffix <na>: the act of getting away from a person or place, or the removal of someone from a position	
+s55793	be free/not be bound	not be caught or held, be free of a snare or bond, <awh> taken as the form of <awk>, be caught, with <kha> and <lo>	
+s55794	embroidery/needlework	<puanzep> with the noun suffix <na>: ornamental work sewn on cloth	
+s55795	embroidery/knitting/needlework	<khauphan> with the noun suffix <na>: work done with thread and needle	
+s55796	serious matter/trouble/problem	<thu>, matter, with <poi>, be a loss: a grave matter that causes concern or harm, a difficulty that has come up	
+s55797	emigration/migration	<peemkhia> with the noun suffix <na>: leaving the home place or country to settle elsewhere	
+s55798	launch/firing/discharge/emission	<lotkhiat>, throw out, with the noun suffix <na>: the sending out of something, as the launch of a missile	
+s55799	exaggeration/overstatement	<a> and <ki> with <uanggen>, written as one word: what is said more strongly than the fact, which the list gives for emphasis	
+s55800	empty/hollow	with nothing inside, explained in the list as {asung hawm} and {asungah bangmah omlo}	
+s55801	empty-handed/bare-handed/unarmed	<khut>, hand, with <guak>, alone: with nothing in the hands, bringing or carrying nothing, usually followed by <tawh>	
+s55802	be confined/be walled in/be shut in	<ki> with <kulh>, wall, and <cip>, tightly, written as one word: be closed in within one place, and of a camp be fenced round	
+s55803	put in together/enclose/pack together	<guang>, put in, and <khawm>, together, written as one word: put things into one container together	
+s55804	enclosure/fence	<umcip>, close in on all sides, with the noun suffix <na>: what shuts a place in, or the place shut in	
+s55805	enclosure	<a> with <kikhum>, be shut in, and <khawm>, together, written as one word: what is shut in together	
+s55806	encounter/run into/clash with	<ki> with <sutuah> and <kha>, happen to: come up against someone unexpectedly, as against an enemy one did not look for	
+s55807	obstruction/hindrance/encumbrance	<dongkhak>, block, with the noun suffix <na>: something that blocks or holds back	
+s55809	endless/without end	<tawp>, end, and <neilo>, not have, written as one word: having no end	
+s55810	resistance/endurance/stamina	<dozawh>, be able to fight, with the noun suffix <na>: the power to stand against illness, strain or hardship	
+s55811	enemy/opponent/adversary	<langpang>, oppose, with <mi>, person, written as one word: one who stands against another	
+s55812	enthusiastic/eager/energetic	<lawp>, eager, with <tuak>: full of keenness for what is to be done	
+s55813	energetic/light of effort	<tha>, strength, with <zaang>, light: needing or feeling little effort, and so of a person lively and energetic	
+s55814	energy/vigour	<tha>, strength, with <thawhna>, rising: strength that is roused and at work	
+s55816	prohibition/restriction/ban	<kikhaam> with the noun suffix <na>: a forbidding or holding back, a rule that something is not to be done	
+s55817	engagement/betrothal	the promise of a young man and a young woman to marry each other, as the list explains it	
+s55818	engine/motor	<akipei>, the one that turns, with the noun suffix <na>: the turning part that drives a machine, given in the list beside <set>	
+s55819	engulf/swallow up	<valh>, swallow, and <khin>, already, written as one word: swallow something whole so that it is gone	
+s55820	set ablaze/kindle/set on fire	<hal>, burn, with <kuang>, blaze, written as one word: set a thing burning with flames	
+s55821	light a fire/kindle	set <mei>, fire, burning: light a fire, as people do to sit round it at night	
+s55822	enlighten/give understanding	<lung>, mind, with <vaak>, be bright, and the causative <sak>, written as one word: make the mind clear, cause someone to understand	
+s55823	make aware/enlighten/awaken	<khuaphawk>, be aware, with the causative <sak>: cause someone to notice and understand	
+s55824	enlighten	<a> and <lungvaaksak> written as one word: he enlightens, the one who makes the mind clear	
+s55825	great wickedness/enormity	<gilo>, wicked, in the form {giloh}, with <luatna>, excess: wickedness beyond measure	
+s55826	many/much/a lot	<a> and <tampi> written as one word: a great number or amount, also standing alone as the many	
+s55827	enrage/infuriate	<hehgawp>, be furious, with the causative <sak>: make someone very angry	
+s55828	pleasant to see/entertaining/worth seeing	<muhnop>, pleasant to see, with <huai>, worthy of: a pleasure to look at or watch	
+s55830	speak harshly/rave	<ngawh>, harshly, with <pau>, speak, written as one word: talk loudly and roughly, explained in the list as {kam khauh pau}	
+s55832	share/stock	the amount of a share held in a business, <sehtan>, share, with <zah>, amount, written with an added letter between the two	
+s55833	destruction/ruin/loss	the state of being lost or coming to nothing, the noun of {manthat}, a form of <mangthang>, perish	
+s55834	eraser/rubber	<nulmang>, wipe away, with the noun suffix <na>: a thing for rubbing out what is written	
+s55835	building up/establishment/erection	<lamkhiat>, build up, with the noun suffix <na>: the act of putting up a building or of setting up a state, a union or a system	
+s55836	erosion/wearing away	<nawt>, wear away, with <mang>, away, and the noun suffix <na>: the rubbing or washing away of a thing until it is gone	
+s55837	disappearance/perishing/end	<beimang>, vanish, with the noun suffix <na>: the passing of a thing out of existence, which the list also gives for erosion	
+s55838	lewdness/lust/eroticism	<hukna> and <lanna>, two words for sexual desire, joined with a hyphen: sexual desire and what stirs it	
+s55839	mistake/error	something done wrongly, the noun of {sukkhelh}, <su>, do, with <khelh>, wrongly	
+s55840	erupt/burst out	<kitam> and <zaak> written as one word: burst and spread out, as a volcano does	
+s55841	eruption	a bursting out, as of a volcano, apparently the noun of <kitamzaak> written with p for m	
+s55842	especial/particular	<a> and <hideuh> written as one word: that which is rather so, more so than the rest	
+s55843	espionage/spying/secret watching	the watching of a person or place in secret, <etsim> with the noun suffix <na>	
+s55844	eavesdropping/espionage	listening in secret, built on <ngaih>, listen, in the way <etsimna> is built on looking	
+s55845	essence/the most necessary thing	<a>, <kiphamawh> and <pipen> written as one word: that which is needed most of all	
+s55846	essence/main point	<thubulpi> and <pen> written as one word: the very chief substance of a matter	
+s55847	inseparable/essential	<a>, <kikhen> and <theilo> written as one word: that cannot be separated, the list gives it for essential	
+s55848	production/manufacture/making	the making and bringing out of goods, <kibawlkhia> with the noun suffix <na>, the list gives it for establishment, the founding of something	
+s55849	esteem/respect	<simmawh> and <lohna> written as one word: not despising, holding a person in regard	
+s55850	estimate/reckon/calculate/work out	<tuat> and <khia> written as one word: work out a number or a cost	
+s55851	estrange/alienate	make persons who were close become as strangers to each other	
+s55852	keep aloof/be estranged/stand apart	hold oneself apart from others and have nothing to do with them	
+s55853	confluence/river junction/estuary	the place where two streams meet, also the name of a village founded at such a place	
+s55854	eternity/changelessness	<kikhel> and <ngeilohna> written as one word: the state of never changing	
+s55855	inclination/bent/ethos	<uuk> and <dan> written as one word: what a person or a group is keen on and the manner of it, the list gives it for ethos	
+s55857	excavation/digging out/extraction	the digging of something out of the ground, as oil or what lies buried, the noun of <tokhia>	
+s55858	uncovering/bringing out/excavation	the bringing of what is hidden out into the open, of a thing in the ground or of a meaning, the noun of <kalkhia>	
+s55859	exceed/surpass/transcend	go beyond a limit, or be better than another, the second part is <val>	
+s55860	excess/what exceeds	<a> and <khengval> written as one word: that which goes beyond the amount or time allowed, with <in> after it, in excess, too much	
+s55861	excess/what exceeds	<a> and <khumval> written as one word: that which goes beyond or surpasses	
+s55862	exceedingly/far too much	<akhumval> with <lua>, too much: going very far beyond	
+s55863	excel/surpass	be better than others, do better than all the rest	
+s55864	excel greatly/far surpass	<khupp> with <gawp>, completely: be far better than the others	
+s55865	excellence	the state of far surpassing others, <khuppgawp> with the noun suffix <na>	
+s55866	except/excluding/apart from	<kihello> and <in> written as one word: without that being included, placed after what is left out	
+s55867	exchange/interchange	<kikheng> and <tuah> written as one word: give one thing and take another in return from each other	
+s55868	exchange/interchange	<kilaih> and <tuah> written as one word: put one in the place of the other, each taking what the other had	
+s55869	astonishing/surprising	<lamdangsak> and <huai> written as one word: such as to cause wonder, the list gives it for excitable	
+s55870	alarming/startling	<linglawng> and <huai> written as one word: such as to startle or shake a person, the list gives it for excitable	
+s55871	excite/stir/rouse	<lungsim> and <phawng> written as one word: stir the heart or mind of a person	
+s55873	excitement/stirring of the heart	<lungsim>, <phawn> and <na> written as one word: the stirring of the heart or mind	
+s55874	exclamation/shout/outcry	<ot> and <khiatna> written as one word: a crying out aloud	
+s55875	exclamation/outcry	a loud cry let out, <kikokhia> with the noun suffix <na>	
+s55876	way of exclaiming/manner of shouting out	<ot> and <khiatzia> written as one word: the manner of crying out, the list gives it for exclamatory	
+s55877	exclude/leave out	<huamsak> and <lo> written as one word: not let something be taken in or covered	
+s55878	shun/excommunicate	<kihopih> and <lo> written as one word: not speak or have fellowship with a person, the list gives it for excommunicate	
+s55879	exempt/let off	free a person from a duty such as a fine or common labour, the other dictionary writes <awl> for this	
+s55880	exemption	being let off a duty, <oll> with the noun suffix <na>	
+s55881	exemption/breaking away/secession	<peng> and <khiatna> written as one word: getting clear of a duty, and in politics the breaking away of a people from a union	
+s55882	exertion/strengthening oneself	the putting forth of one's strength, <kithakhauhsak> with the noun suffix <na>, written here without the h of <khauh>	
+s55883	exertion/rousing of strength	the gathering and use of one's strength, <thasaan> with the noun suffix <na>	
+s55884	exhaust/use up completely	<zangh>, <mang> and <khin> written as one word: have used a thing until nothing is left, <zangmang> is the same verb	
+s55885	be exhausted/be completely used up	<beisiang> and <khin> written as one word: be gone already with nothing left	
+s55886	exhilarate/excite/enliven	<kilawp> and <sak> written as one word: make people excited and eager	
+s55887	persistent asking/entreaty/exhortation	<nget>, <keeikaai> and <na> written as one word: asking again and again without giving up, the list gives it for exhortation	
+s55888	spread out/expand	<zau> and <in> written as one word: spreading wide	
+s55889	expansion/spreading out	the spreading of a thing out wide, <zalh> with the noun suffix <na>	
+s55890	spend/expend	<sum>, money, and <zangh>, use, written as one word: spend money	
+s55891	examination/inspection/test/experiment	<et>, look, with <khiatna>: a looking into something to find out how it is, an inspection, test or experiment	
+s55892	explode/burst	go off with a blast, given beside <puakkham>	
+s55893	use up/spend/exploit	<zangh>, use, with <khia>, out: put to use, spend, make full use of	
+s55894	explosive	able to explode, <a>, {puakkhamp}, a spelling of <puakkham>, and <thei>, able, written as one word	
+s55895	display/exposure/showing	<pho>, spread out, with <khiatna>: the laying out of something in the open for all to see, a display, also showing off	
+s55896	exposure/uncovering	the bringing of something into the open, given beside <phokhiatna> and <honkhiatna>	
+s55897	opening/launch/inauguration	<hon>, open, with <khiatna>: the opening of something new, such as a programme, a product or a cabinet	
+s55898	be spread out/be extended	<ki>, <zalh>, spread out, and <sak>, cause, written as one word: be made to spread out, be extended	
+s55899	stretched out/extended	<zankhiat>, stretch out, with the ending {-sa}, already done: stretched out	
+s55900	spread out/extended	<zalh>, spread out, with <khiatsa>, out and done: spread out, laid out	
+s55901	extended/moved on	<khiin>, move, <toh>, onward, and the ending {-sa}, already done: moved on, said of what has been extended or put later	
+s55902	extension/widening	<zaisak>, make wide, with the noun suffix <na>: the making of something wider or larger	
+s55903	exterior/outer	<apua>, the outside, and <nung>, back, written as one word, given beside <apualam>: on the outside	
+s55904	have perished/be extinct	<simang>, perish, with <khin>, already: all have died, none are left alive	
+s55905	extinguish/put out	<phelh>, quench, and <mit>, go out, written as one word: put out a fire	
+s55906	extraction/digging out	the taking or digging of something out of where it is fixed	
+s55907	extravagance/wastefulness	the wasteful spending of money and goods	
+s55908	extravagant/wasteful	<a> and <thangtat> written as one word, here of one who is careless and wasteful with money and goods	
+s55909	extravagant/wasteful	spending money and goods without care	
+s55910	overly keen/fanatical/obsessed	<uk>, be keen on, with <lua>, too much: be too fond of something, be carried away by it	
+s55911	extreme/too high	<sang>, high, <tun>, reach, and <lua>, too much, written as one word: reaching too high, extreme	
+s55912	eyelid	<mit>, eye, with <vun>, skin: the skin that covers the eye	
+s55913	witness/eyewitness	<theihpih>, be witness to, with the ending {-tu} for the one who does it: a person who saw a thing happen	
+s55914	cotton thread/yarn	<pat>, cotton, with <khau>, cord: thread spun of cotton	
+s55915	congratulation/commendation	<pahtaak>, think highly of, with <pih>, together with, and <na>: sharing in the praise of someone, given beside <lungdampihna>	
+s55916	ease/easiness/facility	<a> and <baihna>, ease, written as one word: the being easy of something, what makes it easy	
+s55917	way of living/living conditions	<khawsak>, live, and <dan>, manner, written as one word: how people live, and the means that make living easier	
+s55918	facsimile/exact copy	an exact copy of a piece of writing	
+s55919	fact/reality	<ahi>, it is, <zia>, manner, and <taktak>, truly, written as one word: the way a thing really is	
+s55920	artificial/made up/factitious	<a>, <kibawl>, be made, and <tawm>, by oneself: made up, not natural or real	
+s55922	factual	<thutak>, truth, and <zia>, manner, written as one word: the way of the truth, according to the facts	
+s55923	factual	<a>, <hitaktak>, really be, and <zia>, manner, written as one word: the way a thing really is	
+s55924	ready/prepared	<kiman>, here be ready, with the ending {-sa}, already done: prepared beforehand, ready and willing to do something	
+s55926	fairy/spirit	a kind of spirit of Zomi belief, given beside <pheisam>	
+s55928	fall back/draw back/retreat	move back from where one was	
+s55929	get entangled with/be involved with	<kisawh>, mix with, and <buai>, be taken up with, written as one word: become entangled with a person, as in a love affair	
+s55930	fallible	<hih>, do, <khial>, wrongly, and <thei>, able, written as one word: able to make mistakes	
+s55931	fallow/fallow field	a field that was worked before and is left without a crop	
+s55932	falsehood/lying/untruth	<thuzuau>, lie, with the noun suffix <na>: the telling of what is not true, or the untrue thing said	
+s55933	falsify	<thumaanlo>, untrue, with <sak>, cause: make a thing untrue, give a false account of it	
+s55934	know each other/understand each other/be familiar	<kithei>, know one another, with <tuah>, together: people know or understand one another, also said of related speech	
+s55935	familiarity/mutual acquaintance	<kitheih>, know each other, <tuah>, together, and <na>: the knowing of one another well	
+s55936	know each other too well/be overfamiliar	<kithei>, know one another, with <lua>, too much	
+s55937	famine/starvation	<kialtung>, famine comes, with the noun suffix <na>: a time of famine	
+s55938	very famous/famously	<minthang>, famous, and <lua>, very, written as one word: very famous, known to a great many people	
+s55939	be fanned/fan oneself	<zaap>, fan, with the prefix <ki>, written as one word: be fanned, or fan oneself, to get cool	
+s55940	fanatic/overzealous	<ahahkat>, one who is keen on something, and <lua>, too much, written as one word: one who is devoted to something beyond measure	
+s55941	fang/long canine tooth	<hatu>, fang, and <sau>, long, written as one word: a long pointed tooth of a dog or a snake	
+s55942	useless/worthless/of no use	<a> and <kimanglo>, be of no use, written as one word: a thing that is of no use, which the list gives for a farce and for nonsense	
+s55943	farmhouse/field hut/farmstead	<lo>, field, and <buuk>, hut, written as one word: the hut or house at a field where those who work the field stay	
+s55944	farmstead/farm hut	a house at a farm, given beside <lobuuk> for farmstead, with <inn>, house, as its second part	
+s55945	farrow	<vok>, pig, <nu>, female, and <suak>, be born or come out, written as one word: of a sow, give birth to young	
+s55946	sow/female pig	<vok>, pig, and <nu>, female, written as one word: a female pig	
+s55947	be bound fast/be tight/be hemmed in	<gakcip>, bind fast, with the prefix <ki>, written as one word: be tied or shut in tightly, so that nothing can move	
+s55948	have fastened/fasten	<gakcip>, bind fast, and <khin>, already, written as one word: have tied or fastened something tightly	
+s55949	tighten/fasten/make tight	<kigak>, be tight or be fastened round, with the causative <sak>: make something tight, fasten it	
+s55950	fastidious/hard to please	<lungkim>, be satisfied, and <theilo>, unable, written as one word: one who cannot be satisfied	
+s55951	haste/hurry/quickness	<manlah>, be busy or pressed for time, written with a long vowel and with the noun suffix {-na}: haste, the list gives it for fastness in the meaning of being fast	
+s55952	fat/not thin	<gawng>, lean, and <lo>, not, written as one word: not lean, having flesh on the body	
+s55953	luck/fate/fortune	what is set for a person to meet with, good or bad, the first part of <kampha>, lucky, and <kamsia>, unlucky	
+s55955	unlucky/ill-fated/fateful	<vaang>, here fortune, and <sia>, bad, written as one word: having bad fortune, meeting a misfortune that cannot be escaped	
+s55956	fatten	make fat, a causative with <sak>, given for fatten beside {thau sak}	
+s55957	fault/mistake/wrongdoing	<hih>, do, <khial>, wrongly, and the noun suffix {-na}, written as one word: something done wrongly, a fault	
+s55958	favouritism/special favour/partiality	<deihsak>, wish someone well, <tuam>, apart from others, and the noun suffix {-na}, written as one word: the favouring of one person above the others	
+s55959	prefer/like better/favourite	<deih>, like, and <deuh>, rather more, written as one word: like someone or something more than the others, also the one so liked	
+s55960	main feature/general matter	<a>, <thu>, matter, and <pongpi>, the whole, written as one word: the chief or general point of a thing	
+s55961	be fed/have eaten enough	<vah>, be full, and <zo>, here done, written as one word: has been fed, has had enough to eat	
+s55962	be fed/have eaten enough	<gilvah>, be full, and <zo>, here done, written as one word: has been fed, has had enough to eat	
+s55963	feeble/weak/not strong	<thakhauh>, strong, and <lo>, not, written as one word: without strength of body	
+s55964	pale/wan/feeble	pale and weak like one who lacks blood, a form of <daang>, turn pale	
+s55965	feeder/those who feed	<a>, <vaak>, feed, and the plural <te>, written as one word: those who give food to people or animals	
+s55966	cause to honour/honour/felicitate	<pahtawi>, honor, with the causative <sak>: have someone honoured, or honour a person for his sake, the list gives it for felicitate	
+s55967	gain/good fortune	<lawhtak>, what one really gains, with the noun suffix {-na}: a gaining of good, good fortune	
+s55968	have fallen/fell	<tuk>, fall, and <khin>, already, written as one word: have fallen down	
+s55969	companion/fellow	<kithuahpih>, keep company with, and <mi>, person, written as one word: a person one keeps company with	
+s55970	have felt/have noticed/have realised	<phawk>, be aware, and <khin>, already, written as one word: have become aware of something, have felt it	
+s55971	female/the female side	<anu>, the female, and <lam>, side, written as one word: the female kind, the side of the female	
+s55973	untamed/wild/feral	<zual>, tame, and <lo>, not, written as one word: of an animal, not used to people	
+s55974	fermentation/leavening	the mixing in of yeast so that something ferments, from <sawh>, mix in, with the noun suffix {-na}, on a first part that names the yeast	
+s55975	fermentation/brewing	<zu>, beer, <bilh>, ferment, and the noun suffix {-na}, written as one word: the brewing of beer, the leaving of grain to ferment	
+s55976	fern	a fern, a green plant with feathery leaves and no flowers	
+s55977	wildness/ferocity/fierceness	<zual>, tame, and <lohna>, the fact of not being, written as one word: the state of not being tame, fierceness	
+s55978	otter	an animal with fur that lives in and by the water and eats fish, the otter; the list gives it for the ferret as well	
+s55979	iron ring/ferrule/shackle	<sik>, iron, and <kual>, ring, written as one word: a ring of iron, as the band on the tip of a walking stick or a ring that holds a prisoner	
+s55980	fervent/very eager/fervently	<kilawp>, be eager, and <lua>, very, written as one word: very eager or excited about something	
+s55981	charm/spell/fetish	<dawi>, spirit, and <ai>, witchcraft, written with a hyphen: a spell or charm worked through spirits, also a thing believed to hold such power	
+s55984	fictitious/made up/invented	<a> and <kiphuaktawm>, be made up, written as one word: a thing that is made up and not real	
+s55985	fiddle/violin	<kaih>, draw, and <ging>, sound, written as one word: an instrument with strings that sounds when a bow is drawn over them	
+s55986	fidget	be restless and keep moving about, given for fidget beside <ommawh>	
+s55987	field	a field, given beside <lo> and <logam>; perhaps a wide open field	
+s55988	fiery/blazing	<a>, <kuang> and <zeza> written as one word with a long final vowel: blazing fiercely, fiery	
+s55989	fiery/glowing red	<a>, <san>, red, and <zelzal> written as one word: glowing bright red, as fire does	
+s55990	fifth/the fifth	<a> and <ngana> written as one word: the fifth one, fifth in order	
+s55991	tighten	<kineh>, come close, with the causative <sak>: make something close or tight, tighten	
+s55992	thread spinning/spinning	<khau>, thread, <kheek>, spin, and the noun ending <na> written as one word: the spinning of thread, or the place or tool for it	
+s55993	filler/filling	<dimsak>, make full, with the noun ending {-na}: the act of filling, or the thing used to fill a gap or hole	
+s55994	photography/film	<lim>, picture, <laak>, take, and the noun ending <na> written as one word: the taking of pictures, and the film on which they are taken	
+s55995	film showing/film	<Datsian>, film, <lah>, show, and the noun ending <na> written as one word: the showing of a film	
+s55996	end/conclusion/final	<a>, <kikhit>, be finished, and the noun ending <na> written as one word: its being finished, the end, the final part	
+s55997	completion/finish	<a> and <zawhna> written as one word: its completion, the point where a thing is done	

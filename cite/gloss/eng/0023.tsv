@@ -24,7 +24,7 @@ s46021	secret/mystery	a matter that is hidden or known to few, as a noun after <
 s46022	hypocrite	<thusim>, secret, with <nei>, have: one who keeps hidden motives, a hypocrite	
 s46023	hypocrites	<thusim nei>, hypocrite, with the plural <te>	
 s46024	secretly/in secret	<thusim>, secret, with the adverb ending <in>: secretly; {thusimin a kikoih} is what is kept hidden	
-s46025	disregard/ignore/pay no heed/disrespect	<thusim> and <lo> written as one word: take no notice of a person, an order or a custom; {mi thusimlo} is a heedless person	
+s46025	disregard/ignore/pay no heed/disrespect/disdain	<thusim> and <lo> written as one word: take no notice of a person, an order or a custom; {mi thusimlo} is a heedless person	
 s46026	contempt/scorn/mockery	<thusim>, regard, with <loh>, not, and the noun suffix <na>: contempt, treating someone with no respect	
 s46027	respect/esteem/regard	<thusim>, pay regard to, with the noun suffix <na>: the respect or esteem shown to someone	
 s46028	hypocrite	<thusim>, secret, with <nei>, have: one who hides his real motives, a hypocrite; also written <thusim nei>	
@@ -44,7 +44,7 @@ s46041	be questioned/be interrogated/be examined	<thusitna>, examination of a ca
 s46042	question/examine/investigate	<thusitna>, examination, and <nei>, have: of police, officials or a court, question or examine people, check them or try their case; the persons examined stand before it	
 s46043	for questioning/for interrogation	<thusitna>, examination, and <neihdingin>, in order to hold: in order to question someone; stands before a verb of arresting or detaining such as <man> or <kem>, the usual way to say that the police hold a person for questioning	
 s46044	investigate/examine/analyse	<thu>, matter, with <sittel>, examine: look closely into a matter; also the work of doing so	
-s46045	statement/announcement/declaration	<thu>, word, with <suah>, bring out: something made public in writing, as a statement of an organisation or a post on social media; {kumpi thusuah} is an edict	
+s46045	statement/announcement/declaration/communique	<thu>, word, with <suah>, bring out: something made public in writing, as a statement of an organisation or a post on social media; {kumpi thusuah} is an edict	
 s46046	account/giving account	<thu> matter with <suah>, bring out, and the noun suffix <na>: having to state one's case before a judge	
 s46047	statement/announcement/press release	a public statement put out by an organisation or authority, mostly in <thusuahna nei> or {thusuahna bawl}, issue a statement; not an account given before a judge	
 s46048	issue a statement/make an announcement	<thusuahna>, statement, and <nei>, have: an organisation puts out a public statement or press release; the organisation stands before it with <in>, and what is stated comes first, often closed by {cih thu} or <ci-in>	
@@ -57,7 +57,7 @@ s46054	statement/address/submission	what a person puts forward in words before a
 s46055	proposals/submissions/pieces	<thusun> with the plural <te>: things put forward for others to consider, as proposals or written pieces sent to a paper	
 s46056	truth	<thu>, word, with <tak>, true: truth, what is true; most often paired with <thuman> as <thuman thutak>	
 s46057	truthfully/faithfully/justly	<thutak>, truth, with the adverb ending <in>; often paired with <thuman>	
-s46058	faithfulness/truthfulness	<thutak>, truth, with the noun suffix <na>: faithfulness, being true to one’s word; often paired with {itna kip}, steadfast love	
+s46058	faithfulness/truthfulness/fidelity	<thutak>, truth, with the noun suffix <na>: faithfulness, being true to one’s word; often paired with {itna kip}, steadfast love	
 s46059	the true one	<thutak> truth with <pa> marking a man: he who is true; paired as {thuman thutakpa}	
 s46060	truths/true things	<thutak> truth with the plural <te>, often in the pair {thuman thutakte}	
 s46061	much to say/involved	<thu>, matter or word, and <tam>, many, written as one word: there is much to say, the matter has many sides	
@@ -112,7 +112,7 @@ s46110	as a separate matter/aside	<thutuam> and <in> written as one word: as a s
 s46111	various news/miscellaneous matters	<thu> and <tuamtuam> written as one word: news or matters of various kinds, common at the end of a headline	
 s46112	deep/profound	deep, of a valley, mud or water, and of thought, language or a relationship; the same word as <thuk> in <athuk>, written with a long vowel; {thuuk sak} is deepen	
 s46113	very deep/profound	<thuuk>, deep, with the suffix {-pi}, great: very deep, of a place far down and of a matter or thought; as a noun a deep gorge	
-s46114	plead/beseech/beg	ask earnestly, plead or beg, often with <tungah>, to or before someone; {kong thuum hi} is I beg you, please	
+s46114	plead/beseech/beg/appeal/entreat	ask earnestly, plead or beg, often with <tungah>, to or before someone; {kong thuum hi} is I beg you, please	
 s46115	mourn/lament/wail	mourn or wail for the dead or over bad news, often with <hangin>, because of	
 s46116	groan/mourn/wail	<thuum>, mourn, with the linking ending <in>: groaning or lamenting, used before another verb as in {thuumin tau} and {thuumin kap}	
 s46117	apologize/beg pardon	<thuum>, plead, and <kik>, back, written as one word: say sorry after a mistake, beg to be forgiven	
@@ -142,7 +142,7 @@ s46140	news/report/what is heard	<thu>, word, with <zak>, hear: what one hears, 
 s46141	communication/contact/news	<thuzak>, what is heard, with the noun suffix <na>: news received of someone or something; {ki thuzakna} is contact or communication between people	
 s46142	proclamation/announcement/report	<thu>, word, with <zaksak>, cause to hear, and <na>: the making known of something	
 s46143	trivial matter/light thing	<thu>, matter, with <zang>, light: a small thing of little weight, here of sin that is treated as trivial	
-s46144	overrule/prevail over/win over/gain control over	get the better of someone by words, whether by command or by persuasion	
+s46144	overrule/prevail over/win over/gain control over/convince	get the better of someone by words, whether by command or by persuasion	
 s46145	influence/authority/control/persuasion	<thuzawh>, prevail over by words, with the noun suffix <na>: the power to make others follow one's word, by authority, pressure or persuasion	
 s46146	resolution/decision	what a meeting or conference has settled, its resolutions; in headings such as {Thuzawhna le Tangkona}, resolutions and declaration	
 s46147	secretary	the secretary of a group or organisation, the one who manages its affairs; <thuzeekpi> is the chief secretary	
@@ -266,7 +266,7 @@ s46264	Tohu	son of Zuph of Ephraim, an ancestor of Elkanah the father of Samuel
 s46265	Tou	king of Hamath who sent his son with gifts to David after the defeat of Hadadezer	
 s46266	toilet/lavatory	a toilet, the room or the seat; English word used in Zolai sentences, often written with a capital	
 s46267	up/upward	the particle <to> with the linking ending <in>; after a verb, doing it upward and then the next action follows	
-s46268	stir up/churn/trouble	stir water so that it becomes rough or muddy	
+s46268	stir up/churn/trouble/stir	stir water so that it becomes rough or muddy	
 s46269	be missing/fall out	said of a tooth that is gone and leaves a gap	
 s46270	subjection/vassalage/servitude	the state of being under a master or a foreign ruler; a dictionary gives it for vassal	
 s46271	stirring up/churning up	<tok> stir with <gawp> violently and the linking suffix <in>: stirring water until it is rough or muddy	
@@ -298,13 +298,13 @@ s46296	Ptolemais	seaport on the coast north of Mount Carmel, the Old Testament A
 s46297	fly upward/fly up	<to>, up, with <len>, fly: fly upward, as sparks from a fire	
 s46298	miscarry	lose the young before the time of birth, said of animals and of a woman; mostly with <ta>, young, written {ta tolh} or {ta-tolh}	
 s46299	slip out/come out	slip or come out of its place, said of the bowels; followed by <khia>, out	
-s46300	run down/slide down/slip back	move downwards by sliding or flowing: of tears after <khitui> and of a running nose after <naptui>, of snow or earth sliding down a slope; {nung tolh} is slip back, fall behind	
+s46300	run down/slide down/slip back/slide	move downwards by sliding or flowing: of tears after <khitui> and of a running nose after <naptui>, of snow or earth sliding down a slope; {nung tolh} is slip back, fall behind	
 s46301	slip off/drop off/come out	<tolh> slip out with <khia> out: of bonds falling from the hands, of bowels coming out of the body	
 s46302	come out/slip out	form of <tolhkhia> used before <dongin> and other following words; of bowels coming out of the body	
 s46303	slide down/slip down	<tolh>, slide, and <suk>, downward, written as one word: slide or slip down a slope, of earth, a vehicle or a person; {lei tolhsuk} is a landslide	
 s46304	keep running down/keep slipping back	<tolh.3> said twice: go on running or sliding down, of a running nose after <naptui>, or of a person sliding back little by little, {nung tolhtolh}	
 s46305	make bald/shave bald	<tol>, bald, with the causative <sak>: shave the head bare as a sign of mourning	
-s46306	short	short in length, distance or time: {lampi tom} is a short road and {hun tom} a short time	
+s46306	short/brief	short in length, distance or time: {lampi tom} is a short road and {hun tom} a short time	
 s46307	gather/pick up/collect	gather firewood or sticks, as in {sing tom}; of a bird, {bu tom} is build a nest	
 s46308	very durable/long-lasting	<to>, here durable, lasting long in use, with <mahmah>, very, written as one word; this is not the <to> that means up or onward	
 s46309	Tombing		
@@ -331,7 +331,7 @@ s46330	nest building	<tom> gather, in {bu tom} build a nest, with the noun suffi
 s46331	brief/short/momentary/few	very short, mostly of time: {tomno sung} is a moment, a short while, {tomno sungin} is in a moment, soon, and {ni tomno} is a few days	
 s46332	moment/short time	a very short time; {Tomnokhat sungin} is in a moment	
 s46333	short/brief	<tom> and <nono> written as one word: short ones, said of several things that are each short	
-s46334	shorten/cut short	<tom>, short, with the causative <sak>: make shorter, cut short, said of days or of a time of life	
+s46334	shorten/cut short/abridge/curtail	<tom>, short, with the causative <sak>: make shorter, cut short, said of days or of a time of life	
 s46335	gathering for	<tom> gather firewood with <sak>, do for someone, and the linking ending <in>: gathering wood for another	
 s46336	short	<tom>, short, with the plural <te>: the short ones; {tangthu tomte} is short stories and {thau tomte} short guns	
 s46337	short	<tom> and <thei> written as one word: {a tomthei penin} is as briefly as possible	
@@ -380,7 +380,7 @@ s46380	draw back/bring back	<ton>, draw in, with the causative <sak>; with <kik>
 s46381	draw back/pull back	<tonsak>, draw in, with <kik> back: bring a stretched-out hand back to the body	
 s46382	Champhai/Tonsim	Zolai name of Champhai, a town in Mizoram, India, near the border of Myanmar	
 s46383	Tonsing		
-s46385	mistress/lady	<to>, lord or master, with <nu> marking a woman: a woman who is head of a household or has servants; also a queen, and a polite word for a lady	
+s46385	mistress/lady/madam	<to>, lord or master, with <nu> marking a woman: a woman who is head of a household or has servants; also a queen, and a polite word for a lady	
 s46386	lady/queen	<tonu>, lady or mistress, written with a capital: the lady to whom 2 John is addressed, and Babylon speaking of herself as queen	
 s46388	Tonzang		
 s46389	Tonzang	<Tonzang> with the plural <te>: Tonzang and places like it, or the people of Tonzang	
@@ -514,7 +514,7 @@ s46520	there/at that/in that	<tua>, that, with the marker <ah>: at that place, i
 s46522	that/those	<tua>, that, and <a> written as one word: {tuaa site} is those who died, and {tuaa hih leh} is if that is so	
 s46523	besides that/in addition/moreover	<tua>, that, and <baan>, addition, written as one word and followed by <ah>: on top of that, besides that	
 s46525	besides that/in addition/moreover	<tua> and <ban> written as one word and followed by <ah> or <in>: on top of that, besides that, after that	
-s46526	besides that/in addition/moreover	<tua>, that, with <banah>, in addition to, written as one word at the head of a sentence	
+s46526	besides that/in addition/moreover/besides	<tua>, that, with <banah>, in addition to, written as one word at the head of a sentence	
 s46527	like that/such/in that way	<tua> and <bang> written as one word: like that, of that kind; {tuabang mah} is just the same	
 s46528	meanwhile/in the midst of that/while this was so	<tuabang>, like that, and <kawmkal>, midst or interval: followed by <ah> at the head of a sentence, meanwhile, while things were like that; it links a new event to the situation just described	
 s46529	in that state/like that/with all that	<tuabang>, like that, and <tengtawh>, with all of it: in that condition, things being so; opens a sentence that tells what happened next or how long the state lasted	
@@ -522,7 +522,7 @@ s46530	such/like that/in that way	<tua> and <banga> written as one word: of that
 s46531	in that way/like that/thus	<tua>, <bang.2> and <aa> written as one word, at the start of a clause: in that way, that being so; <aa> here is the linking word that others write <a> or <in>	
 s46532	such/that kind of/like that	<tua>, that, <bang>, like, and <dan>, manner, written as one word: of that kind, placed before a noun or used alone for such a thing	
 s46533	at such a time/at that time	<tuabang>, such, and <hun>, time, written as one word, usually followed by <ciangin> or {laitak in}: at a time like that	
-s46534	in that way/like that/so	<tua> and <bangin> written as one word: in the way just described	
+s46534	in that way/like that/so/accordingly/likewise/thus	<tua> and <bangin> written as one word: in the way just described	
 s46535	just like that/in the same way/likewise	<tuabang> and <mah> written as one word, mostly with <in>: in just that way, likewise	
 s46536	such ones/such people/such things	<tua> that and <bangte> written as one word: people or things like that	
 s46537	all that/all such things	<tuabang>, like that, and <teng>, all, written as one word: all those things, all that has just been told	
@@ -571,7 +571,7 @@ s46579	Tuahnuam
 s46580	meet with good/fare well	<tuah> meet with and <pha> good: have good come to one, set against <tuahsiatna>, misfortune	
 s46581	give success/make prosper	<tuahpha> meet with good, with the causative <sak>	
 s46582	prosper/fare well/meet with good	form of <tuahpha> used before <ciangin>	
-s46583	good fortune/prosperity/blessing	<tuahphat> with the noun ending {-na}: meeting with good, the opposite of misfortune	
+s46583	good fortune/prosperity/blessing/fortune	<tuahphat> with the noun ending {-na}: meeting with good, the opposite of misfortune	
 s46584	meet with/encounter	written after <ki>, the same as <kituahpih>: meet with someone	
 s46585	experienced/met with	<tuah> meet with, with <sa> already done; {tuahsa thute} is the things one has gone through	
 s46586	let come upon/hand over	<tuah> meet, come upon, with the causative <sak>; with <mang>, give away as plunder	
@@ -607,7 +607,7 @@ s46615	that/the	<tua>, that, and the subject marker <in> written as one word; th
 s46616	on and on/continuously	placed after a verb: the action goes on and on without settling, as in {leng tuaituai}, keep flying, and {kisam tuaituai}, be called again and again	
 s46617	be lawful/be right/be proper/be fitting	be right, fitting or allowed, placed after another verb: {piak tuak} is right to give, and with <lo> it is not allowed	
 s46618	each/both	each of them, both alike, placed after a noun, a number or a verb	
-s46619	meet/meet with/come upon/experience	come upon a person or thing, or meet with an experience such as trouble, fear or punishment	
+s46619	meet/meet with/come upon/experience/face	come upon a person or thing, or meet with an experience such as trouble, fear or punishment	
 s46620	probably be/must be	joined to a verb or describing word, it says what the speaker supposes without knowing it: <tawltuak> is must be tired; the book calls it the saying of a supposition, <upmawh>	
 s46621	fall	fall from or into something, as {singkung tungpan tuak}, fall from a tree, and {tui sungah tuak}, fall into the water; the book sets it apart from the supposition	
 s46622	each/both	<tuak>, each, with the ending <a>, used after <pang>, side: {pang tuaka om} is being on each side or on both sides	
@@ -709,7 +709,7 @@ s46718	courts/courtyards	plural of <tual>: the courts of a building, mostly of t
 s46719	village priest/keeper of the village ground	the man who keeps the communal ground of a village, as in <tualbiakna>, and leads its rites; the driving out of the spirits before <Khuado> begins at his house	
 s46720	settle in/feel at home/get used to a place	become familiar with a place and its people and at ease there, said of someone living away from home; the meaning is inferred from two sentences	
 s46721	in all the courts	<tual> court, with <teng> all and <ah> in	
-s46722	murder/killing/massacre	the killing of people of one's own community or of people who are not enemies in war; of a whole people, massacre or genocide	
+s46722	murder/killing/massacre/homicide	the killing of people of one's own community or of people who are not enemies in war; of a whole people, massacre or genocide	
 s46723	murderer/murder/homicide	one who kills a person of his own community, a murderer; also the act itself; often paired with <mithat>	
 s46724	itinerant/roving/wandering	<tual>, local ground, with <vak>, walk about: going about from place to place, said of people who offer a service in the villages	
 s46725	Tualzang		
@@ -729,7 +729,7 @@ s46738	treat differently/set apart/make separately	<tuam>, different or separate
 s46739	discrimination/unequal treatment	the treating of a person or a group differently from others and not as equals	
 s46740	Tuambual		
 s46741	each different/each separate/each its own	<tuam>, different, with <ciat>, each, written as one word: different for each one, each having its own	
-s46742	cover completely/envelop/surround	<tuam>, cover, with <cip>, tightly: cover over completely or wrap all round, said of smoke, darkness, worms, shame or love	
+s46742	cover completely/envelop/surround/enfold/swathe	<tuam>, cover, with <cip>, tightly: cover over completely or wrap all round, said of smoke, darkness, worms, shame or love	
 s46743	covering completely	<tuamcip> cover completely with the linking ending <in>	
 s46744	one who wraps up	<tuamcip> wrap up completely, with <pa>, the male one who does it	
 s46745	different/other/another	of another kind, not the same as before or as the rest; placed after the noun	
@@ -859,7 +859,7 @@ s46872	that money	<tua> and <sum> written as one word: that money, the money jus
 s46873	in that/among them/in it	<tua> and <sung> written as one word: inside that, among those just mentioned; {tuasung ah} is in it and {tuasung pan} is from among them	
 s46874	in it/in there/therein/among them	<tua>, that, and <sungah>, inside, written as one word: in that, inside it, among those just mentioned	
 s46875	in that whole area/all around there/within it	<tua>, that, with <sungteng>, the whole inside of, written as one word: the whole of that place or area just mentioned; {tuasungteng mahah} is right there in that same area	
-s46876	count/reckon/calculate/estimate	work out a number, a length of time or a cost; {tuat masa} is to work it out first	
+s46876	count/reckon/calculate/estimate/assess	work out a number, a length of time or a cost; {tuat masa} is to work it out first	
 s46877	consider/regard/suppose/think	hold something to be so, without any counting; after <bangin> it is regard as, and after <dingin> or <in>, as {ka tuat hi}, it is suppose that	
 s46878	then/at that point	<tua> and <tak> written as one word, before <ciang> or <ciangin>: at that very time, then, after that	
 s46879	with that/thereby/then	<tua> and <tawh> written as one word: with that, by that, following on that; {tuatawh kizui in} is in accordance with that	
@@ -880,7 +880,7 @@ s46893	with those/with them	<tuate>, those, and <tawh>, with, written as one wor
 s46894	they too/those also	<tuate>, those, and <zong>, also, written as one word: those too, they as well	
 s46895	that matter/that event	<tua>, that, and <thu>, matter, written as one word: the matter or event just spoken of	
 s46896	if reckoned/calculated as	<tuat>, count or reckon, and <leng>, if, written as one word: if one works it out, reckoned in another unit or on a given assumption	
-s46897	reckoning/calculation	<tuat> reckon with the noun suffix <na>	
+s46897	reckoning/calculation/estimation	<tuat> reckon with the noun suffix <na>	
 s46898	calculate for/work out/estimate	<tuat>, calculate, and <sak> written as one word: work out a number or a cost, often for someone	
 s46899	work out/assess/calculate	<tuat>, count, with the ending {-san}: be working out an amount, said of the authorities who assess the loss after a fire; mostly as {ki tuatsan}, is being worked out	
 s46900	can reckon/can estimate/can tell	<tuat>, reckon, and <thei>, be able, written as one word	
@@ -918,10 +918,10 @@ s46932	until now/up to now/so far	<tu>, now, with <dongciang>, until, written as
 s46933	until now/to this day/still	<tudong>, until now, with the adverb ending <in>	
 s46934	still/even now/to this day	<tudong>, until now, and the emphatic <mah> written as one word: even up to now, still	
 s46935	Tuesday		
-s46936	hoe handle/haft/helve	the wooden handle of a hoe, named together with {heiga}, the handle of an axe	
+s46936	hoe handle/haft/helve	the wooden handle of a hoe, named together with <heiga>, the handle of an axe	
 s46937	old hoe/worn-out hoe	a hoe, in the pair {tugabawk heigabawk}, the old hoes and axes that are carried and thrown after the evil spirits when they are driven out of a house; the second part is not explained by the book	
 s46938	sow/plant	put seed in the ground; {khai tuh} and {khaici tuh} are sow seed	
-s46939	snatch/grab/compete for	take something quickly before or away from another person, or strive against others to get it; the object is a thing or a turn to speak, not seed	
+s46939	snatch/grab/compete for/contest	take something quickly before or away from another person, or strive against others to get it; the object is a thing or a turn to speak, not seed	
 s46940	sow/plant seed	<tuh>, sow, with the linking ending <in>, joining it to the next verb	
 s46941	snatch away/seize/take	<tuh> snatch, with <khak>, happen to	
 s46942	seize/snatch away/grab	<tuh>, snatch, with <khia>, out: take a position or power away for oneself; {ukna tuhkhia} is seize power	
@@ -1055,7 +1055,7 @@ s47072	on the island/island	<tuikulh>, island, and <tung>, on, written as one wo
 s47073	water channel/stream	a channel of water running through a field	
 s47074	water supply/piped water	<tui>, water, with <lak>, fetch: the bringing of water to a town or village from a spring through pipes, and the water so brought; a present-day use beside the channel in a field	
 s47075	floodwater/midst of the water	<tui>, water, with the word for among, written as one word: the middle of standing or flood water, as in {tuilak ah}, in the water, said of cars driving through a flood and of things swept away	
-s47076	aqueduct/conduit/tunnel	<tui>, water, with <lak>, take, and <na>: a channel that brings water	
+s47076	aqueduct/conduit/tunnel/canal	<tui>, water, with <lak>, take, and <na>: a channel that brings water	
 s47077	water supply/waterworks	the pipes and works that bring water to a village or town, a public service named beside hospitals and roads; of a present-day system and not an ancient channel, often with <pipeline> or the name of the place	
 s47078	watercourse/channel	<tui> water, with <lam> way; a course for water to run in	
 s47079	waterway/sea route/sea	<tui>, water, with <lam>, way or side: travel, trade or war by water or sea, set beside <leilam>, by land, and <vanlam>, by air; {tuilam tawh} is by water	
@@ -1065,10 +1065,10 @@ s47082	Tuilangh	village of the Tedim area in Chin State; written in brackets aft
 s47083	overflowing stream/flood	<tui>, water, with <let>, overflow, and <khia>, out: a stream that overflows its banks	
 s47084	lake/sea	a lake or inland sea, such as the Sea of Galilee; also a pool or reservoir made to hold water	
 s47085	lake/sea	capitalised form of <tuili> in the name of a lake, as in {Galilee Tuili}, the Sea of Galilee	
-s47086	mighty waters/great waters/flood	<tui>, water, with <lian>, great: great and dangerous waters, a picture of overwhelming trouble	
+s47086	mighty waters/great waters/flood/deluge	<tui>, water, with <lian>, great: great and dangerous waters, a picture of overwhelming trouble	
 s47087	mighty waters/great waters	<tuilian>, great waters, with the intensive <pi>: very great, deep waters	
 s47088	mighty waters/great waters	<tuilian>, great waters, with the plural <te>: the wide waters of the sea	
-s47089	fresh water/sweet water/sweet drink	<tui> water with <lim> tasty: water good to drink, set against <tuikha> bitter water and {tui-al} salt water; {anlim tuilim} is good food and drink	
+s47089	fresh water/sweet water/sweet drink	<tui> water with <lim> tasty: water good to drink, set against <tuikha> bitter water and <tui-al> salt water; {anlim tuilim} is good food and drink	
 s47090	pools/ponds	plural of <tuili>; in these verses standing bodies of water such as pools and ponds	
 s47091	headwaters/source/upstream	<tui>, water, with <lu>, head: the upper end of a river or water supply, where the water comes from; {tuilu tuitaw} is upstream and downstream	
 s47092	flow of water/water flow	<tui>, water, and <luan>, flow, written as one word: the flowing of water; {tuiluan nading} is for water to flow, and {tuiluan khiatna} is where water flows out, a drain	
@@ -1132,7 +1132,7 @@ s47152	on the sea/over the sea/at sea	<tuipi>, sea, and <tung>, on or over, writ
 s47153	dine		
 s47154	well		
 s47155	dropsy/swelling	swelling of the body with fluid, in {tuipuak natna}, the disease of dropsy	
-s47156	waterproof cloth/raincoat/tarpaulin/plastic sheet	cloth or sheet that keeps water out, from <tui>, water, and <puan>, cloth: a raincoat, a tarpaulin or canvas, or a plastic sheet	
+s47156	waterproof cloth/raincoat/tarpaulin/plastic sheet/oilcloth/rain-wear	cloth or sheet that keeps water out, from <tui>, water, and <puan>, cloth: a raincoat, a tarpaulin or canvas, or a plastic sheet	
 s47157	hot water/boiling water	<tui>, water, with <sa>, hot: hot or boiling water	
 s47158	hotpot pot/hot pot	<tuisa>, boiling water, with a short form of <beel>, pot: the pot of boiling soup of a <Hotpot> meal, in which the food is cooked	
 s47159	melt	<tui> water, liquid with the causative <sak>: make ice or metal turn to liquid	
@@ -1152,7 +1152,7 @@ s47172	water/tap water/drinking water	plain water for drinking and washing, and 
 s47173	boiling water	<tui> water with <so> boil	
 s47174	melt/dissolve/turn to liquid	form of <tuisuak>, become water, used before <ding> and <dong>: of salt, dissolve; of a person, become soft and humble	
 s47175	melt/melt away	literally become water, also said of people whose courage fails	
-s47176	melt/make melt	<tuisuak> melt with the causative <sak>	
+s47176	melt/make melt/dissolve	<tuisuak> melt with the causative <sak>	
 s47177	Tuisuam		
 s47178	in the water	<tui>, water, with <sung>, inside: in the water, within the waters	
 s47179	in the water/into the water/under water	<tui>, water, and <sungah>, inside, written as one word: in or into the water	
@@ -1191,7 +1191,7 @@ s47211	Tuivial	village of the Thangkai circle in the Tedim area of Chin State, M
 s47212	cold water/cold drink	<tui> water with <vot> cold	
 s47213	Tuizang	a village of the Tedim area, often written in brackets after a person's name as the home village	
 s47214	water use/water supply/water for use	<tui>, water, with <zat>, use, written as one word: the use of water, and the water a household or town has to use	
-s47215	water channel/pipe/water shaft	a channel or pipe through which water or oil runs	
+s47215	water channel/pipe/water shaft/tube	a channel or pipe through which water or oil runs	
 s47216	water pipe/hose/water main	<tui>, water, with <zawn>, here pipe: a pipe or hose that carries water; {ekzawn} is a sewage pipe	
 s47217	waterfall/rushing water	water falling or rushing down from a height; {tuizeu ging} is the roar of falling water	
 s47218	water too/the water also	<tui>, water, and <zong>, also, written as one word	
@@ -1345,7 +1345,7 @@ s47369	west/western side	the side where the sun sets; {tumlam gamte} is the west
 s47370	not enter/not join	<tum>, here enter or join, and <loh>, not, written as one word; with <phamawh> it means must: {galkap tumloh phamawh} is must serve in the army	
 s47371	drown/engulf/sweep away/overwhelm	of water, cover people so that they are lost; also be drowned, and of sorrow, overwhelm; <tum> with <mang>, out of sight	
 s47372	setting/west	the going down of the sun; {ni tumna lam} is the west side	
-s47373	entering/entrance/entry	going in, as into a land, or the place of going in, as {kongpi tumna} the entrance of a gate	
+s47373	entering/entrance/entry/access	going in, as into a land, or the place of going in, as {kongpi tumna} the entrance of a gate	
 s47374	blowing/blast	<tum>, blow, with the noun suffix <na>: the sounding of a trumpet or horn	
 s47375	two pieces/two parts	<tum>, here a piece, with <nih>, two: two pieces; {tumnih kisuah} is break in two	
 s47376	striker/the one who struck	<tum> strike with the fist, with <pa> marking a man: the man who struck the blow	
@@ -1359,7 +1359,7 @@ s47383	one who brings in/one who leads in	<tumpih> bring in, with <pa>, the man 
 s47384	lead into instead/bring in rather	<tumpih> bring in, with <zaw> more, rather	
 s47385	gone down/set	<tum> go down, of the sun, with <sa> already done; of the shadow that had already moved down the steps	
 s47386	burned up/consumed	after <khul> throw into the fire: already thrown in and consumed	
-s47387	bring in/make enter/let in	<tum> enter with <sak>, cause or allow	
+s47387	bring in/make enter/let in/admit	<tum> enter with <sak>, cause or allow	
 s47388	bring upon/submerge/make go down	<tum>, go down or under, with the causative <sak>: bring water over a place or people, sink something in the sea, or make the sun set	
 s47389	sound/have blown	<tum> play or blow a wind instrument with <sak>: have a trumpet sounded	
 s47390	one who brings in/one who causes to enter	<tumsak> cause to enter, with <pa>, the male one who does it	
@@ -1627,14 +1627,14 @@ s47660	one who sits/the one seated/the one enthroned	<tu>, sit, with <pa>, the m
 s47661	from now/from now on	<tu>, now, and <pan>, from, written as one word: from now, mostly as {tupan kipan}	
 s47662	grandsons	<tupa>, grandson, with the plural <te>; the NIV has the singular here	
 s47663	engulf/overwhelm/sweep away	of flood water, close over people and cover them completely; <cip> adds the sense of tightly or completely	
-s47664	hoe	a hoe, the hand tool used for digging and breaking up the ground	
+s47664	hoe/spade	a hoe, the hand tool used for digging and breaking up the ground	
 s47665	spade/shovel	a digging tool with a flat blade, named together with <tuzum>, the pointed one	
 s47666	dense/thick	thick, dense, said of forest: {gammang tupi} is the dense forest	
 s47667	sea/ocean	the sea, mostly in songs and elevated writing, not the {tupi} of dense forest: {tupi gaal} and {tupi galkhat} are across the sea, overseas	
 s47668	hoe/mattock	a large digging hoe, named together with <heipi>, the big axe, as tools for clearing trees and stones	
 s47669	knock out	<tup>, strike, with <khiat>, out: knock out, said of a tooth	
 s47670	aim/goal/purpose/plan	<tup>, <leh> and <sawm> written as one word: what a person aims at and intends, a goal and plan for the future	
-s47671	purpose/aim/goal/intention	<tup>, aim, with the noun suffix <na>: what a person sets out to do or reach, a purpose or goal	
+s47671	purpose/aim/goal/intention/intent/target	<tup>, aim, with the noun suffix <na>: what a person sets out to do or reach, a purpose or goal	
 s47672	beating/blow	<tup>, strike, with the noun suffix <na>: a blow; it occurs in the pair {satna tupna}, beatings	
 s47673	aims/goals/purposes	plural of <tupna>: the things a person or a body sets out to reach; often paired as {ngimna leh tupnate}, aims and objectives	
 s47674	main aim/chief goal/purpose	<tup>, aim, with {-pi}, chief: the main thing a person or a people aims at; {tuppi in nei} is have as the main goal	
@@ -1872,7 +1872,7 @@ s47911	a dog	<ui>, dog, and <khat>, one, written as one word: a dog, one dog
 s47912	flea	a tiny biting insect; David uses it as a picture of someone too small to be worth hunting	
 s47913	tumor/boil	a swelling or boil on the body; {uilut vei} is to suffer from tumors	
 s47914	tumors	plural of <uilut>	
-s47915	puppy/little dog/doggy	<ui>, dog, with the diminutive ending {-no}: a young or small dog	
+s47915	puppy/little dog/doggy/whelp	<ui>, dog, with the diminutive ending {-no}: a young or small dog	
 s47916	the dog	<ui>, dog, and the topic marker <pen> written as one word: the dog, as the thing spoken about	
 s47917	frog		
 s47918	frogs	<uiphuk>, frog, with the plural <te>	
@@ -1891,11 +1891,11 @@ s47930	fall out/break off a friendship	<uitui>, closeness, with <buaksuah>, pour
 s47931	dominion		
 s47932	rule		
 s47933	control		
-s47934	govern		
+s47934	govern/administer		
 s47935	be keen on/be fond of/like	have a strong liking for a thing or a pastime such as music or jokes, often with <mahmah> or <lua>; a spelling of <uuk> and not the {uk} of ruling	
 s47936	kingdom/reign/rule	<uk>, rule, written with a capital for the reign of God: {Pasian’ Uk ding hun} is the time when God will rule, the kingdom of God	
-s47937	subdue/control completely/hold in one's power	<uk> rule with <cip> tightly: bring fully under one's rule or power	
-s47938	domination/oppressive rule/subjugation	<ukcip>, bring fully under one's rule, with the noun suffix <na>: rule that holds a people down by force; {ukcipna nuai} is under the domination of	
+s47937	subdue/control completely/hold in one's power/control/dominate	<uk> rule with <cip> tightly: bring fully under one's rule or power	
+s47938	domination/oppressive rule/subjugation/oppression	<ukcip>, bring fully under one's rule, with the noun suffix <na>: rule that holds a people down by force; {ukcipna nuai} is under the domination of	
 s47939	make subdue completely/bring fully under rule	<ukcip> bring fully under one's rule, with the causative <sak>	
 s47940	take control of/capture/hold	<ukcip>, control completely, and <zo>, be able, written as one word: succeed in bringing a town or area fully under control	
 s47941	way of ruling/system of government/way of governing	<uk>, rule, with <dan>, manner: the way in which a country or a people is ruled; {ki-ukdan} is the way people are governed	
@@ -1913,8 +1913,8 @@ s47952	consume/eat up	used with <sak> of zeal that consumes the heart
 s47953	be ruling/rule	<uk>, rule, with <lai>, still or at the time, written as one word: be ruling, while ruling	
 s47954	ruling/the fact of ruling	<uk> rule with <lam>, the fact or manner of: that someone rules	
 s47955	be very fond of/be keen on/love doing	<uk>, here in the sense be fond of or be keen on, and <mahmah>, very, written as one word; {a ukmahmah khat} is someone who loves doing it, a keen fan	
-s47956	dominion	<uk>, rule, with the noun suffix <na>: rule, authority or dominion; {ukna gam} is the land that someone rules	
-s47957	dominance	the authority one person has over another, as in {ukna nuai-ah}, under the authority of	
+s47956	dominion/administration/government	<uk>, rule, with the noun suffix <na>: rule, authority or dominion; {ukna gam} is the land that someone rules	
+s47957	dominance/command	the authority one person has over another, as in {ukna nuai-ah}, under the authority of	
 s47958	domination		
 s47959	subdue	used with <nei>, have: {ukna nei} is have dominion over, rule over	
 s47960	kingdom/reign	<ukna>, rule, written with a capital in {Pasian’ Ukna}, the kingdom of God	
@@ -1926,7 +1926,7 @@ s47965	ruler/commander/captain/governor	the man who rules or is in charge; {siam
 s47966	Ruler/Chief/Overseer/Prince	capitalised form of <ukpa> as a title of Christ: {Siampi Ukpa} is the high priest, {Tuucing Ukpa} the Chief Shepherd	
 s47967	chief/leader/head	<uk>, rule, with <pi>, great: the head of a clan or tribe, a chief	
 s47968	Prince/ruler/chief	<ukpi>, chief, written with a capital as a title of Jesus, the Prince, and before the name of a chief	
-s47969	chief/ruler/chief officer	<ukpi> with {-pa} for a man: the man who is head of or in charge of a group or place	
+s47969	chief/ruler/chief officer/chieftain	<ukpi> with {-pa} for a man: the man who is head of or in charge of a group or place	
 s47970	chiefs/leaders/rulers	<ukpi>, chief, with the plural <te>	
 s47972	Ukraine	country in eastern Europe, in the news for its war with Russia	
 s47973	let rule/make rule/put in control	<uk>, rule, with causative <sak>: give someone or something control over	
@@ -1944,7 +1944,7 @@ s47984	control/master	with {ki-} before it, control oneself, be self-controlled
 s47985	control/mastery/rule	the power to rule over something; {ki-ukzawhna} or {pumpi ki-ukzawhna} is self-control	
 s47986	dominion/authority/power to rule	<ukzawhna>, the power to rule, with <te>, which here closes a list of nouns: dominion and authority	
 s47987	way of managing/way of ruling/how to manage	<uk>, rule, with <zia>, manner: the way to rule or manage something; {ukzia ding a theih kei leh} is if he does not know how to manage	
-s47988	rule/govern/manage/control	<uk>, rule, with <zo>, be able: be able to rule or manage, have control over; {ki-ukzo} is to control oneself	
+s47988	rule/govern/manage/control	<uk>, rule, with <zo>, be able: be able to rule or manage, have control over; <ki-ukzo> is to control oneself	
 s47989	those who manage/those who rule	<ukzo>, be able to rule, with the plural <te>: those who manage or rule well	
 s47990	Ulaanbaatar/Ulan Bator	the capital city of Mongolia	
 s47991	Ulai	river or canal beside the city of Susa in Elam, where Daniel saw a vision	

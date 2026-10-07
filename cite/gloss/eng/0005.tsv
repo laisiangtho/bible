@@ -215,7 +215,7 @@ s10227	after conceiving	<gai>, conceive, with <zawh>, after or having finished; 
 s10228	manage completely/be able to finish	<gai>, all, with <zo>, be able: manage the whole of something	
 s10229	fasten/tie/gird	tie or fasten one thing onto another, as a belt round the waist, a cord on a turban or rings on the legs of a table	
 s10230	soldiers/warriors	apparently a misprint of <galkapte>, soldiers	
-s10231	bind fast/entangle/hold fast	<gak>, tie, with <cip>, tightly: bind fast so that there is no getting free, said of ropes, snares, death and sin	
+s10231	bind fast/entangle/hold fast/bind	<gak>, tie, with <cip>, tightly: bind fast so that there is no getting free, said of ropes, snares, death and sin	
 s10232	binding/restriction/lock	noun of <gakcip>, bind fast: a tying down, a rule or arrangement that holds someone fast	
 s10233	fasten tight/make fast	<gakcip>, bind fast, with <sak>: have the feet fastened in the stocks	
 s10234	gird/tie round/fasten	<gak> tie round the waist with the linking ending <in>, tying or having tied a belt or sash	
@@ -247,7 +247,7 @@ s10259	armor/defence	<gal> war with <dal> shield: what protects in battle; {gald
 s10260	fortification/stronghold/defence	something that keeps the enemy out; {galdalna kulhpi} is a fortress and {galdalna inn} a citadel	
 s10261	armor/battle dress	<galdalna> defence with plural <te>: the pieces of armor a fighter wears	
 s10262	defences/bulwarks/towers	<galdal> with plural <te>: the defensive works of a city, named beside its walls	
-s10263	fight/wage war/go to battle	<gal> enemy with <do> fight; {galdo dingin} is for battle, for war	
+s10263	fight/wage war/go to battle/battle/combat	<gal> enemy with <do> fight; {galdo dingin} is for battle, for war	
 s10264	will wage war/to go to war/to fight	<galdo>, wage war, and <ding> written as one word: will make war on, or with <in> in order to go to war	
 s10265	battle/war/warfare	<galdo>, fight, with the noun suffix <na>: war or a battle; {galdona aw} is the battle cry	
 s10266	Galdona		
@@ -284,12 +284,12 @@ s10297	take across/bring over	<galkah> cross over with <pih>, together with: cro
 s10298	send across/let cross/take across	<galkah>, cross over, with the causative <sak>	
 s10299	overseas/across the sea	on the far side, across; found in {tuipi galkai}, across the ocean, said of Zomi living abroad; compare <galkah>, cross over, and <galkhat>, the other side	
 s10300	soldier	a man who serves in an army	
-s10301	army/host	a body of soldiers, the whole fighting force of a king or people; {vantung galkap} is the host of heaven	
+s10301	army/host/military	a body of soldiers, the whole fighting force of a king or people; {vantung galkap} is the host of heaven	
 s10302	warrior/soldier	<galkap> written with a capital in {Galkap Inn}, the House of the Heroes in Jerusalem	
 s10303	military government/military regime/junta	<galkap>, soldier, and <kumpi>, king or government: a government of the army, used of the military rulers of Myanmar; {galkap kumpi hun} is the time of military rule	
 s10304	military commander/general/army chief	<galkap>, soldier or army, and <mangpi>, high officer: a commander or general of an army; stands after the name of the army and before the rank and name of the person, and with <pa> it is the commander-in-chief	
 s10305	commander-in-chief/army chief/chief of staff	<galkap>, soldier or army, and <mangpipa>, the great lord: the highest officer of an armed force, the commander-in-chief; in news of Myanmar the head of the army	
-s10306	military base/army headquarters/garrison	<galkap>, soldier, and <phual>, camp, with the augmentative {-pi}: a large army base or headquarters, placed after the name of the town or army it belongs to, not the sense furnace of <phualpi>	
+s10306	military base/army headquarters/garrison/cantonment	<galkap>, soldier, and <phual>, camp, with the augmentative {-pi}: a large army base or headquarters, placed after the name of the town or army it belongs to, not the sense furnace of <phualpi>	
 s10307	military rule/military government/army rule	<galkap>, soldier, army, and <ukna>, rule: government of a country by its army; {galkap ukna nuai ah} is under military rule	
 s10308	military aircraft/military plane/warplane	<galkap>, soldier or army, and <vanleng>, aeroplane: an aircraft of the armed forces	
 s10309	centurion/army officer	commander of a body of soldiers, <galkap>, soldier, with <bu>	
@@ -381,7 +381,7 @@ s10394	flight/fleeing from the enemy	{Galtai}, flee from the enemy, with the nou
 s10395	fugitives/refugees	Plural of <galtai>: people who flee from an enemy or from war.	
 s10396	enemies/foes	Plural of <gal>: enemies, those who fight against or hate someone.	
 s10397	military affairs/warfare/war matters	<gal>, war, with <vai>, affair: all that has to do with war and armed forces; {galvai tawh kisai} is concerning military matters, and it is paired with <gamvai> in the news sense of political affairs	
-s10398	weapons/arms/armor	<Gal>, war, with <van>, goods: the equipment of war, weapons and armor; {galvan koihna} is an armory and {galvan puapa} an armor-bearer.	
+s10398	weapons/arms/armor/munition/weapon	<Gal>, war, with <van>, goods: the equipment of war, weapons and armor; {galvan koihna} is an armory and {galvan puapa} an armor-bearer.	
 s10399	armed/bearing arms	<galvan>, weapons, and <tawi>, carry: carrying weapons, armed; it stands before the noun it describes, as {galvan tawi galkapte}, armed soldiers, like {thau tawi}, carrying guns	
 s10400	warplane/military aircraft/fighter plane	<gal>, war, with <vanleng>, aircraft: an aircraft of an armed force	
 s10401	warplanes/military aircraft	plural of <galvanleng>	
@@ -397,11 +397,11 @@ s10410	watchman/lookout	{Galvil}, watch, with <pa>, which marks a man: a man who
 s10411	watchmen/guards/lookouts	Plural of <galvil>: watchmen or guards who keep watch for the enemy.	
 s10412	hear of/hear from afar	<Gal>, from far off, with <zak>, hear: hear about someone or something that is elsewhere.	
 s10413	win in war/conquer	<Gal>, war, with <zawh>, the form of <zo>, overcome, used before another word; {galzawh van} is plunder, the goods won in war.	
-s10414	victory	{Galzawh}, win in war, with the noun suffix <na>: victory in battle.	
-s10415	win the war/be victorious in war	<gal>, war, with <zo>, win, written as one word; also said of the side that has won	
+s10414	victory/conquest	{Galzawh}, win in war, with the noun suffix <na>: victory in battle.	
+s10415	win the war/be victorious in war/conquer	<gal>, war, with <zo>, win, written as one word; also said of the side that has won	
 s10416	conquerors/victors	<Gal>, war, with <zo>, win, and the plural <te>: those who win a war.	
 s10417	follow at a distance	<Gal>, from afar, with <zuih>, follow: follow at a distance; {nung galzuih} is follow behind someone from far off.	
-s10418	country	A country or region with its people; {mualtung gam} is hill country.	
+s10418	country/state	A country or region with its people; {mualtung gam} is hill country.	
 s10419	territory	The area of land that belongs to a people, a tribe or a ruler.	
 s10420	kingdom/realm	The land that a king rules; {kumpi gam} is a kingdom.	
 s10421	land	Land as the place where people live; after a name it means the land of, as in {Kanaan gam}, the land of Canaan.	
@@ -451,7 +451,7 @@ s10464	prime minister/premier	<gambup>, national, and <thuvanpi>, secretary: tak
 s10465	throughout the country/nationwide	<gambup> and <ah> written as one word: in the whole country	
 s10466	in the whole land/on the whole land	<Gam>, land, with <bup>, whole, the intensifier <pi> and the place marker <ah>: in or upon the whole land.	
 s10467	each country/own country/respective country	<gam>, country, and <ciat>, each, written as one word: each one his own country, as in {amau gamciat}, their respective countries	
-s10468	quiet/silent/peaceful	Still and without noise, said of a land at peace or of people who stop speaking; {gamdai takin} is quietly and {gamdai-in om} is keep silent.	
+s10468	quiet/silent/peaceful/tranquil	Still and without noise, said of a land at peace or of people who stop speaking; {gamdai takin} is quietly and {gamdai-in om} is keep silent.	
 s10469	be quiet/be silent/fall silent	Form of <gamdai>, quiet, used before <nading> and <khit>: become quiet, stop making noise.	
 s10470	solitary place/lonely place/desolate place	{Gamdaih}, be quiet, with the noun suffix <na>: quiet country where no one is; often followed by <mun>, place.	
 s10471	silence/quiet/calm	the state of being quiet and not a place: the silence between people who do not speak, as in {gamdaihna sukham}, break the silence, or calm in a country, beside <lungmuanna>	
@@ -459,12 +459,12 @@ s10472	quiet/calm/silence	{Gamdai}, quiet, with the causative <sak>: make people
 s10473	quieting/silencing	{Gamdaisak}, make quiet, with the linking suffix <in>: quieting people before going on to speak.	
 s10474	quietly/peacefully/silently	<gamdai> and <tak> written as one word, mostly with <in>: in a quiet and orderly way	
 s10475	quieter/more quiet	{Gamdai}, quiet, with the comparative <zaw>: quieter than before.	
-s10476	foreign/strange	<Gam>, land, with <dang>, other: of another country; {gamdang mi} is a foreigner or stranger and {gamdang pasian} a foreign god.	
+s10476	foreign/strange/overseas	<Gam>, land, with <dang>, other: of another country; {gamdang mi} is a foreigner or stranger and {gamdang pasian} a foreign god.	
 s10477	foreign land/foreign country	<Gam>, land, with <dang>, other: a land that is not one’s own; {gamdang khatah} is to another land.	
 s10478	abroad/in a foreign country	<gamdang>, foreign country, with the ending <a>, in: in another country, abroad	
-s10479	in a foreign land/to another land/among the nations	{Gamdang}, foreign land, with the place marker <ah>: in or to another land, among other nations.	
+s10479	in a foreign land/to another land/among the nations/abroad	{Gamdang}, foreign land, with the place marker <ah>: in or to another land, among other nations.	
 s10480	Gamdangah	not a proper name: the word <gamdangah>, in a foreign land, written with a capital at the start of a sentence	
-s10481	foreigner/stranger	{Gamdang}, foreign, with <mi>, person: a person from another country.	
+s10481	foreigner/stranger/alien	{Gamdang}, foreign, with <mi>, person: a person from another country.	
 s10482	foreign tourist/foreign visitor	<gamdangmi>, foreigner, and <khualzin>, travel: a foreigner who travels in the country, a foreign tourist	
 s10483	foreign worker/migrant worker	<gamdangmi>, foreigner, and <nasem>, worker: a person from another country who works in the land, the term of the news for migrant labour in Malaysia	
 s10484	foreign workers/migrant workers	<gamdangmi>, foreigner, and <nasemte>, here workers and not servants: people from another country who work in a country, the term of the news for migrant labour	
@@ -520,7 +520,7 @@ s10533	wild goats	Plural of <gamkeel>: wild goats.
 s10534	colonialist/colonizer/colonialism	a power that takes and rules the land of others, from <gam>, land; also the taking itself; {gamkek hun} is the colonial period and {gamkek kumpi} a colonial government	
 s10535	colonialists/colonizers	<gamkek> with the plural <te>: the colonial powers or rulers	
 s10536	states/provinces/regions	<gamke>, state, with the plural <te>	
-s10537	dry land/parched land	<Gam>, land, with <keu>, dry: land without water.	
+s10537	dry land/parched land/desert	<Gam>, land, with <keu>, dry: land without water.	
 s10538	be dry/be parched	said of the country in the hot season, when everything is dry and fire spreads easily; {gamkeu} is then the predicate, before <in> or <mahmah>, and not the name of a kind of land	
 s10539	desert/dry land/arid land	<gam> and <keuna> written as one word: dry country, mostly before <mun>, as {sehnel gamkeuna mun}, a sandy desert place	
 s10540	June	a month of the traditional Zomi calendar, set beside June in the book's table of month names	
@@ -644,7 +644,7 @@ s10658	wild ox	<gam>, wild country, with <sial>, the mithun: a strong wild ox, i
 s10659	young wild ox	<gamsial> wild ox with <no>, young	
 s10660	wild oxen	<gamsial>, wild ox, with the plural <te>	
 s10661	wasteland/desolate land	<gam> land with <simtham> desolate: a land left empty with no one living in it	
-s10662	land	<gam>, land, with <sung>, inside: a land or country as an area, often after its name	
+s10662	land/territory	<gam>, land, with <sung>, inside: a land or country as an area, often after its name	
 s10663	wild	of the open country, said of animals and plants that live or grow wild and of a man who lives outdoors	
 s10664	national security/internal security/public safety	<gamsung>, the inside of a country, and <bitna>, safety: the security of a country and of the people in it, as a task of police and government	
 s10665	at home and abroad/inside and outside the country	<gamsung>, inside the country, and <gampua>, abroad, set side by side without <leh>: at home and abroad, everywhere that the people live; followed by <ah>, in, or <pan>, from	
@@ -691,7 +691,7 @@ s10705	tense/time of action	<gamtat>, act, with <hun>, time: the time of an acti
 s10706	conduct and speech/behaviour/words and deeds	<gamtat>, conduct, and <kampau>, speech, said together as one noun: the whole way a person acts and speaks, his behaviour; used in moral and religious advice, often after <nuntak>, life, or before <hoih>, good	
 s10707	misconduct/wrongdoing/offence	<gamtat>, conduct, and <khialhna>, error: wrong behaviour, an act of misconduct, from a moral fault to an offence against the law; often beside <mawhna>, sin or guilt	
 s10708	conduct/behaviour/manners	<gamtat>, conduct, and <luheek>, which is found only in this pair: a fixed pair of two words of like meaning, the whole way a person acts and carries himself; it follows a possessor such as <a> or <i> and is often listed beside <kampau>, speech, and <ngaihsutna>, thought	
-s10709	conduct/behaviour/character	<gamtat>, behave, and <luhek>, manners: a pair that names a person's conduct as a whole, often beside words for speech such as <kampau>	
+s10709	conduct/behaviour/character/demeanour	<gamtat>, behave, and <luhek>, manners: a pair that names a person's conduct as a whole, often beside words for speech such as <kampau>	
 s10710	behaviour/conduct/manner	<gamtat>, behave, with <dan>, way: the way a person behaves or acts	
 s10711	to behave/to act/how to act	<gamtat>, behave, and <ding>, will, written as one word: to behave or act in a certain way, how one should act	
 s10712	those who act/those who behave	plural: people who conduct themselves in the way stated before the word	
@@ -858,7 +858,7 @@ s10873	grind to powder/crush to dust/pulverize	<gawi>, grind, with <vui>, dust: 
 s10874	crush/grind/thresh/trample	crush or tread something until it is broken small, as grain is threshed or grapes are trodden	
 s10875	trample/crush	<gawizan>, crush or tread, with the causative <sak>	
 s10876	neck/throat	the neck or throat; {gawl meek} is to choke or strangle	
-s10877	fence/wall	a fence or wall round a field or yard; {gawl sung} is the space inside it, a court	
+s10877	fence/wall/fencing/paling	a fence or wall round a field or yard; {gawl sung} is the space inside it, a court	
 s10878	throat	the throat, the passage inside the neck for breath, voice and food	
 s10879	with a fence/with a hedge	<gawl>, fence, with the marker <in>, by means of: {gawlin um} is enclose with a fence	
 s10880	by the throat/by the neck	<gawl>, throat or neck, with the marker <in>: {a gawlin man} is seize him by the throat	
@@ -867,12 +867,12 @@ s10882	sore throat/throat pain	pain in the throat, named among the signs of illn
 s10883	by the neck/at the neck	<gawl>, neck, and <pan>, from, written as one word	
 s10884	throat/inside of the throat	<gawl>, throat, and <sung>, inside, written as one word: the inside of the throat	
 s10885	victory	apparently another spelling of <gualzawhna>, victory	
-s10886	join/combine/blend/add together	put things together into one: join forces, blend ingredients, add up a number; {gawm khawm} is join together	
+s10886	join/combine/blend/add together/add/mingle	put things together into one: join forces, blend ingredients, add up a number; {gawm khawm} is join together	
 s10887	join and/combine and	<gawm>, join, with the linking <a> written as one word: having joined the things named, and then	
 s10888	join on/add on	<gawm>, join, with the ending of <genbeh> and <behlap>, in addition: join one more thing on to what is there, as a word to another word	
 s10889	joining on/addition	<gawmbeh>, join on, with the noun ending {-na}: the joining of a word on to another, as of <khit> and <laitak> after a verb	
 s10890	joining/combining/putting together	<gawm>, join or combine, with the linking ending <in>; often rendered together or all together	
-s10891	join together/combine/unite/mix	<gawm>, join, and <khawm>, together, written as one word: put or bring together into one	
+s10891	join together/combine/unite/mix/aggregate/amalgamate/commingle	<gawm>, join, and <khawm>, together, written as one word: put or bring together into one	
 s10892	combine/join together/put together	<gawm>, join, with <khop>, together: bring several things together into one	
 s10893	to merge/to join together	<gawm>, join, <khop>, together, and <ding>, will, written as one word: to be joined together, a planned merger; with <ki>, to unite with each other	
 s10894	combination/union/joining together	the bringing together of several things or groups into one, or what results from it	
@@ -911,7 +911,7 @@ s10926		<gawp>, which shows an action done severely, with the plural <te>: those
 s10927		<gawp>, placed after a verb for an action done severely or completely, with <zo>, be able, as in {thalnial gawpzo} be able to demolish	
 s10928	harp	a musical instrument, rendered harp in Revelation, where <tamngai> is the pipe; {gawsem tumte} is those who play it; in everyday use perhaps the gourd mouth organ, a wind instrument	
 s10929	harps/pipes	plural of <gawsem>, a musical instrument; used for the harps of Revelation and for the pipes of Daniel 3:5	
-s10930	afflict/oppress/mistreat/punish	lay a heavy hand on someone: treat harshly, afflict or punish; {gawt bawl} is to mistreat a person	
+s10930	afflict/oppress/mistreat/punish/penalise	lay a heavy hand on someone: treat harshly, afflict or punish; {gawt bawl} is to mistreat a person	
 s10931	mistreat/treat harshly	<gawt>, afflict, with <bawl>, do: treat someone harshly	
 s10932	mistreatment/torture/cruelty/abuse	<gawtbawl>, mistreat, with the noun ending {-na}: harsh treatment of a person or an animal, also as punishment or revenge	
 s10933	afflicting/punishing	<gawt>, afflict, with the linking suffix <in>	
@@ -938,7 +938,7 @@ s10953	Gederoth	town in the western foothills of Judah, taken by the Philistines
 s10954	Gederothaim	town in the western foothills of Judah, listed next to Gederah	
 s10955	Gedor	name of a town in the hill country of Judah and of several men, among them a Benjamite son of Jeiel	
 s10956	narrow	not wide; the book gives it as the opposite of <zai>, wide	
-s10957	plan/devise/design	think out beforehand what is to be done or made	
+s10957	plan/devise/design/scheme	think out beforehand what is to be done or made	
 s10958	both/the two	placed after a noun for two together, the same word as <gel>: {tanu geel} is the two tanu, the elder and the younger; not the verb plan	
 s10959	pair/the two	placed after the name of a household position or of a thing that comes in two: the two of them together, as in <tanugeel>, the senior and the junior daughter of the house, and {nauzaw geelin}, the two younger ones; not the verb plan	
 s10960	devise/plot/ponder/meditate	doubled form of <geel>, plan: keep planning or turning something over in the mind	
@@ -947,7 +947,7 @@ s10962	careful planning/planning	<geelgeel>, keep planning, with the noun suffix
 s10963	plotters/those who devise	<geelgeel> keep planning with plural <te>: the people who keep plotting something	
 s10964	planning/designing/devising	<geel>, plan, with the linking suffix {-in}: planning something and then doing it	
 s10965	plan together	<geel> and <khawm> written as one word: plan or think out a thing jointly with others	
-s10966	plan/devise/draw up	<geel> plan and <khia> out written as one word: work out a plan for something; {a geelkhia} is the one who planned it	
+s10966	plan/devise/draw up/formulate	<geel> plan and <khia> out written as one word: work out a plan for something; {a geelkhia} is the one who planned it	
 s10967	plan ahead/plan in advance/prearrange	<geel>, plan, with <khol>, here beforehand: think out and settle in advance what is to be done	
 s10968	plan beforehand/prepare in advance	<geel>, plan, with <kholh>, beforehand	
 s10969	plan/advance planning/preparation	<geelkholh>, plan beforehand, with the noun ending <na>: a plan made in advance, planning ahead	
@@ -1047,7 +1047,7 @@ s11064	be able to write/manage to write	<gelh>, write, and <zo>, be able or fini
 s11065	Geliloth	place on the border between Judah and Benjamin, facing the Pass of Adummim	
 s11066	both/the two	<gel> and <in> written as one word: both of them, as the doers of the action	
 s11067	plan/planning	<geel>, plan, spelled short and written as one word with <in>: planning, having planned	
-s11068	slip away/slip out/steal out	go out unnoticed, with <khia>, out	
+s11068	slip away/slip out/steal out/escape	go out unnoticed, with <khia>, out	
 s11069	plan/design/devise/draw up	<gel>, plan, with <khia>, out: work out a plan for something to be built or set up, often as {gelkhia ding} in a list of aims; not slip away	
 s11070	plan ahead/plan in advance/prepare beforehand	<geel>, plan, in a shorter spelling, with <khol>, beforehand: think out and arrange something before the time comes	
 s11072	advance planning/plan/forethought	noun from <geelkholh>, plan beforehand, written here with a short vowel: a plan made ahead of time; {gelkholhna nei} is plan ahead	
@@ -1067,7 +1067,7 @@ s11086	Gemalli	father of Ammiel, the man from the tribe of Dan sent to spy out C
 s11087	Gemariah	name of two men in Jeremiah: a son of Shaphan the secretary, who urged the king not to burn the scroll, and a son of Hilkiah sent to Babylon by Zedekiah	
 s11088	Gemas	a town in the state of Negeri Sembilan in Malaysia, a railway junction	
 s11089		placed after a describing word to stress a solid, heavy, stark or imposing look: {gum gemgam}, grim; {tul gemgam}, standing stiff and bare; {vom gemgam}, pitch black; {khauh gemgam}, stiff and hard	
-s11090	tell/say/speak	say or tell something in words; the basic verb of speaking, as in {thu gen}, speak a word	
+s11090	tell/say/speak/express/mention/narrate/state	say or tell something in words; the basic verb of speaking, as in {thu gen}, speak a word	
 s11091	inform	tell someone a piece of news or report it to them, with <kiangah> for the person told	
 s11092	to put it/so to speak/if we say	<gen>, say, and <lehang>, if we: if we say it, to put it; follows a word of manner and introduces a restatement, as in {lam khatin gen lehang}, in other words, and {thu dang khatin gen lehang}, to put it another way	
 s11093	tell plainly/say outright	<gen>, say, and <siang>, clean: say a thing clearly and completely, holding nothing back; with <ngam> and <kei>, not dare to tell it plainly	
@@ -1082,7 +1082,7 @@ s11101	further statement/additional remark/further explanation	<genbeh>, say in 
 s11102	want to add/wish to say further	<genbeh>, say in addition, with <nop>, want, written as one word: what one wishes to say in addition	
 s11103	only say/merely say	<gen>, say, with <bek>, only, written as one word: only say it, say it and no more	
 s11104	as the subject of speech	always with <nei>, have: {genbelin nei} is have something as the matter one keeps speaking about, speak of, testify to	
-s11105	explain clearly/state exactly/make clear	<gen>, say, with <cian>, clearly, written as one word: say exactly how a thing is, explain it so that it is clear	
+s11105	explain clearly/state exactly/make clear/clarify/explain	<gen>, say, with <cian>, clearly, written as one word: say exactly how a thing is, explain it so that it is clear	
 s11106	when one says/when speaking	<gen>, say, and <ciang>, when, written as one word: when someone says or tells something	
 s11107	when speaking/when one says	<gen>, speak, and <ciangin>, when, written as one word: when someone speaks or says something	
 s11108	clarification/explanation/statement	<gencian>, explain clearly, with the noun ending {-na}: a statement that makes a matter clear; <gencianna nei> is give an explanation	
@@ -1118,7 +1118,7 @@ s11139	say/happen to say	<gen>, say, with <kha>, which marks something one comes
 s11140	happen to say/say	form of <genkha>, <gen> say with <kha>, come to do, used before <loh>, {uh leh} and the like	
 s11141	talk together/converse	<gen>, speak, with <khawm>, together	
 s11142	talk together/discuss	<genkhawm> with the linking ending <in>, used before a following verb	
-s11143	declare/proclaim/speak out/utter	<gen>, say, with <khia>, out	
+s11143	declare/proclaim/speak out/utter/announce	<gen>, say, with <khia>, out	
 s11144	have stated/have declared	<genkhia>, declare, and <khin>, already, written as one word: has already said or announced	
 s11145	misstatement/slip of the tongue	<gen> and <khialh> written as one word: something said wrongly, a mistake in what one has said or written	
 s11146	not disclose/not say	<genkhia>, speak out, and <lo>, not, written as one word: did not say or make known	
@@ -1132,13 +1132,13 @@ s11153	to announce/to state/will tell	<genkhiat> and the future marker <ding> wr
 s11154	those who declare/those who acknowledge	<genkhia>, declare, with the plural <te>: the ones who speak it out	
 s11155	be able to say/can state/can tell	<genkhia>, state or declare, and <thei>, can, written as one word: be able to say or state something, mostly with a negative, cannot yet be said	
 s11156	permission to disclose/leave to make public	<genkhiat>, speak out, with <khuan>, permission, written as one word: the right or permission to make something public; {genkhiatkhuan omlo} is it may not be disclosed	
-s11157	proclaiming/speaking out/declaration	<genkhiat> speak out with the noun suffix <na>	
+s11157	proclaiming/speaking out/declaration/announcement	<genkhiat> speak out with the noun suffix <na>	
 s11158	tell to others/pass on/relate	<genkhiat>, speak out, with <sawn>, on to others	
 s11159	be able to state/can be told	<genkhiat>, state or announce, with <theih>, be able, written as one word; {genkhiattheih omnailo} is there is nothing yet that can be stated	
 s11160	say briefly/state shortly	<genkhia> and <ziau> written as one word: say something out briefly and leave it at that, often closing a report of what someone said	
 s11161	have told/have spoken	<gen>, tell, with <khin>, already or completely: the telling is finished	
 s11162	finish saying/have said	<gen>, say, with <khit>, finished, mostly in {a genkhit ciangin}, after he had said	
-s11163	foretell/prophesy/tell beforehand	<gen>, tell, with <khol>, beforehand: tell a thing before it happens, prophesy	
+s11163	foretell/prophesy/tell beforehand/prognosticate	<gen>, tell, with <khol>, beforehand: tell a thing before it happens, prophesy	
 s11164	foretell/tell beforehand/promise	form of <genkhol> used before a noun or in a dependent clause, what was said beforehand	
 s11165	prophecy/prediction/divination	telling a thing beforehand	
 s11166	prophecies/predictions/visions	<genkholhna>, a thing told beforehand, with plural <te>; also of warnings and threats made in advance	
@@ -1181,7 +1181,7 @@ s11202	have said before/have told	<gen> and <ngei> written as one word: have sai
 s11203	let us say	<gen>, say, with the ending {-ni}, let us, written as one word; {a tomin genni cileng} is to put it briefly	
 s11204	want to say/mean	<gen>, say, with <nop>, wish; {gennop thu} is what someone wants to say or means	
 s11205	main point/chief point/gist	<gennop>, what one wants to say, and <bulpi>, the base or chief part: the main point that a speaker or writer wants to make; usually after <i>, <ih> or <na> and followed by <in>, <ah> or {ahih leh} to introduce that point	
-s11206	meaning/what is meant	<gennop>, want to say, with the noun suffix <na>: what one means to say	
+s11206	meaning/what is meant/implication	<gennop>, want to say, with the noun suffix <na>: what one means to say	
 s11207	want to say/want to tell/wish to speak	<gen>, say, with <nuam>, want	
 s11208	mean/refer to	with <a> before it and <hi>, {i hi} or <hiam> after: what a word or statement is meant to say, or whom it refers to, not a wish to speak	
 s11209	not want to tell/be unwilling to say	<gen>, tell, and <nuamlo>, not want, written as one word: not want to tell or name something; {a min gennuamlo} is who did not want to give his name	
@@ -1247,7 +1247,7 @@ s11268	take as an example/compare	<genteh> with the linking ending <in>: using s
 s11269	example/illustration	<genteh>, compare, with the noun suffix <na>: a case told as an example or illustration, also a person held up as a byword	
 s11270	for example/as an example	<gentehna>, example, with <in> written after a hyphen: introduces a case that shows what was just said	
 s11271	each say/all say	<gen>, say, and <tek>, each, written as one word: every one of them says	
-s11272	explain/expound/state clearly	<gen> tell with <tel> clear, tell a matter so that it is understood	
+s11272	explain/expound/state clearly/define	<gen> tell with <tel> clear, tell a matter so that it is understood	
 s11273	explanation/clear statement	<gentel> explain with the noun suffix <na>	
 s11274	transparency/openness/clarity	the quality of speaking and acting openly and clearly, named as a virtue beside <cihtakna>, honesty, and <suahtakna>, freedom; not one explanation that is given	
 s11275	all that is said/everything said	<gen>, say, with <teng>, all: all that someone says or has said	
@@ -1256,7 +1256,7 @@ s11277	worth mentioning/of account	<gen> say with <tham> worth; {bangmah gentham
 s11278	proclaim/spread abroad/publish	tell something widely so that it becomes known everywhere, of good news or of slander	
 s11279	proclaim/spread abroad	<genthang> with the linking ending <in>, used before a following verb	
 s11280	proclamation/report	<genthang>, make known by telling, with the noun suffix <na>: what is proclaimed or spread about	
-s11281	distressed/afflicted/miserable/poor	suffering hardship or anguish, often paired with <cimawh>, needy	
+s11281	distressed/afflicted/miserable/poor/indigent	suffering hardship or anguish, often paired with <cimawh>, needy	
 s11282	can tell/be able to say	<gen>, tell, with <thei>, be able	
 s11283	be able to tell/be able to say/can be told	<gen> tell with <theih> can; {gentheih loh} is beyond telling	
 s11284	suffer/be in trouble/be in distress	form of <genthei> used before <hun> and <na>; {ka gentheih hunin}, in my time of trouble	
@@ -1281,12 +1281,12 @@ s11303	welfare secretary/Genvai secretary	<Genvai>, the mutual aid fund of a Zom
 s11304	mutual aid fund stewards/fund helpers	{genvai}, the mutual aid fund of a community, and <tanute>, daughters, the name by custom of those appointed to serve at a household's occasions: the persons who serve a mutual aid fund, named in notices beside the members who have joined	
 s11305	Genvai member/enrolled member	a person who has joined, <lut>, the <Genvai>, the mutual fund of Zomi Innkuan USA that pays out at a death	
 s11306	enrolled Genvai member	<Genvai> and <lutsa>, already joined, written as one word: those who have already joined the Genvai fund	
-s11307	proclaim/announce/make known	<gen> tell with <zaak>, let hear: make something known aloud; written <genzak> in the other Bible text	
+s11307	proclaim/announce/make known/declare	<gen> tell with <zaak>, let hear: make something known aloud; written <genzak> in the other Bible text	
 s11308	proclaim/announce/make known	<gen> tell with <zak>, let hear: make something known aloud; written <genzaak> in the other Bible text	
 s11309	proclamation/announcement/order	<genzak> proclaim with the noun suffix <na>; {thu genzakna bawl} is issue a proclamation	
 s11310	speak rather/speak instead/teach rather	<gen>, speak, with <zaw>, rather: speak in this way and not in the other; follows a clause with {gen loin}, not speaking as	
 s11311	be able to tell/express fully/tell in full	<gen>, tell, with <zawh>, be able to finish; nearly always with <loh>, not: {genzawh loh} and {genzawh lohin} mean beyond telling, more than can be told or counted	
-s11312	inexpressible/unspeakable/beyond words	<genzawh> and <loh> written as one word before a noun: that cannot be fully told; {genzawhloh lungdamna} is thanks beyond words	
+s11312	inexpressible/unspeakable/beyond words/untold	<genzawh> and <loh> written as one word before a noun: that cannot be fully told; {genzawhloh lungdamna} is thanks beyond words	
 s11313	keep saying/say repeatedly/often tell	<gen>, say, and <zel>, repeatedly, written as one word: say again and again, keep telling	
 s11314	way of speaking/way of telling	<gen>, say, with <zia>, manner: the way someone says or tells a thing	
 s11315	say briefly/say simply/just say	<gen> and <ziau> written as one word: say something quickly and simply, in few words or straight out	
@@ -1326,7 +1326,7 @@ s11348	lodge/stay the night/camp	stay somewhere for the night; the form of <giak
 s11349	Giah	place near the hill of Ammah on the road to the wilderness of Gibeon, reached by Joab in his pursuit of Abner	
 s11350	camp/tent	<giah> lodge with <buk> hut: a shelter to stay in, and the camp made of them; {giahbuk pualam} is outside the camp	
 s11351	stay on/lodge continually	<giah>, stay the night, with a second part written <deen> here and meaning as <den>, continually: stay on in a house night after night	
-s11352	lodging place/camp/resting place	<giah>, stay the night, with the noun suffix <na>: the place where one stops for the night, a lodging place or camp	
+s11352	lodging place/camp/resting place/accommodation/lodging	<giah>, stay the night, with the noun suffix <na>: the place where one stops for the night, a lodging place or camp	
 s11353	camp/encampment	the place where a people or an army stops and sets up its tents; {giahphual sat} is pitch camp	
 s11354	in the camp	<giahphual>, camp, with the place ending <a>: in the camp	
 s11355	camp/in the camp/to the camp	<giahphual>, camp, with the place ending <ah>: in the camp or to the camp	
@@ -1336,7 +1336,7 @@ s11358	stay the night with/camp out with	<giah>, stay the night, with <pih>, tog
 s11359	spend the night/lodge/stay overnight	stay somewhere for the night, as a traveller or a guest; the form <giah> is used before <nading> and in <giahphual>, camp	
 s11360	spend the night/stay overnight	<giak>, spend the night, with the linking ending <in>, used before a following verb: staying out at night	
 s11361	stay the night together/lodge with	<giak>, spend the night, with <khawm>, together: stay the night with someone as a guest	
-s11362	speckled/spotted/streaked/dappled	of an animal, marked with spots or stripes of another colour; {a dung gial} is streaked, and {a bem gial} is spotted	
+s11362	speckled/spotted/streaked/dappled/particoloured	of an animal, marked with spots or stripes of another colour; {a dung gial} is streaked, and {a bem gial} is spotted	
 s11363	hail/hailstone	frozen rain that falls as balls of ice; <gialpi> is heavy hail	
 s11364	pattern/stripes/markings	as a noun, {a gial}, the stripes or pattern of colours on cloth or on an animal's coat; clothes of one pattern are a uniform	
 s11365	spotted/speckled	<gial> spotted with <bem> round: marked with round spots; {kamkei gialbem} is the leopard	
@@ -1405,7 +1405,7 @@ s11428	Gilead	spelling of Gilead in some verses, the hill country east of the Jo
 s11429	Gilgal	place near Jericho where Israel first camped after crossing the Jordan and where Joshua set up twelve stones	
 s11430	small intestine	one of the entrails of a slaughtered animal, named beside <gilpi>; taken to be the small intestine, which is not confirmed	
 s11431	hungry	feeling the need of food; from <gil>, belly, and <kial>, be hungry	
-s11432	starve/be hungry/go hungry	be hungry or go without food; from <gil>, belly, and <kial>, be hungry	
+s11432	starve/be hungry/go hungry/famish	be hungry or go without food; from <gil>, belly, and <kial>, be hungry	
 s11433	hungry and thirsty/starving/in want	<gilkial>, hungry, and <dangtak>, thirsty, set side by side without <leh>: a fixed pair for being without food and drink, in want; with <in> it says in what state someone is or is kept, and it also stands as a noun for hunger and thirst	
 s11435	hungry	<gilkial>, hungry, with the ending <in>: being hungry, in hunger	
 s11436	very hungry/starving	<gilkial>, hungry, with <lua>, very or too much, written as one word	
@@ -1413,10 +1413,10 @@ s11437	hunger/famine	<gilkial>, be hungry, with the noun suffix <na>: hunger, an
 s11438	very hungry/hungry	<gilkial>, hungry, with <pi>; in the verse of working while still hungry	
 s11439	make hungry/cause to hunger	<gilkial>, hungry, with the causative <sak>	
 s11440	the hungry/hungry people/the starving	<gilkial>, hungry, with the plural <te>: people who are hungry	
-s11441	stomach ache/abdominal pain	pain in the <gil>, belly, compare <nat>, hurt; {gilna sa} is have a stomach ache	
+s11441	stomach ache/abdominal pain/colic	pain in the <gil>, belly, compare <nat>, hurt; {gilna sa} is have a stomach ache	
 s11442	stomach ache/abdominal pain	<gil>, belly, with <nat>, hurt: pain in the belly; also said of the pains of childbirth	
 s11443	bowel disease/stomach illness	<gil>, belly, with <natna>, sickness: a disease of the bowels	
-s11444	evil/wicked/bad	morally bad, wicked or cruel; follows its noun, as in {mi gilo}, a wicked person, and {kha gilo}, an evil spirit	
+s11444	evil/wicked/bad/cruel/nefarious	morally bad, wicked or cruel; follows its noun, as in {mi gilo}, a wicked person, and {kha gilo}, an evil spirit	
 s11445	lawless/wicked/evil	<gilo> written with a capital, at the start of a sentence or in the title {Gilo Mi}, the lawless one	
 s11446	Giloh	town in the hill country of Judah, home of David's counsellor Ahithophel, also written <Giloh>; {Gilo khuami} is the Gilonite	
 s11447	Giloh	town in the hill country of Judah, home of David's counsellor Ahithophel	
@@ -1431,9 +1431,9 @@ s11455	the most ruthless/the most wicked	<gilo>, wicked, with <pen>, most, and t
 s11456	wicked/evil	plural form placed after a noun, as in {mi gilote} the wicked and {dawi gilote} evil spirits	
 s11457	wicked/evil	<gilote> written with a capital in a title; {Numei Gilote}, wicked women, stands for the prostitutes of the English text	
 s11458	appendix	the appendix of the intestine; {gilpeng natna} is appendicitis and {gilpeng kitam} a burst appendix	
-s11459	belly/stomach	<gil>, belly, with <pi>, great: the belly or stomach, and the inner organs of an animal	
-s11460	stomach ache/abdominal pain/stomach illness	<gilpi>, belly, with <na>, be in pain: pain or illness of the stomach	
-s11461	bloating/swollen belly/distended stomach	<gil>, belly, with <puak>, burst or swell: a belly that is blown up, from gas or indigestion after eating, or the swollen belly of an underfed child	
+s11459	belly/stomach/gut	<gil>, belly, with <pi>, great: the belly or stomach, and the inner organs of an animal	
+s11460	stomach ache/abdominal pain/stomach illness/colic	<gilpi>, belly, with <na>, be in pain: pain or illness of the stomach	
+s11461	bloating/swollen belly/distended stomach/flatulence	<gil>, belly, with <puak>, burst or swell: a belly that is blown up, from gas or indigestion after eating, or the swollen belly of an underfed child	
 s11462	dysentery	<gil> belly with <san> red: sickness of the bowels with blood	
 s11463	womb/belly	<gil> belly with <sung> inside	
 s11464	in the stomach/in the womb/in the belly	<gilsung>, belly or womb, with <ah>, in, written as one word	
@@ -1449,19 +1449,19 @@ s11473	mistreat/oppress/ill-treat	<gim>, suffer, with <bawl>, do or make: make s
 s11474	oppress/treat harshly	form of <gimbawl>, <gim> suffering with <bawl> do, with the linking suffix <in>	
 s11475	be exhausted/be worn out	<gim>, be tired, with <gawp>, severely, written as one word: be very tired or weak, be worn out	
 s11476	firmly/solidly/steadfastly	placed after a verb for something done in a firm, solid way: {kilam gimgem} is solidly built and {dinpih gimgem} is stand firmly by something	
-s11477	tiring/wearisome/toilsome	<gim> with <huai>: causing tiredness, hard to bear	
+s11477	tiring/wearisome/toilsome/arduous/tedious/tiresome	<gim> with <huai>: causing tiredness, hard to bear	
 s11478	time of trouble/time of suffering	<gim>, suffering, with <hun>, time	
 s11479	be weary/be tired/be exhausted	<gim> with the linking suffix <in>	
 s11480	sharing in hardship	<gim>, suffer, with <khop>, together, and the noun suffix <na>: suffering together with someone	
 s11481	suffer/be in anguish	<gim> suffering with <lawh> get: come into pain or distress	
 s11482	be burdened/be put to trouble	come to suffer because of someone; in the verse negated, so that you would not be burdened	
-s11483	untiring/not tired/without toil	<gim>, be tired or toil, and <lo>, not, written as one word: not growing tired, or not having to toil	
+s11483	untiring/not tired/without toil/tireless	<gim>, be tired or toil, and <lo>, not, written as one word: not growing tired, or not having to toil	
 s11484	be exhausted/be too weary	<gim> be tired with <lua> too much	
 s11485	be exhausted/be greatly distressed	form of <gimlua> used before <manin> and <na>	
 s11486	exhaustion/great weariness	<gimluat> with the noun suffix <na>	
 s11487	be in critical condition/be very ill/be very weary	<gim> and <mahmah> written as one word: suffer greatly; in news of accidents, be in a critical condition	
-s11488	pain/suffering/trouble/woe	<gim> with the noun suffix <na>: pain, hardship or trouble that someone suffers; {gimna thuak} is to suffer, and {gimna ngah ta hen} is woe to	
-s11489	smell/scent/odour	the smell of something, pleasant or unpleasant	
+s11488	pain/suffering/trouble/woe/tribulation	<gim> with the noun suffix <na>: pain, hardship or trouble that someone suffers; {gimna thuak} is to suffer, and {gimna ngah ta hen} is woe to	
+s11489	smell/scent/odour/odor	the smell of something, pleasant or unpleasant	
 s11490	show signs of/promise	after a noun, give off the scent of that thing, so that it can be felt to be near or likely: {khantoh gimnam} is show signs of progress and {nuntak gimnam} is have hope of life	
 s11491	smells/scents		
 s11492	perfume/fragrance/incense	from {gim namtui}, a fragrant smell: a sweet-smelling substance worn as perfume or burned, beside <paknamtui>	
@@ -1576,7 +1576,7 @@ s11600	Gizon	home of Hashem, one of the mighty warriors of David, called the Giz
 s11601	Glasgow	city in Scotland	
 s11602	glass	glass as a material, and things made of it such as a drinking glass or a window pane	
 s11603	globalization	the growing together of the whole world into one, in Zolai explained as {leitung kizopna}	
-s11604	slaughter/kill/butcher	kill an animal for food or for sacrifice	
+s11604	slaughter/kill/butcher/slay	kill an animal for food or for sacrifice	
 s11605	Goa	state and former Portuguese territory on the west coast of India	
 s11606	Goah	place near Jerusalem, named with the hill of Gareb in the prophecy of the rebuilt city	
 s11607	goal	a goal scored in football; {goal khum} is score a goal	
@@ -1588,7 +1588,7 @@ s11612	miss/long for	feel the absence of someone or something and long for them
 s11613	Goyim	spelling of Goyim without the hyphen, the kingdom of King Tidal in the time of Abraham	
 s11614	slaughtering/killing	<go>, slaughter an animal, with the linking ending {-in} before the next verb	
 s11615	slaughter together/kill together	<go> slaughter with <khawm> together: kill two animals at the same time	
-s11616	big/large/thick	big, large or thick in size; {gol zaw} is bigger and {a gol mahmah} is very big	
+s11616	big/large/thick/great	big, large or thick in size; {gol zaw} is bigger and {a gol mahmah} is very big	
 s11617	grow up/grow big/grow	become big: of a child, grow up; of a tree, grow large; {gol sak} is make or let grow	
 s11618	Golan	city in Bashan in the territory of Manasseh, a city of refuge east of the Jordan given to the Levites	
 s11619	greatest/biggest	<gol>, big, with <bel>, most	
@@ -1678,7 +1678,7 @@ s11704	rain/as rain	<guah> rain with the marker <in>: the rain as that which fal
 s11705	raindrop/rain	<guah> rain with <mal>, a single one: drops of rain	
 s11706	raindrops/rains	<guahmal> with the plural <te>: drops of rain, the rains; also used as a picture of the hardships of life	
 s11707	in the rain/under the rain	<guah>, rain, and <nuai>, under, written as one word; {guahnuai daainuai}, under rain and dew, is in all weather, said of hard work outdoors	
-s11708	heavy rain/downpour/rainstorm	<guah> rain with <pi> great	
+s11708	heavy rain/downpour/rainstorm/deluge	<guah> rain with <pi> great	
 s11709	rainstorm/heavy rain/storm	<guah>, rain, with <sia>, bad: violent rain; mostly in the pair <huihsia guahsia>, a storm of wind and rain	
 s11710	heavy rain/much rain	<guah>, rain, with <tam>, much, written as one word: a great deal of rain	
 s11711	rain very heavily/rain too much	<guah>, rain, and <tamlua>, too much, written as one word: there is very heavy rain, often followed by <mahmah>	
@@ -1710,7 +1710,7 @@ s11736	alone/only/empty	<guak> with <in>: by oneself, with nothing else, as {ama
 s11737	return empty/come back empty	<guak> bare or empty with <kik> back: come back with nothing done, said of a bow and a sword in battle	
 s11738	be put to shame/be left empty	<guak>, bare or empty, with <suak>, become: come away with nothing, be disappointed; with <sak>, strip bare	
 s11739	strip bare/send away empty/disappoint	<guaksuak> with the causative <sak>: leave someone bare or with nothing	
-s11740	naked	without clothes; {guaktang-in om} is be naked, and {guaktang omna} is nakedness	
+s11740	naked/nude/stark-naked	without clothes; {guaktang-in om} is be naked, and {guaktang omna} is nakedness	
 s11741	naked	<guaktang> written with a capital at the start of a line of verse	
 s11742	naked	<guaktang>, naked, with the linking <a> before <om>, be: {guaktanga omna} is nakedness	
 s11743	only naked/naked only	<guaktang>, naked, and <bek>, only, written as one word: with no clothes on at all, only naked	
@@ -1749,7 +1749,7 @@ s11777	Gualnam
 s11778	Gualnam people	<Gualnam> with the plural <te>: the people of the Gualnam clan	
 s11779	make merry/frolic/enjoy oneself	have fun or pleasure, often in company; also used as a noun for pleasure or merriment	
 s11780	enjoyable/festive/worth celebrating	<gualnuam>, make merry, in the form used before a suffix, with <huai>, worthy of: enjoyable	
-s11781	celebration/merrymaking/rejoicing/entertainment	<gualnop>, make merry, with the noun suffix <na>: merrymaking, the noise and pleasure of a feast or celebration; {gualnopna bawl} is to celebrate	
+s11781	celebration/merrymaking/rejoicing/entertainment/recreation	<gualnop>, make merry, with the noun suffix <na>: merrymaking, the noise and pleasure of a feast or celebration; {gualnopna bawl} is to celebrate	
 s11782	make merry/enliven	<gualnuam>, make merry, in the form used before a suffix, with <suah>, bring out or become: make merry; the page lists the form without a meaning	
 s11783	fit for celebrating	<gualnuam>, make merry, in the form used before a suffix, with <tuak>, be fitting: fit for celebrating	
 s11784	make merry/revel/celebrate	enjoy oneself in company with feasting, dancing or play	
@@ -1766,13 +1766,13 @@ s11794	excel/outdo others/be on top/be superior	<gual>, here one's fellows, with
 s11795	sit in rows/sit in groups	<gual>, row, with <tut>, sit	
 s11796	win/be victorious/triumph over	form of <gualzo> used before <ni>, <ding>, <nading> and the like; before a noun it can be read as victory, as {gualzawh ni}, day of victory	
 s11797	success/victory and success/achievement	<gualzawh>, win, and <matutna>, success, said as a pair with the noun ending <na> once, on the second word: success, winning through in what one sets out to do; mostly with <ngah>, get, or <om> after it	
-s11798	victory/triumph/deliverance	<gualzawh>, win, with the noun suffix <na>: victory over an enemy, and so also deliverance; {gualzawhna tawh} is in triumph	
+s11798	victory/triumph/deliverance/conquest	<gualzawh>, win, with the noun suffix <na>: victory over an enemy, and so also deliverance; {gualzawhna tawh} is in triumph	
 s11799	banner of victory/victory flag	<gualzawhna>, victory, and <dial>, banner: the flag of victory; mostly with <khai>, hang up, as {gualzawhna dial khai}, raise the banner of victory, that is win the fight	
 s11800	win/succeed/gain victory	<gualzawhna>, victory, and <ngah>, get: gain the victory, win a contest, succeed in an effort; said also of passing an examination or completing a degree, with the contest or the means before it	
 s11801	day of victory/victory day	<gualzawh>, win, and <ni>, day, written as one word	
 s11802	help to win/give victory	<gualzawh>, win, with <pih>, do together with or for someone: help someone to win or succeed; {hong gualzawhpih} is give us the victory	
 s11803	make victorious/bring to victory	<gualzawh>, win, with the causative <sak>	
-s11804	be victorious/triumph/prevail/win	win in battle, in a contest or in a dispute; also succeed or prosper	
+s11804	be victorious/triumph/prevail/win/overcome/vanquish	win in battle, in a contest or in a dispute; also succeed or prosper	
 s11805	more than conquerors/greatest victors	<gualzo> and <pente> written as one word: those who win most fully, the wording of Romans 8:37	
 s11806	give victory/make victorious/cause to triumph	<gualzo>, win, with the causative <sak>: make someone win, give victory to someone	
 s11807	those who have succeeded/the victors/the winners	<gualzo>, win or succeed, and <sate>, those who have already, written as one word	
@@ -1785,8 +1785,8 @@ s11813	ravine/gorge	<guam> and <sung> written as one word: the inside of a ravin
 s11814	valleys/ravines	plural of <guam>	
 s11815	all the valleys/every valley	<guam>, valley, with <teng>, all; paired with <mualteng>, all the hills	
 s11816	deep valley/deep ravine/deep hollow	<guam>, valley, with <thuk>, deep; a hiding place in the verse, where the NIV has deep caves	
-s11817	put into/give/bestow/impose	put something into or upon someone, as a spirit, wisdom, strength or a burden	
-s11818	put in/pack/load/fill	put something into a bag, container or place	
+s11817	put into/give/bestow/impose/endue/instil	put something into or upon someone, as a spirit, wisdom, strength or a burden	
+s11818	put in/pack/load/fill/insert	put something into a bag, container or place	
 s11819	Guangdong	a province in the south of China	
 s11820	put in/load/pack	<guang>, put something into a container or place, with the linking suffix <in>: putting in and then doing the next action	
 s11821	prepare in advance/make provision/plan ahead	get things ready or lay plans beforehand for what is to come; the book explains a saying with {kiguangkhuak, kiginkholhna nei}, to provide for oneself and be ready beforehand	
@@ -1872,7 +1872,7 @@ s11902	the theft/the stolen one	<guksak>, steal from someone, with the topic mar
 s11903	try to steal/attempt to abduct	<guk>, here the form of <gu>, steal, and not the number six, with <sawm>, intend: try to steal a thing; of a person, try to abduct	
 s11904	work illegally/work in secret	<guk> and <sep> written as one word: work by stealth, without a permit; {nasep guksep} is do a job illegally	
 s11905	steal/pilfer	form of <gu>, steal; {a guktak loh nading} is so that they do not steal	
-s11906	theft/stealing	<guktak>, steal, with the noun suffix <na>: the act of stealing; {guktakna phualpi} is a den of robbers	
+s11906	theft/stealing/larceny	<guktak>, steal, with the noun suffix <na>: the act of stealing; {guktakna phualpi} is a den of robbers	
 s11907	thefts	<guktakna>, theft, with the plural <te>	
 s11908	theft/stealing/acting by stealth	<guk>, steal or do secretly, with <tat>, act: the doing of things by stealth, above all stealing; {guktat gamtatna} is the act of theft	
 s11909	six/the six	<guk>, six, with the plural ending <te>, placed after the noun counted	

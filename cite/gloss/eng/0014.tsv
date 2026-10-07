@@ -10,7 +10,7 @@ s28007	keep lying/lie on and on	<lup>, lie down, said twice: lie or sleep on and
 s28008	before going to bed/at bedtime	<lup>, lie down, with <ma>, before, written as one word: before going to sleep; often {nitak lupma in}	
 s28009	bed/sickbed/place of lying	<lup>, lie down, and <mun>, place, written as one word: the place where one lies, a bed; {lupmun tungah} is on the bed, said of lying ill	
 s28010	bed/couch	a place to lie on and sleep, a bed	
-s28011	bedroom	<lupna>, bed or place to sleep, and <inndei>, room: the room of a house in which a person sleeps; often followed by <sungah>, in	
+s28011	bedroom/bedchamber	<lupna>, bed or place to sleep, and <inndei>, room: the room of a house in which a person sleeps; often followed by <sungah>, in	
 s28012	place to lie down/place to sleep/sleeping place	<lup>, lie down, and <nading>, for, written as one word: a place or thing for lying down to sleep	
 s28013	bedroom	<lupna>, bed, with a second part that means room: the room of a house in which people sleep	
 s28014	bedroom	<lupna> and <sung> written as one word: the inside of the sleeping place, the bedroom	
@@ -72,7 +72,7 @@ s28070	keep entering/enter one after another/go in again and again	<lut>, enter,
 s28071	before entering/before going in	<lut>, enter, and <ma>, before, written as one word, mostly followed by <in>: before going into a place, or before a matter is taken up	
 s28072	entrance fee/entry fee/admission	<lut>, enter, with <man>, price: the money paid to enter a place or to take part in a contest	
 s28073	enter first/go in first	<lut>, enter, and <masa>, first, written as one word: go in first, or go in for the first time	
-s28074	entrance/entry/way in	<lut>, enter, with the noun suffix <na>: the place where one goes in, such as a gateway or doorway, or the act of entering	
+s28074	entrance/entry/way in/access/admission	<lut>, enter, with the noun suffix <na>: the place where one goes in, such as a gateway or doorway, or the act of entering	
 s28075	for entering/entry/entrance	<lut> and <nading> written as one word: for going in; before a noun, the thing by which one enters, as a visa, a road or a gate	
 s28076	have not yet entered/not yet join	<lut> and <nailo> written as one word: has not yet gone in or joined	
 s28077	dare to enter	<lut>, enter, and <ngam>, dare, written as one word; mostly with <lo>, not dare to go in	
@@ -192,7 +192,7 @@ s28202	visions	plural of <maangmuhna>: the visions that a prophet sees
 s28203	officials/officers/eunuchs	plural of <maang>, a ruler or official; {innsung maangte} are the officials of the palace, called eunuchs in the English versions	
 s28204	rightly/justly/uprightly/truly	in a right, just or true way, from <maan>, true or right, with the adverb suffix <in>; {a maanin gamta} is to act rightly	
 s28205	true and great	<maan>, true, and <lian>, great, written as one word after <Pasian>: the true and great God	
-s28206	untrue/false/wrong/not right	<maan>, true, and <lo>, not, written as one word: not true, not right	
+s28206	untrue/false/wrong/not right/erroneous	<maan>, true, and <lo>, not, written as one word: not true, not right	
 s28207	untruth/wrongness/error	<maan>, true or right, and <lohna> written as one word: the state of not being true or right, a wrong	
 s28208	reign/seat of rule	the reign of a king or the place where he reigns, from <maan>, reign, with the noun suffix <na>; {a maanna ngei} is where he once reigned	
 s28209	truest/most correct/most right	<maan> and <pen> written as one word: the most true or correct	
@@ -228,7 +228,7 @@ s28240	each and every one/everyone	<maciat> and <in> written as one word after <
 s28241	Madai	son of Japheth, ancestor of the Medes	
 s28243	Madam		
 s28244	future tense/future time	grammar term for the future tense, shown by <ding> after the verb, as in {la khat sa ding hi}, will sing a song; the first word is not explained on the page	
-s28245	foremost/at the front	being at the front or the nearest edge; {a madawk teng} is the foremost part, in Numbers the outskirts of the camp as seen from a height	
+s28245	foremost/at the front/leading	being at the front or the nearest edge; {a madawk teng} is the foremost part, in Numbers the outskirts of the camp as seen from a height	
 s28246	at the front/in the front line	<madawk> foremost with <ah>, at: at the very front, in the verse of a battle	
 s28247	forward/in front/at the front	<madawk> foremost with <in>; {hong madawkin} is coming forward	
 s28248	front ranks/those in front/vanguard	<madawk> foremost with plural <te>; the front part of an army, set against <nungdalte> the rear	
@@ -306,7 +306,7 @@ s28319	even if/even though/although	<mah> and <leng>, if I or we, written as one
 s28320	Mahli	name of two Levites, a son of Merari and a son of Mushi	
 s28321	not at all/by no means	<mah> and <lo> written as one word, a strong negative after the verb, mostly as {peuh mahlo}: not at all, certainly not	
 s28322	Mahlon	son of Elimelek and Naomi, the first husband of Ruth	
-s28324	the very thing/very/indeed	emphasises the word before it: after a describing word or verb it means very or indeed, after a noun the very one	
+s28324	the very thing/very/indeed/quite	emphasises the word before it: after a describing word or verb it means very or indeed, after a noun the very one	
 s28325	exactly	marks the word before it as exactly the one meant: that very night, the very word, I myself	
 s28326	only/just		
 s28327	very/exceedingly/greatly	<mahmah>, very, with <a> linking it to the verb that follows	
@@ -392,7 +392,7 @@ s28410	next year/the coming year	<mai>, ahead, with <kum>, year: the year that l
 s28411	next year/in the coming year	<maikum>, next year, and <sung>, in, written as one word: during the coming year	
 s28412	bow down/bow with the face to the ground	<mai> face with <kun> bend, stoop	
 s28413	bowing down/bowing with the face to the ground	<maikun> bow the face down with the linking <in>	
-s28414	mail/post	letters and parcels sent by post; also in {e-mail}	
+s28414	mail/post	letters and parcels sent by post; also in <e-mail>	
 s28415	future	the time ahead; {mailam thu gen} means prophesy, speak of things to come	
 s28416	front/ahead/forward	the side or direction in front	
 s28417	future tense/future time	<mailam>, ahead, with <hun>, time: the time to come, and in grammar the future tense, made by adding <ding> after the present form of the verb, as in {ka paiding hi}, I will go	
@@ -447,7 +447,7 @@ s28468	facing/with the face toward	with the face turned toward something; {lei m
 s28469	facing	<maingat> face toward with <sa>, already in that state: with the face already turned that way	
 s28470	maintenance/upkeep	the regular checking and repair of buildings, roads and machines	
 s28471	face cream/cosmetic/make-up	<mai>, face, with <nuh>, smear: something rubbed on the face to look better, a face cream or other cosmetic	
-s28472	handkerchief/cloth	<mai> face with <nul>, wipe: a cloth for wiping the face	
+s28472	handkerchief/cloth/hanky	<mai> face with <nul>, wipe: a cloth for wiping the face	
 s28473	Mainul		
 s28474	handkerchief	<mainul> with the noun suffix <na>: what the face is wiped with; {mainulna puan} is a face cloth	
 s28475	towel	<mainul> with <pi>, large	
@@ -468,10 +468,10 @@ s28489	face down/prostrate	<maipuk> fall on the face with <in>: bowing with the 
 s28490	fall facedown/bow with face to the ground	<maipuk> fall facedown with <suk> downward	
 s28491	look on the face/countenance/expression	<mai> face with <put>, bear: the look that the face shows	
 s28492	devastated/lying in ruins	follows <kisia> be ruined; <mai> after a verb with <sa>, already in that state: left ruined	
-s28493	forgive/pardon	let go of a wrong done, most often with <mawhna>, sin; also cancel a debt	
+s28493	forgive/pardon/absolve/excuse	let go of a wrong done, most often with <mawhna>, sin; also cancel a debt	
 s28494	forgive/pardon/cancel	<maisak> with the ending <in>, which links it to the following verb: forgiving a sin or cancelling a debt and then doing something more	
 s28495	if forgive	<maisak>, forgive, and <leh>, if, written as one word: if one forgives	
-s28496	forgiveness/remission/cancelling of debt	<maisak>, forgive, with {-na}; of sins and also of debts	
+s28496	forgiveness/remission/cancelling of debt/absolution	<maisak>, forgive, with {-na}; of sins and also of debts	
 s28497	want to forgive/be willing to forgive	<maisak> forgive with <nop> want	
 s28498	have forgiven/pardoned	<maisak> forgive with <sa>, already done	
 s28499	those who forgive	<maisak> forgive with plural <te>	
@@ -515,16 +515,16 @@ s28537	be put to shame by/be ashamed because of	<maizum> ashamed with <lawh>, su
 s28538	shame/disgrace	<maizum>, ashamed, with the noun suffix <na>; {maizumna thuak} and {maizumna ngah} mean be put to shame	
 s28539	humiliated/greatly ashamed	<maizum> ashamed with <pi> great; with <in>, in great shame	
 s28540	be ashamed of	<maizum> ashamed with <pih>: be ashamed about someone or something	
-s28541	shame/put to shame/humiliate	<maizum> ashamed with the causative <sak>; in Luke 9.26 be ashamed of someone	
+s28541	shame/put to shame/humiliate/disgrace	<maizum> ashamed with the causative <sak>; in Luke 9.26 be ashamed of someone	
 s28542	major	an army or police officer's rank, above captain	
 s28543	major/main subject	the main subject that a student chooses at a university	
 s28544	majority	the greater number, as of seats or votes won in an election, or the larger group of a people	
 s28545	son-in-law	the husband of a daughter; {a mak ding} is a man who is going to marry the daughter	
 s28546	ten million/crore	a number word for large sums of money, ten million, the Indian crore, as in {mak nih}, twenty million; it stands before or after the figure, and some writers use it for a million	
 s28549	court/law court	a court of law in Malaysia, from the Malay word mahkamah	
-s28550	leader/chief	one who goes in front and is at the head of a tribe, a clan or a group of people	
+s28550	leader/chief/captain	one who goes in front and is at the head of a tribe, a clan or a group of people	
 s28551	to be leader/future leader/will lead	<makai>, leader or lead, and <ding>, will, written as one word: the one who is to be leader, or will lead	
-s28552	lead/guide	go before others and show them the way; the verb that belongs to <makai>, leader	
+s28552	lead/guide/head	go before others and show them the way; the verb that belongs to <makai>, leader	
 s28553	will lead/to lead	<makaih>, lead, and <ding> written as one word: will lead, is to lead	
 s28554	leading/lead/guide	<makaih> lead with the linking ending <in>: leading someone, after which the next action follows	
 s28555	leadership/direction/supervision/guidance	the act of leading, <makaih> lead with the noun ending <na>; {makaihna tawh} and {makaihna nuai-ah} mean under the leadership of someone	
@@ -555,7 +555,7 @@ s28579	tamarisk	the tamarisk, a tree of dry country; {makeng kung} is a tamarisk
 s28580	make-up/cosmetics	cosmetics put on the face, and the putting on of them	
 s28581	Michael	spelling of Michael in this verse: a man of Benjamin, son of Beriah	
 s28582	send away together/divorce together	apparently <ma>, divorce or send away, with <khawm>, together: the wives are sent away together with their children	
-s28583	outrun/overtake	get ahead of someone who is running the same way	
+s28583	outrun/overtake/outstrip	get ahead of someone who is running the same way	
 s28584	outrunning/outrun	<makhelh> outrun with the linking ending <in>: getting ahead of someone, after which the next action follows	
 s28585	Makheloth	place where the Israelites camped in the wilderness, between Haradah and Tahath	
 s28586	Maki	father of Geuel, the man of Gad sent to spy out Canaan	
@@ -634,12 +634,12 @@ s28661	adjective of number	an adjective that shows how many there are
 s28662	straight/smooth	said of legs, where the English has straight	
 s28665	Mamluk/Mamluks	Muslim rulers of Egypt who held Jerusalem from 1291 to 1516	
 s28666	Mamre	place near Hebron with great trees where Abraham lived and built an altar; also the name of an Amorite who was an ally of Abram	
-s28667	straighten/make straight	<mam> straight with the causative <sak>: make straight what is crooked or uneven	
+s28667	straighten/make straight/smooth	<mam> straight with the causative <sak>: make straight what is crooked or uneven	
 s28668	straighten again/make straight again	<mamsak> straighten with <kik> again, back	
 s28669	true/right/correct	true or right, in agreement with the facts or with what ought to be; {a man lo} is false or wrong	
 s28670	finish/complete	placed after another verb to say that the action is finished; {a man khit ciangin} means after finishing	
 s28671	price/value/cost/payment	what is paid or owed for something: its price, its value or the payment for it; {man pia} is to pay	
-s28672	seize/arrest/catch/capture	take hold of with the hand, or catch and arrest a person	
+s28672	seize/arrest/catch/capture/nab/apprehend/grasp	take hold of with the hand, or catch and arrest a person	
 s28673	because/since	after a verb and followed by <in>, gives the reason, the same as <manin> written as two words; {ahih man in} is because it is so, therefore	
 s28674	priced/not free/to be paid for	<man>, price, and <nei>, have: having a price, to be paid for; the book gives it as the opposite of <khawnkhong>, free of charge	
 s28675	free of charge/for free/without payment	<man>, price or payment, and <ngenlo>, not ask for: without asking payment, said of a service that is given free; usually followed by <in> and a verb, or by <a> before a noun	
@@ -740,7 +740,7 @@ s28775	dream	a dream seen in sleep; <mang>, dream, with <mat>, the second form o
 s28776	vision/dream	<mangmat> dream with the noun suffix <na>: what is seen in a dream or vision	
 s28777	visions/revelations	plural of <mangmatna>: visions or revelations received from God	
 s28778	unforgettable/hard to forget	not fading from memory: said of a thing, often from childhood, that stays in the mind	
-s28779	tribute/tax/levy	a payment required by a ruler or for the house of God, named together with <siah>, tax, and <losap>, duty	
+s28779	tribute/tax/levy/toll	a payment required by a ruler or for the house of God, named together with <siah>, tax, and <losap>, duty	
 s28780	see a vision/fall into a trance	<mang>, dream, with <mu>, see: see a vision while awake, fall into a trance	
 s28781	vision	what is seen as in a dream, a prophetic vision; <mang> dream with <muh>, the form of <mu> see	
 s28782	vision/revelation	<mangmuh>, vision, with the noun suffix <na>: something seen in a dream or in a vision from God	
@@ -763,8 +763,8 @@ s28799	official/governor/lord	capitalised form of <mangpa> used as a title: the 
 s28800	disappear at once/vanish	<mang>, disappear, with <pah>, at once: vanish in a moment	
 s28801	obey at once/comply readily	<mang> obey with <pah> at once: do what is asked without delay, as beside <umpah>, believe at once; not the vanishing of {mangpah} from <mang> disappear	
 s28802	English/English language	the English language as it is spoken, from {Mang}, the English or British, and <pau>, language; the written language is <Manglai>	
-s28803	goodbye/farewell	the parting greeting; {mangpha khak} is to say goodbye, and {mangpha kikhak} to say goodbye to each other	
-s28804	farewell/leave-taking/last respects	<mangpha>, goodbye, and <khakna>, sending: the bidding of goodbye to someone who leaves, and in death notices the last respects paid to the dead, often with a wreath; the object of <nei>, hold, or with <in> as the purpose of a visit	
+s28803	goodbye/farewell/adieu/bye-bye	the parting greeting; {mangpha khak} is to say goodbye, and {mangpha kikhak} to say goodbye to each other	
+s28804	farewell/leave-taking/last respects/valediction	<mangpha>, goodbye, and <khakna>, sending: the bidding of goodbye to someone who leaves, and in death notices the last respects paid to the dead, often with a wreath; the object of <nei>, hold, or with <in> as the purpose of a visit	
 s28805	governor	<mang>, ruler, with <pi>, great: the governor of a land under the emperor	
 s28806	chief/senior officer/dignitary	in present-day use a person of high rank, of the kind named by the word before it: <galkap mangpi> is an army general, {thukhen mangpi} a judge, {zin mangpi} the guest of honour	
 s28807	governor	<mangpi>, governor, with <pa> marking a man	
@@ -852,7 +852,7 @@ s28889	those who are quick	<manlang> quick with the plural <te>; here of feet qu
 s28890	be quicker/go faster	<manlang>, quick, and <tuam> written as one word; here <tuam> after a describing word means all the more as a result: become quicker because of what was just named	
 s28891	faster/quicker	<manlang> and <zaw> written as one word: quicker, faster than something named with <sangin>	
 s28892		<man> and <leh> written as one word; the sense follows that of <man>: after a verb when it is finished, as {nasep manleh}, when work is done; in {manleh manlo}, true and not true, whether right or not; after a clause, because of this and	
-s28893	false/untrue	<man>, true, with <lo>, not: false, not true, said of words, witnesses and visions	
+s28893	false/untrue/incorrect	<man>, true, with <lo>, not: false, not true, said of words, witnesses and visions	
 s28894	worthless	in {bangmah manlo mite}, good-for-nothing men	
 s28895	have no time/be too busy	after a verb, <man>, be free or finished, with <lo>, not: have no time or leisure to do it, as in {khawl manlo}, with no time to rest; <manlo liangin> is so busy as not even to	
 s28896	without even time to/too busy even to	{man lo}, not have time, with <liangin>, to the point of: placed after a verb, so busy that there is no time even for that action, as in {anne manlo liangin}, with no time even to eat; the first word here is not <manlo>, false	
@@ -892,7 +892,7 @@ s28931	value/treasure/make valuable	<manpha> and <sak> written as one word: trea
 s28932	precious/dear/valuable	form of <manpha> used before {mah bangin} and other endings	
 s28933	precious/valuable	plural of <manpha>, placed after the noun it describes; {van manphate} are valuable goods, treasures	
 s28934	all precious/all valuable	<manpha> precious with <teng>, all of: {na manphateng}, all the valuable things	
-s28935	value/worth/preciousness	<manphat>, precious, with the noun suffix <na>: how much something is worth or how precious it is	
+s28935	value/worth/preciousness/dearness	<manphat>, precious, with the noun suffix <na>: how much something is worth or how precious it is	
 s28936	values/merits/good qualities	plural of <manphatna>: the things that make a person or a thing valuable	
 s28937	value/worth/how precious	<manphat>, valuable, and <zia>, way, written as one word: how valuable someone or something is, its worth	
 s28938	more valuable/more precious/worth more	<manpha>, precious, with the comparative <zaw>: worth more; used with <sangin>, than	
@@ -1158,7 +1158,7 @@ s29198	reed/bulrush	a plant whose head bends over, used as a picture of bowing t
 s29199	by themselves/on their own/alone	<mau> and <guak> written as one word after <a>: {a mauguak} is they alone, by themselves, the same as <amauguak>	
 s29200	Maukhua		
 s29201		<mau> and <leh> written as one word, in {a mauleh a mau}, that is {amau leh amau}: they themselves, each other	
-s29202	moaning/wailing/groan	<mau>, wail, with the noun suffix <na>: the moaning or wailing of people in grief or pain	
+s29202	moaning/wailing/groan/lamentation	<mau>, wail, with the noun suffix <na>: the moaning or wailing of people in grief or pain	
 s29203	Maung Bwei		
 s29204	Maung Tu		
 s29205	Maungdaw		
@@ -1217,7 +1217,7 @@ s29257	wrongdoer/wrongdoers	those who are guilty of doing wrong
 s29258	sinful desire/lust/immorality	the desire to sin; with <tawh>, sexual sin with someone, adultery or fornication	
 s29259	sinful desires/sinful passions	<mawhnopna>, the desire to sin, with the plural <te>	
 s29260	the guilty/guilty man/wrongdoer	<mawh> sin or be in the wrong, with <pa>, a man: the one found guilty, opposite of {a dikpa}, the one in the right	
-s29261	blame/condemn/find guilty	put the guilt on someone: blame or condemn a person, a plan or a government; of a court, find guilty; from <mawh> and <paih>	
+s29261	blame/condemn/find guilty/convict	put the guilt on someone: blame or condemn a person, a plan or a government; of a court, find guilty; from <mawh> and <paih>	
 s29262	condemnation/blame/censure	<mawh> guilt with <paih> throw and the noun suffix {-na}: the laying of blame on someone, a formal condemnation; also used for impeachment	
 s29263	guiltless/without guilt	free from blame for a wrong	
 s29264	sinful/most sinful	found with <bel>, most: {a mawhpha bel}, the worst of sinners	
@@ -1231,12 +1231,12 @@ s29271	responsibility/duty/burden	what a person has to answer for and carry; {ma
 s29272	take responsibility/be in charge	<mawhpuak>, responsibility, with <la>, take, written as one word: take on a duty or the responsibility for something	
 s29273	responsibility/duty/obligation	what a person or group is answerable for; {mawhpuakna la} is take responsibility	
 s29274	sinful/having sinned	<mawh> sin with <sa>, which marks a state already reached: one who has sinned; with <tawh> also said of unlawful sex with someone	
-s29275	accuse/condemn/blame/charge	<mawh>, guilt, with the causative <sak>: hold someone guilty, either by accusing him or by condemning him; {mawhsak nading om lo} is blameless	
+s29275	accuse/condemn/blame/charge/convict	<mawh>, guilt, with the causative <sak>: hold someone guilty, either by accusing him or by condemning him; {mawhsak nading om lo} is blameless	
 s29276	accusing/condemning/blaming	<mawhsak> with the linking suffix <in>: accusing, bringing a charge against	
 s29277	denounce/rebuke	<mawhsak> accuse with the endings <in> and <ah>, leading into the words spoken: in rebuking them he said	
 s29278	still accuse/bring charges again	<mawhsak> accuse with <lai>, still, yet	
 s29279	not blame/not condemn	<mawhsak>, blame, and <lo>, not, written as one word: not hold someone guilty	
-s29280	accusation/charge/blame	a finding of fault; {mawhsakna thu gen} is speak against, said of prophesying against a place	
+s29280	accusation/charge/blame/condemnation	a finding of fault; {mawhsakna thu gen} is speak against, said of prophesying against a place	
 s29281	accusations/charges	<mawhsakna>, accusation, with the plural <te>	
 s29282	accuser/judge	<mawhsak> accuse, condemn, with <pa>, the man who does it; NIV my Judge	
 s29283	judge/condemn/blame	<mawhsak> with a further <sak>: put the blame on others	
@@ -1297,10 +1297,10 @@ s29337	act carelessly/act rashly	<mawk> and <tat> written as one word: do things
 s29338	folly/reckless living/self-indulgence	<mawk> carelessly with <tat> behave and the noun suffix <na>	
 s29339		<mawk> idly or of itself, with plural <te>: closes a clause to mean those who do so idly or for no cause, as {a ding mawkte}, those standing idle	
 s29340	strike at random/beat aimlessly	<mawk>, without aim, with <tup> strike said twice: keep hitting at nothing	
-s29341	roam/wander/go about idly	<mawk>, idly, and <vak>, go about: walk about without purpose or need	
+s29341	roam/wander/go about idly/rove	<mawk>, idly, and <vak>, go about: walk about without purpose or need	
 s29342	lie waste/become desolate/be left idle	said of land that is left unused and empty; {leitang mawkval loin} is so that the land does not lie waste	
 s29343	waste/squander/use carelessly	<mawk>, carelessly, and <zat>, use, written as one word: use time, money or words without purpose or care	
-s29344	dull/blunt/senseless	of a blade, not sharp; of the heart or mind, slow to understand, as in {lungsim mawl}, a dull or senseless heart	
+s29344	dull/blunt/senseless/obtuse	of a blade, not sharp; of the heart or mind, slow to understand, as in {lungsim mawl}, a dull or senseless heart	
 s29345	play	written apart from the prefix <ki>, as {ki mawl}, it is the verb <kimawl>: play a game or a sport, not the adjective dull	
 s29346	Mawlaik	Zolai spelling of Mawlaik, a town on the Chindwin river in Sagaing Region of Myanmar; the articles name it as a place people go to from the Tedim area	
 s29347	Mawlamyine/Moulmein	city in the south-east of Myanmar, the capital of Mon State	
@@ -1381,7 +1381,7 @@ s29426	ballot box/election	the ballot box, from <mee>, vote, a Burmese loan, wit
 s29427	contest an election/stand for election/run for office	<meekuang>, ballot box, and <lui>, here to contend for and not the word old: to stand as a candidate in an election; {meekuang lui dingte} are the candidates, {meekuang lui hun} is election time	
 s29428	apparent	the look of a person or thing, its form or colour: {a hing meel} is greenish, {meel hoih} is good-looking, and {meel seel} is hide the face or disguise oneself	
 s29429	seem/appear	placed after a verb and before <lo>, not: there is no sign of the action, it does not seem to happen, as in {kibang pha meel lo}, do not seem to be quite the same; not the look or face of a person	
-s29430	beautiful/good-looking	<meel>, appearance, with <hoih>, good: beautiful to look at	
+s29430	beautiful/good-looking/beauteous	<meel>, appearance, with <hoih>, good: beautiful to look at	
 s29431	beauty/good looks	<meelhoih>, beautiful, with the noun suffix <na>	
 s29432	hardly/scarcely/not really	<meel> and <lo> written as one word and placed after a verb: there is no sign of it, it is hardly so at all; {om meello} is there is hardly any	
 s29434	appearances/looks	<meel>, appearance, the look of a thing, with the plural <te>	
@@ -1451,7 +1451,7 @@ s29498	flame/live coals	{meiam luahna kuang}, a pan for holding fire, NIV censer
 s29499		said of the leg cut in the list of meat set apart for the party that takes the bride, {a phei meibaang}; probably the hind leg with the tail left on it, the meaning is not stated on the page	
 s29500	oven	a closed fireplace for baking bread, from <mei>, fire	
 s29501	fire/brazier/hearth	a fire or pan of glowing charcoal kept in the house to warm oneself at, not an oven for baking; {meibung awi} is warm oneself at the fire and {meihol meibung} is a charcoal brazier	
-s29502	fainthearted/cowardly/timid/afraid	without courage, losing heart from fear; {a meidawi} is one who is faint or hangs back	
+s29502	fainthearted/cowardly/timid/afraid/faint-hearted	without courage, losing heart from fear; {a meidawi} is one who is faint or hangs back	
 s29503	become disheartened too/catch fear	<meidawi>, fainthearted, with <lawh>, catch from another: lose courage because someone else has	
 s29504	timidity/cowardice/fear	<meidawi>, fainthearted, with the noun suffix <na>: lack of courage	
 s29505	turn cowardly/lose courage	<meidawi> fainthearted with <suah> become: give way out of fear; NIV joined in hypocrisy	
@@ -1517,7 +1517,7 @@ s29564	ovens	plural of <meikhuk>: ovens for baking
 s29565	burn/throw into the fire	throw into the fire to be burned, from <mei>, fire, and <khul>, burn up	
 s29566	smoke	<meikhu>, smoke, with the plural <te>	
 s29567	Meiktila	town in Mandalay Region, central Myanmar	
-s29568	flame	blaze, burn with flames; before a noun it means flaming, as in {meikuang namsau}, a flaming sword	
+s29568	flame/flare	blaze, burn with flames; before a noun it means flaming, as in {meikuang namsau}, a flaming sword	
 s29569	fire/flame	burning fire with its flames, from <mei>, fire, and <kuang>, burn	
 s29570	fire broke out/a fire started	<meikuang>, flame, with {a kipan}, it began, written as one word: a fire broke out, the set wording of a news report; the place stands before it with <ah> or <panin>, and <akipan> is here the verb and not the marker from or since	
 s29571	burst into flames/blaze up/burn fiercely	<meikuang>, flame, and <ziahziah>, in great amount and quick succession: catch fire and burn with great flames; a stock phrase of news about crashes and explosions, often after <puakkham>, explode	
@@ -1790,7 +1790,7 @@ s29841	Mgwe-imnu
 s29842	Mgwi		
 s29843	Mhaw		
 s29844	Mhreng		
-s29845	person/human being/people	a human being, man or woman; with a number or quantity word it counts people, as in {mi khat}, one person, and {mi tampi}, many people	
+s29845	person/human being/people/folk	a human being, man or woman; with a number or quantity word it counts people, as in {mi khat}, one person, and {mi tampi}, many people	
 s29846	person/man/one	<mi>, person, written with a capital at the start of a sentence or in a title such as {Mi Siangtho}, the Holy One	
 s29847	first person	grammar term in the table of personal pronouns: the person who speaks, <kei>, <eite>, <ko>, <kote>	
 s29848	first person	grammar term: the person who speaks, <kei>, <eite>, <ko>; also called <mi khatna>	
@@ -1809,7 +1809,7 @@ s29860	completely dark/pitch dark/blacked out	<mial>, dark, and <cip>, completel
 s29861	darken completely/shroud in darkness	<mial> dark, <cip> completely and the causative <sak>: make wholly dark	
 s29862	be dark/become dark/grow dark	<mial>, dark, with the linking suffix {-in}: being or becoming dark, followed by another verb	
 s29863	barely/narrowly/only just	placed after a verb: the thing happens, but only just; {suakta mialmial} is narrowly escape, {kiza mialmial} is be barely heard	
-s29864	darkness/dark place	<mial>, dark, with the noun suffix <na>: darkness; {mialna mun} is a dark place	
+s29864	darkness/dark place/dark/gloom	<mial>, dark, with the noun suffix <na>: darkness; {mialna mun} is a dark place	
 s29865	very dark/deeply dark	<mial> dark with <pha>; said of how great a darkness is	
 s29866	darken/make dark/dim	<mial>, dark, with the causative <sak>: make dark, take the light away; of the eyes, make dim	
 s29867	become dark/be darkened	<mial> be dark, with <ta> which marks a change that has now come about; {khua hong mialta} is it had grown dark	
@@ -1870,8 +1870,8 @@ s29922	Migdal-gad/Migdal Gad	town in the western foothills of Judah
 s29923	Migdol	town in northern Egypt where Jews settled after the fall of Jerusalem; a spelling of <Migdol>	
 s29924	Migdol	place in northern Egypt near which the Israelites camped before they crossed the sea; later a town where Jews lived	
 s29925	poor person/the afflicted/the needy	<mi> and <genthei> written as one word: a person in hardship or want	
-s29926	kind/good/gracious	good and kind in character, gracious; {migi tuucing} is the good shepherd; in Matthew 5:48 it stands for perfect	
-s29927	wicked person/the wicked/evildoer	<mi>, person, with <gilo>, evil: a wicked person, one who does evil	
+s29926	kind/good/gracious/benevolent/benign	good and kind in character, gracious; {migi tuucing} is the good shepherd; in Matthew 5:48 it stands for perfect	
+s29927	wicked person/the wicked/evildoer/malefactor/villain	<mi>, person, with <gilo>, evil: a wicked person, one who does evil	
 s29928	terrorist/militant/criminal	in news, a member of an armed or violent group: a terrorist or militant, as in <thautawi migilo>, armed militants, and <migilo kipawlna>, a terrorist group; also a gangster or violent criminal	
 s29929	armed robbers/bandits/criminals	<migilo>, an evildoer, and <damiah>, a robber: a paired expression for violent criminals and armed robbers as a kind, often followed by <guta>, thief, or by the plural <te>	
 s29930	terrorist group/militant group/criminal gang	<migilo>, an evildoer, and <kipawlna>, an association: in news an armed group of terrorists or militants, or a criminal gang; the name of the group stands before it and the plural <te> often after it	
@@ -1879,17 +1879,17 @@ s29931	as wicked/as evil	<migilo> wicked person with <in>: as a wicked person
 s29932	wicked man/the wicked	<migilo> with <pa> marking a man, the wicked one	
 s29933	the wicked/evildoers/sinners	<migilo>, wicked person, with the plural <te>: the wicked, evildoers; in the Gospels also sinners	
 s29934	worthy man/man of standing/respectable person	<mi> person with <gina> worthy; {migina lo} is a nobody, a worthless person	
-s29935	worthless person/scoundrel/good-for-nothing	<migina>, a worthy person, with the negative <lo>: a worthless or bad person; in Hebrews 5:3 it is said of a weak, imperfect man	
+s29935	worthless person/scoundrel/good-for-nothing/cad/rogue	<migina>, a worthy person, with the negative <lo>: a worthless or bad person; in Hebrews 5:3 it is said of a weak, imperfect man	
 s29936	the blameless/people of integrity/worthy people	plural of <migina>: people of worth and good character, the blameless	
 s29937	show favor/be gracious/be kind	the form of <migi>, kind, used before <hangin>, <nading> and <mahmahna>: be kind or gracious to someone, the person taking <tungah>	
 s29938	deserving kindness	<migit>, the form of <migi>, be kind, used before a suffix, with <huai>, worthy of: deserving kindness	
-s29939	kindness/goodness/benefit	<migit>, be kind, with the noun suffix <na>: kind and generous dealing with others; {migitna lak} is show kindness	
+s29939	kindness/goodness/benefit/benevolence/generosity	<migit>, be kind, with the noun suffix <na>: kind and generous dealing with others; {migitna lak} is show kindness	
 s29940	make kind	<migit>, the form of <migi>, be kind, used before a suffix, with <suah>, bring out or become: make kind; the page lists the form without a meaning	
 s29941	fit to be treated kindly	<migit>, the form of <migi>, be kind, used before a suffix, with <tuak>, be fitting: fit to be treated kindly	
 s29942	Migron	place in Benjamin near Gibeah, on the Assyrian line of march toward Jerusalem	
 s29943	winner/victor/successful person	<mi>, person, and <gualzo>, win, written as one word: one who wins or succeeds	
 s29944	go out/be quenched/be extinguished	of fire, go out; the form of <mit>, go out, used in {mei a mih ngei lohna}, where the fire never goes out	
-s29945	fool/foolish person/madman	<mi>, person, with <hai>, foolish: a fool, the opposite of <mipil>, a wise person	
+s29945	fool/foolish person/madman/fathead	<mi>, person, with <hai>, foolish: a fool, the opposite of <mipil>, a wise person	
 s29946	fool/foolish man	<mihai>, fool, with <pa> marking a man: a foolish man, often set against <mipilpa>, the wise man	
 s29947	great fool/fool/stupid person	<mihai>, fool, with <pi>, great: a great fool, a thoroughly stupid person	
 s29948	fools	plural of <mihai>: fools, often set against <mipilte>, the wise	
@@ -1926,9 +1926,9 @@ s29979	goodness of people/a person's goodness	<mi>, person, and <hoihna>, goodne
 s29980	good man/righteous man/the righteous	<mihoih>, good person, with <pa> marking a man, often set against <migilopa>, the wicked man	
 s29981	the righteous/the upright/good people	plural of <mihoih>: good or righteous people, often set against <migilote>, the wicked	
 s29982	the good/all good people	<mihoih>, good person, with <teng>, all: all the good people there are	
-s29983	community/congregation/assembly/crowd	<mi>, person, with <hon>, flock or group: a gathered body of people, a community, congregation or crowd	
+s29983	community/congregation/assembly/crowd/throng	<mi>, person, with <hon>, flock or group: a gathered body of people, a community, congregation or crowd	
 s29984	assembly/congregation/crowd	<mihon> written with a capital at the start of a sentence or a line of verse	
-s29985	crowd/multitude	<mihon>, crowd, with <pi>, great: a large crowd, a multitude	
+s29985	crowd/multitude/throng	<mihon>, crowd, with <pi>, great: a large crowd, a multitude	
 s29986	crowds/multitudes	plural of <mihonpi>: great crowds, multitudes	
 s29987	crowds/multitudes/hosts	<mihonpite> written with a capital at the start of a sentence; {Mihonpite’ Pasian} is the God of hosts, NIV God Almighty	
 s29988	crowds/assembly/community/congregation	plural of <mihon>: crowds, or the whole body of a community or assembly	

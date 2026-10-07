@@ -200,7 +200,7 @@ s40198	Sia	head of a family of temple servants who returned from exile, called S
 s40199		{sia ing}, the verb <sia> with the first person ending <ing>, written short with an apostrophe as is done in songs, where the count of words is fixed; the page gives {sia ing e} and {sia'ng e} as the same	
 s40200	sign/portent/wonder	a person or thing that others look on with wonder or as a warning	
 s40201	perish/be destroyed/come to an end	be ruined so as to be no more	
-s40202	ruin utterly/destroy completely	<siacimit>, be utterly ruined, with the causative <sak>: bring to complete ruin	
+s40202	ruin utterly/destroy completely/devastate	<siacimit>, be utterly ruined, with the causative <sak>: bring to complete ruin	
 s40203	be ruined/perish/be destroyed completely	<sia>, be ruined, with <cip>, completely; also cried out as a ruin, a ruin	
 s40204	be completely destroyed/be wrecked/be badly damaged	<siacip>, be ruined, with <gawp>, severely, written as one word: be ruined beyond repair, by fire, a crash or injury	
 s40205	lie in ruins/be desolate	<siacip>, be utterly ruined, with the linking ending <in>; {a siacipin om} is lie in ruins	
@@ -235,7 +235,7 @@ s40234	present tribute/offer tribute	<siah>, tribute, with <sun>: hand over the 
 s40235	Siahtak		
 s40236	taxes/revenues/tribute	<siah>, tax, with plural <te>	
 s40237	tribute/tax	<siah>, tribute, in the pair {siahtung siahphei}: the tributes and dues that villages paid to a ruling chief; what <tung> adds is not certain	
-s40238	wicked/vile/heinous/terrible	<sia>, bad, with <huai>, worthy of: very bad, mostly of conduct or of a person; {siahuai zaw} is worse	
+s40238	wicked/vile/heinous/terrible/nefarious	<sia>, bad, with <huai>, worthy of: very bad, mostly of conduct or of a person; {siahuai zaw} is worse	
 s40239	wicked/evil	<siahuai>, wicked, with the plural <te>; {mi siahuaite} is evildoers, wicked people	
 s40240	worse/more terrible/more evil	<siahuai>, wicked or terrible, with the comparative <zaw>; the thing compared takes <sangin>, than	
 s40243	wipe/wipe clean/wipe off	wipe something off or wipe a thing clean, as with paper or a cloth; said of cleaning after the toilet and of cleaning a baby	
@@ -328,7 +328,7 @@ s40331	lack of skill/inability/incompetence	<siam>, skilled, and <lohna>, the st
 s40332	the unskilled/those who are not good at	<siamlo>, unskilled, with the plural <te> written as one word, usually after <a>: those who are not skilled or cannot do the thing named	
 s40333	very skilled/very good at	<siam> and <lua> written as one word: very skilled, so good at something	
 s40334	very skilled/very good at/expert	<siam>, skilled, and <mahmah>, very, written as one word	
-s40335	skill/ability/understanding	<siam>, skilled, with the noun suffix <na>: the skill or ability to do something well; {ngaihsut siamna} is understanding and {sumbawl siamna} is skill in trading	
+s40335	skill/ability/understanding/dexterity/knack	<siam>, skilled, with the noun suffix <na>: the skill or ability to do something well; {ngaihsut siamna} is understanding and {sumbawl siamna} is skill in trading	
 s40336	skills/abilities/gifts/arts	plural of <siamna>; with {Kha Siangtho}, gifts of the Spirit; with <mitphial> or <aisan>, magic arts	
 s40337	craftsmen/skilled workers/artisans	<siam>, skilled, with <neel> and plural <te>	
 s40338	let us do well	<siam>, skilled, and <ni>, let us, written as one word after a verb: let us do it well or wisely	
@@ -407,20 +407,20 @@ s40410	clean/pure	<siang> with plural <te>: those that are clean or pure, of ani
 s40411	can be clean/can be cleared up	<siang>, clean or clear, and <thei>, can, written as one word: be able to become clean; said of a matter, be cleared up; in the sentences with a negative	
 s40412	be cleared up yet/be settled yet	<siang>, clean, and <theinai>, be able yet, written as one word, before a negative: of a matter, that can not yet be cleared up	
 s40413	holy/sacred	set apart for God and belonging to him; said of God himself, his Spirit, his people, and of places, days and things	
-s40414	clean/pure	free from dirt or from ritual uncleanness, said of animals that may be eaten or offered, of places and of people	
+s40414	clean/pure/immaculate	free from dirt or from ritual uncleanness, said of animals that may be eaten or offered, of places and of people	
 s40415	holy	written with a capital in {Kha Siangtho} the Holy Spirit and {Lai Siangtho} the Holy Scripture	
 s40416	Bible/copy of the Bible	<Siangtho> and <bu>, book, written as one word after <Lai>: the Bible as a book, a copy of the Bible	
 s40417	holily/in holiness/purely	<siangtho> holy or clean, with <in>: in a holy or pure way, as holy	
-s40418	unclean/unhygienic/dirty	<siangtho>, clean, with <lo>, not, written as one word: not clean, said of food, hands and places, and of meat that a religion forbids	
-s40419	holiness/sanctification	<siangtho>, holy, with the noun suffix <na>: the state of being holy, or of having been made holy	
-s40420	cleanliness/hygiene/purity	the state of being clean and free from dirt, from <siangtho.2>: said of the body, a house or a village, as in {pumpi siangthona}, bodily hygiene, and beside <cidamna>, health; apart from the religious meaning holiness	
+s40418	unclean/unhygienic/dirty/insanitary	<siangtho>, clean, with <lo>, not, written as one word: not clean, said of food, hands and places, and of meat that a religion forbids	
+s40419	holiness/sanctification/sanctity	<siangtho>, holy, with the noun suffix <na>: the state of being holy, or of having been made holy	
+s40420	cleanliness/hygiene/purity/sanitation	the state of being clean and free from dirt, from <siangtho.2>: said of the body, a house or a village, as in {pumpi siangthona}, bodily hygiene, and beside <cidamna>, health; apart from the religious meaning holiness	
 s40421	holiness	{Siangthona Mun}, the place of holiness, is the Most Holy Place	
 s40422	holiness	<siangthona> holiness, with the plural <te>	
 s40423	holy one/holy man	<siangtho> holy, with <pa>, a male person	
 s40424	most holy/holiest	<siangtho>, holy, with superlative <pen>	
 s40425	Most Holy/holiest	<siangthopen> written with a capital in {Siangthopen Mun}, the Most Holy Place of the temple	
 s40426	most holy things/most holy offerings	<siangthopen>, most holy, with plural <te>	
-s40427	make it holy/make holy/sanctify/consecrate	<siangtho>, holy, with the causative <sak>: set a person, a day or a thing apart as holy to God	
+s40427	make it holy/make holy/sanctify/consecrate/hallow	<siangtho>, holy, with the causative <sak>: set a person, a day or a thing apart as holy to God	
 s40428	make it clean/make clean/cleanse/purify	<siangtho>, clean, with the causative <sak>: make a person or a thing ritually clean	
 s40429	sanctify/consecrate/make holy/purify	<siangthosak> with the ending <in>, which links to the next verb or, at the end of a sentence, gives a command	
 s40430	sanctifier/one who makes holy	the one who makes holy, said of the Lord; <pa> marks a male person	
@@ -439,7 +439,7 @@ s40443	purify/consecrate/make holy	make a person, place or thing ritually clean 
 s40444	clean/clean up/clear/disinfect	make a house, a street or a thing clean in the plain sense, by washing, sweeping or killing germs, or clear a place of what should not be there; no ritual meaning	
 s40445	will clean up/will clear out	<siansuah> and <ding> written as one word: is to be made clean; in news said of cleaning a place and of the authorities clearing out drugs or criminals	
 s40446	purifying/cleansing	<siansuah> make clean, with <in> linking to the following verb; purifying	
-s40447	purification/cleansing/atonement	act or rite of making something ritually clean or holy	
+s40447	purification/cleansing/atonement/sanctification	act or rite of making something ritually clean or holy	
 s40448	cleaning/clean-up/clearing	the plain cleaning or clearing of a place such as a compound or a road, with no ritual meaning; the place is named before {siansuahna}	
 s40449	clearance operation/crackdown/sweep	an operation by soldiers or police to clear an area of people or to search it thoroughly; {minam siansuahna} is ethnic cleansing and {gamsung siansuahna} a crackdown across the country	
 s40450	clean/clean up/cleanse	<siansuah>, make clean, and the causative <sak> written as one word: clean a place or thing, in news mostly in the plain sense of cleaning up	
@@ -465,7 +465,7 @@ s40469	headmistress/woman principal/woman head teacher	a woman who is the head o
 s40470	headmaster/principal/head teacher	<sia>, teacher, and <pipa>, chief, written as one word: the head of a school; also a respectful word for a senior teacher or pastor	
 s40471	teachers/masters/senior teachers	<sia>, teacher, with {-pi}, great, and the plural <te>: the teachers or learned people of a subject, and one's own teachers; {Laisiangtho siapite} are the teachers of the Bible	
 s40472	ruined/destroyed	<sia>, be ruined, with <sa>, already: ruined, lying in ruins; {a siasa-in om} is lie in ruins	
-s40473	destroy/ruin/spoil	<sia>, be ruined, with the causative <sak>: bring a person, a city or someone’s faith to ruin	
+s40473	destroy/ruin/spoil/damage/impair/mar	<sia>, be ruined, with the causative <sak>: bring a person, a city or someone’s faith to ruin	
 s40474	destroy/ruin/bring down	<siasak>, destroy, with the linking ending <in>: destroying, used when another action follows	
 s40475	destroy completely/ruin utterly	<siasak> destroy, with <mang> away, completely	
 s40476	one who foils/one who ruins	<siasak> destroy, spoil, with <pa> marking a male doer	
@@ -504,7 +504,7 @@ s40508	severe badness/great severity	<siat>, bad, with <luatna>, excess, written
 s40509	ruin/devastation	<siat>, be ruined, with <mai>, wholly, and the noun suffix <na>: complete ruin, devastation	
 s40510	ruin/devastation	<siat>, be ruined, with <mai>, wholly, and the noun suffix <na>: complete ruin, devastation	
 s40511	evil/wickedness	<siat>, bad, with the noun suffix <na>: evil, wrongdoing; {siatna bawl} is do evil	
-s40512	disaster/harm/ruin/destruction	<siat>, be ruined, with the noun suffix <na>: ruin or disaster that comes on someone; {siatna tung} is disaster comes	
+s40512	disaster/harm/ruin/destruction/damage/detriment	<siat>, be ruined, with the noun suffix <na>: ruin or disaster that comes on someone; {siatna tung} is disaster comes	
 s40513	evil deeds/evils done	<siatna>, evil, with <sa>, already done, and plural <te>; {na gamtat siatnasate uh}, the evil things you have done	
 s40514	disasters/calamities/evils	<siatna>, disaster, with plural <te>: the bad things that come on people	
 s40515	evil deeds/wickedness	<siatna>, evil, with plural <te>: evil deeds; often after <gamtat>, conduct, as in {gamtat siatnate}, evil doings	
@@ -591,7 +591,7 @@ s40597	before killing oneself/before the suicide	<sihbawl>, kill oneself, and <m
 s40598	attempt to take one's life/try to kill	<sih>, die, <bawl>, make, and <sawm>, intend, written as one word; with {amah leh amah aki}, try to take one's own life	
 s40599	die in addition/more die	<sih> die with the ending {-beh}, in addition, written as one word: more people die, a further death is added to those counted before	
 s40600	epilepsy/seizure	used with <natna> illness for the falling sickness	
-s40601	death sentence/death penalty	<sih>, die, and <daan>, punishment; {sihdaan pia}, sentence to death	
+s40601	death sentence/death penalty/capital punishment	<sih>, die, and <daan>, punishment; {sihdaan pia}, sentence to death	
 s40602	death sentence/death penalty/capital punishment	the punishment of death given by a court; {sihdan pia} is sentence to death and {sihdan ngah} is be sentenced to death	
 s40603	manner of death/way of dying	<sih>, die, with <dan>, way: how a person dies	
 s40604	be sentenced to death/receive the death penalty	<sihdan>, the death sentence, and <kipia>, be given: a court condemns someone to death; the person condemned stands before it, and it is the passive of {sihdan pia}, sentence to death	
@@ -628,7 +628,7 @@ s40634	not die	<sih>, die, and <loh>, not, written as one word; {sihloh phamawh}
 s40635		<sih> die, with <loh> not and the noun suffix <na>; {a sihlohna inn} is a house where no one has died	
 s40636	before dying/before death	<sih>, die, and <ma>, before, written as one word; {a sihma in} is before he died	
 s40637	perish/die out	<sih>, die, with <mang>, away or lost: die and be gone	
-s40638	death	<sih>, die, with the noun suffix <na>: death; also the state of the dead, as in {sihna pan thokik}, rise from the dead	
+s40638	death/decease/demise	<sih>, die, with the noun suffix <na>: death; also the state of the dead, as in {sihna pan thokik}, rise from the dead	
 s40639	Death/Hades	<sihna>, death, written with a capital when death is spoken of as a person or power; {Sihna Gam}, Hades, the land of the dead	
 s40640	death and loss/casualties/loss of life	<sihna>, death, and <manna> in the sense loss, said as a pair: deaths and losses in war, disaster or hardship; with <thuak> or <tuak> after it, suffer death and loss	
 s40641	die/be killed/lose one's life	<sihna>, death, and <tuak>, here meet with or undergo: to meet death, to die, the usual wording of news for deaths in accidents, attacks and epidemics; the subject with <in> stands before it, and {sihna tuak mi} or {sihna tuakte} are the dead	
@@ -678,7 +678,7 @@ s40687	ginger	the root used as a spice and a medicine; also occurs as part of pe
 s40688	cover again/put the lid back on	<siin>, cover with a lid, with <kik>, again or back: put the lid back on	
 s40689	make smart/sting/irritate	make the eyes smart, said of smoke	
 s40690	business/economy/commerce	the Burmese word for business and the economy, set beside politics; {siipuayii tama} is a businessman	
-s40691	spare/leave over/leave remaining	keep back from destruction or from use: spare a person, or leave something over; with <lo> or <kei>, leave nothing	
+s40691	spare/leave over/leave remaining/reserve	keep back from destruction or from use: spare a person, or leave something over; with <lo> or <kei>, leave nothing	
 s40692	examine/question/interrogate	look into closely, a spelling of <sit.2>; {thu siit} is question a person, as the police do, and {en siit} is examine by looking	
 s40693	not spare/not hold back	<siit>, spare, and <lo>, not, written as one word: not spare or leave out; {siitlo-in} is without sparing, without holding anything back	
 s40694	leave for/spare for	<siit>, spare or leave over, with <sak>: leave something remaining for someone	
@@ -698,11 +698,11 @@ s40707	trample down/tread down	<sikcip>, trample, with <sak>: trample someone do
 s40708	trample down/stamp down	<sikcip>, trample, with <suk>, downward	
 s40709	iron	<sik>, iron, with <dat>, substance: iron as a nutrient in food	
 s40710	to step on/will step on/to press	<sik>, step on, and the future marker <ding> written as one word: to step on, meaning to press with the foot, as the brake of a car	
-s40711	durable/tough/resilient	lasting and hard to wear out, of a thing; of people, steadfast and able to hold out, as in {sikdo tak leh thuakzo takin}	
+s40711	durable/tough/resilient/hardy	lasting and hard to wear out, of a thing; of people, steadfast and able to hold out, as in {sikdo tak leh thuakzo takin}	
 s40712	trample/tread down	<sik>, tread, with <gawp>, roughly or thoroughly: trample underfoot	
 s40713	provide/supply	provide what is needed, as food or offerings	
 s40714	Sikh	the English word, written with a capital: a follower of the religion from India, or before <biakna> that religion itself; not the verb {sikh}, provide	
-s40715	ghost/spirit of a dead person	the spirit of a dead person; {sikha sa} is think that one sees a ghost	
+s40715	ghost/spirit of a dead person/spectre	the spirit of a dead person; {sikha sa} is think that one sees a ghost	
 s40716	village of the dead/abode of the dead	in the old Zomi belief, the village where the spirits of the dead live together; whoever dies arrives there, and chiefs and elders, rich and poor are found there as on earth	
 s40717	blood clot/clot	<si>, blood, with <khal>, congeal: blood that has thickened into a lump, in a wound or in a blood vessel	
 s40718	clinic	a small medical centre where the sick are seen and treated	
@@ -736,7 +736,7 @@ s40745	stepping on unawares	<sik> step on, with <khak> happen to and the noun su
 s40746	crush underfoot/trample	tread on a thing so that it breaks	
 s40747	chain	<sik>, iron, with <khau>, rope: an iron chain, used for binding a prisoner	
 s40748	telegram/telegraph/wire	a message sent along a wire, and the telegraph itself; with <sat>, strike, {sikkhau sat} is send a telegram	
-s40749	wire	metal wire, as for fencing or for a telephone line, where the other sense is a chain of links	
+s40749	wire/cable	metal wire, as for fencing or for a telephone line, where the other sense is a chain of links	
 s40750	chain	a measure of length used in surveying land: 22 yards, 66 feet or 792 inches; ten make a furlong, <falong>, and eighty a mile, <tai>	
 s40751	square chain	<sikkhau>, chain, with <khawk>, square: 484 square yards; a hundred make a square furlong	
 s40752	chains/shackles	<sikkhau>, iron chain, with the plural <te>: the chains that bind a prisoner	
@@ -771,7 +771,7 @@ s40780	coat of armor/coat of mail/armor	<sik>, iron, with <puan>, garment: armor
 s40781	coats of armor/coats of mail	<sikpuan>, coat of armor, with the plural <te>	
 s40782	pay for/cover the cost of	bear a cost for someone else, as fuel for a journey or the expenses of a funeral	
 s40783	base on/rely on	in {siksak in}, on the basis of; used like <siksan>, of which it may be a spelling	
-s40784	bicycle/bike	literally iron horse, <sik> with <sakol>: a bicycle	
+s40784	bicycle/bike/cycle	literally iron horse, <sik> with <sakol>: a bicycle	
 s40785	rely on/base on/stand on	take something as one's ground, support or claim; {siksan ding} is a ground or footing to stand on	
 s40786	basis/ground/footing	used as a noun, the thing one stands on or relies on, as in {siksan kician}, a firm basis, and {na siksan}, your footing	
 s40787	on the basis of/based on/according to/from	<siksan> with the suffix {-in}: taking something as the ground or support for what is said or done	
@@ -850,7 +850,7 @@ s40859	Silla	place in or near Jerusalem, named with Beth Millo where King Joash 
 s40860	put on/wear	apparently a misprint of <silh> wear	
 s40861	without washing/not washing	<sil>, wash, with <loin>, without; {khut silloin}, with unwashed hands	
 s40862	washing/wash	the washing of a part of the body, from <sil>, wash; {khut silna} is hand washing, also the thing to wash hands with	
-s40863	yeast/leaven	substance mixed into dough to make it rise; {silngo sawhloh anlum} is bread made without yeast, and {silngo om lo} is unleavened	
+s40863	yeast/leaven/ferment	substance mixed into dough to make it rise; {silngo sawhloh anlum} is bread made without yeast, and {silngo om lo} is unleavened	
 s40864	yeast/leaven	<silngo>, yeast, written with a capital at the start of a sentence and in the festival name {Silngo Sawh loh Anlum Pawi}, the Festival of Unleavened Bread	
 s40865	leaven/yeast	<silngo>, yeast, with the plural <te>; used as a picture of evil that spreads	
 s40866	yeast/leaven	apparently a misprint of <silngo>	
@@ -869,8 +869,8 @@ s40878	corpse-carrying	<siluang>, dead body, and <pua>, carry, written as one wo
 s40879	corpses/dead bodies	<siluang>, corpse, with plural <te>	
 s40880	Silas/Silvanus	companion of Paul on his journeys and co-sender of the letters to the Thessalonians, also named by Peter; called Silas in Acts	
 s40881	read	read what is written, silently or aloud before others	
-s40882	count/number	count people or things to find their number; {sim zo} is be able to count	
-s40883	attack/fight against/make war on	make war on a land, a city or a people; {va sim} is go and attack	
+s40882	count/number/enumerate	count people or things to find their number; {sim zo} is be able to count	
+s40883	attack/fight against/make war on/fall on	make war on a land, a city or a people; {va sim} is go and attack	
 s40884	every/each	placed after a word for a time or an event, often followed by <a> or <in>: every one, each time, as in <nisim>, every day, and {meeting sim}, every meeting; not the verb read or count	
 s40885	south	the south, the side of the warm low country, as in {sim lamah}, to the south, and <simlam>	
 s40886		sentence-final question word, named by the book beside <dia>, <hia>, <diam> and <hiam> as a word that makes a question; {Ut lo cih sim} asks whether it is that one does not want to	
@@ -929,7 +929,7 @@ s40939	not count/not regard	<sim> in the sense count or regard as, with <lo>, no
 s40940	except/besides/apart from	placed after the thing excepted: <sim>, count, with <loh>, not, that is not counting	
 s40941	steal in/slip in/enter secretly	<sim>, secretly, with <lut>, enter	
 s40942	arresting secretly/seizing by stealth	<sim>, secretly, with <mat>, seize, and the linking ending <in>	
-s40943	despise/scorn/treat with contempt	look down on a person or thing as worthless and show no respect	
+s40943	despise/scorn/treat with contempt/disdain	look down on a person or thing as worthless and show no respect	
 s40944	persecution/abuse/bullying	<simmawh>, despise, and <bawlsiatna>, mistreatment, said as one noun: contempt and ill-treatment suffered by a person or a group, as for their faith or at school; the usual verb after it is <thuak>, suffer	
 s40945	treat with contempt/despise/mock	<simmawh>, despise, with <bawl>, do: treat someone with contempt, make a mockery of a person	
 s40946	contemptible/despicable/undignified	<simmawh>, despise, with <huai>, worthy of: deserving scorn, an object of scorn	
@@ -941,7 +941,7 @@ s40951	mocker/one who despises	<simmawh> despise, with <pa> marking a male doer
 s40952	make despised/let be scorned	<simmawh>, despise, with <sak>: make or let others despise someone	
 s40953	those who despise/scorners/revilers	<simmawh> despise with <te>: the ones who despise or insult	
 s40954	reading	<sim>, read, with the noun suffix <na>: what is read, or the act of reading	
-s40955	counting/numbering/census	noun of <sim>, count; {mi phazah simna} is a census, {khang simna} a genealogy	
+s40955	counting/numbering/census/enumeration	noun of <sim>, count; {mi phazah simna} is a census, {khang simna} a genealogy	
 s40956	attack/battle	<sim>, attack, with the noun suffix <na>: an attack; {gal simna} is battle or war	
 s40957	plot/conspiracy/ambush	after a verb <sim> means secretly, and {simna} names the secret doing of it, as {sawm simna} and {vaihawm simna} a plot, {buk simna} an ambush	
 s40958	secret things/things done in secret	<sim>, secretly, after a verb, with the noun suffix <na> and plural <te>: {khialh simnate}, secret sins; {kihuau simnate}, things whispered in secret	
@@ -997,7 +997,7 @@ s41007	count off/count up/reckon	count upward one after another; of a family lin
 s41008	Simtsing		
 s41009	whenever/every time/as often as	<sim>, every, after a verb, with the plural ending <un>: each time that they or you do something	
 s41010	be able to count/count up	<sim>, count, with <zawh>, be able; nearly always negative: {simzawh loh} is countless and {simzawh lohin} without number	
-s41011	countless/innumerable/incalculable	<simzawh>, be able to count, and <loh>, not, written as one word: too many to count	
+s41011	countless/innumerable/incalculable/unnumbered	<simzawh>, be able to count, and <loh>, not, written as one word: too many to count	
 s41012	Simzawl		
 s41013	poor	poetic word for <zawng>, used in songs; the page gives only the one word, taken here as poor and not as the monkey	
 s41014	raid repeatedly/keep attacking	<sim>, attack, with <zel>, again and again: raid a place repeatedly	
@@ -1018,7 +1018,7 @@ s41028	Sinai	mountain in the desert where God gave the law to Moses, and the des
 s41029	not yet dead/still alive	<si>, die, and <nailo>, not yet, written as one word: has not died yet	
 s41030	learn more/study further/keep learning	<sin> learn with the ending <beh>, in addition: go on learning more than one already knows	
 s41031	cover over/seal off/shut in	<sin>, cover, with <cip>, tightly: close over so that nothing shows or gets out	
-s41032	to learn/lesson to learn	<sin> and <ding> written as one word: to be learned or studied; {pan sinding} in a title is lessons to learn from	
+s41032	to learn/lesson to learn/lesson	<sin> and <ding> written as one word: to be learned or studied; {pan sinding} in a title is lessons to learn from	
 s41033		<sin>, learn, and <dingin>, in order to, written as one word: in order to learn or study	
 s41034	tree	a tree; also used after the name of a kind of tree, as in {taamtaak sing}, cedar	
 s41035	wood/timber	wood as a material for building and making things; {singkha sing} is acacia wood	
@@ -1063,7 +1063,7 @@ s41075	cross/wooden post/tree	<sing>, wood, with <khuam>, post: the wooden post 
 s41076	wooden post/post/pole	any wooden post set upright in the ground, such as the post on which the heads of game and of enemies were once hung, or a carved post that is worshipped; not the cross of Jesus	
 s41077	stocks	<sing>, wood, with <kol>, shackles: the wooden frame in which the feet of a prisoner are locked	
 s41078	tree		
-s41079	box/chest/case/ark	a box or chest, at first of <sing.2>, wood, for keeping or carrying things; <thukham singkuang> is the ark of the covenant and {tuikhal singkuang} a refrigerator	
+s41079	box/chest/case/ark/trunk	a box or chest, at first of <sing.2>, wood, for keeping or carrying things; <thukham singkuang> is the ark of the covenant and {tuikhal singkuang} a refrigerator	
 s41080	ark	<singkuang>, wooden chest, written with a capital at the start of a sentence and in {Thuciamna Singkuang}, the ark of the covenant	
 s41081	ark/chest	<singkuang> wooden chest with plural <te>; {thuciamna singkuang} is the ark of the covenant	
 s41082	tree/vegetation	<sing>, tree, with <kung>, trunk or plant: a growing tree	
@@ -1083,7 +1083,7 @@ s41096	wood and stone/timber and stone	<sing>, wood, <le>, and, <suang>, stone, 
 s41097	great trees/mighty trees	<sing> tree with <lian> great and plural <te>	
 s41098	shade of a tree/shady tree	<sing>, tree, with <liim>, shade; in Jeremiah for the spreading trees under which idols were worshipped	
 s41099	shady tree/shade of a tree	<sing> tree with <lim> shade; {singlim nuai} is under a spreading tree	
-s41100	beam/plank/log	a felled tree trunk or a large piece of timber such as a beam	
+s41100	beam/plank/log/timber	a felled tree trunk or a large piece of timber such as a beam	
 s41101	straight stick/straight stake	<sing>, wood, with <mam>, straight: a straight stake, cut to kill the pig at a sacrifice	
 s41102	rotten wood	<sing>, wood, with <muat>, rot	
 s41103	rotten wood	<singmuat> rotten wood with <sa>, already: wood that has rotted	
@@ -1120,7 +1120,7 @@ s41134	with wood	<sing> wood and <tawh> with, here written as one word
 s41135	log/pole/length of wood	<sing>, wood, with <tawn>, the counter for whole long things: a whole length of timber, from a stick or pole to a felled log	
 s41136	block of wood/log/wood	a piece of a tree trunk; in the verses of wood worshipped as an idol beside stone	
 s41137	trees		plural form of <sing>
-s41138	leaf/leaves	<sing>, tree, with <teh>, leaf: the leaf of a tree	
+s41138	leaf/leaves/foliage	<sing>, tree, with <teh>, leaf: the leaf of a tree	
 s41139	leaves	<singteh>, leaf, with plural <te>	
 s41140	all the trees	<sing> tree with <teng>, all of them	
 s41141	tightly/firmly	of a garment girded up tight for work; {a nik singtenin}, with her skirt tied firmly	
@@ -1158,7 +1158,7 @@ s41175	heart/breast	poetic word for the heart as the place of feeling, used in s
 s41176	not learn/not study	<sin>, learn, and <lo>, not, written as one word; {simlo sinlo} is without reading and without learning	
 s41177	not learn/not study	<sin>, learn, and <loh>, not, written as one word; used before <man>, <hang> and <phamawh>: {sinloh manin} is because of not learning, {sinloh phamawh} is must learn	
 s41178	heart/feelings	the heart as the seat of feeling, from <sin>, liver, and <lung>, heart; {sinlung luanzia} is given as feelings	
-s41179	training/experience/learning	<sin> learn with <na>: what one has learned or practised; {sinna om nai lo}, not yet experienced	
+s41179	training/experience/learning/study	<sin> learn with <na>: what one has learned or practised; {sinna om nai lo}, not yet experienced	
 s41180	lesson	a numbered lesson of a schoolbook, as {Sinna II}, lesson two	
 s41181	school/training school/academy	<sinna>, learning, and <sang>, here school: a school where a thing is learned; the subject stands before it, as in {lasak sinna sang}, a singing school, and {lai sinna sang}, a school of letters	
 s41182	cinnamon	the spice tree and its fragrant bark, an English loanword	
@@ -1188,7 +1188,7 @@ s41206	completely/perfectly	<sinsen> with <in>; {siangtho sinsenin} is perfectly
 s41207	shake/wag	shake again and again; {lu sinsin} is shake the head in scorn	
 s41208	keep learning/learn/practise	<sin>, learn, said twice: go on learning or practising a thing over time, often after <pilna> or with <lai>, still; not the shaking of the head of the other sense	
 s41209	be angry/burn with anger	be angry, literally the liver is hot, from <sin>, liver, and <so>, hot; {sinso sak} is make angry, and {sinso-na} is anger or wrath	
-s41210	anger/wrath/fury	burning anger, wrath; <sinso>, be angry, with the noun suffix <na>; often paired with <hehna>, anger	
+s41210	anger/wrath/fury/rage	burning anger, wrath; <sinso>, be angry, with the noun suffix <na>; often paired with <hehna>, anger	
 s41211	in anger/angrily	<sinso> be angry, with <sa> and the linking <in>: being angry	
 s41212	heart/mind/inner thoughts	<sin> liver with <sung> inside: the inner self where a person thinks	
 s41213	now learn	<sin>, learn, and <ta>, here the particle for now or from this point, written as one word; {ih sinta ding hi} is we shall now learn	
@@ -1297,8 +1297,8 @@ s41315	covering/overlay/veil	something laid over a surface; {biakna tau sitna} a
 s41316	test/trial/inspection	<sit>, examine, with the noun suffix <na>: the testing of a missile, rocket or medicine, or an official search of a place; {sitna nei} is carry out a test	
 s41317	Sitnah	second well dug by the servants of Isaac in the valley of Gerar, named for the quarrel over it	
 s41318	veils/coverings	<sitna>, covering, with plural <te>; {mai sitnate} are coverings for the face, veils	
-s41319	Sitni/lawyer	lawyer, the title given to Zenas; a Burmese loanword and not a personal name	
-s41320	lawyer/advocate	{sitni}, lawyer, a word taken from Burmese, with <pa>, man: a man who is a lawyer	
+s41319	Sitni/lawyer/advocate	lawyer, the title given to Zenas; a Burmese loanword and not a personal name	
+s41320	lawyer/advocate/solicitor	{sitni}, lawyer, a word taken from Burmese, with <pa>, man: a man who is a lawyer	
 s41321	lawyers/advocates	plural with <te> of {sitni}, a lawyer who pleads in court	
 s41322	check/examine/inspect/review	look over something carefully to see that it is right; {sitpha kik} is check again, review	
 s41323	examine carefully/scrutinise/check/review	<sit>, examine, with <phat>, carefully: go over something closely to see whether it is right	
@@ -1523,7 +1523,7 @@ s41542	birthday/date of birth/day of birth	<suah> and <ni> written as one word: 
 s41543	want to become/want to be	<suah>, become, with <nop>, want to	
 s41544	want to give birth	<suah.1>, give birth, with <nop>, want to: wish to have the baby delivered, as at a certain hospital, not to become something	
 s41545	birth feast/installation feast	<suah>, be born or become, and <pawi>, feast, written as one word: the feast of a birth, as Christmas for Jesus, or the celebration of someone becoming a deacon or a king, an ordination or coronation	
-s41546	from birth/born with	<suah>, be born, with <pih>, together with: had since birth, as {a suahpih mittaw}, blind from birth	
+s41546	from birth/born with/congenital	<suah>, be born, with <pih>, together with: had since birth, as {a suahpih mittaw}, blind from birth	
 s41547	born of the same parents/full	born together with someone of the same mother and father, said of brothers and sisters, beside <sanggam> or <unau>; not a thing a person has from birth	
 s41548	bring out to/lead up to	<suah>, come out, with <pih>, together with: bring someone out at a place, in the articles after <mual> and <hong> for bringing a people up to the hilltop of success	
 s41549	bring out/send out/produce	cause to come out; <suah> with <sak>, cause	
@@ -1538,7 +1538,7 @@ s41557	Suahsia
 s41561	escape/be saved/go free	stem two form of <suakta>; {suahtak theih nading} is a way of escape	
 s41562	independence/freedom	the freedom of a country from foreign rule, used as a noun without the suffix {-na} in {suahtak ni}, Independence Day, and {suahtak ngah}, gain independence	
 s41563	worth escaping from	<suahtak>, the form of <suakta>, be free, escape, used before a suffix, with <huai>, worthy of: worth escaping from	
-s41564	freedom/liberty/deliverance/release	<suahtak>, escape or go free, with the noun suffix <na>: freedom, release from slavery, prison or danger	
+s41564	freedom/liberty/deliverance/release/emancipation	<suahtak>, escape or go free, with the noun suffix <na>: freedom, release from slavery, prison or danger	
 s41565	escape/deliverance	{Suahtakna Suangpi}, Rock of Escape, renders the place name Sela Hammahlekoth	
 s41566	gain independence/become free/be released	<suahtakna>, freedom, and <ngah>, get: of a country, gain independence from a ruling power, and of a person, be set free; {suahtakna ngah khit ciang} is after independence	
 s41567	by the release/by the freedom	<suahtakna>, freedom or release, with the ending {-in}: by or through the release	
@@ -1648,7 +1648,7 @@ s41672	go free again/be released	<suakta>, be freed, with <kik>, back or again: 
 s41673	freedom/liberty/independence	<suaktak>, be free, with the noun suffix <na>: freedom of a person, or the independence of a country	
 s41674	survive/remain/be left	<suakta>, escape or stay alive, with <lai>, still: be still left alive; {a suaktalai} is the remnant	
 s41675	not be released/not get free	<suakta>, be set free, and <lo>, not, written as one word: not be released, not get out	
-s41676	set free/free/deliver/spare	<suakta>, be free or escape, with the causative <sak>: set someone free, let someone escape or spare a life	
+s41676	set free/free/deliver/spare/liberate	<suakta>, be free or escape, with the causative <sak>: set someone free, let someone escape or spare a life	
 s41677	setting free/freeing	<suaktasak>, set free, with the linking suffix <in>: setting free and then doing the next action	
 s41678	one who lets escape/one who sets free	<suaktasak>, set free or let escape, with <pa> for a man: the one who lets someone escape	
 s41679	surviving/escaped	<suakta>, escape, with <sun>, only those that: {a suaktasun mite} are those who survive	
@@ -1727,7 +1727,7 @@ s41751	marble	<suang>, stone, with <kaang>, white: white stone, marble
 s41752	marble/limestone/chalk	white stone, from <suang> stone and <kang> white; marble in buildings, limestone or chalk when burned or crushed	
 s41753	marble	<suangkang>, white stone or marble, with the plural <te>	
 s41754	whitewash/lime wash	<suangkang>, white stone, with <tui>, water: lime mixed with water for whitening walls and tombs	
-s41755	rocky crag/rock cliff	<suang>, rock, with <keen>, cliff	
+s41755	rocky crag/rock cliff/cliff/crag	<suang>, rock, with <keen>, cliff	
 s41756	rocks/crags/cliffs	<suang>, stone, with <keen>, cliff, and the plural <te>: rock faces, crags	
 s41757	rocky crag/rock cliff	<suang> stone with <ken>, a steep rocky height; {suangken lak} is among the crags	
 s41758	Suangken		
@@ -1749,7 +1749,7 @@ s41773	small stone/pebble	<suang> stone with <neu> small; given as the meaning o
 s41774	alabaster/marble	<suang>, stone, with <ngo>, white: a white stone; {suangngo thawl} is an alabaster jar	
 s41775	foundation stone/bottom stone	<suang> stone with <nuai> under: stone laid underneath a building	
 s41776	white stone/glittering stone	a kind of fine stone: the white stone with a new name in Revelation, and a costly stone gathered for the temple, where the NIV has turquoise	
-s41777	stone tablet/stone slab/flat stone	a flat piece of stone; used of the tablets of the law, a millstone and the stone closing a tomb	
+s41777	stone tablet/stone slab/flat stone/flagstone	a flat piece of stone; used of the tablets of the law, a millstone and the stone closing a tomb	
 s41778	stone tablets/tablets	plural of <suangpeek>, flat slab of stone, used of the tablets of the law	
 s41779	stone tablet/tablet	flat slab of stone, from <suang> stone and <pek> flat piece	
 s41780	pavement/stone floor	<suang>, stone, with <phah>, spread: a floor or court laid with stones	
@@ -1770,7 +1770,7 @@ s41794	Suangseeksa	{suangseeksa}, dressed stone, written with a capital at the s
 s41795	dressed stones/hewn stones	<suang>, stone, with <seek>, shape by beating, <sa>, already done, and the plural <te>: stones cut to shape for building	
 s41796	stonecutters/masons	<suangseek>, cut stone, with <te>, those who: the workers who cut and dress stone for building	
 s41797	stonecutters/masons	spelling of <suangseekte> with a short vowel: those who cut and dress stone for building	
-s41798	gravel/crushed stone	small broken stones used with sand and cement in building and for surfacing roads	
+s41798	gravel/crushed stone/grit	small broken stones used with sand and cement in building and for surfacing roads	
 s41799	small stones/grit/gravel	<suangsi> with the plural <te>: small stones, bits of grit	
 s41800	inside the rock/into the rock	<suang>, stone, with <sung>, inside: the inside of the rock, into which the foundation of a house is dug	
 s41801	whetstone/grindstone	<suang>, stone, with <taat>, sharpen: a stone for sharpening a knife or blade	
@@ -1952,7 +1952,7 @@ s41976	to destroy/to ruin	<suksiat>, destroy, and <ding> written as one word: to
 s41977	destroy utterly/ruin/lay waste	<suksiat> destroy with <gawp>, thoroughly or violently	
 s41978	destroy/ruin	<suksiat> destroy with <khak>, which shows that the action happens to someone or by accident	
 s41979	destroy completely/wipe out	<suksiat> destroy, with <mang>, be lost or gone	
-s41980	destruction/ruin	<suksiat>, destroy, with the noun suffix <na>: the act of destroying, or the ruin that comes on someone	
+s41980	destruction/ruin/damage/havoc	<suksiat>, destroy, with the noun suffix <na>: the act of destroying, or the ruin that comes on someone	
 s41981	destructions/ravages	plural of <suksiatna> destruction	
 s41982	destroyed/demolished	<suksiat> destroy, with <sa> marking a completed action, that which someone had destroyed	
 s41983	frustrate/thwart/destroy/bring to ruin	<suksiat> destroy with <sak>; said of plans and schemes as well as things	

@@ -15,7 +15,7 @@ s20012	shield oneself/be protected/be fortified	reflexive or passive of <dal>, s
 s20013	shielding oneself/being covered	<kidal> shield oneself with the connective <in>: protected with shields and helmets	
 s20014	precaution/prevention/preventive measure	<kidal>, protect oneself, with <kholhna>, doing in advance, written as one word: a step taken beforehand against danger	
 s20015	shield/protection/shielding	that which screens or protects; {kidalna lum} is a shield, {kidalna puan} the shielding curtain and {kidalna kulh} a wall of protection	
-s20016	prevention/self-protection/self-defence	the act of guarding oneself against a disease or an attack, not a thing that shields; <kidalna zatui> is a vaccine and {ei leh ei kidalna} is self-defence	
+s20016	prevention/self-protection/self-defence/defence	the act of guarding oneself against a disease or an attack, not a thing that shields; <kidalna zatui> is a vaccine and {ei leh ei kidalna} is self-defence	
 s20017	vaccine/preventive medicine	<kidalna>, protection, and <zatui>, medicine: a medicine that protects against a disease, a vaccine; stands after the name of the disease, and {kidalna zatui kisut} is be vaccinated	
 s20018	to shield oneself/as a shield for oneself	<kidal> and <nading> written as one word: for shielding oneself; {kidalnading in} is as a shield for oneself	
 s20019	sheltered by/under the lee of	<kidal> be shielded with <sak> cause and the connective <in>; {huih kidalsakin} is letting an island keep off the wind, sailing under its lee	
@@ -29,7 +29,7 @@ s20026	apart/aloof	in {kidang koih}, keep oneself apart from someone, avoid
 s20027	differ/be different/change	be unlike something else, with <tawh> for what it differs from, or, after <hong>, become different, change; a verb of its own, not the {kidang koih} of sense 1	
 s20028	be punished	passive <ki> with <dantah> punish	
 s20029	punishment	<kidantah> be punished with the noun suffix <na>	
-s20030	be punished/be condemned	passive <ki> with {dantat}, inflict a penalty: be punished or condemned	
+s20030	be punished/be condemned	passive <ki> with <dantat>, inflict a penalty: be punished or condemned	
 s20031	be lined/be panelled/be covered/be inlaid	be covered over on the inside or surface with boards, leather or other material	
 s20032	be pulled out/be drawn out	passive <ki> with <dawh> pull out; {kidawh khiatsak}, have something pulled out and taken away	
 s20033	be set/be planted	in {so kidawh}, of spikes or pitfalls set in a path beside snares	
@@ -64,7 +64,7 @@ s20061	be stabbed to death	<dawtlum>, stab to death, with the passive <ki>: be k
 s20062	stabbing/knife attack	<kidawt>, stab one another or be stabbed, with the noun suffix <na>: a stabbing; often {temtawh kidawtna}, a stabbing with a knife	
 s20063	be lit/be kindled	passive of <de>, light a torch, lamp or candle: a torch or candle is lit; {meilah kide} is torches are lit	
 s20064	be lit/be kindled	passive of <dee>, light: of a torch, be lit	
-s20065	restrain oneself/hold oneself back	the 1977 spelling; the 1932 text has <kidek>	
+s20065	restrain oneself/hold oneself back/abstain	the 1977 spelling; the 1932 text has <kidek>	
 s20066	be stoned/be pelted	passive <ki> with <deeng> throw at; {suang tawh kideeng lum}, be stoned to death	
 s20067	be separated/be divided/be set apart	be kept apart or treated as different; mostly in {kidei danna}, a spelling of <kideidanna>, distinction or separation	
 s20068	be distinguished/be treated differently	passive <ki> with <deidan> discriminate; {kideidan loin} is without distinction, alike	
@@ -128,7 +128,7 @@ s20125	be set up/be made to stand/be erected	<dingsak>, make stand, with the pas
 s20126	be set up/be erected	of a tent or building, be made to stand, be put up	
 s20127	kidnapping/abduction	the seizing of a person by force, often for ransom; {Kidnap bawl} is to kidnap and {Kidnap thuak} is to be kidnapped; in the articles it is written with a capital letter	
 s20128	kidney	the English word, written mostly as a gloss beside <kal>	
-s20129	fight/wage war/battle	<do>, fight, with <ki>, each other: fight or be at war, with <tawh> for the opponent; {gal kido} is fight a battle	
+s20129	fight/wage war/battle/war	<do>, fight, with <ki>, each other: fight or be at war, with <tawh> for the opponent; {gal kido} is fight a battle	
 s20130	host one another/show hospitality	in {zin kido}, receive one another as guests, offer hospitality to each other	
 s20131	keep fighting/fight on and on	<kido>, fight one another, with <do> said twice: go on fighting one another, be at war again and again	
 s20132	fighting each other/contending/opposing	<kido>, fight each other, with the linking ending <in>: fighting, contending with or opposing someone	
@@ -143,7 +143,7 @@ s20140	be lifted up/be raised	<domto>, lift up, with the passive <ki>: be lifted
 s20141	lift one another up/encourage one another/spur one another on	<domto>, lift up, with <ki>, one another: build each other up, encourage each other toward what is good	
 s20142	care for oneself/heed one another	<don> care for, with <ki>, which turns the action on oneself or on each other; {note bek a kidon}, who care only for yourselves; {kidon lohna}, not heeding one another	
 s20143	be collected/be levied	of a tax, a fee or a bill, be collected from people, as in {siah kidon}; a different use from caring for oneself or one another	
-s20144	war/battle/fighting	<kido>, fight each other, with the noun suffix <na>: war, a battle or fighting; often {gal kidona}	
+s20144	war/battle/fighting/fight	<kido>, fight each other, with the noun suffix <na>: war, a battle or fighting; often {gal kidona}	
 s20145	wars/battles/fightings	plural of <kidona>; {gal kidonate} is the fighting of war	
 s20146	ask one another/question each other/discuss	<dong>, ask, with <ki>, each other: ask or question one another, discuss or argue over a matter	
 s20147	be betrothed/be pledged in marriage/be asked in marriage	of a girl, to have been asked for as a wife; {a kidong nai lo nungak} is a virgin not yet betrothed	
@@ -186,7 +186,7 @@ s20184	girding/belting	<kigak> gird oneself with the noun suffix <na>; {a kigakn
 s20185	be at enmity/be enemies	be enemies of each other; {kigal neihna} is enmity or ill will held against someone	
 s20186	opposite/facing each other	across from one another; {kigal sai} is to stand or be placed facing each other	
 s20187	be enemies/be hostile to each other	<ki> each other with <galbawl> act as an enemy	
-s20188	enmity/hostility/mutual hostility	<kigalbawl> with the noun ending: treating one another as enemies	
+s20188	enmity/hostility/mutual hostility/animosity	<kigalbawl> with the noun ending: treating one another as enemies	
 s20189	wage war/fight against	<ki> with <galdo> fight, make war against each other, with <tawh> for the opponent	
 s20190	prepare for battle/get ready/arm oneself	make oneself ready for war, from <gal>, war, and <kiging>, get ready	
 s20191	preparation/readiness/provision	<kigalging>, get ready, with the noun suffix {-na}: getting ready beforehand, preparation made in advance	
@@ -224,14 +224,14 @@ s20222	hold fast
 s20223	together	after the things named, taken or joined together	
 s20224	jointly		
 s20225	in partnership		
-s20226	unite/merge/be combined/join together	passive and mutual form of <gawm>, join: of people, groups or amounts, come together or be put together into one; the other senses are adverbs placed after the things named	
+s20226	unite/merge/be combined/join together/amalgamate/combine	passive and mutual form of <gawm>, join: of people, groups or amounts, come together or be put together into one; the other senses are adverbs placed after the things named	
 s20227	in total/altogether/combined	<kigawm>, be joined together, and <vekpi>, all: placed after a list of two or more groups and before a number, gives the total of them all	
 s20228	be joined on/be added on	passive of <gawmbeh>, join on, with the prefix {ki-}: of a word, be put after another word	
 s20229	together/combined/including	<kigawm>, be joined, with <in>: taken together or joined as one; {tawh kigawmin} means together with or including	
-s20230	join together/merge/unite/combine	<kigawm>, be joined, with <khawm>, together: come together into one, said of groups, parties, voices or things	
+s20230	join together/merge/unite/combine/join	<kigawm>, be joined, with <khawm>, together: come together into one, said of groups, parties, voices or things	
 s20231	those joined together	<kigawmkhawm>, join together, with the plural ending <te>: the ones that are joined together into one	
 s20232	unite/join together/be united	<kigawm>, be joined, with <khop>, together: come together as one; the form used before words such as <ding>, <nading> and <ciangin>	
-s20233	unity/unification/union	<kigawmkhop>, join together, with the noun suffix {-na}: the joining of separate groups into one; one writer sets it apart from <kipumkhatna>, oneness	
+s20233	unity/unification/union/amalgamation	<kigawmkhop>, join together, with the noun suffix {-na}: the joining of separate groups into one; one writer sets it apart from <kipumkhatna>, oneness	
 s20234	be reunited/join again/come together again	<kigawm>, be joined, with <kik>, again: come together again after being apart	
 s20235	sum/total/amount	<kigawm>, be added together, with the noun suffix <na>: what things add up to when they are counted	
 s20236	union/merger/combination	<kigawm> with the noun suffix <na>, said of peoples, parties or churches: their joining into one body, or a combination of things, where nothing is counted up	
@@ -292,7 +292,7 @@ s20291	be told fully/be reported	<kigen> be told with <zo>, showing the telling 
 s20292	be castrated/castrate oneself	be castrated; {a kiget mi} is a eunuch	
 s20293	be made a eunuch/castrate oneself	related to <geh> eunuch; <tawm> usually shows that the subject acts on himself, while the NIV has made eunuchs by others	
 s20294	boundary/border	the line where one piece of land ends and the next begins, as between fields or house plots	
-s20295	border on/share a boundary	have a common boundary with something, which is followed by <tawh>	
+s20295	border on/share a boundary/abut/abut on	have a common boundary with something, which is followed by <tawh>	
 s20296	stay the night/lodge/be lodged	the prefix <ki> with <giak>: people stay the night at a place, said in general or of a group; {kigiak sak} is put people up for the night	
 s20297	afflict oneself/humble oneself	<ki> oneself with <gim> be weary or suffer; {kigim tawmsak} is make oneself suffer, as by fasting	
 s20298	be tiring/get tired/be worn out	said in general of work, travel or grief that wears people out: one gets tired, it is tiring; here <ki> is impersonal and nobody makes himself suffer as in the first sense; often with <mahmah> or <zaw>	
@@ -323,7 +323,7 @@ s20322	be slaughtered in sufficient number/be slaughtered	<kigo>, be slaughtered
 s20323	be stolen/be carried off	passive of <gu>, steal; {kigu-khia} is be stolen away	
 s20324	be hired/be paid	passive of <guai>, hire, with <ki>: be hired or paid for a service	
 s20325	hire/earnings	in {a kiguaihna sum}, the money a prostitute is paid for hiring out the body	
-s20326	line up/be arrayed/draw up in ranks	stand in rows, as an army drawn up for battle or people walking in procession; {kigual deudau} is in long lines	
+s20326	line up/be arrayed/draw up in ranks/align	stand in rows, as an army drawn up for battle or people walking in procession; {kigual deudau} is in long lines	
 s20327	line up/queue/be arranged in order	stand in a line one behind another, queue; also be set in order, as letters of the alphabet	
 s20328	make merry/rejoice together	<gualnop>, make merry, with <ki>; {kigualnop sakna} is merrymaking or rejoicing	
 s20329	line up/make line up	<kigual>, line up, with the causative <sak>: have people stand in rows, or be made to line up	
@@ -479,7 +479,7 @@ s20479	bundles/pouches	<kihen> be tied with the plural <te>: things tied up; {su
 s20480	part from/separate from	seen only in {kihep khiat}, go away from someone	
 s20481	withdraw/go away/depart	leave a person or place; form used before <ciangin> and <khit>	
 s20482	be removed/be taken away/be driven out	passive use: of things or people, be taken away from a place by others, as crosses from a public building or outsiders from a land; mostly before <nading> or {theihna ding}, for it to be removed	
-s20483	detestable/disgusting/unclean/abominable	so unclean or wicked that it is to be loathed; said of forbidden food, idols and sinful acts	
+s20483	detestable/disgusting/unclean/abominable/nasty	so unclean or wicked that it is to be loathed; said of forbidden food, idols and sinful acts	
 s20484	abomination/detestable thing/impurity	<kihhuai>, detestable, with the noun suffix <na>: something disgusting or unclean, or the state of being so	
 s20485	abominations/detestable things/detestable practices	plural of <kihhuaina>: detestable things, acts or idols	
 s20486	abominations/detestable things	<kihhuainate> written with a capital in a title	
@@ -494,7 +494,7 @@ s20494	be done	<hih>, do, with passive <ki>: something is done, or is done to or
 s20495	quarrel/conflict/fight	<kihih>, do to one another, with <na>: a clash or dealings between two sides	
 s20496	be proud/boast/be arrogant	carry oneself proudly; {kihihsak pih} is boast in or put trust in something	
 s20497	be done for	passive of <hihsak>: something is done for or on behalf of a person, who is named with <ading>	
-s20498	pride/arrogance/haughtiness	<kihihsak>, be proud, with the noun suffix <na>: pride that makes oneself out to be great	
+s20498	pride/arrogance/haughtiness/conceit	<kihihsak>, be proud, with the noun suffix <na>: pride that makes oneself out to be great	
 s20499	arrogance/insolence/proud acts	plural of <kihihsakna>, from <kihihsak> be proud	
 s20500	trust in/boast in/take pride in	<kihihsak> be proud with <pih>: be proud of something and rely on it	
 s20501	can be done/be permissible	<kihih> be done with <thei> be able	
@@ -528,17 +528,17 @@ s20528	be arrogant/be proud/be haughty	<kihisak> with the linking suffix <in>
 s20529	the proud/the arrogant/the haughty	<kihisak>, be proud, with the plural <te>: people who think highly of themselves	
 s20530	one is rather/we are rather	<kihi> and <zaw> written as one word: it is rather the case that people are so	
 s20531	detest greatly/loathe/find disgusting	<kih> and <mahmah> written as one word: detest very much, be strongly disgusted by	
-s20532	talk together/converse/speak with	talk with one another; the person spoken with is marked by <tawh>, with	
+s20532	talk together/converse/speak with/talk	talk with one another; the person spoken with is marked by <tawh>, with	
 s20533	way of talking together/conversation/talks	<kiho>, talk together, and <dan>, manner, written as one word: how people speak with each other, also what was agreed in talks	
 s20534	converse/talk together/commune	talk with one another at length, <kiho> with <ho> repeated for an action that goes on; in Psalm 77:6 of communing with one's own heart	
 s20535	be good/be well done	<hoih>, good, with the prefix <ki>: with <sak> after it, {kihoih sak}, think oneself good or find a thing good for oneself; before a verb, done well, as {kihoih bawl}, well made	
 s20536	talking with/speaking with	<kiho> talk together with the connective <in>	
 s20537	talk together/speak with	<kiho> converse with <khawm> together	
 s20538	converse/talk together/hold talks	<holim>, converse, with the prefix <ki>: talk with one another; the other party is marked by <tawh>	
-s20539	conversation/talk/interview/discussion	talking together at ease, a conversation or friendly discussion; in news also an interview, as in {tawh kiholimna}, conversation with	
+s20539	conversation/talk/interview/discussion/chitchat	talking together at ease, a conversation or friendly discussion; in news also an interview, as in {tawh kiholimna}, conversation with	
 s20540	be saved/be rescued/be delivered	passive of <hon>, save: be saved or rescued, with <panin> for the enemy or danger	
 s20541	be opened/open	passive of <hon>, open; of a door or a way	
-s20542	conversation/talk/talking together	<kiho> talk together with <na>: the talking, or with <mun> the place where they talked	
+s20542	conversation/talk/talking together/talking	<kiho> talk together with <na>: the talking, or with <mun> the place where they talked	
 s20543	open/be opened	be open or be opened, said of a container, a door or gate, a tomb, the sky, and of eyes and ears; {a kihong} before a noun means open	
 s20544	extend		
 s20545	stay open/be always open	<kihong>, be open, and <den>, always, written as one word: be open the whole time, said of a door or an office	
@@ -582,7 +582,7 @@ s20583	dreadfulness/terror	<kihtakhuai> fearful with the noun suffix <na>: the f
 s20584	most terrible/most fearful/most ruthless	<kihtakhuai>, fearful, with the superlative <pen>	
 s20585	fearsome/dreadful/dangerous	<kihtakhuai> with the plural <te>, which belongs to the whole phrase: {gamsa kihtakhuaite} are fierce wild beasts	
 s20586	fearing/dreading/in fear of	<kihtak> fear with the connective <in>; {kihtakin nei} is hold in dread	
-s20587	fear/dread/reverence	<kihtak>, fear, with the noun suffix <na>: fear or dread of someone, also reverent fear of God; the one feared stands before the word	
+s20587	fear/dread/reverence/awe	<kihtak>, fear, with the noun suffix <na>: fear or dread of someone, also reverent fear of God; the one feared stands before the word	
 s20588	dread/fear greatly	<kihtak> with its last syllable repeated; {a kihtaktak} is the very thing that someone fears	
 s20589	things feared/what one fears	<kihtak> fear with the plural <te>: the things that someone is afraid of	
 s20590	not fear/be unafraid	<kihta> and <lo> written as one word: not fear, have no fear of	
@@ -638,7 +638,7 @@ s20640	about/approximately/around	after a number, an amount or a time, shows tha
 s20641	around/surrounding	<kiim> with the place ending <a>, in the area around; mostly {kiima om}, that are around	
 s20642	around/round about/on every side of	<kiim> with <ah>, placed after the noun	
 s20643	around/about/approximately	<kiim> and <in> written as one word: around a place; after a number, year or time of day, about, approximately	
-s20644	surround	the space all around; {a kiimkot ah} means all around them, and {kiimkot-a om} means that are on every side	
+s20644	surround/encircle	the space all around; {a kiimkot ah} means all around them, and {kiimkot-a om} means that are on every side	
 s20645	surround		
 s20646	surroundings/environment/neighbourhood	<kiim>, <leh> and <paam> written as one word: everything and everyone around one	
 s20647	surroundings/neighbourhood/environment	<kiim>, <le> and <paam> written as one word: all that is around a person or place, the neighbourhood and the people in it	
@@ -805,7 +805,7 @@ s20812	gather together/withdraw together	of people, draw together into one place
 s20813	difference/gap/disparity	what sets two things or groups apart, the distance between them; {dinmun kikhaihna} is a difference in standing	
 s20814	disparity/extent of difference	how far apart two things or groups are, from <kikhai>, differ, with <zia>, manner; {nuntak kikhaihzia} is the inequality in living conditions	
 s20815	be let down/be lowered	<kikhai>, be hung, with <khia>, out: be let down hanging out of a place; with <suk>, downward	
-s20816	be balanced/be evenly matched/be in proportion	be weighed out equal: two sides are even, or one thing keeps pace with another	
+s20816	be balanced/be evenly matched/be in proportion/balance	be weighed out equal: two sides are even, or one thing keeps pace with another	
 s20817	differ too much/be too far apart	<kikhai> in the sense be far apart from each other, not be hanged, with <lua>, too much: of ages or strength, the gap between two is very great	
 s20818	be hanged/be put to death by hanging	passive of <khailum>; the NIV has impaled	
 s20819	hang oneself	reflexive {ki-} with <khailum>: kill oneself by hanging, often after {amah leh amah}, he himself, or {a gawl panin}, by the neck; not hanged by others	
@@ -849,7 +849,7 @@ s20856	develop/progress/advance	<khangto> with the prefix <ki>, said of people i
 s20857	be raised/be increased	the prefix <ki> with <khansak>, make grow, written as one word: be raised or increased, said here of pay	
 s20858	be extended/be raised/be increased	<kikhan>, be extended, with <to>, upward, written as one word: a time, a level or an amount is extended or raised	
 s20859	will be raised/will be increased	<kikhanto>, be raised, and <ding>, will, written as one word: a price or level is going to be raised	
-s20860	bargain/wager/pledge/guarantee	<khapna>, pledge, with the prefix <ki>, each other: an agreement in which each side pledges something; of a covenant, its guarantee or mediating	
+s20860	bargain/wager/pledge/guarantee/betting	<khapna>, pledge, with the prefix <ki>, each other: an agreement in which each side pledges something; of a covenant, its guarantee or mediating	
 s20861	be saddened/be grieved/be upset	<khasia>, be troubled in spirit, with <ki>: feel grieved or upset, also with one another	
 s20862	hurt feelings/ill feeling/mutual grievance	<kikhasiat>, be grieved or upset with one another, with the noun suffix {-na}: the hurting of one another's feelings, bad feeling between people	
 s20863	be one/be the same/be united	<khat>, one, with the prefix <ki>: be one and the same, or be united; {lungsim kikhat} is of one mind and {pa kikhat} is having the same father	
@@ -877,7 +877,7 @@ s20885	make keep company with/seat with/let associate with	<kikhawl>, keep compa
 s20886	be dismissed/be suspended/be removed from office	of a person with a post or job: be made to stop working, be dismissed or suspended, often with {nasepna panin}, from work; of work or a project, be halted	
 s20887	companions/partners/associates	<kikhawl>, keep company, with the plural <te>: those who keep company with the person or group named with <tawh>	
 s20888	be able to associate/be willing to associate	<kikhawl>, keep company, with <thei>, can	
-s20889	gather/assemble/come together	come together in one place, of people, animals or water	
+s20889	gather/assemble/come together/congregate	come together in one place, of people, animals or water	
 s20890	group		
 s20891	attend church/gather for worship	to go church	
 s20892	gather/assemble/come together	<kikhawm> with the linking ending {-in}: gathering, having assembled	
@@ -885,7 +885,7 @@ s20893	gather again/assemble again	<kikhawm>, gather, with <kik>, again
 s20894	gather/assemble/call together	<kikhawm>, gather, with the causative <sak>: make people come together, call them together	
 s20895	gathering/being gathered	<kikhawmsak>, gather, with the linking suffix <in>	
 s20896	assembly/those gathered/congregation	the people who have come together, <kikhawm> with plural <te>	
-s20897	gather together/assemble/unite	come together in one place or as one group, also to join against someone	
+s20897	gather together/assemble/unite/get-together	come together in one place or as one group, also to join against someone	
 s20898	fetch/be sold for	<khawng>, ask a price, with the prefix <ki>: of goods, bring a certain price when sold	
 s20899	sell well/be in demand/be popular	without a price, mostly before <mahmah>: of goods, find many buyers and sell well; of a video or a piece of news, be much sought after	
 s20900	best-selling/most sold	<kikhawng>, be sold, with <pen>, most, written as one word: the one that sells most, said of books	
@@ -900,7 +900,7 @@ s20908	change/transform	<kheelsak>, make something change, with the prefix <ki>;
 s20909	turning/making change	<kikheelsak> with the linking suffix <in>: making someone turn from wrong ways	
 s20910	be deceived/deceive oneself	<kheem>, deceive, with the prefix <ki>: be deceived, or deceive oneself	
 s20911	deceiving oneself	<kikheem>, deceive oneself, with the linking suffix <in>	
-s20912	deception	<kikheem>, deceive, with the noun suffix <na>: the deceiving of people	
+s20912	deception/trickery	<kikheem>, deceive, with the noun suffix <na>: the deceiving of people	
 s20913	deception	<kikheemna> written with a capital at the start of a sentence	
 s20914	be driven in/be fastened	of a peg, be driven into a firm place	
 s20915	be cut open/be taken out/be dissected	<khei>, dig out, with the prefix <ki>: a body is opened for examination, as in {aluang kikhei}, or a part of the body is taken out; with <khia> it is be gouged out	
@@ -955,7 +955,7 @@ s20963	divorce	separation of husband and wife; {kikhenna lai} is a certificate o
 s20964	Kikhenna/Sela Hammahlekoth	place in the Desert of Maon where Saul broke off his pursuit of David, called {Kikhenna Mual}, Hill of Parting	
 s20965	divisions/groups	plural of <kikhenna>: the groups into which the priests were divided for their service	
 s20966	divorced/separated	<kikhen>, separate, with <sa>, already done; {pasal tawh a kikhensa numei}, a woman divorced from her husband	
-s20967	separated/separate/divide	<kikhen>, be separated, with the causative <sak>: make things or people separate from each other	
+s20967	separated/separate/divide/disconnect	<kikhen>, be separated, with the causative <sak>: make things or people separate from each other	
 s20968	divided		
 s20969	dividing/parting	<kikhensak>, make separate, with the linking suffix <in>	
 s20970	be able to separate/separate	<kikhensak>, separate, with <zo>, be able	
@@ -1091,7 +1091,7 @@ s21101	be feared/be dreaded	passive of <kihta>, fear, with the prefix <ki>
 s21102	fear/terror/dread	<kihtakna>, fear, with the prefix <ki>: the fear that others feel toward someone, as the terror of the Lord falling on the nations	
 s21104	be nailed/be fastened	<kilh> with the prefix <ki>: be nailed or fastened together; {kikilh khawm} is be joined together with nails	
 s21105	nailing/place of nailing	<kilh>, nail, with the passive <ki> and the noun suffix <na>; {a kikilhna mate}, the wounds where the nails were driven	
-s21106	equal/same/alike	of the same size or measure; {a ning kikim}, with equal sides, means square	
+s21106	equal/same/alike/equivalent	of the same size or measure; {a ning kikim}, with equal sides, means square	
 s21107	equally/as equals/on an equal footing	<kikim>, equal, with the ending {-a}; {liangko kikima}, with shoulders level, is on an equal footing with others	
 s21108	will be equal/be equivalent to	<kikim> and <ding> written as one word, after <tawh>: will equal, comes to the same as	
 s21109	equally/in equal measure	<kikim>, equal, with the ending <in>: in equal shares; also of the same length or size as something	
@@ -1121,7 +1121,7 @@ s21134	let us ... again	<kik>, again, with the ending {-ni}, let us, written as 
 s21135		<kik>, again, and <ni>, day, written as one word: the day on which something happens again	
 s21136	want to do again/want to go back	<kik>, again or back, and <nuam>, want, written as one word after a verb: want to do it again or in return	
 s21137	crying out/cry out/call out	call out loudly to someone for help or in distress; the one called to is marked with <tungah>	
-s21138	out loud/cry aloud/shout/scream	raise the voice loudly, shout or scream; {kiko-in} is crying aloud while doing something else	
+s21138	out loud/cry aloud/shout/scream/cry/yell	raise the voice loudly, shout or scream; {kiko-in} is crying aloud while doing something else	
 s21139	scream/cry out violently	<kiko>, cry out, with <gawp>, violently: give a sudden wild scream	
 s21140	be reported/be informed	<koh>, report, with the passive prefix <ki>: a matter is reported to someone; {thu hong kikoh} is word was brought to me	
 s21141	be put/be placed/be set/be kept	<koih>, put, with the passive prefix <ki>: be put, set or kept somewhere; also be set in a rank or condition, as in {a lianin kikoih}, be exalted	
@@ -1147,7 +1147,7 @@ s21160	be put down/be brought low/be humbled	<koihsuk>, put down, with the passi
 s21161	things put/things stored	<kikoih>, be put or kept, with plural <te>: the things that were placed or stored, as in {sum kikoihte}, the money that was put there	
 s21162	can be put/may be kept	<kikoih>, be put or kept, and <thei>, able, written as one word: can be put or held in a place, as in a prison	
 s21163	crying out/shouting	<kiko>, cry out, with the linking suffix <in>	
-s21164	cry out/shout out	<kiko>, cry out, with <khia>, out: let out a loud cry	
+s21164	cry out/shout out/exclaim	<kiko>, cry out, with <khia>, out: let out a loud cry	
 s21165	keep crying out/keep shouting	<kiko>, cry out, with the last syllable doubled for repeated action: keep on crying out	
 s21166	from crying out/by calling out	<kiko>, cry out, doubled for continued action, with the noun suffix <na> and <in>, by or because of	
 s21167	be loose/be slack	<kol>, come loose, with the prefix <ki>: be loose or roomy; the book gives it as the opposite of <kigak>, be tight	
@@ -1190,7 +1190,7 @@ s21203	cut oneself/gash oneself	<kui>, cut the skin, with the reflexive prefix <
 s21204	be ripped open/be cut open	said of pregnant women killed in war	
 s21205	cut oneself/gash oneself	wound one's own body by cutting	
 s21206	cut oneself/gash oneself	<kikui>, cut oneself, with <sak>; {a pumpi a kikuisak} is he cut his own body	
-s21207	discuss/reason together/confer	talk a matter over with one another; <thu kikum> is discuss a matter	
+s21207	discuss/reason together/confer/deliberate	talk a matter over with one another; <thu kikum> is discuss a matter	
 s21208	go on to discuss/discuss below	<kikum>, discuss together, and <suk>, downward: in writing, discuss in what follows further down the page; a writer's formula with <ni> or {dih ni}, let us, often after <tawm>, a little	
 s21209	confer/discuss/consult together	connective form of <kikum>, usually {thu kikumin}, having talked a matter over	
 s21210	reason together/discuss together	<kikum>, discuss, with <khawm>, together	
@@ -1200,7 +1200,7 @@ s21213	be bowed down/be made to stoop	<kun>, bow or stoop, with the prefix <ki> 
 s21214	discuss/consult/talk together	talk a matter over with one another, often as <thu kikup>	
 s21215	joint discussion/talks/negotiation/consultation	<kikup>, discuss, and <khawmna>, doing together, written as one word: a discussion held together, talks; {kikupkhawmna nei} is to hold talks	
 s21216	discuss together/consult together	<kikup>, discuss, and <khop>, together, written as one word: talk a matter over together	
-s21217	discussion/consultation/dialogue/talks	<kikup>, discuss, with <khopna>, doing together: a discussion held together, a meeting to talk a matter over	
+s21217	discussion/consultation/dialogue/talks/negotiation	<kikup>, discuss, with <khopna>, doing together: a discussion held together, a meeting to talk a matter over	
 s21218	repeated discussion/talking over	<kikupna>, discussion, with the verb doubled: discussing a matter again and again	
 s21219	consultation/discussion/deliberation	noun from <kikup>, talking a matter over together; <kikupna nei> is to hold a consultation	
 s21220	a discussion is held/be discussed/hold talks	<kikupna>, discussion, and <kinei>, here the passive of <nei>, have or hold: a discussion is held, it is discussed; the regular wording of meeting reports, with the matter discussed standing before it	
@@ -1221,12 +1221,12 @@ s21234	show oneself/appear/be shown/be revealed	form of <kilak> used before <khi
 s21235	see a doctor/be examined/consult	after <zato> or with a clinic, show oneself to a doctor for examination or treatment; {kilah man} is the consultation fee	
 s21236	be revealed/be shown forth	<lahkhiat>, reveal, with the prefix <ki>; the form used before <ding> and <hun>	
 s21237	appearance/showing/expression	<kilahkhiat>, be shown forth, with the noun suffix {-na}: the act of showing oneself or of being shown, a public appearance or an expression of something	
-s21238	appearing/showing/manifestation	the act of showing oneself or of being shown; {kilahna mun} is the place where someone appeared, and {lim kilahna} is an example shown to others	
+s21238	appearing/showing/manifestation/show	the act of showing oneself or of being shown; {kilahna mun} is the place where someone appeared, and {lim kilahna} is an example shown to others	
 s21239	consultation/medical visit/treatment	showing oneself to a doctor: a visit to a hospital or clinic to be examined and treated; this meaning comes after <zato>, hospital, as {zato kilahna}	
 s21240	appeared/have appeared	<kilah>, show oneself, with <sa> for a completed action; {a kilahsa bangin}, as he had appeared	
-s21241	fight/struggle/wrestle	fight or wrestle with one another, come to blows; with <tawh>, struggle with someone	
+s21241	fight/struggle/wrestle/cross swords/tussle	fight or wrestle with one another, come to blows; with <tawh>, struggle with someone	
 s21242	struggle together/jostle	<kilai>, fight with one another, with <gawp>, roughly or violently	
-s21243	be replaced/be exchanged/alternate	passive of <laih>, replace: one thing is put in the place of another; {kilaih sak}, take in turn	
+s21243	be replaced/be exchanged/alternate/change	passive of <laih>, replace: one thing is put in the place of another; {kilaih sak}, take in turn	
 s21244	will be changed/will be replaced	<kilaih> and <ding> written as one word: is to be changed or exchanged	
 s21245	keep changing/change again and again	<kilaih>, be exchanged, with its second part repeated: change over and over, not stay the same; {hun kilaihlaih} is changing times	
 s21246	change/replacement/exchange/reshuffle	<kilaih>, be replaced, with the noun suffix <na>: the putting of one in the place of another, a change of persons, places or rules	
@@ -1234,7 +1234,7 @@ s21247	take in turn/alternate	<kilaih>, be exchanged, with the causative <sak>: 
 s21248	replace/change/swap	put one thing in the place of another or make a thing different, not taking by turns; the thing put in its place is followed by <tawh>, with	
 s21249	be changed easily/be changed quickly	<kilaih> and <ziau> written as one word: be changed or replaced quickly and with little trouble	
 s21250	fight/struggle with one another	paired with <kitawng>, quarrel	
-s21251	fight/fighting/wrestling	<kilai>, fight or wrestle, with the noun suffix <na>: a fight, or the act of wrestling	
+s21251	fight/fighting/wrestling/tussle	<kilai>, fight or wrestle, with the noun suffix <na>: a fight, or the act of wrestling	
 s21252	mutual compassion/caring for one another	<lainatna>, compassion, with the prefix {ki-} of doing to each other: the care and sympathy that people of one community have for one another	
 s21253	sympathise with/condole with/share the grief of	<lainat>, feel compassion, with the prefix {ki-} and <pih>, together with: feel the pain of the bereaved with them; used in messages of condolence beside <kidahpih>	
 s21254	attack one another/fight one another	with {khat leh khat}, one another, of people in panic who turn on each other	
@@ -1270,7 +1270,7 @@ s21283	migrate/move/resettle	<lal>, migrate, with the prefix <ki>: of people, mo
 s21284	not be taken	<kila> and <lo> written as one word: is not taken, not charged, not accepted	
 s21285	be built/be set up	<lam>, build, with the passive prefix <ki>: of a house, a temple or a city, be built	
 s21286	differ/be different	be different from one another; in the verses it occurs in the noun {kilamdan'na}, difference or distinction	
-s21287	be different/differ/be changed/be transfigured	be or become different from something, with <tawh> for what it differs from; of the face or appearance, be changed	
+s21287	be different/differ/be changed/be transfigured/vary	be or become different from something, with <tawh> for what it differs from; of the face or appearance, be changed	
 s21288	differently/distinctly/with a distinction	<kilamdang>, be different, with the ending <in>: in a different way, so that one can be told from another	
 s21289	difference/change	<kilamdang>, be different, with the noun ending {-na}: a difference between people or things, a change from before	
 s21290	transform/make different/confuse/confound	<kilamdang>, be different, with the causative <sak>: of oneself, be transformed; of speech, make it differ so that it is confused	
@@ -1334,7 +1334,7 @@ s21351	be exposed/come to light	<kilat>, appear, with <khak>, happen to: of wron
 s21352	be manifested/be shown forth	<kilat>, appear, with <khiat>, out; {kilatkhiat nading} is for the showing forth, where the English has manifestation	
 s21353	manifestation/revelation/symptom	the showing forth of something that was hidden: the revelation of God, and the signs by which a disease shows itself	
 s21354	appear again/reappear/be revealed again	<kilat> appear with <kik>, again; used of the return of Christ	
-s21355	revelation/appearing/display/sight	<kilat>, appear, with the noun suffix <na>: the showing or becoming visible of something, also the thing that is seen	
+s21355	revelation/appearing/display/sight/manifestation	<kilat>, appear, with the noun suffix <na>: the showing or becoming visible of something, also the thing that is seen	
 s21356	be taken up/be lifted up	<kila>, be taken, with <to>, up: be taken upward, as into heaven	
 s21357	take up/take away	<kilato>, be taken up, with the causative <sak>; of God taking Enoch	
 s21358	show/reveal/make manifest/demonstrate	<kilat>, appear, with the causative <sak>: make something plain to see, often before <nading>	
@@ -1360,7 +1360,7 @@ s21377	way of transmission/manner of spreading	<kilawh>, be transmitted, and <zi
 s21378	be out of joint/be dislocated/be disabled	of bones or limbs, be put out of place	
 s21379	be lacking/be without/be deserted	be missing or empty of something; {kilawi ngei kei} is never be without, and {a kilawi mun} is a deserted place	
 s21380	be badly dislocated/be badly broken	<kilawi>, be out of joint, and <gawp>, severely, written as one word: of limbs, badly dislocated or broken; of a door, wrecked	
-s21381	suitable/fitting/proper	right or fitting for a person or a purpose; {a kilawm mah bangin} is as is fitting	
+s21381	suitable/fitting/proper/decent	right or fitting for a person or a purpose; {a kilawm mah bangin} is as is fitting	
 s21382	fit for/worthy/deserving	good enough or deserving to do or receive something; after a verb with <ding>, worthy to do it	
 s21383	seem/appear/be likely	at the end of a clause that closes with <leh>, <hileh> or <leng>: it seems that, it looks as if; the speaker judges from what is seen and is not saying that the thing is fitting or deserved	
 s21384	be partners/be paired	<lawm>, companion, with the reciprocal {ki-}: be partners with each other, said in the custom of sharing rice beer of two holders of household positions who are paired to drink together; not {kilawm}, fitting	
@@ -1369,7 +1369,7 @@ s21386	fitting/befitting/suitable/appropriate	<kilawm>, fitting, and <kituak>, s
 s21387	think it fitting/wish/would like	<kilawm>, be fitting, and <sa>, to deem or feel: to consider something right or good; after a clause ending in <leh> or <leng> and followed by <ing>, a polite way to say I wish that or it would be good if	
 s21388	fittingly/becomingly	<kilawm>, suitable, with <a>; {a mel kilawma om} is of fair appearance	
 s21389	properly/fittingly/decently	<kilawm>, suitable, with the ending <in>, often as {a kilawmin}: in a fitting and proper way	
-s21390	unsuitable/improper/not fitting	<kilawm>, fitting, and <lo>, not, written as one word; after a verb with <ding>, it is not right to do it	
+s21390	unsuitable/improper/not fitting/undue	<kilawm>, fitting, and <lo>, not, written as one word; after a verb with <ding>, it is not right to do it	
 s21391	impropriety/unfitness/unworthiness	<kilawm>, fitting, and <lohna>, the state of not being, written as one word: what is not fitting or proper; before <mun> it is a place where it is not proper	
 s21392	unjustly/improperly/unfairly	<kilawm>, suitable, with the negative <lo>, <pi> and <in>: in a way that is not right at all	
 s21393	fittingness/seemliness/beauty	the quality of being fitting or presentable; {a kilawmna om lo} means it is not fitting	
@@ -1408,7 +1408,7 @@ s21429	reversible pairs/reversed forms	<kilehbulh>, be reversed, with the plural
 s21430	contend with/strive against/rebel against	<lehdo>, rebel, with the prefix <ki>; used with <tawh>	
 s21431	be driven back/be routed	of soldiers beaten and forced to turn back	
 s21432	be betrayed/be handed over	<lehheek>, betray, with the passive prefix <ki>	
-s21433	turn around/turn back/turn about	turn oneself round; often followed by <kik>, back: turn back from a pursuit or return to a former way	
+s21433	turn around/turn back/turn about/revert	turn oneself round; often followed by <kik>, back: turn back from a pursuit or return to a former way	
 s21434	be betrayed/betray one another	<lehhek>, betray, with the prefix <ki>: be betrayed, or with <khatlekhat>, betray each other	
 s21435	return/turn back	<kileh>, turn back, with the linking ending <in>: going back and then	
 s21436	return/turn back/come back	<kileh> with <kik>, back or again; also of turning back to God	
@@ -1439,11 +1439,11 @@ s21460	at peace/reconciled/in peace	<kilem>, be at peace, with the linking endin
 s21461	be reconciled/be at peace again	<kilem>, be at peace, with <kik>, again or back: be at peace again after a quarrel or enmity; used with <tawh> for the other party	
 s21462	reconciliation	noun from <kilemkik>: being at peace again after enmity; {gambup kilemkikna} is national reconciliation	
 s21463	be in harmony together/agree all alike	of the parts of the body all being at one with each other, where the English has have equal concern for each other	
-s21464	be at odds/not be at peace/oppose	<kilem>, be at peace, with the negative <lo>: be against someone, used with <tawh>; the English has resist	
+s21464	be at odds/not be at peace/oppose/conflict	<kilem>, be at peace, with the negative <lo>: be against someone, used with <tawh>; the English has resist	
 s21465	not agree with/not go with/be incompatible	of a food, a drink or a habit and a person or an illness, with <tawh>: the two do not suit each other, with no thought of a quarrel between people	
 s21466	not be at peace/be at odds/quarrel	<kilem>, be at peace, and the negative <loh> written as one word, the form used before <ding>, <nading> and similar words: not get on with one another, be in conflict	
-s21467	hostility/enmity/discord	the state of not being at peace with one another; {kilemlohna bawl} is rebel, and {kilemlohna that} is put an end to hostility	
-s21468	atonement/reconciliation	<kilem>, be at peace, with the noun suffix <na>: the putting right of people with God, by sacrifice in the law and through Christ in the letters; <kilemna bawl> is make atonement	
+s21467	hostility/enmity/discord/feud	the state of not being at peace with one another; {kilemlohna bawl} is rebel, and {kilemlohna that} is put an end to hostility	
+s21468	atonement/reconciliation/conciliation	<kilem>, be at peace, with the noun suffix <na>: the putting right of people with God, by sacrifice in the law and through Christ in the letters; <kilemna bawl> is make atonement	
 s21469	peace	being on good terms after or instead of fighting, often as {gal kilemna}; <kilemna bawl> is make peace	
 s21470	make peace/reconcile	<kilemna>, peace, and <bawl>, make: make peace or be reconciled; the other party stands before it with <tawh>	
 s21471	peace conference	<kilemna>, peace, and <khawmpi>, conference: a conference held to make peace; with <gambup> before it, {gambup kilemna khawmpi}, the Union Peace Conference of Myanmar, the 21st Century Panglong	
@@ -1469,7 +1469,7 @@ s21490	hold one another/shake hands/join hands	form of <kilen> used after <khut>
 s21491	be translated	<let> in the sense of translate, with the prefix <ki>: be put into another language; {kilet khia} is be translated from a source	
 s21492	be translated	passive with <ki> of the verb for translating a text out of one language into another; said of books and writings	
 s21493	handshake/clasping of hands	found in {khut kiletna}, the giving of the hand to one another as a sign of fellowship	
-s21494	nail/fasten	fasten something with nails so that it cannot be moved	
+s21494	nail/fasten/affix	fasten something with nails so that it cannot be moved	
 s21495	nail fast/crucify	<kilh>, nail, with <cip>, tightly; {singlamteh tungah kilhcip} is nail to the cross	
 s21496	be pinned/be trapped/be wedged	with the prefix <ki>, as {ki kilhcip}: of a person in an accident, be held fast in a seat or a wrecked vehicle and unable to get out, with no nails meant	
 s21497	nailing/nailing fast	<kilhcip>, nail fast, with the linking suffix <in>	
@@ -1494,8 +1494,8 @@ s21515	arrogance/pride/haughtiness	<kiliatsak>, exalt oneself, with the noun suf
 s21516	be fined/be made to pay	<liau>, pay a fine, with the passive prefix <ki>: be fined; {kiliau sak} is be made to pay a fine or compensation	
 s21517	be fined/be made to pay a fine	<kiliau>, be fined, with the ending <sak>: be made to pay a sum as a penalty; the sum stands before it	
 s21518	sway/shake/tremble	<liin>, tremble, with the prefix <ki>; of a reed moving in the water	
-s21519	shake/tremble/quake	<liing>, tremble, with the prefix <ki>: shake or be shaken, of the earth, mountains, the powers of heaven or the heart	
-s21520	shake/make tremble	<kiliing>, shake, with the causative <sak>	
+s21519	shake/tremble/quake/quiver/rock	<liing>, tremble, with the prefix <ki>: shake or be shaken, of the earth, mountains, the powers of heaven or the heart	
+s21520	shake/make tremble/convulse	<kiliing>, shake, with the causative <sak>	
 s21521	Cilicia	Roman province on the south-east coast of Asia Minor, whose chief city was Tarsus, the home town of Paul	
 s21522	be rolled away	<likkhia>, roll away, with the passive prefix <ki>: of the stone rolled off from the opening of the tomb	
 s21524	be taken seriously/be given much attention/be done in earnest	<ki>, passive or reflexive, with <limbawl>: be treated as important, be held or carried out with much care and effort; of a person, make much of oneself	
@@ -1529,7 +1529,7 @@ s21551	be shaken violently/be tossed about	<lokgawp>, shake violently, with the 
 s21552	be mentioned/be invoked/be called on	<kilo>, be named, with <kha>: of a name being spoken at all; with {nawn lo}, never be mentioned again	
 s21553	be designated/be called out	<kilo>, be named, with <khia>, out; {a minin a kilokhia}, singled out by name	
 s21554	surge/current/tossing	<kilok>, be tossed, with the noun suffix <na>; {tui kilokna} is moving water, a current or surf	
-s21555	stir up/trouble/shake	<kilok>, be shaken, with the causative <sak>; of stirring the water of a pool	
+s21555	stir up/trouble/shake/stir	<kilok>, be shaken, with the causative <sak>; of stirring the water of a pool	
 s21556	can be shaken	<kilok>, be shaken, with <zo>, be able; with {ngei lo}, can never be shaken	
 s21557	in a mass/in one lump/together	<ki> with <lom>, lump or bundle: gathered into one mass or group, taken all together; {mi kilom thahna} is mass killing and {kilom khawm} is gather together in one	
 s21558	kilometer/kilometre	the measure of distance, written after the number	
@@ -1610,7 +1610,7 @@ s21632	in every/in each	<kim> in its meaning of all or every, with the place mar
 s21633	face each other/face	{Mai}, face, with the prefix <ki>, each other: written before <ngat>, turn toward, or <tuah>, meet, to say that two parties face each other.	
 s21634	forgive one another/be forgiven	written apart before <sak>: {kimai sak} is <kimaisak>, be forgiven or forgive one another, often after <mawh> or <mawhna>, sin; {kimai sakna} is forgiveness of each other	
 s21635	be on familiar terms/feel at ease together	<ki>, each other, and <maingap>, feel at ease, written as one word: be unshy and familiar with one another	
-s21636	familiarity/closeness/rapport/mutual ease	the reciprocal <ki> with <maingap>, feel at ease, and the noun suffix <na>: being at ease with one another, a close and unshy relationship	
+s21636	familiarity/closeness/rapport/mutual ease/intimacy	the reciprocal <ki> with <maingap>, feel at ease, and the noun suffix <na>: being at ease with one another, a close and unshy relationship	
 s21637	face each other/face one another	{Maingat}, face, with the reciprocal prefix <ki>: face one another, said of the two cherubim on the ark.	
 s21638	collide head-on/crash head-on	<maiphut>, meet face to face, with the prefix <ki>, one another: of two vehicles, run into each other front to front	
 s21639	be forgiven	Passive of <maisak>, forgive, with the prefix <ki>; {mawhna kimaisak} means sins are forgiven, and with {khat leh khat} it means forgive one another.	
@@ -1682,7 +1682,7 @@ s21704	be known beforehand/be foreseen	{Theih}, know, with <ma>, before, and the
 s21705	be joined to/adjoin/be attached to	{Kimat}, be joined, with the linking suffix <in>; after <tawh> it means next to or connected with.	
 s21706	not be arrested/not be caught	<kimat>, be arrested, with the negative <loh> written as one word: not be arrested; {akimat leh kimatloh} is whether arrested or not	
 s21707	capture/arrest/seizure	{Kimat}, be caught, with the noun suffix <na>: the fact of being caught or taken.	
-s21708	fasten together/join/couple	{Kimat}, hold to each other, with the causative <sak>: join things so that they hold together, as curtains with clasps.	
+s21708	fasten together/join/couple/connect	{Kimat}, hold to each other, with the causative <sak>: join things so that they hold together, as curtains with clasps.	
 s21709	fastening together/joining	{Kimatsak}, join things so that they hold together, with the linking suffix <in>; said of foxes tied tail to tail.	
 s21710	blame one another/accuse one another	<mawh>, be guilty, with the prefix <ki>; in the articles it stands before <sak> as {kimawh sak}, hold one another guilty, the same as <kimawhsak>, and {kimawh sakna} is blaming one another	
 s21711	condemn oneself/blame oneself/accuse one another	{Mawhsak}, accuse or condemn, with the prefix <ki>: with <amah le amah> condemn oneself, with {khat leh khat} accuse one another.	
@@ -1699,7 +1699,7 @@ s21721	will play/to be played	<kimawl> and <ding> written as one word: will play
 s21722	playing/play	<kimawl>, play, with the linking ending <in>: playing	
 s21723	play together	<kimawl>, play, and <khawm>, together, written as one word	
 s21724	play about/keep playing/play around	<kimawl>, play, with its last syllable repeated: play on and on or play about with something; with <a> or <khat> also the one who does so	
-s21725	game/contest/sport	<kimawl>, play, with the noun suffix <na>: a contest in which athletes compete	
+s21725	game/contest/sport/match	<kimawl>, play, with the noun suffix <na>: a contest in which athletes compete	
 s21726	playing field/sports ground/stadium/pitch	<kimawlna>, game or sport, and <tualpi>, a large level ground: a sports ground, playing field or stadium; the name of the stadium or the owner stands before it	
 s21727	games/sports	<kimawlna>, game, with the plural <te>	
 s21728	match day/day of the game	<kimawl>, play, and <ni>, day, written as one word: the day on which a game, match or show is held	
@@ -1757,7 +1757,7 @@ s21780	surroundings/environment	<kim>, <le> and <pam> written as one word: every
 s21781	not all/not every/not equally	<kim>, all or fully, and <lo>, not, written as one word after a verb: not all of them, not in every case; {ki kimlo} is not equal, not the same for everyone	
 s21782	dissatisfaction/discontent	with <lung>, heart: {lung kimlohna} is not being satisfied, displeasure, the noun of <lungkim> with <lo>	
 s21783		<kim> all, complete, with the noun suffix <na>, placed after a verb: the doing of it in full, to every one or in every detail; {tunpih kimna} is the bringing of all of them	
-s21784	agreement/consent	after <thu>, word, a spaced spelling of <thukimna>: agreement between parties, not the doing of something in full; {thu kimna nei} is reach an agreement	
+s21784	agreement/consent/consensus	after <thu>, word, a spaced spelling of <thukimna>: agreement between parties, not the doing of something in full; {thu kimna nei} is reach an agreement	
 s21785	nearby/in the vicinity	{Kim}, around, with <nai>, near, and the place ending <a>; {a kimnai-a om} means which is close by.	
 s21786	Kimniang		
 s21787	senselessly/recklessly/without limit	<mot>, idly or senselessly, with the prefix <ki>, placed before a verb: the thing is done without thought or restraint	
@@ -1767,7 +1767,7 @@ s21790	king	apparently a misprint of <kumpipa>, the king
 s21791	please/satisfy/delight	make the heart content: <kim>, complete, with the causative <sak>, used after <lung> or <lungsim>, heart, as in {ka lung hong kimsak}, it pleases me	
 s21792	set on edge	of something sour acting on the teeth, as vinegar does	
 s21793	in full/completely/fully	<kim>, all, complete, with <tak>: in full, with nothing and no one missing; often {kimtak in}	
-s21794	fully/completely/in full	<kim>, complete, with <takin>, which makes an adverb: in full, with nothing lacking; usually written {a kimtakin}	
+s21794	fully/completely/in full/thoroughly	<kim>, complete, with <takin>, which makes an adverb: in full, with nothing lacking; usually written {a kimtakin}	
 s21795	all/every	<kim> with the plural <te>, placed after a noun; {minam kimte} is all nations	
 s21796	about/some/around	after a number, <kim> in the sense of about with the plural <te>: roughly that many persons or things, as in {galkap 100 kimte}, some 100 soldiers	
 s21797	every one/all alike/each and all	<kim>, all, and <tek>, each, written as one word after a verb or noun: all of them, each one without exception	
@@ -1857,13 +1857,13 @@ s21880	have dealings with/be involved with/be in touch with	have to do with a pe
 s21881	be near/be close	be near to a place or to each other, used with <tawh>; {khat leh khat kinai}, come near one another	
 s21882	close/near	of kinship, closely related; {a kinai beh}, a close relative	
 s21883	to be close/to be joined	<kinai>, be close, and <ding> written as one word in a heading: what is to be written close together, as one word	
-s21884	draw near each other/close in/draw up	<ki> each other with <naih> approach: of two armies, come up close to one another for battle	
+s21884	draw near each other/close in/draw up/converge	<ki> each other with <naih> approach: of two armies, come up close to one another for battle	
 s21885	be close to/be near/be similar to	after <tawh>, with: be near a place, be close to a person or to God, or be much like something; a state of nearness, not two armies closing in on each other	
 s21886	too closely related	<kinai> closely related, with <lua> too much; {si kinailua mi}, a person too near in blood	
 s21887	too close/too near	too near in distance, of things or of people who stay close to one another; not closeness of blood, which {sisan kinailua} says	
-s21888	relationship/kinship/closeness	<kinai> be near or closely related, with the noun suffix <na>; <tawh> marks the other person	
+s21888	relationship/kinship/closeness/affinity/relation	<kinai> be near or closely related, with the noun suffix <na>; <tawh> marks the other person	
 s21889	nearest/closest	<kinai>, be near, with <pen>, most; used with <tawh> for the place it is nearest to	
-s21890	close relative/near kin	one who is closely related, also used before a noun as closely related	
+s21890	close relative/near kin/kin	one who is closely related, also used before a noun as closely related	
 s21891	be close to/be near to	be near to someone or something in place or in feeling, with no kinship meant: {omna kinaipih} is near to where one lives, and {lungsim kinaipih} is close to the heart	
 s21892	nearest relative/closest kin	<kinaipih> close relative, with the superlative <pen>	
 s21893	bring close/draw near/bring together	<kinai>, be near, and the causing <sak>, written as one word: make people near to each other, or come near to someone, with <tawh>	
@@ -1872,12 +1872,12 @@ s21895	hard/greatly/tightly	<ki> with <nak>, strongly, placed before a verb: {ki
 s21896	shout loudly/cry out	<kinak> strongly with <ko> shout: shout hard; with <semsem>, all the more	
 s21897	be greatly needed/need badly	<kisap>, need, strengthened by an inner syllable meaning strongly: be much needed, or need someone or something very much; often followed by <mahmah>	
 s21898	be much used/be widely used	the passive prefix <ki> with <nakzat>, use much: be used a great deal	
-s21899	kiss each other	reciprocal <ki> with <nam> kiss, smell	
+s21899	kiss each other/kiss	reciprocal <ki> with <nam> kiss, smell	
 s21900	kissing each other/with a kiss	<kinam> with the connective <in>; greeting one another with a kiss	
 s21901	be resisted/be withstood/be opposed	be held off or stood up against; {kinang zolo} is cannot be resisted	
 s21902	leaning on/supporting oneself on	reflexive <ki> with <nang> prop up, support, and the linking ending in	
 s21903	kiss	<napna> kiss, with the reciprocal prefix <ki>: the kissing of one another as a greeting	
-s21904	hurry	act or come without delay; {hong kinawh in} is hurry here, come quickly	
+s21904	hurry/hasten	act or come without delay; {hong kinawh in} is hurry here, come quickly	
 s21905	quickly	{kinawh}, hurry, used before another action: in a hurry, at once	
 s21906	be frequent/happen often	of events such as fires or robberies, come one close upon another, happen often; said of the events themselves and not of a person who hurries	
 s21907	be urgently wanted/urgently needed	<kinawh>, in a hurry, and <deih>, want: the formula of job advertisements, placed after the kind and number of workers sought, as {mi 6 kinawh deih}, six people wanted urgently	
@@ -1930,7 +1930,7 @@ s21953	hypocrisy/pretence	<kineihkhem>, pretend, with the noun suffix <na>: a sh
 s21954	pretenders/hypocrites/false ones	plural; those who pretend to be what they are not, as in {kamsang kineihkhemte} false prophets	
 s21955	still claim to be/still pretend to be	<kineih> make oneself out to be, with <lai> still	
 s21956	dispute/lawsuit	in {thu kineihna}, a case that people have against one another: {thu neihna}, lawsuit, with the reciprocal prefix <ki>	
-s21957	pretence/show	<kineih> pretend, with the noun suffix <na>	
+s21957	pretence/show/guise/simulation	<kineih> pretend, with the noun suffix <na>	
 s21958	disputes/lawsuits	plural of <kineihna>; {thu kineihnate} are the cases people have against one another	
 s21959	want to make oneself/claim to be	<kineih> make oneself out to be, with <nuam> want	
 s21960	go to law with/dispute with/confront	in {thu kineihpih}, have a case against someone in court: <kineih> as in <kineihna> dispute, with <pih> together with	
