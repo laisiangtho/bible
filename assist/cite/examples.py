@@ -1,18 +1,17 @@
-"""Examples of a row measured against its English terms.
+"""Examples of a sense measured against its English terms.
 
-An example row is ``key = zolai | english``. An example covers a term of
-``w`` when its English translation uses the term, in any inflected form.
+An example covers a term when its English translation uses the term, in any
+inflected form.
 """
 
 from __future__ import annotations
 
 import re
 from dataclasses import dataclass
-from typing import List, Sequence, Tuple
+from typing import List, Tuple
 
 from assist.cite import markup
-from assist.cite.config import Config
-from assist.cite.markup import Example, Row
+from assist.cite.lexicon import Lexicon
 
 PER_TERM = 3
 WORD = re.compile(r"[a-z]+(?:'[a-z]+)?")
@@ -88,11 +87,10 @@ def uses(term: str, english: str) -> bool:
 
 @dataclass(frozen=True)
 class Measure:
-    """Examples of one row counted per term."""
+    """Examples of one sense counted per term."""
 
-    row: Row
+    sense: str
     examples: int
-    untranslated: int
     terms: Tuple[Tuple[str, int], ...]
 
     @property
@@ -101,20 +99,21 @@ class Measure:
 
     @property
     def complete(self) -> bool:
-        return not self.untranslated and not self.short and (bool(self.terms) or self.examples >= PER_TERM)
+        return not self.short and (bool(self.terms) or self.examples >= PER_TERM)
 
 
-def measure(config: Config, row: Row, examples: Sequence[Example] = ()) -> Measure:
-    """Count the examples of a row for each term of ``w``."""
-    values = row.values()
-    terms = [t for t in markup.split_items(config.attributes["w"], values.get("w", "")) if t]
-    counts = tuple(
-        (term, sum(uses(term, example.english) for example in examples)) for term in terms
-    )
-    return Measure(row, len(examples), sum(not example.english for example in examples), counts)
+def measure(lexicon: Lexicon, sense_id: str) -> Measure:
+    """Count the examples of a sense for each of its terms in the first gloss language."""
+    language = lexicon.config.languages[0]
+    gloss = lexicon.gloss.get(language, {}).get(sense_id)
+    translations = lexicon.translations.get(language, {})
+    shown = [translations.get(example_id, "") for example_id in lexicon.shown_by.get(sense_id, [])]
+    terms = markup.split_list(gloss.terms) if gloss else []
+    counts = tuple((term, sum(uses(term, english) for english in shown)) for term in terms)
+    return Measure(sense_id, len(shown), counts)
 
 
-def measurable(config: Config, row: Row) -> bool:
-    """Rows expected to carry examples: described, with a meaning, not a name."""
-    code = row.values().get("t", "")
-    return row.described and config.has_meaning(code) and code != "name"
+def measurable(lexicon: Lexicon, sense_id: str) -> bool:
+    """Senses expected to carry examples: active, with a meaning, not a name."""
+    code = lexicon.senses[sense_id].type
+    return lexicon.active(sense_id) and lexicon.config.has_meaning(code) and code != "name"

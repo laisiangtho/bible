@@ -1,104 +1,213 @@
-"""Questions asked of the data: lookup of entries, verse search, missing words."""
+"""Questions asked of the data: lookup of entries, text search, verse search, missing words."""
 
 from __future__ import annotations
 
 import re
 from dataclasses import dataclass
-from typing import Dict, List, Optional, Sequence, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
-from assist.cite import bible, markup, words
+from assist.cite import bible, markup, render, words
 from assist.cite.config import CiteError, Config
-from assist.cite.markup import Example, Row
-
-
-def lookup(config: Config, rows: List[Row], query: str, english: bool = False) -> List[Row]:
-    """Rows for a Zolai keyword or variant, or for an English term.
-
-    An exact match is preferred. Without one, the comparison ignores case,
-    then also hyphens, spaces and apostrophes, so that a keyword written
-    ``ze-et`` is found as ``zeet`` or ``ze et``. For an English term a
-    whole-word match inside a term is tried last.
-    """
-    query = markup.collapse(query)
-    if not query:
-        raise CiteError("the query is empty")
-    key = "w" if english else "v"
-    attribute = config.attributes[key]
-
-    def candidates(row: Row) -> List[str]:
-        found = [] if english else [row.keyword]
-        value = row.values().get(key)
-        if value:
-            found.extend(item for item in markup.split_items(attribute, value) if item)
-        return found
-
-    exact = [row for row in rows if query in candidates(row)]
-    if exact:
-        return exact
-    folded = query.casefold()
-    loose = [row for row in rows if folded in (c.casefold() for c in candidates(row))]
-    if loose:
-        return loose
-    squashed = squash(query)
-    joined = [row for row in rows if squashed in (squash(c) for c in candidates(row))]
-    if joined or not english:
-        return joined
-    word = re.compile(rf"(?<!\w){re.escape(folded)}(?!\w)")
-    return [row for row in rows if any(word.search(c.casefold()) for c in candidates(row))]
-
-
-def linked(
-    config: Config, rows: List[Row], links: List[Row], query: str
-) -> Optional[Tuple[Row, List[Row]]]:
-    """The link row of an English word and the senses it names, in the order written."""
-    word = markup.collapse(query).casefold()
-    for link in links:
-        if link.described and link.keyword == word:
-            by_key = {markup.row_key(row): row for row in rows}
-            return link, [by_key[key] for key in markup.link_keys(link) if key in by_key]
-    return None
+from assist.cite.lexicon import Lexicon
 
 
 def squash(text: str) -> str:
     """Comparison key that ignores case, hyphens, spaces and apostrophes."""
-    return "".join(character for character in text.casefold() if character not in " -'\u2019")
+    return "".join(character for character in text.casefold() if character not in " -'’")
 
 
-def describe(config: Config, row: Row, examples: Sequence[Example] = ()) -> str:
-    """A row as labelled lines for reading."""
-    lines = [f"{row.keyword}    [{row.file}:{row.number}]"]
-    if not row.described:
-        lines.append("  not yet described")
-        return "\n".join(lines)
-    values = row.values()
-    for key, attribute in config.attributes.items():
-        if key not in values:
-            continue
-        items = [item for item in markup.split_items(attribute, values[key]) if item]
-        if key == "t":
-            shown = [f"{item} ({config.types[item]['name']})" if item in config.types else item for item in items]
-        elif key == "c":
-            shown = [
-                f"{item} ({config.categories[item]['name']})" if item in config.categories else item
-                for item in items
-            ]
-        elif key == "f":
-            shown = [
-                f"{item} ({config.fields[item]['name']})" if item in config.fields else item
-                for item in items
-            ]
-        else:
-            shown = items
-        for index, item in enumerate(shown):
-            label = attribute.name if index == 0 else ""
-            lines.append(f"  {label:<13}{item}")
-    if row.text:
-        lines.append(f"  {'description':<13}{row.text}")
-    for index, example in enumerate(examples):
-        label = "example" if index == 0 else ""
-        source = f"  [{', '.join(example.references)}]" if example.references else ""
-        lines.append(f"  {label:<13}{example.zolai} | {example.english}{source}")
+def _closest(query: str, candidates: Dict[str, List[str]], inside: bool = False) -> List[str]:
+    """Values of the candidates that match best: exact, then without case, then squashed, then as a whole word."""
+    folded, squashed = query.casefold(), squash(query)
+    tests = [
+        lambda name: name == query,
+        lambda name: name.casefold() == folded,
+        lambda name: squash(name) == squashed,
+    ]
+    if inside:
+        word = re.compile(rf"(?<!\w){re.escape(folded)}(?!\w)")
+        tests.append(lambda name: word.search(name.casefold()) is not None)
+    for test in tests:
+        found = [value for name, values in candidates.items() if test(name) for value in values]
+        if found:
+            return list(dict.fromkeys(found))
+    return []
+
+
+def words_for(lexicon: Lexicon, query: str) -> List[str]:
+    """Word ids for a Zolai spelling.
+
+    An exact match is preferred. Without one, the comparison ignores case,
+    then also hyphens, spaces and apostrophes, so that ``ze-et`` is found as
+    ``zeet`` or ``ze et``.
+    """
+    query = markup.collapse(query)
+    if not query:
+        raise CiteError("the query is empty")
+    return _closest(query, {spelling: [word] for spelling, word in lexicon.spelling.items()})
+
+
+def senses_for_term(lexicon: Lexicon, query: str, language: str) -> List[str]:
+    """Sense ids that have the term in the language; a whole-word match inside a term is tried last."""
+    query = markup.collapse(query)
+    if not query:
+        raise CiteError("the query is empty")
+    terms: Dict[str, List[str]] = {}
+    for sense_id, gloss in lexicon.gloss.get(language, {}).items():
+        if lexicon.active(sense_id):
+            for term in markup.split_list(gloss.terms):
+                terms.setdefault(term, []).append(sense_id)
+    return _closest(query, terms, inside=True)
+
+
+def linked(lexicon: Lexicon, query: str, language: str) -> Optional[Tuple[str, List[str]]]:
+    """Remark and senses of the link row of a word of the language."""
+    link = lexicon.links.get(language, {}).get(markup.collapse(query).casefold())
+    if link is None:
+        return None
+    senses = [sense_id for sense_id in markup.split_list(link.senses) if lexicon.active(sense_id)]
+    return render.status_value(lexicon, link.status, link.note), senses
+
+
+def record(lexicon: Lexicon, sense_id: str) -> Dict[str, Any]:
+    """A sense as plain data, for JSON output."""
+    config = lexicon.config
+    sense = lexicon.senses[sense_id]
+    data: Dict[str, Any] = {
+        "id": sense.id,
+        "key": lexicon.key(sense_id),
+        "word": {"id": sense.word, "spelling": lexicon.word_of(sense_id).spelling},
+        "type": sense.type,
+        "set": sense.set,
+        "status": config.sense_status[sense.status],
+    }
+    for name, value in (("category", sense.category), ("field", sense.field), ("source", sense.source)):
+        if value:
+            data[name] = markup.split_list(value)
+    for name, value in (("origin", sense.origin), ("note", sense.note)):
+        if value:
+            data[name] = value
+    data["gloss"] = {
+        language: {
+            key: value for key, value in (
+                ("terms", markup.split_list(glosses[sense_id].terms)),
+                ("definition", glosses[sense_id].definition),
+                ("text", glosses[sense_id].text),
+            ) if value
+        }
+        for language, glosses in lexicon.gloss.items() if sense_id in glosses
+    }
+    relations = {
+        kind: lexicon.relation_items(sense_id, kind)
+        for kind in render.RELATION_KEYS if lexicon.relation_items(sense_id, kind)
+    }
+    if relations:
+        data["relation"] = relations
+    data["example"] = [
+        {
+            "id": example.id,
+            "text": example.text,
+            "start": usage.starts(),
+            "length": int(usage.length),
+            "source": markup.split_list(example.source),
+            "translation": {
+                language: found[example.id] for language, found in lexicon.translations.items() if example.id in found
+            },
+        }
+        for example, usage in lexicon.examples_of(sense_id)
+    ]
+    return data
+
+
+def describe(lexicon: Lexicon, sense_id: str, examples: int = 0) -> str:
+    """A sense as labelled lines for reading. ``examples`` limits the examples shown; 0 shows all."""
+    config = lexicon.config
+    sense = lexicon.senses[sense_id]
+    lines = [f"{lexicon.key(sense_id)}    [{sense.id}, {sense.set}, {config.sense_status[sense.status]}]"]
+
+    def put(label: str, value: str) -> None:
+        if value:
+            lines.append(f"  {label:<13}{value}")
+
+    def coded(value: str, codes: Dict[str, Dict[str, Any]]) -> str:
+        return ", ".join(f"{code} ({codes[code]['name']})" for code in markup.split_list(value))
+
+    put("type", coded(sense.type, config.types))
+    put("category", coded(sense.category, config.categories))
+    put("field", coded(sense.field, config.fields))
+    for language, glosses in lexicon.gloss.items():
+        gloss = glosses.get(sense_id)
+        if gloss:
+            put(f"term {language}", ", ".join(markup.split_list(gloss.terms)))
+            put("definition", gloss.definition)
+            put("text", gloss.text)
+    for kind in render.RELATION_KEYS:
+        put(config.relations[kind]["name"], ", ".join(lexicon.relation_items(sense_id, kind)))
+    put("origin", sense.origin)
+    put("source", ", ".join(markup.split_list(sense.source)))
+    put("note", sense.note)
+    shown = list(lexicon.examples_of(sense_id))
+    keyword = lexicon.word_of(sense_id).spelling
+    primary = lexicon.translations.get(config.languages[0], {})
+    for index, (example, usage) in enumerate(shown[:examples] if examples else shown):
+        zolai = markup.blank(example.text, keyword, usage.starts(), int(usage.length))
+        source = f"  [{example.source}]" if example.source else ""
+        lines.append(f"  {'example' if index == 0 else '':<13}{zolai} | {primary.get(example.id, '')}{source}")
+    if examples and len(shown) > examples:
+        lines.append(f"  {'':<13}and {len(shown) - examples} more")
     return "\n".join(lines)
+
+
+def describe_word(lexicon: Lexicon, word_id: str, examples: int = 0) -> str:
+    """A word with its redirect and every active sense."""
+    word = lexicon.words[word_id]
+    status = lexicon.config.word_status[word.status]
+    blocks = []
+    target = lexicon.relation_items(word_id, "see")
+    variant_of = [
+        lexicon.name(source) for source, relations in lexicon.relations.items()
+        if any(r.kind == "v" and r.to == word_id for r in relations)
+    ]
+    senses = [sense_id for sense_id in lexicon.senses_of.get(word_id, []) if lexicon.active(sense_id)]
+    if target:
+        blocks.append(f"{word.spelling}    [{word.id}, {status}]\n  {'see':<13}{target[0]}")
+    if variant_of:
+        blocks.append(f"{word.spelling}    [{word.id}, {status}]\n  {'variant of':<13}{', '.join(variant_of)}")
+    blocks.extend(describe(lexicon, sense_id, examples) for sense_id in senses)
+    if not blocks:
+        blocks.append(f"{word.spelling}    [{word.id}, {status}]\n  not yet described")
+    return "\n\n".join(blocks)
+
+
+def find(lexicon: Lexicon, query: str, limit: int = 20) -> Dict[str, List[str]]:
+    """Lines of the data that contain the text, without regard to case: spellings, glosses, examples."""
+    query = markup.collapse(query).casefold()
+    if not query:
+        raise CiteError("the query is empty")
+    found: Dict[str, List[str]] = {"word": [], "gloss": [], "example": []}
+    counts = dict.fromkeys(found, 0)
+
+    def hit(kind: str, line: str) -> None:
+        counts[kind] += 1
+        if not limit or len(found[kind]) < limit:
+            found[kind].append(line)
+
+    for word in lexicon.words.values():
+        if query in word.spelling.casefold():
+            hit("word", f"{word.id}  {word.spelling}")
+    for language, glosses in lexicon.gloss.items():
+        for sense_id, gloss in glosses.items():
+            if query in f"{gloss.terms}\t{gloss.definition}\t{gloss.text}".casefold():
+                hit("gloss", f"{sense_id}  {lexicon.key(sense_id)}  [{language}]  {gloss.terms}  {gloss.definition}".rstrip())
+    for example in lexicon.examples.values():
+        shown = [found_in.get(example.id, "") for found_in in lexicon.translations.values()]
+        if query in example.text.casefold() or any(query in text.casefold() for text in shown):
+            senses = ", ".join(lexicon.key(sense_id) for sense_id in lexicon.usages.get(example.id, {}))
+            hit("example", f"{example.id}  {example.text} | {' | '.join(shown)}  [{senses}]")
+    for kind, total in counts.items():
+        if total > len(found[kind]):
+            found[kind].append(f"and {total - len(found[kind])} more")
+    return found
 
 
 @dataclass(frozen=True)
@@ -152,25 +261,20 @@ class Coverage:
     forms_covered: int
     occurrences: int
     occurrences_covered: int
-    missing: List[Dict]
+    missing: List[Tuple[str, int, str]]
 
 
-def coverage(config: Config, rows: List[Row]) -> Coverage:
-    """How much of the plain word list of the keyword language has a row."""
-    known = {row.keyword for row in rows}
-    variant = config.attributes.get("v")
-    if variant is not None:
-        for row in rows:
-            value = row.values().get("v")
-            if value:
-                known.update(item for item in markup.split_items(variant, value) if item)
-    listed = words.read(config, config.language, "plain")["word"]
-    missing = [entry for entry in listed if entry["w"] not in known]
-    total = sum(entry["n"] for entry in listed)
+def coverage(lexicon: Lexicon) -> Coverage:
+    """How much of the running text of the source translations is a word of the lexicon."""
+    retired = lexicon.config.status_code("word", "retired")
+    known = {word.spelling for word in lexicon.words.values() if word.status != retired}
+    counted = words.count(lexicon.config)
+    missing = [entry for entry in counted if entry[0] not in known]
+    total = sum(number for _, number, _ in counted)
     return Coverage(
-        forms=len(listed),
-        forms_covered=len(listed) - len(missing),
+        forms=len(counted),
+        forms_covered=len(counted) - len(missing),
         occurrences=total,
-        occurrences_covered=total - sum(entry["n"] for entry in missing),
+        occurrences_covered=total - sum(number for _, number, _ in missing),
         missing=missing,
     )
