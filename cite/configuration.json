@@ -629,7 +629,7 @@
     },
     "zd": {
       "name": "Zomi Daily",
-      "description": "Articles of the news site Zomi Daily, written in Zolai, 2016 to 2026. The locator is the article id of the site.",
+      "description": "Articles of the news site Zomi Daily, written in Zolai, 2008 to 2026. The locator is the article id of the site.",
       "owner": "Zomi Daily",
       "credit": "Examples from Zomi Daily, zomidaily.com",
       "permission": "Requested by the editor in October 2026; the wording of the credit is not yet received. Only single words and short fragments of sentences are quoted.",
@@ -637,11 +637,19 @@
     },
     "ts": {
       "name": "Tongsan",
-      "description": "Articles of the news site Tongsan, the Zolai articles only, 2025 to 2026. The locator is the article id of the site.",
+      "description": "Articles of the news site Tongsan, the Zolai articles only, 2023 to 2026. The locator is the article id of the site.",
       "owner": "Tongsan Media",
       "credit": "Examples from Tongsan, tongsan.org",
       "permission": "Requested by the editor in October 2026; the wording of the credit is not yet received. Only single words and short fragments of sentences are quoted.",
       "url": "https://tongsan.org"
+    },
+    "zp": {
+      "name": "Zomipedia",
+      "description": "Articles of the encyclopedia site Zomipedia, written in Zolai, on Zomi persons, clans, villages, churches and history, 2022 to 2026. The locator is the article id of the site.",
+      "owner": "Zomipedia",
+      "credit": "Names and examples from Zomipedia, zomipedia.org",
+      "permission": "Not yet asked. Only single words, names of clans and villages, and short fragments of sentences are quoted.",
+      "url": "https://zomipedia.org"
     },
     "pk": {
       "name": "Paunam Khenna leh Kampau Luanzia",

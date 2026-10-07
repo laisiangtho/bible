@@ -84,6 +84,7 @@ khut = (i:1) (t:n) (w:hand) (d:the hand of a person) (r:46.16.21) (q:reviewed)
 - A sense drafted from dictionary data names its source, as in `zai:money`.
 - `link/eng.tsv` links common English words that are not a term of any sense to the closest senses, found through the Moby Thesaurus and judged one by one. `note/open.tsv` lists the common words for which no sense is close enough.
 - A sense drafted from the news articles of Zomi Daily and Tongsan names the articles, as in `zd:20522`, and its examples are exact fragments of sentences of those articles. Its meaning was worked out from the sentences and from dictionary data without a parallel English text. The articles themselves are not part of this repository.
+- A sense drafted from the articles of Zomipedia names the article, as in `zp:3272`. Names of clans and villages taken from the tags of those articles alone have the status `low` and no example. The articles themselves are not part of this repository.
 - A sense drawn from the grammar book Paunam Khenna leh Kampau Luanzia names the page, as in `pk:165`. The book states many meanings, opposites and equivalents itself; where the meaning is inferred the status is `low`. The book itself is not part of this repository.
 - A sense of type `todo` marks a word whose meaning could not be told from the verses; its note says why.
 - A redirect sends a form that occurs only as one part of a hyphenated word to the full word, as `ersheba` to `Be-ersheba`.
