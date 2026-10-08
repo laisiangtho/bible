@@ -3,7 +3,7 @@ s36000	to be avoided/avoidable	<pelh>, avoid, with <huai>, worthy of: that shoul
 s36001	avoiding/escaping/turning away from	<pelh>, avoid, with the linking ending <in>: avoiding or turning away from something, followed by what is done next	
 s36002	breaking/violating	going back on a covenant or promise	
 s36003	without fail/without missing	<pelh> and <lo> written as one word: not avoiding or missing, without fail	
-s36004	avoiding/shunning/avoidance	<pelh>, avoid, with the noun ending <na>: the act of keeping away from something	
+s36004	avoiding/shunning/avoidance/evasion	<pelh>, avoid, with the noun ending <na>: the act of keeping away from something	
 s36005	breaking/breach	going back on a covenant or promise	
 s36006	cause to avoid/keep away	<pelh>, avoid, with the causative <sak>: make someone keep away from another	
 s36007	be able to escape/can avoid/elude	<pelh>, avoid or escape, with <thei>, be able	
@@ -310,7 +310,7 @@ s36319	should carefully/to do thoroughly	<phat>, carefully, and <ding>, to or sh
 s36320	those who have reached/those aged	<pha> reach, amount to, with plural <te>: those who have reached a stated age or number	
 s36321	good ones/good things	<pha> good with plural <te>: the good, what is good; {gamtatna phate} is good deeds	
 s36322	can reach/may amount to	<pha>, reach a number or amount, and <thei>, can, written as one word after a number: may come to that many or that much	
-s36323	praiseworthy/admirable/commendable	<phat> praise with <huai>, worthy of	
+s36323	praiseworthy/admirable/commendable/laudable	<phat> praise with <huai>, worthy of	
 s36324	praiseworthiness/commendable conduct	<phathuai> praiseworthy, with the noun suffix <na>	
 s36325	praising/giving thanks	<phat> with the linking ending <in>, praising or thanking while another action follows	
 s36326	praising/while praising	<phat> praise with <kawm>, while, and the linking suffix <in>	
@@ -324,7 +324,7 @@ s36333	not quite/not really/not fully	<phat> and <loh> written as one word after
 s36334	evil/what is not good	apparently <pha> good with <loh> not and the noun suffix <na>; here of evil done with the tongue	
 s36335	praise highly	<phat>, praise, and <mahmah>, very, written as one word	
 s36337	what is necessary/necessity	apparently <phamawh> necessary with the noun suffix <na>; {phatmawhna khempeuh}, everything that has to be done	
-s36338	praise	<phat>, praise, with the noun suffix <na>: words or song that praise; <phatna la> is a song of praise	
+s36338	praise/glorification	<phat>, praise, with the noun suffix <na>: words or song that praise; <phatna la> is a song of praise	
 s36339	goodness/good	noun of <pha>, good: what is good, doing good; {phatna bawl} is do good and {phatna thaman} the reward of doing good	
 s36340	praise	<phatna> written with a capital: at the start of a sentence, and as the name given to the gates of the city	
 s36341	song of praise/hymn/praise song	<phatna>, praise, and <la>, song: a song that praises God, most often as {Pasian phatna la}; <sa>, sing, or <phuak>, compose, follows it	
@@ -342,7 +342,7 @@ s36352	be proud/boast	after <ki>, written apart, it is the verb <kiphatsak>, be 
 s36353	self-praise/pride/conceit	found after <ki> as {ki phatsakna}, the same as <kiphatsakna> written in two words: a high opinion of oneself, pride	
 s36354	boast of/take pride in	written after a separate <ki> or {ki-}, the two together being <kiphatsakpih>: be proud on account of something	
 s36355	be good at praising/praise readily	<phat>, praise, with <siam>, skilled, written as one word: know how to praise others, be ready with praise	
-s36356	praiseworthy/worthy of praise	<phat> praise, with <taak>, worthy of	
+s36356	praiseworthy/worthy of praise/laudable	<phat> praise, with <taak>, worthy of	
 s36357	be able to praise/may glorify	<phat> praise with <theih>, form of <thei> can, used before <nading>	
 s36358	praise/being able to praise	<phattheih>, be able to praise, with the noun suffix <na>	
 s36359	benefit/profit/be edified	gain good from something; mostly in <phattuam nading>, for the good or welfare of	
@@ -447,7 +447,7 @@ s36459	thigh	<phei>, thigh, with <pi>, big: the thigh; in Numbers 5 the thigh wa
 s36460	leg meat/thigh meat	<phei>, thigh or leg, with <sa>, meat: the meat of the leg of a slaughtered animal	
 s36461	thighs/legs	<phei>, thigh, with the plural <te>	
 s36462	woof/weft threads	the cross threads of woven cloth, set beside <tung> the warp	
-s36463	undergarment/breeches/trousers	garment covering the body from the waist to the thighs, worn by the priests under their robes; from <phei>, thigh, and <tuam>, cover	
+s36463	undergarment/breeches/trousers/pants	garment covering the body from the waist to the thighs, worn by the priests under their robes; from <phei>, thigh, and <tuam>, cover	
 s36464	underpants/underwear	<pheituam>, breeches, and <sungten>, underwear, written as one long word split in two with a hyphen: underpants	
 s36465	undergarments/breeches		
 s36467	plait/braid	weave strands together, as hair into plaits; the word also counts the plaits, as {phek thum}, three plaits	
@@ -553,7 +553,7 @@ s36566	tax/tribute/revenue	payment owed to a ruler or government
 s36567	flash/flash repeatedly	of lightning, flash again and again; used in {khua phiaphia}, the lightning keeps flashing	
 s36568	make flash/send lightning	cause lightning to flash, {khua phiasak}	
 s36569	making flash/sending lightning	<phiasak> make flash with the linking suffix <in>	
-s36570	erase/blot out/wipe out	wipe something away so that nothing is left of it, as a name from a book or from memory	
+s36570	erase/blot out/wipe out/delete/efface/expunge	wipe something away so that nothing is left of it, as a name from a book or from memory	
 s36571	sweep/sweep away	sweep with a broom; with <khia>, out, sweep people or a house away	
 s36572	wipe		
 s36573	wash/wipe clean	after <mai>, face: {mai phiat} is wash the face, as on getting up in the morning	
@@ -575,7 +575,7 @@ s36588	will abolish/will cancel/will remove	<phiatmai>, wipe out, and <ding>, wi
 s36589	blot out/wipe away/expunge/obliterate	<phiat> wipe with <mang>, away	
 s36590	blot out/wipe away	<phiatmang> wipe away with <sak>, do it for another	
 s36591	flashing	in {khua phiatna mun}, the place where the lightning flashed; from <phia> flash, not from <phiat> wipe	
-s36592	removal/getting rid of/abolition/abrogation/annulment	<phiat>, wipe out, with the noun suffix {-na}: the getting rid of something unwanted, as a smell, a job or a law; {nau phiatna} is abortion; not {phiatna} the flashing of lightning	
+s36592	removal/getting rid of/abolition/abrogation/annulment/abolishment/revocation	<phiat>, wipe out, with the noun suffix {-na}: the getting rid of something unwanted, as a smell, a job or a law; {nau phiatna} is abortion; not {phiatna} the flashing of lightning	
 s36593	wiped out/abolished/done away with	<phiat> wipe with <sa>, already done	
 s36594	nullify/annul/cancel/make void	<phiat> wipe with causative <sak>: wipe out a vow or promise so that it no longer binds	
 s36595	make flash	in {khua a phiatsak}, said of God making the lightning flash from the cloud; probably from <phia> flash, not from <phiat> wipe	
@@ -604,7 +604,7 @@ s36621	Philtun	place of a bridge over the Tuithang or Manipur river in the Tedim
 s36622	needle	{phim vang} or {phim bil vang} is the eye of a needle; {phim tawh kikhui} is sewn or embroidered with a needle	
 s36623	awl	<phim>, needle, with <pi>, big; a large pointed tool for piercing	
 s36624	provoke/taunt/vex	stir someone to anger or grief by words or deeds	
-s36625	drizzle/rain lightly	of rain, fall lightly in fine drops, after <guah> and often followed by <seuhseuh> or {nelhnelh}; not the sense provoke	
+s36625	drizzle/rain lightly	of rain, fall lightly in fine drops, after <guah> and often followed by <seuhseuh> or <nelhnelh>; not the sense provoke	
 s36627	provoking/arousing to anger	<phin> with the linking ending <in>, provoking	
 s36628	provocation/taunt	<phin> provoke with the noun ending <na>	
 s36629	provocations	<phinna>, provocation, with the plural <te>: deeds that stir someone to anger	
@@ -735,7 +735,7 @@ s36755	establish/found/set up	<phuh>, found, with <khiat>, out: bring an organis
 s36756	establishment/founding/setting up	the bringing into being of a state, a country or an organisation	
 s36757	finish setting up/have laid	<phuh> set up or lay a foundation, with <khit> finish; with <ciangin>, after having set up	
 s36758	establish firmly/make secure	<phuh> set up or found, with <kip> firm	
-s36759	setting up/founding	<phuh> set up, with the noun suffix <na>; {phuhna mun} is the place where something is set up	
+s36759	setting up/founding/installation	<phuh> set up, with the noun suffix <na>; {phuhna mun} is the place where something is set up	
 s36760	founded/established/set up	<phuh> set up or found with {-sa}, already done; {ama phuhsa} is which he has founded	
 s36761	set up/build for/establish for	<phuh> set up, found, with <sak>, cause or do for another: have something set up, or establish something for someone	
 s36762	things planted/things set up	<phuhsa> already set up or planted, with plural <te>: what has been planted	
@@ -754,7 +754,7 @@ s36774	Phuket	island and province in the south of Thailand, visited by many tour
 s36775	hack down/demolish/cut down	<phuk> cut down, with <gawp> roughly or violently	
 s36776	press against/crowd/jostle/strike against/run into	push or knock up against someone or something, as a crowd presses on a person or a ship strikes a sandbar; also meet with danger or hardship	
 s36777	crash badly/smash into/pile up	<phukha> and <gawp> written as one word: strike against with great damage; <ki phukhagawp>, of vehicles, is crash into one another	
-s36778	burst/break open/break through	break something by force or pressure, as a door, a wineskin or an enemy line; of a rash, break out on the skin	
+s36778	burst/break open/break through/erupt	break something by force or pressure, as a door, a wineskin or an enemy line; of a rash, break out on the skin	
 s36779	break out/burst	<phukham> break out, with the linking ending <in>, joining it to the next verb; of a disease breaking out over the skin	
 s36780	break out/break through/erupt	<phu>, push against, with <khia>, out: force a way out or through; of a skin disease, break out on the skin	
 s36781		found with <vei>, suffer from, in {phukhong vei}, be famished, faint with hunger and tiredness	
@@ -770,7 +770,7 @@ s36790	cutters/woodcutters/fellers	<phuk> cut down with the plural <te>: those w
 s36791	gush out/pour out/flow out/spring up	of water, come out from a spring, well or rock; {phul khia}, gush out	
 s36792	brave/face/push through	go straight at a hardship or an obstacle and force a way through it, as in {haksatna phul}; {phul khak} is run into, come up against	
 s36793	spring up/gush out	of water, come up from a well or spring	
-s36794	avenge/take vengeance/take revenge	<phu> vengeance with <la> take, written here as one word	
+s36794	avenge/take vengeance/take revenge/retaliate	<phu> vengeance with <la> take, written here as one word	
 s36795	avenge/take vengeance	pay back a wrong done; {phulak ni} is the day of vengeance	
 s36796	vengeance/revenge	the act of taking revenge or avenging	
 s36797	avenger/avenger of blood	the man who takes revenge, in the law the relative who avenges a killing; {-pa} marks a man	
@@ -800,7 +800,7 @@ s36820	buried things/buried ones	<phum> bury with the plural <te>: the things th
 s36821	can immerse/can baptize	<phum> immerse, with <theih> can, the form used before <nading>; {tui phum} is baptize	
 s36822	after burying/be able to bury	<phum>, bury, and <zawh> written as one word: with a time after it, after being buried; before <kei>, not be able to bury	
 s36823	grumble/murmur/complain	speak out one’s discontent, grumble or complain; with <tungah>, against someone	
-s36824	grumble/complain	grumble and complain noisily, <phun> with <ciak>; the book lists the word without a meaning	
+s36824	grumble/complain/grouse	grumble and complain noisily, <phun> with <ciak>; the book lists the word without a meaning	
 s36825	wall/earthwork/ramp	a wall or bank of earth or stone, as around a field or raised against a city	
 s36826	clan/family/lineage	the family line a person belongs to	
 s36827	foot/base	the lower end on which an upright thing stands, as in {singlamteh phung}, the foot of the cross; not the clan and not a wall	
@@ -829,7 +829,7 @@ s36849	monks/Buddhist monks	plural of <phungzi>, monk; {lutol phungzite} are the
 s36850	grumbling/complaining/murmuring	<phun>, grumble, with the linking ending <in>, joining it to the next verb	
 s36851	grumble/complain/criticize	<phun> grumble, with <khak> happen to, the form used before <loh>: so that no one may come to complain	
 s36852	not grumble/not complain/without complaining	<phun>, grumble, and <lo>, not, written as one word; {phunlo in} is without grumbling, and {phunlo paulo in} is without complaint or a word	
-s36853	grumbling/complaint/murmuring	<phun>, grumble, with the noun suffix <na>: grumbling or a complaint	
+s36853	grumbling/complaint/murmuring/grievance	<phun>, grumble, with the noun suffix <na>: grumbling or a complaint	
 s36854	grumblings/complaints/murmurings	<phunna>, grumbling, with the plural <te>	
 s36855	Phunom		
 s36856	complain at once/protest at once	<phun>, grumble, and <pah>, at once, written as one word: react at once with complaints, often followed by <ngeingai>	
@@ -880,7 +880,7 @@ s36901	mother/dam	the mother of an animal, set against <no>, its young, as in {a
 s36902	hen/female	the female of the fowl, the mother bird, said with the prefix <a> as {a pi}; the male is <lui>	
 s36903	square foot	<pi>, foot, with <khawk>, square: 144 square inches; nine make a square yard	
 s36904		{pih ing}, the verb <pih> with the first person ending <ing>, written short with an apostrophe as is done in songs, where the count of words is fixed; the page gives {pih ing e} and {pi'ng e} as the same, so the final {h} is dropped as well	
-s36905	regard as great/look up to	the prefix <pi>, great, with <et>, look at, written with a hyphen before the vowel: look on a person or thing as great or important; compare <pimuh>	
+s36905	regard as great/look up to/esteem	the prefix <pi>, great, with <et>, look at, written with a hyphen before the vowel: look on a person or thing as great or important; compare <pimuh>	
 s36906	grandmother	<pi>, grandmother, with <in>, the marker of the doer of an action, written with a hyphen	
 s36907	give/grant/bestow/confer/hand	hand something over to someone or grant it; {thu pia} is give an order and <thupha pia> is bless	
 s36909	give	<pia>, give, written with a capital at the start of a sentence; {pia khia} is give up or hand over	
@@ -1007,7 +1007,7 @@ s37029	Genesis
 s37030	France	France, in a name taken from Burmese; {Piancit pai} is the going of Zomi men to France in 1917, remembered at its hundredth year in 2017	
 s37031	the going to France/France Labour Corps journey	<Piancit>, France, and <pai>, go: the name given to the going of Zomi men to France as labourers in 1917, and to the men who went; used as a noun, as in {Piancit pai kum 100}, the hundredth year of the going to France	
 s37032	unusual/strange/peculiar/different/eccentric	<pian>, form or appearance, with <dang>, other: of another kind than the usual, out of the ordinary	
-s37033	become/come into being/happen	come into being: be born, be produced, come about or happen; with a noun before it, become that thing	begin to be
+s37033	become/come into being/happen/befall/come about/occur	come into being: be born, be produced, come about or happen; with a noun before it, become that thing	begin to be
 s37034	arise and/come about and/be born and	<piang> and the linking <a> written as one word: something comes about or is born, and the sentence goes on	
 s37035	dare to give/be willing to give	<pia>, give, and <ngam>, dare, written as one word	
 s37036	keep happening/happen all the time	<piang>, happen, and <den>, always, written as one word	
@@ -1034,7 +1034,7 @@ s37057	tend to occur/occur easily/grow well	<piang> and <nuam> written as one wo
 s37058	happen at once/arise immediately	<piang>, happen, and <pah>, at once, written as one word: come about straight away	
 s37059	keep happening/happen again and again/come about	<piang>, happen, said twice: happen repeatedly or one after another; {piangpiang lel} is it simply comes about	
 s37060	happened/past	<piang> happen with <sa> already; {a piangsa thu}, what has happened	
-s37061	produce/create/bring about/cause/yield	<piang>, come into being, with the causative <sak>: make something come into being, said of land that yields crops, of God who creates, and of whatever causes a result	
+s37061	produce/create/bring about/cause/yield/effectuate/engender	<piang>, come into being, with the causative <sak>: make something come into being, said of land that yields crops, of God who creates, and of whatever causes a result	
 s37062	create/make/bring into being	<piangsak>, cause to come into being, written with a capital when said of God: {a Piangsak pa}, the Creator, the Maker	
 s37063	cause/produce/raise	<piangsak> cause to be, with the linking <a>, and	
 s37064	keep causing/cause continually	<piangsak> and <den>, always, written as one word: go on bringing something about	
@@ -1057,7 +1057,7 @@ s37080	have come about/have arisen/have happened	<piang>, come into being, and <
 s37081	arise of itself/spring up by itself	<piang> come into being with <tawm>, of oneself: come about on its own, without another cause	
 s37082	crops/produce/fruit	the things that are produced or come into being, plural noun use of <piang>	
 s37083	events/happenings/occurrences	after <thu> or a word such as <lamdang>, the things that have happened: {thu piangte} are events and {na lamdang piangte} are wonders that took place, not the produce of field or sea	
-s37084	be born again/born again	<piang>, be born, with <thak>, new: be born again in the Christian sense, come to new faith; {mi piangthak} is a born-again person	
+s37084	be born again/born again/born-again	<piang>, be born, with <thak>, new: be born again in the Christian sense, come to new faith; {mi piangthak} is a born-again person	
 s37085	be born again and	<piangthak>, be born again, with the linking ending {-a}, and then: having been born again, having come to faith	
 s37086	being born again	<piangthak>, be born again, and the linking <in> written as one word: being born again, and then	
 s37087	being newly born	<piang>, be born, and <thakin>, newly, written as one word: of a child, being newly born	
@@ -1101,7 +1101,7 @@ s37124	piano	the musical instrument; {piano tum} is play the piano
 s37125	happen at once/come about immediately	<pian> and <pah> written as one word: come about right away; in other sentences <pian> after a verb seems to mean somewhat, rather	
 s37126	gradually/somewhat/more and more	placed after a verb or describing word: the state is beginning to be so or is slowly becoming so, often followed by <ta>	
 s37127	gradually/more and more/by now rather	<pianpian>, gradually, and <ta>, the marker of a change now reached, written as one word after a verb: it has little by little come to be so	
-s37128	inborn/natural/from birth/congenital	what one is born with; {a pianpih mittaw}, blind from birth, {pianpih lungsim}, the natural mind or instinct	
+s37128	inborn/natural/from birth/congenital/innate	what one is born with; {a pianpih mittaw}, blind from birth, {pianpih lungsim}, the natural mind or instinct	
 s37129	nature/inborn character	used alone as a noun, after a possessor such as {kei'} or <ama>: the nature a person or thing has from birth; {kei' pianpih in} is by my nature	
 s37130	mother tongue/native language/first language	<pianpih>, inborn, born with, and <kampau>, language: the language a person is born into, the mother tongue; a possessive such as <na> stands before it	
 s37131	sibling by birth/blood sibling/own brother or sister	<pianpih>, born together with, and <sanggam>, brother or sister: a brother or sister born of the same parents, as against the wider use of <sanggam> for relatives and fellow believers; stands after a possessor such as <na> or alone	
@@ -1173,7 +1173,7 @@ s37197	measuring rod/measure	a rod used for measuring length; {tehna piciang} is
 s37198	standard/criterion/measure/level	a standard by which something that has no length is judged or measured, such as poverty, honesty or growth; after <tehna> or the thing measured, and {zawnna piciang} is the poverty line	
 s37199	mature/grow up/become complete	form of <picing>, mature, used before <ding>, <nading>, <ma> and other endings: grow to maturity in body or in mind	
 s37200	be complete/complete	form of <picing>, complete, used before <theih> and <nading>: of a meaning, be made complete	
-s37201	mature/full-grown/grown up/adult	fully grown in body or in mind; {picing sak} is make mature	
+s37201	mature/full-grown/grown up/adult/full-blown/full-fledged/grown	fully grown in body or in mind; {picing sak} is make mature	
 s37202	complete/full	lacking nothing, said of the meaning of a word or sentence: {khiatna picing} is a complete meaning	
 s37203	fully/maturely/properly/completely	<picing>, mature or full-grown, and <takin>, which here makes an adverb of manner and does not mean while: in a full, mature and complete way; stands before the verb	
 s37204	immature/not fully developed	<picing> and <lo> written as one word: not mature, not fully formed	
@@ -1225,7 +1225,7 @@ s37252	gore/be gored	<pik>, gore, with the particle <kha>, happen to: of a bull,
 s37253	gore to death	of a bull, strike with the horns so that the victim falls dead	
 s37254	completely/fully/utterly	placed after a verb or describing word: to the full, altogether; also written <piikpeek>	
 s37255	those who purse the lips at	with <neh>, lips: those who press their lips together at someone; apparently <pik> with <san>, directed at, and the plural <te>, parallel to <sitsante>, those who wink at	
-s37256	wise/learned/sensible/intelligent	having wisdom or good sense; also used as a verb, be or become wise, and {pil zaw} is wiser	
+s37256	wise/learned/sensible/intelligent/astute/brainy/clever/prudent/smart	having wisdom or good sense; also used as a verb, be or become wise, and {pil zaw} is wiser	
 s37257	Pilate	Pontius Pilate, the Roman governor of Judea who tried Jesus and handed him over to be crucified	
 s37259	Pildash	son of Nahor, the brother of Abraham, and Milkah	
 s37260	to be wise/will be wise	<pil> and <ding> written as one word: to be wise, that one should become wise or learned	
@@ -1239,7 +1239,7 @@ s37267	unwise/uneducated/not clever/imprudent	<pil>, wise or learned, and <lo>, 
 s37268	folly/foolishness	<pil>, wise, with <loh>, not, and the noun suffix <na>: lack of wisdom, folly	
 s37269	fools/the simple/unwise people	<pil>, wise, with <lo>, not, and plural <te>: those who are not wise	
 s37270	very wise/very clever/very learned	<pil>, wise or learned, and <mahmah>, very, written as one word	
-s37271	wisdom/knowledge/understanding	<pil>, wise, with the noun suffix <na>: wisdom, and also knowledge and good understanding	
+s37271	wisdom/knowledge/understanding/intelligence	<pil>, wise, with the noun suffix <na>: wisdom, and also knowledge and good understanding	
 s37272	education/learning/schooling	what is learned at school or college, a present-day use beside wisdom: with <sin>, learn, <pilna sin> is study or get an education, and <pilna siamna> is education and skills	
 s37273	wisdom/understanding	<pilna> written with a capital at the start of a sentence or line, and in Proverbs of Wisdom speaking as a person	
 s37274	higher education/higher learning	<pilna>, learning, and <saang>, high: education above school level; {pilna saang sinna} is the pursuit of higher studies, and with <zaw> it describes a person, more highly educated	
@@ -1268,7 +1268,7 @@ s37296	clever/able to learn	<pil>, wise or learned, and <thei>, able, written as
 s37298	wise/sensible	<pil>, wise, and <vai>, matter, written as one word: a wise thing, a matter of wisdom; {pilvai lo} is not wise	
 s37299	wake up/sober up	form of <pilvang> written with a final apostrophe before <ciangin>: of a drunk man, wake and be clear-headed again	
 s37300	be careful/be watchful/be alert	short form of <pilvang> before words such as <huai>, <kisam>, <mahmah> and <ding>: take care and stay on guard in what one says and does; nothing is said of waking from drink	
-s37301	be alert/keep watch/be sober/be shrewd	stay awake, watchful and ready; of a drunk man, become sober again	
+s37301	be alert/keep watch/be sober/be shrewd/beware	stay awake, watchful and ready; of a drunk man, become sober again	
 s37302	to be careful/to be alert/to be watchful	<pilvang>, be alert, and <ding>, to, written as one word: that one should take care, often before {thupi hi} or {kisam hi}	
 s37303	calling for caution/to be wary of	<pilvang>, be alert, with <huai>: such that one should be careful or on guard	
 s37304	watchfully/alertly/soberly	<pilvang>, be alert, with the ending <in>: staying watchful while doing the next action	
@@ -1344,11 +1344,11 @@ s37375	plantation/estate	a large farm where one crop such as oil palm is grown a
 s37376	plastic/plastic bag	plastic as a material, and a bag or wrapping made of it, as in {plastic sungah koih}, put into plastic	
 s37377	platform	a place or service through which something is made public or offered, such as a political or digital platform; also the platform of a railway station	
 s37378	platoon	a small unit of soldiers	
-s37379	playground/sports ground	a ground for play or sport, as at a school; one article gives {mawltual} as the Zolai word	
+s37379	playground/sports ground	a ground for play or sport, as at a school; one article gives <mawltual> as the Zolai word	
 s37380	p.m./in the afternoon	the abbreviation written after a clock time for the hours from noon to midnight, {sun 12 pan zan 12 dong}; the hours from midnight to noon are <am>	
 s37381	pneumonia	infection of the lungs; often followed by <natna>, illness	
 s37382	Pa-O National Organisation/PNO	English abbreviation: the Pa-O National Organisation, a Pa-O political organisation in Shan State of Myanmar with its own armed men	
-s37383	sprout/grow/come up	of a seed or plant, come up out of the ground and grow	
+s37383	sprout/grow/come up/germinate	of a seed or plant, come up out of the ground and grow	
 s37384	podcast	a radio style programme published on the internet	
 s37385	broom bush/broom tree/juniper	desert shrub; {poding kung} is the bush, {poding zung} its root	
 s37386	poem		
@@ -1357,7 +1357,7 @@ s37388	never mind/it does not matter	<poi>, matter, and <kei>, not, written as o
 s37389	important/essential/necessary	mattering greatly, needed; {a poimawh pen} is the most important thing	
 s37390	important	<poimawh> with the plural marker <te>, after a noun: the important ones, as {mun poimawhte}, the important places	
 s37391	sprout/grow up	<po> sprout, with the linking suffix <in>	
-s37392	defect/blemish/flaw	noun from <poi>, be hurt or damaged: a bodily defect or injury in a person or an animal, which bars a priest from serving and an animal from being offered	
+s37392	defect/blemish/flaw/deformity	noun from <poi>, be hurt or damaged: a bodily defect or injury in a person or an animal, which bars a priest from serving and an animal from being offered	
 s37393	point	one item in a list of things said, or one unit of a score or of a licence; otherwise found in English names such as {Check Point}	
 s37394	injure/hurt/harm	<poi>, be hurt or damaged, with the causative <sak>: cause bodily injury to someone	
 s37395	poison/toxin	the English word, used beside <gu> for a harmful substance	
@@ -1416,7 +1416,7 @@ s37447	Pontius	family name of Pilate, the Roman governor of Judea who tried Jesu
 s37448	Punon	place where the Israelites camped in the wilderness, between Zalmonah and Oboth	
 s37449	pop music/pop	popular music, mostly in English phrases such as pop singer and pop group	
 s37450	spring up at once/sprout quickly	<po>, sprout, with <pah>, at once: come up quickly, said of seed sown in shallow soil	
-s37451	pope	the head of the Roman Catholic Church; also a title before his name	
+s37451	pope/pontiff	the head of the Roman Catholic Church; also a title before his name	
 s37452	poplar	the English tree name, used with <kung>, tree	
 s37453	popular/well known	liked or known by many people	
 s37454	population	the number of people living in a place; often added as a gloss beside <mimal> or {mi phazah}	
@@ -1522,13 +1522,13 @@ s37558	explosion/blast	from <puak>, explode, not from <puah>, repair: the going 
 s37559	for repairing/in order to repair	<puah>, repair, and <nading>, for, written as one word: for repairing or improving a thing	
 s37560	want to repair/want to improve	<puah> and <nuam> written as one word: want to repair, improve or develop a place	
 s37561	smoother/finisher	<puah> put in good order with <pa> for a man: here the workman who smooths an idol with a hammer	
-s37562	restore/repair/put in order/amend/mend	<puah> repair with <pha> good: mend something so that it is good again	
+s37562	restore/repair/put in order/amend/mend/emend	<puah> repair with <pha> good: mend something so that it is good again	
 s37563	will repair/will restore	<puahpha>, repair, with <ding>, will, written as one word: will repair; with <ki>, will be repaired	
 s37564	repair again/restore again/put right again	<puahpha>, repair, and <kik>, again, written as one word; with <ki> before it, be repaired or put right again	
 s37565	repair/put in order/set right	form of <puahpha> used before <ding>, <nading> and <hun>: mend something so that it is good again	
 s37566	to be repaired/to repair	<puahphat>, repair, and <ding> written as one word: that is to be repaired or improved, the repairing still to be done	
 s37567	rebuild/restore/repair again	<puahphat> set right with <kik> again	
-s37568	repair/reform/improvement/amendment/mending	<puahphat> repair, set right, with the noun suffix <na>	
+s37568	repair/reform/improvement/amendment/mending/reformation	<puahphat> repair, set right, with the noun suffix <na>	
 s37569	keep repairing/tend/dress up	<puah> doubled: go on mending, improving or dressing something up	
 s37570	repair/restore/set right	<puah>, repair, with <sak>: have something repaired, or repair it for someone	
 s37571	restore/rebuild/repair again	<puahsak> repair, with <kik> again, back	
@@ -1655,7 +1655,7 @@ s37691	puandum/traditional Zomi cloth	a traditional woven cloth of the Zomi, nam
 s37692	blue cloths/blue yarn	<puan>, cloth, with <dum>, blue, and the plural <te>: blue cloth or yarn, listed after purple and crimson material	
 s37693	spotted/speckled	having a coat marked with spots or patches, said of sheep and goats and named together with <gial>; {la puang} is a white or pale donkey	
 s37694	declare/proclaim/announce	make an order or a decision publicly known, often as {puang khia}: a government declares independence or a curfew such as {144 puang}	
-s37695	pale/whitish/grey	of a pale, washed-out white or grey all over, not in spots: said of light hair or eyes and of things covered with dust, often with a sound word after it as {puang phiupheu}	
+s37695	pale/whitish/grey/gray/hoary	of a pale, washed-out white or grey all over, not in spots: said of light hair or eyes and of things covered with dust, often with a sound word after it as {puang phiupheu}	
 s37696	spotted/mottled	<puang>, spotted, with the linking ending <in>: said of goats, after {dung gial}, streaked, and {bem gial}, speckled	
 s37697	declare/proclaim/announce	<puang>, declare, and <khia>, out, written as one word: make an order or decision publicly known	
 s37698	sackcloth	coarse cloth worn as a sign of mourning; a shorter form of <puanhampi>	
@@ -1675,7 +1675,7 @@ s37711	sewing/tailoring	<puan> and <khui> written as one word: the sewing of clo
 s37712	tailor	<puankhui>, sewing clothes, with {-pa} marking a man: a man who sews clothes; the book lists it among the common nouns for persons	
 s37713	wardrobe/vestry	<puan>, clothes, with <koihna>, place of keeping: the place where garments are kept	
 s37715	traditional men's cloth	a traditional Zomi woven cloth worn by men, named together with {puandum}, the cloth of women; it is also given to honour a guest	
-s37716	bundle/belongings/pack	<puan>, cloth, with <lom>, bundle: belongings rolled up in a cloth for a journey	
+s37716	bundle/belongings/pack/luggage	<puan>, cloth, with <lom>, bundle: belongings rolled up in a cloth for a journey	
 s37717	bundles/belongings	<puanlom>, bundle, with the plural <te>: belongings packed up for a journey	
 s37718	old garment/old clothes/old cloth	<puan>, garment or cloth, with <lui>, old: an old garment or old clothes	
 s37719	old cloth/old garment	<puanlui>, old cloth, with an ending that seems to mean already so: cloth or a garment that has grown old and worn	
@@ -1725,7 +1725,7 @@ s37762	longyi/lungi/sarong	the cloth a man wraps round the waist, named beside <
 s37763	longyi/sarong	a length of cloth wrapped round the waist and worn as a lower garment, the longyi of Myanmar; {puanten teng} is wear a longyi; written with a capital letter mostly in lists of goods	
 s37764	all the clothes/clothes	<puan> garment with <teng>, all of: every garment a person has on; {puanteng hawkkhiatsak}, strip bare	
 s37765	new garment/new cloth/new cloak	<puan>, garment or cloth, with <thak>, new: a new garment or new cloth	
-s37766	robe/long robe	a long outer garment; {puantual silh} is wear a long robe	
+s37766	robe/long robe/gown	a long outer garment; {puantual silh} is wear a long robe	
 s37767	robe/gown	a long outer garment, such as the robe of the priest worn under the ephod; {puantualpi mong} is the hem of the robe	
 s37768	robes	<puantualpi>, robe, with the plural <te>: the long robes of a king or a bride	
 s37769	shroud/wrapping cloth	<puan>, cloth, with <tuam>, wrap: the cloth in which a dead body is wrapped	
@@ -1845,7 +1845,7 @@ s37887	plague	<pulnatna>, plague, written with a capital at the start of a sente
 s37888	plagues/pestilences/diseases	<pulnatna>, plague, with the plural <te>	
 s37889	plague/great pestilence	<pul>, plague, with <pi>, great: a great plague	
 s37890	pulpit	the raised place in a church from which the sermon is preached; {pulpit pan thu gen} is preach from the pulpit	
-s37891	round	round like a ball; also used as a counting word for round things such as loaves and fruit	
+s37891	round/spherical	round like a ball; also used as a counting word for round things such as loaves and fruit	
 s37892	circle		
 s37893	Pum Za Mang	a Zomi chief; the page calls him the chief ruler of <Zogam>	
 s37894	in a furnace	{pumbuk} furnace or forge with <ah> in	

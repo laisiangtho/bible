@@ -61,13 +61,13 @@ s30059	mile	the measure of distance, about 1.6 kilometres
 s30060	foreign land	used only as the second half of the pair <migam milei>, the land of other people: a foreign country, a place that is not one's own	
 s30061	milestone/mile marker	a numbered mile marker along a road, used to name places on the road by their distance	
 s30062	Miletus	port city on the west coast of Asia Minor, where Paul met the elders of the church of Ephesus	
-s30063	great person/the great	<mi>, person, with <lian>, great: a person of high standing or power, the opposite of <mineu>	
+s30063	great person/the great/aristocrat/dignitary	<mi>, person, with <lian>, great: a person of high standing or power, the opposite of <mineu>	
 s30064	great person/the great	<milian> great person with the marker <in>, here as or into: made them great	
 s30065	great man/very great person/somebody	<milian>, great person, with the intensive <pi>: a very great person, somebody of importance	
 s30066	nobles/great men/princes	plural of <milian>: great or high-ranking people, nobles	
 s30067	the great/the exalted/nobles	<miliante> written with a capital at the start of a sentence	
 s30068	idol/image	<mi>, person, with <lim>, likeness: an image made to be worshipped, an idol; <milim biakna> is idolatry	
-s30069	picture/image	a picture or likeness of a person or thing, with no thought of worship	
+s30069	picture/image/portrait	a picture or likeness of a person or thing, with no thought of worship	
 s30070	idolatry/idol worship	<milim>, an image or idol, and <biakna>, worship: the worship of idols, idolatry	
 s30071	idol worshippers/idolaters/heathen	<milim>, idol, and <biate>, worshippers: those who worship idols. In church writing it also names the people of other religions as a group, in contrast to Christians; the word before it names the country or place they belong to	
 s30072	idol worshipper/idolater	<milim>, idol, and <bia>, worship, written as one word: one who worships idols	
@@ -144,11 +144,11 @@ s30142	mina	a unit of weight for silver and gold, sixty shekels in Ezekiel 45:12
 s30143	in the name of	<min>, name, written together with <a>, a short form of <ah>, in: in the name of, as in {Topa' mina}, in the name of the Lord; not the unit of weight	
 s30144	native		
 s30145	ethics		
-s30146	tribe/people/nation	a people of one descent and language	
+s30146	tribe/people/nation/race	a people of one descent and language	
 s30147	racial discrimination/ethnic discrimination/racism	<minam.3>, a people or race, and <deidan>, treat unequally: unequal treatment of people because of their race or tribe; used as a noun with <nei>, have, <thuak>, suffer, or <piang>, arise, and also as a verb, discriminate by race	
 s30148	national identity/ethnic identity/nationhood	<minam>, a people, and <hihna>, the fact of being: the fact of being a people or of belonging to one, its identity; a possessive such as <i> or <a> stands before it	
 s30149	love one's people/be patriotic	<minam>, people or nation, and <it>, love: love one's own people, be devoted to the nation; the object stands before the verb without a marker, and the pair also stands before a noun, as in {minam it zia}, the way of loving one's people	
-s30150	love of one's people/patriotism/national feeling	<minam>, a people or nation, and <itna>, love: love of one's own people, the feeling that moves a person to work for the nation	
+s30150	love of one's people/patriotism/national feeling/nationalism	<minam>, a people or nation, and <itna>, love: love of one's own people, the feeling that moves a person to work for the nation	
 s30151	developed nation/advanced people	<minam>, a people, and <khangto>, grow: a people that has advanced in learning and prosperity, a developed nation, said beside {gam khangto}, a developed country; the same two words also form a clause, a people advances	
 s30152	established nation/recognised people/people in its own right	<minam>, a people or nation, and <kician>, firm, well-founded: a people that stands as a full nation in its own right, with its own name, language and recognition; often with <khat> after it and a people's name before it, {Zomi minam kician khat}	
 s30153	national unity/unity of the people	<minam.3>, a people or nation, and <kipumkhatna>, unity: the oneness of a people across its clans, dialects and churches, a set term of Zomi public life	
@@ -278,7 +278,7 @@ s30276	names	plural of <min>, name
 s30277	new name	<min>, name, with <thak>, new; {minthak phuah} is to give a new name	
 s30278	glorious/famous/renowned	form of <minthang>, famous or glorious, used before a suffix; found mostly in {minthan’na}, glory or honour	
 s30279	for the glory of/to the glory of	<minthan>, glorious, and <nading>, for: placed after a name in the possessive, most often <Pasian>, God, to say that a thing is done for the glory of that one	
-s30280	popular/famous/well known/famed	known and spoken of by many people, held in honor among them	
+s30280	popular/famous/well known/famed/celebrated/well-known	known and spoken of by many people, held in honor among them	
 s30281	renown/renowned/glorious/majestic	of great name, glorious, said of a city, a throne or the name of God	
 s30282	fame/renown	a great name known far and wide	
 s30283	glorious/majestic/renowned	<minthang>, glorious, written with a capital in titles of God: {Minthang Kumpipa} is the King of glory and {Vanglian Minthang pa} the Majestic Glory	
@@ -326,7 +326,7 @@ s30327	good man/innocent man	<mipha>, good person, with <pa> marking a man: a go
 s30328	the righteous/good people/the upright	plural of <mipha>, a good person: those who are good or faithful, set against <migilote>, the wicked	
 s30329	population/number of people	<mi> person and <phazah> number written as one word: how many people there are in a place or group	
 s30330	people/nation/ethnic group	word of the Lai language of Hakha and Falam for a people or nation, the same as <minam>; in the articles it stands in Lai names such as {Chin Miphun Ni}, Chin National Day	
-s30331	people/public/crowd/multitude	<mi>, person, with the augmentative <pi>: the people as a body, the general public; {mipi mai-ah} is in public and {mipi kikhopna} is the great assembly	
+s30331	people/public/crowd/multitude/populace	<mi>, person, with the augmentative <pi>: the people as a body, the general public; {mipi mai-ah} is in public and {mipi kikhopna} is the great assembly	
 s30332	noble/generous	in {mipi lungsim}, a noble or great-hearted mind	
 s30333	will of the people/public opinion/popular support	<mipi>, the public, and <deihna>, wish: what the people as a whole want, the popular will; also used for the approval a leader has among the public	
 s30334	People's Defence Force/people's militia/PDF	<mipi>, the people, and <galkap>, soldier: an armed force raised from the people; since 2021 the usual name of the People's Defence Force in Myanmar, often with PDF written after it, but also used of the militia on the side of the military council	
@@ -336,7 +336,7 @@ s30337	ordinary people/the common people/the masses	<mipi>, the public, and <nau
 s30338	member of parliament/people's representative/MP	<mipi>, the people, and <tangmi>, a representative: an elected representative of the people, a member of a parliament or assembly	
 s30339	mature person/adult/grown-up	<mi>, person, with <picing>, mature: a person who is mature in mind and conduct; also said of someone as a quality, be mature	
 s30340	adults/mature people/grown-ups	plural of <mipicing>: people who are mature in body or in mind	
-s30341	fellow countryman/own people/kinsman	a person or people of the same nation as oneself; the suffix <pih> marks sharing, like English fellow	
+s30341	fellow countryman/own people/kinsman/compatriot	a person or people of the same nation as oneself; the suffix <pih> marks sharing, like English fellow	
 s30342	fellow countrymen/own people/kinsmen	plural of <mipih>: people of one's own nation, tribe or kind	
 s30344	wise person/wise man	<mi>, person, with <pil>, wise: a wise person; {mipil suak} is to become wise	
 s30345	the educated and wealthy/the learned and the rich/the elite	<mipil>, wise or educated person, and <mihau>, rich person: a pair that names the able and well-off people of a community as one class, those who have both learning and means; often what parents and leaders wish the young to become	
@@ -487,7 +487,7 @@ s30492	eyelid	<mit> eye with <khu> cover; {mitkhu mul}, the hair of it, stands f
 s30493	eyesight/sight/vision	the power of the eyes to see; {mitkhua mulo} is blind	
 s30494	eye socket	<mit> eye with <khuk> pit, hollow	
 s30495	eyelids	<mitkhu> eyelid with plural <te>	
-s30496	eye socket	<mit> eye with <kua> hole	
+s30496	eye socket/eye-hole	<mit> eye with <kua> hole	
 s30497	lose one's sight/have the eyes fail	<mit> eye with <lawt>; {mitlawt dongin kap}, weep until the eyes fail	
 s30498	glasses/spectacles/eyeglasses	<mit>, eye, with <limlang>, glass: glasses worn on the eyes; {mitlimlang vom} are dark glasses	
 s30499	grow dim/lose one's sight	<mit> eye with <mang> lost, dim, and the linking marker <in>: the eyes growing dim	
@@ -507,7 +507,7 @@ s30512	with eyes fixed on/looking to	<mitsuan> fix the eyes on, with <in>; {mits
 s30513	Mitsubishi	Japanese company and its make of car	
 s30514	Mitsum		
 s30515	go out/have gone out	<mit> go out, of fire or a lamp, with <ta> marking a change that has come about	
-s30516	eye	the eye, the eyeball; a fuller word for <mit>	
+s30516	eye/eye-ball	the eye, the eyeball; a fuller word for <mit>	
 s30517		Saying: one eye in return for one eye, one tooth in return for one tooth; the Zomi are a people who take vengeance for a wrong, and the head of the household council is the man who dares to take it for the house	
 s30518	with the eye/by sight	<mittang> eye with the marker <in>: with the eyes	
 s30519	eyes	<mittang>, eye, with the plural <te>	
@@ -702,7 +702,7 @@ s30713	brides	plural of <mothak>, bride, itself <mo>, bride, with <thak>, new
 s30714	car/motor vehicle/vehicle		
 s30715	drive a car/drive/driving	<motor>, car, and <hawl>, drive: drive a car or other motor vehicle; {motor hawl ding mi} is a person to do the driving, and with <te> the pair names the drivers	
 s30716	motorbike/motorcycle	a motorcycle; {motorbike hawl} is ride a motorbike	
-s30717	motorcycle/motorbike		
+s30717	motorcycle/motorbike/bike		
 s30718	helmet/motorcycle helmet/crash helmet	the English word motorcycle and <lukhu>, hat: the helmet worn by a motorcycle rider; the English word Helmet is often written after it, and the verb is <khu>, put on	
 s30719	motorcyclist	a person who rides a motorcycle	
 s30720	motorist/driver	a person who drives a car, written in the articles with a capital and often followed by <te>	
@@ -711,7 +711,7 @@ s30722	motto	a short saying that a group, a meeting or a person stands by, in Zo
 s30723	Moulmein/Mawlamyine	city in Mon State in the south of Myanmar, now officially Mawlamyine	
 s30724	movement/campaign	a body of people working together for a political, national or religious aim, as in {Zomi movement}	
 s30725	movie/film		
-s30726	movie/film	the English plural used in Zolai for a film or films	
+s30726	movie/film/movies	the English plural used in Zolai for a film or films	
 s30727	Moza	name of two men, a son of Caleb by his concubine Ephah and a descendant of King Saul	
 s30728	Mozah	town in the territory of Benjamin	
 s30729	member of parliament/MP	English abbreviation used as a noun: an elected member of a parliament; {MP te} are the members of parliament	
@@ -750,7 +750,7 @@ s30762	Mualbem
 s30763	hill/hilltop/knoll	a hill or rise of ground, used after the name of the hill, as {Ofel mualbo}, the hill of Ophel	
 s30764	foothill/foot of a hill	<mual>, hill, with <bul>, base: the foot of a hill or mountain, where the slope begins	
 s30765	pass/mountain pass	the place where a line of hills is crossed, from <mual> hill	
-s30766	hilltop/mountain top/high place	<mual> hill with <dawn> top; also the high places where offerings were made	
+s30766	hilltop/mountain top/high place/peak	<mual> hill with <dawn> top; also the high places where offerings were made	
 s30767	mountaintop/hilltop	<mual> hill with <dawn> top and <zang> level ground: the open top of a hill	
 s30768	mountain range/ridge/range of hills	<mual>, mountain, with <dung>, length: a line of mountains or the long ridge of a hill	
 s30769	hill country/hill regions/highlands	<mual> and <gam> written as one word: the hill country, in Myanmar the regions of the hill peoples, <mualmi>, as distinct from the plains	
@@ -797,7 +797,7 @@ s30809	high hills/heights/high mountains	plural of <mualsang>: the high hills or
 s30810	accomplish/achieve/carry through/reach the goal	bring a task, an aim or a struggle through to its end; {mualsuah dong} is until the goal is reached	
 s30811	bring through/lead to the goal/see through	<mualsuah>, reach the goal, and <pih>, with or for someone, written as one word: bring a person or a task through to its end	
 s30812	win through/succeed/come through	come through to the end of a struggle, an illness or a hard task; {dam mualsuak} is recover fully	
-s30813	memorial stone/pillar/tombstone/monument	a stone set up in memory of someone, as over a grave; <suang> is stone	
+s30813	memorial stone/pillar/tombstone/monument/grave-stone	a stone set up in memory of someone, as over a grave; <suang> is stone	
 s30814	memorial stones/pillars/monuments	plural of <mualsuang>: the monuments of the dead, and the sacred pillars of Egypt	
 s30815	Mualsun		
 s30816	viper/poisonous snake	a poisonous snake; in the verses always in the address {mualtan’ suante}, brood of vipers	
@@ -838,7 +838,7 @@ s30850	one who trusts/he who trusts	<muang> trust, with <pa> marking a man: the 
 s30851	cause to trust/let trust	<muang> trust with <sak> cause: make or let someone rely on; said of widows who may depend on God	
 s30852	those who trust	<muang> with plural <te>: people who trust or hope in someone	
 s30853	be able to trust	<muang> trust, with <zo> be able; in the verse negated: not able to trust	
-s30854	fortified/secure/strong	safe to rely on, said of a place; {mun muanhuai} is a stronghold and {khuapi muanhuai} a fortified city	
+s30854	fortified/secure/strong/safe	safe to rely on, said of a place; {mun muanhuai} is a stronghold and {khuapi muanhuai} a fortified city	
 s30855	trustworthy/reliable/dependable	said of a person or thing that can be trusted or relied on, from <muan>, trust, and <huai>, worthy of	
 s30856	unsafe/untrustworthy/unreliable	<muanhuai>, safe or trustworthy, and <lo>, not, written as one word	
 s30857	safety/security/place of safety	<muanhuai>, secure, with the noun suffix <na>: the state or place of being safe; {mun muanhuaina} is a fortress	
@@ -874,13 +874,13 @@ s30887	be able to trust/can rely on	<muan> trust with <theih> can; {muantheih di
 s30888	trustworthy/fit to be trusted	<muan>, the form of <muang>, trust, used before a suffix, with <tuak>, be fitting: trustworthy	
 s30889	breathe into/blow	said of breath given to an image	
 s30890	Muar	a town and district in the state of Johor, Malaysia	
-s30891	rot/decay/perish	rot or decay, of flesh, wood or goods; {muat thei} is perishable, and {muat theih lohna} and {muat lohna} are imperishability	
+s30891	rot/decay/perish/decompose/putrefy	rot or decay, of flesh, wood or goods; {muat thei} is perishable, and {muat theih lohna} and {muat lohna} are imperishability	
 s30892	rot/rot away	<muat> rot with <cip>, firmly, completely: lie and rot where it is	
 s30893	rot away/decay completely	<muat> rot with <gawp>, done to the point of ruin	
 s30894	rot/rotting	<muat> rot with the linking ending <in>, and	
 s30895	decay/wasting away	<muat> rot, with <lam> direction: the way of decay	
 s30896	rot away/decay completely/dissolve	<muat> rot with <mang> away, lost	
-s30897	decay/corruption/rot	<muat>, rot, with the noun suffix <na>: the rotting of a body, also ruin as the result of sin; {muatna thuak} is see decay	
+s30897	decay/corruption/rot/decomposition/putrefaction	<muat>, rot, with the noun suffix <na>: the rotting of a body, also ruin as the result of sin; {muatna thuak} is see decay	
 s30898	rotten/decayed	<muat> rot, with <sa> already done	
 s30899	rot/cause to rot/make decay	<muat> rot with the causative <sak>	
 s30900	rot away/eat away	<muat> rot, with causative <sak> and <mang> away: cause to rot away entirely	
@@ -913,7 +913,7 @@ s30926	when seeing/on seeing	<muh> and <ciangin> written as one word: when someo
 s30927	first see/first meet	<muh>, see, and <cil>, at first, written as one word: see for the first time; with the prefix <ki>, as {aki muhcil}, when they first met or when it was first found	
 s30928	first sight/first time of seeing	<muh>, see, with <cilna>, first time: the first time one sees something	
 s30930	hate	form of <mudah> used before endings such as <leh>, <ma-in> and <cihtakin>, and before a noun as in {a muhdah khuampi} the pillar he hates	
-s30931	detestable/abominable/disgusting/vile	deserving to be hated, from <muhdah>, hate, and {-huai}, worthy of	
+s30931	detestable/abominable/disgusting/vile/hateful	deserving to be hated, from <muhdah>, hate, and {-huai}, worthy of	
 s30932	detestableness/abomination	<muhdahhuai> detestable with the noun suffix <na>: the hatefulness of what was done	
 s30933	hated/odious/obnoxious	<muhdah> hate with <in>, as: after a possessor, as one hated by him	
 s30934	hate greatly	<muhdah> hate, with <luat> too much, the form of <lua> used before another word	
@@ -951,7 +951,7 @@ s30965	not to be seen/so as not to see	<muhloh>, not see, and <ding> written as 
 s30966	not seeing/out of sight	<muh>, see, with <lohna>, the not doing: what one does not see or where one is not seen; {mite muhlohna ah} is where people do not see, out of sight	
 s30967	earlier seeing/former vision	<muh> see, <masak> first, with the noun suffix <na>: what was seen before	
 s30968	unseen/invisible	that cannot be seen, from <muh>, see; {muhmawh thu} is things that cannot be seen, and in old song language the word names the unseen world	
-s30969	sight	<muh>, see, with the noun suffix <na>: seeing, sight; after a possessive, {muhna-ah} means in the sight of, in the eyes of	
+s30969	sight/eye-sight/seeing	<muh>, see, with the noun suffix <na>: seeing, sight; after a possessive, {muhna-ah} means in the sight of, in the eyes of	
 s30970	belief		
 s30971	opinion	the way someone sees or judges a person or a matter: {keima muhna-ah} is in my eyes, in my opinion	
 s30972	whenever one sees/if one sees	<muh>, see, with <nak>, the first part of <nakleh>, written as one word and followed by <leh>: whenever or as soon as one sees	
@@ -1019,7 +1019,7 @@ s31034	not see/fail to see/not notice	<mukha>, happen to see, with <lo>, not: no
 s31035	those who see/passers-by	<mukha> happen to see, with plural <te>: those who come upon something	
 s31036	see together	<mu> see, with <khawm> together	
 s31037	meet/meet together	after a separately written <ki>, {ki mukhawm}: of two or more people, come together and see one another, meet; the same as the single word <kimukhawm>	
-s31038	find out/discover/perceive/realize/unearth	see and so come to know, <mu> see with <khia> out	
+s31038	find out/discover/perceive/realize/unearth/detect	see and so come to know, <mu> see with <khia> out	
 s31039	will find/will discover	<mukhia>, find out, and <ding>, will, written as one word: will find or discover	
 s31040	find again/recover/find	<mukhia>, find, and <kik>, again or back, written as one word: find again something or someone that was lost or missing; with <ki> before it, be found again	
 s31041	misjudge/misunderstand/see wrongly	<mu>, see, with <khial>, wrong: see or judge someone or something wrongly, get a mistaken view of it	
@@ -1049,7 +1049,7 @@ s31064	if we see/when we see	<mu>, see, and the conditional ending <leng> writte
 s31065	see exactly/find just then	<mu>, see or find, with <lian>, exactly: see or find the very thing, see it oneself	
 s31066	razor	tool for shaving hair, from <mul> hair and <kiat> shave	
 s31067	be appalled/be horrified/shudder	feel horror so that the hair stands on end; <mulkimhuai> is horrifying	
-s31068	horrifying/dreadful/horrible/gruesome/horrendous	making the hair stand on end; {a mulkimhuai suak} is become an object of horror	
+s31068	horrifying/dreadful/horrible/gruesome/horrendous/macabre	making the hair stand on end; {a mulkimhuai suak} is become an object of horror	
 s31069	more horrible	<mulkimhuai> horrible, with the comparative <zaw>	
 s31070	shearers	<mul> hair or wool, <met> shear, with plural <te>: those who shear	
 s31071	hairy	<mul> hair, with <nei> have	
@@ -1182,7 +1182,7 @@ s31197	see secretly/watch unnoticed	<mu>, see, with <sim>, here secretly as in <
 s31198	falcons/hawks	<musi>, hawk, with the plural <te>; the English versions have falcons or hawks	
 s31199	hawks/falcons	<musite>, hawks or falcons, written with a capital at the start of a sentence	
 s31200	Muslim	a follower of Islam, and of or belonging to Islam; {Muslim biakinn} is a mosque and {Muslim gam} a Muslim country	
-s31201	mosque	Muslim and <biakinn>, house of worship: a mosque, the usual Zolai name for it, often written beside the English word	
+s31201	mosque/masjid	Muslim and <biakinn>, house of worship: a mosque, the usual Zolai name for it, often written beside the English word	
 s31202	Islam/the Muslim religion	<Muslim> and <biakna>, religion: the religion of the Muslims, Islam; also said of its followers as a body, as in {Muslim biakna te}	
 s31203	Muslims	the English plural used in Zolai, often with <te>, for the followers of Islam	
 s31204	Muslims	<Muslim> with the plural <te>: the Muslims, the people who follow Islam	
@@ -1266,7 +1266,7 @@ s31287	Naarai	son of Ezbai, one of David’s mighty warriors
 s31288	Naaran	town on the eastern border of Ephraim	
 s31289		the noun suffix <na> written with a hyphen before the subject marker <in>: {kikhal kidek na-in} is restraining oneself, as the subject of the sentence	
 s31291	slime	in {a naai a bei toktol}, said where the English has a slug or snail that melts away as it goes; the word may name the slime or the creature itself	
-s31293	breathe	draw breath, as living beings do; {naak thei lo}, unable to breathe, is said of idols that have no life	
+s31293	breathe/respire	draw breath, as living beings do; {naak thei lo}, unable to breathe, is said of idols that have no life	
 s31294	source/spring/wellspring	the place something flows from, as in <tuinaak>, a spring of water; <thupha naak> is the source of blessing	
 s31295	if/as long as/provided	in {naak leh} after the verb of a condition, also written <naakleh> and <nakleh>: if indeed, as long as that is so; {ahih naak leh} is as long as it is	
 s31296	rib/ribs	a rib of a slaughtered animal, counted with <tang> as {anaak tang khat}, one rib; the bone is <nakguh>	
@@ -1663,7 +1663,7 @@ s31697	let kiss/allow to kiss	<nam>, kiss, with the causative <sak>: let someone
 s31698	Namhsan	town in the north of Shan State, Myanmar	
 s31699	sword	a weapon with a long blade; {namsau tawh that} is kill with the sword	
 s31700	swords	plural of <namsau>, sword	
-s31701	smelly/stinking/foul-smelling/fetid	having a bad smell, smell bad; {gim namsia} is a bad smell	
+s31701	smelly/stinking/foul-smelling/fetid/malodorous/noisome	having a bad smell, smell bad; {gim namsia} is a bad smell	
 s31702	very smelly/stinking	<namsia> and <lua> written as one word: smelling very bad, too smelly	
 s31703	of many kinds/varied	<nam>, kind, and <tam>, many, written as one word: of many kinds, in many kinds	
 s31704	many kinds/many sorts	<nam> and <tampi> written as one word: many kinds of something	
@@ -1673,7 +1673,7 @@ s31707	three kinds/three sorts	<nam> and <thum> written as one word: three kinds
 s31708	into three kinds/in three kinds	<namthum>, three kinds, with the ending <in>: into three kinds	
 s31709	of another kind/different/foreign/strange	<nam>, kind, with <tuam>, different: of another kind; {pau namtuam} is a tongue, a kind of speech the hearers do not understand, and {a namtuam khat} is one of a different tribe	
 s31710	of various kinds/various/assorted	<nam>, kind, with <tuamtuam>, various, written as one word and placed after a noun: of many different kinds	
-s31711	fragrant/sweet-smelling/sweet	having a pleasant smell; {a gim namtui} is a pleasing aroma, and {a namtui nate} are spices	
+s31711	fragrant/sweet-smelling/sweet/redolent	having a pleasant smell; {a gim namtui} is a pleasing aroma, and {a namtui nate} are spices	
 s31712	fragrance/sweet smell/scent	<namtui>, fragrant, with the noun ending {-na}: a pleasant smell	
 s31713	make fragrant/spread fragrance	<namtui>, fragrant, with the causative <sak>: make something smell sweet, fill with fragrance	
 s31714	fragrant/sweet-smelling	<namtui> with the plural ending <te>, placed after a noun; {sing namtuite} fragrant plants or spices, {gim namtuite} pleasing aromas	
@@ -1763,7 +1763,7 @@ s31802	there is/there are	<om>, be there, written together with the particle <na
 s31803	Naomi	wife of Elimelek of Bethlehem and mother-in-law of Ruth	
 s31804	kiss	touch with the lips as a greeting or a sign of love	
 s31805	smell/sniff	take in a smell through the nose	
-s31806	nasal mucus/snot	in {nap nit}, blow the nose at, a gesture of contempt; rendered sniff at in English	
+s31806	nasal mucus/snot/mucus	in {nap nit}, blow the nose at, a gesture of contempt; rendered sniff at in English	
 s31807	your surroundings/those around you/your neighbours	<na>, your, and <paam> written as one word, in the pairs {nakiim napaam} and {naveng napaam}: the people and the place around you, your neighbours	
 s31808	you go	<na>, you, and <pai>, go, written as one word: you go, your going	
 s31809	go yourself/go in person	<napai>, you go, and <tektek>, own or very, written as one word: you yourself going there in person	
@@ -1854,7 +1854,7 @@ s31895	all the workers/all the staff	<nasem>, worker, with <teng>, here all of t
 s31896	new worker/new staff/new employee	<nasem>, worker, and <thak>, new, written as one word: a worker who has just started	
 s31897	can work/be able to work	<nasem>, work, and <thei>, can, written as one word	
 s31898	be able to work/work well	<nasem>, work, with <zo>, be able, written as one word: be able to work or to get work done; {nasemzo nawnlo} is no longer able to work	
-s31899	work/job/service/duty/occupation/task	the work a person does or is given to do: a task, a duty, an occupation; from <na>, work, and <sep>, do	
+s31899	work/job/service/duty/occupation/task/employment	the work a person does or is given to do: a task, a duty, an occupation; from <na>, work, and <sep>, do	
 s31900	employer/the one who gives work	<nasep>, work, and {a guan}, who provides: stands before a noun such as Boss or Employer, or alone, for the one who gives work to others, an employer	
 s31901	working hours/work time/working time	<nasep>, work, and <hun>, time: the hours or days of work of a job, a heading in job notices, followed by the hours or the number of days	
 s31902	stop work/quit work/leave a job	<nasep>, work, and <khawl>, here stop or rest: to stop working, either for a time or by leaving a job; with <sak> after it, to make somebody stop work, to suspend or dismiss	
@@ -1877,7 +1877,7 @@ s31918	go to work/set out for work	<nasep>, work, and <kuan>, set out, written a
 s31919	term of office/working year/year of service	<nasep> and <kum> written as one word: the year or the years for which someone holds an office or does a work	
 s31920	not working/off duty	<nasep>, work, and <loh>, not, written as one word: being without work or off duty; {naseploh hunsung} is while off duty	
 s31921	workplace		
-s31922	work/labour/working		
+s31922	work/labour/working/employment		
 s31923	task/mission		
 s31924	creation		
 s31925	work/service/acts/deeds	<nasepna> written with a capital at the start of a sentence or in a title; {Solomon’ Nasepna Laibu} is the book of the acts of Solomon	
@@ -1905,7 +1905,7 @@ s31946	work also/the job too	<nasep>, work, and <zong>, also, written as one wor
 s31948	Nahshon	son of Amminadab and father of Salmon, leader of the tribe of Judah in the wilderness and an ancestor of David	
 s31949	Nashville	city in the state of Tennessee in the United States, home of a Zomi community	
 s31950	you die	<na>, you, and <si>, die, written as one word; the same letters are also the Malay word for rice in names of dishes such as Nasi Lemak	
-s31951	severe/grievous/intense/grave/serious	very great in a bad or painful way, of famine, sin, grief or punishment; {nasia takin} is severely, bitterly	
+s31951	severe/grievous/intense/grave/serious/drastic	very great in a bad or painful way, of famine, sin, grief or punishment; {nasia takin} is severely, bitterly	
 s31952	greatly/tremendously/impressively	as an intensifier with no bad meaning, of something done or found on a grand scale: {nasia takin} before a verb is in a big way, and {nasia} before <thupi> is very grand	
 s31953	too severe/so terrible	<nasia>, severe, with <lua>, too much: so severe or terrible, said of a plague	
 s31954	you are skilled/you are good at	<na>, you, and <siam>, skilled, written as one word: you are skilled, you are good at the thing named before it	

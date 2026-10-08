@@ -86,7 +86,7 @@ s44084	explain/make clear/clarify	<tel>, clearly, with <gen>, tell: tell somethi
 s44085	explanation/clarification	noun of <telgen>, explain: an explanation that makes a matter clear	
 s44086	definition	the statement of what a word or term means, a definition	
 s44087	progress/advance/prosper	of work or of a person’s way, go forward well; {ma telh} is make progress	
-s44088	hard to understand/difficult to grasp	<tel>, understand, with <hak>, hard: difficult to understand	
+s44088	hard to understand/difficult to grasp/abstruse	<tel>, understand, with <hak>, hard: difficult to understand	
 s44089	Tel Harsha	town in Babylonia from which some exiles returned to Judah who could not show that their families were of Israel	
 s44090	make prosper/give success/cause to advance	<telh>, progress, with the causative <sak>; {ma telhsak} is make someone go forward, give success	
 s44091	should be understood/worth understanding	<tel>, understand, with <huai>, worthy of, written as one word: something that people ought to understand	
@@ -164,8 +164,8 @@ s44164	knife/blade	a knife or blade for cutting
 s44165	Tema	son of Ishmael; also the people and the region of Arabia named after him	
 s44166	Temah	ancestor of a family of temple servants who returned from the exile	
 s44167	Teman	son of Eliphaz and grandson of Esau, a chief of Edom; also a region of Edom, the home of Eliphaz the friend of Job	
-s44168	ship/boat	a ship or large boat that goes on the sea; also written <teembaw>	
-s44169	harbour/port/dock	<tembaw>, ship, and <khawlna>, stopping place: the place where ships stop, a harbour or port; often followed by <mun>, place, and a town name stands before it	
+s44168	ship/boat/water-craft	a ship or large boat that goes on the sea; also written <teembaw>	
+s44169	harbour/port/dock/harbor	<tembaw>, ship, and <khawlna>, stopping place: the place where ships stop, a harbour or port; often followed by <mun>, place, and a town name stands before it	
 s44171	ship/large ship	<tembaw>, ship, with <pi>, big: a large ship such as a liner or a warship	
 s44172	ships/boats	<tembaw>, ship, with the plural <te>	
 s44173	knife handle/hilt/haft	<tem>, knife, with <bul>, base: the end of a knife that is held, its handle, made firm with a metal ring	
@@ -175,7 +175,7 @@ s44176	Temerloh	a town in the state of Pahang, Malaysia
 s44177	sharp knife/sharp blade/razor	<tem> knife with <hiam> sharp; {mulkiatna temhiam} is a sharpened razor	
 s44178	pruning knife/pruning hook/curved knife	<tem>, knife, with <kawi>, curved: a curved knife for pruning; {singhiang heuhna temkawi} is a pruning hook	
 s44179	pruning hooks/pruning knives	<temkawi>, pruning knife, with the plural <te>	
-s44180	knife sheath/sheath	<tem>, knife, with <paai>, sheath: the sheath of a knife, worn strapped at the waist	
+s44180	knife sheath/sheath/scabbard	<tem>, knife, with <paai>, sheath: the sheath of a knife, worn strapped at the waist	
 s44181	razor/razor blade	a thin sharp blade used for shaving beard and moustache; also used as a weapon	
 s44182	temperature	degree of heat or cold of the weather or of the body, given in degrees	
 s44183	large knife/machete/chopper	<tem>, knife, with <pi>, big: a large knife or chopper, also one used as a weapon; in some articles {tempi} is a misspelling of <tampi>, many	
@@ -263,7 +263,7 @@ s44266	live on/dwell permanently	<ten> live with <suak> through, onward: go on l
 s44267	stubbornly/obstinately/persistently	placed after a verb: keep on doing it in a hard, unyielding way, as in {zui tentan}, follow stubbornly	
 s44268	resettlement/permanent settlement	among refugees, settling for good in another country; with <kah>, as in {tentan kah}, go abroad for resettlement, and {tentan kahna}, the going or the place that handles it	
 s44269	persistently/firmly/stubbornly	placed after a verb: keeping on with it without letting go, as following one's own will or holding oneself in	
-s44270	persistence/insistence/obstinacy	<tentan>, persistently, with the noun suffix {-na}, placed after a verb: the fact of keeping on doing it without yielding	
+s44270	persistence/insistence/obstinacy/pertinacity	<tentan>, persistently, with the noun suffix {-na}, placed after a verb: the fact of keeping on doing it without yielding	
 s44271	persistently/stubbornly	after a verb, apparently that the doing goes on insistently and does not stop; {do tenten} seems to be keep on fighting and {ci tenten} keep on saying	
 s44272	be able to dwell/be able to live	<ten>, dwell, with <theih>, be able; {na tentheih nadingun}, so that you may live	
 s44273	being able to stay	<tentheih> be able to live with the noun suffix <na>; {a tentheihna ding mun} is a place where they can stay	
@@ -322,7 +322,7 @@ s44326	also/too	the plural marker <te> and <zong>, also, written as one word aft
 s44327	as for those also	the plural marker <te>, <zong>, also, and the topic marker <pen> written as one word after a noun: as for these too, those also	
 s44328		written abbreviation of <Taang>, he, and the title before the name of a young man, as <Lia> is used of a girl	
 s44329	strength/power/energy	the strength or energy of the body; {tha neih khempeuh tawh} is with all the strength one has, and {tha neem} is lose strength	
-s44330	pass/discharge	let out urine or stool from the body; {zun tha} is pass urine, also written as one word <zuntha>	
+s44330	pass/discharge/excrete	let out urine or stool from the body; {zun tha} is pass urine, also written as one word <zuntha>	
 s44331	support/back/encourage	<tha>, strength, and <pia>, give, here with the prefix {a-}: give strength to, that is support or encourage a person, party, team or cause, which is named before the pair; {tha apia} is also the one who supports, a supporter	
 s44332	encourage us/support us/give us strength	<tha>, strength, and <hongpia>, give to us or to me: encourage or support the speaker or the group of the speaker, by words, help or gifts; the form of <thapia> used when the help comes to the one who speaks, common in thanks, as in {tha hongpia khempeuh}, all who supported us	
 s44333	be encouraged/be heartened/gain strength	<tha>, strength, with <kingah>, be obtained: one is encouraged or given new heart by something heard or seen; the people who feel so stand before it with <in>	
@@ -336,7 +336,7 @@ s44346	wages/hire/reward	pay for labour; {thacial nasempa} is a hired labourer
 s44347	hired men/hired workers	<thacial> wages with the plural <te>: those who work for wages	
 s44348	courageously/vigorously	<thacing>, full of strength, with the connective <in>: being vigorous as a man is	
 s44349	stronger/sturdier	<thacing>, full of strength, with <zaw> more: of better build or greater vigour	
-s44350	lazy/idle/slothful/indolent	unwilling to work; {mi thadah} is a lazy person	
+s44350	lazy/idle/slothful/indolent/shiftless	unwilling to work; {mi thadah} is a lazy person	
 s44351	wearisome/loathsome/detestable	<thadah> lazy, unwilling, with <huai> causing: such that one has no wish for it; {zak thadahhuai sa} is find it loathsome to hear	
 s44352	lazily/idly	<thadah> lazy with the adverb ending <in>	
 s44353	laziness/sloth/idleness	<thadah>, lazy, with the noun suffix <na>: unwillingness to work	
@@ -449,11 +449,11 @@ s44463	grow weary/weaken/lose strength	<tha> strength and <kiam> decrease; {a th
 s44464	weariness/loss of strength	<thakiam>, grow weary, with the noun suffix <na>: weariness; written with a capital at the start of a sentence	
 s44465	weaken/make weary	<thakiam> lose strength with the causative <sak>; {thakiamsak loin} is without letting strength fail	
 s44466	lose strength/fail in strength	<tha> strength with <kiat>, a form of <kia> fall, used before <ciangin>	
-s44467	anew/afresh/newly	<thak>, new, with the adverb ending <in>: anew; {bawl thakin} and {a thakin bawl} are make new, renew	
+s44467	anew/afresh/newly/freshly	<thak>, new, with the adverb ending <in>: anew; {bawl thakin} and {a thakin bawl} are make new, renew	
 s44468	itching	<thak> itch, with <in>; of ears that itch to hear something	
 s44469	new	<thak>, new, with the agent marker <in> after a noun or title: the new one as the doer of the action, {President thakin} the new president does something; not the adverb anew	
 s44470	a new/a new one	<thak> and <khat> written as one word, after a noun: a new one, as in {ngaihsutna thakkhat}, a new idea	
-s44471	renewal/newness	<thak>, new, with the noun suffix <na>, usually after a verb: {bawl thakna} is renewal, {kipat thakna} a new start, {nuntak thakna} new life	
+s44471	renewal/newness/novelty/regeneration	<thak>, new, with the noun suffix <na>, usually after a verb: {bawl thakna} is renewal, {kipat thakna} a new start, {nuntak thakna} new life	
 s44472	itching/itch	<thak> in its sense of itch, with <na>: an itching of the skin, named among the signs of an illness as in {ci le sa thakna}; not the sense renewal	
 s44473	new	<thak> new with <nu> marking a woman; {mo thaknu} is a new bride	
 s44474	new	<thak> new with <pa> marking a man; {kumpi thakpa} is the new king	
@@ -481,7 +481,7 @@ s44495	working for/earning	<thalawh>, work to earn something, with the linking e
 s44496	earning/work done to earn	<thalawh>, work to earn something, with the noun ending <na>: what one does to earn a thing	
 s44497	earnings/what one has worked for	<thalawh> with <sa> already done: what has been earned by labour; before a noun, earned: {a thalawhsa sum}, the money she earned	
 s44498	wage earners/those who earn	<thalawh> work for wages with the plural <te>; {sum thalawhte} are those who earn money	
-s44499	energetic/vigorous/eager/ardent/keen	<tha> strength with <lawp> be eager; {thalawp takin} is vigorously, with energy	
+s44499	energetic/vigorous/eager/ardent/keen/vibrant	<tha> strength with <lawp> be eager; {thalawp takin} is vigorously, with energy	
 s44500	enthusiasm/zeal/morale/motivation/ardour	eagerness and energy for a task, the noun of <thalawp>	
 s44501	encourage/inspire/motivate/energise	<thalawp>, eager, with the causative <sak>: give someone strength and eagerness, lift the spirits	
 s44502	strength and	<tha>, strength, and <leh>, and, written as one word	
@@ -508,7 +508,7 @@ s44522	objection/rejection/protest	the act of rejecting or objecting to a decisi
 s44523	throw down/cast down/hurl	fling away with force, as an army into the sea	
 s44524	one who hurled/one who swept away	<thalpaih> throw down with <pa> marking a male person: he who hurled them	
 s44525	bow	a bow for shooting arrows, built on <thal> bow; {thalpeu tel} is a faulty bow that misses its mark	
-s44526	bow	<thal> bow with <pi> great: the bow as a weapon of war	
+s44526	bow/long-bow	<thal> bow with <pi> great: the bow as a weapon of war	
 s44527	bows	plural of <thalpi>, the bow as a weapon of war	
 s44528		only in the saying <Zawng nek ngau in thalpu>, which the book explains as one suffering for what another did; apparently <thal>, bow, with a word for carry: take the shot, bear the blame	
 s44529	fall backward/fall over	fall over backward, as Eli fell from his seat	
@@ -627,7 +627,7 @@ s44645	Thanhniar
 s44646	chameleon	a lizard that changes its colour; a person who keeps changing is compared to it	
 s44647	chameleon	a kind of lizard, the last in the list of unclean creeping things, where the NIV has chameleon	
 s44648	Thanlyin	town and township across the river from Yangon in Myanmar	
-s44649	fame/renown/being famous	noun form of the verb in <minthang>, famous, used after <min>, name: {min thanna} is the fame of a name	
+s44649	fame/renown/being famous/popularity	noun form of the verb in <minthang>, famous, used after <min>, name: {min thanna} is the fame of a name	
 s44651	be diligent/be eager	form of <thanuam> eager, diligent, used before another verb or <nading>	
 s44652	inspiring/worth being eager about	<thanop>, the form of <thanuam>, be eager, used before a suffix, with <huai>, worthy of: inspiring	
 s44653	eagerness/enthusiasm/willingness/diligence	<thanop> be eager, willing to work, with the noun suffix <na>; {thanopna tawh} is wholeheartedly	
@@ -696,7 +696,7 @@ s44718	keep on killing	<that> kill, doubled to show that the act goes on and on
 s44719	kill rather/kill instead	<that>, kill, with <zaw>, rather: kill instead, as the better thing to do	
 s44720	manage to kill/succeed in killing	<that> kill with <zo> be able, succeed; {thatzo dektak} is almost kill	
 s44721	fat	the fat of an animal, especially the fat parts burned on the altar in an offering	
-s44722	fat/fattened/corpulent	well fed and full of flesh, said of animals; {bawngno thau} is a fattened calf	
+s44722	fat/fattened/corpulent/fleshy	well fed and full of flesh, said of animals; {bawngno thau} is a fattened calf	
 s44723	gun/firearm	a weapon that shoots bullets, not animal fat; the words around it show this, as <tawh>, <kap>, {thau tawi}, carry a gun, and {thau kikapna}, a shooting	
 s44724	Thau		
 s44725	gun/firearm/rifle	<thau>, here gun, and <lawng>, here the counting word for guns: a gun as one piece; a number follows, {thau lawng 6}, six guns	
@@ -809,7 +809,7 @@ s44832	Thebez	town near Shechem where Abimelek son of Gideon was killed by a mil
 s44833	thin/shrivelled/withered	said of heads of grain that are poor and empty; which of the three English words it answers to is not certain	
 s44834	scorch/blast/wither	<theem>, thin, with the causative <sak>: of the east wind, make ears of grain thin and dried up	
 s44835	scorching/withering	<theemsak> cause to shrivel with the connective <in>; said of the east wind blasting ears of grain	
-s44836	sprinkle/splash	throw a liquid in drops over something, as blood on the altar or oil before the Lord	
+s44836	sprinkle/splash/besprinkle	throw a liquid in drops over something, as blood on the altar or oil before the Lord	
 s44837	sprinkling/splashing/scattering	<theh>, sprinkle, with the linking ending <in>: sprinkling, before the next action in the sentence	
 s44838	throw out/spew out/give off	<theh>, sprinkle, with <khia>, out, written as one word: send out in a spray or cloud, as a volcano its ash or a flower its scent; with <ki>, be thrown out	
 s44839	sprinkling/splashing	<theh> sprinkle with the noun suffix <na>: the act of sprinkling blood	
@@ -904,7 +904,7 @@ s44927	inabilities/things one cannot do	plural of <theihlohna>; after a verb it 
 s44928	know very well/know so much	<theih>, know or be able, and <luat>, so very, written as one word: know something only too well; in some sentences be very possible	
 s44929	before being able	<theih> able with <ma> before, placed after a verb: before one could do it	
 s44930	before knowing/before learning	<theih> in the sense know, with <ma> before: before one knew or came to know a thing, after a pronoun such as <a> or <i> and not after another verb; followed by <in> or {pek-pan}	
-s44931	knowledge/cognisance/knowing	<theih>, know, with the noun suffix <na>: what one knows, knowledge	
+s44931	knowledge/cognisance/knowing/learning	<theih>, know, with the noun suffix <na>: what one knows, knowledge	
 s44932	understanding	the power to think and understand; {thu ngaihsut theihna} is good sense or discretion	
 s44933	ability/possibility/means	<thei>, can, with the noun ending, after another verb: being able to do it; {theihna ding} or <theihna dingin> is so that it can be done, and {theihna lampi} is a way to do it	
 s44934	so that it may be possible/in order to be able to	<theihna>, here being able, and <dingin>, in order to: placed after a verb, so that it can be done; another way of writing <theih nadingin>	
@@ -986,7 +986,7 @@ s45011	I do not know/I cannot	<thei> with the ending {-keng}, the negative of th
 s45012	experience/come to know/know	get to know or taste something for oneself; with {ngei lo} or {nai lo}, never having experienced	
 s45013	not know/be unaware/not notice	<theikha> and <lo> written as one word: not come to know of something, be unaware of it	
 s45014	know together/understand together	<thei> know with <khawm> together	
-s45015	find out/discover/come to know	<thei>, know, with <khia>, out: come to know something by searching or thinking it through	
+s45015	find out/discover/come to know/detect	<thei>, know, with <khia>, out: come to know something by searching or thinking it through	
 s45016	misunderstand/mistake/take wrongly/misapprehend	<thei>, know, and <khial>, wrongly, written as one word: understand or take something wrongly; {ki theikhial} is be mistaken for or wrongly held to be so	
 s45017	come to know/find out	<theikhia> with <pan>, here only then, written as one word: came to know at that point, found out for the first time	
 s45018	already know/know fully	<thei> know, with <khin>, already, completely	
@@ -1170,7 +1170,7 @@ s45195		descriptive word placed after <kil>, said of long hair that is wavy or c
 s45196	Thantlang/Thlantlang	a town and township of Chin State in Myanmar, named among the nine townships of the state	
 s45197	Thlualam		
 s45198	rise/get up/arise	get up from lying, sitting or sleep, and so rise to act; {tho in} is the command get up, and {Pasian tho hen} is may God arise	
-s45199	fly/insect	a fly or other small flying insect that settles on people or bites them; a noun apart from the verb {tho}, rise, found also in the plural <thote>	
+s45199	fly/insect/house-fly	a fly or other small flying insect that settles on people or bites them; a noun apart from the verb {tho}, rise, found also in the plural <thote>	
 s45200	rise/stand up/get up	<tho>, rise, written with a capital at the start of a sentence, mostly in the commands {Tho in} and {Tho un}, get up	
 s45201		<tho.2>, fly, with the marker <in.2> of the doer: the flies, as the ones that act	
 s45202	rise early/get up early	<tho>, rise, with <baih>, early: get up early in the morning	
@@ -1320,7 +1320,7 @@ s45345	if one suffers/when one undergoes	<thuak>, suffer or undergo, and <leh>, 
 s45346	suffer/bear the consequences	<thuak>, suffer, with <lel>: have to suffer something, be left to bear it	
 s45347	not suffer/not bear	<thuak>, suffer or bear, and <lo>, not, written as one word; {bek in thuaklo} is not only that one suffers	
 s45348	before suffering	<thuak>, suffer, with <ma>, before, and the suffix <in>: before suffering something	
-s45349	suffering/affliction/endurance/torment	<thuak>, suffer or bear, with the noun suffix <na>: what a person suffers, and also the patient bearing of it	
+s45349	suffering/affliction/endurance/torment/anguish	<thuak>, suffer or bear, with the noun suffix <na>: what a person suffers, and also the patient bearing of it	
 s45350	object	grammar term: what the action of the verb falls on, the object of a sentence, as {la khat} in {Lia in, la khat a sa hi}; also called <athuakpa>	
 s45351	object position/place of the object	grammar term: the place of the object in a sentence, <thuakna> with <mun>, place; English pronouns change their form there, as I to me	
 s45352	past suffering	<thuakna> suffering with <sa> already: what someone has already suffered	
@@ -1485,7 +1485,7 @@ s45515	will teach/to instruct/to discipline	<thuhilh> and <ding> written as one 
 s45516	teaching/instructing/disciplining	<thuhilh>, teach, with the linking ending <in>: teaching, giving instructions to, or disciplining someone while doing something else	
 s45517	punish again/discipline further	<thuhilh> discipline with <kik> again	
 s45519	teaching/doctrine/instruction	<thuhilh>, teach, with the noun suffix <na>: what is taught, or the act of teaching	
-s45520	discipline/rebuke/correction	correction by rebuke or punishment	
+s45520	discipline/rebuke/correction/admonition	correction by rebuke or punishment	
 s45521	Ecclesiastes		
 s45522	teachings/precepts/statutes	plural of <thuhilhna>: the things God or a teacher teaches	
 s45523	teacher/preacher/overseer	<thuhilh>, teach, with <pa> for a man: the man who teaches, preaches or corrects; in 1 Timothy 3 the office of overseer	
@@ -1496,7 +1496,7 @@ s45527	teachers	<thuhilh>, teach, with the plural <te>: those who teach
 s45528	have sealed/have signed	<thuh> seal, stamp with <khit> finished; <letmat thuh> is put a signature to an agreement	
 s45529	avenge/take vengeance/repay	<thuh>, repay, with <kik>, back: pay back a wrong, take vengeance	
 s45530	vengeance/revenge/retaliation	<thuhkik>, pay back a wrong, with the noun suffix <na>	
-s45531	response/reply/feedback	an answer given back to a speaker or writer, without any thought of revenge: the reply to a letter, or the feedback that listeners give, as in {thuhkikna la}, take feedback	
+s45531	response/reply/feedback/rejoinder	an answer given back to a speaker or writer, without any thought of revenge: the reply to a letter, or the feedback that listeners give, as in {thuhkikna la}, take feedback	
 s45532	way to respond/how to strike back	<thuhkik>, repay or strike back, and <ziading>, the way to do it, written as one word: how to respond to an attack	
 s45533	sealing/stamping	<thuh> press a seal on, with the noun suffix <na>; {min thuhna zungbuh} is a signet ring, the ring that stamps the name	
 s45534	reward/repayment/recompense	what is given back in return for something done	
@@ -1516,7 +1516,7 @@ s45547	payback		of loan, debt
 s45548	respond/reply/answer	give an answer to a message, a letter or a question	
 s45549	sour/acid	sour or acid in taste	
 s45550	deep/profound	deep, of a valley or the night, and of the mind, love or words, as in {lungsim thuk}; {thuk takin} is deeply; the same word as <thuuk> and <athuk>, not the taste or the paying back	
-s45551	hearth/set of hearthstones	the three stones of the fireplace taken as one: three hearthstones, {suangthu thum}, are {thuk khat}, one hearth; not the words for deep, sour and repay	
+s45551	hearth/set of hearthstones/fire-place	the three stones of the fireplace taken as one: three hearthstones, {suangthu thum}, are {thuk khat}, one hearth; not the words for deep, sour and repay	
 s45553	gather news/compile	<thu> news with <kai> pull, gather; {thukai khawm} at the foot of a news article names those who gathered the news together	
 s45554	spy/scout	one who secretly searches out information about a land or an enemy, from <thu>, matter, and <kan>, search	
 s45555	inquire/investigate/ask	look into a matter or ask for guidance, from <thu>, matter, and <kan>, search; {Topa kiangah thukan} is to inquire of the Lord	
@@ -1575,7 +1575,7 @@ s45609	court/high court	<thukhenzum>, court, with the augmentative <pi>: a court
 s45610	wrong/injustice	<thu> matter with <khialhna> error: something that is not right	
 s45611	have regard/be considerate/show mercy	care about what is right and about other people; in the verses only negated, {thukhual lo}, ruthless	
 s45612	consideration/respect/mercy	regard for other people; {thukhualna nei lo} is ruthless, without respect	
-s45613	rule/regulation/law/principle	a rule or the rules that must be followed, as the law of a government or the rules of an organisation; {thukhun om bangin} is according to the law	
+s45613	rule/regulation/law/principle/precept	a rule or the rules that must be followed, as the law of a government or the rules of an organisation; {thukhun om bangin} is according to the law	
 s45614	according to the law/under the law/as the rules stand	<thukhun>, rule or law, with <ombang>, as there is: followed by <in>, in accordance with the law in force; after the name of an act or section, under that provision, as in reports of charges brought	
 s45615	according to the law/as the rules provide/under the law	<thukhun>, rule or law, with <ombang>, as it stands, and <in>: in accordance with the law or rule in force; the name or section of the law stands before it and the action taken follows, as in <thu kibawlding>, will be charged	
 s45616	break the law/violate the law/commit an offence	<thukhun>, law or rule, and <palsat>, transgress: to break the law; the law that is broken stands before it, as in {Immigration Act thukhun palsat}, and with <te> it names the offenders	
@@ -1604,20 +1604,20 @@ s45639	agree/consent/acquiesce	be of one mind about a matter, or accept what is 
 s45640	agreeing/in agreement	<thukim> agree with the linking suffix <in>; with <tawh>, with the consent of someone	
 s45641	disagree/not consent/refuse	<thukim>, agree, and <lo>, not, written as one word: not agree to what is asked or proposed	
 s45642	not agree/without consent	<thukim>, agree, and the negative <loh> written as one word, mostly before <in>: without the agreement or consent of the one named	
-s45643	agreement/consent/covenant/accord/compact/treaty	<thukim>, agree, with the noun suffix <na>: the state of being agreed, or the agreement or pact that is made	
+s45643	agreement/consent/covenant/accord/compact/treaty/concord	<thukim>, agree, with the noun suffix <na>: the state of being agreed, or the agreement or pact that is made	
 s45644	it was agreed/an agreement was made	<thukimna>, agreement, and <kinei>, here the passive of <nei>, have: an agreement is reached; follows a clause ending in <dingin> that says what was agreed, and closes reports of meetings	
 s45645	written agreement/agreement/treaty	<thukimna>, agreement, with <laipi>, document: the written agreement that the parties sign, on this page the Panglong Agreement of 1947	
 s45646	signature to an agreement/signing	<thukimna>, agreement, and <letmat>, signature: the signature that binds a party to an agreement or treaty; it is the object of <thuh>, to put down, and {thukimna letmat thuh} is to sign or accede to an agreement	
 s45647	reach an agreement/agree/make a deal	<thukimna>, agreement, and <nei>, have: come to an agreement or decide together; what is agreed stands before it, mostly as a clause ending in <ding> or <dingin>	
 s45648	agreements	<thukimna> agreement with <sa> already and plural <te>: the things that have been agreed; the NIV wording of the verse differs	
 s45649	agreements/resolutions	plural of <thukimna>: the points agreed on, the resolutions of a meeting or conference	
-s45650	agree with/approve/consent to/permit/endorse	be of one mind with someone about a matter, approve what is done or grant a request; {Topa in hong thukimpih nakleh} is if the Lord permits	
+s45650	agree with/approve/consent to/permit/endorse/assent/concede	be of one mind with someone about a matter, approve what is done or grant a request; {Topa in hong thukimpih nakleh} is if the Lord permits	
 s45651	agreeing with/approving/consenting to	<thukimpih> agree with, approve, with the linking suffix <in>	
 s45652	approval/agreement	<thukimpih> agree with, with the noun suffix <na>; in the verse a sign of God's approval	
 s45653	have agreed/agreed	<thukim> agree with <sa> already done	
 s45654	deep	<thuk> deep with the linking ending <in>, being deep; after a measure, to that depth	
 s45655	serve/dish out	in {an thukin}, serving out food to people at a meal	
-s45656	urgent/emergency/pressing	<thu> matter with <kin> urgent: an urgent matter, and before a noun urgent or emergency, as in {thukin tangkona} urgent announcement, {thukin kikupna} emergency meeting and {a thukin lua} very urgent; not the {thukin} that means deep	
+s45656	urgent/emergency/pressing/exigent	<thu> matter with <kin> urgent: an urgent matter, and before a noun urgent or emergency, as in {thukin tangkona} urgent announcement, {thukin kikupna} emergency meeting and {a thukin lua} very urgent; not the {thukin} that means deep	
 s45657	firm word/sure word/decree	<thu> word with <kip> firm: a word or ruling that stands and is not changed	
 s45658	be sentenced/be ordered	<thu>, word or order, and <kipia>, be given, written as one word: a ruling is given, said in news reports of a court that sentences someone, as in {thong kiading in thukipia}, sentenced to prison	
 s45659	firmly/with sure counsel	<thukip> firm word with the suffix <in>; the verse says counsel and understanding are God's	
@@ -1703,7 +1703,7 @@ s45739	three	the number three; {a ni thum ni} is the third day, {thum vei} is th
 s45740	beg/ask/plead/implore	ask earnestly; {kong thum hi} and {hong thum ing} are said with a request, I beg you, please	
 s45741	three	<thum>, three, written with a capital in the place name {Mangbuk Thum}, Three Taverns, and at the start of a sentence, as in {Thum vei}, three times	
 s45742	introduction/what comes before	<thu>, matter, with <ma>, before: what comes before a matter, and as a heading the introduction; <thunung thuma> is the before and after of a matter, its background and its consequences	
-s45743	right/true/faithful	another spelling of <thuman>	
+s45743	right/true/faithful/truthful/upright	another spelling of <thuman>	
 s45744	truth/what is right	{thumaan} standing alone as a noun, without <thutak> and not describing a person or thing: the truth, what is true and right, which one knows, speaks, hates or lacks	
 s45745	truth/truth and righteousness	<thumaan>, right, and <thutak>, truth, said as a pair: the truth, what is right and true; also written <thuman thutak>	
 s45746	rightly/justly/truthfully/in righteousness	<thumaan>, truth or what is right, and <in> written as one word: in a true and upright way	
@@ -1732,7 +1732,7 @@ s45769	injustice/unrighteousness	<thuman>, truth or right, with <loh>, not, and 
 s45770	dishonesty/cheating/corruption	an act of not being honest in an office, an exam or a deal, as {laihuanna thumanlohna}, cheating in an exam; said of single acts that can be punished, where the other sense is injustice as a state	
 s45771	falsely/untruthfully/unjustly	<thuman>, true, and <lopi>, without, written as one word: without being true or right; with a verb of writing or saying, what is untrue	
 s45772	the unjust/the unrighteous	<thumanlo>, unrighteous, with the plural <te>: unjust people	
-s45773	righteousness/faithfulness/truth/justice/loyalty	<thuman>, right and true, with the noun suffix <na>: righteousness, faithfulness or truth, said of God and of people	
+s45773	righteousness/faithfulness/truth/justice/loyalty/fidelity	<thuman>, right and true, with the noun suffix <na>: righteousness, faithfulness or truth, said of God and of people	
 s45774	truth and honesty/integrity/uprightness	<thumanna>, truthfulness, <leh>, and, <cihtakna>, honesty: the fixed pair that names integrity of character, held up as the mark of the Zomi	
 s45775	faithfulness/faithful acts	<thumanna>, faithfulness, with the plural <te>: the faithful dealings of God toward a person	
 s45776	righteous man/faithful one/honest man	<thuman>, righteous and true, with <pa> marking a man: one who is righteous or true to his word	
@@ -1890,14 +1890,14 @@ s45928	blessings	<thupha>, blessing, with the plural <te>; {Kha Siangtho piak th
 s45929	take heed/be aware/pay attention	<thu>, matter, with <phawk>, notice: be aware of how things stand and take them to heart; {thuphawk loin} is heedlessly or complacently, and {thuphawk theih lohna} is a heart that cannot take things in	
 s45930	warning/awareness/heed	<thuphawk>, take heed, with the noun suffix <na>: a warning that makes one aware; {thuphawkna ngah} is be warned	
 s45931	experienced/discerning/respected	<thuphawk>, be aware of matters, with <sa>, already: experienced, having come to know how things are; said of men fit to lead	
-s45932	important/great/special/solemn	<thu>, matter, with <pi>, great: of great weight or worth; {a thupi lo} is unimportant, {thupi takin} is solemnly, and {thupi ngaihsut} is count as important	
+s45932	important/great/special/solemn/distinguished/significant	<thu>, matter, with <pi>, great: of great weight or worth; {a thupi lo} is unimportant, {thupi takin} is solemnly, and {thupi ngaihsut} is count as important	
 s45933	I value/I appreciate/I hold in high regard	<thupi>, important, and <kasa>, I find: I regard the person or thing named before it as important, said in thanks and tribute; often followed by <mahmah>	
 s45934	be highly regarded/be admired/be thought important	<thupi>, important or great, and <kisa>, be considered: be thought great, be held in high regard; the person or deed that is admired stands before it, often with <pen>, and <mahmah> often follows	
 s45935	give an order/command/issue an order/order	<thu>, word, with <pia>, give: give an order or command; the form used before another word is <thupiak>	
 s45936	command/order	form of <thupia>, give an order, used before another word; {a thupiak bangin} is just as he commanded	
-s45937	command/order/commandment	used as a noun after the one who gives it: an order of a ruler, the police or God, as in {Pasian thupiak}, the command of God, and {Thupiak 10}, the Ten Commandments; sense 1 is the verb	
+s45937	command/order/commandment/decree	used as a noun after the one who gives it: an order of a ruler, the police or God, as in {Pasian thupiak}, the command of God, and {Thupiak 10}, the Ten Commandments; sense 1 is the verb	
 s45938	warning/advance instruction/revelation	<thupiak>, command, with <kholh>, beforehand, and the noun suffix <na>: a word given in advance about what is to come, a warning or revelation	
-s45939	command/commandment/order/decree	<thupiak>, command, with the noun suffix <na>: a command or order; {thupiakna zui} or <mang> is keep a command	
+s45939	command/commandment/order/decree/behest	<thupiak>, command, with the noun suffix <na>: a command or order; {thupiakna zui} or <mang> is keep a command	
 s45940	commands/commandments/orders	<thupiakna>, command, with the plural <te>	
 s45941	commanded	<thupiak>, command, with <sa>, already: what has been commanded; {a thupiaksa bangin} is just as he had commanded	
 s45942	commands/things commanded/instructions	<thupiaksa>, what has been commanded, with the plural <te>	
@@ -1916,7 +1916,7 @@ s45956	proverb/wise saying/maxim/aphorism	a short saying that holds wisdom, <thu
 s45957	take seriously/regard as important/honor	<thupi>, important, with <lak>, take: take seriously, treat as important; the same verse also writes it as {thupi takin lak}	
 s45958	unimportant/trivial/not important/insignificant	<thupi>, important, and <lo>, not, written as one word	
 s45959	very important/so important	<thupi> and <lua> written as one word; with <lo> or <ahilo>, not so important	
-s45960	dignity/splendor/honor/greatness/excellence/nobility/splendour	<thupi>, great or honorable, with the noun suffix <na>: dignity or splendor; {lungsim thupina} is integrity of heart	
+s45960	dignity/splendor/honor/greatness/excellence/nobility/splendour/glory/grandeur/majesty	<thupi>, great or honorable, with the noun suffix <na>: dignity or splendor; {lungsim thupina} is integrity of heart	
 s45961	importance/significance	how much a thing matters, said of everyday things such as food, health or a habit and not of the splendor of a person; usually {a thupina}, its importance, after a verbal noun, or beside <manphatna>	
 s45962	glories/splendors/great things	<thupina>, greatness, with the plural <te>: the splendors or precious things someone once had, where the NIV has treasures	
 s45963	values/priority	<thupi>, important, and <ngaihsut>, consider, written as one word: what a person or group counts as important; once glossed with English values	

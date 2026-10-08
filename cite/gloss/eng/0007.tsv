@@ -124,7 +124,7 @@ s14122	collective noun	grammar term: a word used to name many persons or things 
 s14123	not open	<hon>, open, and <loh>, not, written as one word; {honloh phamawh} is it must be opened, it cannot stay shut	
 s14124	rescue first/save first	<hon.1>, save, and <masa>, first, written as one word: save this one before the others	
 s14125	watching/guarding	keeping watch over a field or vineyard; {lo honna buk}, a field watchman's hut; {honna ding tausang}, a watchtower	
-s14126	opening/opener	the act or means of opening; {honna tawhtang}, the key that opens; of a door, its bolt or handle	
+s14126	opening/opener/aperture	the act or means of opening; {honna tawhtang}, the key that opens; of a door, its bolt or handle	
 s14127	opening ceremony/inauguration/launch	the event at which a new house, office, memorial stone or book is formally opened or launched, held with <nei> or <kinei>; {thukong honna} is the opening address of a meeting	
 s14128	little flock	<hon> flock with <no> small, young	
 s14129	not want to open/refuse to open	<hon>, open, and <nuamlo>, not want, written as one word	
@@ -136,7 +136,7 @@ s14134	open at once/open immediately	<hon> open with <pah> at once
 s14135	opening ceremony/inauguration	<hon>, open, with <pawi>, festival: the ceremony at which a building, a school, a shop or an event is opened	
 s14136	crowd/multitude/swarm/throng	<hon>, group, with <pi>, great: a great crowd of people	as in people
 s14137	herd/crowd/horde/mob/swarm	a great herd or swarm of animals or insects, as in {kauphe honpi}, a swarm of locusts	as in animal
-s14138	large quantity/great number/lot	of things, not people or animals: a great amount, mostly as {honpi khat} after the noun, as in news of weapons, ammunition or vehicles that were seized	
+s14138	large quantity/great number/lot/passel/slew	of things, not people or animals: a great amount, mostly as {honpi khat} after the noun, as in news of weapons, ammunition or vehicles that were seized	
 s14139	Legion	<honpi>, a great crowd, written with a capital in {A Honpi}, the name given by the man with many demons, Legion in the NIV	
 s14140	a great many/a large amount of/a mass of	<honpi> and <khat> written as one word, placed after a noun: a great quantity or number of it	
 s14141	crowd/multitude/swarm/throng		plural form of <honpi>; as in, people
@@ -211,7 +211,7 @@ s14212	to rescue/will rescue	<hotkhiat>, rescue, and <ding> written as one word:
 s14213	worth saving/worth rescuing	<honkhia>, save, rescue, in the form used before a suffix, with <huai>, worthy of: worth saving	
 s14214	have rescued/be rescued	<hotkhiat>, rescue, and <khit>, after, written as one word: {aki hotkhiatkhit ciangin} is after he or she had been rescued	
 s14215	rescue again/save again	<hotkhiat>, rescue, with <kik>, again: rescue someone once more	
-s14216	salvation/deliverance/rescue	<hotkhiat>, save, with the noun suffix <na>: the act of saving, or the state of being saved from danger or sin	
+s14216	salvation/deliverance/rescue/liberation	<hotkhiat>, save, with the noun suffix <na>: the act of saving, or the state of being saved from danger or sin	
 s14217	Salvation	<hotkhiatna>, salvation, written with a capital as the name given to the walls of Zion	
 s14218	be saved/receive salvation	<hotkhiatna>, salvation, and <ngah>, receive: be saved, in church language of a person who is saved by God	
 s14219	redeemed/saved/delivered	<hotkhiat> with <sa>, already done; placed before the noun for the one who has been saved	
@@ -258,7 +258,7 @@ s14259	there/over there/thither	<hua>, that yonder, with <ah>: at or to that pla
 s14262		suffix added to a verb or adjective, worthy of or causing that feeling, as in {kihtak-huai} fearsome, <lauhuai> dreadful and <muanhuai> trustworthy	
 s14263		a named cut of a slaughtered animal, listed beside the neck, the shoulder and the leg and given by the piece, as {ahuai baak khat}; which part of the carcass it is has not been settled	
 s14264	to look after/to care for/to support	a verb for sheltering and looking after, the one found in <kihuai>, with <ding>: for looking after people, said of a body founded to care for the Zomi community; not the suffix <huai>	
-s14265	greedy/covetous	eager to have more than one needs; also used of greed or craving itself, as in {huaiham luatna}, great greed	
+s14265	greedy/covetous/hoggish	eager to have more than one needs; also used of greed or craving itself, as in {huaiham luatna}, great greed	
 s14266	greedily/in greed	<huaiham>, greedy, with the suffix <in>: in a greedy way, out of greed	
 s14267	greed/covetousness/craving/avarice/cupidity	<huaiham>, greedy, with the noun suffix <na>: the strong wish to have more than one needs	
 s14268	greed/covetous desires	plural of <huaihamna>: kinds or acts of greed	
@@ -907,7 +907,7 @@ s14927	Imphal	capital city of the state of Manipur in India
 s14928	Imrah	a descendant of Asher, son of Zophah	
 s14929	Imri	name of two men: the father of Zakkur who helped rebuild the wall of Jerusalem, and a man of Judah descended from Perez	
 s14930	see/we see	<i> and <muh> written as one word: that we see, what we see; {imuh theih} is that we can see	
-s14931	at	postpositional marker indicating place or time, equivalent in usage to the prepositions in, at, among	
+s14931	at/in	postpositional marker indicating place or time, equivalent in usage to the prepositions in, at, among	
 s14932	by	marker placed after the subject or doer of an action, as in {khuami khat in gen hi}, a villager said; usually left untranslated, and distinct from {in} that marks place or time	
 s14933	and/while	placed after a verb it joins that action to the verb that follows, like English and or a form in -ing, as in {ci in}, saying; the marker of the doer follows a noun instead	
 s14934		the marker <in>, which follows the subject or doer of an action, written in capitals in an inscription or title	
@@ -953,7 +953,7 @@ s14979	and	placed after the verb of a command to one person, joins it to a secon
 s14980		the subject marker <in> and the particle <lah> written as one word: as for, for his part; sets one statement beside another that contrasts with it	
 s14981	and	the marker <in> after a verb or describing word and <leh>, and, written as one word: joins two descriptions or two actions	
 s14983		the command ending <in> and the sentence-final <maw>, written as one word after a verb: makes a friendly request, please do, will you	
-s14985	home/house		
+s14985	home/house/abode/habitation		
 s14986	institution		
 s14987	house/palace	<inn>, house, written with a capital in the names of buildings: {Tulak Inn}, Palace of the Forest; {Galkap Inn}, House of the Heroes	
 s14988	man of the house/head of the household/householder	<inn>, house, and <papi>, grown man: the man of the house, the husband and father as head of a household	
@@ -1008,7 +1008,7 @@ s15037	house after house/from house to house	<innkhat> and <khit> written as one
 s15038	pillar/post/foundation	<inn>, house, with <khuam>, post: the post that carries a house; in the letters of Paul the foundation on which a building is set	
 s15039	pillar/main pillar	<innkhuam>, house post, with <pi>, great: a main pillar of a house	
 s15040	pillars/supports/posts	<innkhuam>, house post, with the plural <te>: the posts or supports of a building	
-s15041	roof	the top of a house; {innkhum zang} is the flat roof, {innkhum dawn} the rooftop	
+s15041	roof/house-top	the top of a house; {innkhum zang} is the flat roof, {innkhum dawn} the rooftop	
 s15042	rooftop/housetop/roof	<innkhum>, roof, with <dawn>, top: the top of the roof of a house	
 s15043	rooftop/roof	<innkhum> and <tung> written as one word: the top of the roof, on the roof	
 s15044	roof/housetop	the flat top of a house, where people can walk or stay	
@@ -1114,7 +1114,7 @@ s15145	outside/outside the house	<innpua>, the outside of a house, with <ah>, at
 s15146	outside the house/outdoors	<inn>, house, and <pualam>, outside, written as one word: the outside of the house, out of doors	
 s15147	livestock	<inn>, house, with <sa>, animal: animals kept at the house, set against <gamsa>, wild animals	
 s15148	pet		
-s15149	house rent/rented house/rental housing	<inn>, house, with <saap>, hire: the renting of a house, the rent paid for it, or a house that is rented	
+s15149	house rent/rented house/rental housing/rent	<inn>, house, with <saap>, hire: the renting of a house, the rent paid for it, or a house that is rented	
 s15150	rented house/rented room/lodging	{inn saap}, rent a house, with the noun suffix <na>: the house or room that a person rents and lives in	
 s15151	neighbour above	the house or people on the upper side of one's own; {innsak} and <innkhang> together are the neighbours on either side	
 s15152	tall building/high-rise	<inn>, house, with <sang>, high, written as one word: a tall building of many storeys	
@@ -1161,7 +1161,7 @@ s15192	householder/master of the house/house owner/host	the man who owns or head
 s15193	householders/hosts/family of the house	the people to whom a house belongs: the hosts as against their guests, or the household concerned, as a bereaved family; plural of <inntek>, also spelled <innteek>	
 s15194	domestic worker/housemaid/live-in maid	a person who lives in an employer's house and does the housework there; {innteng nasep} is domestic work	
 s15195	new house/new home	<inn> and <thak> written as one word: a new house; {innthak honna} is the opening of a new house	
-s15196	courtyard/court/patio	<inn>, house, with <tual>, open ground: the open space in front of or enclosed by a house, palace or temple	
+s15196	courtyard/court/patio/yard	<inn>, house, with <tual>, open ground: the open space in front of or enclosed by a house, palace or temple	
 s15197	in the courtyard/into the courtyard	<inntual> courtyard, the open space before a house, with the place marker <ah>	
 s15198	courts/courtyards	<inntual>, courtyard, with plural <te>	
 s15199	divide the inheritance/give a share of the property	literally set up a separate house; give a brother his share of the family property	
@@ -1240,7 +1240,7 @@ s15273	coveting/desiring	<iplah>, covet, with the linking suffix <in>: coveting 
 s15274	lust after/covet/desire	<iplah>, covet, with <kha>, happen to: come to desire in the heart; used with {kei in} as a prohibition	
 s15275	holding in/restraining	<ip> hold in, with the noun suffix <na> and <in>, by or from: from holding it in	
 s15276	Ipoh	a city in the state of Perak, Malaysia	
-s15277	sackcloth/sack	<ip>, bag, with <pi>, big: a large sack; {ippi puan} is sackcloth, the coarse cloth worn in mourning and repentance	
+s15277	sackcloth/sack/gunny/gunny sack	<ip>, bag, with <pi>, big: a large sack; {ippi puan} is sackcloth, the coarse cloth worn in mourning and repentance	
 s15278	keep secret/conceal/hide	<ip>, hold back, with <sim>, secretly: keep a matter to oneself; {ki ipsim} is to hide what one is	
 s15279	secret	something kept hidden from others; {ipsim neilo in} is openly, with nothing hidden	
 s15280	bag/inside of a bag	<ip>, bag, with <sung>, inside: the inside of a bag, where weights or money are carried	
@@ -1363,7 +1363,7 @@ s15398	darling/beloved/dearly loved one	<it>, love, with <luat>, very much: one 
 s15399	love very much/love dearly/love too much	<it>, love, with <luat>, very much, used as a verb and not as a word of address: love someone greatly; mostly before <manin> or <man>, because of loving so much	
 s15400	great love/deep love	<it> love with <luat> very much and the noun suffix <na>; said of the Lord's zeal for Jerusalem, where the NIV has jealousy	
 s15401	love very much/love dearly	<it> and <mahmah> written as one word: love very much	
-s15402	love	the feeling of love for a person, from <it>, love, with the noun suffix <na>	
+s15402	love/affection	the feeling of love for a person, from <it>, love, with the noun suffix <na>	
 s15403	love and goodwill/loving kindness/affection	<itna>, love, and <deihsakna>, goodwill, set side by side without <leh>: a fixed pair for warm affection and care shown to someone; mostly with <tawh>, with love and goodwill, also as a closing formula of letters	
 s15404	love and compassion/loving kindness	<itna>, love, and <lainatna>, compassion, set side by side without <leh> as one quality; often with <tawh>, with love and compassion, and sometimes with <thukhualna>, consideration, as a third	
 s15405	love/romance/love and affection	<itna>, love, and <ngaihna>, longing, said as one noun: love between a man and a woman, or tender affection; {itna ngaihna tangthu} is a love story and {itna ngaihna la} a love song	
@@ -1829,7 +1829,7 @@ s15872	fortune/chance	what happens to a person by chance, good or bad
 s15873	karma		
 s15874	fortune/luck	<kaam> written with a capital at the start of speech; {Kaam pha}, good fortune	
 s15875	good fortune/good luck	said when something lucky happens, as Leah says at the birth of Gad	
-s15877	good luck/good fortune/luck/fortune	<kaam>, luck, with <phatna>, here being good: good fortune; {kaamphatna tawh} is luckily	
+s15877	good luck/good fortune/luck/fortune/luckiness	<kaam>, luck, with <phatna>, here being good: good fortune; {kaamphatna tawh} is luckily	
 s15878	unlucky/unfortunate/luckless/hapless	<kaam>, luck, with <sia>, bad: having bad luck, the opposite of <kaam pha>; {kaamsia kisa} is feel unlucky	
 s15879	unlucky/unfortunate	form of <kaamsia>, unlucky, used before words such as <ding>, <leh> and <huai>; set against <kaamphat>, be lucky	
 s15880	misfortune/bad luck/mishap/calamity/hard-luck	<kaam>, luck, with <siatna>, badness: bad luck; {kaamsiatna tawh} is by misfortune, unluckily	
@@ -1837,7 +1837,7 @@ s15881	white/gray	form of <kaang>, white, used before another word; here of hair
 s15882	more than/beyond/over	placed after an amount, a time or a person: more than that, beyond that, as {nai 3 sung kaan}, longer than three hours, and {nang kaan kuamah}, no one more than you; not the colour word of <kaan.1>	
 s15883	cross/go over/overtake	go over or past something, as a fence, a border or the people walking ahead; {kaan in} is crossing, going over	
 s15884	white	white in colour, of a horse, hair, wool or a patch of skin; {a kaang a suah} is turn white	
-s15885	burn/be on fire/catch fire	be burnt by fire, of a house or goods, as in {mei in kaang}; a verb, apart from the colour white	
+s15885	burn/be on fire/catch fire/combust	be burnt by fire, of a house or goods, as in {mei in kaang}; a verb, apart from the colour white	
 s15886	white	<kaang>, white, with the adverbial ending <in>; {vuk bangin kaangin} is as white as snow	
 s15887	burn/let burn	<kaang>, burn, with <sak>, cause: let a thing burn, as food in the pan	
 s15888	white parts/white ones	<kaang>, white, with the plural <te>: the white parts of something	
@@ -1893,7 +1893,7 @@ s15940	I say/I tell/I speak of	<ka> and <gen> written as one word: I say, we say
 s15941	when I said/when I told	<kagen> and <leh> written as one word: when or if I say it	
 s15942	that I said/as I have said	<ka> and <gensa> written as one word: what I have already said; {kagensa mahbangin} is just as I said	
 s15943	my peers/my companions	<ka>, my, and <gual>, peer, written as one word; mostly in the pair {kalawm kagual}, my friends and companions	
-s15944	weep/mourn/lament	form of <kap>, weep, used before other words: {kah hun} is a time to weep, {kah la} is a lament song	
+s15944	weep/mourn/lament/bewail	form of <kap>, weep, used before other words: {kah hun} is a time to weep, {kah la} is a lament song	
 s15945	climb/go up/ascend	go up onto a hill, a wall, a ladder or a boat	
 s15946	attend/go to	go to a school or be present at a meeting or gathering, after the place or event: {sang kah}, attend school, <meeting kah>, attend a meeting; not going up a height and not weeping	
 s15947	weep/lament	<kah> written with a capital at the start of a sentence, and in <Kah La>, the Laments, a book of lament songs	
@@ -1940,7 +1940,7 @@ s15987	if one climbs/when one climbs	<kah>, climb, and <leh>, if or when, writte
 s15988	stairs/steps/stairway/ladder	a flight of steps, a stairway or ladder for going up; {kahlei cial} is a single step	
 s15989	not attend/not go to	<kah>, go up to, and <lo>, not, written as one word: not attend a school, an office or a post	
 s15990	not attend/not go to	<kah>, attend, and the negative <loh> written as one word: not going to a school or a meeting, used before words such as <ding> and <hun>	
-s15991	weeping/crying/wailing	<kah>, weep, with the noun suffix <na>: weeping or wailing; <kahna aw> is the sound of weeping	
+s15991	weeping/crying/wailing/lamentation	<kah>, weep, with the noun suffix <na>: weeping or wailing; <kahna aw> is the sound of weeping	
 s15992	attending/schooling/attendance	<kah>, go to a school or class, with the noun suffix {-na}: attending school or a course, after words such as <sang>, <tuition> and <tentan>; a different word from {kahna}, weeping	
 s15993	sound of weeping/cry/wailing	<kahna>, weeping, and <aw>, voice or sound: the sound of someone crying, a cry of grief; a possessor stands before it, as {ka kahna aw}, my cry; not <kahna>, attending school, and not <aw>, yes	
 s15994	weeping/mourning	plural of <kahna>	

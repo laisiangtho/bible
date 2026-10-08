@@ -1,21 +1,21 @@
 id	word	number	type	category	field	set	status	origin	source	note
 s8000	w7598	1	name	city	travel	core	2		zd:21233	
 s8001	w7599	1	name	city	travel	core	2		zd:20041	
-s8002	w7600	1	n		media	core	2	English	zd:21598/zd:17463/zd:16192	
-s8003	w7601	1	n		politics	core	2	English	zd:25046/zd:22641	
-s8004	w7602	1	n		home	core	1	English	zd:20518	
+s8002	w7600	1	n		media	core	3	English	zd:21598/zd:17463/zd:16192/zai:cup	
+s8003	w7601	1	n		politics	core	3	English	zd:25046/zd:22641/zai:curfew	
+s8004	w7602	1	n		home	core	3	English	zd:20518/zai:curtain	
 s8005	w7603	1	n		travel/politics	core	1	English	zd:15247	
-s8006	w7604	1	n		work	core	2	English	zd:17538/zd:17886	
+s8006	w7604	1	n		work	core	3	English	zd:17538/zd:17886/zai:customer	
 s8007	w7605	1	n		work	core	2	English	zd:14665/zd:12858/zd:20095	
-s8008	w7606	1	n		work	core	1	English	zd:16741	
+s8008	w7606	1	n		work	core	3	English	zd:16741/zai:cutter	
 s8009	w7607	1	name	city	travel	core	2		zd:14808/zd:18007	
 s8010	w7608	1	n		travel	core	2	English	zd:11831/zd:21220/zd:15571	
-s8011	w7609	1	n		nature	core	2	English	zd:19960/zd:19920	
-s8012	w7610	1	n		home/health	core	2	English	zd:15354/zd:25148/zd:25146	
+s8011	w7609	1	n		nature	core	3	English	zd:19960/zd:19920/zai:cyclone	
+s8012	w7610	1	n		home/health	core	3	English	zd:15354/zd:25148/zd:25146/zai:cylinder	
 s8013	w7611	1	name	land	politics/travel	core	2	English	zd:21027/zd:24532	
-s8014	w7612	1	name	land	politics/travel	core	2		zd:25359/zd:25584	
+s8014	w7612	1	name	land	politics/travel	core	3		zd:25359/zd:25584/zai:czech	
 s8015	w7613		todo			bible	2			occurs only in {aktui da kang} in Job 6.6, taken as the white of an egg; the meaning of {da} by itself cannot be told from the verse
-s8016	w7614	1	n			bible	2			
+s8016	w7614	1	n			bible	3		zai:hedge	
 s8017	w7614	2	v			bible	2			
 s8018	w7615	1	v			bible	2			
 s8019	w7616	1	v		everyday	core	2		zd:20936/zd:24086	
@@ -23,7 +23,7 @@ s8020	w7616	2	n		social/media	core	2		pk:158
 s8021	w7617	1	n		social/media	core	2		pk:158	
 s8022	w7618	1	n		social/media	core	2		pk:155	
 s8023	w7619	1	v		health/everyday	core	2		zd:15730/zd:24283/zd:12112	
-s8024	w7620	1	n			bible	2		47.2.6	
+s8024	w7620	1	n			bible	3		47.2.6/zai:penalty	
 s8025	w7620	2	n		everyday	core	2		zd:24324/zd:22802/zd:25390	
 s8026	w7621	1	v			bible	2			
 s8027	w7622	1	v			bible	2			
@@ -48,9 +48,9 @@ s8045	w7639	1	name	place		bible	2		6.19.11
 s8046	w7640	1	name	city		bible	2		6.21.28/13.6.72	
 s8047	w7641	1	adv		everyday	core	1		zd:22046	
 s8048	w7642	1	name			bible	2		9.5.2	
-s8049	w7643	1	v		everyday/social	core	2		1.27.41/zai:mourn	
+s8049	w7643	1	v		everyday/social	core	3		1.27.41/zai:mourn	
 s8050	w7644	1	phrase		social/religion	core	2		zd:23471/zd:20263	
-s8051	w7645	1	adj			bible	2			
+s8051	w7645	1	adj			bible	3		zai:grievous/zai:mournful/zai:woeful	
 s8052	w7646	1	v			bible	2			
 s8053	w7647	1	adv			bible	2			
 s8054	w7648	1	n		social	core	2		pk:155	
@@ -60,29 +60,29 @@ s8057	w7652	1	adv			bible	2
 s8058	w7653	1	v			bible	2			
 s8059	w7654	1	v		everyday/social	core	2		zd:17461/zd:15114	
 s8060	w7655	1	adj			bible	2			
-s8061	w7656	1	n			bible	2		zai:sorrow	
+s8061	w7656	1	n			bible	3		zai:sorrow/zai:grief/zai:mourning/zai:heart-ache/zai:melancholy	
 s8062	w7657	1	n		social/everyday	core	2		zd:16071/zd:24176	
 s8063	w7658	1	n			bible	2			
 s8064	w7659	1	phrase		everyday	core	2		zd:24427/zd:14585	
 s8065	w7659	2	n		social/time	core	2		zd:9448/zd:24167	
 s8066	w7660	1	name	male	social	core	1		ts:4831/zd:19501	
-s8067	w7661	1	v			bible	2			
-s8068	w7662	1	n		social	core	2		ts:1343/zd:21462/zd:18234	
+s8067	w7661	1	v			bible	3		zai:condole	
+s8068	w7662	1	n		social	core	3		ts:1343/zd:21462/zd:18234/zai:condolence	
 s8069	w7663	1	phrase		social/media	core	2		zd:25872	
 s8070	w7664	1	phrase		social/media	core	2		zd:25872/zd:25933	
 s8071	w7665	1	n		social/media	core	2		zd:12629/zd:19657	
 s8072	w7666	1	phrase		social	core	2		zd:21591	
 s8073	w7668	1	adv			bible	2			
-s8074	w7669	1	v			bible	2		47.2.2/zai:sadden	
+s8074	w7669	1	v			bible	3		47.2.2/zai:sadden	
 s8075	w7669	2	v			bible	2			
 s8076	w7669	3	v			bible	2			
 s8077	w7670	1	v			bible	2			
 s8078	w7671	1	n			bible	2			
 s8079	w7672	1	n			bible	2			
 s8080	w7673	1	v			bible	2			
-s8081	w7674	1	adj		everyday	core	2		19.107.29/zai:calm	
+s8081	w7674	1	adj		everyday	core	3		19.107.29/zai:calm	
 s8082	w7674	2	n		social	core	2		pk:129	
-s8083	w7674	3	adj		nature/everyday	core	2		pk:171	
+s8083	w7674	3	adj		nature/everyday	core	3		pk:171/zai:shallow	
 s8084	w7675	1	v		everyday	core	2		zd:22059/zd:22683/zd:23162	
 s8085	w7676	1	adj			bible	2			
 s8086	w7677	1	v			bible	2			
@@ -97,7 +97,7 @@ s8094	w7684	2	v		everyday	core	2		zd:25915/zd:11163/zd:23893
 s8095	w7685	1	v			bible	1			
 s8096	w7686	1	n		social	core	2		pk:129	
 s8097	w7687	1	v		health/home	core	2	Burmese, dat laik	zd:14856/zd:14662	
-s8098	w7688	1	n			bible	2		zai:calmness	
+s8098	w7688	1	n			bible	3		zai:calmness/zai:silence	
 s8099	w7689	1	v			bible	2			
 s8100	w7690	1	n			bible	2			
 s8101	w7691	1	v			bible	2			
@@ -111,7 +111,7 @@ s8108	w7697	1	n		home/body	core	2		zd:12337/zd:12181/zd:17301
 s8109	w7698	1	n		home/body	core	2		zd:13288/zd:17694	
 s8110	w7699	1	v		body/everyday	core	2		zd:16617/zd:21793	
 s8111	w7700	1	n		politics/home	core	2		ts:5871	
-s8112	w7701	1	n			bible	1			
+s8112	w7701	1	n			bible	3		zai:ignominy	
 s8113	w7701	2	n			bible	2			
 s8114	w7702	1	n		home/nature	core	1		pk:13	
 s8115	w7703	1	n			bible	2			
@@ -119,7 +119,7 @@ s8116	w7704	1	v			bible	2
 s8117	w7705	1	n		social	core	1		zd:14552/zd:13354	
 s8118	w7706	1	n		social	core	2		zd:21978/zd:21761	
 s8119	w7707	1	v			bible	2		26.36.21	
-s8120	w7707	2	v			bible	2		zai:becalm	
+s8120	w7707	2	v			bible	3		zai:becalm/zai:allay	
 s8121	w7708	1	v			bible	2			
 s8122	w7709	1	n		social	core	1		zd:10823	
 s8123	w7710	1	n			bible	2			
@@ -130,8 +130,8 @@ s8127	w7715	1	n		religion/social	core	1		zd:11080/zd:24029
 s8128	w7716	1	name	beh		name	2			
 s8129	w7717	1	n			bible	1			
 s8130	w7717	2	n			bible	1			
-s8131	w7718	1	n			bible	2		28.6.4/zai:dew	
-s8132	w7719	1	n			bible	2		zai:dew	
+s8131	w7718	1	n			bible	3		28.6.4/zai:dew	
+s8132	w7719	1	n			bible	3		zai:dew	
 s8133	w7720	1	n			bible	2			
 s8134	w7721	1	name	place	social	core	1		pk:163	
 s8135	w7722	1	v			bible	2			
@@ -146,10 +146,10 @@ s8143	w7729	1	n		social/media	core	1		zd:15865
 s8144	w7730	1	name	land	travel	core	2		zd:25189/zd:20334	
 s8145	w7731	1	n		social	core	1		zd:25393/zd:15996	
 s8146	w7732	1	v			bible	2			
-s8147	w7733	1	v			bible	2		zai:defend	
-s8148	w7733	2	n			bible	2		zai:tin	
+s8147	w7733	1	v			bible	3		zai:defend	
+s8148	w7733	2	n			bible	3		zai:tin	
 s8149	w7733	3	n			bible	2			
-s8150	w7733	4	v		everyday/health	core	2		zd:24253/zd:24918/zd:23659/zai:hinder/zai:impede/zai:obstruct	
+s8150	w7733	4	v		everyday/health	core	3		zd:24253/zd:24918/zd:23659/zai:hinder/zai:impede/zai:obstruct	
 s8151	w7734	1	n		politics	core	2	Burmese	zd:25357/zd:25314	
 s8152	w7735	1	v		politics/everyday	core	2		zd:16637	
 s8153	w7736	1	adv			bible	2			
@@ -178,11 +178,11 @@ s8175	w7757	1	n			bible	2
 s8176	w7757	2	n			bible	2			
 s8177	w7758	1	v		health/everyday	core	2		zd:16259/zd:21048	
 s8178	w7759	1	v		everyday	core	2		zd:13184/zd:20349	
-s8179	w7760	1	n			bible	2		zai:cymbal	
+s8179	w7760	1	n			bible	3		zai:cymbal	
 s8180	w7761	1	n			bible	2			
 s8181	w7762	1	v			bible	2			
 s8182	w7763	1	v		health/everyday	core	2		zd:19915/zd:21119	
-s8183	w7764	1	v		health/everyday	core	2		24.8.18/zai:heal	
+s8183	w7764	1	v		health/everyday	core	3		24.8.18/zai:heal	
 s8184	w7764	2	v			bible	1		44.13.48	
 s8185	w7764	3	adj		nature	core	1		zd:25454	
 s8186	w7765	1	n		social	core	2	Burmese	zd:19237/zd:11410	
@@ -195,7 +195,7 @@ s8192	w7771	1	name	city		bible	2		10.8.5
 s8193	w7772	1	n			bible	2			
 s8194	w7773	1	adv			bible	2			
 s8195	w7773	2	adv		everyday	core	2		zd:22775/zd:14824/zd:22658	
-s8196	w7774	1	adv			bible	2		zai:slowly/zai:step by step	
+s8196	w7774	1	adv			bible	3		zai:slowly/zai:step by step	
 s8197	w7775	1	n		health	core	1		zd:12436/zd:25670	
 s8198	w7776	1	v		travel	core	2		zd:17455/zd:12904	
 s8199	w7777	1	n		social/politics	core	2	Burmese	zd:15056/zd:19320/zd:17030	
@@ -221,16 +221,16 @@ s8218	w7795	1	adj			bible	2
 s8219	w7795	2	adj		everyday/family	core	2		zd:17309/zd:25909/zd:24126	
 s8220	w7796	1	n			bible	2			
 s8221	w7797	1	n			bible	2			
-s8222	w7798	1	adj		health	core	2		zd:23528/zd:23538/zd:19846/zai:sick	
+s8222	w7798	1	adj		health	core	3		zd:23528/zd:23538/zd:19846/zai:sick	
 s8223	w7799	1	v		health	core	2		zd:12292/zd:20162/zd:22469	
-s8224	w7800	1	n		health	core	2		zd:23799/zd:23266/zai:sickliness	
+s8224	w7800	1	n		health	core	3		zd:23799/zd:23266/zai:sickliness	
 s8225	w7801	1	n		health	core	2		zd:11206/zd:22928/zd:10743	
 s8226	w7802	1	v		everyday/social	core	2		zd:19166/zd:20289	
 s8227	w7803	1	v		everyday/health	core	2		zd:19619/zd:16676	
 s8228	w7804	1	intj		everyday/social	core	2		zd:16031/zd:12196	
 s8229	w7805	1	adj		health	core	1		zd:11648/zd:15748	
 s8230	w7806	1	n		health	core	2		zd:12112/zd:11648	
-s8231	w7807	1	n			bible	2			
+s8231	w7807	1	n			bible	3		zai:cure	
 s8232	w7808	1	n		religion/health	core	1		zd:14765/zd:11160	
 s8233	w7809	1	n		health	core	2		zd:23756/zd:25451	
 s8234	w7810	1	n			bible	2			
@@ -240,7 +240,7 @@ s8237	w7813	1	v		health	core	2		zd:24276/zd:21306
 s8238	w7814	1	name	khua	travel	core	1		zd:14751	
 s8239	w7815	1	v		family/health	core	2		zd:24119/zd:14910	
 s8240	w7816	1	adj			bible	2			
-s8241	w7817	1	v			bible	2		42.17.19/zai:heal	
+s8241	w7817	1	v			bible	3		42.17.19/zai:heal	
 s8242	w7817	2	v			bible	1			
 s8243	w7818	1	v			bible	2			
 s8244	w7819	1	v			bible	1			
@@ -279,7 +279,7 @@ s8276	w7846	1	adv		everyday	core	2		zd:9433/zd:24236/zd:15697
 s8277	w7847	1	name	khua		name	2			
 s8278	w7848	1	n		everyday	core	2		zd:25923/zd:25180/zd:25924	
 s8279	w7849	1	name	male		bible	2		26.28.3	
-s8280	w7850	1	adj			bible	2			
+s8280	w7850	1	adj			bible	3		zai:other	
 s8281	w7851	1	adv			bible	2			
 s8282	w7851	2	adj			bible	2			
 s8283	w7852	1	adj			bible	2			
@@ -291,7 +291,7 @@ s8288	w7855	1	adv			bible	1
 s8289	w7856	1	n			bible	2			
 s8290	w7857	1	adv			bible	2			
 s8291	w7857	2	adv		everyday	core	2		zd:23432/zd:19968/zd:12925	
-s8292	w7858	1	n			bible	2		42.22.5/zai:money/zai:currency	
+s8292	w7858	1	n			bible	3		42.22.5/zai:money/zai:currency	
 s8293	w7859	1	n			bible	2			
 s8294	w7860	1	n			bible	2			
 s8295	w7861	1	adj		everyday	core	2		zd:23394/zd:21796/zd:23943	
@@ -308,7 +308,7 @@ s8305	w7871	1	n			bible	2
 s8306	w7873	1	adv			bible	2			
 s8307	w7874	1	n			bible	2			
 s8308	w7875	1	phrase		everyday	core	2		zd:24276/zd:17618	
-s8309	w7876	1	n			bible	1		20.23.7	
+s8309	w7876	1	n			bible	3		20.23.7/zai:pharynx	
 s8310	w7877	1	adj			bible	2			
 s8311	w7877	2	adj			bible	2			
 s8312	w7878	1	pron		everyday	core	2		zd:22065/zd:24035	
@@ -316,8 +316,8 @@ s8313	w7879	1	pron			bible	2
 s8314	w7880	1	adj		everyday	core	2		zd:20657/zd:25790/zd:24289	
 s8315	w7881	1	name	place	politics/travel	core	2		zd:16799/zd:22825	
 s8316	w7882	1	name		religion	core	2		zd:23386/zd:23286	
-s8317	w7883	1	name	male		bible	2		13.3.1/27.6.21	
-s8318	w7883	2	name	book		name	2			
+s8317	w7883	1	name	male		bible	3		13.3.1/27.6.21/zai:daniel	
+s8318	w7883	2	name	book		name	3		zai:daniel	
 s8319	w7884	1	n		religion	core	2		zd:24199/zd:9445	
 s8320	w7885	1	adv			bible	2			
 s8321	w7886	1	phrase		everyday	core	2		zd:22782/zd:11945	
@@ -328,9 +328,9 @@ s8325	w7890	1	name	land		bible	2		6.15.49
 s8326	w7891	1	n		everyday	core	2		zd:25223/zd:22758	
 s8327	w7892	1	n		social/politics	core	2		zd:11553/zd:19108	
 s8328	w7893	1	n			bible	2			
-s8329	w7894	1	v			bible	2		zai:penalise	
+s8329	w7894	1	v			bible	3		zai:penalise	
 s8330	w7895	1	n			bible	2			
-s8331	w7896	1	n			bible	2		zai:sentence	
+s8331	w7896	1	n			bible	3		zai:sentence	
 s8332	w7897	1	n			bible	2			
 s8333	w7897	2	n			bible	1			
 s8334	w7898	1	n		everyday	core	2		zd:22122	
@@ -356,32 +356,32 @@ s8353	w7917	1	name	male		bible	2
 s8354	w7918	1	name	khua		name	2			
 s8355	w7919	1	name	khua		name	2			
 s8356	w7920	1	name	male		bible	2		15.2.56/16.7.58	
-s8357	w7921	1	name	khua		name	2			
+s8357	w7921	1	name	khua		name	3		zai:darling	
 s8358	w7922	1	name	beh		name	2			
 s8359	w7923	1	name	khua		name	2			
 s8360	w7924	1	n		it/travel	core	2	English	zd:19530/zd:12982/zd:18116	
 s8361	w7925	1	name	khua		name	2			
 s8362	w7926	1	n		health/food/nature	core	2	Burmese, dat	zd:20004/zd:21168/zd:22499	
-s8363	w7927	1	n		it/education	core	2	English	zd:22802/zd:24321/zd:17607	
+s8363	w7927	1	n		it/education	core	3	English	zd:22802/zd:24321/zd:17607/zai:data	
 s8364	w7928	1	adv		everyday	core	1		zd:23240/zd:12928/zd:17939	
 s8365	w7929	1	name	male		bible	2		4.16.1/19.106.17	
 s8366	w7930	1	v		health/home	core	2	Burmese, dat laik	zd:16249/zd:11362	
-s8367	w7931	1	n		home/everyday	core	2	Burmese, dat mi	zd:15996/zd:11924/zd:17428/zai:torch	
+s8367	w7931	1	n		home/everyday	core	3	Burmese, dat mi	zd:15996/zd:11924/zd:17428/zai:torch	
 s8368	w7932	1	n		health/food	core	1	Burmese	zd:25148/zd:23729	
 s8369	w7933	1	n		travel/work	core	2	Burmese	zd:20668/zd:18943	
 s8370	w7934	1	n		travel/work	core	2		zd:10826/zd:20668	
-s8371	w7935	1	n		media	core	2	Burmese	zd:25589/zai:cinema	
+s8371	w7935	1	n		media	core	3	Burmese	zd:25589/zai:cinema	
 s8372	w7936	1	n		travel/work	core	2	Burmese	zd:15366/zd:16826	
 s8373	w7937	1	n		home/travel	core	2		zd:15029	
 s8374	w7938	1	n		health/food	core	2		zd:14826	
-s8375	w7939	1	n		social/politics	core	2	Malay	zd:16205/zd:17605	
+s8375	w7939	1	n		social/politics	core	3	Malay	zd:16205/zd:17605/zai:datuk	
 s8376	w7940	1	n			bible	1			
 s8377	w7940	2	v		everyday	core	2		zd:22356/zd:24862/zd:22713	
 s8378	w7941	1	name	khua		name	2			
 s8379	w7942	1	adv		everyday	core	1		zd:22595/zd:25773	
-s8380	w7943	1	v			bible	2			
+s8380	w7943	1	v			bible	3		zai:prosper	
 s8381	w7944	1	v		social/work	core	2		zd:22034	
-s8382	w7945	1	n			bible	2			
+s8382	w7945	1	n			bible	3		zai:prosperity	
 s8383	w7946	1	n			bible	2			
 s8384	w7947	1	v			bible	2			
 s8385	w7948	1	n			bible	2			
@@ -402,7 +402,7 @@ s8399	w7961	1	v			bible	2
 s8400	w7962	1	n			bible	2			
 s8401	w7962	2	n		religion	core	1		zd:21148/zd:25115	
 s8402	w7963	1	adj			bible	2		4.22.31	
-s8403	w7964	1	n			bible	2		zai:demon/zai:devil/zai:fiend	
+s8403	w7964	1	n			bible	3		zai:demon/zai:devil/zai:fiend	
 s8404	w7965	1	n		religion	core	2		zd:25392/zd:22023/zd:16640	
 s8405	w7966	1	n		religion	core	2		zd:16640/zd:25393	
 s8406	w7967	1	n		religion	core	2		zd:21175/zd:23394	
@@ -416,12 +416,12 @@ s8413	w7974	1	n			bible	2
 s8414	w7975	1	v			bible	1			
 s8415	w7976	1	n			bible	2			
 s8416	w7977	1	n			bible	2			
-s8417	w7978	1	n			bible	2		zai:satan	
+s8417	w7978	1	n			bible	3		zai:satan	
 s8418	w7979	1	n			bible	2		59.4.7	
 s8419	w7980	1	n		social	core	1		zd:15994	
 s8420	w7981	1	n			bible	2		41.3.11	
 s8421	w7982	1	adj			bible	2			
-s8422	w7983	1	adj			bible	2		zai:possessed	
+s8422	w7983	1	adj			bible	3		zai:possessed	
 s8423	w7984	1	n			bible	2			
 s8424	w7985	1	adj			bible	2			
 s8425	w7986	1	v			bible	2			
@@ -447,14 +447,14 @@ s8444	w8002	1	n		home	core	2		zd:16876
 s8445	w8003	1	v			bible	2			
 s8446	w8003	2	v		everyday/health	core	2		zd:24276/zd:24742/zd:19525	
 s8447	w8004	1	v			bible	2			
-s8448	w8005	1	v		everyday/food	core	2		zai:drink/zai:consume/zai:imbibe	
+s8448	w8005	1	v		everyday/food	core	3		zai:drink/zai:consume/zai:imbibe	
 s8449	w8005	2	v		social/everyday	core	2			
-s8450	w8005	3	n			bible	2			
+s8450	w8005	3	n			bible	3		zai:peak	
 s8451	w8005	4	v		everyday/media	core	2		ts:5635/zd:22652/zd:13217	
-s8452	w8006	1	name	khua		name	2			
+s8452	w8006	1	name	khua		name	3		zai:dawn	
 s8453	w8007	1	n			bible	2		14.14.3	
 s8454	w8007	2	n		everyday/education	core	2		zd:21063/zd:23780	
-s8455	w8008	1	prep			bible	2		11.7.19	
+s8455	w8008	1	prep			bible	3		11.7.19/zai:atop	
 s8456	w8009	1	phrase		social	core	1		zd:11110/zd:14507	
 s8457	w8010	1	n		everyday/social	core	2		zd:9447/zd:12196	
 s8458	w8011	1	v			bible	2			
@@ -462,7 +462,7 @@ s8459	w8012	1	v		social	core	2		zd:23888
 s8460	w8012	2	v		food	core	1		zd:12674	
 s8461	w8013	1	adj		food	core	2		zd:12042/zd:17120/zd:17575	
 s8462	w8014	1	n		food/health	core	2		zd:12042/zd:20703	
-s8463	w8015	1	v		everyday	core	2		24.21.3/zai:reply/zai:respond	
+s8463	w8015	1	v		everyday	core	3		24.21.3/zai:reply/zai:respond	
 s8464	w8015	2	n		social	core	1		pk:169	
 s8465	w8016	1	v		everyday	core	2		zd:9219/zd:17391	
 s8466	w8017	1	v			bible	2			
@@ -482,7 +482,7 @@ s8479	w8028	1	v			bible	2
 s8480	w8029	1	phrase		food	core	1		pk:119	
 s8481	w8030	1	v			bible	2			
 s8482	w8031	1	v			bible	2			
-s8483	w8032	1	v			bible	2		zai:burgeon	
+s8483	w8032	1	v			bible	3		zai:burgeon	
 s8484	w8033	1	v			bible	1			
 s8485	w8034	1	v			bible	2			
 s8486	w8034	2	v		everyday/social	core	2		zd:15234/zd:22415/zd:19442	
@@ -492,7 +492,7 @@ s8489	w8037	1	v		food/everyday	core	2		zd:24036/zd:22019/zd:19749
 s8490	w8038	1	v		food/health	core	2		zd:9423/zd:24276	
 s8491	w8039	1	n			bible	2			
 s8492	w8039	2	n			bible	1			
-s8493	w8039	3	n		everyday/education	core	2		zd:25111/zd:24966/zd:20160/zai:answer	
+s8493	w8039	3	n		everyday/education	core	3		zd:25111/zd:24966/zd:20160/zai:answer/zai:rejoinder	
 s8494	w8040	1	n		everyday/education	core	2		zd:15794/zd:24563	
 s8495	w8041	1	n			bible	2			
 s8496	w8042	1	n			bible	2			
@@ -521,7 +521,7 @@ s8518	w8061	2	n		education/everyday	core	1		zd:25339
 s8519	w8062	1	n			bible	2		19.68.16	
 s8520	w8063	1	v		social/work	core	2		zd:23538/zd:24119/zd:23543	
 s8521	w8064	1	v		work/social	core	1		zd:10892	
-s8522	w8065	1	v			bible	2		zai:stab/zai:jab	
+s8522	w8065	1	v			bible	3		zai:stab/zai:jab	
 s8523	w8066	1	v		media	core	2		zd:15531/zd:21030	
 s8524	w8067	1	v		health/everyday	core	2		zd:21954/zd:17085	
 s8525	w8068	1	v			bible	2			
@@ -537,13 +537,13 @@ s8534	w8077	1	v		everyday/body	core	2		zd:16826
 s8535	w8078	2	v		home/everyday	core	2		pk:15	
 s8536	w8080	1	v			bible	1			
 s8537	w8081	1	name	male		bible	2		4.10.20	
-s8538	w8082	1	n		religion	core	2	English	ts:1180/zd:25674	
-s8539	w8083	1	n		time/work	core	2	English	zd:13186/zd:17651	
-s8540	w8084	1	adj		social	core	1	English	zd:11549	
-s8541	w8085	1	n		politics/social	core	2	English	zd:25062/zd:24800/zd:24831	
+s8538	w8082	1	n		religion	core	3	English	ts:1180/zd:25674/zai:deacon	
+s8539	w8083	1	n		time/work	core	3	English	zd:13186/zd:17651/zai:deadline	
+s8540	w8084	1	adj		social	core	3	English	zd:11549/zai:dear	
+s8541	w8085	1	n		politics/social	core	3	English	zd:25062/zd:24800/zd:24831/zai:debate	
 s8542	w8086	1	name	land/city		bible	2		6.15.49/6.21.15	
 s8543	w8087	1	name	male/female		bible	2		1.35.8/7.4.4	
-s8544	w8088	1	n	kha		name	2			
+s8544	w8088	1	n	kha		name	3		zai:december	
 s8545	w8089	1	adv			bible	1		44.10.16	
 s8546	w8089	2	adv		everyday	core	1		zd:22683/zd:11214	
 s8547	w8090	1	name	male/people		bible	2		1.10.7	
@@ -551,27 +551,27 @@ s8548	w8091	1	adv			bible	1
 s8549	w8092	1	v		everyday/home	core	1		zd:15996	
 s8550	w8093	1	v			bible	2			
 s8551	w8094	1	v			bible	2			
-s8552	w8095	1	v			bible	2		44.7.58/zai:stone	
+s8552	w8095	1	v			bible	3		44.7.58/zai:stone	
 s8553	w8096	1	v			bible	2			
 s8554	w8097	1	v			bible	2			
 s8555	w8098	1	v			bible	2			
 s8556	w8099	1	v		social	core	1		zd:23893/zd:11367	
-s8557	w8100	1	name		religion	core	2		zd:15884/zd:17062	
-s8558	w8101	1	n		work/politics	core	1	English	zd:23904/zd:11005	
+s8557	w8100	1	name		religion	core	3		zd:15884/zd:17062/zai:deepavali/zai:diwali	
+s8558	w8101	1	n		work/politics	core	3	English	zd:23904/zd:11005/zai:deficit	
 s8559	w8102	1	n		education	core	1	English	zd:21690/zd:15047	
-s8560	w8103	1	n		education	core	2	English	zd:20979/zd:23551	
-s8561	w8103	2	n		nature	core	2	English	zd:23896/zd:25115	
-s8562	w8104	1	v			bible	2		zai:sting	
+s8560	w8103	1	n		education	core	3	English	zd:20979/zd:23551/zai:degree	
+s8561	w8103	2	n		nature	core	3	English	zd:23896/zd:25115/zai:degree	
+s8562	w8104	1	v			bible	3		zai:sting	
 s8563	w8105	1	v			bible	2			
-s8564	w8106	1	n		home	core	2		44.20.8/zai:room	
+s8564	w8106	1	n		home	core	3		44.20.8/zai:room	
 s8565	w8107	1	adv			bible	1			
 s8566	w8108	1	v			bible	2			
 s8567	w8109	1	adj		social	core	2		zd:15485/ts:11162	
 s8568	w8110	1	adv		social	core	2		zd:15805/zd:13020	
 s8569	w8111	1	adv		social	core	2		zd:23935/zd:11057/zd:24220	
-s8570	w8112	1	n			bible	2		zai:discrimination	
-s8571	w8113	1	v		everyday	core	2		zai:like	
-s8572	w8113	2	v		everyday	core	2		zai:desire/zai:want	
+s8570	w8112	1	n			bible	3		zai:discrimination/zai:partiality	
+s8571	w8113	1	v		everyday	core	3		zai:like	
+s8572	w8113	2	v		everyday	core	3		zai:desire/zai:want	
 s8573	w8114	1	adv		everyday	core	2		zd:21102/zd:22116/zd:20958	
 s8574	w8115	1	adv		everyday	core	2		zd:20410/zd:20484/zd:25126	
 s8575	w8116	1	adv		everyday	core	2		zd:21989/zd:22451	
@@ -585,9 +585,9 @@ s8582	w8123	1	n			bible	2
 s8583	w8124	1	v			bible	2			
 s8584	w8125	1	n			bible	2			
 s8585	w8126	1	n			bible	2			
-s8586	w8127	1	adj			bible	2			
+s8586	w8127	1	adj			bible	3		zai:delectable/zai:delightful	
 s8587	w8127	2	adj			bible	2			
-s8588	w8127	3	adj			bible	2		zai:desirable	
+s8588	w8127	3	adj			bible	3		zai:desirable/zai:attractive/zai:lovely/zai:charming/zai:comely/zai:likable/zai:pretty/zai:tempting	
 s8589	w8128	1	adj			bible	2			
 s8590	w8129	1	adj			bible	2			
 s8591	w8130	1	v			bible	2			
@@ -599,7 +599,7 @@ s8596	w8135	1	phrase		everyday	core	2		zd:20932/zd:21110
 s8597	w8136	1	v			bible	2			
 s8598	w8137	1	n			bible	2			
 s8599	w8138	1	v		everyday	core	2		zd:21044/zd:13340	
-s8600	w8139	1	v		everyday	core	2		zd:24064/zd:26700/zai:dislike	
+s8600	w8139	1	v		everyday	core	3		zd:24064/zd:26700/zai:dislike	
 s8601	w8140	1	adj		everyday	core	2		zd:24751/zd:20410/zd:20646	
 s8602	w8141	1	n			bible	2			
 s8603	w8141	2	n		politics/social	core	2		zd:19662/ts:6531/zd:20315	
@@ -614,7 +614,7 @@ s8611	w8149	1	n			bible	2
 s8612	w8150	1	n			bible	2			
 s8613	w8151	1	v		everyday	core	2		zd:10901/zd:21074	
 s8614	w8152	1	phrase		everyday	core	2		zd:11852/zd:13127	
-s8615	w8153	1	n			bible	2		25.3.37/zai:desire/zai:will	
+s8615	w8153	1	n			bible	3		25.3.37/zai:desire/zai:will/zai:hankering/zai:liking	
 s8616	w8154	1	prep		everyday	core	2		zd:22861/zd:23792/zd:20525	
 s8617	w8155	1	n		everyday/social	core	2		zd:21063/zd:12688/zd:23298	
 s8618	w8156	1	n			bible	2			
@@ -625,14 +625,14 @@ s8622	w8160	1	v		everyday/media	core	1		zd:11736/zd:11885
 s8623	w8161	1	adj		everyday	core	2		zd:9215/zd:25016/zd:9432	
 s8624	w8162	1	phrase		everyday	core	2		zd:20803/zd:20781	
 s8625	w8163	1	v			bible	1			
-s8626	w8164	1	v			bible	2		zai:wish	
+s8626	w8164	1	v			bible	3		zai:wish	
 s8627	w8165	1	n		religion	core	2		ts:7140/zd:17126	
 s8628	w8166	1	n		social	core	2		ts:301/zd:24931/zd:23191	
 s8629	w8167	1	v		social	core	2		zd:20263	
 s8630	w8168	1	v			bible	2			
 s8631	w8169	1	v		social	core	2		zd:17285/zd:17264	
 s8632	w8170	1	n			bible	1			
-s8633	w8171	1	n			bible	2		zai:benignity	
+s8633	w8171	1	n			bible	3		zai:benignity	
 s8634	w8172	1	phrase		social	core	2		zd:24131/zd:25019	
 s8635	w8173	1	phrase		social	core	2		zd:17674/zd:23832	
 s8636	w8174	1	n			bible	2			
@@ -642,8 +642,8 @@ s8639	w8176	1	v			bible	2
 s8640	w8177	1	adv		everyday	core	2		zd:25046/zd:12487/zd:26097	
 s8641	w8178	1	adv			bible	1			
 s8642	w8179	1	n			bible	2		43.5.21	
-s8643	w8180	1	v		everyday	core	2		zd:25139/zd:24542/zai:choose/zai:opt	
-s8644	w8181	1	n		everyday/religion	core	2		zd:23604/zd:25139/zai:selection	
+s8643	w8180	1	v		everyday	core	3		zd:25139/zd:24542/zai:choose/zai:opt	
+s8644	w8181	1	n		everyday/religion	core	3		zd:23604/zd:25139/zai:selection	
 s8645	w8182	1	v		social/politics	core	2		zd:21989/zd:9142/zd:9429	
 s8646	w8183	1	n		social/politics	core	2		zd:19600/zd:24673/zd:23893	
 s8647	w8184	1	n			bible	2			
@@ -679,7 +679,7 @@ s8676	w8212	1	n			bible	2
 s8677	w8213	1	adv		everyday	core	2		zd:14877/zd:16063/zd:13250	
 s8678	w8214	1	adv		everyday	core	2		zd:24199/zd:23311/zd:12370	
 s8679	w8215	1	adv		everyday	core	2		zd:22586/zd:18943/zd:15331	
-s8680	w8216	1	adv			bible	2		14.32.24/zai:almost/zai:nearly	
+s8680	w8216	1	adv			bible	3		14.32.24/zai:almost/zai:nearly	
 s8681	w8217	1	adv			bible	2			
 s8682	w8218	1	adv		everyday	core	2		zd:12194/zd:12427	
 s8683	w8219	1	adv			bible	2			
@@ -690,9 +690,9 @@ s8687	w8224	1	name	male		bible	2		13.3.24/13.24.18
 s8688	w8225	1	name	land	travel/politics	core	2		zd:25610	
 s8689	w8226	1	adv		everyday	core	1		zd:16148/zd:25927	
 s8690	w8227	1	adv			bible	1			
-s8691	w8228	1	n		politics/social	core	2	English	zd:23311/zd:25915	
-s8692	w8229	1	v		it	core	2	English	zd:14728/zd:20501	
-s8693	w8230	1	v			bible	2		25.3.66/zai:chase	
+s8691	w8228	1	n		politics/social	core	3	English	zd:23311/zd:25915/zai:delegate	
+s8692	w8229	1	v		it	core	3	English	zd:14728/zd:20501/zai:delete	
+s8693	w8230	1	v			bible	3		25.3.66/zai:chase	
 s8694	w8231	1	v		everyday	core	2		zd:22785/zd:17195	
 s8695	w8232	1	v		everyday	core	1		zd:19554/zd:23773	
 s8696	w8233	1	v		everyday	core	2		zd:12869	
@@ -703,10 +703,10 @@ s8700	w8237	1	v			bible	2
 s8701	w8238	1	v		everyday	core	2		zd:15507/zd:15953/zd:16815	
 s8702	w8239	1	v			bible	1			
 s8703	w8240	1	v			bible	2			
-s8704	w8241	1	n			bible	2		19.35.6/zai:pursuit	
+s8704	w8241	1	n			bible	3		19.35.6/zai:pursuit	
 s8705	w8242	1	v		everyday/media	core	2		zd:20721/zd:15631	
 s8706	w8243	1	v		everyday/travel	core	1		zd:22944/zd:11354	
-s8707	w8244	1	n			bible	1			
+s8707	w8244	1	n			bible	3		zai:bedding	
 s8708	w8244	2	v			bible	1			
 s8709	w8245	1	v			bible	1			
 s8710	w8246	1	v			bible	2			
@@ -720,29 +720,29 @@ s8717	w8252	2	v		travel/everyday	core	1		zd:19826
 s8718	w8253	1	n			bible	2			
 s8719	w8254	1	v		travel/everyday	core	2		zd:16148/zd:11259	
 s8720	w8255	1	name	female		bible	2		7.16.4/7.16.10	
-s8721	w8256	1	v		work	core	1	English	zd:11587	
-s8722	w8257	1	n		work	core	2	English	zd:12108/zd:15790	
-s8723	w8258	1	v			bible	2		zai:contend	
-s8724	w8258	2	v		politics/media	core	2		zd:25474/zd:23389/zd:24468/zai:compete	
-s8725	w8259	1	n		politics/work	core	1	English	zd:21105/zd:20095	
+s8721	w8256	1	v		work	core	3	English	zd:11587/zai:deliver	
+s8722	w8257	1	n		work	core	3	English	zd:12108/zd:15790/zai:delivery	
+s8723	w8258	1	v			bible	3		zai:contend	
+s8724	w8258	2	v		politics/media	core	3		zd:25474/zd:23389/zd:24468/zai:compete	
+s8725	w8259	1	n		politics/work	core	3	English	zd:21105/zd:20095/zai:demand	
 s8726	w8260	1	name	male		bible	2		55.4.10/51.4.14	
 s8727	w8261	1	v		social	core	1		zd:22171	
 s8728	w8262	1	v		work/social	core	2		zd:19449/zd:11662	
 s8729	w8263	1	v		media/politics	core	1		zd:14887	
-s8730	w8264	1	n		health	core	2	English	zd:17402	
+s8730	w8264	1	n		health	core	3	English	zd:17402/zai:dementia	
 s8731	w8265	1	name	male		bible	2		44.19.24/44.19.38	
 s8732	w8266	1	v			bible	2			
 s8733	w8267	1	v			bible	2		3.26.27	
 s8734	w8268	1	n			bible	2			
 s8735	w8269	1	n			bible	2			
-s8736	w8270	1	n		politics	core	2	English	zd:25110/zd:20256/zd:22746	
-s8737	w8271	1	name		politics	core	2	English	zd:23479/zd:24831	
+s8736	w8270	1	n		politics	core	3	English	zd:25110/zd:20256/zd:22746/zai:democracy	
+s8737	w8271	1	name		politics	core	3	English	zd:23479/zd:24831/zai:democrat	
 s8738	w8272	1	name		politics	core	2		zd:10906/zd:24909	
 s8739	w8273	1	v		social	core	2		zd:21656/zd:22581	
 s8740	w8274	1	n			bible	2			
 s8741	w8275	1	v			bible	2			
 s8742	w8276	1	v			bible	2			
-s8743	w8277	1	adv		everyday/time	core	2		19.7.11	
+s8743	w8277	1	adv		everyday/time	core	3		19.7.11/zai:always	
 s8744	w8277	2	v			bible	1			
 s8745	w8277	3	adv		time	core	1		pk:72	
 s8746	w8278	1	adv		everyday	core	2		zd:9244/zd:9215/zd:9212	
@@ -771,14 +771,14 @@ s8768	w8300	1	v		everyday	core	2		zd:14547/zd:20738
 s8769	w8301	1	v		media	core	2		zd:20170/zd:11532/zd:19692	
 s8770	w8302	1	v			bible	2			
 s8771	w8303	1	v			bible	2			
-s8772	w8304	1	n		health	core	2	English	zd:14650/zd:16177	
+s8772	w8304	1	n		health	core	3	English	zd:14650/zd:16177/zai:dengue	
 s8773	w8305	1	v			bible	2			
 s8774	w8306	1	v			bible	2			
 s8775	w8307	1	v			bible	2			
 s8776	w8308	1	v			bible	2			
 s8777	w8309	1	adv		everyday/time	core	2		zd:22652	
 s8778	w8310	1	adv			bible	2			
-s8779	w8311	1	adv		everyday	core	2		zd:16035/zd:12341/zai:perpetually	
+s8779	w8311	1	adv		everyday	core	3		zd:16035/zd:12341/zai:perpetually	
 s8780	w8312	1	adv		everyday	core	1		zd:12564/zd:24164	
 s8781	w8313	1	adv		everyday/time	core	1		zd:9253/zd:9239	
 s8782	w8314	1	v		everyday/media	core	2		zd:11704/zd:17913	
@@ -794,34 +794,34 @@ s8791	w8323	1	v			bible	2
 s8792	w8323	2	n			bible	2			
 s8793	w8323	3	adj			bible	1			
 s8794	w8323	4	n		everyday	core	2		zd:23767/zd:24224/zd:24276	
-s8795	w8324	1	n		religion	core	1	English	zd:22390	
+s8795	w8324	1	n		religion	core	3	English	zd:22390/zai:denomination	
 s8796	w8325	1	v			bible	1			
 s8797	w8326	1	name	city	travel	core	2		zd:17947/zd:14498	
 s8798	w8327	1	adj			bible	1			
 s8799	w8328	1	v			bible	2			
 s8800	w8329	1	n		everyday/travel	core	1		zd:19939/zd:12696	
 s8801	w8330	1	phrase		everyday	core	2		zd:24069/zd:24276	
-s8802	w8331	1	n		health	core	2	English	zd:26531/zd:14856	
+s8802	w8331	1	n		health	core	3	English	zd:26531/zd:14856/zai:dentist	
 s8803	w8332	1	name	city	travel	core	2		zd:17058	
 s8804	w8333	1	adv		everyday/time	core	2		zd:20012/zd:9243	
 s8805	w8334	1	v			bible	2			
 s8806	w8334	2	part		everyday	core	1		zd:10912/zd:14910	
-s8807	w8335	1	n		politics/work	core	2	English	zd:25130/zd:20490	
+s8807	w8335	1	n		politics/work	core	3	English	zd:25130/zd:20490/zai:department	
 s8808	w8336	1	name	khua	travel	core	2		zd:17299	
 s8809	w8337	1	v			bible	2			
 s8810	w8338	1	v			bible	2			
 s8811	w8339	1	n		politics/travel	core	2	English	zd:11585/zd:13270/zd:20012	
-s8812	w8340	1	n		politics/travel	core	1	English	zd:14505/zd:14599	
+s8812	w8340	1	n		politics/travel	core	3	English	zd:14505/zd:14599/zai:depot	
 s8813	w8341	1	n		health	core	2	English	zd:12436/zd:11335/zd:23594	
 s8814	w8342	1	name	city		bible	2		44.14.6/44.16.1	
 s8815	w8343	1	adj		everyday/home	core	1		pk:128	
-s8816	w8344	1	n		work	core	2	English	zd:21102/zd:22303/zd:23993	
-s8817	w8345	1	n		work	core	2	English	zd:21458/zd:16883	
+s8816	w8344	1	n		work	core	3	English	zd:21102/zd:22303/zd:23993/zai:design	
+s8817	w8345	1	n		work	core	3	English	zd:21458/zd:16883/zai:designer	
 s8818	w8346	1	adj			bible	2			
 s8819	w8346	2	adv		everyday	core	2		zd:14734/zd:25343/zd:11714	
 s8820	w8347	1	adj		everyday/work	core	2	English	zd:21219/zd:23993	
 s8821	w8348	1	phrase		everyday	core	1		zd:25927/zd:20547	
-s8822	w8349	1	v		health/it	core	2	English	zd:24026/zd:11440	
+s8822	w8349	1	v		health/it	core	3	English	zd:24026/zd:11440/zai:detect	
 s8823	w8350	1	n		everyday	core	2		zd:25027/zd:15998	
 s8824	w8351	1	name	city	travel	core	2		zd:17983	
 s8825	w8352	1	adv			bible	1			
@@ -835,19 +835,19 @@ s8832	w8359	1	adv			bible	2
 s8833	w8360	1	n		everyday	core	2		zd:12306/zd:24287	
 s8834	w8361	1	adv		everyday	core	1		zd:11409/zd:12341	
 s8835	w8362	1	n			bible	1			
-s8836	w8363	1	v		it/education	core	1	English	zd:23049/zd:23432	
-s8837	w8364	1	n		religion	core	2	English	zd:22686/zd:16150	
-s8838	w8365	1	adj		religion	core	2	English	zd:9213/zd:17051	
+s8836	w8363	1	v		it/education	core	3	English	zd:23049/zd:23432/zai:develop	
+s8837	w8364	1	n		religion	core	3	English	zd:22686/zd:16150/zai:devotion	
+s8838	w8365	1	adj		religion	core	3	English	zd:9213/zd:17051/zai:devotional	
 s8839	w8366	1	n		health	core	2	English	zd:24500	
 s8840	w8367	1	name	city	travel/politics	core	2		zd:12387/ts:3506	
 s8841	w8368	1	name		politics/travel	core	2		zd:13066/zd:22825	
 s8842	w8369	1	name	khua		name	2			
 s8843	w8370	1	part		everyday	core	2		zd:23037/zd:16442/zd:22450	
 s8844	w8371	1	part		everyday	core	2		zd:20477/zd:12607	
-s8845	w8372	1	n		health	core	1	English	zd:18058	
+s8845	w8372	1	n		health	core	3	English	zd:18058/zai:diabetes	
 s8846	w8373	1	adv		everyday	core	1		zd:22459	
 s8847	w8374	1	adv		everyday	core	1		zd:22652	
-s8848	w8375	1	v			bible	2			
+s8848	w8375	1	v			bible	3		zai:dunk	
 s8849	w8375	2	v			bible	1			
 s8850	w8376	1	v		everyday/social	core	1		zd:11587/zd:10821	
 s8851	w8377	1	v		everyday/time	core	2		zd:23252/zd:25569	
@@ -861,25 +861,25 @@ s8858	w8384	1	adv		everyday	core	1		zd:10747/zd:23957
 s8859	w8385	1	adv			bible	1			
 s8860	w8386	1	adv		everyday	core	2		zd:20979/zd:24657	
 s8861	w8387	1	adv			bible	2		24.44.24	
-s8862	w8388	1	adv			bible	2			
+s8862	w8388	1	adv			bible	3		zai:particularly	
 s8863	w8389	1	n		everyday	core	2		zd:15679/zd:16608	
 s8864	w8391	1	phrase			bible	1			
 s8865	w8392	1	phrase		everyday	core	1		zd:17675/zd:23367	
 s8866	w8393	1	n			bible	2			
 s8867	w8393	2	n			bible	2			
 s8868	w8394	1	adv		everyday	core	1		zd:23223/zd:25914	
-s8869	w8395	1	n		education/social	core	1	English	zd:21179/zd:24165	
+s8869	w8395	1	n		education/social	core	3	English	zd:21179/zd:24165/zai:dialect	
 s8870	w8396	1	v			bible	1			
 s8871	w8397	1	n			bible	2			
 s8872	w8398	1	n		politics	core	2		ts:12506	
-s8873	w8399	1	n			bible	2		zai:flag	
+s8873	w8399	1	n			bible	3		zai:flag	
 s8874	w8400	1	n			bible	2			
 s8875	w8401	1	n		home	core	2		zd:21047/zd:16130	
 s8876	w8402	1	n			bible	2			
 s8877	w8403	1	n			bible	2			
-s8878	w8404	1	n		home	core	2		zd:17575/zd:11110/zai:kerchief	
+s8878	w8404	1	n		home	core	3		zd:17575/zd:11110/zai:kerchief	
 s8879	w8405	1	n			bible	2			
-s8880	w8405	2	n		politics/social	core	2		zd:15800	
+s8880	w8405	2	n		politics/social	core	3		zd:15800/zai:flag	
 s8881	w8406	1	n			bible	2			
 s8882	w8407	1	n			bible	2			
 s8883	w8408	1	part			bible	2			
@@ -888,10 +888,10 @@ s8885	w8409	1	adv			bible	1
 s8886	w8410	1	adv			bible	1			
 s8887	w8411	1	n		social	core	1		zd:25200/ts:3125	
 s8888	w8412	1	adv		social	core	1		zd:11400/zd:14780	
-s8889	w8413	1	n	stone		bible	2			
+s8889	w8413	1	n	stone		bible	3		zai:diamond	
 s8890	w8414	1	v			bible	2			
-s8891	w8415	1	name			bible	2		44.19.28/44.19.24	
-s8892	w8416	1	v			bible	2			
+s8891	w8415	1	name			bible	3		44.19.28/44.19.24/zai:diana	
+s8892	w8416	1	v			bible	3		zai:leap	
 s8893	w8417	1	v			bible	2			
 s8894	w8418	1	v			bible	2			
 s8895	w8419	1	v			bible	2			
@@ -899,20 +899,20 @@ s8896	w8420	1	v			bible	2
 s8897	w8421	1	v			bible	2			
 s8898	w8422	1	v		everyday	core	2		zd:20796/zd:19530	
 s8899	w8423	1	n			bible	2			
-s8900	w8424	1	n		family/home	core	2	English	zd:23356/zd:12267	
-s8901	w8425	1	n		education/everyday	core	2	English	zd:22784/zd:25909	
+s8900	w8424	1	n		family/home	core	3	English	zd:23356/zd:12267/zai:diaper	
+s8901	w8425	1	n		education/everyday	core	3	English	zd:22784/zd:25909/zai:diary	
 s8902	w8426	1	name			bible	2		28.1.3	
 s8903	w8427	1	name	city		bible	2		24.48.22/4.32.34	
 s8904	w8428	1	name	place		bible	2		4.33.45/4.33.46	
 s8905	w8429	1	name	male		bible	2		3.24.11	
 s8906	w8430	1	name	city	travel	core	2		zd:19351/zd:12488	
-s8907	w8431	1	n		politics	core	2	English	zd:23306/zd:16661	
+s8907	w8431	1	n		politics	core	3	English	zd:23306/zd:16661/zai:dictatorship	
 s8908	w8432	1	adv			bible	1		19.62.1	
 s8909	w8433	1	part		everyday	core	1		zd:19394/zd:17589	
 s8910	w8434	1	adv			bible	1			
 s8911	w8435	1	name	male		bible	2		43.20.24/43.11.16	
-s8912	w8436	1	n		travel/work	core	2	English	zd:14628	
-s8913	w8437	1	n		social	core	1	English	zd:21090	
+s8912	w8436	1	n		travel/work	core	3	English	zd:14628/zai:diesel	
+s8913	w8437	1	n		social	core	3	English	zd:21090/zai:dignity	
 s8914	w8438	1	part			bible	2			
 s8915	w8439	1	part		everyday	core	2		zd:24064/zd:23890/zd:17060	
 s8916	w8440	1	part		everyday/social	core	2		zd:25937/zd:22683	
@@ -925,12 +925,12 @@ s8922	w8447	1	part		everyday/education	core	2		pk:28
 s8923	w8448	1	part		everyday/social	core	2		zd:23039/zd:19396/zd:22444	
 s8924	w8449	1	part		everyday	core	2		zd:19338/zd:16337	
 s8925	w8450	1	part		everyday/media	core	2		zd:11732/zd:12287	
-s8926	w8451	1	v			bible	2		zai:breathe/zai:inhale	
-s8927	w8452	1	n		body/health	core	2		zd:9246/zd:24500/zai:respiration	
+s8926	w8451	1	v			bible	3		zai:breathe/zai:inhale/zai:respire	
+s8927	w8452	1	n		body/health	core	3		zd:9246/zd:24500/zai:respiration/zai:breath/zai:inhalation	
 s8928	w8453	1	adv		everyday	core	1		zd:19850	
 s8929	w8454	1	part		everyday	core	2		zd:23780/zd:10973	
 s8930	w8455	1	adv		everyday	core	1		zd:9228/zd:17152	
-s8931	w8456	1	adj		everyday	core	2		19.11.7	
+s8931	w8456	1	adj		everyday	core	3		19.11.7/zai:correct/zai:just/zai:true	
 s8932	w8456	2	adj			bible	2			
 s8933	w8456	3	v		body/health	core	2		zd:20195/zd:12276/zd:16687	
 s8934	w8457	1	adv			bible	1			
@@ -942,10 +942,10 @@ s8939	w8461	2	adj			bible	2		19.111.4
 s8940	w8462	1	v		body/health	core	2		zd:18211/zd:20798/zd:15286	
 s8941	w8463	1	n			bible	2		45.10.10	
 s8942	w8464	1	name	male		bible	2		1.10.27	
-s8943	w8465	1	adj		everyday/social	core	2		zd:14965/zd:21096/zd:21221/zai:incorrect/zai:wrong	
+s8943	w8465	1	adj		everyday/social	core	3		zd:14965/zd:21096/zd:21221/zai:incorrect/zai:wrong/zai:amiss	
 s8944	w8466	1	n			bible	2			
 s8945	w8467	1	n			bible	2			
-s8946	w8468	1	n			bible	2		19.54.1	
+s8946	w8468	1	n			bible	3		19.54.1/zai:rightness	
 s8947	w8468	2	n		body/health	core	2		zd:23538	
 s8948	w8469	1	n			bible	2		58.1.8	
 s8949	w8470	1	n		religion/social	core	1		zd:15894	
@@ -953,12 +953,12 @@ s8950	w8471	1	n			bible	2
 s8951	w8472	1	n			bible	2			
 s8952	w8473	1	adj		everyday	core	1		zd:26658/zd:23112	
 s8953	w8474	1	v			bible	2			
-s8954	w8475	1	v			bible	2		zai:justify	
+s8954	w8475	1	v			bible	3		zai:justify	
 s8955	w8476	1	n			bible	2			
 s8956	w8477	1	n			bible	2			
 s8957	w8478	1	v		everyday/social	core	2		zd:15498/zd:20263	
 s8958	w8479	1	adj		everyday/social	core	2		zd:25573/zd:21327/zd:23022	
-s8959	w8480	1	adv			bible	2			
+s8959	w8480	1	adv			bible	3		zai:rightly	
 s8960	w8482	1	n			bible	2			
 s8961	w8483	1	v		religion	core	2		zd:24204/zd:22275	
 s8962	w8484	1	v			bible	2			
@@ -966,10 +966,10 @@ s8963	w8485	1	v		religion/politics	core	2		zd:21125
 s8964	w8486	1	n			bible	2		24.33.16	
 s8965	w8487	1	v		religion	core	2		zd:17329/zd:23670	
 s8966	w8488	1	n			bible	2			
-s8967	w8489	1	adj			bible	2		42.16.10	
-s8968	w8490	1	n			bible	2		zai:righteousness	
-s8969	w8491	1	n			bible	2		zai:righteousness	
-s8970	w8492	1	n			bible	2		zai:righteousness	
+s8967	w8489	1	adj			bible	3		42.16.10/zai:honest	
+s8968	w8490	1	n			bible	3		zai:righteousness	
+s8969	w8491	1	n			bible	3		zai:righteousness	
+s8970	w8492	1	n			bible	3		zai:righteousness	
 s8971	w8493	1	n			bible	2			
 s8972	w8494	1	adj			bible	2		42.18.19	
 s8973	w8495	1	adj			bible	2			
@@ -981,7 +981,7 @@ s8978	w8499	1	adj		social	core	1		pk:170
 s8979	w8500	1	adv			bible	1			
 s8980	w8501	1	adv		nature	core	2		zd:9422/zd:22305	
 s8981	w8502	1	name	land		bible	2		6.15.38	
-s8982	w8503	1	adj		everyday	core	2			
+s8982	w8503	1	adj		everyday	core	3		zai:brimful	
 s8983	w8503	2	adj			bible	2			
 s8984	w8504	1	adj			bible	1			
 s8985	w8505	1	adj		everyday	core	2		zd:12811/zd:14906	
@@ -1003,12 +1003,12 @@ s9000	w8519	1	v			bible	2
 s9001	w8520	1	v		nature/everyday	core	2		zd:16105/zd:15002	
 s9002	w8521	1	v			bible	2			
 s9003	w8522	1	name	khua		name	2			
-s9004	w8523	1	n			bible	2			
+s9004	w8523	1	n			bible	3		zai:fullness	
 s9005	w8524	1	name	city		bible	2		6.21.35	
 s9006	w8525	1	name	place		bible	2			
 s9007	w8526	1	name	land		bible	2		6.15.22	
 s9008	w8527	1	name	khua	travel	core	2		ts:3372/zd:14992	
-s9009	w8528	1	v			bible	2		zai:fill	
+s9009	w8528	1	v			bible	3		zai:fill	
 s9010	w8529	1	v			bible	2			
 s9011	w8530	1	n			bible	2			
 s9012	w8531	1	adj			bible	2			
@@ -1023,10 +1023,10 @@ s9020	w8539	1	v		everyday/media	core	2		zd:12608/zd:19197/zd:19583
 s9021	w8540	1	v			bible	2			
 s9022	w8541	1	name	female		bible	2		1.30.21/1.34.1	
 s9023	w8542		todo			bible	2			occurs only after <git>, draw a line, in Job 26:10 where a line is marked out at the limit of sight; it may describe the line as straight or fixed but the verse does not make this plain
-s9024	w8543	1	part			bible	2		zai:shall/zai:will	
+s9024	w8543	1	part			bible	3		zai:shall/zai:will	
 s9025	w8543	2	v		everyday/body	core	2		zai:stand	
 s9026	w8543	3	part		everyday	core	2		ts:12490/ts:9677/ts:11998	
-s9027	w8544	1	v			bible	2		zai:stand	
+s9027	w8544	1	v			bible	3		zai:stand	
 s9028	w8545	1	v		everyday	core	2		ts:3506/ts:7972/ts:261	
 s9029	w8546	1	part			bible	1			
 s9030	w8547	1	prep			bible	2			
@@ -1048,7 +1048,7 @@ s9045	w8561	1	part		everyday	core	2		zd:23825/zd:14954/zd:23863
 s9046	w8562	1	part		everyday	core	2		zd:9134/zd:21715	
 s9047	w8563	1	part		everyday	core	2		zd:19168/zd:15662	
 s9048	w8564	1	n		time	core	2		zd:21075/zd:19712	
-s9049	w8565	1	ppm			bible	2			
+s9049	w8565	1	ppm			bible	3		zai:for	
 s9050	w8566	1	v		social/work	core	2		zd:17075/zd:23997	
 s9051	w8567	1	v		everyday	core	2		zd:12134/zd:21175/zd:11899	
 s9052	w8568	1	ppm			bible	2			
@@ -1057,7 +1057,7 @@ s9054	w8570	1	v			bible	2
 s9055	w8571	1	v			bible	2			
 s9056	w8572	1	part		everyday	core	1		zd:19603/zd:22894	
 s9057	w8573	1	v			bible	2			
-s9058	w8573	2	v		social	core	2		zd:13268/zd:9445/zai:arise	
+s9058	w8573	2	v		social	core	3		zd:13268/zd:9445/zai:arise	
 s9059	w8574	1	v			bible	2			
 s9060	w8575	1	v			bible	2			
 s9061	w8576	1	v		everyday/social	core	2		zd:25139/zd:15264/zd:9141	
@@ -1093,7 +1093,7 @@ s9090	w8605	1	part			bible	2
 s9091	w8606	1	part		everyday	core	2		zd:20595/zd:17841	
 s9092	w8607	1	n		everyday	core	2		zd:21369/zd:22967	
 s9093	w8608	1	phrase		everyday	core	2		zd:25927/zd:23663	
-s9094	w8609	1	v			bible	2		14.20.19	
+s9094	w8609	1	v			bible	3		14.20.19/zai:stand up	
 s9095	w8610	1	v			bible	2			
 s9096	w8611	1	v			bible	2			
 s9097	w8612	1	part		everyday	core	2		zd:25200/zd:25062/zd:23746	
@@ -1110,12 +1110,12 @@ s9107	w8622	1	v			bible	2
 s9108	w8623	1	v		work/politics	core	2		zd:19141/zd:18112	
 s9109	w8624	1	v			bible	2			
 s9110	w8625	1	v		social	core	2		zd:24861/zd:25399	
-s9111	w8626	1	v			bible	2		19.18.24	
+s9111	w8626	1	v			bible	3		19.18.24/zai:compensate	
 s9112	w8627	1	v		everyday/social	core	2		zd:25923/zd:25203	
 s9113	w8628	1	n			bible	2			
 s9114	w8629	1	n			bible	1			
 s9115	w8630	1	name	khua		name	2			
-s9116	w8631	1	n		social/politics	core	2		zd:26385/zd:22746/zd:18086	
+s9116	w8631	1	n		social/politics	core	3		zd:26385/zd:22746/zd:18086/zai:status/zai:state	
 s9117	w8631	2	n		education	core	2		pk:68	
 s9118	w8632	1	n		education	core	2		pk:103	
 s9119	w8633	1	n		education	core	2		pk:68	
@@ -1125,10 +1125,10 @@ s9122	w8636	1	adv		social/everyday	core	2		zd:12112
 s9123	w8637	1	n		education	core	2		pk:69	
 s9124	w8638	1	n		social/work	core	2		zd:21908/zd:22830	
 s9125	w8639	1	n			bible	2			
-s9126	w8639	2	n		social/politics	core	2		zd:21473/zd:24743/zd:24028/zai:stand	
+s9126	w8639	2	n		social/politics	core	3		zd:21473/zd:24743/zd:24028/zai:stand	
 s9127	w8640	1	v			bible	2			
-s9128	w8641	1	n		food/social	core	2	English	zd:16038/zd:23641	
-s9129	w8642	1	n	animal	nature/education	core	2	English	zd:22203/zd:11072	
+s9128	w8641	1	n		food/social	core	3	English	zd:16038/zd:23641/zai:dinner	
+s9129	w8642	1	n	animal	nature/education	core	3	English	zd:22203/zd:11072/zai:dinosaur	
 s9130	w8643	1	v		social/politics	core	2		zd:24544/zd:19219/zd:26700	
 s9131	w8644	1	n		social/politics	core	2		zd:24959/zd:19174	
 s9132	w8645	1	n		social	core	2		zd:22019	
@@ -1140,7 +1140,7 @@ s9137	w8651	1	v		everyday	core	1		pk:112
 s9138	w8652	1	v			bible	2			
 s9139	w8653	1	adj		everyday	core	1		pk:112	
 s9140	w8654	1	v		social/politics	core	1		zd:17156	
-s9141	w8655	1	n		religion	core	2	English	zd:21723/zd:15393	
+s9141	w8655	1	n		religion	core	3	English	zd:21723/zd:15393/zai:diocese	
 s9142	w8656	1	name	male		bible	2		44.17.34	
 s9143	w8657	1	name	male		bible	2		64.1.9	
 s9144	w8658	1	n			bible	2			
@@ -1151,50 +1151,50 @@ s9148	w8661	1	v			bible	2
 s9149	w8662	1	v			bible	2			
 s9150	w8663	1	adj			bible	2			
 s9151	w8664	1	n			bible	2			
-s9152	w8665	1	n		education	core	2	English	zd:24029/zd:17409	
-s9153	w8666	1	n		politics	core	2	English	zd:25772/zd:21400/zd:10696	
-s9154	w8667	1	adj		politics	core	1	English	zd:15303/zd:25560	
+s9152	w8665	1	n		education	core	3	English	zd:24029/zd:17409/zai:diploma	
+s9153	w8666	1	n		politics	core	3	English	zd:25772/zd:21400/zd:10696/zai:diplomat	
+s9154	w8667	1	adj		politics	core	3	English	zd:15303/zd:25560/zai:diplomatic	
 s9155	w8668	1	n			bible	2			
 s9156	w8669	1	n		body/social	core	2		zd:24062/ts:6443	
 s9157	w8670	1	v		everyday/religion	core	1		zd:11224	
 s9158	w8671	1	v			bible	1			
-s9159	w8672	1	adv		everyday/travel	core	2	English	zd:23904/zd:23957/zd:23844	
+s9159	w8672	1	adv		everyday/travel	core	3	English	zd:23904/zd:23957/zd:23844/zai:direct/zai:directly	
 s9160	w8673	1	n		travel	core	2	English	zd:12733/zd:11438	
-s9161	w8674	1	n		work/politics	core	2	English	zd:12928/zd:17745/zd:24181	
-s9162	w8675	1	n		nature/politics	core	1	English	zd:14638/zd:21563	
-s9163	w8676	1	n		it/media	core	1	English	zd:22116	
-s9164	w8677	1	n		education/social	core	2	English	zd:20979	
-s9165	w8678	1	n		work	core	2	English	zd:11011/zd:19775	
+s9161	w8674	1	n		work/politics	core	3	English	zd:12928/zd:17745/zd:24181/zai:director	
+s9162	w8675	1	n		nature/politics	core	3	English	zd:14638/zd:21563/zai:disaster	
+s9163	w8676	1	n		it/media	core	3	English	zd:22116/zai:disc/zai:disk	
+s9164	w8677	1	n		education/social	core	3	English	zd:20979/zai:discipline	
+s9165	w8678	1	n		work	core	3	English	zd:11011/zd:19775/zai:discount	
 s9166	w8679	1	name	male		bible	2		1.36.28/13.1.38	
 s9167	w8680	1	name	male		bible	2		1.36.26/1.36.25	
 s9168	w8681	1	name		media/work	core	1		zd:22341	
 s9169	w8682	1	name	place	travel/media	core	2	English	zd:11283	
-s9170	w8683	1	n		education	core	2	English	zd:20437	
-s9171	w8684	1	n		education	core	2	English	zd:9266/zd:23554	
-s9172	w8685	1	n		politics	core	2	English	zd:22818/zd:24574/zd:19702	
-s9173	w8686	1	n			bible	2		2.22.14/zai:reimbursement	
+s9170	w8683	1	n		education	core	3	English	zd:20437/zai:dissertation	
+s9171	w8684	1	n		education	core	3	English	zd:9266/zd:23554/zai:distinction	
+s9172	w8685	1	n		politics	core	3	English	zd:22818/zd:24574/zd:19702/zai:district	
+s9173	w8686	1	n			bible	3		2.22.14/zai:reimbursement	
 s9174	w8688	1	adv			bible	1			
-s9175	w8689	1	n		media/work	core	2	English	zd:20387/zd:20289	
+s9175	w8689	1	n		media/work	core	3	English	zd:20387/zd:20289/zai:diver	
 s9176	w8690	1	n		travel	core	2	English	zd:19351/zd:16063	
-s9177	w8691	1	n		politics	core	2	English	zd:23252/zd:25097/zd:24469	
+s9177	w8691	1	n		politics	core	3	English	zd:23252/zd:25097/zd:24469/zai:division	
 s9178	w8692	1	name	place		bible	2		5.1.1	
 s9179	w8693	1	n		health	core	2	English	zd:20902/ts:3280	
-s9180	w8694	1	v			bible	2		6.9.2/zai:attack/zai:combat/zai:contend/zai:fall on/zai:war	
+s9180	w8694	1	v			bible	3		6.9.2/zai:attack/zai:combat/zai:contend/zai:fall on/zai:war/zai:fight	
 s9181	w8694	2	v		social/home	core	2		pk:127	
 s9182	w8694	3	v		social	core	2		pk:162	
 s9183	w8695	1	name	khua		name	2			
-s9184	w8696	1	n		health	core	2	English	zd:17779/zd:19858/zd:24570	
-s9185	w8697	1	n		education	core	2	English	zd:21260/zd:26566	
+s9184	w8696	1	n		health	core	3	English	zd:17779/zd:19858/zd:24570/zai:doctor	
+s9185	w8697	1	n		education	core	3	English	zd:21260/zd:26566/zai:doctorate	
 s9186	w8698	1	n		health	core	2	English	zd:11929/zd:18112	
-s9187	w8699	1	n		religion	core	2	English	zd:20999/zd:21866	
-s9188	w8700	1	n		work/travel	core	2	English	zd:21843/zd:12504/zd:10951	
-s9189	w8701	1	n		media	core	1	English	zd:12999/zd:21255	
+s9187	w8699	1	n		religion	core	3	English	zd:20999/zd:21866/zai:doctrine	
+s9188	w8700	1	n		work/travel	core	3	English	zd:21843/zd:12504/zd:10951/zai:document	
+s9189	w8701	1	n		media	core	3	English	zd:12999/zd:21255/zai:documentary	
 s9190	w8702	1	n		work/travel/politics	core	2	English	zd:25400/zd:14947	
 s9191	w8703	1	name	male		bible	2		13.27.4	
 s9192	w8704	1	name	male/people		bible	2		1.10.4	
 s9193	w8705	1	name	male		bible	2		14.20.37	
 s9194	w8706	1	v		politics/everyday	core	2		zd:9124/zd:23937	
-s9195	w8707	1	name	male		bible	2		10.23.24/13.11.26/7.10.1	
+s9195	w8707	1	name	male		bible	3		10.23.24/13.11.26/7.10.1/zai:dodo	
 s9196	w8708	1	name	male		bible	2		9.21.7/9.22.9	
 s9197	w8709	1	name	place		bible	2		4.33.12/4.33.13	
 s9198	w8710	1	name	city	travel	core	2		zd:16085/zd:12016	
@@ -1210,15 +1210,15 @@ s9207	w8719	1	v			bible	2		45.11.29
 s9208	w8720	1	name	beh		name	2			
 s9209	w8722	1	adv			bible	2			
 s9210	w8723	1	v			bible	2			
-s9211	w8724	1	n		nature	core	1		ts:3375	
+s9211	w8724	1	n		nature	core	3		ts:3375/zai:teak	
 s9212	w8725		todo			bible	2			one verse, {sakin dolah nei lo} is said of the hard heart of Leviathan, the meaning of {dolah} is not clear from it
-s9213	w8726	1	n		work	core	2	English	zd:22451/zd:17162/zd:17025	
+s9213	w8726	1	n		work	core	3	English	zd:22451/zd:17162/zd:17025/zai:dollar	
 s9214	w8727	1	n		work	core	2	English	zd:21670/zd:25638	
 s9215	w8728	1	name	khua		name	2			
-s9216	w8729	1	n	plant	nature/work	core	2		zd:19676/zai:teak	
+s9216	w8729	1	n	plant	nature/work	core	3		zd:19676/zai:teak	
 s9217	w8730	1	v			bible	2		19.91.12	
 s9218	w8731	1	v			bible	2			
-s9219	w8732	1	name	land	travel/religion	core	1		zd:11794/zd:15810	
+s9219	w8732	1	name	land	travel/religion	core	3		zd:11794/zd:15810/zai:dominican	
 s9220	w8733	1	v			bible	2			
 s9221	w8734	1	v		everyday	core	2		zd:20588	
 s9222	w8735	1	n		work/everyday	core	2		zd:19642	
@@ -1227,13 +1227,13 @@ s9224	w8737	1	v		everyday/travel	core	1		zd:16365
 s9225	w8738	1	v		everyday/body	core	2		zd:24276/zd:22145	
 s9226	w8739	1	n			bible	2			
 s9227	w8740	1	v		everyday/social	core	2		zd:11571/zd:24003	
-s9228	w8741	1	v			bible	2		zai:raise/zai:heave/zai:lift/zai:uplift	
+s9228	w8741	1	v			bible	3		zai:raise/zai:heave/zai:lift/zai:uplift	
 s9229	w8742	1	v		everyday	core	2		zd:15298	
 s9230	w8743	1	v			bible	2			
 s9231	w8744	1	n			bible	2			
 s9232	w8744	2	n		social/home	core	2		zd:19826/zd:13354	
-s9233	w8745	1	prep			bible	2			
-s9234	w8745	2	v		everyday	core	2		zai:ask	
+s9233	w8745	1	prep			bible	3		zai:till	
+s9234	w8745	2	v		everyday	core	3		zai:ask	
 s9235	w8746	1	prep			bible	2			
 s9236	w8746	2	v		everyday	core	1		zd:21174/zd:16580	
 s9237	w8747	1	prep			bible	2		1.13.12	
@@ -1246,16 +1246,16 @@ s9243	w8753	1	v		everyday	core	2		zd:18112/zd:16488
 s9244	w8754	1	v		everyday	core	2		zd:19600/zd:14910	
 s9245	w8754	2	prep		everyday	core	1		zd:16032	
 s9246	w8755	1	name	beh		name	2			
-s9247	w8756	1	v		everyday	core	2		zd:21869/zd:21032/zai:enquire	
+s9247	w8756	1	v		everyday	core	3		zd:21869/zd:21032/zai:enquire	
 s9248	w8757	1	v		everyday	core	2		zd:15236/zd:23432	
 s9249	w8757	2	phrase		time	core	1		zd:14921	
 s9250	w8758	1	n		social	core	2		zd:19453	
 s9251	w8759	1	adj		everyday/politics	core	2		zd:26565/ts:1498/zd:21099	
-s9252	w8760	1	prep			bible	2		zai:until	
+s9252	w8760	1	prep			bible	3		zai:until	
 s9253	w8761	1	v			bible	2			
 s9254	w8762	1	v			bible	2			
 s9255	w8763	1	v			bible	1			
-s9256	w8764	1	v		social/everyday	core	2		zd:21874/zd:23767/zd:15674/zai:hinder	
+s9256	w8764	1	v		social/everyday	core	3		zd:21874/zd:23767/zd:15674/zai:hinder/zai:cumber	
 s9257	w8765	1	v			bible	2			
 s9258	w8766	1	v		everyday	core	2		zd:20595/zd:14606	
 s9259	w8767	1	v		everyday	core	1		zd:26531	
@@ -1310,7 +1310,7 @@ s9307	w8810	1	v		everyday/work	core	2		zd:17999/zd:20225
 s9308	w8811	1	n		work	core	2		zd:14818/zd:14528	
 s9309	w8812	1	name	city		bible	2		7.1.27/6.17.11	
 s9310	w8813	1	name	female		bible	2		44.9.36/44.9.41	
-s9311	w8814	1	n		education/home	core	2	English	zd:14652/zd:15221	
+s9311	w8814	1	n		education/home	core	3	English	zd:14652/zd:15221/zai:dormitory/zai:dorm	
 s9312	w8815	1	v			bible	2			
 s9313	w8816	1	v			bible	2			
 s9314	w8817	1	n			bible	2			
@@ -1331,7 +1331,7 @@ s9328	w8830	1	name	beh		name	2
 s9329	w8831	1	v			bible	2			
 s9330	w8832	1	v			bible	2			
 s9331	w8833	1	v		everyday	core	2		zd:22858/zd:22944	
-s9332	w8834	1	n			bible	2		zai:inquiry/zai:question	
+s9332	w8834	1	n			bible	3		zai:inquiry/zai:question	
 s9333	w8834	2	n		education	core	2		pk:88/pk:92/pk:93/pk:184/pk:89	
 s9334	w8834	3	n		education	core	2		pk:183	
 s9335	w8835	1	n		media/education	core	2		zd:23317/zd:15011	
@@ -1354,26 +1354,26 @@ s9351	w8850	1	n		education	core	2		pk:82
 s9352	w8851	1	n		education	core	2		pk:53	
 s9353	w8852	1	v		everyday/media	core	2		zd:24022/zd:11175	
 s9354	w8853	1	name	khua	travel	core	1		zd:24649	
-s9355	w8854	1	v		it	core	2	English	zd:26097/zd:12441	
-s9356	w8855	1	n		travel	core	1	English	zd:15531/zd:16612	
+s9355	w8854	1	v		it	core	3	English	zd:26097/zd:12441/zai:download	
+s9356	w8855	1	n		travel	core	3	English	zd:15531/zd:16612/zai:downtown	
 s9357	w8856	1	v			bible	2			
-s9358	w8857	1	n		work/everyday	core	2	English	zd:22002/zd:12342	
+s9358	w8857	1	n		work/everyday	core	3	English	zd:22002/zd:12342/zai:dozen	
 s9359	w8858	1	n		health/everyday	core	2		zd:17152/zd:25223	
 s9360	w8859	1	v			bible	2			
 s9361	w8859	2	v			bible	1			
-s9362	w8860	1	n		politics/work	core	2	English	zd:21271/zd:15407/zd:20403	
-s9363	w8861	1	n		home/nature	core	1	English	zd:16862/zd:22178	
-s9364	w8862	1	n		media	core	2	English	zd:12244/zd:13020/zd:10700	
-s9365	w8863	1	n		home	core	2	English	zd:16582/zd:17661	
-s9366	w8864	1	n		work	core	1	English	zd:21458/zd:21843	
-s9367	w8865	1	n		politics	core	1	English	zd:13303/zd:15811/zd:20425	
-s9368	w8866	1	n		travel/work	core	2	English	zd:17100/zd:20545/zd:20164	
-s9369	w8867	1	n		politics/it	core	2	English	ts:6807/zd:10880/ts:12328	
-s9370	w8868	1	n		health/social	core	2	English	zd:17570/zd:16299/zd:19061	
-s9371	w8869	1	n		media	core	2	English	zd:16442/zd:9134	
-s9372	w8869	2	n		work	core	1	English	zd:15481	
+s9362	w8860	1	n		politics/work	core	3	English	zd:21271/zd:15407/zd:20403/zai:draft	
+s9363	w8861	1	n		home/nature	core	3	English	zd:16862/zd:22178/zai:drainage	
+s9364	w8862	1	n		media	core	3	English	zd:12244/zd:13020/zd:10700/zai:drama	
+s9365	w8863	1	n		home	core	3	English	zd:16582/zd:17661/zai:drawer	
+s9366	w8864	1	n		work	core	3	English	zd:21458/zd:21843/zai:drawing	
+s9367	w8865	1	n		politics	core	3	English	zd:13303/zd:15811/zd:20425/zai:drill	
+s9368	w8866	1	n		travel/work	core	3	English	zd:17100/zd:20545/zd:20164/zai:driver	
+s9369	w8867	1	n		politics/it	core	3	English	ts:6807/zd:10880/ts:12328/zai:drone	
+s9370	w8868	1	n		health/social	core	3	English	zd:17570/zd:16299/zd:19061/zai:drug	
+s9371	w8869	1	n		media	core	3	English	zd:16442/zd:9134/zai:drum	
+s9372	w8869	2	n		work	core	3	English	zd:15481/zai:drum	
 s9373	w8870	1	name	female		bible	2		44.24.24	
-s9374	w8871	1	n		home	core	1	English	zd:23799	
+s9374	w8871	1	n		home	core	3	English	zd:23799/zai:dryer	
 s9375	w8872	1	adv			bible	1			
 s9376	w8873	1	adj			bible	1			
 s9377	w8874	1	adv		everyday	core	1		zd:22815/zd:20971	
@@ -1386,7 +1386,7 @@ s9383	w8880	1	adj			bible	2
 s9384	w8881	1	n		work/home	core	1		pk:26	
 s9385	w8882	1	name	city	travel	core	2		zd:11438/zd:17796	
 s9386	w8883	1	name	city	travel	core	2		zd:9252/zd:9250	
-s9387	w8884	1	n		religion/media	core	2	English	zd:9266/zd:9211	
+s9387	w8884	1	n		religion/media	core	3	English	zd:9266/zd:9211/zai:duet	
 s9388	w8885	1	adj			bible	2			
 s9389	w8885	2	adj			bible	2			
 s9390	w8885	3	v		food/everyday	core	2		zd:19654/zd:23191/zd:21822	
@@ -1401,9 +1401,9 @@ s9398	w8893	1	v			bible	1
 s9399	w8894	1	adj		food/everyday	core	1		zd:10738	
 s9400	w8895	1	v		social	core	2		zd:24072/zd:26645	
 s9401	w8896	1	n		social/religion	core	2		zd:26645/zd:25517	
-s9402	w8897	1	n			bible	2		zai:avarice	
+s9402	w8897	1	n			bible	3		zai:avarice	
 s9403	w8898	1	n			bible	2			
-s9404	w8899	1	adj		food	core	2		zd:24276/ts:3125	
+s9404	w8899	1	adj		food	core	3		zd:24276/ts:3125/zai:savory	
 s9405	w8900	1	v			bible	2			
 s9406	w8901	1	name	beh		name	2			
 s9407	w8902	1	v		food/everyday	core	2		zd:21557/zd:20896/zd:19859	
@@ -1411,7 +1411,7 @@ s9408	w8903	1	v		food/everyday	core	2		zd:25609/zd:23240
 s9409	w8904	1	v			bible	2			
 s9410	w8905	1	n			bible	2			
 s9411	w8906	1	name	khua		name	2			
-s9412	w8907	1	n			bible	2			
+s9412	w8907	1	n			bible	3		zai:appetite/zai:hankering	
 s9413	w8908	1	v		food/everyday	core	1		zd:14772	
 s9414	w8909	1	n			bible	2			
 s9415	w8910	1	n		food/everyday	core	2		zd:13133/zd:17613	
@@ -1429,7 +1429,7 @@ s9426	w8921	1	n		nature/everyday	core	2		zd:12450/zd:17856
 s9427	w8922	1	n			bible	1			
 s9428	w8923	1	n		nature/work	core	2		zd:12355/zd:17856	
 s9429	w8924	1	name	khua		name	2			
-s9430	w8925	1	n			bible	2			
+s9430	w8925	1	n			bible	3		zai:length	
 s9431	w8925	2	prep		nature/travel	core	2		zd:23896/zd:25109/zd:23077	
 s9432	w8926	1	prep			bible	2			
 s9433	w8927	1	prep			bible	2			
@@ -1443,9 +1443,9 @@ s9440	w8933	1	adj		body/health	core	2		zd:16101/zd:11744
 s9441	w8934	1	adj			bible	2			
 s9442	w8935	1	adj			bible	2			
 s9443	w8936	1	name	place		bible	2		27.3.1	
-s9444	w8937	1	n	plant	food/nature	core	2	Malay	zd:19447/zd:21961	
-s9445	w8938	1	name	people	politics/travel	core	1	English	zd:12955	
-s9446	w8939	1	n		work	core	2	English	zd:15608/zd:19223/zd:14824	
+s9444	w8937	1	n	plant	food/nature	core	3	Malay	zd:19447/zd:21961/zai:durian	
+s9445	w8938	1	name	people	politics/travel	core	3	English	zd:12955/zai:dutch	
+s9446	w8939	1	n		work	core	3	English	zd:15608/zd:19223/zd:14824/zai:duty	
 s9447	w8940	1	adj		nature	core	1		zd:10866	
 s9448	w8941	1	name		media	core	2	English	zd:26163/zd:15174	
 s9449	w8942	1	n		media/it	core	2	English	zd:19968/zd:21255	
@@ -1454,7 +1454,7 @@ s9451	w8944	1	intj			bible	1
 s9452	w8944	2	part		everyday	core	2		zd:25562/zd:24963	
 s9453	w8945	1	part		everyday	core	1		pk:92	
 s9454	w8946	1	part		everyday	core	1		zd:15572/zd:25433	
-s9455	w8947	1	name		religion	core	2	English	zd:9232/zd:21739	
+s9455	w8947	1	name		religion	core	3	English	zd:9232/zd:21739/zai:easter	
 s9456	w8949	1	name	male		bible	2		1.36.23	
 s9457	w8950	1	name	male		bible	2			
 s9458	w8951	1	name	male		bible	2		15.8.6	
@@ -1469,7 +1469,7 @@ s9466	w8959	1	name	place		bible	2
 s9467	w8960	1	name	place		bible	2		4.33.34/4.33.35	
 s9468	w8961	1	n		education/work	core	1	English	zd:25584	
 s9469	w8962	1	n		work/politics	core	2	English	zd:21288/zd:21235	
-s9470	w8963	1	n		work/politics	core	2	English	zd:17725/zd:11707	
+s9470	w8963	1	n		work/politics	core	3	English	zd:17725/zd:11707/zai:economy	
 s9471	w8964	1	name		politics	core	2		zd:10970	
 s9472	w8965	1	n		work/nature	core	2		zd:22185	
 s9473	w8967	1	name	land		bible	2		1.2.8	
@@ -1479,8 +1479,8 @@ s9476	w8969	2	name	land		bible	2		6.15.21
 s9477	w8970	1	name	place	travel	core	1		zd:15833	
 s9478	w8971	1	name	city	religion	core	1		zd:9219/zd:9231	
 s9479	w8972	1	name	city	travel	core	2		zd:17992/zd:12512	
-s9480	w8973	1	v		media/it	core	2	English	zd:22711/zd:22085	
-s9481	w8974	1	n		media/work	core	2	English	zd:25268/zd:15474	
+s9480	w8973	1	v		media/it	core	3	English	zd:22711/zd:22085/zai:edit	
+s9481	w8974	1	n		media/work	core	3	English	zd:25268/zd:15474/zai:editor	
 s9482	w8975	1	name	city	travel	core	2		zd:22203	
 s9483	w8976	1	name	male		bible	2		1.36.1	
 s9484	w8977	1	name	people		bible	2		4.24.18	
@@ -1488,7 +1488,7 @@ s9485	w8979	1	name	city		bible	2
 s9486	w8980	1	name	place		bible	2		4.21.33/6.19.37	
 s9487	w8981	1	intj			bible	1			
 s9488	w8981	2	part		everyday	core	2		ts:2669/zd:22586/zd:24163	
-s9489	w8982	1	n			bible	2		zai:dung/zai:faeces/zai:feces	
+s9489	w8982	1	n			bible	3		zai:dung/zai:faeces/zai:feces/zai:excrement	
 s9490	w8983	1	n			bible	2			
 s9491	w8984	1	n			bible	2			
 s9492	w8985	1	v			bible	2			
@@ -1520,13 +1520,13 @@ s9517	w9011	1	name	land		bible	2		6.15.39/6.10.3
 s9518	w9012	1	name	land		bible	2		2.12.1	
 s9519	w9012	2	name	male		bible	2		1.10.6	
 s9520	w9013	1	name		travel	core	2		zd:12873	
-s9521	w9014	1	name	people	politics	core	2	English	zd:21400	
-s9522	w9015	1	intj			bible	2		46.1.16/zai:oh	
+s9521	w9014	1	name	people	politics	core	3	English	zd:21400/zai:egyptian	
+s9522	w9015	1	intj			bible	3		46.1.16/zai:oh/zai:eh	
 s9523	w9015	2	conj		everyday	core	1		zd:11697/zd:25569	
 s9524	w9016	1	name	male		bible	2			
 s9525	w9017	1	n			bible	2			
 s9526	w9018	1	name	male		bible	2		7.3.26	
-s9527	w9019	1	pron			bible	2		zai:us/zai:we	
+s9527	w9019	1	pron			bible	3		zai:us/zai:we	
 s9528	w9019	2	part		everyday	core	2		ts:3446/zd:19630/zd:23436	
 s9529	w9020	1	pron		everyday/education	core	2		pk:59/pk:66/pk:60	
 s9530	w9021	1	intj		everyday/social	core	1		zd:24742/zd:18200	
@@ -1556,7 +1556,7 @@ s9553	w9042	3	pron		everyday	core	2		zd:23204/zd:21268
 s9554	w9043	1	det			bible	2			
 s9555	w9043	2	pron			bible	2			
 s9556	w9044		todo			bible	2			part of {KEIMAH} printed as {K EIMAH} in Exodus 3.14, <keimah> I myself used for the divine name I AM, not a word by itself
-s9557	w9045	1	pron		everyday	core	2		zd:22715/zd:24638/zai:ourselves	
+s9557	w9045	1	pron		everyday	core	3		zd:22715/zd:24638/zai:ourselves	
 s9558	w9046	1	pron			bible	2			
 s9559	w9047	1	pron			bible	2			
 s9560	w9048	1	n		social	core	2		zd:16337/ts:3125/zd:24043	
@@ -1566,9 +1566,9 @@ s9563	w9051	1	pron		everyday/social	core	2		zd:19464
 s9564	w9052	1	phrase		everyday	core	2		zd:26444/zd:25927	
 s9565	w9053	1	adv		social	core	2		zd:23488/zd:25152	
 s9566	w9054	1	adv		everyday	core	2		zd:20905/zd:23011/zd:16844	
-s9567	w9055	1	pron		everyday	core	2		58.10.15/zai:us/zai:we	
-s9568	w9056	1	pron			bible	2		45.9.29/zai:us/zai:we	
-s9569	w9057	1	pron			bible	2		zai:us/zai:we	
+s9567	w9055	1	pron		everyday	core	3		58.10.15/zai:us/zai:we	
+s9568	w9056	1	pron			bible	3		45.9.29/zai:us/zai:we	
+s9569	w9057	1	pron			bible	3		zai:us/zai:we	
 s9570	w9058	1	pron		everyday/social	core	2		zd:25399/zd:22369/zd:24156	
 s9571	w9059	1	adv		everyday	core	2		zd:17613/zd:10730	
 s9572	w9060	1	phrase		everyday/social	core	2		zd:21107/zd:22858	
@@ -1618,7 +1618,7 @@ s9615	w9102	1	name	land		bible	2		1.35.7
 s9616	w9104	1	name	male		bible	2		13.1.33	
 s9617	w9105	1	name	male		bible	2		1.25.4	
 s9618	w9106	1	name	male		bible	2		4.11.26/4.11.27	
-s9619	w9107	1	n		religion/social	core	1	English	zd:12333	
+s9619	w9107	1	n		religion/social	core	3	English	zd:12333/zai:elder	
 s9620	w9108	1	name	male		bible	2			
 s9621	w9109	1	name	male		bible	2		13.7.20	
 s9622	w9110	1	name	city		bible	2		4.32.37/4.32.3	
@@ -1627,11 +1627,11 @@ s9624	w9112	1	name	male		bible	2		13.9.43
 s9625	w9113	1	name	male		bible	2		4.3.2	
 s9626	w9114	1	name	male		bible	2		2.6.25/4.26.63	
 s9627	w9115	1	adj		politics	core	1	English	zd:25937/zd:16862	
-s9628	w9116	1	n		politics	core	2	English	zd:24747/zd:23513/zd:20538	
-s9629	w9117	1	adj		home/work	core	2	English	zd:14714/zd:20655	
+s9628	w9116	1	n		politics	core	3	English	zd:24747/zd:23513/zd:20538/zai:election	
+s9629	w9117	1	adj		home/work	core	3	English	zd:14714/zd:20655/zai:electric	
 s9630	w9118	1	n		home/it	core	2		zd:16779/zd:24595	
-s9631	w9119	1	n		home/work	core	2	English	zd:23077/zd:22584	
-s9632	w9120	1	adj		it/work	core	2	English	zd:22862/zd:21869	
+s9631	w9119	1	n		home/work	core	3	English	zd:23077/zd:22584/zai:electricity	
+s9632	w9120	1	adj		it/work	core	3	English	zd:22862/zd:21869/zai:electronic	
 s9633	w9121	1	name	city		bible	2		6.15.21	
 s9634	w9122	1	name	male		bible	2		13.11.26	
 s9635	w9123	1	name	male		bible	2		10.23.24/13.20.5	
@@ -1712,12 +1712,12 @@ s9709	w9203	1	name	male		bible	2		44.13.8/44.13.11
 s9710	w9204	1	name	khua		name	2			
 s9711	w9205	1	name	male		bible	2		13.26.7/13.12.12	
 s9712	w9206	1	name	male		bible	2		2.6.22	
-s9713	w9207	1	v			bible	2		3.7.9/zai:roast	
-s9714	w9208	1	n		it	core	2	English	zd:19210/zd:21925/zd:17651/zai:Email	
-s9715	w9209	1	n		politics/travel	core	2	English	zd:19953/zd:19033/zd:16637	
+s9713	w9207	1	v			bible	3		3.7.9/zai:roast	
+s9714	w9208	1	n		it	core	3	English	zd:19210/zd:21925/zd:17651/zai:Email/zai:email	
+s9715	w9209	1	n		politics/travel	core	3	English	zd:19953/zd:19033/zd:16637/zai:embassy	
 s9716	w9211	1	name	city		bible	2		6.18.21	
-s9717	w9212	1	n	stone		bible	2			
-s9718	w9213	1	n	stone		bible	2			
+s9717	w9212	1	n	stone		bible	3		zai:emerald	
+s9718	w9213	1	n	stone		bible	3		zai:emerald	
 s9719	w9214	1	name	land/people		bible	2		5.2.10/5.2.11	
 s9720	w9215	1	v			bible	2			
 s9721	w9216	1	name	people		bible	2		1.14.5	
@@ -1726,14 +1726,14 @@ s9723	w9218	1	v			bible	2
 s9724	w9219	1	name	male		bible	2		40.1.23	
 s9725	w9220	1	name	city		bible	2		42.24.13	
 s9726	w9221	1	n			bible	2			
-s9727	w9222	1	n		politics	core	2	English	zd:19875/zd:22425	
-s9728	w9223	1	n		politics	core	1	English	zd:16651/ts:3284	
-s9729	w9224	1	n		work	core	1	English	zd:11734/zd:18943	
-s9730	w9225	1	n		work	core	1	English	zd:13282	
+s9727	w9222	1	n		politics	core	3	English	zd:19875/zd:22425/zai:emperor	
+s9728	w9223	1	n		politics	core	3	English	zd:16651/ts:3284/zai:empire	
+s9729	w9224	1	n		work	core	3	English	zd:11734/zd:18943/zai:employee	
+s9730	w9225	1	n		work	core	3	English	zd:13282/zai:employer	
 s9731	w9226	1	n		work	core	1	English	zd:13205/zd:13186	
 s9732	w9227	1	adj			bible	2			
 s9733	w9228	1	v			bible	2			
-s9734	w9229	1	v		everyday/body	core	2		1.1.31/zai:see/zai:observe	
+s9734	w9229	1	v		everyday/body	core	3		1.1.31/zai:see/zai:observe	
 s9735	w9230	1	name	place		bible	2		6.19.21	
 s9736	w9231	1	name	city		bible	2			
 s9737	w9232	1	name	city		bible	2		6.19.21	
@@ -1742,19 +1742,19 @@ s9739	w9234	1	name	place		bible	2		6.15.62
 s9740	w9236	1	name	land		bible	2		1.38.14/1.38.21	
 s9741	w9237	1	name	place		bible	2			
 s9742	w9238	1	name	male		bible	2		4.1.15/4.10.27	
-s9743	w9239	1	v			bible	2		zai:check	
+s9743	w9239	1	v			bible	3		zai:check/zai:scrutinize	
 s9744	w9240	1	v		everyday/work	core	2		zd:13034/zd:15481	
 s9745	w9241	1	n		politics/media	core	2		ts:9083/zd:18166	
-s9746	w9242	1	v			bible	2		zai:invigilate/zai:observe/zai:watch	
+s9746	w9242	1	v			bible	3		zai:invigilate/zai:observe/zai:watch	
 s9747	w9243	1	v		politics/everyday	core	2		zd:17430/zd:18123	
 s9748	w9244	1	v		everyday/politics	core	2		zd:15389/zd:15674	
 s9749	w9245	1	v			bible	2			
-s9750	w9246	1	n			bible	2		zai:observer	
+s9750	w9246	1	n			bible	3		zai:observer	
 s9751	w9247	1	v		everyday/media	core	2		zd:15134/zd:11691	
 s9752	w9248	1	v		social	core	2		zd:15315/zd:12362	
 s9753	w9249	1	v		media/everyday	core	2		zd:18067	
 s9754	w9250	1	v		everyday	core	2		zd:11792/zd:16241/zd:14720	
-s9755	w9251	1	v		education/media/health	core	2		zd:20572	
+s9755	w9251	1	v		education/media/health	core	3		zd:20572/zai:edit	
 s9756	w9252	1	v		everyday	core	2		zd:12267/zd:21028/zd:14523	
 s9757	w9253	1	v		everyday/travel	core	2		zd:17645/zd:21848	
 s9758	w9254	1	name	city		bible	2		6.17.11/9.28.7	
@@ -1770,14 +1770,14 @@ s9767	w9262	1	adj			bible	1
 s9768	w9263	1	name	land		bible	2		9.23.29/6.15.62	
 s9769	w9264	1	v			bible	1			
 s9770	w9265	1	v			bible	1			
-s9771	w9266	1	n		travel/work	core	2	English	zd:20399/zd:19271/zd:19150	
-s9772	w9267	1	n		work/education	core	2	English	zd:13343/zd:22803/zd:22116	
+s9771	w9266	1	n		travel/work	core	3	English	zd:20399/zd:19271/zd:19150/zai:engine/zai:motor	
+s9772	w9267	1	n		work/education	core	3	English	zd:13343/zd:22803/zd:22116/zai:engineer	
 s9773	w9268	1	n		education/work	core	2	English	zd:19798/zd:22803	
 s9774	w9269	1	n		work	core	2	English	zd:20886/zd:21759	
 s9775	w9270	1	v			bible	2			
 s9776	w9271	1	name	land	travel/politics	core	2		zd:20945/zd:9243/zd:9262	
 s9777	w9272	1	n		work	core	2		zd:21586/zd:16114	
-s9778	w9273	1	name		education	core	2		zd:24036/zd:17651	
+s9778	w9273	1	name		education	core	3		zd:24036/zd:17651/zai:english	
 s9779	w9274	1	name	people	social	core	2		zd:9449/zd:24394	
 s9780	w9275	1	v		social	core	2		zd:15874/zd:24593	
 s9781	w9276	1	n		everyday/food	core	2		zd:22429/zd:22740	
@@ -1813,14 +1813,14 @@ s9810	w9305	1	name	male		bible	2		1.5.21
 s9811	w9306	1	name	male		bible	2			
 s9812	w9307	1	name	male		bible	2		1.5.6	
 s9813	w9308	1	v		everyday	core	2		zd:11553/zd:12967	
-s9814	w9309	1	v		everyday/media	core	2		zd:25275/zd:12093/zd:23956/zai:glance	
+s9814	w9309	1	v		everyday/media	core	3		zd:25275/zd:12093/zd:23956/zai:glance	
 s9815	w9310	1	n		media/it	core	2		zd:12594/zd:11945	
 s9816	w9312	1	v		everyday	core	2		zd:12124/zd:20984	
 s9817	w9313	1	v		everyday	core	2		zd:24289/zd:11945	
 s9818	w9314	1	name	place		bible	2		16.11.29	
 s9819	w9315	1	name	place		bible	2		6.18.16/11.1.9	
 s9820	w9316	1	v		everyday/body	core	2		zd:21918/zd:20697	
-s9821	w9317	1	v			bible	2		zai:show	
+s9821	w9317	1	v			bible	3		zai:show	
 s9822	w9318	1	v		social	core	1		zd:12487/zd:24176	
 s9823	w9319	1	v			bible	1			
 s9824	w9320	1	name	place		bible	2		6.15.7/6.18.17	
@@ -1833,7 +1833,7 @@ s9830	w9325	1	v			bible	2
 s9831	w9326	1	name	place		bible	2		6.17.7	
 s9832	w9327	1	n			bible	2			
 s9833	w9328	1	v			bible	2			
-s9834	w9329	1	v			bible	2		zai:examine	
+s9834	w9329	1	v			bible	3		zai:examine	
 s9835	w9330	1	v			bible	2			
 s9836	w9331	1	v		everyday/media	core	2		zd:11224/zd:22654/zd:21918	
 s9837	w9332	1	v		media/it	core	2		zd:15521/zd:17192	
@@ -1841,8 +1841,8 @@ s9838	w9333	1	v			bible	1
 s9839	w9334	1	v		media/everyday	core	2		zd:12353/zd:19311	
 s9840	w9335	1	v		everyday/media	core	2		zd:25630/zd:14834	
 s9841	w9336	1	v			bible	2		41.7.34	
-s9842	w9337	1	n		home/travel	core	1	English	zd:11112/zd:11677	
-s9843	w9338	1	n		work	core	1	English	zd:15324/zd:17279	
+s9842	w9337	1	n		home/travel	core	3	English	zd:11112/zd:11677/zai:entrance	
+s9843	w9338	1	n		work	core	3	English	zd:15324/zd:17279/zai:entrepreneur	
 s9844	w9339	1	adj		social	core	1		pk:112	
 s9845	w9340	1	v		everyday	core	2		zd:24607/zd:14812	
 s9846	w9341	1	v		everyday/media	core	2		zd:15727/zd:10961	
@@ -1857,10 +1857,10 @@ s9854	w9349	1	name	male		bible	2		45.16.10
 s9855	w9350	1	name	people		bible	2		23.60.6	
 s9856	w9351	1	name	book	religion	core	2		zd:17673/zd:18955	
 s9857	w9352	1	name	place		bible	2		19.132.6	
-s9858	w9353	1	n		nature/media	core	2	English	zd:11610/zd:20703	
+s9858	w9353	1	n		nature/media	core	3	English	zd:11610/zd:20703/zai:epicenter	
 s9859	w9354	1	name	people		bible	2			
 s9860	w9355	1	name	people		bible	2		44.17.18	
-s9861	w9356	1	n		nature	core	2	English	zd:23198	
+s9861	w9356	1	n		nature	core	3	English	zd:23198/zai:equator	
 s9862	w9358	1	name	male		bible	2		1.38.3	
 s9863	w9359		todo			bible	2			not a word by itself, the last two parts of the place name {Be-er-elim}, Beer Elim in the NIV, Isaiah 15:8
 s9864	w9362	1	name	male		bible	2			
@@ -1870,7 +1870,7 @@ s9867	w9367	1	name	male		bible	2		1.46.16/4.26.16
 s9868	w9371	1	name	male		bible	2		12.19.37/23.37.38	
 s9869	w9372	1	name	male		bible	2		1.26.34	
 s9870	w9373	1	name	city	travel	core	2		zd:10908	
-s9871	w9374	1	n		travel/home	core	2	English	zd:15103/zd:15307/zd:18181	
+s9871	w9374	1	n		travel/home	core	3	English	zd:15103/zd:15307/zd:18181/zai:escalator	
 s9872	w9375	1	name	well		bible	2		1.26.20	
 s9873	w9376	1	name	land		bible	2		6.15.52	
 s9874	w9378	1	name	male		bible	2		13.8.33	
@@ -1886,7 +1886,7 @@ s9883	w9388	1	name	male		bible	2		42.3.25
 s9884	w9389	1	name	city		bible	2		13.2.53	
 s9885	w9390	1	name	female		bible	2		17.2.7/17.9.29	
 s9886	w9390	2	name	book		name	2			
-s9887	w9391	1	n		work	core	1	English	zd:16724	
+s9887	w9391	1	n		work	core	3	English	zd:16724/zai:estimate/zai:estimation	
 s9888	w9392	1	name	land	politics	core	2		zd:10949	
 s9889	w9393	1	v			bible	2		44.1.10	
 s9890	w9394	1	name	place		bible	2		7.15.8/14.11.6	
@@ -1895,7 +1895,7 @@ s9892	w9396	1	v		everyday/education	core	2		zd:19676/zd:22159/zd:15775
 s9893	w9397	1	v		everyday	core	2		zd:23492/zd:11229/zd:18028	
 s9894	w9398	1	n		work/education	core	2		ts:9048/ts:11162/zd:12398	
 s9895	w9399	1	v			bible	2			
-s9896	w9400	1	n		politics/everyday	core	2		ts:5440/zd:20293/zai:observation/zai:surveillance	
+s9896	w9400	1	n		politics/everyday	core	3		ts:5440/zd:20293/zai:observation/zai:surveillance	
 s9897	w9401	1	v		health/everyday	core	2		zd:24014/zd:17152	
 s9898	w9402	1	n		everyday	core	2		zd:9426/zd:12441	
 s9899	w9403	1	v		everyday	core	2		zd:10842/zd:20408	
@@ -1907,8 +1907,8 @@ s9904	w9409	1	name			bible	2		11.8.2
 s9905	w9410	1	name	city		bible	2		6.15.42	
 s9906	w9412	1	name	male		bible	2			
 s9907	w9413	1	name	male		bible	2			
-s9908	w9414	1	name	land		bible	2		6.15.42/6.19.7	
-s9909	w9415	1	n		social/media	core	1	English	zd:23014/zd:20826	
+s9908	w9414	1	name	land		bible	3		6.15.42/6.19.7/zai:ether	
+s9909	w9415	1	n		social/media	core	3	English	zd:23014/zd:20826/zai:ethics	
 s9910	w9416	1	name	land		bible	2		44.8.27/12.19.9	
 s9911	w9417	1	name	place		bible	2		6.19.13	
 s9912	w9418	1	name	male		bible	2		13.4.7	
@@ -1926,23 +1926,23 @@ s9923	w9430	1	n		media/time	core	2		zd:24749/zd:15996
 s9924	w9431	1	n		media/everyday	core	2		zd:10842/zd:20444	
 s9925	w9433	1	n		media/everyday	core	2		zd:25020/zd:15805/zd:10983	
 s9926	w9434	1	v		everyday	core	2		zd:23943/zd:17133	
-s9927	w9435	1	adj		everyday	core	2		zai:beautiful/zai:handsome	
+s9927	w9435	1	adj		everyday	core	3		zai:beautiful/zai:handsome/zai:attractive	
 s9928	w9436	1	adv			bible	2			
 s9929	w9437	1	adj		everyday	core	2		zd:21869/zd:22473	
-s9930	w9438	1	n			bible	2			
+s9930	w9438	1	n			bible	3		zai:beauty	
 s9931	w9439	1	adj		everyday	core	2		zd:20697/zd:17161	
 s9932	w9440	1	v			bible	2			
 s9933	w9441	1	v		everyday	core	2		zd:22046/zd:11240/ts:301	
 s9934	w9442	1	v		everyday/social	core	1		zd:11269	
 s9935	w9443	1	v		everyday	core	2		zd:21012/zd:13339/zd:24296	
-s9936	w9444	1	n			bible	2			
+s9936	w9444	1	n			bible	3		zai:look	
 s9937	w9446	1	v		social	core	2		zd:12370/zd:20264	
-s9938	w9447	1	n		social	core	2		zd:22171/zd:25470	
+s9938	w9447	1	n		social	core	3		zd:22171/zd:25470/zai:contempt	
 s9939	w9448	1	v		everyday/media	core	2		zd:22683/zd:25824	
 s9940	w9449	1	v			bible	1			
 s9941	w9450	1	phrase		media/it	core	2		zd:16325	
 s9942	w9451	1	v		everyday	core	2		zd:13228/zd:22554/zd:22584	
-s9943	w9452	1	n		education/media	core	2		zd:22833/zd:22709/zai:glance	
+s9943	w9452	1	n		education/media	core	3		zd:22833/zd:22709/zai:glance	
 s9944	w9453	1	v			bible	2			
 s9945	w9454	1	v		politics/everyday	core	2		zd:25710/zd:11013	
 s9946	w9455	1	adj		everyday	core	2		zd:9449/zd:25115	
@@ -1950,7 +1950,7 @@ s9947	w9456	1	n		politics/work	core	2		zd:23311/zd:23048
 s9948	w9457	1	v		everyday	core	2		zd:12456/zd:11540	
 s9949	w9458	1	v		everyday/travel	core	2		zd:19826/zd:19607/zd:20392	
 s9950	w9460	1	v			bible	1			
-s9951	w9461	1	n		everyday/religion	core	2		zd:25007/zd:17509/zd:23888/zai:example	
+s9951	w9461	1	n		everyday/religion	core	3		zd:25007/zd:17509/zd:23888/zai:example	
 s9952	w9462	1	v		everyday	core	1		zd:11803	
 s9953	w9463	1	v			bible	2			
 s9954	w9464	1	adj			bible	2			
@@ -1960,11 +1960,11 @@ s9957	w9467	1	phrase		everyday	core	2		zd:26097/zd:11783
 s9958	w9468	1	adj		everyday	core	2		pk:38	
 s9959	w9469	1	v		everyday	core	1		zd:19427/zd:24164	
 s9960	w9470	1	n			bible	2			
-s9961	w9470	2	v		social/everyday	core	2		zd:17722/zd:22639/zd:10957/zai:imitate	
+s9961	w9470	2	v		social/everyday	core	3		zd:17722/zd:22639/zd:10957/zai:imitate	
 s9962	w9471	1	adj		social	core	2		zd:23057/zd:9425	
 s9963	w9472	1	adj		social	core	2		zd:25110/zd:16091	
-s9964	w9473	1	adj		social	core	2		zd:16229/zd:11150/zd:21690	
-s9965	w9475	1	n		education/social	core	2		zd:23551/zd:23554/zai:imitation	
+s9964	w9473	1	adj		social	core	3		zd:16229/zd:11150/zd:21690/zai:exemplary	
+s9965	w9475	1	n		education/social	core	3		zd:23551/zd:23554/zai:imitation	
 s9966	w9476	1	adj		social	core	2		zd:23828/zd:19665	
 s9967	w9477	1	adj		social	core	2		zd:20716/zd:9453	
 s9968	w9478	1	v			bible	2		47.13.6	
@@ -1972,7 +1972,7 @@ s9969	w9479	1	n			bible	2		47.13.5
 s9970	w9480	1	v		everyday/media	core	2		zd:21213/zd:20408	
 s9971	w9481	1	phrase		media/everyday	core	2		zd:11929/zd:12240/zd:25824	
 s9972	w9482	1	v			bible	2			
-s9973	w9483	1	n		education	core	1	English	zd:24134	
+s9973	w9483	1	n		education	core	3	English	zd:24134/zai:etymology	
 s9974	w9484	1	n		everyday/social	core	2		zd:24253/zd:21845	
 s9975	w9485	1	v		everyday/body	core	2		zd:17297/zd:19676	
 s9976	w9486	2	n		social/media	core	2		pk:158	
@@ -1986,16 +1986,16 @@ s9983	w9493	1	n			bible	1
 s9984	w9494	1	name	female		bible	2		55.1.5	
 s9985	w9495	1	name	female		bible	2		50.4.2	
 s9986	w9496	1	name			bible	2		44.27.14	
-s9987	w9497	1	n		work	core	2	English	zd:19812/zd:22203	
-s9988	w9498	1	name	land	travel/politics	core	2		zd:24963/zd:11548/zd:9222	
-s9989	w9499	1	name	people	politics/travel	core	2		zd:22736/zd:22203	
+s9987	w9497	1	n		work	core	3	English	zd:19812/zd:22203/zai:euro	
+s9988	w9498	1	name	land	travel/politics	core	3		zd:24963/zd:11548/zd:9222/zai:europe	
+s9989	w9499	1	name	people	politics/travel	core	3		zd:22736/zd:22203/zai:european	
 s9990	w9500	1	v		food/social	core	1		pk:143	
 s9991	w9501	1	name	male		bible	2		44.20.9	
-s9992	w9502	1	adj		religion	core	1	English	zd:21174/zd:24536	
-s9993	w9503	1	n		religion	core	2	English	zd:25275	
-s9994	w9504	1	n		religion	core	2	English	zd:11999/zd:24536	
+s9992	w9502	1	adj		religion	core	3	English	zd:21174/zd:24536/zai:evangelical	
+s9993	w9503	1	n		religion	core	3	English	zd:25275/zai:evangelism	
+s9994	w9504	1	n		religion	core	3	English	zd:11999/zd:24536/zai:evangelist	
 s9995	w9505	1	adj		religion	core	2	English	zd:9223/zd:9233	
 s9996	w9506	1	n		religion	core	2	English	zd:23215/zd:23740	
-s9997	w9507	1	name	female		bible	2		1.3.20/54.2.13	
+s9997	w9507	1	name	female		bible	3		1.3.20/54.2.13/zai:eve	
 s9998	w9508	1	name	place	nature/travel	core	2		zd:23591/zd:25115	
 s9999	w9509	1	name	place	nature/travel	core	2		zd:12434/zd:12854	

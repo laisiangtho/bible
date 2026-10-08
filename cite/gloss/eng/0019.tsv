@@ -399,7 +399,7 @@ s38410	seven times	<sagih>, seven, with the ending <in>; {a zah sagihin kithuk} 
 s38411	seventh	<sagih>, seven, with the ordinal ending <na>: the seventh in a series; {kha sagihna} is the seventh month	
 s38412	seven/the seven	<sagih>, seven, with the plural marker <te>: the seven of a group already mentioned	
 s38413	the Seven	<sagih>, seven, with the plural <te>, written with a capital: the seven men chosen in Jerusalem to serve at tables	
-s38414	seven times	<sagih>, seven, with <vei>, times: seven times	
+s38414	seven times/sevenfold	<sagih>, seven, with <vei>, times: seven times	
 s38415	seventh time	<sagihvei>, seven times, with <na>, making the ordinal: the seventh time	
 s38416	offal/entrails/innards	<sa>, meat or animal, with <gil>, belly: the entrails of a slaughtered animal, cleaned and cooked at a feast; {sagil bawl} is prepare them	
 s38417	animal sacrifice/slaughter of animals	<sa>, animal, and <go>, slaughter, written as one word: the killing of an animal, here as an offering in {sagoh biakpiakna}, animal sacrifice	
@@ -726,7 +726,7 @@ s38740	let curse/allow to curse	<samsia> curse with <sak> let or cause
 s38741	curse	form of <samsia>, curse, used before other words such as <leh>, <kawmin> and <ding>	
 s38742	those who curse	<samsia> curse, with <te>, those who	
 s38743	cursing/curse	<samsiat> curse with the linking suffix <in>: cursing and then going on to the next action	
-s38744	curse/malediction	<samsiat> curse with the noun suffix <na>: a curse or the state of being cursed; {samsiatna ngah} is be cursed	
+s38744	curse/malediction/imprecation	<samsiat> curse with the noun suffix <na>: a curse or the state of being cursed; {samsiatna ngah} is be cursed	
 s38745	curses	plural of <samsiatna>, curse	
 s38746	curse/malediction/cursed	<samsiat> curse with <sa>, already done: that has been cursed; {a samsiatsa leitang} is the ground he has cursed	
 s38747	curse for/put a curse on	curse someone on behalf of another; <samsiat> with <sak>	
@@ -1020,7 +1020,7 @@ s39038	call out/summon from	<sap> call with <khiat> out: call someone out of a p
 s39039	call back/call again/reconvene	<sap>, call, and <kik>, again or back, written as one word: call someone back, return a call, or call a meeting again	
 s39040	recall/calling back	<sap> and <kikna> written as one word: a calling back, as when a company recalls goods it has sold, or a calling again	
 s39041	if called/when summoned	<sap>, call, and <leh>, if, written as one word: {hongki sapleh} is if or when you are called	
-s39042	calling/call/summons	<sap>, call, with the noun suffix <na>: the act of calling, a call or summons; of God, his calling of people	
+s39042	calling/call/summons/invitation	<sap>, call, with the noun suffix <na>: the act of calling, a call or summons; of God, his calling of people	
 s39043	need/lack	what someone lacks or requires; {sapna nei lo} is to lack nothing	
 s39044	to the invitation/at the call	<sapna>, call or invitation, with the place marker <ah>, written with a hyphen: to the gathering one is invited to	
 s39045	needs/necessities/supplies	<sapna> need with plural <te>: the things someone lacks or requires	
@@ -1075,7 +1075,7 @@ s39093	decide/settle	after <khen>, divide, as {khen sat} and {thukhen sat}, the 
 s39094	cut/chop/cut down	cut with a blow of a knife or axe, as a bunch of bananas from the plant	
 s39095	come to feel/now find/consider	<sa>, feel or find to be so, with the particle of a change of state, now or already, written as one word: {haksa sata} is has come to find it hard and {a ngeina sata} now takes it as normal	
 s39096	cramp/muscle cramp	a sudden painful tightening of a muscle; {satai thei} is one can get a cramp	
-s39097	flesh	the flesh of the body of a person	
+s39097	flesh/muscle	the flesh of the body of a person	
 s39098	meat/lean meat	the meat of an animal as food, the part that is not bone: {satak limci} is tasty meat, set against <saguh>, bone; the other sense is the flesh of a living body	
 s39099	muscles/flesh	<satak>, flesh, with the plural <te>: the muscles and fleshy parts of the body	
 s39100	share of meat/meat portion	<sa>, meat, with <tan>, cut share: the cut of a killed animal that falls to the holder of each position of a household; printed {satan'} with a final apostrophe	
@@ -1243,7 +1243,7 @@ s39262	booth/temporary shelter/hut	a shelter built of leafy branches, as at the 
 s39263	to send/to command	<sawl>, send or order, and <ding> written as one word: to send, going to send; after a possessor, what one is to order	
 s39264	sending	<sawl> with the linking suffix {-in}; {mi sawlin}, sending someone	
 s39265	bush/thicket/undergrowth	a bush or thicket, low dense growth where people or animals can hide; in Luke and Acts the burning bush of Moses	
-s39266	send out/send away	<sawl>, send, with <khia>, out: send someone out of a place or away from oneself	
+s39266	send out/send away/dismiss	<sawl>, send, with <khia>, out: send someone out of a place or away from oneself	
 s39267	send away/send out	form of <sawlkhia> used before <kei>, <nading> and in dependent clauses	
 s39268	sending away/dismissal	<sawlkhiat> send away with the noun suffix <na>	
 s39269	have ordered/have already sent	<sawl>, order or send, and <khin>, already, written as one word: have already told someone to do something	
@@ -1433,7 +1433,7 @@ s39454	teacher/Saya	Burmese title for a teacher or a respected man, placed befor
 s39455	Buddhist abbot/senior monk	title of a senior Buddhist monk, the head of a monastery, placed after or before his name	
 s39456	woman teacher/nurse/Sayama	Burmese title for a woman teacher, placed before the name; also a nurse	
 s39457	Sayo		
-s39458	ibex	a wild animal in the list of clean animals, where the English versions have ibex, pygarg or chamois, which animal it is in everyday speech is to be confirmed	
+s39458	ibex/chamois	a wild animal in the list of clean animals, where the English versions have ibex, pygarg or chamois, which animal it is in everyday speech is to be confirmed	
 s39459	deposit/advance payment	money paid in advance to secure a purchase or contract; probably the Burmese word for a deposit	
 s39460	flesh/muscle	the flesh or muscle of the body, named beside <thagui>, sinews, <guh>, bones, and <vun>, skin	
 s39461	muscles/sinews	<sazang>, flesh or muscle, with the plural <te>	
@@ -1505,7 +1505,7 @@ s39526	not hide	<seel>, hide, with <lo>, not; {mai seello} is not to hide the fa
 s39527	not argue/not dispute	<seel>, dispute or speak against, with <lo> not, said with <thu> word	
 s39528	not talking back/without contradicting	in {thu seelloin}: <seel>, here speak against, with <lo>, not, and the linking suffix <in>	
 s39529	hiding/covering/concealment	the act or place of hiding; {seelna mun} is a hiding place, and {mawhna seelna} is the covering of sin	
-s39530	argument/dispute/case	arguing against someone, apparently from another verb <seel> meaning dispute	
+s39530	argument/dispute/case/polemics	arguing against someone, apparently from another verb <seel> meaning dispute	
 s39531	hide well/hide again	<seel>, hide, with <pha>: hide something carefully	
 s39532	cover/hide	<seel>, hide, with <sak>, for someone, and the linking suffix <in>: covering what should not be seen	
 s39533	hide/conceal/keep hidden	<seel>, hide, with <sim>, secretly: hide a person or a thing away where it will not be found	
@@ -1534,7 +1534,7 @@ s39556	one part/portions/tithes	<sehkhat>, one part, with the plural <te>: the p
 s39557	distribute/apportion/divide out/allocate	<seh>, portion, with <khen>, divide: divide into shares and give out	
 s39558	measure off/parcel out/apportion	<seh>, portion or assign, with <khia>, out: mark out land in portions	
 s39559	have appointed/have set apart	<seh>, appoint, with <khin>, already done; the NIV has anointed	
-s39560	appoint beforehand/decree/set in advance	fix or assign something ahead of time, such as a day or an outcome	
+s39560	appoint beforehand/decree/set in advance/destine/predestine	fix or assign something ahead of time, such as a day or an outcome	
 s39561	appoint beforehand/predestine/arrange in advance	<seh>, appoint, and <kholh>, beforehand, written as one word: set apart or fix ahead of time; {sehkholh nei} is have an arrangement made in advance	
 s39562	appointing beforehand	<seh>, appoint, with <kholh>, beforehand, and the linking suffix <in>	
 s39563	the appointed man	<seh>, appoint, with <kholh>, beforehand, and <pa> marking a man: the man appointed beforehand	
@@ -1783,7 +1783,7 @@ s39806	without doing/without working	<sep> and <lohpi> written as one word: with
 s39807	before doing/before serving	<sep>, do or serve, and <ma>, before, written as one word: before doing a work or holding an office	
 s39808	wages/pay	<sep>, work, with <man>, price: what is paid for work done	
 s39809		<sep>, work, written as one word with the first part of <manin>, because, and followed by <in>: because of working, because he worked	
-s39810	work/labour/toil/deed	<sep>, work, with the noun suffix <na>: the work someone does, hard labour, or a deed that has been done	
+s39810	work/labour/toil/deed/job	<sep>, work, with the noun suffix <na>: the work someone does, hard labour, or a deed that has been done	
 s39811	verb	grammar term: a word that tells what is done, such as <pai>, <tu> and <ihmu>; the book also calls it <gamtatna>	
 s39812	work/undertaking/activity/enterprise	<sepna>, work, and <bawlna>, doing, two words of like meaning set side by side: all that a person does or undertakes, work and business of every kind; often followed by {khat peuh}, any, or <khempeuh>, all	
 s39814	deeds/works/acts	plural of <sepna>: the things someone has done, in the Psalms mostly the mighty works of God	
@@ -1867,7 +1867,7 @@ s39892		<sese> and the topic marker <pen> written as one word after a verb: the 
 s39893	cypress/broom tree	a kind of tree; the verses use it for the cypress of Isaiah 44:14 and for the broom bush whose wood makes hot coals in Psalm 120:4	
 s39894	session/sitting	one period of a meeting, class or treatment	
 s39895	restlessly/noisily	placed after a verb: in a restless, noisy or agitated way, rushing about; mostly with a negative such as <lo> or <kei>, without fuss or commotion	
-s39896	machine/engine/device	a machine or engine, a word taken from Burmese: {siamgan set} is a weaving machine and {laigelhna set} a typewriter	
+s39896	machine/engine/device/motor	a machine or engine, a word taken from Burmese: {siamgan set} is a weaving machine and {laigelhna set} a typewriter	
 s39897	Setapak	a district of Kuala Lumpur in Malaysia where many Zomi live	
 s39898	Alor Setar	second word of the name Alor Setar, the chief city of the state of Kedah in Malaysia	
 s39899	bicycle/bike/cycle	a bicycle; {setbing tuang} is ride a bicycle	

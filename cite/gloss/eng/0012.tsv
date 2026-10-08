@@ -34,7 +34,7 @@ s24031	contact/get in touch/communicate	get in touch or keep in touch with a per
 s24032	way of relating/relationship/connection	<kizop> and <dan> written as one word: the way people relate to or deal with one another; {mi tawh kizopdan siam} is good at getting on with people	
 s24033	have contact with/be involved with	Have contact or dealings with something, used after <tawh>; built on <kizop> be joined	
 s24034	connection/link/involvement	<kizopkhak>, have contact with, with the noun suffix {-na}: a link with something, used after <tawh>; {kizopkhakna omlo} is there is no connection	
-s24035	relationship/connection/fellowship/alliance/affiliation/linkage/relation	a being joined together with others, by dealings, marriage or trade	
+s24035	relationship/connection/fellowship/alliance/affiliation/linkage/relation/contact/link	a being joined together with others, by dealings, marriage or trade	
 s24036	relationships/connections/joints	plural of <kizopna>: dealings and ties between people, connections, and in the body the joints where bones meet	
 s24037	be connected with/be in contact with/have relations with	<kizop>, be joined, with <pih>, together with: be linked or keep in touch with someone; also used as a noun, a connection or contact	
 s24038	contacts/connections/associates	<kizoppih>, be in contact with, with the plural ending <te>: the people one is connected or in touch with	
@@ -159,7 +159,7 @@ s24160	keep on putting/keep/leave in place	<koih>, put, said twice and written a
 s24161	store/keep	apparently <koih>, put or store, written together with <leh>, and: the storing of valuables and	
 s24162	not put/not place	<koih>, put, and <lo>, not, written as one word	
 s24163	tolerate/let be/leave alone	<koih> put, leave, with <mawk> carelessly; with <lo>, not put up with	
-s24164	storehouse/store/holder	place where something is put or kept, as in {humpinelkai koihna} lions' den and {meivak koihna} lampstand	
+s24164	storehouse/store/holder/godown	place where something is put or kept, as in {humpinelkai koihna} lions' den and {meivak koihna} lampstand	
 s24165	for putting/for keeping/place to put	<koih>, put or keep, and <nading>, for, written as one word: for putting or keeping something, and the place or means for it	
 s24166	storehouses/treasuries/stores	<koihna> with the plural <te>: places where things are kept; {van manpha koihnate} are treasuries	
 s24167	one who appointed/one who put/man appointed	<koih>, put, with <pa> for a male person: the one who put, set or appointed, or the man who was put in a post	
@@ -216,7 +216,7 @@ s24218	stocks/shackling/fetters	<kolbulh> put in fetters with the noun suffix <n
 s24219	handcuffed/in handcuffs/shackled	<kolbulh>, shackle, with <sa>, marking a state already reached, written as one word: having been put in handcuffs or fetters	
 s24220	ourselves	<ko> we, repeated with <le> and: we ourselves as the object of our own action, excluding the hearer	
 s24221	bald/bare	bare of hair or of growth; {tal kolh} is a bald forehead and {mual kolh} a bare hilltop; of plants or forest it is stripped bare	
-s24222	baldness/bareness	<kolh> bald or bare with the noun suffix <na>; {lu kolhna} is baldness of the head and {mun kolhna} a bare, ruined place	
+s24222	baldness/bareness/alopecia	<kolh> bald or bare with the noun suffix <na>; {lu kolhna} is baldness of the head and {mun kolhna} a bare, ruined place	
 s24223	Kol-Hozeh	father of Shallun who repaired the Fountain Gate, and an ancestor of Maaseiah of Judah	
 s24224	make bald/strip bare	<kolh> bald or bare with <sak>, cause	
 s24225	be stripped bare/be laid flat	<kolh> bare with <siang> clean: of a forest, be cleared completely	
@@ -283,7 +283,7 @@ s24287	among us
 s24288	among us		
 s24289	gate and gate	{kong le kong} written as one word; {konglekong kikal} is the distance from one gate to the other	
 s24290	ask you/request of you/pray to you	<kong>, I or we to you, and <ngen>, ask, written as one word: I or we ask you; {thu kongngen hi} is I pray to you	
-s24291	gate/gateway/doorway	main gate of a city, court or building, <kong> door with <pi>, great; {sihna kongpi} is the gates of death	
+s24291	gate/gateway/doorway/portal	main gate of a city, court or building, <kong> door with <pi>, great; {sihna kongpi} is the gates of death	
 s24292	gate	<kongpi> gate written with a capital in the names of city gates, as {Sakol Kongpi}, the Horse Gate, and {Tuu Kongpi}, the Sheep Gate, and at the start of a sentence	
 s24293	I give you/we give you	<kong>, I to you, and <pia>, give, written as one word: I give or we give to you	
 s24294	I give you	<piak> give with <kong> before it, which marks I as the doer and you as the receiver	
@@ -351,7 +351,7 @@ s24356	Cornelius	Roman centurion of the Italian Regiment at Caesarea, to whom Pe
 s24357	Kos	island in the Aegean Sea, reached by Paul’s ship the day before Rhodes	
 s24358	have someone express/make say	a form of <koh> with a causative ending: have someone say or express something; {lungdam kosak} is have a child say thank you	
 s24359	Cosam	ancestor of Jesus in the genealogy of Luke, son of Elmadam	
-s24360	blaspheme/slander/curse/scoff/taunt	speak abusively or mockingly against someone, especially against God	
+s24360	blaspheme/slander/curse/scoff/taunt/revile	speak abusively or mockingly against someone, especially against God	
 s24361	slander/insult/speak evil of/revile	form of <kosia> used before {uh hangin}, <ciangin> and {uh a}	
 s24362	slanderers/revilers	<kosia> slander, revile, with the plural <te>: those who speak abusively	
 s24363	insult/reproach/curse/disgrace	abusive speech against someone, or the disgrace of being so spoken of	
@@ -582,7 +582,7 @@ s24591	gate	<kulhkongpi>, city gate, written with a capital at the start of a se
 s24592	gates/city gates	plural of <kulhkongpi>: the gates of a walled city or of the temple	
 s24593	fortified/walled	having a wall, <kulh> wall with <nei> have; said of cities	
 s24594	fortified/walled	<kulhnei>, having a wall, with plural <te>, which belongs to the whole phrase {khuapi kulhnei}, fortified cities	
-s24595	wall/city wall/fortress/fortification/rampart	<kulh>, wall, with <pi>, great: the great wall round a city, and so a fortress or stronghold	
+s24595	wall/city wall/fortress/fortification/rampart/fort	<kulh>, wall, with <pi>, great: the great wall round a city, and so a fortress or stronghold	
 s24596	wall/fortress	<kulhpi> written with a capital in the place name {Kiu Kulhpi} in the wall of Jerusalem, where the NIV has Corner Gate	
 s24597	walls/strongholds/fortresses	plural of <kulhpi>: the great walls of a city, or its strongholds	
 s24598	outside the wall	<kulh> wall with <pua> outside and <ah>, at	
@@ -659,7 +659,7 @@ s24668	discuss together/confer/talk over	talk a matter over together, the verb o
 s24669	turn of the year/year's end	<kum> year with <khen> divide: the parting of the old year from the new; <kumkhen pawi> is another name of the Khuado harvest festival	
 s24670	year-end festival	<kumkhen>, the turn of the year, with <pawi>, festival: a name of <Khuado>, held when the gains of the year of work have been gathered in; the book also calls it <kumthak>, new year	
 s24671	year-end festival	<kumkhen>, the turn of the year, with <pawi>, festival: the feast that parts the old year from the new, a name the book gives to the <Khuado>	
-s24672	get down/come down/get out/disembark	<kum>, go down, with <khia>, out: get down out of a boat or come down from a high place such as a throne or the cross	
+s24672	get down/come down/get out/disembark/dismount	<kum>, go down, with <khia>, out: get down out of a boat or come down from a high place such as a throne or the cross	
 s24673	years/lifetime	word of songs and poetry for the years of a life; {khan kumkhua sawt} is to live long	
 s24674	year	word of songs for the year and what it brings; in the song sung to the bees, {nang in kumkhua na thei a}, you know the year, asks them how the coming year will be	
 s24676	next year	<kum> year with <kik>, again, the year that comes round again; {kumkik ciangin} is at this time next year	
@@ -686,7 +686,7 @@ s24696	back in the year/as long ago as	<kum>, year, and <pek> written as one wor
 s24697	since as long ago as/as far back as	<kum>, year, <pek>, long ago, and <pan>, from, written as one word after the number of a year: since as far back as that year	
 s24698		<kum>, year, and the topic marker <pen> written as one word: the year, as for the year	
 s24699	good year	<kum>, year, and <pha>, good, written as one word: a year of plenty and good health, as foretold from the wasp nest at <Khuado>	
-s24700	king	ruler of a country or city; with <pa> it gives <kumpipa>, the king, and with <nu> <kumpinu>, the queen	
+s24700	king/monarch	ruler of a country or city; with <pa> it gives <kumpipa>, the king, and with <nu> <kumpinu>, the queen	
 s24701	royal	of a king, placed before another noun, as in {kumpi gam} kingdom, {kumpi tokhom} throne and {kumpi inn} palace	
 s24702	government/state/authorities	the government of a country, in present-day use, often after the name of the country as in {India kumpi}; <kumpi nasem> is a government employee	
 s24703	King	<kumpi> written with a capital, as a title before a name, for the Lord's king, and in {Kumpi Gam}, kingdom	
@@ -699,7 +699,7 @@ s24709	government permission/official permit/licence	<kumpi>, here the governmen
 s24710	official recognition/government registration/legal status	<kumpi>, government, and <theihpihna>, recognition: recognition or registration by the state, which makes a group, a place or an activity lawful; with <tawh>, officially approved, and with {om lo} or {ngah lo}, unregistered or illegal	
 s24711	law/state law/government regulation	<kumpi>, here the government or the state, and <thukhun>, rule: the law of the country, the regulations of the government; {kumpi thukhun ombangin} is according to the law	
 s24712	the authorities/government officials	<kumpi>, here the government, and {thunei}, one who has the say: those who hold office in the government of a country, the authorities; mostly followed by <te>	
-s24713	state power/government authority/royal authority	<kumpi>, king and in present-day use the government, with <thuneihna>, authority: the power of the state or of a ruler to govern; {kumpi thuneihna tawh} is by the authority of the state, and the power that is seized in a coup is named so	
+s24713	state power/government authority/royal authority/government	<kumpi>, king and in present-day use the government, with <thuneihna>, authority: the power of the state or of a ruler to govern; {kumpi thuneihna tawh} is by the authority of the state, and the power that is seized in a coup is named so	
 s24714	government authorities/government officials/the authorities	<kumpi>, here government and not king, and <thuneite>, those in authority: the officials of the state, the authorities; the name of a country may stand before it, as in {India kumpi thuneite}	
 s24715	government official/senior official/authorities	<kumpi>, here the government, and <ulian>, high official: a high officer of a government, such as a minister; mostly followed by <te>	
 s24716	government administration/government scheme/government	<kumpi>, here the government, with <vaihawmna>, the managing of affairs: the administration of a government, or a scheme that it runs; the name of the country stands before it	
@@ -744,7 +744,7 @@ s24754	every year/yearly/each year	<kum>, year, with <sial>, each: every year, y
 s24755	annual/yearly	<kum>, year, with <sim>, every; placed before the noun, as in {kumsim pawi}, the yearly feast	
 s24756	every year/yearly/annually	used alone or as {kumsim in} and {kumsim a} before the verb or a date: every year; not the adjective before a noun	
 s24757	every year/yearly/year after year	<kumsim>, yearly, with the adverb ending <in>	
-s24758	come down/descend/go down/climb down	<kum>, go down, with <suk>, downward: come or go down from a higher place, as from heaven, a roof or the cross	
+s24758	come down/descend/go down/climb down/alight/dismount	<kum>, go down, with <suk>, downward: come or go down from a higher place, as from heaven, a roof or the cross	
 s24759	coming down/descending/bending down	<kumsuk> come down, with the linking <a> before the next verb	
 s24760	come down/go down/descend	<kumsuk> with the linking ending <in>: coming down and then doing something else	
 s24761	come back down/go down again	<kumsuk>, come down, and <kik>, back, written as one word	
@@ -853,7 +853,7 @@ s24865	Kyrgyzstan	country in Central Asia
 s24866	Kywechaung Yaphe		
 s24867	be	particle that follows the command and wish markers <in>, <un> and <hen> and links the clause to the next one: and, and then	postpositional marker to indicate objective case
 s24868	song		
-s24869	take/get/capture	verb, the form of <lak> used before words such as <thei>, <zo> and <uh>: take or fetch a thing, and in war news take a place; {ki la thei} is can be collected	
+s24869	take/get/capture/fetch	verb, the form of <lak> used before words such as <thei>, <zo> and <uh>: take or fetch a thing, and in war news take a place; {ki la thei} is can be collected	
 s24870	song	<la>, song, written with a capital at the start of a sentence and in the title <Kah La>, the Laments, songs of weeping	
 s24871	donkey	<la>, donkey, written with a capital at the start of a line; {la khaguh} is the jawbone of a donkey	
 s24872	song/hymn	<la>, song, and <dawng>, here not answer but a counting word for songs: one song as a piece that is counted; a number follows, as in {la dawng 400}, 400 songs	
@@ -869,7 +869,7 @@ s24881	will still/will yet	<laai> and <ding> written as one word after a verb: w
 s24883	Laaitui	a Zomi village in Chin State, Myanmar	
 s24884	people of Laaitui	the people of Laaitui, a Zomi village; the village name with the plural <te>	
 s24888	openly/exposed	in {kipho laakin}, laid open to view with nothing covering	
-s24889	disclose/expose/bring to light	bring out into the open what was hidden	
+s24889	disclose/expose/bring to light/divulge	bring out into the open what was hidden	
 s24892	seize/take over/conquer	<laak>, take, and <zawh>, overcome, written as one word: succeed in taking a land or power; {aana laakzawh} is seize power	
 s24893	dance	move the body to music, in joy or to entertain	
 s24894	float	be carried on the surface of water	
@@ -886,7 +886,7 @@ s24905	make float	<laam> float with the causative <sak>
 s24906	lift up/exalt/raise up	of God, lift a person up or raise him to honour; meaning taken from two sentences only	
 s24907	dancers/those who dance	<laam> dance, with the plural <te>; {a laamte}, the ones who are dancing	
 s24908		<laam>, fathom, and <thum>, three, written as one word: three fathoms	
-s24909	lift up/raise/heave/uplift	lift something up, as the hands in prayer or a staff; also lift a person out of trouble, and of water, bear a boat upward	
+s24909	lift up/raise/heave/uplift/hoist	lift something up, as the hands in prayer or a staff; also lift a person out of trouble, and of water, bear a boat upward	
 s24910	make float up/make rise	<laam> float with <to>, upward, and the causative <sak>	
 s24911	Laamzaang/Lamzang	a village near Tedim in Chin State, whose dialect is close to the common Tedim speech	
 s24912	be widespread/be prevalent/spread/be popular	be found or talked of everywhere, said of a disease, crime, a saying or a party; often with <mahmah>, very	
@@ -928,7 +928,7 @@ s24947	must show/have to produce	<lah>, show, and <kul>, must, written as one wo
 s24948	Lahmam/Lahmas	town in the western lowland of Judah, listed with Kabbon and Kitlish	
 s24949	Lahmas	town in the western lowland of Judah, listed with Kabbon and Kitlish; another spelling of <Lahmam>	
 s24950	Lahmi	brother of Goliath the Gittite, killed by Elhanan son of Jair	
-s24951	showing/display/demonstration/indication/show	<lah>, show, with the noun suffix <na>: the act of showing or making known, or the thing that shows it; {lim lahna} is the showing of a sign	
+s24951	showing/display/demonstration/indication/show/exhibition	<lah>, show, with the noun suffix <na>: the act of showing or making known, or the thing that shows it; {lim lahna} is the showing of a sign	
 s24952	in showing/for showing	<lahna>, showing, with the marker <ah> written after a hyphen: in showing a thing; {awsang lahna-ah} is for showing a high tone	
 s24953	things shown/signs	<lahna> showing with the plural <te>, the things someone has shown; {lam lahnate} are guideposts	
 s24954	want to show	<lah>, show, and <nop>, want, written as one word in a dependent clause: wish to show or make known a thing or a feeling	
@@ -978,7 +978,7 @@ s25001	Laibung
 s25002	big book/record book/register	<laibu>, book, with <pi>, big, written as one word: a large book, also the main book in which records are kept	
 s25003	library	<laibu>, book, with <saal>, storehouse, written as one word: a library; also used as the title of a collection of writings	
 s25004	books/scrolls	plural of <laibu>: books or scrolls	
-s25005	scroll/writing tablet/sheet	a sheet or surface to write on; a scroll when it is rolled up	
+s25005	scroll/writing tablet/sheet/paper	a sheet or surface to write on; a scroll when it is rolled up	
 s25006	document/papers/card	an official paper that shows who a person is or what is granted, as {UN laidal}, the refugee document of the UNHCR, and {appointment laidal}; not a blank sheet to write on	
 s25007	card holder/document holder	<laidal>, an official document, and <tawi>, hold: a person who holds such a document, most often {UN laidal tawi} or {UNHCR laidal tawi}, a refugee registered with the UNHCR and holding its card; it stands after the name of the document, in lists of detained persons after the person's name, and takes <te> for the plural	
 s25008	note/slip of paper/small card	<laidal> and <neu> written as one word: a small sheet of paper or card with something written on it	
@@ -1015,7 +1015,7 @@ s25038	full sibling/sibling by birth	<laigui>, umbilical cord, and <zom>, join, 
 s25039	full siblings/siblings by birth	plural of <laiguizom>: brothers and sisters born of the same mother	
 s25040	replace/succeed/exchange/substitute/change/supersede	take the place or office of another, or put one thing in place of another; {galvil laih} is change the guard	
 s25041	study hard/work hard at school	<lai>, writing or study, and <hanciam>, strive, written as one word: make an effort in one's studies	
-s25042	medium/middle/average/intermediate	in the middle between high and low or large and small; {mi laihawl} is the middle class and {sumlut laihawl gam} a middle-income country	
+s25042	medium/middle/average/intermediate/midsize	in the middle between high and low or large and small; {mi laihawl} is the middle class and {sumlut laihawl gam} a middle-income country	
 s25043	newsletter/periodical/bulletin/magazine/journal	a paper or magazine given out at regular times, from <lai>, writing, and <hawm>, distribute	
 s25044	newsletters/periodicals/newspapers	plural of <laihawm>: papers and magazines that are given out regularly	
 s25045	will replace/to change/to exchange	<laih>, replace or change, and the future marker <ding> written as one word: will change, in order to change	
@@ -1124,7 +1124,7 @@ s25148		<lai>, still, with the particle <sam>, indeed, written as one word after
 s25149	laisan cloth	in {puan laisan}, a traditional woven cloth of the <Zomi>, worn at celebrations and put on a person to honour him	
 s25150	Laish	name of the city in the far north that the tribe of Dan captured and renamed Dan, and of the father of Paltiel from Gallim	
 s25151	as long as/as far as	placed after a clause: for as long as, or to the extent that, it is so; {ahih theih laisiah} is as far as possible	
-s25152	educated/learned/good at study	<lai>, writing or study, with <siam>, skilled: learned, well educated or good at school work; also a noun, an educated person	
+s25152	educated/learned/good at study/lettered	<lai>, writing or study, with <siam>, skilled: learned, well educated or good at school work; also a noun, an educated person	
 s25153	being learned/being good at study	<laisiam>, good at study, with the linking <in>: being good at study, and	
 s25154	education/learning/scholarship	<laisiam>, educated, with the noun suffix <na>: being educated, skill in study	
 s25155	Bible/Scripture/Holy Scripture	<lai>, writing, and <siangtho>, holy, written as one word: the Bible	
@@ -1211,11 +1211,11 @@ s25240	writing also/letter also	<lai>, writing, letter or studies, and <zong>, a
 s25241	on/in/among	the midst of a group or a place; {lak panin} is from among, and <lakah> is among	
 s25242	inside/midst	the inner part or midst of something, as of a cloud, the ground or the dark	
 s25243	take	take something into the hand or into one's keeping. The form of <la>, take, used before endings and other words	
-s25244	show/point out/display/exhibit/indicate	let someone see or know something, show it; {hong lak} is show us; a different word from {lak}, take, and the same as <lakh>	
+s25244	show/point out/display/exhibit/indicate/demonstrate	let someone see or know something, show it; {hong lak} is show us; a different word from {lak}, take, and the same as <lakh>	
 s25246	among/of/in	<lak> with the linking <a> before a following word: among, one of, in the midst of	
 s25247	one of/one among	<laka>, among, and <khat>, one: placed after a plural noun phrase, usually ending in <te> or {te'}, one of those named; often followed by {ahi hi}, is	
 s25248	among/in the midst of	<lak>, midst, with <aa> written for <ah>: another spelling of <lakah>, among	
-s25249	among/amid	<lak>, midst, with the place marker <ah>: among a group, or out in a place such as the wilderness	
+s25249	among/amid/amidst	<lak>, midst, with the place marker <ah>: among a group, or out in a place such as the wilderness	
 s25250	be among/be one of/be counted among	<lakah>, among, and <kihel.2>, be included: after a plural noun, be one of that group or be counted in it; with <sak>, {lakah kihel sak}, count someone among	
 s25251	also among/even among	<lakah>, among, and <zong>, also, written as one word: among those people or things too	
 s25252	poetic word/poetic language/poetic diction	<la>, song, with <kam>, word: the special words and phrases used in Zomi songs and poetry, different from everyday speech	
@@ -1228,7 +1228,7 @@ s25258	show/display	another spelling of <lak>, show, let something be seen; comp
 s25259	take	<la>, take, with <kha>, which shows the act as something one ends up doing or should not do	
 s25260	one song/a song	<la> and <khat> written as one word: one song; in the pair {thukhat lakhat}, any matter that comes up, something or other	
 s25261	take together/take on together	<la> take, with <khawm> together; here of taking on a duty jointly	
-s25262	extract/pull out	<la>, take, with <khia>, out: take or pull something out of the place where it is	
+s25262	extract/pull out/fish out	<la>, take, with <khia>, out: take or pull something out of the place where it is	
 s25263	taken out/take out/bring out	take a person or thing out of a place or out of the hand of someone	
 s25264	remove/take away	take something away so that it is no longer there, as a burden, a disgrace, a cover or an idol	
 s25265	capture/seize/take	in war news, take a town, camp or post from the enemy, often with <zo> or <khin>; the object is a place and not a thing lifted out	
@@ -1257,7 +1257,7 @@ s25287	happen to show/show	<lak>, show, with the verb particle <kha>, written as
 s25288	happen to take/take wrongly	<lak> take, with <khak>, by chance or by mistake	
 s25289	take together/gather/capture together	<lak>, take, and <khawm> written as one word: take or win something jointly, or bring items together in one collection	
 s25290	taken together/gathered together	<lakkhawm>, take or bring together, with the ending {-in}: having been brought together; {Mikanglai tawh lakkhawmin} is set together with the English	
-s25291	reveal/show forth/make known	<lak>, show, with <khia>, out: bring out into view what was hidden or unseen	
+s25291	reveal/show forth/make known/demonstrate/expose	<lak>, show, with <khia>, out: bring out into view what was hidden or unseen	
 s25292	mislead/lead astray	<lak>, show, with <khial>, wrong: show the way wrongly, as in {lam lakkhial}, lead astray	
 s25293	take/take out/take away	the form of <lakhia>, take out, used before endings and following words	
 s25294	capture/seize/take	take a camp, base or town from the enemy in war; the object is a place such as <Camp> or <khuapi>, and {lakkhiat kik} is retake	
@@ -1272,7 +1272,7 @@ s25302		<lakkhiat>, take away, with plural <te>: here the people from whom somet
 s25303	be able to take out/can remove	<lakkhiat>, take out, and <theih>, be able, written as one word; {lakkhiattheih nadingin} is so that it can be taken out	
 s25304	have shown/have revealed	<lak>, show, with <khin>, already: have shown or revealed something to someone	
 s25305	have taken/have received	<lak> take, with <khit> finished; {lakkhit ciangin} is after receiving	
-s25306	show beforehand/reveal in advance/portend	<lak> show, with <khol> beforehand	
+s25306	show beforehand/reveal in advance/portend/forebode	<lak> show, with <khol> beforehand	
 s25307	have shown beforehand/reveal in advance	<lakkhol> with <zo>, marking the action as accomplished	
 s25308	take back/take again/bring back	<lak>, take, with <kik>, again or back: take up again or bring back; {phu lakkik} is take revenge	
 s25309	taken back/reclaimed	<lakkik>, take back, with <sa>, already done	
@@ -1359,7 +1359,7 @@ s25389	direction	<lam>, direction, with the marker <ah>: toward, in the directio
 s25390	side/area	<lam>, side, with the marker <ah>: on the side of, in the part lying that way	
 s25391	in the field of/as regards/in terms of	after a noun that names a subject or quality and not a place: in the matter of, as far as that is concerned, as in {music lamah}, in music; no movement and no location is meant	
 s25392	side with/take the side of/be on the side of	<lamah>, on the side, and <pang>, take position: stand on the side of the person or party named before it, usually in the possessive, as {nang' lamah pang}, be on your side; also give oneself to the kind of work named before it	
-s25393	lyrics/words of a song	<la>, song, with <mal>, a single word: the words of a song, as distinct from {la-aw}, its tune	
+s25393	lyrics/words of a song	<la>, song, with <mal>, a single word: the words of a song, as distinct from <la-aw>, its tune	
 s25394	lyrics/words of a song	<la>, song, and <malte>, words, written as one word: the words of a song or hymn, as distinct from its tune	
 s25395	take first/put first	<la>, take, with <masa>, first, written as one word: take something before anything else, give it the first place	
 s25396	turning aside/stopping on the way	leaving one's road to call on someone; the exact sense of <baang> is not confirmed	
@@ -1373,7 +1373,7 @@ s25403	way of building/building method	<lam>, build, with <dan>, manner, written
 s25404	surprise	the feeling that something is strange or unexpected; {lamdang sa} is to feel surprise at something	
 s25405	shock		
 s25406	astonish/amaze/nonplus/startle/astound/stun	be wonderful or astonishing; with <sa>, {lamdang sa}, be astonished at something	
-s25407	strange/wonderful/unusual/amazing/astonishing/queer	placed after a noun, describing a thing that is out of the ordinary: {aksi lamdang}, a strange star, and {na lamdang}, a wonder or miracle; the other senses are the feeling of surprise itself	
+s25407	strange/wonderful/unusual/amazing/astonishing/queer/marvelous/wondrous	placed after a noun, describing a thing that is out of the ordinary: {aksi lamdang}, a strange star, and {na lamdang}, a wonder or miracle; the other senses are the feeling of surprise itself	
 s25408	I am amazed/I find it strange/I wonder	<lamdang>, strange or wonderful, and <kasa>, I feel: the expression {lamdang sa}, find something strange or marvellous, in the first person; the thing wondered at stands before it	
 s25409	be astonished/cause amazement/be thought strange	<lamdang>, surprise, and <kisa>, the form with {ki-} of <sa>, feel: people find it strange, there is astonishment; said of an event without naming who is surprised, often closing a headline, while {lamdang sa} names the person who is surprised	
 s25410	interjection	grammar term: a word that expresses a sudden feeling of surprise, pain or joy and is followed by an exclamation mark, as <oh>, <eh> and <nuvaw>	
@@ -1399,7 +1399,7 @@ s25429	build	<lam>, build, with <ding> written as one word: to build, going to b
 s25430	street/roadside/wayside	the length of a road: the streets of a town where people pass, or the ground along the side of a path	
 s25431	along the road/along the path/on the street	<lamdung>, the length of a road, street, with the marker <ah>; written with a capital at the start of a sentence	
 s25432	Lamech	name of two men: a descendant of Cain who had two wives, and the son of Methuselah and father of Noah	
-s25433	hope for/expect/look forward to	look ahead to something with hope or expectation; the form <lamet> is used before endings such as <leh>, <loh>, <ding> and <na>	
+s25433	hope for/expect/look forward to/anticipate	look ahead to something with hope or expectation; the form <lamet> is used before endings such as <leh>, <loh>, <ding> and <na>	
 s25434	hoping for/expecting/waiting for	<lamen> with the linking ending <in>, hoping or expecting while another action follows	
 s25435	not expect/not hope for	<lamen>, expect, and <lo>, not, written as one word: not expect that something will happen	
 s25436	one who hopes for/one who waits for	<lamen> with <pa>, the man who looks forward to something	
@@ -1412,7 +1412,7 @@ s25442	hopeful/worth hoping for	<lamet>, hope, with <huai>, worthy of; {a lameth
 s25443	as one's hope	<lamet>, hope, with <in>; {lametin nei} is to have as one's hope, put one's hope in	
 s25444	unexpected/unexpectedly	<lamet> and <loh> written as one word: not expected; {lametloh laitak in} is at a moment when no one expects it, {lametloh in} unexpectedly	
 s25445	unexpectedly/suddenly/by surprise	<lamet>, expect, and <lohpi>, without, written as one word: without its being expected, usually followed by <in>	
-s25446	hope/expectation	<lamet>, hope, with the noun suffix <na>: what a person looks forward to or trusts will come	
+s25446	hope/expectation/anticipation	<lamet>, hope, with the noun suffix <na>: what a person looks forward to or trusts will come	
 s25447	hopes/things hoped for	plural of <lametna>	
 s25448	all hope/every expectation	<lametna> with <teng>, all	
 s25449	hope/the one hoped in	<lamet> with <pa>, the male person in whom others hope; said of the Lord	
@@ -1442,7 +1442,7 @@ s25474	intersection/junction/crossroads	the place where two or more roads cross,
 s25475	in the marketplace/in the public square	<lamkabom>, public square, with the place marker <ah>	
 s25476	in the public squares/in the streets	<lamkabom>, public square, with plural <te> and the place marker <ah>	
 s25477	guide/lead	lead along the way, <lam>, way, with <kaih>, lead	
-s25478	way/journey	the stretch between setting out and arriving; {lamkal-ah om} is be on the way	
+s25478	way/journey/transit	the stretch between setting out and arriving; {lamkal-ah om} is be on the way	
 s25479	on the way/on the road/along the way	<lamkal>, the course of a journey, with the place ending {-ah}	
 s25480	cross the road/cross the street	<lam>, road, with <kan>, step over or cross, as in <kantan>, written as one word: go across a road; <khetawh lamkan> is cross on foot	
 s25481	crossing/road crossing	a place for crossing a road, from <lamkan>, cross the road, with the ending {-na}; {lamkanna lei} is a footbridge over a road	
@@ -1531,7 +1531,7 @@ s25563	way/road/path	<lampi> written with a capital, mostly at the start of a se
 s25564	right path/right way	<lampi>, road, and <maan>, true or right: the right path, said of right conduct in life and not of a road; the object of verbs of walking, leading and teaching, as in {lampi maan tot}, walk the right path, and {lampi maan hilh}, show the right way	
 s25565	take the road/follow the path/go by way of	<lampi>, road, and <tawn>, go along: keep to a road, and in a figure take a certain course; the word before it names the road, as in {politics lampi tawn}, go the way of politics, and {tua lampi tawn}, take that path; with <in> or <a> it means by way of	
 s25566	stray/turn aside/go astray	leave the right way, <lam> way with <pial> turn off	
-s25567	perverse/warped/wayward	having left the right way, said of a perverse generation	
+s25567	perverse/warped/wayward/aberrant	having left the right way, said of a perverse generation	
 s25568	be thrown off course/go wildly astray	<lampial> leave the way, with <gawp> marking violent action; here of the heavenly bodies	
 s25569	turning aside/going astray	<lampial> turn aside, stray, with the linking ending <in>	
 s25570	go off the road/derail/veer off	<lampial>, leave the way, and <khia>, out, written as one word: of a car, train or aircraft, leave the road, the rails or the runway	
@@ -1614,7 +1614,7 @@ s25649	road surveyors/route seekers	<lam>, road, and <zongte>, those who seek, w
 s25650	toward/bound for/heading for	<lam> and <zuan> written as one word, placed after a place name: heading in the direction of that place	
 s25651	toward/bound for/heading for	<lamzuan> with the linking ending <in>, placed after a place name: heading in the direction of that place	
 s25652	banner/flag/signal	a flag raised as a signal	
-s25653	lustful/oversexed/libidinous	of strong sexual desire, said of men and of a stallion; the NIV speaks of large genitals here	
+s25653	lustful/oversexed/libidinous/lecherous	of strong sexual desire, said of men and of a stallion; the NIV speaks of large genitals here	
 s25654	road/street	a Burmese word for a road, kept after the name of a street and in Burmese terms such as {haa lan}, a highway; the Zolai word is <lampi>	
 s25655	take any longer/take any more	<la>, take, and <nawn> written as one word, before a negative: no longer take; {tavuan lanawn loding} is will no longer take responsibility	
 s25656	Lancaster	English place name, of towns in the United States, as in Lancaster Bible College; also met as a family name	
@@ -1658,7 +1658,7 @@ s25693	against/in opposition to	<langpang> oppose, with <a>
 s25694	against	<langpang>, oppose, with the linking suffix <in>; opposing, in opposition to	
 s25695	foes/adversaries/enemies/opponents	<langpang>, oppose, with the plural <te>: those who stand against someone	
 s25696	opposing/against/defying	form of <langpan> with {-in}; after its object it can be translated against	
-s25697	opposition/rebellion/protest	<langpan>, oppose, with the noun suffix <na>: the act of standing against someone, rebellion against God	
+s25697	opposition/rebellion/protest/insurrection	<langpan>, oppose, with the noun suffix <na>: the act of standing against someone, rebellion against God	
 s25698	opponents/those who oppose	<langpan>, oppose, with the plural <te>: those who stand against someone	
 s25699	Langpho		
 s25700	Langphun		
@@ -1671,7 +1671,7 @@ s25706	have revealed/have shown	<langsak>, show, with <ta> marking a state now r
 s25707	openly/in the open	in an open way, not hidden; {a langtang-a taina} is open rebuke	
 s25708	openly/publicly/plainly	<langtang>, open, with the ending <in>, used as {a langtangin}: openly, in plain view, without hiding	
 s25709	half	one side or half of a group, as in {Manasseh minam a langte}, the half-tribe of Manasseh	
-s25710	enemies/foes/adversaries	<lang>, opposing side, with the plural <te>: those on the other side, enemies	
+s25710	enemies/foes/adversaries/enemy	<lang>, opposing side, with the plural <te>: those on the other side, enemies	
 s25711	both sides/each side	<lang>, side, and <tuak>, each, written as one word: {a langtuak} is each of the two sides, both parties	
 s25712	on each side/on both sides/on each	<lang>, side, with <tuak>, each, and <ah>, at: on each of the two sides, as in {a khut langtuakah}, on each of his hands	
 s25714	Langzang		
@@ -1711,7 +1711,7 @@ s25747	songwriters/composers	<laphuak>, compose songs, with plural <te>: those w
 s25748	female donkey	<la> donkey with <pi> female; the male is <latal>	
 s25749	anthem/great song/hymn	<la>, song, with <pi>, great: an important or solemn song, such as the anthem of a land or a great piece sung by a choir; not the animal	
 s25750	donkey/female donkey	{Lapi’ ta lano} is the foal of a donkey	
-s25751	in time/on time/in good time	early enough, before it is too late; mostly as {a hun lapin}, in time	
+s25751	in time/on time/in good time/betimes	early enough, before it is too late; mostly as {a hun lapin}, in time	
 s25752	more and more	after a verb, apparently of something that keeps piling up; the sense is not certain from one verse	
 s25753	blinkingly/with quick glances	after a verb of the eyes such as <en> look, <dak> look around or {mit phe} blink, of quick repeated movements of the eyes, not of something that piles up	
 s25754	miss/not catch/not be in time for	<lap>, catch up with, and <lo>, not, written as one word: fail to catch or reach something in time, such as a train or a deadline	
@@ -1783,13 +1783,13 @@ s25820	fear/be afraid	form of <lau> used before <ding>, <nading>, <man> and <dan
 s25821	not afraid at all/fearless/unafraid	<lau> and <hetlo> written as one word: not afraid at all; {lauhetlo in} is without any fear	
 s25823		descriptive word placed after <tuan>, ride, for the jolting and bouncing of a chariot being driven	
 s25824	fear/dread	the feeling of being afraid, also fear that something may happen; {gal lauhna} is fear of war	
-s25825	dreadful/terrible/fearful/awesome/awful/fierce/ghastly/horrendous	<lau>, fear, with <huai>, causing: causing fear or awe, dreadful; of anger, fierce	
-s25826	dangerous/risky/harmful	likely to cause harm, said of a disease, a habit or a thing; with <adingin>, dangerous for someone, and {lauhuai zaw} is more dangerous	
+s25825	dreadful/terrible/fearful/awesome/awful/fierce/ghastly/horrendous/dire/fearsome/frightful/grisly/scary	<lau>, fear, with <huai>, causing: causing fear or awe, dreadful; of anger, fierce	
+s25826	dangerous/risky/harmful/hazardous/perilous	likely to cause harm, said of a disease, a habit or a thing; with <adingin>, dangerous for someone, and {lauhuai zaw} is more dangerous	
 s25827	will be dangerous/would be dangerous	<lauhuai>, dangerous, with <ding> written as one word: likely to be dangerous	
 s25828	still dangerous	<lauhuai>, fearful, and <lai>, here still, written as one word	
 s25829	not dangerous/harmless/nothing to fear	<lauhuai>, fearful or dangerous, and the negative <lo> written as one word: not dangerous, not to be feared	
 s25830	too dangerous/very frightening	<lauhuai> and <lua> written as one word: too fearful, very dangerous	
-s25831	terror/danger/dread/jeopardy	<lauhuai>, dreadful or dangerous, with the noun suffix <na>: terror, or danger that threatens	
+s25831	terror/danger/dread/jeopardy/hazard	<lauhuai>, dreadful or dangerous, with the noun suffix <na>: terror, or danger that threatens	
 s25832	terrors/dangers	<lauhuaina>, terror or danger, with the plural <te>	
 s25833	fierce/most dreadful/terrible	<lauhuai> dreadful with <pi>, great; said of anger	
 s25834	endanger/make dangerous/frighten/imperil/jeopardise	<lauhuai>, fearful or dangerous, and <sak>, cause, written as one word: put in danger, raise the danger of	
@@ -1815,7 +1815,7 @@ s25853	great fear/being too afraid	<lau> and <luat> written as one word: being t
 s25854	very afraid/terrified	<lau>, afraid, and <mahmah>, very, written as one word	
 s25855	look afraid/show fear	<lau>, fear, with <mai>, face: of the face, show fear	
 s25856	for fear of/because of fear	<lau>, be afraid, and <man>, because, written as one word and followed by <in> or <mahin>: because of fearing something	
-s25857	fear/terror/dread	<lau>, fear, with the noun suffix <na>: fear, dread or terror	
+s25857	fear/terror/dread/fright/horror	<lau>, fear, with the noun suffix <na>: fear, dread or terror	
 s25858	terror/fear	<launa>, fear, written with a capital at the start of a sentence, and in the name {Mun khempeuhah Launa}, Terror on Every Side	
 s25859	terrors/fears	<launa>, fear, with the plural <te>; {sih ding launate} are the terrors of death	
 s25860	fear any longer/be afraid any more	<lau>, fear, and <nawn>, any longer, written as one word; with a negative after it, no longer be afraid	
@@ -1853,7 +1853,7 @@ s25891	even as a result/to the point of	<lawh>, as a result, and <liang>, even, 
 s25894	succeed/be effective	form of <lawhcing> used before <nading> and other endings	
 s25895	succeed/be successful	have success, achieve what was aimed at; the form <lawhcin> is used before <nading>	
 s25896	successfully	<lawhcing>, succeed, with <in> written as one word: successfully, having succeeded	
-s25897	unsuccessful/failing	<lawhcing> succeed and <lo> not written as one word: not succeed, fail; {a lawhcinglo te} are those who fail	
+s25897	unsuccessful/failing/abortive	<lawhcing> succeed and <lo> not written as one word: not succeed, fail; {a lawhcinglo te} are those who fail	
 s25899	make successful/cause to succeed/give success	<lawhcing> and <sak> written as one word: make a person or a work succeed	
 s25900	successful people/the successful	<lawhcing>, succeed, with the plural <te>: those who succeed, mostly as {mi lawhcingte}	
 s25901	more successful	<lawhcing>, succeed, and the comparative <zaw> written as one word: more successful, succeed more	
@@ -1945,7 +1945,7 @@ s25988	friends/companions	plural of <lawm>: friends, companions, the people one 
 s25989	friends	<lawmte>, friends, with <n>, the short form of <in> that marks the doer of the action, written as one word	
 s25990	friends/all the friends	<lawm>, friend, with <teng>, here all, written as one word: the friends as a group, all of one's friends	
 s25991	feast/banquet	a meal to which guests are invited, {mo la lawmvakna} is a wedding feast	
-s25992	throw/cast/hurl	throw something or someone away from oneself, into or onto a place	
+s25992	throw/cast/hurl/fling	throw something or someone away from oneself, into or onto a place	
 s25993	touch	form of <lawng> written with an apostrophe before <ciangin> and similar words	
 s25994	fire/launch/shoot	send off a shot from a weapon or send something up into the air; after <thau>, fire a gun, and of missiles, rockets, fireworks and satellites, launch, the last as {lawn to}	
 s25995	touch	put the hand or a part of the body on something or someone; before some endings it is written <lawn>	

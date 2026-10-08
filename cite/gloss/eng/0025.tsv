@@ -22,7 +22,7 @@ s50019		Saying: a cat burying its dung; the book lists it among its idiomatic ex
 s50020	easy to overcome	<zawh> overcome with <nop> easy	
 s50021	help finish/help complete	<zawh> finish, with <pih> do together with or for someone	
 s50022	help conquer/help subdue	<zawh> win, overcome, with <pih> do together with someone	
-s50023	conquered/subdued	<zawh>, overcome, with <sa> for a completed state: already conquered	
+s50023	conquered/subdued/beaten	<zawh>, overcome, with <sa> for a completed state: already conquered	
 s50024	finished/completed	<zawh>, finish, with <sa> for a completed state: already completed	
 s50025	subdue/make subject	<zawh>, overcome, with <sak>: cause to be overcome, or overcome on behalf of someone	
 s50026	try to finish/aim to complete	<zawh>, finish or complete, with <sawm>, intend or try: set out to finish a task or reach a goal	
@@ -66,7 +66,7 @@ s50064	even more/still more/more	<zaw>, more, with <lai>, still: placed after a 
 s50065	rather/more	placed after a descriptive word to set it against another: it is rather this than that; the book says that {zawlai} with this other meaning is written as a separate word	
 s50066	if rather/if instead	<zaw>, more or rather, and <leh>, if, written as one word after a verb or describing word: if it were rather so, it would be better if	
 s50067	as a friend	<zawl>, friend or companion, with the suffix <in>: as a friend; {zawlin kiman} is be friends with, and {zawlin man} is receive as a friend, welcome	
-s50068	love song/courting song	a song of love between a young man and a young woman, <la>, song, joined to the word for a sweetheart or lover; set against {Pasian la}, hymns and gospel songs	
+s50068	love song/courting song/serenade	a song of love between a young man and a young woman, <la>, song, joined to the word for a sweetheart or lover; set against {Pasian la}, hymns and gospel songs	
 s50069	courting visit	apparently <zawl>, sweetheart, with a form of the verb for visiting: the evening visit of young men to the girls; {zawllen hun} is a time of the night in the book's list, after <sawm ciahhun> and before bedtime	
 s50070	ex-boyfriend/former boyfriend	<zawl>, sweetheart, and <luipa>, the former one, written as one word: the man who was formerly someone's boyfriend or lover	
 s50071	eyeing with desire/lusting after	<zawlmit>, look at someone with desire, with the linking ending <in>: looking with desire at another man's wife	
@@ -77,7 +77,7 @@ s50075	not more/not rather	<zaw> and <lo> written as one word after a verb or de
 s50076	friend/close friend/companion	a close male friend of a man; {maak thakpa' zawlpa} is the friend of the bridegroom	
 s50077	rim/frame/border	<zawl>, rim, with <peek>, flat piece: the flat rim or frame round the top of the table	
 s50078	Zawlpi		
-s50079	fatherless/illegitimate	born outside marriage, of a woman who is not the wife of the father	
+s50079	fatherless/illegitimate/misbegotten	born outside marriage, of a woman who is not the wife of the father	
 s50080	illegitimate/illegitimate child/bastard	a child born outside marriage, not a true son or daughter	
 s50081	sworn friends/bosom friends	<zawl>, sworn friend, with <ta>, which names a pair or group bound to each other as in <lawmta>: friends who would give their lives and dare to die for one another; not the word for a child born outside marriage	
 s50082	run away together/elope	said by a woman to her lover in {zawltai ni}, let us run off together; from <zawl>, lover, and <tai>, run	
@@ -99,7 +99,7 @@ s50097	the weak/the faint	<zawm>, weak, with the plural <te>: those who are weak
 s50098	be poor	form of <zawng>, poor, written {zawn’} before <na>, <mahmah> and similar words; {zawn’na} is poverty	
 s50099	invite/call on/urge	ask someone to come or to take part; after <kong> it is the usual close of a notice, {kong zawn uh hi}, we invite you, and <zawn phapha> is invite warmly; not the form of <zawng>, poor	
 s50100	earnestly invite/urge/appeal to	a verb written like <zawn>, be poor, but here meaning invite or call upon, and <phapha>, well: a closing formula of notices, {kong zawn phapha uh hi}, we earnestly invite or urge you, after a clause that says what the readers are asked to do	
-s50101	poor/needy/indigent	having little money or property; also used as a verb, be poor or become poor	
+s50101	poor/needy/indigent/impecunious	having little money or property; also used as a verb, be poor or become poor	
 s50102	monkey	a monkey, named in sayings together with <ngau>, the langur	
 s50103		Saying: the monkey does not see its own rump and points out the rump of its friends, where the book prints <kheng> or <khawn>; said of those who do not see their own faults and keep telling only those of their friends	
 s50104		Saying: what the monkey ate, the langur pays for; one person suffers for the bad conduct of another	
@@ -205,7 +205,7 @@ s50206	often/repeatedly/regularly	placed after a verb for an action done time af
 s50207	often/repeatedly	<zeel> often, with the linking suffix <in>	
 s50208	spread/make known everywhere	<zeel> spread through, with causative <sak>: cause news to spread through a place	
 s50210	all over the place/here and there/in disorder	placed after a verb: the action goes on everywhere and without order, as talk that goes round or people who stay scattered; probably the same word as <zelzul>	
-s50211	adorn/decorate/dress up/beautify	make beautiful: used of a building, a tomb or the hair, and of dressing a person in fine clothes	
+s50211	adorn/decorate/dress up/beautify/embellish	make beautiful: used of a building, a tomb or the hair, and of dressing a person in fine clothes	
 s50212	adorning/painting	<zeem> adorn, with the linking suffix <in>; of the eyes, to put on eye paint	
 s50213	robe/dress/adorn	<zeem> adorn, with <sak>: dress another person in fine clothes	
 s50214	slender/thin/slim	thin and slender, said of the body or a part of it	
@@ -627,7 +627,7 @@ s50640	have overcome/have won/have finished	<zo>, win, overcome or finish, with 
 s50641	Zokhua		
 s50642	conquer again/overrun again	<zo>, overcome, with <kik>, again: conquer a place once more	
 s50643	Zokual	an area of Zomi villages in Tonzang township, Chin State	
-s50644	persuade/entice/coax/allure/lure	win someone over by words, whether to believe or do something good or to do wrong; the same word covers persuade, coax and entice	
+s50644	persuade/entice/coax/allure/lure/induce/rope in	win someone over by words, whether to believe or do something good or to do wrong; the same word covers persuade, coax and entice	
 s50645	Zo song/Zomi song/Zomi music	a song of the Zo people or in their language, <Zo> with <la>, song	
 s50646	Zo dance/Zomi dance	a traditional dance of the Zo people, <Zo> with <laam>, dance; named together with <Zola>, Zo song, and <Zongeina>, Zo custom	
 s50647	Zolai/Zomi writing/Zomi language	the written language of the Zomi, Tedim Chin, and writing in it; <Zo>, Zomi, with <lai>, writing; {Zolai simbu} is the Zolai primer	
@@ -651,7 +651,7 @@ s50664	persuading/enticing/seducing	<zol>, persuade or entice, with the linking 
 s50665	draw away/entice away	<zol>, persuade, with <khia>, out or away: draw people away from where they belong	
 s50666	draw away/entice away	form of <zolkhia> used before a noun such as <hun>, time	
 s50667	win back/allure	<zol>, persuade or coax, with <kik>, back or again: win someone back with kind words	
-s50668	enticement/persuasion/temptation	<zol>, persuade or entice, with the noun suffix <na>: the act of persuading, or an enticement to do wrong	
+s50668	enticement/persuasion/temptation/inducement/lure/seduction	<zol>, persuade or entice, with the noun suffix <na>: the act of persuading, or an enticement to do wrong	
 s50669	cannot/be unable to	<zo>, be able, with the negative <lo>, written as one word after a verb: not able to do it	
 s50670	will not be able to/cannot	<zolo>, cannot, and <ding>, will, written as one word after a verb: will not be able to do it	
 s50671	without being able to/unable to	<zolo>, cannot, and <in> written as one word after a verb: not being able to do it, and so	
@@ -690,7 +690,7 @@ s50703	Zomi people/children of the Zomi	<Zomi> with <ta>, child: the Zomi spoken
 s50704	the Zomi/Zomi people	<Zomi> with the plural <te>: the Zomi as a people	
 s50705	the Zomi/we Zomi	<Zomite>, the Zomi, with the subject marker <in> shortened to <n> and written as one word: the Zomi as the ones who do or have something	
 s50706	ZOMKA	short name of {Zomi Khristian Aw}, a Zomi Christian periodical that carries news of Zogam, Myanmar and the world	
-s50707	share together/join together in/join	<zom>, join, with <khawm>, together: have a share in something together with others	
+s50707	share together/join together in/join/amalgamate	<zom>, join, with <khawm>, together: have a share in something together with others	
 s50708	resume/continue again/rejoin	<zom> and <kik> written as one word: take up again what was stopped; of things or relations that were parted, join them again	
 s50709	continue/go on/keep on	carry on with what was being done or said; {a thugen zomlai}, he continued speaking	
 s50710	continuing/continuation	<zom> continue, with the noun suffix <na>; {nasep zomna} is going on with the work	
@@ -904,11 +904,11 @@ s50918	go to/head for/return to	make one's way toward a place or person; the for
 s50919	to go to/to head for/to return to	<zuat> and <ding> written as one word: the going to a place that lies ahead	
 s50920	return to/go back to	<zuat>, head for, with <kik>, back or again	
 s50921	if one goes to/when one turns to	<zuat>, go to or head for, and <leh>, if or when, written as one word: if it goes that way, when someone goes to a person	
-s50922	way to/going to	the act of heading for a place; with <lampi> or <lam>, the road that leads to a place	
+s50922	way to/going to/access	the act of heading for a place; with <lampi> or <lam>, the road that leads to a place	
 s50923	take to/lead toward/bring along to	<zuat>, head for, with <pih>, together with: head for a place taking someone or something along, lead toward	
 s50924	depart to/go away to/pass away	<zuat>, head for, with the ending {-san}, leaving others behind: go away to a place for good; in death notices {Topa' kiang hong zuatsan} is departed to be with the Lord	
 s50925	evil/lie/deceive/tell lies	say what is not true; often with <gen>, speak, as {zuau gen}, tell a lie, and before a noun, as {zuau teci}, a false witness	
-s50926	lie/falsehood	used as a noun, a lie or what is untrue, as in {zuau hilo}, it is not a lie, {zuau tawh}, with a lie, and {zuau phuak}, make up a lie	
+s50926	lie/falsehood/fib	used as a noun, a lie or what is untrue, as in {zuau hilo}, it is not a lie, {zuau tawh}, with a lie, and {zuau phuak}, make up a lie	
 s50927		Saying: apparently, a lie leaves its own footprints; if we tell a lie it is traced and found out again all the same	
 s50928	be unfaithful/act falsely	<zuau> lie, with <tat> act and the linking suffix <in>; the same word as <zuautat>	
 s50929	lie/tell lies/deceive	<zuau>, false, with <gen>, speak: say what is not true; {zuaugen mi} is a liar	
@@ -933,7 +933,7 @@ s50947	cause to be unfaithful/lead astray	<zuautat> be unfaithful, with causativ
 s50948	false/lying	<zuau>, false, with the plural <te>, placed after a noun: {pasian zuaute} is false gods, {kamsang zuaute} is false prophets	
 s50949	deceitful/deceiving/lying	<zuau>, lie, with <thei>, able or given to; one that deceives	
 s50950	liars/false ones	<zuauthei>, liar, with plural <te>; after a noun it means false: {kamsang zuautheite} is false prophets	
-s50951	lie/falsehood/false word	<zuau>, false, with <thu>, word: a lie, something said that is not true; {zuauthu gen} is tell lies	
+s50951	lie/falsehood/false word/untruth	<zuau>, false, with <thu>, word: a lie, something said that is not true; {zuauthu gen} is tell lies	
 s50952	lies/false words/deceptive words	<zuauthu>, lie, with the plural <te>	
 s50953	fake news/hoax/false report	<zuau>, false, with <thuthang>, news: a report that is spread but is not true	
 s50954	roaring/with a roar	expressive word placed after a verb for a loud, continuous rushing or roaring, said of water, waves, flames and the noise of a crowd; {ging zuazua} is roar	
@@ -954,7 +954,7 @@ s50968	rice liquor/local spirit	a strong drink made from rice and sold by the bo
 s50969	sharing of rice beer	<zu>, rice beer, with <hawm>, share out: the sharing out of rice beer at a feast or funeral, said in the pair {zuhawm sahawm}, the sharing of beer and meat by custom	
 s50970	way of sharing rice beer	<zuhawm>, the sharing of rice beer, with <dan>, manner: the customary way in which the rice beer is shared out	
 s50971	sharing of rice beer	<zu>, rice beer, with <hawmna>, sharing out: the sharing out of rice beer by custom; {sa kigawh zuhawmna} is the sharing of beer when an animal is slaughtered	
-s50972	follow/obey/keep/comply/conform	go after or behind someone, as in {a nung zui}, follow him; also keep or obey a word, law or teaching	
+s50972	follow/obey/keep/comply/conform/adhere	go after or behind someone, as in {a nung zui}, follow him; also keep or obey a word, law or teaching	
 s50974	according to/following	<zui>, follow, and <a> written as one word: following, in keeping with; {ahun zuia} is according to the time	
 s50975	follow completely/follow wholly	<zui> follow, with <bup> whole	
 s50976	always follow	<zui>, follow, with <den>, always, written as one word: follow every time	
@@ -973,7 +973,7 @@ s50988	failure to keep	<zuihlah> fail to keep, with the noun suffix <na>: {Thukh
 s50989	following	<zuih> follow, with <lam>, the fact or manner of: {a zuihlam a muh ciangin}, when he saw them following	
 s50990	not follow/not obey	<zuih> and <loh> written as one word: not following, not keeping; {zuihloh phamawh} is it must be followed	
 s50991	not following/failure to obey/disobedience	<zuih>, follow or obey, and <lohna>, the fact of not doing, written as one word: the fact of not following a rule or a teaching	
-s50992	following/obeying/observance	the act of following or obeying; {tuu zuihna} is tending sheep	
+s50992	following/obeying/observance/keeping	the act of following or obeying; {tuu zuihna} is tending sheep	
 s50993	want to follow/want to obey	<zuih>, the form of <zui>, follow or obey, with <nop>, want to	
 s50994	follow at once/go with readily	<zuih> follow, with <pah> at once; used before <nading>	
 s50995	follow along with/go along with	<zuih>, follow, with <pih>, together with: follow a practice along with others, or go with someone along a path	
@@ -1051,8 +1051,8 @@ s51068	of the court/at the court	<zum> court or office with the marker <a>, of o
 s51069	in court/at the court	<zum>, court or office, with the place marker <ah>; {thukhen zumah} is in the law court	
 s51070	guards/court guards	apparently <zum> court or office with <cing> guard and the plural <te>: those who guard the court; {zumcingte omna} is the court of the guard	
 s51071	office opening/office hours	<zum>, office, and <hon>, open, written as one word: the opening of an office; {zumhon hun} and {zumhon hunsung} are office hours	
-s51072	shameful/disgraceful	causing shame, disgraceful; {zumhuai-in gamta} is act shamefully	
-s51073	shame/disgrace/nakedness/stigma	<zumhuai>, shameful, with the noun suffix <na>: a shameful thing, a disgrace; also the shame of being seen naked	
+s51072	shameful/disgraceful/ignominious/inglorious/scandalous	causing shame, disgraceful; {zumhuai-in gamta} is act shamefully	
+s51073	shame/disgrace/nakedness/stigma/indignity	<zumhuai>, shameful, with the noun suffix <na>: a shameful thing, a disgrace; also the shame of being seen naked	
 s51074	shamefully/disgracefully	<zumhuaipi>, very shameful, with the adverb ending {-in}: in a shameful way	
 s51075	disgrace/put to shame	<zumhuai>, shameful, with the causative suffix <sak>: make shameful, bring disgrace on	
 s51076	being ashamed/in shame	<zum>, be ashamed, with the linking ending <in>; {mai zumin} is with shame of face, put to shame	
@@ -1097,7 +1097,7 @@ s51114	drink liquor/drink wine	form of <zune>, drink liquor, used before another
 s51115	drinking/wine drinking/drunkenness	<zunek>, drink liquor, with the noun suffix <na>: the drinking of wine or other alcoholic drink, also heavy drinking	
 s51116	root	the part of a plant or tree that grows in the ground; {zung kha} means take root	
 s51117	root	<zung>, root, written with a capital in the title {David’ Zung}, the Root of David, and at the start of a quotation	
-s51118	uproot/pull up by the roots	<zung>, root, with <bawh>, pull up: tear a plant out with its roots	
+s51118	uproot/pull up by the roots/extirpate	<zung>, root, with <bawh>, pull up: tear a plant out with its roots	
 s51119	uprooting/pulling up by the roots	<zungbawh>, uproot, with the linking ending <in>: uprooting and then	
 s51120	ring/signet ring	a ring worn on the finger; {min gelhna zungbuh} or {min thuhna zungbuh} is a signet ring used for sealing	
 s51121	as a ring/as a signet ring	<zungbuh> ring with the marker <in>, here as or like: make someone as a signet ring	
@@ -1241,7 +1241,7 @@ s51285	finding for someone/placement	<zonsak>, seek for someone, with the noun s
 s51286	road overseer/sub-assistant engineer/public works officer	officer of the roads and public works department who directs the building of roads and bridges; one article sets the rank beside an assistant township officer, and people use the word for any sub-assistant engineer	
 s51289	newly arrive/just arrive/newcomer	<tung> and <thak> written as one word: have newly arrived, of goods or people; {hong tungthak te} are the newcomers	
 s51290	circumstances/time and place/occasion/context	<hun>, <leh> and <mual> written as one word, literally time and hill: the time and the circumstances in which something is done or said, the right occasion or the context	
-s51291	loneliness/longing/sorrow/homesickness	<lungzuan> with the noun suffix <na>: the heavy heart of one who misses a person or a home, loneliness or sorrow	
+s51291	loneliness/longing/sorrow/homesickness/melancholy	<lungzuan> with the noun suffix <na>: the heavy heart of one who misses a person or a home, loneliness or sorrow	
 s51292	Pegu/Bago	older name of <Bago>, a city and region of lower Myanmar north-east of Yangon	
 s51293	chief of the demons/demon king	<dawi> and <kungpu> written as one word: the chief of the evil spirits, in the old tales the one with whom the hero Ngal Ngam contests in magic	
 s51295	like millet	<mim> and <bang> written as one word, a phrase of songs used with <pian> or <piang>, be born: {mimbang pianna} is the place of one's birth, the homeland	
@@ -1403,7 +1403,7 @@ s51476	other people/strangers/foreigners	word of songs, apparently the children 
 s51477	Fukushima	city and prefecture in the north-east of Japan, known for the nuclear power plant damaged in 2011	
 s51478	be able to love/manage to love	<it>, love, and <zo>, be able, written as one word: be able to love, go on loving; with <nawnlo> or <hetlo>, be unable to love	
 s51479	we see/we find	<i> and <mu> written as one word: we see, we find	
-s51480	prohibition/prevention/hindrance	<khaam>, forbid or hold back, with the noun ending {-na}: a prohibition or a thing that holds back; {nat khaamna zatui} is medicine that prevents illness	
+s51480	prohibition/prevention/hindrance/impediment/proscription	<khaam>, forbid or hold back, with the noun ending {-na}: a prohibition or a thing that holds back; {nat khaamna zatui} is medicine that prevents illness	
 s51481	similar/resembling/like	<a> and <kisuun> written as one word, after <tawh>, with: that which resembles, similar to	
 s51482	need/be in need/lack	form of <tangsam>, lack, mostly written after a separate <ki> as {ki tangsap}, the same as <kitangsap>: be needed, what one needs	
 s51483	drum	word of songs for <khuang>, the drum, named with the gong and the cloth of the forefathers; one writer derives it from <len> with {lensialki} and {lenpuan}	
@@ -1534,8 +1534,8 @@ s51626	like fish	<nga>, fish, and <bang>, like, written as one word, a compariso
 s51627	accept graciously/take well/embrace readily	<pom>, hold, with <siam>, skilled: know how to accept a thing and take it in good part, whether criticism, a loss or a chance	
 s51628		<in>, placed after the doer or after a verb, and the following <hong> written as one word	
 s51629	hey/oh	exclamation of colloquial speech: at the start, hey or oh; written after the last word of a statement with a hyphen, it gives the statement feeling	
-s51630	closeness/nearness/kinship/relationship	<kinaih> with the ending {-na}: the state of being close or akin, of persons, peoples or languages	
-s51631	breeze/gentle wind	a cool gentle wind, from <huih>, wind, and <dam>, cool	
+s51630	closeness/nearness/kinship/relationship/intimacy	<kinaih> with the ending {-na}: the state of being close or akin, of persons, peoples or languages	
+s51631	breeze/gentle wind/zephyr	a cool gentle wind, from <huih>, wind, and <dam>, cool	
 s51632	face/countenance/looks	poetic word of songs and laments for the face or looks of a loved person, as in {na sakmel muh ding}, to see your face	
 s51633	keep practising/practise repeatedly/keep learning	<kisin>, practise or learn, with its last part said twice: go on practising or learning over a length of time	
 s51634	manner/ways/character	<a>, its, and <tong> written as one word, the second word of the pair {azia atong}: the ways and character of a person or a thing	
@@ -1724,7 +1724,7 @@ s51847	like fruit	word of songs, <thei>, fruit, with <bang>, like: {theibang sen
 s51848	be indeed/it is indeed	<a> and <hive> written as one word: it is so indeed, often followed by <maw>	
 s51851	basic principle/constitution/key text/motto	the basic rule or statement on which a body, a system or a piece of teaching rests: the constitution of an organisation, named beside <thumeilet>, by-laws, the principle of a system, or the key verse of a sermon	
 s51852	if you/if they	<vua> and <leh> written as one word: if, said after a verb when several persons are meant, if you all or if they	
-s51853	be concerned with/be involved in/relate to	<kisai>, concern, with <pih>, together with: have to do with a matter; {a kisaipih} is the one concerned, the relevant person or side	
+s51853	be concerned with/be involved in/relate to/pertain	<kisai>, concern, with <pih>, together with: have to do with a matter; {a kisaipih} is the one concerned, the relevant person or side	
 s51855	warmth of the sun/sunshine	<ni>, sun, with <lum>, warm: the pleasant warmth of the sun; {nilum awi} is bask in the sun, sunbathe	
 s51857	dance	dance at a feast, as the young people do in the courtyard; found mostly in songs	
 s51858	operator/official/person in charge	after the name of a field of work, those who run it or deal in it: {meileng lamsai} is a railway man	

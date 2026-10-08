@@ -181,7 +181,7 @@
       },
       "3": {
         "name": "reviewed",
-        "description": "Read by a reviewer who found no fault; not yet confirmed by the maintainer."
+        "description": "Read by a reviewer who found no fault, or confirmed by a second and independent source; not yet confirmed by the maintainer."
       },
       "4": {
         "name": "confirmed",
