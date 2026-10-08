@@ -190,7 +190,7 @@ s40188	bleed/blood flows out	<si>, here blood and not die, and <luangkhia>, flow
 s40189	Si Rang		
 s40190	dying/having died	<si>, die, with the linking <in>, written with a hyphen because two vowels meet; the page gives the word alone	
 s40191	sir	respectful word used in speaking to a man, as in {sia aw}	
-s40192	teacher/preacher	one who teaches; {sia leh a sinte} is teacher and students	
+s40192	teacher/preacher/instructor	one who teaches; {sia leh a sinte} is teacher and students	
 s40193	evil	what is bad or wrong, the opposite of <pha>, good; {a sia gamta} is do evil	
 s40194	damage	harm done to a thing so that it is spoiled or worn out; {sia lo} is undamaged	
 s40195	ruin	the state of being destroyed, said of cities, houses and peoples	
@@ -328,7 +328,7 @@ s40331	lack of skill/inability/incompetence	<siam>, skilled, and <lohna>, the st
 s40332	the unskilled/those who are not good at	<siamlo>, unskilled, with the plural <te> written as one word, usually after <a>: those who are not skilled or cannot do the thing named	
 s40333	very skilled/very good at	<siam> and <lua> written as one word: very skilled, so good at something	
 s40334	very skilled/very good at/expert	<siam>, skilled, and <mahmah>, very, written as one word	
-s40335	skill/ability/understanding/dexterity/knack	<siam>, skilled, with the noun suffix <na>: the skill or ability to do something well; {ngaihsut siamna} is understanding and {sumbawl siamna} is skill in trading	
+s40335	skill/ability/understanding/dexterity/knack/aptitude/craft/know-how	<siam>, skilled, with the noun suffix <na>: the skill or ability to do something well; {ngaihsut siamna} is understanding and {sumbawl siamna} is skill in trading	
 s40336	skills/abilities/gifts/arts	plural of <siamna>; with {Kha Siangtho}, gifts of the Spirit; with <mitphial> or <aisan>, magic arts	
 s40337	craftsmen/skilled workers/artisans	<siam>, skilled, with <neel> and plural <te>	
 s40338	let us do well	<siam>, skilled, and <ni>, let us, written as one word after a verb: let us do it well or wisely	
@@ -406,7 +406,7 @@ s40409	cleanly/clean/thoroughly	with a verb of washing or cleaning such as <sawp
 s40410	clean/pure	<siang> with plural <te>: those that are clean or pure, of animals that may be eaten, people who are ritually clean, and pure gold	
 s40411	can be clean/can be cleared up	<siang>, clean or clear, and <thei>, can, written as one word: be able to become clean; said of a matter, be cleared up; in the sentences with a negative	
 s40412	be cleared up yet/be settled yet	<siang>, clean, and <theinai>, be able yet, written as one word, before a negative: of a matter, that can not yet be cleared up	
-s40413	holy/sacred	set apart for God and belonging to him; said of God himself, his Spirit, his people, and of places, days and things	
+s40413	holy/sacred/hallowed	set apart for God and belonging to him; said of God himself, his Spirit, his people, and of places, days and things	
 s40414	clean/pure/immaculate	free from dirt or from ritual uncleanness, said of animals that may be eaten or offered, of places and of people	
 s40415	holy	written with a capital in {Kha Siangtho} the Holy Spirit and {Lai Siangtho} the Holy Scripture	
 s40416	Bible/copy of the Bible	<Siangtho> and <bu>, book, written as one word after <Lai>: the Bible as a book, a copy of the Bible	
@@ -447,7 +447,7 @@ s40451	can be cleared/can be settled	<sian> be clean, with <theih> can; of a dis
 s40452	be holy/be clean/be pure	form of <siangtho>, holy or clean, used before <nading> and in <sianthosak>: become clean or pure	
 s40453	to be kept holy/worthy of holiness	<siantho>, the form of <siangtho>, be holy, used before a suffix, with <huai>, worthy of: to be kept holy	
 s40454	uncleanness/impurity/lack of hygiene	<siantho> and <lohna> written as one word: the state of not being clean or pure, of the body and surroundings or in a moral sense	
-s40455	holiness/purity/cleanness	<siantho>, a short form of <siangtho>, holy, with the noun suffix <na>: holiness, purity	
+s40455	holiness/purity/cleanness/sanctity	<siantho>, a short form of <siangtho>, holy, with the noun suffix <na>: holiness, purity	
 s40456	make holy/sanctify/consecrate	<siantho>, a short form of <siangtho>, holy, with the causative <sak>: make holy, set apart for God, or treat as holy	
 s40457	clean/cleanse	make a part of the body or a thing clean of dirt, as the inside of the ear; bodily cleaning, not making holy	
 s40458	sanctification/making holy/purification	<sianthosak>, make holy, with the noun suffix <na>	
@@ -503,7 +503,7 @@ s40507	not be ruined/not decay/not be bad	<siat>, form of <sia> be bad or ruined
 s40508	severe badness/great severity	<siat>, bad, with <luatna>, excess, written as one word: being very bad; {khuahun siatluatna} is bad weather	
 s40509	ruin/devastation	<siat>, be ruined, with <mai>, wholly, and the noun suffix <na>: complete ruin, devastation	
 s40510	ruin/devastation	<siat>, be ruined, with <mai>, wholly, and the noun suffix <na>: complete ruin, devastation	
-s40511	evil/wickedness	<siat>, bad, with the noun suffix <na>: evil, wrongdoing; {siatna bawl} is do evil	
+s40511	evil/wickedness/badness	<siat>, bad, with the noun suffix <na>: evil, wrongdoing; {siatna bawl} is do evil	
 s40512	disaster/harm/ruin/destruction/damage/detriment	<siat>, be ruined, with the noun suffix <na>: ruin or disaster that comes on someone; {siatna tung} is disaster comes	
 s40513	evil deeds/evils done	<siatna>, evil, with <sa>, already done, and plural <te>; {na gamtat siatnasate uh}, the evil things you have done	
 s40514	disasters/calamities/evils	<siatna>, disaster, with plural <te>: the bad things that come on people	
@@ -752,7 +752,7 @@ s40761	iron door/metal gate/metal shutter	<sik>, iron, with <kongkhak>, door, wr
 s40762	steel bridge/iron bridge	<sik>, iron, and <lei>, here bridge, written as one word: a bridge built of steel	
 s40763	grating/network	a grating of metal bars; {sumngo siklen} is the bronze grating of the altar of burnt offering	
 s40764	square/four corners	a shape with four corners; {sikli nei} is having four corners, square; of woven cloth, a checkered pattern	
-s40765	wart/callus	a small hard growth on the skin of the hands or feet	
+s40765	wart/callus/callosity	a small hard growth on the skin of the hands or feet	
 s40766	cigarette		
 s40767	bell	a small metal bell; {kham siklong} are the gold bells on the hem of the robe of the priest	
 s40768	bells	<siklong> bell, with the plural <te>	
@@ -870,7 +870,7 @@ s40879	corpses/dead bodies	<siluang>, corpse, with plural <te>
 s40880	Silas/Silvanus	companion of Paul on his journeys and co-sender of the letters to the Thessalonians, also named by Peter; called Silas in Acts	
 s40881	read	read what is written, silently or aloud before others	
 s40882	count/number/enumerate	count people or things to find their number; {sim zo} is be able to count	
-s40883	attack/fight against/make war on/fall on	make war on a land, a city or a people; {va sim} is go and attack	
+s40883	attack/fight against/make war on/fall on/invade	make war on a land, a city or a people; {va sim} is go and attack	
 s40884	every/each	placed after a word for a time or an event, often followed by <a> or <in>: every one, each time, as in <nisim>, every day, and {meeting sim}, every meeting; not the verb read or count	
 s40885	south	the south, the side of the warm low country, as in {sim lamah}, to the south, and <simlam>	
 s40886		sentence-final question word, named by the book beside <dia>, <hia>, <diam> and <hiam> as a word that makes a question; {Ut lo cih sim} asks whether it is that one does not want to	
@@ -929,20 +929,20 @@ s40939	not count/not regard	<sim> in the sense count or regard as, with <lo>, no
 s40940	except/besides/apart from	placed after the thing excepted: <sim>, count, with <loh>, not, that is not counting	
 s40941	steal in/slip in/enter secretly	<sim>, secretly, with <lut>, enter	
 s40942	arresting secretly/seizing by stealth	<sim>, secretly, with <mat>, seize, and the linking ending <in>	
-s40943	despise/scorn/treat with contempt/disdain	look down on a person or thing as worthless and show no respect	
+s40943	despise/scorn/treat with contempt/disdain/deride	look down on a person or thing as worthless and show no respect	
 s40944	persecution/abuse/bullying	<simmawh>, despise, and <bawlsiatna>, mistreatment, said as one noun: contempt and ill-treatment suffered by a person or a group, as for their faith or at school; the usual verb after it is <thuak>, suffer	
 s40945	treat with contempt/despise/mock	<simmawh>, despise, with <bawl>, do: treat someone with contempt, make a mockery of a person	
 s40946	contemptible/despicable/undignified	<simmawh>, despise, with <huai>, worthy of: deserving scorn, an object of scorn	
 s40947	despising/scorning/mocking	<simmawh>, despise, with the linking ending <in>: despising someone and then doing something further	
 s40948	despise/look down on	<simmawh>, despise, with <khak>, happen to: used with <loh nadingin> of taking care not to despise someone	
-s40949	contempt/scorn/reproach/insult	<simmawh>, despise, with the noun suffix <na>: contempt shown to someone, or the insult itself	
+s40949	contempt/scorn/reproach/insult/ridicule	<simmawh>, despise, with the noun suffix <na>: contempt shown to someone, or the insult itself	
 s40950	insults/scorn/contempt	<simmawhna> insult, with the plural <te>	
 s40951	mocker/one who despises	<simmawh> despise, with <pa> marking a male doer	
 s40952	make despised/let be scorned	<simmawh>, despise, with <sak>: make or let others despise someone	
 s40953	those who despise/scorners/revilers	<simmawh> despise with <te>: the ones who despise or insult	
 s40954	reading	<sim>, read, with the noun suffix <na>: what is read, or the act of reading	
-s40955	counting/numbering/census/enumeration	noun of <sim>, count; {mi phazah simna} is a census, {khang simna} a genealogy	
-s40956	attack/battle	<sim>, attack, with the noun suffix <na>: an attack; {gal simna} is battle or war	
+s40955	counting/numbering/census/enumeration/calculation	noun of <sim>, count; {mi phazah simna} is a census, {khang simna} a genealogy	
+s40956	attack/battle/invasion	<sim>, attack, with the noun suffix <na>: an attack; {gal simna} is battle or war	
 s40957	plot/conspiracy/ambush	after a verb <sim> means secretly, and {simna} names the secret doing of it, as {sawm simna} and {vaihawm simna} a plot, {buk simna} an ambush	
 s40958	secret things/things done in secret	<sim>, secretly, after a verb, with the noun suffix <na> and plural <te>: {khialh simnate}, secret sins; {kihuau simnate}, things whispered in secret	
 s40959	easy to read/pleasant to read	<sim> read, with <nop> pleasant, easy	
@@ -1142,7 +1142,7 @@ s41158	Aswan/Sinim	distant land in the south from which the scattered people of 
 s41159	learning/studying	<sin>, learn, with <in> linking to the next verb: learning or having learned	
 s41160	testing/examining	<sin>, test, with <in> linking to the next verb: testing or examining	
 s41161	gall/bile/bitterness	<sin>, liver, with <kha>, bitter: gall, and so bitterness of heart; {a kha sinkha nei} is to be full of bitterness	
-s41162	gallbladder	the organ under the liver that holds the bile, not the bile itself or bitterness of heart; {sinkha sung ah suang} is a gallstone	
+s41162	gallbladder/gall-bladder	the organ under the liver that holds the bile, not the bile itself or bitterness of heart; {sinkha sung ah suang} is a gallstone	
 s41163	learn by experience/come to learn/experience	<sin>, learn, with <khak>, happen to: come to learn something through what one meets in life; after a possessive it is what one has learned, one's experience, as in {ka sinkhak}, and it is often paired with <tuahkhak>	
 s41164	be in anguish/be distressed	<sin>, liver as the seat of feeling, with <kham>; used in the pair {lungkham sinkham}, distress and anguish	
 s41165	in anguish/in distress	<sinkham>, be in anguish, with the adverbial ending <in>	
@@ -1220,7 +1220,7 @@ s41238	municipal office/town office	<Sipin>, municipality, and <zum.2>, office: 
 s41239	Sippai	descendant of the Rephaites, killed at Gezer by Sibbekai the Hushathite	
 s41240	Sippai	descendant of the Rephaites, killed at Gezer by Sibbekai the Hushathite	
 s41241	make smart/sting/irritate	of smoke in the eyes	
-s41242	in full/in every detail/thoroughly/completely	placed after a verb or after {a kim}, complete: leaving nothing out, in full and point by point; {a kim sipsip} is complete in every part	
+s41242	in full/in every detail/thoroughly/completely/minutely	placed after a verb or after {a kim}, complete: leaving nothing out, in full and point by point; {a kim sipsip} is complete in every part	
 s41243	Sirah	place with a cistern near Hebron, from which Joab had Abner brought back	
 s41244	Syracuse	city on the island of Sicily where the ship of Paul stayed three days on the way to Rome	
 s41245	Syracuse	city on the island of Sicily where the ship of Paul stayed three days on the way to Rome	
@@ -1312,8 +1312,8 @@ s41330	completely/to the brim	<sitset> with <in>; {a dim sitsetin} is filled rig
 s41331	thoroughness/completeness	<sitset>, thoroughly, with the noun ending <na>; after a verb it names the complete doing of it: {kikhen sitsetna} is complete separation, {theihtel sitsetna} is thorough understanding	
 s41332	examine thoroughly/check over/inspect	<sit>, examine, said twice: go over a thing or question a person point by point; {aki sitsit} is being examined	
 s41333	examiners/auditors/inspectors	<sit>, examine, with <te>: those who examine; {sazian sitte} are the people who audit the accounts	
-s41334	examine/search/weigh	look into a thing closely in order to judge it; <sit>, examine, with <tel>, clearly	
-s41335	examination/scrutiny/account	<sittel> examine with the noun suffix <na>; {sittelna thuak} is undergo examination, give an account	
+s41334	examine/search/weigh/inspect/scan	look into a thing closely in order to judge it; <sit>, examine, with <tel>, clearly	
+s41335	examination/scrutiny/account/inspection/investigation/test/verification	<sittel> examine with the noun suffix <na>; {sittelna thuak} is undergo examination, give an account	
 s41336	Sittwe	capital city of Rakhine State in Myanmar	
 s41337	shrouder of the dead	<si>, die, with <tuam>, wrap: one who wraps the body of a dead person, who has a share in the meat of the funeral	
 s41338	shrouders of the dead	<situam> with the plural <te>	
@@ -1370,7 +1370,7 @@ s41389	Socoh/Sokoh	name of two towns of Judah, one in the lowland near Azekah wh
 s41390	cobra	the cobra, usually with <gul>, snake: {sokval gul}	
 s41391	solar power/solar panel	electricity made from sunlight and the equipment that makes it, used for lighting where there is no government power line	
 s41392	soldier	the English word used in news writing beside <galkap>	
-s41393	sol-fa/tonic sol-fa	the tonic sol-fa way of writing music, used in hymn books and taught in singing classes	
+s41393	sol-fa/tonic sol-fa/solfa	the tonic sol-fa way of writing music, used in hymn books and taught in singing classes	
 s41394	be outraged/be furious/be up in arms	<so>, burn with anger, with the describing word <litlit>: said of the public, be greatly angered by something	
 s41395	moon/month	word of songs and poetry for <kha>, the moon and the month; {tung solkha} is the moon above, and {solkha dang} says that the month has changed	
 s41396	solo	a song or a piece of music performed by one person alone; {solo sa} is a solo singer	
@@ -1446,10 +1446,10 @@ s41465	concert/stage show/live show	<stage>, stage, and <show>, show, taken from
 s41466	Stachys	Christian in Rome whom Paul greets as his dear friend	
 s41467	stacte/gum resin	a fragrant gum resin, one of the spices of the holy incense	
 s41468	standard	a level of quality or a measure against which things are judged; {standard tawh en} is look at something by a standard	
-s41469	on standby/ready	ready and waiting to act if needed, said of police, firemen and medical teams, used with <in> or {sa in}	
+s41469	on standby/ready/standby	ready and waiting to act if needed, said of police, firemen and medical teams, used with <in> or {sa in}	
 s41470	Stanford/Stanford University	a university in California in the United States	
 s41471	Starbucks	an American company with coffee shops in many countries	
-s41472	start	start an engine or a machine, or set off	
+s41472	start/start out/start up	start an engine or a machine, or set off	
 s41473	state	a state as a division of a country, mostly after its name, as in Chin State	
 s41474	State Counsellor	the English title kept as it is: the office of head of government of Myanmar held by Aung San Suu Kyi from 2016 to 2021, placed before the name of the holder	
 s41475	state parliament/state legislature/state assembly	<State>, a state of Myanmar, and <Hlotdaw>, parliament: the parliament of one state, placed after the name of the state, as in {Chin State Hlotdaw}	
@@ -1476,7 +1476,7 @@ s41495	stunt	a daring or showy feat done to draw attention; {stunt bawl} and {st
 s41496	style/manner/fashion	the way something is made, sung or done	
 s41497	touch/lay a hand on/harm	touch, lay a hand on, and so harm; often in the compound {su-kha}, touch	
 s41498	attack/strike/seize	also the first part of compounds of forceful action such as {su-tat} cut off	
-s41499	pound/crush/knead	pound grain in a mortar, also work dough	
+s41499	pound/crush/knead/batter	pound grain in a mortar, also work dough	
 s41500	be born/give birth	form of <suak> used before <ciangin>, <hun> and other dependent endings	
 s41501	become	form of <suak> used before <ciangin>, <nadingin> and other dependent endings	
 s41502	shed/bring out	cause to come out; {sisan suah} is to shed blood	
@@ -1575,7 +1575,7 @@ s41598	gold bar/gold bullion	gold in bars, as stolen by robbers or sold by deale
 s41599	goldsmith shop/jewellery shop	a shop that sells gold and jewellery; the first part is a Burmese loan for gold, joined with <zuakna>, selling	
 s41600	through/on/continuously	placed after a verb: the action goes right through or carries on without stopping, as in {zui suak}, go on following, and {om suak}, stay on	
 s41601	become/turn into	come to be something; the thing or state one becomes stands before the verb	
-s41602	be born/come out/rise	come out or come forth: of a person, be born in a place, as in {Kawlgam suak}, born in Burma; of the sun or a thought, rise or come up; nothing is named that the subject turns into	
+s41602	be born/come out/rise/born	come out or come forth: of a person, be born in a place, as in {Kawlgam suak}, born in Burma; of the sun or a thought, rise or come up; nothing is named that the subject turns into	
 s41603	be born/become	<suak>, be born or come to be, and the linking <a>, written as one word: was born and, became and; the sentence then goes on	
 s41604	along/throughout	<suak> through with <ah>; {paiphei suakah}, all along the length	
 s41605	become easily/become quickly	<suak>, become, and <baih>, easily or soon, written as one word: easily turn into what is named before it	
@@ -1636,7 +1636,7 @@ s41659	will go on and on/should be continued	<suak>, on or through, doubled and 
 s41660	alive/survive/stay alive	come through danger alive, be spared from death	
 s41661	escape/e emancipated/be liberated/be freed	be set free or released from a bond, an oath, guilt or a master	
 s41662	escape	get away safely from an enemy, a danger or a trap	
-s41663	free/be free	be free, not a slave; {suakta-in paikhia} is go out free, and {a suakta mi} is a free person	
+s41663	free/be free/independent	be free, not a slave; {suakta-in paikhia} is go out free, and {a suakta mi} is a free person	
 s41664	get away/get out/run away/run off/break out/break free	get away from a place or from someone who holds or pursues	
 s41665	be freed/free	<suakta> written with a capital in {Sal Suakta}, the Freedmen, slaves who were set free	
 s41666	freely/in freedom/at liberty	<suakta>, be free, and <takin>, which makes an adverb: placed before a verb, do it freely, without restraint	
@@ -1756,7 +1756,7 @@ s41780	pavement/stone floor	<suang>, stone, with <phah>, spread: a floor or cour
 s41781	pavement/paved stone floor	flat stones laid as a floor	
 s41782	stone pavement	a floor laid with flat stones; here the place called Gabbatha	
 s41783	Suangphei		
-s41784	rock	<suang>, stone, with <pi>, great: a large rock or mass of rock; also a name for God as a place of refuge	
+s41784	rock/boulder	<suang>, stone, with <pi>, great: a large rock or mass of rock; also a name for God as a place of refuge	
 s41785	Suangpi		
 s41786		Saying: the big stone is propped up by the small stone; nobody is great or rich by himself alone	
 s41787	rocks	<suangpi>, rock, with the plural <te>	
@@ -1952,7 +1952,7 @@ s41976	to destroy/to ruin	<suksiat>, destroy, and <ding> written as one word: to
 s41977	destroy utterly/ruin/lay waste	<suksiat> destroy with <gawp>, thoroughly or violently	
 s41978	destroy/ruin	<suksiat> destroy with <khak>, which shows that the action happens to someone or by accident	
 s41979	destroy completely/wipe out	<suksiat> destroy, with <mang>, be lost or gone	
-s41980	destruction/ruin/damage/havoc	<suksiat>, destroy, with the noun suffix <na>: the act of destroying, or the ruin that comes on someone	
+s41980	destruction/ruin/damage/havoc/ravage	<suksiat>, destroy, with the noun suffix <na>: the act of destroying, or the ruin that comes on someone	
 s41981	destructions/ravages	plural of <suksiatna> destruction	
 s41982	destroyed/demolished	<suksiat> destroy, with <sa> marking a completed action, that which someone had destroyed	
 s41983	frustrate/thwart/destroy/bring to ruin	<suksiat> destroy with <sak>; said of plans and schemes as well as things	

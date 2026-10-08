@@ -80,7 +80,7 @@ A word is written with the letters A to Z and a to z, the digits, and between it
 | retired | No longer part of the lexicon. The row stays so that its id and number are not reused. |
 | low | Drafted on thin evidence; likely to need correction. |
 | draft | Drafted and not yet reviewed. |
-| reviewed | Read by a reviewer who found no fault; not yet confirmed by the maintainer. |
+| reviewed | Read by a reviewer who found no fault, or confirmed by a second and independent source; not yet confirmed by the maintainer. |
 | confirmed | Confirmed by a speaker of the language. |
 | disputed | Reviewers disagree, or a fault was reported and is not yet resolved. |
 

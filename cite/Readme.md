@@ -77,7 +77,7 @@ khut = (i:1) (t:n) (w:hand) (d:the hand of a person) (r:46.16.21) (q:reviewed)
 
 ## State of the data
 
-- Every sense is a draft until it is reviewed: status `draft`, or `low` where the evidence is thin. The conversion from format 2 kept `low` and made every other sense `draft`, including those that had no remark. The status codes are listed under `status` in `configuration.json`; a sense becomes `confirmed` only when a speaker of the language confirms it.
+- Every sense is a draft until it is reviewed: status `draft`, or `low` where the evidence is thin. A sense drafted from one source and then found with the same meaning in the dictionary data of the zolai-ai project, which names it in `source` as `zai:` and the English headword, is `reviewed`; a sense that the dictionary data alone gave is not. The conversion from format 2 kept `low` and made every other sense `draft`, including those that had no remark. The status codes are listed under `status` in `configuration.json`; a sense becomes `confirmed` only when a speaker of the language confirms it.
 - A sense belongs to one set: `core` for general vocabulary, `bible` for vocabulary drawn from the Bible text, `name` for the lists of months, days, clans, places, persons and books.
 - `source` names where a sense or an example is attested: a Bible verse or a listed source. An example taken from the Bible text is an exact fragment of the verse it names.
 - Every English term of a sense is meant to be shown by three examples whose translation uses that term; `examples` lists the senses that fall short. A word that is rare in the texts stays short until a speaker adds examples.

@@ -1,0 +1,1577 @@
+id	word	number	type	category	field	set	status	origin	source	note
+s58000	w53775	1	n		everyday	core	2		zai:cavity/zai:hole/zai:orifice	
+s58001	w53776	1	v		social	core	2		zai:cede	
+s58002	w53777	1	n		social	core	2		zai:celebration	
+s58003	w53778	1	n		everyday	core	2		zai:celerity/zai:velocity	
+s58004	w53779	1	n		nature	core	2		zai:centipede	
+s58005	w53780	1	n		everyday	core	2		zai:central/zai:midstream/zd:6048/zd:6514/zd:25390	
+s58006	w53781	1	n		body/health	core	2		zai:cerumen/zai:earth-wax	
+s58007	w53782	1	n		body	core	1		zai:cervix	the list gives cervix, but the parts and a sentence point to the back of the neck
+s58008	w53783	1	n		politics	core	2		zai:cession	
+s58009	w53784	1	v		body	core	2		zai:chafe	
+s58010	w53785	1	n		home	core	2		zai:lime/zai:chalk	
+s58011	w53786	1	n		health	core	1		zai:chamcre	one dictionary, and the headword is a misspelling of chancre
+s58012	w53787	1	n		nature	core	2		zai:chameleon/zd:569/zd:25569	
+s58013	w53788	1	v		everyday	core	1		zai:change	listed only among other words for change, no sentences
+s58014	w53789	1	n		social/religion	core	2		zai:chant/zai:incantation/zd:5487	
+s58015	w53790	1	n		social	core	2		zai:chaos/zai:turmoil	
+s58016	w53791	1	n		home/work	core	2		zai:charkha	
+s58017	w53792	1	n		work	core	2		zai:custodian/zai:watchman/zai:watcher/zai:chatelain	
+s58018	w53793	1	n		work	core	2		zai:checker	
+s58019	w53794	1	n		nature	core	2		zai:chick	
+s58020	w53795	1	adj		everyday	core	2		zai:childish	
+s58021	w53796	1	n		home	core	2		zai:chillum	
+s58022	w53797	1	n		work	core	2		zai:chisel/zd:5731	
+s58023	w53798	1	n		health	core	2		zai:choke	
+s58024	w53799	1	v		health	core	1		zai:choke	one dictionary entry and no sentences
+s58025	w53800	1	n		home	core	2		zai:choker/zai:girth/zai:cineture/zai:striction	
+s58026	w53801	1	v		work	core	2		zai:chop/zai:excide/zai:exseet/zai:hack	
+s58027	w53802	1	n		religion/social	core	2		zai:choral	
+s58028	w53803	1	n		nature	core	2		zai:chute/zd:5784/zd:5022	
+s58029	w53804	1	v		religion/health	core	2		zai:circumcise	
+s58030	w53805	1	n		everyday	core	2		zai:circumlocution	
+s58031	w53806	1	v		everyday	core	2		zai:circumvent/zai:encircle/zai:environ	
+s58032	w53807	1	n		home	core	2		zai:clachan/zd:7187	
+s58033	w53808	1	v		everyday	core	2		zai:claim/zd:7083	
+s58034	w53809	1	v		everyday	core	2		zai:clarify	
+s58035	w53810	1	n		social	core	2		zai:clasp/zd:9087/zd:3017	
+s58036	w53811	1	v		social	core	2		zai:claustral/zai:recluse/zd:8573	
+s58037	w53812	1	adj		social	core	1		zai:claustral	first part uncertain, one source group only
+s58038	w53813	1	v		everyday	core	2		zai:clean-up/zai:eliminate	
+s58039	w53814	1	n		work	core	2		zai:cleaner	
+s58040	w53815	1	v		everyday	core	2		zai:clear-cut/zai:commentate/zai:elucidate	
+s58041	w53816	1	n		everyday	core	2		zai:clearance/zd:17951	
+s58042	w53817	1	n		everyday	core	2		zai:clearance	
+s58043	w53818	1	n		nature	core	1		zai:cleavage	parts of the word uncertain
+s58044	w53819	1	v		work	core	1		zai:clinch	second part of the word uncertain
+s58045	w53820	1	v		everyday	core	2		zai:cling/zd:7494/zd:25433/zd:4524	
+s58046	w53821	1	n		body	core	2		zai:clitoris	
+s58047	w53822	1	adj		nature/body	core	1		zai:close-grained	meaning of the whole uncertain
+s58048	w53823	1	n		everyday	core	2		zai:closure	
+s58049	w53824	1	adj		nature	core	1		zai:cloven	other dictionary uses show change or distinction
+s58050	w53825	1	n		nature	core	1		zai:clump	first part of the word uncertain
+s58051	w53826	1	n		nature	core	1		zai:clump	first part of the word uncertain
+s58052	w53827	1	v		nature	core	2		zai:co-agulate	
+s58053	w53828	1	n		family	core	2		zai:co-heirs	
+s58054	w53829	1	n		nature	core	1		zai:cob-web	parts of the word uncertain
+s58055	w53830	1	n		work	core	2		zai:cobbler/zai:sewer	
+s58056	w53831	1	n		time	core	2		zai:cock-crow	
+s58057	w53832	1	adj		body	core	2		zai:cock-eyed	
+s58058	w53833	1	n		nature	core	2		zai:cocoon	
+s58059	w53834	1	n		health	core	2		zai:coition/zai:coitus/zai:love-making/zai:nooky	
+s58060	w53835	1	v		everyday	core	1		zai:collapse	parts of the word uncertain, one dictionary group only
+s58061	w53836	1	v		everyday	core	2		zai:collapse	
+s58062	w53837	1	n		everyday	core	2		zai:collar	
+s58063	w53838	1	n		everyday	core	2		zai:collection	
+s58064	w53839	1	n		work	core	2		zai:collector/zai:compiter/zai:editor/zai:organizer	
+s58065	w53840	1	n		work	core	1		zai:collector	the lexicon gives sukhawm as grind together
+s58066	w53841	1	v		everyday	core	1		zai:collocate	one bare list entry, make-up unclear
+s58067	w53842	1	v		social	core	1		zai:collogue/zd:6932	the sentences show both plain conferring and secret plotting
+s58068	w53843	1	v		social	core	1		zai:collogue	
+s58069	w53844	1	adj		everyday	core	2		zai:colossal	
+s58070	w53845	1	v		health/body	core	2		zai:come around	
+s58071	w53846	1	n		social/religion	core	2		zai:comforter	
+s58072	w53847	1	n		religion/politics	core	2		zai:commandment/zai:statute	
+s58073	w53848	1	n		everyday	core	2		zai:commixture	
+s58074	w53849	1	adj		home/everyday	core	2		zai:commodious	
+s58075	w53850	1	n		social/politics	core	1		zai:commotion	make-up of the word unclear
+s58076	w53851	1	v		everyday	core	2		zai:commove	
+s58077	w53852	1	n		education/social	core	2		zai:communicate/zd:8019/zd:1298	
+s58078	w53853	1	n		social	core	2		zai:communion/zd:24605/zd:8348	
+s58079	w53854	1	v		everyday	core	2		zai:commute/zai:ex-change/zai:inter-change	
+s58080	w53855	1	n		politics/education	core	1		zai:compart/zd:8026	the list types it as a verb, the sentences use a noun
+s58081	w53856	1	v		everyday	core	1		zai:compart	one list entry, meaning not checked against sentences
+s58082	w53857	1	adj		everyday	core	2		zai:compressed	
+s58083	w53858	1	n		everyday/politics	core	2		zai:compression/zd:23893	
+s58084	w53859	1	v		social	core	2		zai:compromise/zd:10911/zd:24064	
+s58085	w53860	1	n		education	core	2		zai:computation	
+s58086	w53861	1	v		education/everyday	core	2		zai:compute	
+s58087	w53862	1	v		everyday	core	2		zai:conceal	
+s58088	w53863	1	n		work/home	core	2		zai:concierge/zai:door-keeper	
+s58089	w53864	1	n		body/social	core	2		zai:concupisience	
+s58090	w53865	1	v		everyday	core	1		zai:confound	no sentences and the parts are unclear
+s58091	w53866	1	v		everyday	core	2		zai:confound/zai:embrangle/zai:intermingle	
+s58092	w53867	1	adj		everyday	core	1		zai:confounded	one entry and no sentences
+s58093	w53868	1	n		social	core	2		zai:confraternity	
+s58094	w53869	1	v		social	core	2		zai:congenial/zp:3470/zp:3904	
+s58095	w53870	1	v		everyday	core	1		zai:congregate/zd:8379	the sentence does not show congregate
+s58096	w53871	1	adj		everyday	core	2		zai:conjoint	
+s58097	w53872	1	v		social	core	1		zai:connivance	the parts are uncertain and there are no sentences
+s58098	w53873	1	adj		family	core	2		zai:connubial/zai:wedded	
+s58099	w53874	1	v		everyday	core	2		zai:conquer/zd:14881	
+s58100	w53875	1	n		religion	core	2		zai:consecration/zai:oblation/zai:submission	
+s58101	w53876	1	n		nature	core	2		zai:conservation	
+s58102	w53877	1	v		work	core	2		zai:consign/zai:expedite	
+s58103	w53878	1	adj		everyday	core	2		zai:consolatory	
+s58104	w53879	1	n		social	core	2		zai:consortium/zd:23148/zd:5076	
+s58105	w53880	1	n		politics	core	2		zai:conspiracy	
+s58106	w53881	1	v		health	core	2		zai:constipate	
+s58107	w53882	1	v		everyday	core	2		zai:constitute/zai:establish/zai:institute/zd:18083	
+s58108	w53883	1	v		everyday	core	2		zai:constrict	
+s58109	w53884	1	n		nature	core	1		zai:constrictor	gawp is otherwise a particle
+s58110	w53885	1	n		nature	core	2		zai:constrictor	
+s58111	w53886	1	v		everyday	core	1		zai:construe/zai:excerpt	the list entries are loose
+s58112	w53887	1	n		work	core	2		zai:consumer	
+s58113	w53888	1	n		work	core	2		zai:consumer	
+s58114	w53889	1	n		work	core	2		zai:consumption	
+s58115	w53890	1	n		work	core	2		zai:consumption	
+s58116	w53891	1	n		everyday	core	2		zai:contact/zai:contiguity	
+s58117	w53892	1	adj		social	core	2		zai:contemporary.	
+s58118	w53893	1	v		social	core	1		zai:contend	one entry and the parts are unclear
+s58119	w53894	1	v		everyday	core	1		zai:contexture	the list entry is unclear
+s58120	w53895	1	v		everyday	core	1		zai:contexture	the list entry is unclear
+s58121	w53896	1	n		everyday	core	2		zai:contiguity	
+s58122	w53897	1	adj		everyday	core	1		zai:contiguous	the parts are unclear
+s58123	w53898	1	n		everyday	core	2		zai:continuation/zai:resumption/zai:sequel/zd:6847	
+s58124	w53899	1	v		everyday	core	1		zai:contort	one list entry and no sentences
+s58125	w53900	1	n		politics	core	2		zai:contraband	
+s58126	w53901	1	adj		social	core	2		zai:contrite/zai:lowly	
+s58127	w53902	1	adj		social	core	2		zai:contumacious/zai:fractious/zai:way-ward/zd:9890	
+s58128	w53903	1	v		health	core	2		zai:convalesce/zd:25477/zd:25301	
+s58129	w53904	1	n		everyday	core	2		zai:convenience	
+s58130	w53905	1	adj		everyday	core	1		zai:convex	one list entry and no sentences; elsewhere {phot ta} means first
+s58131	w53906	1	n		everyday	core	1		zai:cooler/zai:healer/zai:multiplier/zai:thinner/zai:copula	stands mostly after another word; senses in the list are mixed
+s58132	w53907	1	n		politics	core	2		zai:cordon/zai:siege	
+s58133	w53908	1	n		nature	core	2		zai:corolla	
+s58134	w53909	1	phrase		body	core	2		zai:corporeal/zd:19858	
+s58135	w53910	1	phrase		body	core	2		zai:corporeal	
+s58136	w53911	1	n		nature	core	2		zai:cosmos	
+s58137	w53912	1	v		health	core	2		zai:cough/zai:expectorate	
+s58138	w53913	1	v		everyday	core	1		zai:could/zd:25919	the list gives could
+s58139	w53914	1	n		social	core	2		zai:counsel	
+s58140	w53915	1	adj		everyday	core	2		zai:counterfeit/zai:factitious/zai:fictive/zai:masked/zd:6400	
+s58141	w53916	1	n		work/everyday	core	2		zai:courier/zai:post-man	
+s58142	w53917	1	n		social/family	core	2		zai:courtship	
+s58143	w53918	1	n		nature/home	core	2		zai:cow-hide	
+s58144	w53919	1	n		home/everyday	core	2		zai:cowl/zai:headdress/zd:7187/zd:6084	
+s58145	w53920	1	v		everyday	core	2		zai:crack/zd:12009	
+s58146	w53921	1	v		nature	core	2		zai:crawl/zai:creep	
+s58147	w53922	1	adj		everyday/religion	core	2		zai:credent/zai:credible/zd:3268	
+s58148	w53923	1	v		nature	core	2		zai:creep/zai:reptile/zd:24230/zd:569	
+s58149	w53924	1	n		nature	core	2		zai:crest	
+s58150	w53925	1	n		social	core	2		zai:crime/zai:theft/zai:thievery/zd:16833	
+s58151	w53926	1	adj		everyday/nature	core	2		zai:crimson/zai:scarlet/zd:17081	
+s58152	w53927	1	adj		body	core	2		zai:crinite	
+s58153	w53928	1	adj		body	core	2		zai:crinite	
+s58154	w53929	1	n		everyday	core	1		zai:cross-bow	the part bu is not clear
+s58155	w53930	1	adv		everyday	core	1		zai:crouch/zd:7846	the list gives crouch, the sentences use it after a verb as quietly
+s58156	w53931	1	v		everyday	core	2		zai:crumble	
+s58157	w53932	1	v		everyday	core	1		zai:crunch	sentences use guap after a verb in another sense
+s58158	w53933	1	n		everyday	core	1		zai:crunch	only in one explanation
+s58159	w53934	1	n		nature	core	2		zai:crust/zd:19390	
+s58160	w53935	1	n		food	core	2		zai:cucumber	
+s58161	w53936	1	n		nature	core	2		zai:cud	
+s58162	w53937	1	n		nature	core	2		zai:culver	
+s58163	w53938	1	adj		everyday	core	2		zai:cumbersome	
+s58164	w53939	1	adj		everyday	core	1		zai:cumbersome	the part tuak is not clear
+s58165	w53940	1	n		everyday	core	2		zai:cunctation/zai:retardation	
+s58166	w53941	1	n		work/everyday	core	2		zai:custodian/zai:holder/zai:keeper/zai:time-keeper	
+s58167	w53942	1	n		social	core	2		zai:cut-throat	
+s58168	w53943	1	n		body	core	2		zai:cuticle/zai:epidermis/zai:scarf-skin	
+s58169	w53944	1	n		social	core	2		zai:cymbal	
+s58170	w53945	1	adv		time	core	2		zai:daily	
+s58171	w53946	1	n		health	core	2		zai:damage	
+s58172	w53947	1	adj		nature	core	2		zai:damp	
+s58173	w53948	1	n		body/health	core	2		zai:dandruff/zai:furf/zd:19330	
+s58174	w53949	1	n		everyday	core	2		zai:danger	
+s58175	w53950	1	v		body	core	2		zai:dangle/zd:9087	
+s58176	w53951	1	n		everyday	core	2		zai:day-dream/zai:reverie/zd:8019/zd:7494	
+s58177	w53952	1	n		body	core	2		zai:dazzle	
+s58178	w53953	1	n		nature	core	2		zai:deadfall	
+s58179	w53954	1	adj		nature	core	1		zai:dealate	the parts of the word are not clear
+s58180	w53955	1	n		everyday	core	2		zai:debacle	
+s58181	w53956	1	v		everyday	core	2		zai:debase/zd:6858	
+s58182	w53957	1	n		health	core	2		zai:debitity	
+s58183	w53958	1	n		home	core	2		zai:debris	
+s58184	w53959	1	adj		social	core	2		zai:deceptive	
+s58185	w53960	1	adj		everyday	core	2		zai:deep	
+s58186	w53961	1	n		politics	core	2		zai:defense/zai:safe-guard	
+s58187	w53962	1	n		everyday	core	2		zai:deficiency/zai:need	
+s58188	w53963	1	v		everyday	core	2		zai:deflect	
+s58189	w53964	1	n		everyday	core	1		zai:deformity	stands in the list as part of pau baanna; the sense deformity is doubtful
+s58190	w53965	1	v		social	core	2		zai:defy	
+s58191	w53966	1	n		everyday	core	2		zai:degeneration/ts:8897	
+s58192	w53967	1	v		social	core	2		zai:degrade	
+s58193	w53968	1	v		everyday	core	2		zai:dejected/zai:despond/zai:down-hearted/zd:7923	
+s58194	w53969	1	v		social	core	1		zai:delate	the parts of the word are not clear
+s58195	w53970	1	n		food	core	2		zai:delicacy/zd:22650	
+s58196	w53971	1	adj		food	core	2		zai:delicious/zd:9796/zd:210/zd:2270	
+s58197	w53972	1	adj		everyday	core	2		zai:delightful/zai:impressive/zai:interesting/zai:sapid	
+s58198	w53973	1	v		nature	core	1		zai:deliquesce	only in this list and with no sentences
+s58199	w53974	1	v		social	core	1		zai:delude	only in this list and with no sentences
+s58200	w53975	1	n		social	core	2		zai:delusion/zd:19342/zd:6961	
+s58201	w53976	1	v		home	core	1		zai:demilish	only in this list, the part kaai is not clear
+s58202	w53977	1	adj		religion	core	2		zai:demoniac	
+s58203	w53978	1	n		work	core	2		zai:demonstrator	
+s58204	w53979	1	n		politics	core	1		zai:department/zai:tributary	the spelling with the hyphen is unclear
+s58205	w53980	1	n		travel	core	2		zai:departure/zd:19599	
+s58206	w53980	2	n		social	core	2		zai:erection/zd:9445	
+s58207	w53981	1	n		family	core	2		zai:departure/zd:8115	
+s58208	w53982	1	n		social	core	2		zai:deportment/zai:mien	
+s58209	w53983	1	n		politics	core	2		zai:deposal	
+s58210	w53984	1	n		nature	core	2		zai:depression/zd:9529	
+s58211	w53985	1	n		nature	core	2		zai:depth/zai:profundity	
+s58212	w53986	1	adj		everyday	core	1		zai:derelict	only in this list and with no sentences
+s58213	w53987	1	adj		everyday	core	2		zai:derelict/zai:out-cast/zd:7858	
+s58214	w53988	1	v		everyday	core	1		zai:derive/zd:2516	the one sentence speaks of coming down as a man
+s58215	w53989	1	v		everyday	core	2		zai:deserve/zd:6674	
+s58216	w53990	1	adj		everyday	core	2		zai:desirable	
+s58217	w53991	1	n		social	core	2		zai:despite	
+s58218	w53992	1	v		everyday	core	1		zai:destroy	only in this list and with no sentences
+s58219	w53993	1	n		everyday	core	2		zai:destruction/zd:23670	
+s58220	w53994	1	n		everyday	core	2		zai:detachment	
+s58221	w53995	1	n		work	core	2		zai:detector/zai:interceptor	
+s58222	w53996	1	n		work	core	2		zai:detector/zai:explorer/zai:path-finder	
+s58223	w53997	1	n		politics	core	1		zai:detention	only in this list and with no sentences
+s58224	w53998	1	n		work	core	2		zai:detonator	
+s58225	w53999	1	adj		everyday	core	2		zai:devoid	
+s58226	w54000	1	n		politics	core	1		zai:devolution	parts not words of the lexicon, meaning taken from one list entry only
+s58227	w54001	1	v		politics	core	2		zai:devolve	
+s58228	w54002	1	v		everyday	core	2		zai:devote	
+s58229	w54003	1	v		religion	core	2		zai:devote	
+s58230	w54004	1	n		religion	core	1		zai:devoted/zai:devotee	formation unclear
+s58231	w54005	1	n		nature	core	1		zai:dew	formation unclear
+s58232	w54006	1	n		nature	core	2		zai:dew/zd:7313	
+s58233	w54007	1	n		nature	core	2		zai:dewlap	
+s58234	w54008	1	adj		everyday	core	1		zai:diagonal	given both for diagonal and for vis-a-vis
+s58235	w54009	1	v		education	core	2		zai:dictate/ts:9862	
+s58236	w54010	1	adj		everyday	core	2		zai:die-hand/zai:dogged/zai:renitent	
+s58237	w54011	1	n		social	core	2		zai:diffusion/zd:23057/ts:3284	
+s58238	w54012	1	n		home	core	2		zai:digester/zai:grinder	
+s58239	w54013	1	n		nature	core	1		zai:dike	a main watercourse rather than an embankment may be meant
+s58240	w54014	1	adj		home	core	2		zai:dilapidated	
+s58241	w54015	1	n		work	core	1		zai:diligence	possibly a misprint of {ngentelna}
+s58242	w54016	1	n		work	core	1		zai:diligence	the sentence lists it among vices beside greed, so stinginess may be meant
+s58243	w54017	1	n		social	core	2		zai:diminution/zd:5126	
+s58244	w54018	1	v		everyday	core	2		zai:ding	
+s58245	w54019	1	n		health	core	1		zai:impotence/zai:sun-stroke/zd:9791	also given for diphtheria
+s58246	w54020	1	n		work	core	2		zai:director	
+s58247	w54021	1	n		work	core	2		zai:director/zai:over-seer	
+s58248	w54022	1	n		work	core	2		zai:director/zai:inductor	
+s58249	w54023	1	n		work	core	2		zai:director	
+s58250	w54024	1	n		everyday	core	2		zai:dirk	
+s58251	w54025	1	n		nature	core	2		zai:sample/zai:dirt	
+s58252	w54026	1	n		everyday	core	2		zai:disadvantage/zd:24283	
+s58253	w54027	1	n		home	core	1		zai:disaster	given for disaster
+s58254	w54028	1	v		everyday	core	2		zai:disband/zai:scatter/zd:8031/zd:23754	
+s58255	w54029	1	v		everyday	core	2		zai:disconcert	
+s58256	w54030	1	adj		everyday	core	2		zai:disconnected	
+s58257	w54031	1	n		social	core	2		zai:discotheque/zd:14718	
+s58258	w54032	1	v		social	core	2		zai:disdain/zai:disparage/zai:execrate/zai:flout/zd:23257/ts:4827	
+s58259	w54033	1	v		body	core	1		zai:disgorge	formation unclear
+s58260	w54034	1	adj		everyday	core	1		zai:disjoint	parts of the word uncertain
+s58261	w54035	1	v		work	core	1		zai:dismantle	first part of the word uncertain
+s58262	w54036	1	v		work	core	1		zai:dismantle	second part of the word uncertain
+s58263	w54037	1	n		social	core	2		zai:dispensation/zd:23148	
+s58264	w54038	1	n		religion	core	2		zai:dispensation/zd:25397	
+s58265	w54039	1	n		nature	core	2		zai:dispersion	
+s58266	w54040	1	n		everyday	core	2		zai:disposal	
+s58267	w54041	1	n		social	core	2		zai:disputation	
+s58268	w54042	1	adj		health	core	2		zai:dissected	
+s58269	w54043	1	n		health	core	2		zai:dissection	
+s58270	w54044	1	n		health	core	1		zai:dissector	elsewhere the form means one who works or makes, from sem work
+s58271	w54045	1	n		nature	core	2		zai:dissolution/zd:7579	
+s58272	w54046	1	v		everyday	core	1		zai:distinguish	parts of the word uncertain
+s58273	w54047	1	adj		social	core	1		zai:distract	parts of the word uncertain
+s58274	w54048	1	n		nature	core	2		zai:distributary	
+s58275	w54049	1	n		work	core	2		zai:distributor	
+s58276	w54050	1	n		everyday	core	2		zai:divarication/zai:divergence	
+s58277	w54051	1	v		nature	core	2		zai:dive/zd:4257	
+s58278	w54052	1	n		nature	core	2		zai:diver	
+s58279	w54053	1	n		everyday	core	2		zai:divergence	
+s58280	w54054	1	n		travel	core	2		zai:diversion	
+s58281	w54055	1	v		everyday	core	1		zai:divide	second part of the word uncertain
+s58282	w54056	1	v		everyday	core	1		zai:divide	second part of the word uncertain
+s58283	w54057	1	n		religion	core	2		zai:divinity/zd:3870/zd:18955/zd:6873	
+s58284	w54058	1	n		everyday	core	2		zai:divulsion	
+s58285	w54059	1	n		everyday	core	2		zai:divulsion	
+s58286	w54060	1	v		everyday	core	1		zai:divvy	second part of the word uncertain
+s58287	w54061	1	n		nature	core	2		zai:doe	
+s58288	w54062	1	n		work	core	2		zai:doer/zai:server	
+s58289	w54063	1	n		travel	core	2		zai:dog-cart	
+s58290	w54064	1	n		body	core	2		zai:dog-tooth	
+s58291	w54065	1	v		everyday	core	2		zai:doggo/zai:flee/zd:5003/ts:10291/ts:5530	
+s58292	w54066	1	n		home	core	2		zai:doghouse	
+s58293	w54067	1	n		religion/education	core	2		zai:dogma/zai:motif/zd:24854/zd:9003	
+s58294	w54068	1	n		social	core	2		zai:donation	
+s58295	w54069	1	n		social	core	2		zai:donee/zai:recipient	
+s58296	w54070	1	n		social	core	2		zai:donor	
+s58297	w54071	1	v		everyday	core	2		zai:doodle/zai:loafer/zai:loiter/zai:vaga-bond/zd:569	
+s58298	w54072	1	n		home	core	2		zai:door/zd:25433	
+s58299	w54073	1	n		home	core	2		zai:door-bell	
+s58300	w54074	1	adv		everyday	core	1		zai:doughy	the sense in roll up and in the article sentence about rain is unclear
+s58301	w54075	1	adj		social	core	2		zai:down-hearted	
+s58302	w54076	1	n		everyday	core	2		zai:downfall/zai:retrogression/zd:6354/zd:9199	
+s58303	w54077	1	n		family	core	2		zai:dowry/zd:8450/ts:3375	
+s58304	w54078	1	n		food	core	2		zai:draff	
+s58305	w54079	1	v		everyday	core	2		zai:drag	
+s58306	w54080	1	n		media	core	2		zai:dramatization/zd:1828/zd:23890	
+s58307	w54081	1	v		media	core	2		zai:dramatize/zai:personate/zd:5453	
+s58308	w54082	1	adj		everyday	core	2		zai:dreadful/zai:grisly	
+s58309	w54083	1	adv		everyday	core	2		zai:dreadfully	
+s58310	w54084	1	adj		everyday	core	2		zai:dreary	
+s58311	w54085	1	n		travel	core	2		zai:driver/zai:rider	
+s58312	w54086	1	n		travel	core	2		zai:driver/zai:wringer	
+s58313	w54087	1	n		health	core	2		zai:dropper	
+s58314	w54088	1	n		home	core	2		zai:dross/zai:rusty	
+s58315	w54089	1	n		home	core	1		zai:dross/zai:furruginous	given only beside keekseeu, meaning not checked
+s58316	w54090	1	n		home	core	2		zai:dryer	
+s58317	w54091	1	v		home	core	2		zai:dump	
+s58318	w54092	1	n		home	core	2		zai:dunghill	
+s58319	w54093	1	n		home	core	2		zai:dustbin/zd:25433/zd:7176	
+s58320	w54094	1	n		health	core	2		zai:ear-ache	
+s58321	w54095	1	adj		everyday	core	2		zai:ear-splitting/zai:noisy	
+s58322	w54096	1	n		nature	core	2		zai:ear-wig	
+s58323	w54097	1	n		body	core	2		zai:earlap	
+s58324	w54098	1	adj		time	core	2		zai:early/zd:17635	
+s58325	w54099	1	v		work	core	2		zai:earn	
+s58326	w54100	1	n		nature	core	2		zai:earth-quake	
+s58327	w54101	1	n		home	core	2		zai:eaves/zp:3981	
+s58328	w54102	1	n		food	core	2		zai:ebullition	
+s58329	w54103	1	n		nature	core	2		zai:ecdysis	
+s58330	w54104	1	n		religion	core	1		zai:edification	
+s58331	w54105	1	n		media/education	core	2		zai:editor	
+s58332	w54106	1	n		media/education	core	2		zai:editor	
+s58333	w54107	1	v		education	core	2		zai:educate	
+s58334	w54108	1	n		education	core	2		zai:educational/zd:9510	
+s58335	w54109	1	v		everyday	core	2		zai:educe/zd:6860/zd:23754	
+s58336	w54110	1	n		nature/food	core	2		zai:eel	
+s58337	w54111	1	v		everyday	core	1		zai:efface	given by one dictionary only and the make-up of the word is unclear
+s58338	w54112	1	v		everyday	core	1		zai:efface	given alone in one dictionary without explanation
+s58339	w54113	1	v		everyday/politics	core	2		zai:efface/zd:3599	
+s58340	w54114	1	v		everyday	core	2		zai:efface	
+s58341	w54115	1	n		nature	core	2		zai:effulgence	
+s58342	w54116	1	v		body/health	core	2		zai:egest	
+s58343	w54117	1	n		body/health	core	2		zai:perspiration/zai:excreta/zai:egesta	
+s58344	w54118	1	n		food	core	2		zai:egg/zd:4291	
+s58345	w54119	1	adj		everyday	core	2		zai:eightfold	
+s58346	w54120	1	v		body/everyday	core	2		zai:ejaculate/zd:2849	
+s58347	w54121	1	v		social	core	1		zai:elapse	the list gives elapse, the sentences show contact and mixing
+s58348	w54122	1	adj		politics/religion	core	2		zai:elect	
+s58349	w54123	1	n		everyday/home	core	2		zai:electricity	
+s58350	w54124	1	n		nature	core	2		zai:elephant	
+s58351	w54125	1	v		everyday/social	core	2		zai:elevate	
+s58352	w54126	1	v		everyday/social	core	2		zai:elevate	
+s58353	w54127	1	v		everyday/social	core	2		zai:elevate	
+s58354	w54128	1	n		everyday/social	core	2		zai:elevation	
+s58355	w54129	1	n		everyday/social	core	2		zai:elevation	
+s58356	w54130	1	n		home	core	2		zai:elevator	
+s58357	w54131	1	n		home	core	2		zai:elevator	
+s58358	w54132	1	v		everyday	core	2		zai:elongate	
+s58359	w54133	1	v		family/social	core	2		zai:elope/zd:23540	
+s58360	w54134	1	adj		social	core	2		zai:eloquent/zd:5002/zd:9688	
+s58361	w54135	1	v		politics	core	2		zai:embattle	
+s58362	w54136	1	v		nature	core	2		zai:embay	
+s58363	w54137	1	n		everyday	core	2		zai:emblem/zai:outline	
+s58364	w54138	1	v		family/social	core	2		zai:embosom/zai:enclasp	
+s58365	w54139	1	n		nature	core	2		zai:embouchure	
+s58366	w54140	1	v		family/social	core	2		zai:embrace	
+s58367	w54141	1	n		everyday	core	2		zai:emergence/zd:17112	
+s58368	w54142	1	n		health	core	2		zai:emesis	
+s58369	w54143	1	adj		health	core	2		zai:emetic/zai:sickening/zai:vomitive	
+s58370	w54144	1	n		travel	core	2		zai:emigration	
+s58371	w54145	1	adj		social	core	2		zai:eminent/zai:notable/zai:noted/zai:noticeable/zd:6613/zd:8634	
+s58372	w54146	1	v		everyday	core	2		zai:emit/zd:7944/zp:3470	
+s58373	w54147	1	n		everyday	core	2		zai:emphasis/zd:22391	
+s58374	w54148	1	adv		social	core	2		zai:en masse/zd:24138	
+s58375	w54149	1	v		everyday	core	2		zai:enclose	
+s58376	w54150	1	v		everyday	core	2		zai:encounter	
+s58377	w54151	1	n		social	core	2		zai:encouragement/zd:5784	
+s58378	w54152	1	n		politics	core	2		zai:enemy	
+s58379	w54153	1	n		work	core	1		zai:engagement	the list entry mixes several senses of engagement
+s58380	w54154	1	v		everyday	core	2		zai:engird	
+s58381	w54155	1	v		everyday	core	2		zai:engulf	
+s58382	w54156	1	v		everyday	core	2		zai:enlarge	
+s58383	w54157	1	n		social	core	1		zai:enmity	
+s58384	w54158	1	n		education	core	2		zai:ensample/zai:example/zai:exemplum/zai:simile/zd:957	
+s58385	w54159	1	v		nature	core	2		zai:ensnare/zd:4308/zd:11099	
+s58386	w54160	1	v		everyday	core	2		zai:enter/zd:17860	
+s58387	w54161	1	adj		everyday	core	2		zai:enthusiastic/zd:19201/zd:6773/zd:5452	
+s58388	w54162	1	v		social	core	2		zai:entrust/zd:21780/zd:3982	
+s58389	w54163	1	adj		social	core	2		zai:enviable	
+s58390	w54164	1	n		social	core	2		zai:envier	
+s58391	w54165	1	n		education	core	2		zai:epilogue/zd:8542	
+s58392	w54166	1	v		nature	core	1		zai:eradicate	
+s58393	w54167	1	n		education	core	2		zai:eraser	
+s58394	w54168	1	n		home	core	2		zai:extinguisher/zai:eraser	
+s58395	w54169	1	adj		everyday	core	1		zai:erect	
+s58396	w54170	1	n		social	core	1		zai:erotic	the list gives it under the adjective erotic
+s58397	w54171	1	n		religion	core	2		zai:errand/zai:messenger/zd:2516	
+s58398	w54172	1	v		travel	core	2		zai:errant	
+s58399	w54173	1	v		nature	core	1		zai:erupt	
+s58400	w54174	1	n		nature	core	1		zai:eruption	
+s58401	w54175	1	n		everyday	core	1		zai:escapement	
+s58402	w54176	1	v		everyday/travel	core	2		zai:evacuate/zd:14944	
+s58403	w54177	1	n		everyday	core	2		zai:evasion/zd:6295/zd:9430	
+s58404	w54178	1	adv		everyday	core	2		zai:eventual/ts:3369/zd:683/ts:11032	
+s58405	w54179	1	adv		everyday/time	core	2		zai:eventually	
+s58406	w54180	1	phrase		everyday	core	1		zai:everywhere	the explanation reads mun khempeuh-ah
+s58407	w54181	1	v		social/religion	core	2		zai:exalt	
+s58408	w54182	1	n		social/religion	core	2		zai:exaltation	
+s58409	w54183	1	n		work	core	2		zai:excavator	
+s58410	w54184	1	adj		everyday	core	2		zai:excessive	
+s58411	w54185	1	v		everyday/health	core	2		zai:excide/zai:mutilate	
+s58412	w54186	1	n		nature/home	core	1		zai:exclosure	the parts suggest outside a fence
+s58413	w54187	1	v		body	core	2		zai:excoriate	
+s58414	w54188	1	n		body/health	core	1		zai:excretion/zai:lactation	the part suuk is unclear
+s58415	w54189	1	adj		everyday	core	2		zai:execrable	
+s58416	w54190	1	n		everyday/health	core	2		zai:execration	
+s58417	w54191	1	n		social	core	2		zai:execration/zai:scoff/ts:3125/ts:12519	
+s58418	w54192	1	v		social	core	2		zai:exempt/zd:6939/zd:8156	
+s58419	w54193	1	v		food/body	core	2		zai:exenterate	
+s58420	w54194	1	v		nature/body	core	2		zai:exfoliate	
+s58421	w54195	1	n		body/health	core	2		zai:exhalation/zai:expiration	
+s58422	w54196	1	v		body/health	core	2		zai:exhale	
+s58423	w54197	1	n		everyday/social	core	2		zai:exhibition	
+s58424	w54198	1	n		everyday	core	2		zai:exoteric/zai:exterior/zai:superficies/zd:8015/zd:8778	
+s58425	w54199	1	adj		everyday	core	2		zai:exotic/zai:fancy	
+s58426	w54200	1	adj		everyday	core	2		zai:exotic/zai:interesting	
+s58427	w54201	1	v		everyday	core	1		zai:expand	the parts of the word are unclear
+s58428	w54202	1	v		everyday	core	2		zai:expand	
+s58429	w54203	1	n		everyday/health	core	2		zai:expansion/zai:tumefaction	
+s58430	w54204	1	n		everyday	core	1		zai:expansion	a single dictionary entry
+s58431	w54205	1	v		body/health	core	1		zai:expectorate	the parts of the word are unclear
+s58432	w54206	1	n		social/work	core	2		zai:expediency	
+s58433	w54207	1	n		politics	core	2		zai:expedition/zd:2351	
+s58434	w54208	1	v		education	core	2		zai:explicate/zd:6366	
+s58435	w54209	1	v		everyday	core	2		zai:expose/zd:3599/zd:20932/zd:9567	
+s58436	w54210	1	n		social	core	2		zai:exposure	
+s58437	w54211	1	n		social/media	core	2		zai:exposure/zd:10136	
+s58438	w54212	1	v		everyday	core	1		zai:expunge	the part <giit> is not known
+s58439	w54213	1	n		time	core	1		zai:extension	only in dictionary entries
+s58440	w54214	1	v		everyday	core	2		zai:exterminate/zd:1927/zd:7343	
+s58441	w54215	1	n		everyday	core	2		zai:exterminator	
+s58442	w54216	1	n		everyday	core	2		zai:external/zai:surface/zd:8131/zd:6983	
+s58443	w54217	1	adj		everyday	core	1		zai:extra	only in one merged dictionary entry
+s58444	w54218	1	n		health	core	2		zai:extraction	
+s58445	w54219	1	adj		everyday	core	1		zai:extraordinary	parts of the word uncertain
+s58446	w54220	1	v		social	core	2		zai:extravagate/zai:thriftless/zd:9305/zd:9869	
+s58447	w54221	1	v		social	core	2		zai:extravagate/zai:perverse/zai:prodigal/zd:19239	
+s58448	w54222	1	v		everyday	core	2		zai:extricate/zd:19603	
+s58449	w54223	1	v		nature	core	2		zai:exuviate	
+s58450	w54224	1	n		health/body	core	2		zai:eye-strain	
+s58451	w54225	1	n		body	core	2		zai:eye-wink	
+s58452	w54226	1	n		body	core	1		zai:eye-wink	given only inside {mit siinna}
+s58453	w54227	1	adv		everyday	core	2		zai:fad/zai:miracle/zd:957/zd:7083	
+s58454	w54228	1	adj		everyday	core	2		zai:faint/zd:3278/zd:7454	
+s58455	w54229	1	adj		everyday	core	1		zai:fallen	only in dictionary entries
+s58456	w54230	1	v		everyday	core	2		zai:falter/zai:rave	
+s58457	w54231	1	n		social	core	1		zai:familiarity	parts of the word uncertain
+s58458	w54232	1	n		body	core	1		zai:fang	the list gives fang, the lexicon white teeth
+s58459	w54233	1	n		food	core	2		zai:farina/zai:wheat	
+s58460	w54234	1	n		work/home	core	2		zai:farm-stead	
+s58461	w54235	1	n		nature	core	2		zai:feather/zai:shuttle-cock	
+s58462	w54236	1	n		nature	core	2		zai:feather/zd:21074	
+s58463	w54237	1	n		nature	core	2		zai:feather/zai:top-knot	
+s58464	w54238	1	n		nature	core	2		zai:feather/zd:6971	
+s58465	w54239	1	n		everyday	core	2		zai:feature/zai:hue	
+s58466	w54240	1	n		social	core	1		zai:fee	the list gives fee, other sentences use it of a gift
+s58467	w54241	1	n		everyday	core	2		zai:feel/zd:1187	
+s58468	w54242	1	n		everyday	core	2		zai:feer	
+s58469	w54243	1	adj		social	core	2		zai:feigned	
+s58470	w54244	1	n		social	core	2		zai:feint/zd:6906	
+s58471	w54245	1	n		nature	core	2		zai:fern	
+s58472	w54246	1	n		nature	core	1		zai:fertility	parts unclear, single dictionary entry
+s58473	w54247	1	n		nature/work	core	2		zai:fertilizer/zai:manure	
+s58474	w54248	1	n		nature/work	core	2		zai:fertilizer/zai:manure/zd:7321	
+s58475	w54249	1	n		social	core	2		zai:fib	
+s58476	w54250	1	n		social	core	2		zai:fidelity	
+s58477	w54251	1	v		everyday	core	2		zai:filch/zai:infiltrate/zd:1150	
+s58478	w54252	1	n		work/home	core	2		zai:file/zai:hacksaw	
+s58479	w54253	1	n		home	core	1		zai:fillet	single sense of a mixed entry
+s58480	w54254	1	v		everyday	core	2		zai:filter/zd:3747	
+s58481	w54255	1	n		everyday/home	core	2		zai:filter	
+s58482	w54256	1	n		everyday/home	core	1		zai:filter	parts unclear, single dictionary entry
+s58483	w54257	1	v		everyday	core	1		zai:filter	may be a misprint of khaihkhia or khitkhia
+s58484	w54258	1	v		everyday	core	1		zai:filter/zai:filtrate	parts unclear
+s58485	w54259	1	n		home	core	1		zai:filter	
+s58486	w54260	1	n		home	core	2		zai:filth	
+s58487	w54261	1	adj		everyday	core	1		zai:filthy	parts unclear, single dictionary entry
+s58488	w54262	1	v		everyday	core	2		zai:filtrate/zd:5886	
+s58489	w54263	1	adv		everyday	core	2		zai:finally/zai:lastly	
+s58490	w54264	1	n		everyday	core	2		zai:finding/zd:7781	
+s58491	w54265	1	n		work	core	2		zai:fire-clay	
+s58492	w54266	1	n		nature	core	1		zai:fire-stone	meaning given only by the English, parts unclear
+s58493	w54267	1	adv		everyday	core	2		zai:firstly	
+s58494	w54268	1	adj		everyday	core	2		zai:fit/zai:fitting/zai:suitable	
+s58495	w54269	1	n		everyday	core	1		zai:fixation	
+s58496	w54270	1	adj		everyday	core	2		zai:fixed	
+s58497	w54271	1	n		politics/everyday	core	2		zai:flag	
+s58498	w54272	1	adj		social	core	2		zai:flagrant/zai:rude/zai:violent	
+s58499	w54273	1	n		social	core	2		zai:flame	
+s58500	w54274	1	n		nature	core	2		zai:flap	
+s58501	w54275	1	n		home	core	2		zai:flask/zd:9009	
+s58502	w54276	1	n		health	core	2		zai:flatus/zai:regurgitation	
+s58503	w54277	1	n		nature	core	2		zai:flea	
+s58504	w54278	1	v		nature	core	2		zai:fledge	
+s58505	w54279	1	adj		nature	core	2		zai:flesh-eating/zd:23936	
+s58506	w54280	1	adj		body	core	2		zai:fleshy	
+s58507	w54281	1	v		everyday	core	1		zai:fling	meaning only from the list
+s58508	w54282	1	n		home	core	2		zai:floss	
+s58509	w54283	1	n		education	core	1		zai:fluency	the other dictionary also gives it for radiance
+s58510	w54284	1	adj		education	core	2		zai:fluent/zd:4276/zd:595	
+s58511	w54285	1	n		everyday	core	2		zai:flute	
+s58512	w54286	1	n		nature	core	2		zai:fly	
+s58513	w54287	1	n		nature	core	1		zai:fly	which insect is meant is not clear
+s58514	w54288	1	v		everyday	core	1		zai:focalize	first part of the word uncertain
+s58515	w54289	1	n		social	core	2		zai:follower	
+s58516	w54290	1	v		family	core	2		zai:fondle	
+s58517	w54291	1	adj		social	core	2		zai:foolhardy	
+s58518	w54292	1	n		home	core	1		zai:foot-board	parts of the word uncertain
+s58519	w54293	1	n		home	core	2		zai:foot-gear/zd:24470	
+s58520	w54294	1	n		nature	core	1		zai:foot-stalk/zd:21092/zd:1830	the list headword foot-stalk does not fit the sentences
+s58521	w54295	1	n		everyday	core	2		zai:football	
+s58522	w54296	1	v		social	core	2		zai:for-gather/zd:15930/zd:2516	
+s58523	w54297	1	n		home	core	2		zai:forceps/zai:pincers/zai:pliers/zai:tongs	
+s58524	w54298	1	adv		everyday	core	2		zai:fore	
+s58525	w54299	1	n		body	core	2		zai:fore-finger/zd:2830	
+s58526	w54300	1	v		everyday	core	2		zai:fore-shadow/zd:24082	
+s58527	w54301	1	v		everyday	core	2		zai:fore-show	
+s58528	w54302	1	n		family	core	2		zai:forebear/zd:8778	
+s58529	w54303	1	n		everyday	core	2		zai:forefront	
+s58530	w54304	1	adj		everyday	core	1		zai:forehand	the list entry is unclear
+s58531	w54305	1	n		education	core	2		zai:formation	
+s58532	w54306	1	adj		health	core	2		zai:forspent/zd:2256	
+s58533	w54307	1	n		politics	core	2		zai:fortalice	
+s58534	w54308	1	adj		everyday	core	2		zai:fortuitous	
+s58535	w54309	1	n		nature	core	2		zai:fossil	
+s58536	w54310	1	n		health	core	1		zai:fracture	the make-up of the word is not clear
+s58537	w54311	1	adj		everyday	core	2		zai:fragile	
+s58538	w54312	1	adj		family	core	2		zai:fraternal	
+s58539	w54313	1	n		social	core	2		zai:fraternity	
+s58540	w54314	1	adj		everyday	core	2		zai:freak	
+s58541	w54315	1	n		social	core	2		zai:friction/zd:8202	
+s58542	w54316	1	n		everyday	core	1		zai:fright	the make-up of the word is not clear
+s58543	w54317	1	n		everyday	core	1		zai:frisk	the list entry is unclear
+s58544	w54318	1	v		everyday	core	2		zai:front	
+s58545	w54319	1	v		everyday	core	2		zai:front	
+s58546	w54320	1	n		nature	core	2		zai:fruitage/zai:fruition/zd:3758/zd:25749	
+s58547	w54321	1	adj		everyday	core	2		zai:hazy/zai:nubilous/zai:fuliginous/zd:772/zd:7076	
+s58548	w54322	1	adj		nature	core	2		zai:full-fledged	
+s58549	w54323	1	v		home	core	2		zai:fumitate	
+s58550	w54324	1	adj		everyday	core	2		zai:fundamental/zd:5453/zd:11409	
+s58551	w54325	1	n		social	core	2		zai:funeral	
+s58552	w54326	1	adj		everyday	core	2		zai:funny	
+s58553	w54327	1	n		home	core	2		zai:furnace	
+s58554	w54328	1	v		social	core	1		zai:gad	the make-up of the word is not clear
+s58555	w54329	1	n		social	core	2		zai:gaiety	
+s58556	w54330	1	n		work	core	2		zai:gain	
+s58557	w54331	1	n		home	core	2		zai:gamp	
+s58558	w54332	1	n		home	core	2		zai:gamp	
+s58559	w54333	1	n		home	core	2		zai:garter	
+s58560	w54334	1	adj		health	core	2		zai:healthful/zai:hygienic/zai:nourishing/zai:nutrient/zai:salutary/zd:21817	
+s58561	w54335	1	n		education	core	1		zai:geometry	whether an upright or a slanting line is meant is not clear
+s58562	w54336	1	n		education	core	2		zai:hyphen/zai:geometry	
+s58563	w54337	1	v		nature	core	2		zai:germinate/zd:6356	
+s58564	w54338	1	n		nature	core	1		zai:geyser	the make-up of the word is not clear
+s58565	w54339	1	adj		food	core	1		zai:gingery	the list also describes a colour
+s58566	w54340	1	n		politics	core	2		zai:gisarme	
+s58567	w54341	1	n		everyday	core	2		zai:giver	
+s58568	w54342	1	n		body	core	1		zai:gland	the sentences seen use it of something else
+s58569	w54343	1	n		nature	core	2		zai:glim	
+s58570	w54344	1	n		time	core	2		zai:gloaming	
+s58571	w54345	1	adj		everyday	core	2		zai:glomerate	
+s58572	w54346	1	n		everyday	core	2		zai:glomeration	
+s58573	w54347	1	v		everyday	core	1		zai:gloom	the list gives a noun and the sentences are unclear
+s58574	w54348	1	adj		everyday	core	1		zai:glossy	the sentences use it rather as an intensifier, completely
+s58575	w54349	1	v		nature	core	2		zai:gnar/zd:22586	
+s58576	w54350	1	n		health	core	2		zai:goiter/zd:9798/zd:9791/zd:4983	
+s58577	w54351	1	n		everyday	core	2		zai:gong	
+s58578	w54352	1	n		nature	core	2		zai:gosling	
+s58579	w54353	1	v		work	core	2		zai:gouge	
+s58580	w54354	1	n		politics	core	2		zai:governance	
+s58581	w54355	1	n		politics	core	2		zai:governance	
+s58582	w54356	1	adv		everyday	core	2		zai:gradual	
+s58583	w54357	1	n		nature	core	2		zai:grasshopper/zai:locust	
+s58584	w54358	1	adj		everyday	core	2		zai:gratuitous	
+s58585	w54359	1	n		religion	core	2		zai:grave	
+s58586	w54360	1	n		religion	core	2		zai:grave-stone	
+s58587	w54361	1	n		nature	core	1		zai:gravel/zai:grit	the sentences point rather to <sehtak> desert
+s58588	w54362	1	adj		everyday	core	2		zai:gray	
+s58589	w54363	1	adj		everyday	core	2		zai:grayish/zd:20076	
+s58590	w54364	1	n		body	core	2		zai:greave	
+s58591	w54365	1	n		social	core	2		zai:greed	
+s58592	w54366	1	n		social	core	2		zai:greed/zd:8041	
+s58593	w54367	1	adj		social	core	2		zai:greedy	
+s58594	w54368	1	v		social	core	2		zai:greet	
+s58595	w54369	1	v		social	core	2		zai:greet/zai:hail	
+s58596	w54370	1	n		nature	core	2		zai:grimalkin	
+s58597	w54371	1	adj		everyday	core	2		zai:grisly/zai:uncanny	
+s58598	w54372	1	n		nature	core	2		zai:grit	
+s58599	w54373	1	n		health	core	2		zai:groan/zai:moan	
+s58600	w54374	1	n		nature	core	2		zai:grotto	
+s58601	w54375	1	n		home/work	core	1		zai:ground-work	one dictionary only
+s58602	w54376	1	n		food/nature	core	2		zai:groundnut/zai:peanut/zd:7979	
+s58603	w54377	1	adj		everyday/work	core	2		zai:grueling	
+s58604	w54378	1	n		body	core	1		zai:gullet	may be a misprint of gawlgui
+s58605	w54379	1	adj		social	core	2		zai:gullible	
+s58606	w54380	1	adj		social	core	2		zai:gullible/zd:7190	
+s58607	w54381	1	n		home/work	core	1		zai:gunny sack	the first part <saai> is not known
+s58608	w54382	1	n		social	core	2		zai:gusto/zd:1035	
+s58609	w54383	1	adj		everyday	core	1		zai:gyral	
+s58610	w54384	1	v		everyday/work	core	2		zai:hack	
+s58611	w54385	1	v		everyday/home	core	1		zai:habilitate	two dictionaries, the sentences hold it only as a personal name
+s58612	w54386	1	n		body/health	core	1		zai:haggard	the list gives it for haggard, <hehmel> is an angry look
+s58613	w54387	1	n		nature/travel	core	2		zai:hamlet/zd:4945	
+s58614	w54388	1	n		social	core	2		zai:hand-shake	
+s58615	w54389	1	n		food/work	core	2		zai:harvest	
+s58616	w54390	1	n		everyday	core	2		zai:haste	
+s58617	w54391	1	n		body	core	2		zai:haunch/zd:15996	
+s58618	w54392	1	n		everyday/health	core	2		zai:hazard/zd:8452	
+s58619	w54393	1	n		work/education	core	2		zai:head-way	
+s58620	w54394	1	n		work/education/social	core	2		zai:head-way/zd:21115	
+s58621	w54395	1	n		travel	core	2		zai:headlight	
+s58622	w54396	1	adv		work	core	2		zai:heavily	
+s58623	w54397	1	n		nature/home	core	2		zai:hedge	
+s58624	w54398	1	adj		social	core	2		zai:heinous	
+s58625	w54399	1	n		family/social	core	2		zai:heir/zai:successor	
+s58626	w54400	1	n		nature	core	2		zai:helium	
+s58627	w54401	1	adj		religion	core	1		zai:hellish	second part <vaai> unclear
+s58628	w54402	1	n		work	core	2		zai:helper/zd:7952	
+s58629	w54403	1	n		nature	core	2		zai:herb	
+s58630	w54404	1	n		nature	core	2		zai:herd	
+s58631	w54405	1	n		religion	core	2		zai:hermitage/zai:reclusion	
+s58632	w54406	1	n		health	core	2		zai:herpes	
+s58633	w54407	1	n		health	core	2		zai:hiccup	
+s58634	w54408	1	n		health	core	1		zai:hidrosis	given without explanation
+s58635	w54409	1	v		travel	core	2		zai:hijack	
+s58636	w54410	1	n		nature	core	2		zai:hill	
+s58637	w54411	1	n		everyday	core	2		zai:hindrance/zai:occlusion	
+s58638	w54412	1	n		home	core	2		zai:hinge	
+s58639	w54413	1	n		everyday	core	1		zai:hint	
+s58640	w54414	1	n		education	core	2		zai:history	
+s58641	w54415	1	adj		everyday	core	2		zai:hithermost	
+s58642	w54416	1	n		home	core	2		zai:mildew/zai:mucifirous	
+s58643	w54416	2	adj		home	core	2		zai:hoar/zd:24452	
+s58644	w54417	1	n		nature	core	2		zai:hogfish	
+s58645	w54418	1	adj		social	core	1		zai:hoggish	
+s58646	w54419	1	v		work	core	2		zai:hoist	
+s58647	w54420	1	n		work	core	2		zai:holder	
+s58648	w54421	1	n		everyday	core	2		zai:hole	
+s58649	w54422	1	v		everyday	core	2		zai:holler	
+s58650	w54423	1	n		nature	core	2		zai:holt	
+s58651	w54424	1	n		nature	core	2		zai:holt	
+s58652	w54425	1	n		family	core	1		zai:honey	given as {lawmu/lawmpa} for darling; possibly a misprint of lawmnu
+s58653	w54426	1	n		food	core	2		zai:honey-comb	
+s58654	w54427	1	n		food	core	2		zai:honey-comb	
+s58655	w54428	1	n		nature	core	2		zai:hornet	
+s58656	w54429	1	n		nature	core	2		zai:hornet	
+s58657	w54430	1	n		food	core	1		zai:hotch-potch	
+s58658	w54431	1	n		nature	core	2		zai:humidity	
+s58659	w54432	1	n		nature	core	1		zai:humidity	
+s58660	w54433	1	n		nature	core	2		zai:humidity/zai:moisture	
+s58661	w54434	1	n		everyday	core	1		zai:hunk	
+s58662	w54435	1	n		nature	core	2		zai:hunting/zai:trawler	
+s58663	w54436	1	n		everyday	core	2		zai:hurdle	
+s58664	w54437	1	n		everyday	core	2		zai:hurdle	
+s58665	w54438	1	v		everyday	core	1		zai:hurl/zai:obtrude	the two list entries disagree and the parts are unclear
+s58666	w54439	1	v		everyday	core	1		zai:hurl	{phuzok} is not otherwise known
+s58667	w54440	1	n		nature	core	1		zai:hurricane	perhaps a misprint of huihpi
+s58668	w54441	1	adv		everyday	core	2		zai:hurried	
+s58669	w54442	1	n		food	core	1		zai:husk	the one sentence seen may mean unhusked rice
+s58670	w54443	1	n		food	core	1		zai:husk	
+s58671	w54444	1	n		food	core	2		zai:husk	
+s58672	w54445	1	n		home	core	2		zai:hut/zd:4501/zd:25115	
+s58673	w54446	1	n		health	core	2		zai:hypotension	
+s58674	w54447	1	n		politics	core	2		zai:ideology	
+s58675	w54448	1	n		nature	core	2		zai:iguana	
+s58676	w54449	1	n		media	core	1		zai:illustration	only one list entry, perhaps a misprint of limciinna
+s58677	w54450	1	n		education	core	1		zai:illustrator	the list mixes illustrate and explain
+s58678	w54451	1	adv		everyday	core	2		zai:immediately	
+s58679	w54452	1	n		everyday	core	2		zai:impact/zd:8358/zd:17204	
+s58680	w54453	1	adv		religion	core	2		zai:implore/zd:19419/zd:2538/zd:7326	
+s58681	w54454	1	v		work	core	2		zai:import/zai:induct/zd:7326	
+s58682	w54455	1	v		everyday	core	1		zai:imprint	the one sentence seen may mean sniff
+s58683	w54456	1	n		everyday	core	2		zai:improvisation	
+s58684	w54457	1	n		nature	core	1		zai:seepage	
+s58685	w54457	2	n		everyday	core	1		zai:impulse	
+s58686	w54458	1	adj		everyday	core	2		zai:inauspicious/zai:infelicitous/zd:4683/zd:9450/zd:4426	
+s58687	w54459	1	v		everyday	core	2		zai:incinerate	
+s58688	w54460	1	adj		everyday	core	1		zai:incised	the parts are unclear
+s58689	w54461	1	adj		everyday	core	1		zai:incised	the sentences seen use the form for strain of the mind, with <khuak> brain
+s58690	w54462	1	n		body	core	2		zai:incision/zd:4523	
+s58691	w54463	1	v		social	core	2		zai:incite	
+s58692	w54464	1	n		social	core	2		zai:inclination	
+s58693	w54465	1	n		everyday	core	1		zai:inclination	
+s58694	w54466	1	n		everyday	core	2		zai:inclination/zai:obliquity	
+s58695	w54467	1	adj		everyday	core	2		zai:included	
+s58696	w54468	1	adj		everyday	core	2		zai:included/zd:3208/zd:24862	
+s58697	w54469	1	n		everyday	core	2		zai:inclusion	
+s58698	w54470	1	n		everyday	core	2		zai:inclusion	
+s58699	w54471	1	v		nature	core	2		zai:incubate	
+s58700	w54472	1	adj		everyday	core	2		zai:incurvate	
+s58701	w54473	1	n		social	core	2		zai:indescipline/zd:9205	
+s58702	w54474	1	n		everyday	core	2		zai:indicator/zai:shower	
+s58703	w54475	1	n		politics	core	2		zai:indiction	
+s58704	w54476	1	n		politics/work	core	2		zai:induction/zai:input/zai:intake/zd:17901	
+s58705	w54477	1	n		social	core	1		zai:inductor	list only
+s58706	w54478	1	adj		everyday	core	1		zai:ineloquent	list only, the parts are a guess
+s58707	w54479	1	adj		everyday	core	1		zai:inextricable/zai:reticular	list only, the part <ok> is unclear
+s58708	w54480	1	v		social	core	2		zai:infatuate/zd:6913/zd:7901	
+s58709	w54481	1	n		nature	core	2		zai:inflorescence	
+s58710	w54482	1	adj		everyday	core	2		zai:informative	
+s58711	w54483	1	n		work	core	2		zai:ingot	
+s58712	w54484	1	n		work	core	2		zai:ingot/zd:5227	
+s58713	w54485	1	n		food	core	2		zai:ingredient	
+s58714	w54486	1	v		everyday	core	1		zai:inhabit	list only, the parts are unclear
+s58715	w54487	1	n		body	core	2		zai:inion	
+s58716	w54488	1	n		body	core	2		zai:innards	
+s58717	w54489	1	n		politics	core	2		zai:inquisitor	
+s58718	w54490	1	n		nature	core	2		zai:insect	
+s58719	w54491	1	n		nature	core	2		zai:insect	
+s58720	w54492	1	n		nature	core	2		zai:shrew/zai:insectivore/zd:7067	
+s58721	w54493	1	v		everyday	core	2		zai:insert	
+s58722	w54494	1	n		everyday	core	1		zai:insertion	list only
+s58723	w54495	1	n		media	core	1		zai:inset	list only, the part {nekh} is unclear
+s58724	w54496	1	n		social	core	1		zai:insinuation	list only
+s58725	w54497	1	n		work	core	2		zai:inspection	
+s58726	w54498	1	n		work/health	core	2		zai:inspection/zd:8015	
+s58727	w54499	1	n		work	core	1		zai:inspector	list only
+s58728	w54500	1	n		education	core	2		zai:instructor/zai:teacher/zd:9138	
+s58729	w54501	1	v		health	core	1		zai:insufflate	
+s58730	w54502	1	v		health	core	1		zai:insufflate	
+s58731	w54503	1	n		social	core	2		zai:integrator/zai:synthesist/zai:unifier	
+s58732	w54504	1	n		social	core	1		zai:interaction/zd:8655	the lexicon gives kithuk as revenge
+s58733	w54505	1	v		everyday	core	1		zai:intercept/zd:15290/zd:12504	the list gives intercept but the sentences mean find out
+s58734	w54506	1	n		everyday	core	1		zai:interceptor	only one dictionary and no sentences
+s58735	w54507	1	n		education	core	1		zai:interjection	
+s58736	w54508	1	n		everyday	core	2		zai:interlude	
+s58737	w54509	1	n		everyday	core	2		zai:interruption	
+s58738	w54510	1	n		travel	core	1		zai:intersection	
+s58739	w54511	1	n		social	core	2		zai:intersection/zai:schism/zai:scission	
+s58740	w54512	1	v		everyday	core	2		zai:intromit	
+s58741	w54513	1	v		social	core	2		zai:introspect	
+s58742	w54514	1	n		everyday	core	2		zai:inversion/zai:reversal/zd:714	
+s58743	w54515	1	n		politics	core	2		zai:investigator	
+s58744	w54516	1	adj		everyday	core	2		zai:involved/zd:569	
+s58745	w54517	1	n		social	core	1		zai:irony/zai:sarcasm	
+s58746	w54518	1	pron		everyday	core	2		zai:its	
+s58747	w54519	1	n		nature	core	1		zai:ivory	the form is found only in this list
+s58748	w54520	1	n		food	core	2		zai:jackt-fruit	
+s58749	w54521	1	n		food	core	2		zai:jaggery	
+s58750	w54522	1	n		home	core	2		zai:jar	
+s58751	w54523	1	n		home	core	1		zai:jar	
+s58752	w54524	1	n		nature	core	2		zai:jasmine	
+s58753	w54525	1	v		everyday	core	2		zai:jiggle/zd:17152	
+s58754	w54526	1	n		body	core	2		zai:jockstrap	
+s58755	w54527	1	n		work	core	2		zai:joiner	
+s58756	w54528	1	n		body	core	2		zai:joint	
+s58757	w54529	1	adj		social	core	2		zai:jolly	
+s58758	w54530	1	n		travel	core	2		zai:journey/zd:2055/zd:6942/zd:829	
+s58759	w54531	1	adj		everyday	core	2		zai:judicious/zd:17021/zd:4284	
+s58760	w54532	1	n		everyday	core	2		zai:jumper	
+s58761	w54533	1	adj		everyday/family	core	2		zai:junior/zd:12409/zd:9798/zd:2955	
+s58762	w54534	1	n		everyday/family	core	2		zai:juvenility	
+s58763	w54535	1	n		nature	core	2		zai:kangaroo	
+s58764	w54536	1	n		everyday	core	2		zai:keeper	
+s58765	w54537	1	n		social/politics	core	1		zai:keeper/zd:18252	the list gives keeper, the article sentence reads like representative
+s58766	w54538	1	n		everyday	core	2		zai:kernel/zd:8348	
+s58767	w54539	1	n		food	core	2		zai:tomato/zd:22883	
+s58768	w54540	1	n		home/food	core	2		zai:kettle/zai:tea-kettle/zd:4297	
+s58769	w54541	1	n		social	core	2		zai:killer	
+s58770	w54542	1	n		work	core	2		zai:kiln	
+s58771	w54543	1	n		home	core	1		zai:kilt	only the list, meaning beyond kilt unclear
+s58772	w54544	1	n		family	core	2		zai:kindred/zd:8014/zd:24542	
+s58773	w54545	1	n		nature	core	2		zai:king-fisher	
+s58774	w54546	1	n		politics	core	2		zai:kinglet	
+s58775	w54547	1	n		family/social	core	2		zai:kinship	
+s58776	w54548	1	v		social	core	1		zai:kithe	the headword kithe is unclear
+s58777	w54549	1	n		home	core	1		zai:knack/zd:20172/zd:25156/zd:6348	the list gives knack, the sentences and other entries show wiping
+s58778	w54550	1	n		nature	core	2		zai:knar/zd:19756	
+s58779	w54551	1	n		social	core	1		zai:knave	only the list, the form is not attested
+s58780	w54552	1	n		body	core	2		zai:knee-cap	
+s58781	w54553	1	n		everyday	core	1		zai:knot	the form is not attested and its base is unclear
+s58782	w54554	1	n		everyday	core	2		zai:knot	
+s58783	w54555	1	n		work/everyday	core	2		zai:know-how	
+s58784	w54556	1	n		nature	core	2		zai:knur	
+s58785	w54557	1	n		health/body	core	2		zai:kyphosis	
+s58786	w54558	1	n		nature/education	core	2		zai:land-mass/zd:2104/zd:5483/zd:957	
+s58787	w54559	1	adv		time	core	2		zai:lately/zai:later	
+s58788	w54560	1	adv		time	core	1		zai:lately	form unclear and not found in text
+s58789	w54561	1	n		work	core	2		zai:lathe	
+s58790	w54562	1	n		politics	core	2		zai:lathi	
+s58791	w54563	1	adv		time	core	2		zai:latterly/zd:25115	
+s58792	w54564	1	n		social	core	2		zai:laugher	
+s58793	w54565	1	n		social	core	2		zai:laughing-stock	
+s58794	w54566	1	n		everyday	core	1		zai:laxity	
+s58795	w54567	1	n		home	core	2		zai:leakage	
+s58796	w54568	1	n		home	core	2		zai:leakage	
+s58797	w54569	1	v		everyday	core	1		zai:leap	meaning taken from the list only
+s58798	w54570	1	n		nature	core	2		zai:ledge	
+s58799	w54571	1	n		food	core	2		zai:legume/zai:pea/zd:15767	
+s58800	w54572	1	n		food	core	1		zai:legume	the kind of bean is not clear
+s58801	w54573	1	n		time	core	2		zai:leisure	
+s58802	w54574	1	n		food	core	2		zai:lemon	
+s58803	w54575	1	adj		health	core	2		zai:lethargic	
+s58804	w54576	1	n		health	core	2		zai:lethargy	
+s58805	w54577	1	n		health	core	2		zai:lethargy	
+s58806	w54578	1	n		nature	core	2		zai:leveret	
+s58807	w54579	1	n		social	core	2		zai:liberality/zai:vastitude	
+s58808	w54580	1	n		home	core	2		zai:lid	
+s58809	w54581	1	n		everyday	core	1		zai:lier	
+s58810	w54582	1	n		social	core	2		zai:life-style	
+s58811	w54583	1	v		everyday	core	2		zai:ligate	
+s58812	w54584	1	adj		work	core	2		zai:light-handed	
+s58813	w54585	1	n		home	core	1		zai:lighter	the English may mean a barge
+s58814	w54586	1	n		home	core	2		zai:lighter/zd:7086	
+s58815	w54587	1	n		nature	core	2		zai:lightning	
+s58816	w54588	1	adj		social	core	2		zai:likable	
+s58817	w54589	1	v		everyday	core	2		zai:liken	
+s58818	w54590	1	n		everyday	core	2		zai:limit/zd:6470	
+s58819	w54591	1	v		everyday	core	2		zai:line/zai:mottle	
+s58820	w54592	1	adj		education	core	1		zai:linear	
+s58821	w54593	1	n		home	core	2		zai:linen	
+s58822	w54594	1	n		nature	core	1		zai:lithosphere	only one dictionary and one unclear sentence
+s58823	w54595	1	n		nature	core	2		zai:loam	
+s58824	w54596	1	n		work	core	2		zai:loan	
+s58825	w54597	1	adv		everyday	core	2		zai:loathly	
+s58826	w54598	1	adv		everyday	core	2		zai:loathly	
+s58827	w54599	1	n		food/nature	core	2		zai:lobster	
+s58828	w54600	1	n		social	core	2		zai:lock-up	
+s58829	w54601	1	n		social	core	2		zai:lock-up	
+s58830	w54602	1	adj		everyday	core	2		zai:lone-some	
+s58831	w54603	1	n		health	core	2		zai:longevity	
+s58832	w54604	1	adj		everyday	core	2		zai:longish	
+s58833	w54605	1	n		home	core	2		zai:loo/zai:restroom/zd:4291	
+s58834	w54606	1	n		media/everyday	core	2		zai:viewer/zai:look on	
+s58835	w54607	1	n		home	core	2		zai:loophole	
+s58836	w54608	1	v		everyday	core	2		zai:loosen/zd:17329	
+s58837	w54609	1	adj		nature	core	2		zai:lop-eared	
+s58838	w54610	1	n		politics	core	2		zai:lordling	
+s58839	w54611	1	adj		everyday	core	1		zai:lorn	the parts of the form are unclear
+s58840	w54612	1	n		nature	core	2		zai:lotus	
+s58841	w54613	1	adj		everyday	core	2		zai:loud/zd:4848/zd:1861	
+s58842	w54614	1	n		family	core	2		zai:love-making/zd:5453/zd:25169	
+s58843	w54615	1	adj		work	core	2		zai:lucrative	
+s58844	w54616	1	v		everyday	core	1		zai:ludicrous	the list gives ludicrous, the form looks like exaggerate
+s58845	w54617	1	adv		everyday	core	2		zai:lukewarm/zd:17437/zd:14530/zd:20179	
+s58846	w54618	1	n		nature	core	2		zai:luminary/zd:7959	
+s58847	w54619	1	n		food	core	2		zai:lunch/zd:11110/zd:5784	
+s58848	w54620	1	n		food	core	2		zai:lunch/zai:tiffin/zd:3135/zd:7726	
+s58849	w54621	1	n		everyday	core	2		zai:luster/zai:lustre/zai:sheen/zai:shinineess	
+s58850	w54622	1	v		everyday	core	2		zai:lustrous	
+s58851	w54623	1	adv		everyday	core	2		zai:lusty	
+s58852	w54624	1	v		social	core	1		zai:lynch	only inside an explanation of lynch
+s58853	w54625	1	v		social	core	1		zai:lynch	only inside an explanation of lynch
+s58854	w54626	1	adj		everyday	core	2		zai:macabre	
+s58855	w54627	1	v		everyday	core	2		zai:mad/zai:madden/zai:maniac/zd:8387/zd:7325	
+s58856	w54628	1	n		everyday	core	2		zai:magic	
+s58857	w54629	1	n		nature	core	2		zai:magnet	
+s58858	w54630	1	n		nature	core	1		zai:mahogang	the list explains it as dokthak sing and the parts are uncertain
+s58859	w54631	1	n		work	core	2		zai:mahout	
+s58860	w54632	1	n		work	core	2		zai:mahout	
+s58861	w54633	1	n		work	core	2		zai:mahout	
+s58862	w54634	1	n		work	core	2		zai:maintenance	
+s58863	w54635	1	n		food	core	2		zai:maize/zd:569/zd:7327/zd:7726	
+s58864	w54636	1	n		politics	core	2		zai:majesty	
+s58865	w54637	1	n		nature	core	2		zai:mollush/zai:malacology	
+s58866	w54638	1	adj		religion	core	2		zai:maledict	
+s58867	w54639	1	n		health	core	2		zai:malformation/zd:13354	
+s58868	w54640	1	adj		everyday	core	2		zai:malodorous/zai:noisome/zd:13112/zd:5501	
+s58869	w54641	1	n		everyday	core	2		zai:malodor	
+s58870	w54642	1	n		everyday	core	2		zai:malodor/zai:stench	
+s58871	w54643	1	n		nature	core	2		zai:man-sue-tude	
+s58872	w54644	1	n		nature	core	2		zai:manure	
+s58873	w54645	1	v		everyday	core	2		zai:mar	
+s58874	w54646	1	n		nature	core	2		zai:marble	
+s58875	w54647	1	adj		everyday	core	2		zai:marked/zai:registered/zd:3119/zd:4120/zd:8725	
+s58876	w54648	1	n		everyday	core	2		zai:mart/zai:plaza	
+s58877	w54649	1	n		politics	core	1		zai:martial	the list gives it for martial, a fighting man, where galmi is enemy
+s58878	w54650	1	n		food	core	2		zai:mash/zai:wort/zd:8332/zd:4372/zd:3070	
+s58879	w54651	1	n		home	core	2		zai:masher	
+s58880	w54652	1	v		health	core	2		zai:massage/zd:7365	
+s58881	w54653	1	n		health	core	2		zai:massage	
+s58882	w54654	1	n		religion	core	2		zai:mastaba	
+s58883	w54655	1	v		food	core	2		zai:masticate/zai:rodent	
+s58884	w54656	1	n		home	core	2		zai:match-stick	
+s58885	w54657	1	n		home	core	2		zai:match-wood	
+s58886	w54658	1	n		education	core	2		zai:mathematics/zd:2315/zd:22736	
+s58887	w54659	1	n		work	core	2		zai:mattock	
+s58888	w54660	1	n		nature	core	2		zai:maturity	
+s58889	w54661	1	adj		everyday	core	2		zai:meagrey/zd:5784	
+s58890	w54662	1	n		everyday	core	2		zai:measure/zd:20627/zd:2517	
+s58891	w54663	1	n		everyday	core	2		zai:measure	
+s58892	w54664	1	adj		everyday	core	2		zai:measured	
+s58893	w54665	1	n		health	core	2		zai:medical/zai:medicinal	
+s58894	w54666	1	n		health	core	2		zai:melancholia	
+s58895	w54667	1	n		social	core	2		zai:melancholia	
+s58896	w54668	1	n		social	core	2		zai:melancholy/zd:8115	
+s58897	w54669	1	n		everyday	core	1		zai:melange	one rendering among several, meaning of the parts unclear
+s58898	w54670	1	n		nature	core	2		zai:melaphyre/zd:3326	
+s58899	w54671	1	n		social	core	1		zai:melee	one rendering among several, the parts are not clear
+s58900	w54672	1	n		food	core	2		zai:melon/zai:musk-melon	
+s58901	w54673	1	n		social	core	2		zai:menace/zd:5767	
+s58902	w54674	1	n		body	core	1		zai:meninges	the list gives meninges but its explanation says the brain at the back
+s58903	w54675	1	n		religion	core	2		zai:mercy	
+s58904	w54676	1	v		everyday	core	2		zai:mesh/zai:reticulate	
+s58905	w54677	1	n		social	core	2		zai:messenger/zd:4295	
+s58906	w54678	1	n		everyday	core	1		zai:metamorphosis/zd:8375	the list gives it for metamorphosis but the sentences show nature, origin
+s58907	w54679	1	n		work	core	2		zai:method/zai:mode/zai:technique/zd:7420	
+s58908	w54680	1	n		work	core	1		zai:metier	unclear how the word is formed
+s58909	w54681	1	adj		nature	core	2		zai:milch	
+s58910	w54682	1	adj		food	core	1		zai:milk and water	the one sentence uses it of tears and does not confirm the sense
+s58911	w54683	1	n		politics	core	2		zai:mine	
+s58912	w54684	1	n		work	core	2		zai:mine/zai:miner/zd:25165	
+s58913	w54685	1	n		work	core	2		zai:mine	
+s58914	w54686	1	n		everyday	core	2		zai:mineral/zd:4139	
+s58915	w54687	1	v		everyday	core	2		zai:mis-state/zai:missay/zai:mispronounce	
+s58916	w54688	1	v		everyday	core	2		zai:mis-state/zai:missay/zai:mispronounce	
+s58917	w54689	1	v		everyday	core	1		zai:misarrange	only one dictionary pair and no sentences
+s58918	w54690	1	v		everyday	core	2		zai:miscalculate	
+s58919	w54691	1	v		work	core	2		zai:misdo	
+s58920	w54692	1	v		work	core	2		zai:misemploy	
+s58921	w54693	1	v		everyday	core	2		zai:misread/zai:misestimate	
+s58922	w54694	1	v		everyday	core	2		zai:misestimate	
+s58923	w54695	1	n		everyday	core	1		zai:misfit	a verb form given as a noun
+s58924	w54696	1	v		everyday	core	2		zai:misguide	
+s58925	w54697	1	v		everyday	core	2		zai:misguide/zai:mislead/zd:25470/zd:15163	
+s58926	w54698	1	v		everyday	core	2		zai:mishandle	
+s58927	w54699	1	v		work	core	2		zai:mishandle/zai:mismanage	
+s58928	w54700	1	v		everyday	core	2		zai:mishear	
+s58929	w54701	1	v		education	core	2		zai:misinform/zd:7097/zd:20873	
+s58930	w54702	1	v		politics	core	2		zai:misjudge	
+s58931	w54703	1	v		work	core	2		zai:mismanage	
+s58932	w54704	1	n		everyday	core	2		zai:misnomer	
+s58933	w54705	1	v		social	core	2		zai:misplay	
+s58934	w54706	1	n		media	core	1		zai:misprint	the printing sense of kheen is not in the lexicon
+s58935	w54707	1	v		everyday	core	2		zai:misreckon	
+s58936	w54708	1	v		media	core	2		zai:misreport	
+s58937	w54709	1	adj		everyday	core	2		zai:misunderstood	
+s58938	w54710	1	adv		everyday	core	2		zai:mixed/zd:9204	
+s58939	w54711	1	n		social	core	2		zai:mockery	
+s58940	w54712	1	n		everyday	core	2		zai:modifier	
+s58941	w54713	1	n		nature	core	2		zai:moisture	
+s58942	w54714	1	n		home	core	1		zai:mold	the list entry mixes a casting mould with mildew, no sentences
+s58943	w54715	1	n		everyday	core	2		zai:monotony	
+s58944	w54716	1	adj		time	core	2		zai:monthly/zd:5951	
+s58945	w54717	1	adj		everyday	core	2		zai:monumental	
+s58946	w54718	1	adj		body	core	2		zai:moon-faced	
+s58947	w54719	1	n		time	core	2		zai:morning/zd:22470	
+s58948	w54720	1	n		nature	core	2		zai:moss	
+s58949	w54721	1	n		education	core	1		zai:motif	the parts do not clearly give this meaning
+s58950	w54722	1	n		nature	core	2		zai:mound	
+s58951	w54723	1	adj		nature	core	2		zai:mountainous/zp:3753	
+s58952	w54724	1	n		body	core	2		zai:mouth/zd:6138	
+s58953	w54725	1	n		everyday	core	1		zai:mouth-piece	
+s58954	w54726	1	n		everyday	core	1		zai:mouth-piece	
+s58955	w54727	1	n		media	core	2		zai:movie/zd:2337	
+s58956	w54728	1	v		everyday	core	2		zai:mow down/zd:7785	
+s58957	w54729	1	adj		health	core	1		zai:mucifirous	
+s58958	w54730	1	n		nature	core	2		zai:muck	
+s58959	w54731	1	n		health	core	2		zai:mucus/zai:phlegm/zai:spittle	
+s58960	w54732	1	n		nature	core	2		zai:mud	
+s58961	w54733	1	n		nature	core	2		zai:mud-slide	
+s58962	w54734	1	n		nature	core	2		zai:mud-stone	
+s58963	w54735	1	n		social	core	2		zai:murmur/zd:6013/zd:5452	
+s58964	w54735	2	n		health	core	1		zai:stertor	
+s58965	w54736	1	n		social	core	2		zai:murmuration	
+s58966	w54737	1	adj		food	core	2		zai:mushy/zd:23240	
+s58967	w54738	1	n		body	core	2		zai:mustache/zd:21224	
+s58968	w54739	1	n		body	core	1		zai:mustachio	
+s58969	w54740	1	v		health	core	1		zai:mutilate	
+s58970	w54741	1	n		food	core	2		zai:mutton/zd:6748/zd:26708	
+s58971	w54742	1	pron		everyday	core	2		zai:my	
+s58972	w54743	1	n		education	core	2		zai:mythography	
+s58973	w54744	1	n		everyday	core	2		zai:name-plate	
+s58974	w54745	1	n		body	core	2		zai:nape/zai:nucha/zai:scruff	
+s58975	w54746	1	n		everyday	core	2		zai:narrator	
+s58976	w54747	1	n		everyday	core	2		zai:necessity/zai:need/zd:22917	
+s58977	w54748	1	v		work	core	2		zai:negotiate	
+s58978	w54749	1	n		work	core	2		zai:negotiation	
+s58979	w54750	1	n		body	core	1		zai:nerve	the list gives nerve while sihui is a blood vessel
+s58980	w54751	1	n		body	core	1		zai:nevus	only listed inside an explanation
+s58981	w54752	1	n		media	core	2		zai:newspaper	
+s58982	w54753	1	v		nature	core	1		zai:nicker	the list gives nicker while humham is growl
+s58983	w54754	1	adv		time	core	2		zai:nightly	
+s58984	w54755	1	n		everyday	core	2		zai:nightmare	
+s58985	w54756	1	v		social	core	2		zai:nim/zd:16643	
+s58986	w54757	1	n		everyday	core	1		zai:nip	the list entry is unclear
+s58987	w54758	1	n		home	core	2		zai:nipper/zd:971/zd:17784	
+s58988	w54759	1	adj		social	core	1		zai:nocent	
+s58989	w54760	1	adj		nature	core	2		zai:nocturnal/zd:569	
+s58990	w54761	1	n		everyday	core	2		zai:nodule/zd:2546/zd:2373	
+s58991	w54762	1	n		education	core	1		zai:nomenclature	
+s58992	w54763	1	adj		everyday	core	1		zai:nominal	
+s58993	w54764	1	adv		everyday	core	2		zai:nominally	
+s58994	w54765	1	v		social	core	2		zai:noodge	
+s58995	w54766	1	n		home	core	2		zai:noose	
+s58996	w54767	1	n		body	core	2		zai:nose ring	
+s58997	w54768	1	n		nature	core	2		zai:nose-band/zd:4539/zd:9688	
+s58998	w54769	1	n		body	core	2		zai:nostrill/zai:schnozzle/zd:1792	
+s58999	w54770	1	adj		everyday	core	2		zai:noted/zd:7673	
+s59000	w54771	1	adj		everyday	core	2		zai:noticeable	
+s59001	w54772	1	n		everyday	core	2		zai:notion/zai:opinion/zai:sentiment	
+s59002	w54773	1	n		travel	core	2		zai:nullah	
+s59003	w54774	1	adj		everyday	core	2		zai:nummular	
+s59004	w54775	1	n		nature	core	2		zai:nut-let	
+s59005	w54776	1	adj		food/health	core	2		zai:nutrient	
+s59006	w54777	1	n		home	core	2		zai:nylon/zp:66	
+s59007	w54778	1	n		time	core	2		zai:o'clock	
+s59008	w54779	1	adj		social	core	2		zai:obedient/zai:resigned	
+s59009	w54780	1	adj		everyday	core	2		zai:oblong	
+s59010	w54781	1	n		health	core	1		zai:obstetrics	one dictionary entry, form not seen in sentences
+s59011	w54782	1	v		everyday	core	2		zai:obstruct/zd:13043/zd:946	
+s59012	w54783	1	n		everyday	core	2		zai:obstruction/zd:946	
+s59013	w54784	1	adj		time	core	1		zai:occasional	no sentences, the parts do not explain the meaning
+s59014	w54785	1	v		everyday	core	2		zai:occlude/zd:6227/zd:11657	
+s59015	w54786	1	n		everyday/politics	core	2		zai:occultation/zd:7569	
+s59016	w54787	1	n		everyday	core	2		zai:omission	
+s59017	w54788	1	adj		religion	core	2		zai:omnipotent	
+s59018	w54789	1	adj		social/media	core	2		zai:on-stage	
+s59019	w54790	1	v		everyday	core	2		zai:on-ward/zd:6423	
+s59020	w54791	1	adv		everyday	core	2		zai:open-eyed	
+s59021	w54792	1	n		nature	core	1		zai:operculum	two dictionaries, meaning of the parts uncertain
+s59022	w54793	1	n		everyday	core	2		zai:opinion	
+s59023	w54794	1	v		everyday	core	1		zai:oppilate	the list types it as a noun, parts unclear
+s59024	w54795	1	n		politics	core	2		zai:oppression	
+s59025	w54796	1	conj		everyday	core	2		zai:or/zd:3637/zd:24355	
+s59026	w54797	1	n		food	core	2		zai:orange/zd:20941	
+s59027	w54798	1	n		education/nature	core	2		zai:orbiter	
+s59028	w54799	1	n		health	core	1		zai:orchidotomy/zai:osteotomy	two dictionaries only, medical coinage
+s59029	w54800	1	n		religion/politics	core	2		zai:ordination/zd:9709	
+s59030	w54801	1	adj		everyday	core	2		zai:original	
+s59031	w54802	1	n		food	core	2		zai:ort/zd:23767	
+s59032	w54803	1	adj		body	core	2		zai:osseous	
+s59033	w54804	1	n		health/body	core	2		zai:protuberance/zai:tumefaction/zai:tumescence/zd:20961/zd:9529	
+s59034	w54805	1	n		health	core	1		zai:osteoporosis	the list gives it only inside the term for osteoporosis
+s59035	w54806	1	n		nature	core	2		zai:ostrich	
+s59036	w54807	1	n		social	core	2		zai:ouster	
+s59037	w54808	1	v		everyday	core	2		zai:out-grow/zai:over-grow/zai:out-growth/zd:3705/zd:23008	
+s59038	w54809	1	n		social/politics	core	1		zai:out-growth/zd:22569	the list gives out-growth but the sentences show being overwhelmed
+s59039	w54810	1	n		everyday	core	2		zai:out-pouring	
+s59040	w54811	1	n		everyday	core	1		zai:out-pouring	
+s59041	w54812	1	v		nature	core	1		zai:out-root	the second part is unclear
+s59042	w54813	1	v		everyday	core	1		zai:out-shoot	the parts and exact sense are unclear
+s59043	w54814	1	v		everyday	core	1		zai:out-shoot	the parts and exact sense are unclear
+s59044	w54815	1	v		social	core	2		zai:out-wit	
+s59045	w54816	1	n		everyday	core	2		zai:outlook	
+s59046	w54817	1	n		everyday	core	2		zai:outlook	
+s59047	w54818	1	v		everyday	core	1		zai:outsit	may also read as sit in the wrong place
+s59048	w54819	1	v		nature	core	1		zai:outsoar	a rare joining
+s59049	w54820	1	v		social	core	1		zai:outspeak	may also read as misspeak
+s59050	w54821	1	v		everyday	core	2		zai:outspread	
+s59051	w54822	1	adv		everyday	core	1		zai:sleek/zd:7083	the list also gives oval, which the sentences do not support
+s59052	w54823	1	adj		social	core	1		zai:over-board/zd:25569/zd:3180	the list gives over-board, the sentences show one-sided
+s59053	w54824	1	adj		everyday	core	1		zai:over-cloud	
+s59054	w54825	1	n		home	core	1		zai:over-garment	the first part spelled with a final g
+s59055	w54826	1	n		home	core	1		zai:over-garment	the last part is unclear
+s59056	w54827	1	v		everyday	core	2		zai:over-hang/zd:5784/zd:4901	
+s59057	w54828	1	adv		nature	core	2		zai:over-head	
+s59058	w54829	1	v		everyday	core	1		zai:over-spread	the parts are unclear
+s59059	w54830	1	v		everyday	core	2		zai:over-take	
+s59060	w54831	1	n		nature	core	2		zai:ox	
+s59061	w54832	1	n		work	core	2		zai:packer	
+s59062	w54833	1	n		home	core	2		zai:pail/zai:skep	
+s59063	w54834	1	adj		everyday	core	2		zai:pallid	
+s59064	w54835	1	v		everyday	core	1		zai:palter	the one sentence suggests following along rather than trifling
+s59065	w54836	1	n		nature	core	2		zai:panda	
+s59066	w54837	1	n		body	core	2		zai:pap/zd:15965	
+s59067	w54838	1	n		food	core	2		zai:papaya	
+s59068	w54839	1	n		home	core	2		zai:paper cutter	
+s59069	w54839	2	n		health	core	2		zai:surgery/zai:rhinoplasty/zd:310	
+s59070	w54840	1	n		work	core	2		zai:paper-money	
+s59071	w54841	1	n		everyday	core	2		zai:paper-weight/zd:14816	
+s59072	w54842	1	n		health	core	2		zai:pimple/zai:papule/zd:7224	
+s59073	w54843	1	n		everyday	core	1		zai:par	the list entry is unclear
+s59074	w54844	1	n		everyday	core	2		zai:par	
+s59075	w54845	1	v		food	core	2		zai:parboil/zai:pre-cook	
+s59076	w54846	1	v		education	core	1		zai:parenthesize	the list entry is thin
+s59077	w54847	1	v		everyday	core	2		zai:particularize/zd:5788	
+s59078	w54848	1	n		home	core	2		zai:partition	
+s59079	w54849	1	adv		everyday	core	2		zai:partly	
+s59080	w54850	1	n		social	core	2		zai:partnership/zd:8733	
+s59081	w54851	1	n		everyday	core	2		zai:quietude/zai:serenity/zai:passivity	
+s59082	w54852	1	n		work	core	1		zai:paster	no sentence confirms it
+s59083	w54853	1	adj		family	core	2		zai:patrilineal	
+s59084	w54854	1	n		food	core	2		zai:pea	
+s59085	w54855	1	n		food	core	2		zai:pea	
+s59086	w54856	1	n		food	core	2		zai:pea	
+s59087	w54857	1	n		politics	core	2		zai:peace	
+s59088	w54858	1	n		nature	core	2		zai:peak/zd:4312	
+s59089	w54859	1	n		food	core	2		zai:peanut	
+s59090	w54860	1	adv		everyday	core	2		zai:peart/zd:9448	
+s59091	w54861	1	adj		nature	core	1		zai:pecky	
+s59092	w54862	1	n		everyday	core	1		zai:peculiarity/zd:20841	in sentences it often marks a thing done especially or completely
+s59093	w54863	1	n		work	core	1		zai:peddler	the list gives it under peddler
+s59094	w54864	1	n		home	core	1		zai:pediment	
+s59095	w54865	1	n		food	core	1		zai:pemmican	given only under pemmican, meaning taken from its parts
+s59096	w54866	1	n		everyday	core	1		zai:pensee	meaning taken from its parts
+s59097	w54867	1	v		everyday	core	2		zai:pensile/zd:7268/zd:24119	
+s59098	w54868	1	v		everyday	core	1		zai:pent	the part dap is not clear
+s59099	w54869	1	n		home	core	2		zai:pent-house	
+s59100	w54870	1	n		social	core	2		zai:watcher	
+s59101	w54871	1	n		everyday	core	1		zai:percussion/zd:3924/zd:14539/zd:9104	the list entry is loose
+s59102	w54872	1	adj		travel	core	2		zai:peregrine	
+s59103	w54873	1	adj		travel	core	2		zai:peregrine	
+s59104	w54874	1	n		social/politics	core	2		zai:perfidy/zai:treason	
+s59105	w54875	1	n		work	core	2		zai:perforation	
+s59106	w54876	1	adv		everyday	core	2		zai:perforce	
+s59107	w54877	1	n		religion	core	2		zai:peri	
+s59108	w54878	1	adj		everyday	core	2		zai:perilous	
+s59109	w54879	1	adj		travel	core	2		zai:peripatetic	
+s59110	w54880	1	adj		food	core	2		zai:perishable	
+s59111	w54881	1	v		everyday	core	2		zai:permeate/zd:23853	
+s59112	w54882	1	adj		social	core	2		zai:permissive	
+s59113	w54883	1	adv		everyday	core	1		zai:peroral	given only under peroral
+s59114	w54884	1	n		everyday	core	2		zai:perpetuate	
+s59115	w54885	1	n		everyday	core	2		zai:perspective	
+s59116	w54886	1	adv		everyday	core	1		zai:perspective	given only beside {a taangpi pan-a etin}
+s59117	w54887	1	n		social	core	1		zai:perversion	the first part pheeng is not clear
+s59118	w54888	1	n		travel	core	2		zai:petrol	
+s59119	w54889	1	n		food	core	2		zai:pickle/zd:2251	
+s59120	w54890	1	adj		social	core	2		zai:pickled	
+s59121	w54891	1	n		education	core	2		zai:pictograph/zd:24471	
+s59122	w54892	1	adv		everyday	core	2		zai:piece-meal	
+s59123	w54893	1	adv		everyday	core	1		zai:piece-meal	given only under piece-meal
+s59124	w54894	1	n		nature	core	2		zai:pine/zai:torch-wood/zd:982/zd:6039/zd:3079	
+s59125	w54895	1	n		body	core	2		zai:pinkie	
+s59126	w54896	1	n		social	core	2		zai:pitier	
+s59127	w54897	1	adj		everyday	core	2		zai:pivotal	
+s59128	w54898	1	adj		body	core	2		zai:plaided	
+s59129	w54899	1	n		body	core	2		zai:plait	
+s59130	w54900	1	n		health/body	core	2		zai:plasma/zd:4884	
+s59131	w54901	1	n		nature	core	2		zai:platinum	
+s59132	w54902	1	n		education/everyday	core	2		zai:play-ground	
+s59133	w54903	1	n		everyday	core	2		zai:plenitude	
+s59134	w54904	1	n		everyday	core	2		zai:plethora/zai:ultraism	
+s59135	w54904	2	n		religion/social	core	2		zai:transgression	
+s59136	w54905	1	adj		everyday	core	2		zai:plethoric/zd:15996/zd:6347	
+s59137	w54906	1	adj		social	core	1		zai:pliable/zai:tractable	other entries of the list use it for meaning or significance
+s59138	w54907	1	n		work/home	core	2		zai:pliers	
+s59139	w54908	1	n		everyday/religion	core	2		zai:plight/zai:torment/zd:21803/zd:23670	
+s59140	w54909	1	n		social	core	2		zai:plotter	
+s59141	w54910	1	n		politics/social	core	1		zai:plunderage	a single short entry
+s59142	w54911	1	n		nature	core	2		zai:pollen/zai:powder	
+s59143	w54912	1	n		body	core	1		zai:popliteal	the list gives back of the knee, a sentence uses it for the calf
+s59144	w54913	1	n		body	core	2		zai:popliteal	
+s59145	w54914	1	adj		everyday	core	2		zai:porous/zd:21807	
+s59146	w54915	1	n		home/travel	core	2		zai:portal/zd:2019	
+s59147	w54916	1	n		work	core	2		zai:post-man	
+s59148	w54917	1	n		work	core	2		zai:post-mistress	
+s59149	w54918	1	n		home/food	core	1		zai:pot	short entries only
+s59150	w54919	1	n		nature	core	2		zai:pother/zd:569	
+s59151	w54920	1	n		home	core	2		zai:potholder/zai:rug	
+s59152	w54921	1	adj		everyday	core	2		zai:powdery/zd:6383	
+s59153	w54922	1	n		food	core	2		zai:prawn	
+s59154	w54923	1	v		everyday	core	2		zai:pre-establish	
+s59155	w54924	1	v		everyday	core	2		zai:pre-meditate/zai:predetermine	
+s59156	w54925	1	adj		family	core	2		zai:pre-nuptial	
+s59157	w54926	1	n		religion	core	2		zai:preacher	
+s59158	w54927	1	n		religion/education	core	2		zai:preacher	
+s59159	w54928	1	prep		time	core	2		zai:preceding/ts:4831	
+s59160	w54929	1	adj		nature	core	1		zai:precipitous	a single short entry
+s59161	w54930	1	n		nature	core	1		zai:predation	only the dictionary entry, sense for predation unclear
+s59162	w54931	1	n		everyday	core	2		zai:predation/zd:5227/zd:22473	
+s59163	w54932	1	v		everyday	core	2		zai:predetermine/zd:6300/zp:3470	
+s59164	w54933	1	n		religion	core	2		zai:prediction/zd:2866	
+s59165	w54934	1	n		health/family	core	2		zai:pregnancy	
+s59166	w54935	1	v		work	core	2		zai:prepay/zai:prename	
+s59167	w54936	1	adj		social	core	2		zai:prestigious/zd:4139	
+s59168	w54937	1	adv		everyday	core	2		zai:primo	
+s59169	w54938	1	v		everyday	core	1		zai:probative	only the dictionary entry, no sentences
+s59170	w54939	1	n		family	core	2		zai:progenitor/zd:15998	
+s59171	w54940	1	n		social	core	2		zai:promisor	
+s59172	w54941	1	n		social	core	1		zai:propagation/zd:10144	sentences show sending and parting rather than propagation
+s59173	w54942	1	n		everyday	core	2		zai:propagation	
+s59174	w54943	1	n		everyday	core	2		zai:propagation/zai:scatteration	
+s59175	w54944	1	v		social	core	2		zai:propitiate/zd:6424/zd:3322	
+s59176	w54945	1	v		social	core	2		zai:propitiate	
+s59177	w54946	1	n		everyday	core	2		zai:proportion	
+s59178	w54947	1	n		body	core	2		zai:scrotum/zai:prostate	
+s59179	w54948	1	v		everyday	core	2		zai:protrude	
+s59180	w54949	1	n		social	core	2		zai:proximity/zd:5477/zd:24105	
+s59181	w54950	1	n		body/health	core	2		zai:pulsation	
+s59182	w54951	1	n		everyday	core	2		zai:pumper/zai:sucker	
+s59183	w54952	1	n		everyday	core	2		zai:puncture	
+s59184	w54953	1	n		everyday	core	1		zai:puncture	given only inside the explanation of puncture
+s59185	w54954	1	n		home	core	1		zai:puncture	stands in the explanation of puncture, the meaning is from entries of the other dictionary
+s59186	w54955	1	adj		food	core	1		zai:puree	the sense of thickness is drawn from related entries
+s59187	w54956	1	adj		everyday	core	1		zai:purple	the orangutan entry suggests a reddish brown
+s59188	w54957	1	n		work	core	2		zai:pursuance/zai:pursuit	
+s59189	w54958	1	n		everyday	core	2		zai:pursuit	
+s59190	w54959	1	n		health/body	core	2		zai:pus/zd:23928	
+s59191	w54960	1	n		work/travel	core	2		zai:push-cart	
+s59192	w54961	1	n		everyday	core	2		zai:pusher	
+s59193	w54962	1	n		home	core	1		zai:put log/zd:5939	the list entry is garbled
+s59194	w54963	1	adj		everyday	core	2		zai:putrid	
+s59195	w54964	1	n		education	core	2		zai:pyramid	
+s59196	w54965	1	n		time	core	2		zai:quadricentennial	
+s59197	w54966	1	n		everyday	core	2		zai:quandary/zd:2848/zd:13077	
+s59198	w54967	1	adj		social	core	2		zai:quarrelsome	
+s59199	w54968	1	adj		everyday	core	2		zai:questionable	
+s59200	w54969	1	n		work	core	2		zai:quittance/zd:1958	
+s59201	w54970	1	name		religion	core	2		zai:qur’an	
+s59202	w54971	1	adj		everyday	core	2		zai:racy/zd:23497	
+s59203	w54972	1	n		media	core	2		zai:radiophoto	
+s59204	w54973	1	n		home	core	2		zai:railing/zd:11278	
+s59205	w54974	1	n		nature	core	2		zai:rainbow/zd:1411	
+s59206	w54975	1	n		work	core	2		zai:rake	
+s59207	w54976	1	n		work	core	1		zai:rammer	one sentence has {lei-bek phutu}, which suggests a maker of clay pots
+s59208	w54977	1	n		social	core	2		zai:rapparee	
+s59209	w54978	1	n		education	core	2		zai:ratio	
+s59210	w54979	1	n		nature	core	2		zai:rattle-snake	
+s59211	w54980	1	n		everyday	core	1		zai:ravelment	the middle part of the form is unclear
+s59212	w54981	1	n		home/body	core	2		zai:razor	
+s59213	w54982	1	v		everyday	core	2		zai:re-active	
+s59214	w54983	1	n		social	core	1		zai:re-actor	the list explanation {a piangkik saktu} does not fit the parts
+s59215	w54984	1	v		everyday/media	core	2		zai:re-broadcast	
+s59216	w54985	1	n		work	core	2		zai:reaper	
+s59217	w54986	1	adj		social	core	1		zai:recalcitrant/zd:5784/zd:7763	the sentences show brave rather than recalcitrant
+s59218	w54987	1	v		education	core	2		zai:recapitulate/zd:4967	
+s59219	w54988	1	n		social	core	2		zai:receiver	
+s59220	w54989	1	adj		time	core	2		zai:recent	
+s59221	w54990	1	v		everyday	core	2		zai:reclinate	
+s59222	w54991	1	v		everyday	core	2		zai:recline/zd:11477	
+s59223	w54992	1	adj		social	core	2		zai:recluse/zd:7022	
+s59224	w54993	1	n		politics/social	core	2		zai:recognition	
+s59225	w54994	1	n		politics/travel	core	2		zai:reconnaissance	
+s59226	w54995	1	v		politics	core	2		zai:reconstitute/zd:1150	
+s59227	w54996	1	v		everyday	core	1		zai:recurve	the sentences do not clearly show this meaning
+s59228	w54997	1	n		home/media	core	2		zai:reel	
+s59229	w54998	1	n		nature/education	core	2		zai:reflection	
+s59230	w54999	1	adj		everyday	core	2		zai:refomed	
+s59231	w55000	1	part		everyday	core	1		zai:regardless/zd:24220	regardless belongs to the phrase {sim loh-in}
+s59232	w55001	1	n		everyday	core	2		zai:regression	
+s59233	w55002	1	n		politics	core	2		zai:regulator	
+s59234	w55003	1	v		body	core	2		zai:regurgitate	
+s59235	w55004	1	n		everyday	core	1		zai:remover	the verb {suankhe} is not otherwise attested
+s59236	w55005	1	n		social	core	1		zai:rendering/zd:16639/zd:1613	the list gives rendering, the sentences show reply and approval
+s59237	w55006	1	n		social	core	2		zai:renegade	
+s59238	w55007	1	n		work	core	2		zai:rent	
+s59239	w55008	1	n		everyday	core	1		zai:repercussion/zd:2431	the list gives repercussion, the one sentence speaks of boarding a plane again
+s59240	w55009	1	n		everyday	core	2		zai:repetition/zd:15332/zd:2996	
+s59241	w55010	1	n		everyday	core	2		zai:repletion/zai:saturation/zd:17472/zd:5447	
+s59242	w55011	1	adj		social	core	2		zai:reprehensible	
+s59243	w55012	1	adj		social	core	2		zai:reproachful/zai:scornful	
+s59244	w55013	1	v		social	core	2		zai:repulse/zd:10500	
+s59245	w55014	1	v		politics	core	2		zai:rescind/zai:revoke	
+s59246	w55015	1	v		everyday	core	2		zai:reshape	
+s59247	w55016	1	n		social	core	1		zai:resistant	the list gives an adjective for a noun form
+s59248	w55017	1	n		nature	core	2		zai:resonance/zai:vibration	
+s59249	w55018	1	v		nature	core	2		zai:resonant/zd:22090	
+s59250	w55019	1	adj		health	core	2		zai:respirable	
+s59251	w55020	1	n		everyday	core	2		zai:respite	
+s59252	w55021	1	n		social	core	2		zai:respondent	
+s59253	w55022	1	v		everyday	core	2		zai:restate	
+s59254	w55023	1	n		social	core	2		zai:restraint	
+s59255	w55024	1	n		education	core	2		zai:result	
+s59256	w55025	1	n		home	core	2		zai:retaining wall	
+s59257	w55026	1	n		social	core	2		zai:retaliation	
+s59258	w55027	1	n		everyday	core	2		zai:retardation/zai:torpor	
+s59259	w55028	1	n		social	core	2		zai:retinue	
+s59260	w55029	1	n		social	core	2		zai:retorsion/zai:vengeance/zd:26124	
+s59261	w55030	1	n		everyday	core	2		zai:retraction/zai:withdrawal	
+s59262	w55031	1	n		social/politics	core	2		zai:retroaction/zd:18952	
+s59263	w55032	1	v		everyday	core	2		zai:retrocede	
+s59264	w55033	1	v		everyday	core	2		zai:retrocede	
+s59265	w55034	1	n		everyday/time	core	1		zai:retrospect	a verb form given for a noun headword
+s59266	w55035	1	v		everyday/religion	core	1		zai:revamp/zd:8022	
+s59267	w55036	1	n		social	core	2		zai:revelry	
+s59268	w55037	1	v		social	core	1		zai:revile	the list gives revile, the one sentence reads as unfortunate
+s59269	w55038	1	n		politics/social	core	2		zai:revocation	
+s59270	w55039	1	v		everyday	core	1		zai:revoke/zd:1914	the list gives revoke, the sentences show restore
+s59271	w55040	1	v		everyday/media	core	2		zai:rewind	
+s59272	w55041	1	v		religion/social	core	1		zai:rhetor	the list gives it for rhetor, a speaker
+s59273	w55042	1	n		social	core	2		zai:ridicule	
+s59274	w55043	1	n		social	core	2		zai:ridicule	
+s59275	w55044	1	n		social/religion	core	2		zai:rightness/zd:6333/zd:5990	
+s59276	w55045	1	n		nature	core	2		zai:rill/zai:rillet/zai:rivulet/zai:runnel	
+s59277	w55046	1	adj		social	core	1		zai:riotous/zd:1498	the one sentence reads as wanting to be busy
+s59278	w55047	1	adj		everyday	core	2		zai:riven	
+s59279	w55048	1	adj		everyday	core	2		zai:riven	
+s59280	w55049	1	n		work	core	1		zai:rivet	
+s59281	w55050	1	v		travel/everyday	core	2		zai:roam	
+s59282	w55051	1	n		nature	core	2		zai:robin/zd:569	
+s59283	w55052	1	adj		body/health	core	2		zai:robust/zai:sinewy	
+s59284	w55053	1	v		social	core	1		zai:roister	
+s59285	w55054	1	v		everyday	core	1		zai:rolling	perhaps another spelling of kikhuk
+s59286	w55055	1	n		home	core	2		zai:room	
+s59287	w55056	1	n		nature/home	core	1		zai:roost	the one other sentence uses it in another sense
+s59288	w55057	1	n		home	core	1		zai:roost	meaning taken only from the list
+s59289	w55058	1	n		nature	core	2		zai:rootlet	
+s59290	w55059	1	n		home	core	2		zai:rope/zai:silk/zai:wire	
+s59291	w55060	1	v		food	core	2		zai:rotisseric	
+s59292	w55061	1	n		everyday/education	core	2		zai:roundlet	
+s59293	w55062	1	n		work	core	1		zai:router	
+s59294	w55063	1	v		social	core	1		zai:rude	given by the list alone
+s59295	w55064	1	adj		everyday	core	2		zai:rueful	
+s59296	w55065	1	n		body	core	1		zai:runny	given for the adjective runny
+s59297	w55066	1	v		everyday	core	2		zai:sad/zd:3283/zd:26626	
+s59298	w55067	1	adj		education	core	1		zai:sage	given by the list alone
+s59299	w55068	1	phrase		everyday	core	2		zai:sake/zd:15730/zd:17021	
+s59300	w55069	1	n		nature	core	2		zai:salina	
+s59301	w55070	1	n		nature	core	2		zai:salina	
+s59302	w55071	1	v		body	core	2		zai:salivate	
+s59303	w55072	1	n		food	core	2		zai:salt-box	
+s59304	w55073	1	adj		food	core	2		zai:saltish	
+s59305	w55074	1	n		social	core	2		zai:salutation/zd:1831	
+s59306	w55075	1	n		home	core	1		zai:sand-paper	a sentence uses it of a person, perhaps rough
+s59307	w55076	1	adj		social	core	1		zai:savage	given by the list alone
+s59308	w55077	1	n		religion	core	2		zai:saviour	
+s59309	w55078	1	n		religion	core	2		zai:saviour	
+s59310	w55079	1	n		home	core	2		zai:saw	
+s59311	w55080	1	v		everyday	core	1		zai:scandalize	scandalize only in min sesak
+s59312	w55081	1	v		everyday	core	2		zai:scare	
+s59313	w55082	1	n		everyday	core	2		zai:scatteration	
+s59314	w55083	1	v		everyday	core	1		zai:schematize/zd:8730	the sentences use it for be on a par with, not schematize
+s59315	w55084	1	n		education	core	2		zai:scholastic	
+s59316	w55085	1	v		everyday	core	2		zai:scorch	
+s59317	w55086	1	n		home	core	1		zai:scrapper	the English headword scrapper is likely scraper
+s59318	w55087	1	n		body	core	1		zai:scratchy	one dictionary, given under an adjective
+s59319	w55088	1	n		body	core	1		zai:scratchy	one dictionary, given under an adjective
+s59320	w55089	1	n		social	core	1		zai:screamer	base of the form unclear
+s59321	w55090	1	n		work	core	2		zai:scrivener	
+s59322	w55091	1	v		everyday	core	2		zai:scrunch	
+s59323	w55092	1	v		everyday	core	1		zai:scrunch	one dictionary and one unclear sentence
+s59324	w55093	1	n		body/health	core	2		zai:scurf	
+s59325	w55094	1	n		nature	core	2		zai:scut/zd:6336	
+s59326	w55095	1	adv		everyday	core	2		zai:secondly/zd:22921/ts:6677	
+s59327	w55096	1	n		politics/social	core	2		zai:selector	
+s59328	w55097	1	n		social	core	2		zai:self-reliance/zd:23867	
+s59329	w55098	1	adj		health	core	2		zai:senescent	
+s59330	w55099	1	n		nature	core	2		zai:sensor	
+s59331	w55100	1	n		everyday	core	2		zai:separator	
+s59332	w55101	1	adv		everyday	core	2		zai:sequent/zai:step by step	
+s59333	w55102	1	n		nature	core	2		zai:snake/zd:7318/zd:11110	
+s59334	w55103	1	n		home	core	2		zai:sewage/zd:569	
+s59335	w55104	1	n		home/health	core	2		zai:sewer/zai:sullage	
+s59336	w55105	1	adj		body	core	1		zai:shaggy	second part unclear
+s59337	w55106	1	n		everyday	core	1		zai:shaker	one dictionary
+s59338	w55107	1	adj		body	core	2		zai:sharp-nosed/zai:snout	
+s59339	w55108	1	adj		body	core	2		zai:sharp-nosed/zd:946	
+s59340	w55109	1	n		work	core	2		zai:sharp-shooter	
+s59341	w55110	1	adj		body	core	2		zai:shaven	
+s59342	w55111	1	n		home	core	2		zai:shirt	
+s59343	w55112	1	v		everyday	core	2		zai:shrink	
+s59344	w55113	1	adj		health	core	2		zai:shut-in	
+s59345	w55114	1	adj		health	core	2		zai:shut-in	
+s59346	w55115	1	n		politics	core	2		zai:shut-off/zd:1870	
+s59347	w55116	1	n		home	core	2		zai:shutter	
+s59348	w55117	1	n		politics	core	2		zai:siege	
+s59349	w55118	1	n		nature/work	core	2		zai:silk-worm	
+s59350	w55119	1	n		social	core	2		zai:simulator	
+s59351	w55120	1	adv		everyday	core	2		zai:singly	
+s59352	w55121	1	n		home	core	2		zai:siphon	
+s59353	w55122	1	n		food	core	1		zai:skimmer	only in the dictionary, the part {diit} is not attested
+s59354	w55123	1	n		social	core	2		zai:slammer/zd:7311/zd:5500	
+s59355	w55124	1	n		nature	core	2		zai:sleet	
+s59356	w55125	1	n		everyday	core	2		zai:slippage/zd:19814	
+s59357	w55126	1	n		nature	core	2		zai:slot/zd:7083	
+s59358	w55127	1	n		nature	core	1		zai:slug	only in the dictionary
+s59359	w55128	1	adj		social	core	2		zai:smashed/zd:4060/zd:25927	
+s59360	w55129	1	n		work	core	2		zai:smith/zd:6584	
+s59361	w55130	1	v		social	core	2		zai:sneer/zd:9721/zd:4539	
+s59362	w55131	1	n		body/health	core	1		zai:sneeze	the sentences show {hat-chiai} for sneeze and not the word alone
+s59363	w55132	1	v		body/health	core	2		zai:sniffle/zd:5931	
+s59364	w55133	1	v		body	core	2		zai:snivel/zd:6441	
+s59365	w55134	1	n		everyday	core	2		zai:snooze	
+s59366	w55135	1	n		nature	core	2		zai:snout	
+s59367	w55136	1	n		home	core	2		zai:soap	
+s59368	w55137	1	n		home	core	2		zai:soap/zd:6990	
+s59369	w55138	1	n		nature	core	2		zai:soft-wood	
+s59370	w55139	1	n		work/politics	core	2		zai:solicitor	
+s59371	w55140	1	n		social/politics	core	2		zai:solidarity/zd:8582	
+s59372	w55141	1	n		travel	core	1		zai:solitude	given for solitude but used for distance
+s59373	w55142	1	adj		social	core	1		zai:somber	only in the dictionary
+s59374	w55143	1	adj		social	core	2		zai:somber/zd:11110/zd:5208	
+s59375	w55144	1	n		everyday	core	2		zai:somer-sault/zd:4016/zd:6941	
+s59376	w55145	1	n		home	core	2		zai:soot	
+s59377	w55146	1	n		health	core	2		zai:sopor	
+s59378	w55147	1	n		everyday	core	1		zai:sordor	only in the dictionary
+s59379	w55148	1	adj		nature	core	2		zai:sorrel	
+s59380	w55149	1	n		politics	core	2		zai:sovereign	
+s59381	w55150	1	adj		everyday	core	2		zai:spacious/zd:24119	
+s59382	w55151	1	n		everyday	core	2		zai:spanker	
+s59383	w55152	1	n		nature	core	2		zai:sparrow/zd:569/zd:9848	
+s59384	w55153	1	adj		health/body	core	2		zai:spavined	
+s59385	w55154	1	n		social	core	2		zai:speaker	
+s59386	w55155	1	n		everyday	core	2		zai:sphericity	
+s59387	w55156	1	n		everyday	core	2		zai:sphericity	
+s59388	w55157	1	n		nature	core	2		zai:spider	
+s59389	w55158	1	n		politics	core	2		zai:spier	
+s59390	w55159	1	n		body	core	1		zai:spitter	se as spit is not in the lexicon
+s59391	w55160	1	n		home	core	2		zai:spitton	
+s59392	w55161	1	adj		everyday	core	2		zai:spongy	
+s59393	w55162	1	n		food	core	2		zai:spoon	
+s59394	w55163	1	n		everyday	core	2		zai:sprinkling	
+s59395	w55164	1	n		food	core	2		zai:spud/zd:11403	
+s59396	w55165	1	n		health	core	2		zai:sputum	
+s59397	w55166	1	n		education	core	1		zai:stanza	the sentences use it for those who answer
+s59398	w55167	1	n		nature	core	2		zai:star-fish	
+s59399	w55168	1	n		travel	core	2		zai:stay	
+s59400	w55169	1	n		social	core	2		zai:stead/zd:8413/zd:4151	
+s59401	w55170	1	n		work	core	2		zai:steel	
+s59402	w55171	1	n		family	core	2		zai:step-father/zd:5992/zd:11360	
+s59403	w55172	1	n		body	core	2		zai:sternum	
+s59404	w55173	1	n		nature	core	2		zai:stinger	
+s59405	w55174	1	n		nature	core	2		zai:stink-stone	
+s59406	w55175	1	n		nature	core	2		zai:stink-wood	
+s59407	w55176	1	v		home	core	2		zai:stitch/zd:6430	
+s59408	w55177	1	n		home	core	2		zai:story	
+s59409	w55178	1	adj		travel	core	2		zai:strait	
+s59410	w55179	1	n		everyday	core	1		zai:stray	
+s59411	w55180	1	n		everyday	core	2		zai:stray/zai:wandering	
+s59412	w55181	1	n		nature	core	1		zai:stronghold/zd:9988	the sentences show a deep pit or mine, not a stronghold
+s59413	w55182	1	v		everyday	core	2		zai:studied/zd:23670	
+s59414	w55183	1	n		religion	core	2		zai:stupa/zd:2804	
+s59415	w55184	1	n		health	core	2		zai:sty	
+s59416	w55185	1	n		nature	core	1		zai:sucker	the lexicon has tawp as end or kiss, not suck
+s59417	w55186	1	n		nature	core	2		zai:sucker	
+s59418	w55187	1	n		education	core	2		zai:suffix	
+s59419	w55188	1	adj		social	core	2		zai:suitable/zd:5723	
+s59420	w55189	1	adj		nature	core	2		zai:sunken	
+s59421	w55190	1	n		politics	core	2		zai:suppression/zd:8667	
+s59422	w55191	1	n		nature	core	2		zai:surrounding	
+s59423	w55192	1	n		social	core	1		zai:susurrus	only the dictionaries attest it and its base hiau is unclear
+s59424	w55193	1	n		nature	core	1		zai:swan	the list gives swan, the lexicon gives kanglai as goose
+s59425	w55194	1	n		home	core	2		zai:sweeper	
+s59426	w55195	1	adj		food	core	2		zai:sweet and sour	
+s59427	w55196	1	n		food	core	2		zai:sweet potato	
+s59428	w55197	1	n		everyday	core	2		zai:sword/zd:7336	
+s59429	w55198	1	n		nature	core	2		zai:sword fish	
+s59430	w55199	1	n		everyday	core	2		zai:system/zai:tidy	
+s59431	w55200	1	n		education	core	1		zai:system	listed only under system
+s59432	w55201	1	n		everyday	core	1		zai:system	meaning inferred from the list entry
+s59433	w55202	1	v		health	core	2		zai:tabescent	
+s59434	w55203	1	n		nature	core	2		zai:tadpole	
+s59435	w55204	1	n		social	core	2		zai:talking to	
+s59436	w55205	1	v		food	core	2		zai:tandoor/zd:14927/zd:22193	
+s59437	w55206	1	n		health	core	2		zai:tape-worm	
+s59438	w55207	1	n		food	core	2		zai:tapioca	
+s59439	w55208	1	n		nature	core	2		zai:tare	
+s59440	w55209	1	n		food	core	2		zai:taro/zd:9786	
+s59441	w55210	1	n		food	core	2		zai:taster	
+s59442	w55211	1	adj		everyday	core	2		zai:tawny	
+s59443	w55212	1	n		food/home	core	2		zai:tea cup	
+s59444	w55213	1	n		nature	core	2		zai:teak/zd:5551/zd:4833	
+s59445	w55214	1	n		work	core	1		zai:technique	single dictionary sense, no sentences
+s59446	w55215	1	n		food	core	1		zai:teel	the headword teel names the plant, the explanation the oil
+s59447	w55216	1	n		religion/social	core	2		zai:tempter	
+s59448	w55217	1	n		religion	core	2		zai:tempter	
+s59449	w55218	1	n		home	core	2		zai:tenter	
+s59450	w55219	1	v		everyday	core	1		zai:terminal	looks like a chance joining
+s59451	w55220	1	n		nature	core	1		zai:termite	plural form, no sentences
+s59452	w55221	1	n		religion/politics	core	2		zai:testament/zd:7381	
+s59453	w55222	1	n		social	core	2		zai:thievery	
+s59454	w55223	1	adv		everyday	core	2		zai:thirdly	
+s59455	w55224	1	n		body	core	1		zai:thirst	looks like a misprint of {dangtaakna}
+s59456	w55225	1	n		social	core	2		zai:thrashing/zd:2035	
+s59457	w55226	1	n		home	core	2		zai:thread/zai:yarn	
+s59458	w55227	1	v		everyday	core	2		zai:thriftless/zd:20569	
+s59459	w55228	1	n		nature	core	1		zai:tiglon	single dictionary sense, no sentences
+s59460	w55229	1	n		home/work	core	2		zai:timber/zai:wood	
+s59461	w55230	1	adj		everyday	core	2		zai:tiresome/zd:15505/zp:856/zd:13343	
+s59462	w55231	1	n		nature/home	core	2		zai:tom	
+s59463	w55232	1	adj		social	core	1		zai:tom-foolery	the list gives a noun headword as an adjective
+s59464	w55233	1	n		work/home	core	2		zai:tool	
+s59465	w55234	1	n		home/body	core	1		zai:tooth-pick/zd:19688	the list gives the short form for ha dawtna
+s59466	w55235	1	n		home/everyday	core	2		zai:torch/zai:torchlight/zd:5784	
+s59467	w55236	1	n		home	core	2		zai:torchlight	
+s59468	w55237	1	n		social	core	2		zai:tormentor	
+s59469	w55238	1	n		everyday	core	2		zai:torsion/zai:volution	
+s59470	w55239	1	n		home	core	2		zai:towel	
+s59471	w55240	1	n		work/travel	core	1		zai:tower	a single dictionary and a reading of tower as tow-er
+s59472	w55241	1	n		home	core	2		zai:tower	
+s59473	w55242	1	n		body	core	2		zai:trachea	
+s59474	w55243	1	adj		everyday	core	2		zai:tragic	
+s59475	w55244	1	adv		everyday	core	2		zai:tranquil	
+s59476	w55245	1	n		work/social	core	1		zai:transaction	a single dictionary and no sentences
+s59477	w55246	1	n		social/work	core	2		zai:translator	
+s59478	w55247	1	n		travel/work	core	2		zai:transportation	
+s59479	w55248	1	n		food/nature	core	2		zai:trash	
+s59480	w55249	1	adj		everyday	core	2		zai:trashy	
+s59481	w55250	1	n		health	core	2		zai:treatment	
+s59482	w55251	1	n		health/everyday	core	2		zai:treatment	
+s59483	w55252	1	n		social	core	2		zai:treatment	
+s59484	w55253	1	n		work/home	core	2		zai:tree-nail	
+s59485	w55254	1	n		nature	core	2		zai:tremor/zd:19589	
+s59486	w55255	1	adj		everyday	core	2		zai:triplex	
+s59487	w55256	1	n		media	core	2		zai:trombone	
+s59488	w55257	1	n		media/religion	core	2		zai:trumpet	
+s59489	w55258	1	adj		social	core	2		zai:trying	
+s59490	w55259	1	n		health/body	core	1		zai:tumefaction	the first part saail is not known
+s59491	w55260	1	n		media	core	2		zai:tunc/zd:24832	
+s59492	w55261	1	adj		nature	core	1		zai:turbid	the second part vek is not known
+s59493	w55262	1	n		politics	core	2		zai:turmoil/zd:4539/zd:5824/zd:3589	
+s59494	w55263	1	n		home	core	2		zai:turpentine	
+s59495	w55264	1	intj		everyday	core	1		zai:tut tuttut	the sentences use it as an intensifying adverb, not as an exclamation
+s59496	w55265	1	n		media	core	1		zai:tweeter	the entry mixes the sound and the loudspeaker
+s59497	w55266	1	n		social	core	1		zai:twister	one dictionary entry, no sentences
+s59498	w55267	1	n		work	core	1		zai:type-writer	the article writes siiktawlai khethun for typewriter
+s59499	w55268	1	adj		everyday	core	2		zai:ugly/zd:16433/zd:3433/zd:8366	
+s59500	w55269	1	n		politics/religion	core	2		zai:ultraism	
+s59501	w55270	1	adj		everyday	core	1		zai:uncanny	no sentences, formation unclear
+s59502	w55271	1	n		social/politics	core	2		zai:unification/zd:8582/zd:6734/zd:5994	
+s59503	w55272	1	adj		social	core	2		zai:united/zd:5489	
+s59504	w55273	1	adj		work	core	2		zai:urgent	
+s59505	w55274	1	n		social	core	2		zai:usual	
+s59506	w55275	1	n		politics	core	2		zai:vadalism/zd:22439	
+s59507	w55276	1	n		nature	core	2		zai:valley/zd:19111/zd:17374	
+s59508	w55277	1	n		home	core	2		zai:varnish/zd:7560	
+s59509	w55278	1	adj		nature	core	1		zai:vast	one dictionary entry, no sentences
+s59510	w55279	1	adj		everyday	core	2		zai:veiled/zd:5587/zd:5453	
+s59511	w55280	1	n		everyday	core	2		zai:verve	
+s59512	w55281	1	n		home	core	2		zai:vest	
+s59513	w55282	1	n		home	core	1		zai:vest	one dictionary entry, no sentences
+s59514	w55283	1	n		home	core	2		zai:vesture/zd:19589/zd:24500	
+s59515	w55284	1	n		nature	core	2		zai:vibration	
+s59516	w55285	1	adj		everyday	core	1		zai:vicinal	parts of the word unclear and no sentences
+s59517	w55286	1	n		everyday	core	1		zai:vigilance/zd:21803/zd:7265	the list gives vigilance, which needs <vil>
+s59518	w55287	1	n		body	core	2		zai:visage	
+s59519	w55288	1	adj		travel	core	2		zai:visitable	
+s59520	w55289	1	adj		travel	core	2		zai:visitable	
+s59521	w55290	1	n		social	core	2		zai:visitor	
+s59522	w55291	1	n		travel	core	2		zai:volitation	
+s59523	w55292	1	n		everyday	core	2		zai:voltage	
+s59524	w55293	1	adv		everyday	core	1		zai:walk out on	meaning taken from phrases of the list, sentences unclear
+s59525	w55294	1	n		politics	core	2		zai:war-plane/zd:1052	
+s59526	w55295	1	n		home	core	2		zai:wash-board/zd:569/zp:3981	
+s59527	w55296	1	n		home	core	2		zai:wash-room/zd:9279	
+s59528	w55297	1	n		home	core	2		zai:washer	
+s59529	w55298	1	n		everyday	core	2		zai:watch-band/zd:19756/ts:3375	
+s59530	w55299	1	n		food	core	2		zai:water-melon	
+s59531	w55300	1	adj		nature	core	2		zai:watered	
+s59532	w55301	1	adj		everyday	core	1		zai:watery	no sentences
+s59533	w55302	1	n		health	core	2		zai:weakness	
+s59534	w55303	1	n		nature	core	2		zai:weasel/zd:6107	
+s59535	w55304	1	n		nature	core	1		zai:webby	looks like a chance joining
+s59536	w55305	1	n		social	core	2		zai:weeping	
+s59537	w55306	1	adj		nature	core	2		zai:well-bred	
+s59538	w55307	1	adj		everyday	core	2		zai:wheeled/zd:5881	
+s59539	w55308	1	n		nature	core	2		zai:whelp	
+s59540	w55309	1	adv		everyday	core	2		zai:where-in	
+s59541	w55310	1	n		family	core	2		zai:white-beard/zd:10938	
+s59542	w55311	1	n		everyday	core	2		zai:whiteness	
+s59543	w55312	1	n		family	core	2		zai:widower/zd:6470	
+s59544	w55313	1	n		nature	core	2		zai:wild cat/zd:5788	
+s59545	w55314	1	n		nature	core	2		zai:wild-fire	
+s59546	w55315	1	n		food	core	2		zai:wine-glass	
+s59547	w55316	1	n		everyday	core	2		zai:winker	
+s59548	w55317	1	n		social	core	2		zai:winner	
+s59549	w55318	1	adj		social	core	2		zai:winning	
+s59550	w55319	1	n		home	core	2		zai:wire	
+s59551	w55320	1	n		home	core	1		zai:wire	the parts suggest barbed wire rather than plain wire
+s59552	w55321	1	n		home	core	2		zai:wire-works	
+s59553	w55322	1	n		politics	core	2		zai:withdrawal	
+s59554	w55323	1	adv		everyday	core	2		zai:without	
+s59555	w55324	1	n		religion	core	2		zai:wizard	
+s59556	w55325	1	n		nature	core	2		zai:wolf	
+s59557	w55326	1	adj		everyday	core	2		zai:wonderful	
+s59558	w55327	1	n		nature	core	2		zai:wood-peeker	
+s59559	w55328	1	n		home	core	2		zai:wood-shed	
+s59560	w55329	1	n		nature	core	2		zai:woodland/zd:9029	
+s59561	w55330	1	n		work	core	2		zai:worker	
+s59562	w55331	1	adj		everyday	core	1		zai:worn-out	the article sentence uses it of people all lined up, as if it meant completely
+s59563	w55332	1	adj		religion	core	2		zai:worshipful/zd:3063/zd:8353	
+s59564	w55333	1	adj		religion	core	1		zai:worshipful	only in the pair, and the first part is unclear
+s59565	w55334	1	adj		social	core	2		zai:wretched/zd:7313	
+s59566	w55335	1	v		body	core	1		zai:wrinkle/zd:7726	given as a noun but used as a verb
+s59567	w55336	1	n		body	core	2		zai:wrist/zd:18102	
+s59568	w55337	1	adv		education	core	1		zai:written	the article sentences use it as write and
+s59569	w55338	1	n		work	core	2		zai:xylograph	
+s59570	w55339	1	adj		everyday	core	2		zai:yellow/zd:8169	
+s59571	w55340	1	adv		travel	core	2		zai:yonder	
+s59572	w55341	1	n		social	core	2		zai:youngster	
+s59573	w55342	1	n		home	core	1		zai:zephyr	read from its parts and the fabric sense of zephyr
+s59574	w55343	1	adv		everyday	core	2		zai:zigzag	
+s59575	w55344	1	n		everyday	core	1		zai:zoometry	given only in an explanation of zoometry

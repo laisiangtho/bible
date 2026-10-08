@@ -1,6 +1,6 @@
 sense	terms	definition	text
 s12000	Gurkha/Nepali	the Nepali people, many of whom came to Myanmar and India as soldiers of the British	
-s12001	steal/steal secretly	<gu>, steal, with <sim>, secretly: steal by stealth; said of prophets who steal words from one another	
+s12001	steal/steal secretly/filch	<gu>, steal, with <sim>, secretly: steal by stealth; said of prophets who steal words from one another	
 s12002	thief	a person who steals; <guta buluh> is thief and robber, and {guta bangin} is like a thief	
 s12003	thieves and robbers/thief and robber/robbery	<guta>, thief, and <buluh.2>, robber: a fixed pair without <leh> for those who steal and rob, and for theft and robbery as a kind of wrongdoing; often in a list of evils	
 s12004	thieves and robbers/robbers/criminals	<guta>, thief, and <damiah>, robber, said together as one word for those who steal and rob, and for theft and robbery as a danger; {guta damiah te} are the robbers	
@@ -30,8 +30,8 @@ s12032	dry by the fire/hold to the fire	hold a wet thing out to the fire so that
 s12034	mangoes	<haai>, mango, with the plural <te>	
 s12036	cry/chatter/call	of a bird, utter its cry; long spelling of <ham>	
 s12037	speech/language/dialect	the speech of a people, its language or dialect, mostly paired with <pau> in {pau le haam}; the long spelling of <ham.3>, not the cry of a bird	
-s12038	curse	speak evil against someone or use a name as a curse; another spelling of <hamsiat>	
-s12039	curse	<haamsiat>, curse, with the noun suffix <na>; {haamsiatna thuak} and {haamsiatna ngah} mean be cursed, come under a curse	
+s12038	curse/damn	speak evil against someone or use a name as a curse; another spelling of <hamsiat>	
+s12039	curse/imprecation	<haamsiat>, curse, with the noun suffix <na>; {haamsiatna thuak} and {haamsiatna ngah} mean be cursed, come under a curse	
 s12040	curses	<haamsiatna>, curse, with the plural <te>	
 s12043	broiled/roasted	said of fish cooked dry over a fire	
 s12045	Habaiah/Hobaiah	ancestor of a family of priests who returned from the exile but could not prove their descent; spelled Hobaiah in the NIV	
@@ -91,10 +91,10 @@ s12098	urge/press	<hah> insistently with <sawl>, tell to do: urge someone to do 
 s12099	clear/clear out/prune	make clean by removing what is in the way: clear ground, clear out old stores, prune a branch	
 s12100	clean up/clear out	<hahsiang>, clear out or clean up, and <ding>, to, written as one word: to clean a place up, what is to be cleaned	
 s12101	cup/bowl	a cup to drink from, or a small bowl	
-s12102	foolish/senseless/stupid/imprudent	lacking sense or wisdom; also used as a verb, be foolish, and {hai gamtat} is act foolishly	
+s12102	foolish/senseless/stupid/imprudent/asinine/witless	lacking sense or wisdom; also used as a verb, be foolish, and {hai gamtat} is act foolishly	
 s12103		literally the one who holds the cup, <hai> and <tawi>: another name for the <tanupi>, the principal daughter in the kinship order of a household	
 s12104		word of songs and poems used with <ngak>, wait: {haibang ngak} is wait for someone with longing; <hai> with <bang>, like, the image is not certain	
-s12105	dishonour/treat as a fool/treat with contempt	<hai> foolish with <bawl>, treat: treat someone as a fool	
+s12105	dishonour/treat as a fool/treat with contempt/befool	<hai> foolish with <bawl>, treat: treat someone as a fool	
 s12106	pledge rashly/promise foolishly	<hai> foolish with <ciam> promise; {kam a haiciam} is give one's word as surety for another	
 s12108	Haiciin	village in the Tonzang area of Chin State, Myanmar	
 s12109	Haicin		
@@ -105,7 +105,7 @@ s12113	winnow/sift/sieve	toss or shake grain to separate it from the chaff; also
 s12114	fail to recognise/not know/forget	not know a person or thing again, or let it slip from mind: said of a face, of a friend who has changed, and with <ngeilo> of a custom that is never forgotten	
 s12115	have pregnancy sickness/feel pregnant	after <nau>, child: of a woman, feel the sickness and other signs of early pregnancy; {nau haih}	
 s12116	sieve/winnowing	<haih>, winnow or sift, with the noun suffix <na>: the thing in which or the act by which something is sifted	
-s12117	foolish/senseless/nonsensical/silly	<hai>, foolish, with <huai>, worthy of: foolish, or seeming foolishness to someone; {thu haihuai} is senseless talk	
+s12117	foolish/senseless/nonsensical/silly/asinine/daft/idiotic/ludicrous/ridiculous	<hai>, foolish, with <huai>, worthy of: foolish, or seeming foolishness to someone; {thu haihuai} is senseless talk	
 s12118	foolishness/folly/stupidity	Foolishness or madness; <haihuai>, foolish, with the noun ending <na>.	
 s12119	utter foolishness/object of mockery	<haihuai> foolish with <pi> great; said of idols, a thing that is wholly foolish and fit to be mocked	
 s12120	asthma	a disease of the chest that makes breathing hard; {haihut vei} is suffer from asthma	
@@ -119,7 +119,7 @@ s12127	very foolish/too foolish	<hai> foolish with <lua>, very or too much
 s12128	very foolish/too foolish	form of <hailua> used before <man>, because	
 s12129	great folly/excessive foolishness	<hai> foolish with <luat>, form of <lua> too much, and the noun ending <na>	
 s12130	Haimual		
-s12131	folly/foolishness	The state of being foolish, or a foolish act; <hai>, foolish, with the noun ending <na>.	
+s12131	folly/foolishness/idiocy/stupidity	The state of being foolish, or a foolish act; <hai>, foolish, with the noun ending <na>.	
 s12132	Hainan	island and province in the south of China	
 s12133	follies/foolish things	<haina>, foolishness, with the plural <te>; {thu kidong hainate}, foolish questions or controversies	
 s12134		<hai>, here the mango tree, and <nuai>, under, written as one word: the place under a mango tree; listed by the book in the set pair {theinuai hainuai} without an explanation	
@@ -149,7 +149,7 @@ s12157	cups/bowls/goblets	Plural of <hai>, cup or bowl: drinking cups, and the b
 s12158	fools/the foolish	<hai> foolish with plural <te>, foolish people; {numei haite}, foolish women	
 s12159	Haiti	country in the Caribbean	
 s12160	Haitu		
-s12161	foolish/senseless/meaningless/absurd	<hai> foolish with <vai> affair: of a foolish kind, making no sense	
+s12161	foolish/senseless/meaningless/absurd/daft/irrational	<hai> foolish with <vai> affair: of a foolish kind, making no sense	
 s12162	chew/eat solid food	of food, to chew it and get it down; {haizan zo lo} is not yet able to take solid food; how the word is built is not certain	
 s12163	slow/hard/difficult	Placed after a verb: slow or hard to do, as in {heh hak}, slow to anger, {tel hak}, hard to understand, and {pai hak}, slow in coming.	
 s12164	open/be open	Of the eyes, to open or be open; {mit hak} is to open the eyes, and of God to look with attention.	
@@ -275,7 +275,7 @@ s12285	benefit/gain/have an advantage	form of <hampha> used before <nading> and 
 s12286	for the benefit of/for the good of/in the interest of	<hamphat>, gain or benefit, and <nading.2>, for: placed after the person or group that is to gain, for their benefit or advantage; also as a noun, what is to someone's advantage	
 s12287	fortunate people/the blessed	<hampha>, fortunate, with the plural <te>; mostly as {mi hamphate}, people who are fortunate or blessed	
 s12288	fortunate/blessed/beneficial	<hamphat>, benefit, with <huai>, worthy of: a matter to count as good fortune; {hamphathuai sa} is consider oneself fortunate	
-s12289	advantage/benefit/right/privilege	<hamphat> with the noun ending <na>: an advantage or benefit that falls to someone, or a right that is due to them	
+s12289	advantage/benefit/right/privilege/gain/perquisite	<hamphat> with the noun ending <na>: an advantage or benefit that falls to someone, or a right that is due to them	
 s12290	rights/privileges/benefits	plural of <hamphatna>: the rights or benefits that someone is entitled to or receives	
 s12291	make fortunate/bring good fortune	<hamphat>, the form of <hampha>, be fortunate, used before a suffix, with <suah>, bring out or become: make fortunate; the page lists the form without a meaning	
 s12292	deserving good fortune	<hamphat>, the form of <hampha>, be fortunate, used before a suffix, with <tuak>, be fitting: deserving good fortune	
@@ -357,7 +357,7 @@ s12369	handgun/pistol	a small gun held in one hand, named in reports of shooting
 s12370	mobile phone/cell phone/handphone	a mobile telephone, the word used in Malaysian and Singaporean English	
 s12371	Hanes	spelling of <Hanes> in Isaiah 30:4, a town in Egypt to which the envoys of Judah came	
 s12372	Hanes	town in Egypt to which the envoys of Judah came seeking help	
-s12373	reason	the reason or cause of something; {bang hang hiam} asks why	
+s12373	reason/cause	the reason or cause of something; {bang hang hiam} asks why	
 s12374	complain		of dissatisfaction or annoyance
 s12375	brave/daring/courageous	not afraid in the face of danger; often paired with <thahat>, strong	
 s12376	we	sentence-final marker of the first person plural including the hearer, placed after a verb or after <hi>: {hi hang} is we are, and {lamen hang} is we hope; not the noun reason	
@@ -434,7 +434,7 @@ s12449	calling for courage/inspiring courage	<hangsan>, be brave, in the form us
 s12450	courage/bravery/boldness/daring	courage, also in the bad sense of rash daring; <hansan> is another spelling of <hangsan>, brave, here with the noun suffix <na>	
 s12451	embolden/make brave	<hangsan>, be brave, in the form used before a suffix, with <suah>, bring out or become: embolden; the page lists the form without a meaning	
 s12452	worth being bold for	<hangsan>, be brave, in the form used before a suffix, with <tuak>, be fitting: worth being bold for	
-s12453	stir up/urge/encourage/exhort/abet/stir	move people to act by words, whether stirring them up to do wrong or urging and encouraging them to do good	
+s12453	stir up/urge/encourage/exhort/abet/stir/instigate	move people to act by words, whether stirring them up to do wrong or urging and encouraging them to do good	
 s12454	urging/encouraging/stirring up/inciting	<hansuah> with the linking suffix {-in}; with <zol> it means urge strongly, and it is also used of stirring up a crowd or pressing someone hard	
 s12455	exhortation/encouragement/urging	<hansuah>, urge, with the noun ending <na>: words that stir someone up to act or to stand firm	
 s12456	gravestone/tombstone/headstone	<han>, grave, with <suang>, stone: the stone set on a grave, on which words are written	
@@ -561,7 +561,7 @@ s12579	being stronger/greater strength	<hatzaw>, stronger, with the noun suffix 
 s12580	the stronger one/stronger man	<hatzaw>, stronger, with <pa> marking a man	
 s12581	Hatzaw clan/the Hatzaws	the people of the clan <Hatzaw>	
 s12582	be strong enough/be strong	<hat> strong with <zo>, be able; {a lungsim hatzo nai lote}, those whose mind is not yet strong	
-s12583	rich/wealthy	rich, or as a verb be rich; after a noun it means have much of it, as in {sum hau}, rich in money	
+s12583	rich/wealthy/affluent/moneyed/well-heeled	rich, or as a verb be rich; after a noun it means have much of it, as in {sum hau}, rich in money	
 s12584	be rich/become rich/grow rich	form of <hau>, be rich, used before words such as <ciang>, <nading>, <nop> and <hangin>	
 s12585	to be rich/to become rich	<hauh>, be rich, and <ding> written as one word: to become rich, the becoming rich that is wished for	
 s12586	worth being rich in	<hauh>, the form of <hau>, be rich, used before a suffix, with <huai>, worthy of: worth being rich in	
@@ -602,8 +602,8 @@ s12621	the very richest/richest of all	<hau> and <penpen> written as one word: t
 s12622	the richest/the wealthiest	<haupen>, richest, with the plural <te>: the richest people	
 s12623	Haupi		
 s12624	Hauran	region south of Damascus and east of the Jordan, on the north-eastern border of the land in the vision of Ezekiel	
-s12625	chief/ruler/headman	the head of a village or community, a ruler; {hausa pa} is the chief as a man	
-s12626	rich/wealthy	<hau>, rich, with <sa>, already: being rich; {a hausa-in} is as a rich man	
+s12625	chief/ruler/headman/chieftain	the head of a village or community, a ruler; {hausa pa} is the chief as a man	
+s12626	rich/wealthy/well-to-do	<hau>, rich, with <sa>, already: being rich; {a hausa-in} is as a rich man	
 s12627		Saying: the chief holds the mithun by the tail; said of those who are made use of in a work	
 s12628	village headman/village elders/local leaders	<hausa>, chief, and <upa>, elder: the headman and elders of a village or quarter, the local leadership, also the office of headman itself; stands after <khuasung> or <vengsung> and takes <te> for the persons	
 s12629	chief and elders/village authorities	<hausa>, chief or headman, and <upate>, elders, said as a pair: the headman and the elders of a village as the body that rules it and judges its cases; often after <khua>, village	
@@ -679,7 +679,7 @@ s12699	driving time	<hawl>, drive, and <hun>, time, written as one word, in <sia
 s12700	driving/drive	<hawl>, drive, and <in> written as one word: driving a vehicle, while driving	
 s12701	while driving	<hawl> and <kawm> written as one word: while driving a car or a boat	
 s12702	driver/one who drives	<hawl> and <khat> written as one word after the name of a vehicle: one who drives it, someone driving	
-s12703	drove out/drive out/drive away/cast out/expel/oust/repel	<hawl>, drive, with <khia>, out: force a person, a people or an evil spirit to leave a place	to cause or force someone or something to leave
+s12703	drove out/drive out/drive away/cast out/expel/oust/repel/banish/dislodge	<hawl>, drive, with <khia>, out: force a person, a people or an evil spirit to leave a place	to cause or force someone or something to leave
 s12704	drive off/drive away	after <mawtaw> or the name of another vehicle, set the vehicle moving and leave in it, not force someone out	
 s12705	will drive out/will expel	<hawlkhia>, drive out, with <ding>, will, written as one word; after <ki> it is passive, {ki hawlkhiading}, will be expelled or deported	
 s12706	have driven out/have deported/have dismissed	<hawlkhia> and <khin> written as one word: have already driven out, sent out of a country or dismissed from work	
@@ -717,12 +717,12 @@ s12737	keep distributing/hand out/share out	<hawm>, distribute or share, said tw
 s12738	empty/empty-handed	<hawm>, empty, with the suffix <in>: in an empty state; used as {a hawmin}, empty or with nothing	
 s12739	share/distribute	<hawm>, share out, with the linking suffix {-in}: sharing and then giving	
 s12740	plot together/consult together	<hawm> with <khawm>, together; with <vai>: {vai hawmkhawm}, take counsel together, conspire	
-s12741	distribute/give out/issue/disburse/dispense/dole	<hawm>, share out, with <khia>, out: hand out to many people; also issue a written decree	
+s12741	distribute/give out/issue/disburse/dispense/dole/allot	<hawm>, share out, with <khia>, out: hand out to many people; also issue a written decree	
 s12742	will release/will distribute/to issue	<hawmkhia> and <ding> written as one word: will give out, and of a product or an album, will release	
 s12743	distribute/allot/give out	form of <hawmkhia> used before <uh> and other following words	
 s12744	has been distributed/now released	<hawmkhia>, distribute, with the particle <ta>, now, written as one word and used in headlines: has now been given out or released	
 s12745	to distribute/to be shared out	<hawmkhiat> and <ding> written as one word: will distribute, is to be given out or supplied	
-s12746	distribution/giving out/release	<hawmkhiat>, distribute, with the noun suffix <na>: the giving out of something to many people, as money, water, electricity or news; of a book, its release	
+s12746	distribution/giving out/release/disbursement	<hawmkhiat>, distribute, with the noun suffix <na>: the giving out of something to many people, as money, water, electricity or news; of a book, its release	
 s12747	issued/given out	<hawmkhiat>, give out or issue, with <sa>, already done	
 s12748	plan to release/intend to distribute	<hawmkhiat>, give out, with <sawm>, intend, written as one word: be about to release or distribute a product, a film or the like	
 s12749	consult together/plan together/share	<hawm> and <khop> written as one word, the form of <hawmkhawm> used before <ding> and similar words: with <vai>, take counsel and manage a matter together, share in running it	
@@ -797,7 +797,7 @@ s12822	Hebrews	the Hebrews, the people of Israel, as in {Hebrute’ Pasian}, the
 s12823	hectare	a measure of land, ten thousand square metres	
 s12824	wring/twist	twist round with force, as the head of a bird at its neck or the neck of an enemy	
 s12825	wink	in the compound {mit-heek}, a wink of the eye; {mit-heek pia} is to wink at someone	
-s12826	bind tight/twist tight/grip	<heek>, twist, with <cip>, tightly: wind round and hold fast	
+s12826	bind tight/twist tight/grip/constrict	<heek>, twist, with <cip>, tightly: wind round and hold fast	
 s12827	twist violently/wrench	<heek>, twist, with <gawp>, violently or thoroughly	
 s12828	turner/handle/peg	<heek>, twist or turn, with the noun ending {-na}: a thing that is turned or that turns something, as the tuning peg of a guitar or the handlebar of a cycle	
 s12829	betrayal	<heek> as a spelling of <hek>, betray, with the noun ending {-na}: the betraying of someone; {a heekna sum} is the money for betraying him	
@@ -813,10 +813,10 @@ s12839	Hepher	name of several men, among them a son of Gilead of the tribe of Ma
 s12840	Hephzibah	mother of King Manasseh of Judah, wife of King Hezekiah	
 s12841	Hegai	eunuch of King Xerxes who had charge of the women in the palace at Susa	
 s12842	Heglam	in 1 Chronicles 8:7 another name of Gera of the tribe of Benjamin, father of Uzza and Ahihud; the NIV translates the word instead of giving a name	
-s12843	angry	feeling anger; the person one is angry with is followed by <tungah>	
+s12843	angry/indignant	feeling anger; the person one is angry with is followed by <tungah>	
 s12844	irate		
 s12845	irritate/be angry/get angry	be or become angry with someone; {heh kei in} is do not be angry	
-s12846	quick-tempered/hot-tempered/easily angered	<heh>, angry, with <baih>, easy or quick: quick to become angry	
+s12846	quick-tempered/hot-tempered/easily angered/bad-tempered/ill-tempered	<heh>, angry, with <baih>, easy or quick: quick to become angry	
 s12847	way of being angry/manner of anger	<heh>, angry, and <dan>, manner, written as one word: the way in which someone is angry or shows anger	
 s12848	ha ha	written laughter, as used in messages and comments on the internet	
 s12850	be furious/rage/pour out wrath	<heh>, be angry, with <gawp>, violently: let anger loose on someone	
@@ -833,7 +833,7 @@ s12860	wrath/fury/great anger	<heh>, be angry, with <luat>, too much, and the no
 s12861	be very angry/be furious	<heh> and <mahmah> written as one word: be very angry	
 s12862	angry face/angry look/stern look	<heh>, angry, with <mai>, face	
 s12863	angry look/fierce look	<heh>, angry, with <mel>, appearance; {hehmel a pua} is fierce-looking	
-s12864	anger/wrath/fury/rage	<heh>, be angry, with the noun suffix <na>: anger, wrath, of people and often of God	
+s12864	anger/wrath/fury/rage/angriness/indignation/ire	<heh>, be angry, with the noun suffix <na>: anger, wrath, of people and often of God	
 s12865	wrath/anger	plural of <hehna>, here of the outpourings of the wrath of God held in the bowls	
 s12866	all the anger/full wrath	<hehna>, anger, with <teng>, all: the whole of one’s wrath	
 s12868	comfort/console	soothe a person who is sad or in trouble; the form <hehnep> is used before <nading>, <na> and <bangin>	
@@ -856,7 +856,7 @@ s12884	Jehoahaz	spelling of Jehoahaz in 2 Kings 13:25, king of Israel, son of Je
 s12885	angry man	<heh>, angry, with <pa>, a man: a man who is angry; {galkap a hehpa} is an enraged soldier	
 s12886	have mercy on/pity/have compassion on/commiserate/sympathise	feel and show pity or kindness to someone in need; {hong hehpih in}, have mercy on me, is a common prayer	
 s12887	to pity/to have mercy on	<hehpih>, have mercy on, and <ding> written as one word: to pity, one who is to be pitied	
-s12888	pitiable/pitiful/wretched	<hehpih>, pity, with <huai>, worthy of: deserving pity, wretched; {hehpihhuai sa} means feel compassion for	
+s12888	pitiable/pitiful/wretched/piteous	<hehpih>, pity, with <huai>, worthy of: deserving pity, wretched; {hehpihhuai sa} means feel compassion for	
 s12889	wretchedness/pitiable state	<hehpihhuai>, pitiable, with the noun suffix <na>	
 s12890	poor man/pitiable man	<hehpihhuai>, pitiable, with <pa>, a man: a man who is to be pitied	
 s12891	feel pity/have compassion/take pity/commiserate	<hehpihhuai>, pitiable, with <sa>, consider: find someone pitiable, be moved with compassion	
@@ -894,7 +894,7 @@ s12922	aha/so	cry of mockery or scorn
 s12923	old axe/worn-out axe	<hei>, axe, in the pair {tugabawk heigabawk}, the old hoes and axes that are carried and thrown after the evil spirits when they are driven out of a house; the second part is not explained by the book	
 s12924	hey	a call to get attention or to express surprise or annoyance at the start of what is said	
 s12925	to and fro/round about	expressive word after <kikawi>, of a ship being driven this way and that	
-s12926	turn away/turn aside/pervert/take away/avert/divert	turn something away from its place or right course; of justice, pervert; of the heart, lead astray	
+s12926	turn away/turn aside/pervert/take away/avert/divert/deflect	turn something away from its place or right course; of justice, pervert; of the heart, lead astray	
 s12927	turn away/pervert	form of <heikhia> used before another word such as <sak>; {thutang heikhiat sak} is to turn justice away from someone	
 s12928	perversion/injustice	<heikhiat>, turn away, with the noun suffix <na>; {thuman heikhiatna} is the perverting of justice	
 s12929	pervert/turn aside/thwart	cause to turn away from its course: deny or twist justice, bring wisdom to nothing	
@@ -955,7 +955,7 @@ s12983	Helkath	town on the border of the territory of Asher, given to the Levite
 s12984	Helkath Hazzurim	place at Gibeon where twelve men of Abner and twelve men of Joab killed one another	
 s12985	be included/be mixed in/be involved	<hel>, mix in, and <kha>, happen to, written as one word; nearly always after <ki>: come to be included in a group, or get mixed into something	
 s12986	get involved/be mixed up in	<hel>, mix in, with <khak>, happen to, used after <ki>: happen to be drawn into or mixed up in something	
-s12987	mix together/mingle/blend/commingle/mix	<hel>, mix, and <khawm>, together, written as one word: mix things into one	
+s12987	mix together/mingle/blend/commingle/mix/admix	<hel>, mix, and <khawm>, together, written as one word: mix things into one	
 s12988	mixing together	<hel>, mix, with <khawm>, together, and the linking ending <in>: mixing things together and then doing the next action	
 s12989	hell/Hades	loanword from English hell, the place of punishment after death; often {hell khuk}, the pit of hell	
 s12990	hell/Hades	<hell> written with a capital; {Hell khuksung} is the pit of hell, and in Revelation Hell follows the rider named Death	
@@ -1030,7 +1030,7 @@ s13058	remove/put away/take away	<hep>, remove, with <khiat>, out: take a person
 s13059	way of removing/manner of removal	<hepkhiat> and <dan> written as one word: the way in which a thing is taken away	
 s13060	will be removed/to remove	<hepkhiat>, remove, and the future marker <ding> written as one word: to be removed, will remove or clear away	
 s13061	not remove/not be removed	<hepkhiat>, remove or move out, and the negative <loh> written as one word: not removed; {ki hepkhiatloh phamawh} is they must be moved out	
-s13062	removal/taking away/clearing out/riddance	<hepkhiat>, remove, with the noun suffix {-na}: the removing of a thing or the sending away of people	
+s13062	removal/taking away/clearing out/riddance/evacuation	<hepkhiat>, remove, with the noun suffix {-na}: the removing of a thing or the sending away of people	
 s13063	take away/remove	<hepkhiat>, remove, with <sak>: take something away from a person, or remove it for him	
 s13064	removing/having removed	<hepkhiatsak>, remove, with the linking ending <in>: having removed something and then doing the next action	
 s13065	can be removed/can be evacuated	<hepkhiat> and <theih> written as one word, used before <nading>: so that people can be moved out or a thing can be taken away	
@@ -1214,7 +1214,7 @@ s13245	let it be/may it be/amen	<hi>, be, and <hen>, let, written as one word: l
 s13246	be at all	<hi>, be, and <het>, at all, written as one word and always followed by <lo> or <kei>: {hihet lo hi} is it is not at all so	
 s13247	be not at all/be by no means	<hi>, be, with <hetlo>, not at all, written as one word: it is not that at all	
 s13248	in this country/this country	<hih>, this, and <gamsung>, land, written as one word, usually before <ah>: in this country	
-s13249	attack/assault/treat violently	<hih>, do, with <gawp>, roughly or violently: fall upon someone, treat with violence	
+s13249	attack/assault/treat violently/mistreat	<hih>, do, with <gawp>, roughly or violently: fall upon someone, treat with violence	
 s13250	because of this/because it is/although it is	<hih> and <hang>, reason, written as one word. {Hihhang in} is because of this; {a hihhang}, with <hih> the form of <hi>, be, is because it is so or although it is so, and alone it opens a sentence as even so	
 s13251	however/although/even though	the form <hih> of the verb be with <hangin>, written as one word after <a> or <na>: {a hihhangin} is although it is so, however, and {na hihhangin} is although you are	
 s13253	this time/this period	<hih>, this, and <hun>, time, written as one word; {hihhun sungah} is during this time	
@@ -1368,7 +1368,7 @@ s13404		<hi>, be, with <leuleu>, in turn, written as one word: is in its turn, i
 s13405	teach/instruct/advise	teach or instruct someone, show how a thing is done	
 s13406	teach	<hilh> teach with the linking <a> before <kinei>, as {thugen-a kinei} in the same verse: be trying to teach	
 s13407	admonish/warn/instruct	<hilh>, teach, with <bawl>, do: treat someone by instructing or warning him	
-s13408	explain/expound/make clear	<hilh>, teach, with <cian>, clearly: explain a matter fully so that it is understood; of the Bible, expound	
+s13408	explain/expound/make clear/explicate	<hilh>, teach, with <cian>, clearly: explain a matter fully so that it is understood; of the Bible, expound	
 s13409	explanation/clarification	<hilh>, teach, with <cian>, clearly, and the noun ending {-na}: an explanation that makes a matter clear	
 s13410	to teach/will instruct	<hilh> and <ding> written as one word: will teach or instruct, in order to teach	
 s13411	alongside/parallel	follows <paikhawm> go together, said of a wall that runs along a row of rooms; exact meaning not certain	
