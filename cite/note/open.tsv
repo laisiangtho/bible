@@ -1021,6 +1021,7 @@ editor	Hovadiah		1 Chronicles 9:7 only; the NIV has Hodaviah, so the keyword loo
 editor	Huh		type v with a capital; only John 16:7 has the capital inside a sentence, as hong Huh ding pa, the other occurrences are sentence-initial huh
 editor	Humpite		plural of humpi at the start of a sentence, but has no b; base humpi expected
 editor	Humtah		confirmed c is land, but Joshua 15:54 lists it among the towns of Judah
+editor	Hupa		Hupa.1: every sentence has lowercase hupa, which is hupa.1; this capitalised sense duplicates it
 editor	Huram		NIV spells the king of Tyre Hiram in 2 Chronicles 2; the row covers several men
 editor	Hushan		NIV has Hushathite; w given as Hushah, as in row 2745
 editor	Hushim		c is male only; the name is also that of a woman, a wife of Shaharaim, in 1 Chronicles 8:8 and 8:11
@@ -1197,6 +1198,8 @@ editor	Khitlish		c:land, but Joshua 15:40 lists it as a town of Judah; NIV spell
 editor	Khuabul		Khuabul Kulh kongpi is the NIV Foundation Gate, a translated gate name rather than a transliterated name
 editor	Khuabul		not a proper name: Khuabul Kulhkongpi is the Foundation Gate (2 Chronicles 23:5); common word meaning foundation; w left unchanged
 editor	Kideih		occurs only in a section heading appended to Song of Solomon 7:5; no lowercase kideih row found in the data
+editor	Kiginkholhna		Kiginkholhna.1: the capitalised sense duplicates the lowercase word; the one unstored capitalised sentence is unclear
+editor	Kikaihkhopna		Kikaihkhopna.1: the capital form occurs only in Kikaihkhopna Kongpi, Nehemiah 3.31, which is stored; other uses belong to kikaihkhopna.1, which this sense seems to duplicate apart from the gate name
 editor	Kikhenna		name only in Kikhenna Mual, NIV Sela Hammahlekoth, 9.23.28; elsewhere a common word, divorce or parting, 41.10.4; w left unchanged
 editor	Kikhenna		row 9289 is a translated place name, Kikhenna Mual, for NIV Sela Hammahlekoth in 1 Samuel 23:28; the capitalised word in Mark 10:4 and Luke 12:51 is the common noun kikhenna at the start of a sentence
 editor	Kiliansakin		not a name: sentence-initial common word, proudly, Jeremiah 48:29; row left unchanged
@@ -1240,6 +1243,7 @@ editor	Lamlian		occurs only inside Kumpipa' Lamlian, the King's Highway (Numbers
 editor	Lamlian		part of Kumpipa' Lamlian, the King's Highway; common word lamlian, highway
 editor	Lampi		Matthew 12:19 has capitalised Lampi for plain "streets", probably a capitalisation slip in the text
 editor	Lano		typed n with a capital keyword, only sentence-initial or verse-line capitalisation of lano; same for Lapi, Launa, Lauthawngna
+editor	Lawmpa		Lawmpa.1: the capital appears only at the start of a sentence, as ordinary lawmpa, friend; the sense duplicates lawmpa.1
 editor	Lebanah		same family head as Lebana, Ezra 2.45 and Nehemiah 7.48; the two rows could be linked as spellings
 editor	Lebaoth		confirmed c:land, but Joshua 15.32 lists it among the towns of Judah; c:city added beside it, land should probably go
 editor	Leenggahsukna		not a name: leenggah sukna, winepress, capitalised only in Zeeb Leenggahsukna, Judges 7:25
@@ -1251,6 +1255,7 @@ editor	Lethusim		c is male but the verse lists a people descended from Dedan, NI
 editor	Leummim		c is male but NIV has a people, Leummites
 editor	Leummim		c is male, but the verse names a people, the Leummites, descendants of Dedan; people was added beside male, male should probably be removed
 editor	Levite		the keyword is Levi with the plural te, Levites; in most verses the text writes Levi mite instead
+editor	Lianpente		Lianpente.1: every sentence has lowercase lianpente, which is lianpente.1; this capitalised sense duplicates it
 editor	Libnah		c is land, but the verses show a camp site and a town
 editor	Libnah		category is land, but both places of this name are a camping place and a town; city or place would fit better
 editor	Likaonia		NIV in the listed verses has the adjective Lycaonian; w given as Lycaonia/Lycaonian
@@ -1457,6 +1462,7 @@ editor	Perez		the type land does not fit Perez mite, a people; Perez is also the
 editor	Perez		w Rephaim and c land do not fit: Perez is a man in 1 Chronicles 2:5, Perez mite is NIV Perizzites in Genesis 15:20; no r added
 editor	Persian		the keyword does not occur in the Bible text; the row with category land has nothing to support it
 editor	Phat		not a verb sense of its own: it stands only in section headings of the Song of Songs that are joined to the verse text
+editor	Phul		Phul.1: the other sentences have lowercase phul, which is phul.1; the capital form is only sentence-initial and duplicates phul.1
 editor	Piangsak		occurs only in a Piangsak pa, the Creator; may be better kept as a noun phrase than as a verb row
 editor	Piha		Zolai text has Piha, NIV Pilha
 editor	Pisgal		looks like a misprint in the Bible text for Pisgah; could be a variant or redirect rather than its own name row
@@ -1660,6 +1666,7 @@ editor	Tiz		NIV has only the gentilic Tizite; w left unchanged
 editor	To		occurs only as the first part of the hyphenated name To-i, To-u, NIV Tou; a redirect to the full name may suit better than a name row
 editor	Toi		NIV reads Tou, KJV Toi; w set to Tou
 editor	Tolef		Deuteronomy 1.1 has Tofel in the other text; Tolef looks like a transposed spelling of Tofel and could be a variant of that row
+editor	Topaz		Topaz.1: the capitalised form occurs only in 18.28.19, already stored; the lowercase verses belong to topaz.1, which duplicates this sense
 editor	Tuakna		part of a section heading run into the end of Song of Solomon 7:5, not verse text
 editor	Tuani		typed n, that day; the existing lowercase row tuani is typed pron
 editor	Tuipeekpa		common noun, swimmer, capitalised only at the start of the sentence in Isaiah 25:11
@@ -1745,6 +1752,7 @@ editor	adei		Jeremiah 36.10 adei tungnunga matches NIV upper courtyard, so adei 
 editor	ahia		part row: the keyword does not occur in the Bible text, no example could be added
 editor	ahiam		not found as one word in the Bible text except as the name Ahiam; the text writes ahi hiam
 editor	ahiam		part row: the Bible text has only the name Ahiam, no verse for the particle, so no example could be added
+editor	ahih		ahih.2: sense looks wrong; ahih is a hih, the nominal or clause form of hi, being or since it is, and no sentence shows a noun meaning task
 editor	ahih		n row with w task: no verse shows this sense; in Romans 15.28 the word is the conjunction tua ahih ciangin, the alignment with task looks accidental
 editor	ahih		no verse shows the meaning task; ahih is the form of hi, be, used before ciangin, leh, manin
 editor	ahihkhak		the listed base hihkhak has a row built on hih, do; here the word is hi, be, with khak, so b was left out
@@ -1790,6 +1798,7 @@ editor	anteh		Hebrews 6:7 "anteh an-gah" used for crops in general
 editor	antehna		base anteh is the keyword for vegetables; the word is built from an, grain, and teh, measure
 editor	anvai		example added from Job 41:28 without translation, the phrase them tu was not understood
 editor	anvui		vui is taken as ear of grain; the only existing row for vui is the verb bury
+editor	apang		apang.1: no sentence shows aside; the sentences show ma apang, take the lead or contribute, as apang.3; the sense has no definition and looks doubtful
 editor	arah		lowercase form occurs only inside the hyphenated name Na-arah; the other verses have the capitalised man's name Arah; left as todo, needs a redirect to Na-arah and a name row under Arah
 editor	arba		lowercase form occurs only inside the hyphenated place name Kiriath-arba; Joshua 14:15 and 21:11 have the capitalised man's name Arba; left as todo, needs a redirect to Kiriath-arba and a name row under Arba
 editor	asangna-ah		the niv line shown does not match; the Tedim clause corresponds to Psalms 92:8, exalted for ever
@@ -1888,6 +1897,7 @@ editor	bomah		lamka bomah, at the crossroads; not certain that this bom is the s
 editor	bomah		written lamka bomah in the text, while the lexicon has kabom, crossroads; the division may be lam kabom-ah, so the base bom, cluster, is doubtful
 editor	bu		the verses also use bu as a noun, nest, as in Proverbs 27.8, Job 39.27 and Psalms 104.17; there is no noun row for that sense
 editor	buah		John 4.9 in the second text has buah tang uh, of Jews keeping apart from Samaritans, a different sense not covered by this row
+editor	buaisakna		buaisakna.2: every sentence shows sedition or attacks by militants and terrorists, which is buaisakna.1, not harassment of a person
 editor	buang		function varies: lo buang except, kei buang leh unless, emphatic after a verb; one row only
 editor	buangawpin		Judges 20:5; the meaning rape is plain from the verse, the base buan is not confirmed
 editor	buangin		buang after lo or kei means except, unless; the positive use in Joshua 15.19 and Mark 14.19 is uncertain
@@ -1982,6 +1992,7 @@ editor	dan		row with (t:adv) (w:like): no verse shows dan alone as an adverb mea
 editor	dan		the confirmed adverb row with w like has no verse where dan alone means like; the text only has bang danin
 editor	dangte		the confirmed row with w extra has no supporting verse found
 editor	dante		19.88.15 nangma dante seems to be dan in the sense of punishment, usually written daan; possible spelling variant in the text
+editor	dante		dante.2: no further sentence shows punishments or terrors; the rest mean ways or manners
 editor	dau		found only in the expression dau pai prosper; word class and bare meaning of dau are a guess
 editor	dawna		b:dawn points to dawn, whose existing rows are "drink" and "meet"; dawn needs a noun row "top, tip"; type could also be prep, on top of
 editor	dawnin		the answer sense is dawn', second form of dawng, printed without apostrophe in 2 Chronicles 10:13
@@ -2084,6 +2095,7 @@ editor	gamta		every verse uses gamta as a verb (act, do); noun sense "motion" no
 editor	gamta		row (t:n) (w:motion): no verse shows gamta as a noun meaning motion; in Romans 7:5 (kjv motions) gamta-in is the verb, to live or act
 editor	gamta		row with w motion, type n, has no supporting verse; in the verses gamta is always the verb act
 editor	gamtaang		row (t:v) (w:stir): neither verse (Genesis 1:28, Job 37:7) shows the meaning stir
+editor	gamtang		gamtang.3: motion duplicates gamtang.2 movement; the noun sentences are given there
 editor	gamtang		rows (t:n) (w:movement) and (t:n) (w:motion): the verses only show gamtang as a verb or modifier (move, moving); no noun use was found
 editor	gamtang		rows of type n, movement and motion, have no supporting verse; the verses show only the verb or adjective use, move, moving
 editor	gamtateng		type v, but the form is gamta with teng, all who act, and works as a noun like gamtate
@@ -2181,6 +2193,7 @@ editor	hanthotna		type v but the form in -na is a noun, encouragement or exhorta
 editor	hauin		hu hauin in Psalms 106:32 is an idiom not understood; not hau rich
 editor	hausa		chief sense and rich sense, hau with sa, are separate words; Job 27:19 also prints hau sa apart
 editor	hausapa		"extremely rich" is not shown by any verse; hausapa is the chief or ruler in every verse found (Acts 28:7, Luke 18:23, Luke 19:15)
+editor	hausapa		hausapa.2: hausapa is the chief or ruler; in 42.18.23 the ruler is rich, but the word itself does not mean extremely rich, so the sense looks wrong
 editor	hausapa		second row, extremely rich: the verses found, Luke 18:23, Luke 19:15 and Acts 28:7, all use the word for a chief or ruler; no verse shows the sense rich
 editor	hawhkhit		John 6:19 only; the other Tedim text has hot khit here, row a boat, so hawhkhit may be a spelling of hot, row, and not built on hawh, visit
 editor	hawhkhit		gunkuang hawh in John 6:19 seems to mean go by boat or row, a sense the hawh row lacks
@@ -2265,6 +2278,7 @@ editor	honna		the row for watching has b hon, but the verses point to hong, guar
 editor	honna		watching sense, lo honna buk and honna ding tausang, linked to hon in b although hon has no guard or watch row yet
 editor	honzo		Jeremiah 31:22; Tedim seems to follow the reading a woman protects a man, NIV differs
 editor	hop		taken as the form of hawm, share out; Romans 12:8 has hop and hawm side by side
+editor	hosanna		hosanna.1: the sense has no gloss and its stored examples translate it as comma, which looks wrong for the word; the sentences show only the exclamation Hosanna
 editor	hot		base ho suggested by spelling was not used; second sense save or rescue is from verses outside the chunk, Zechariah 9:16 and Jeremiah 2:28, and may be a form of hon
 editor	hu		also occurs as a verb, defend or shield, in Genesis 15:1, 2 Samuel 23:12 and Isaiah 38:6; there is no row for that sense
 editor	hua		Psalms 9:12 has mi thahna a hua-pa for he who avenges blood, a use not covered by the senses that, yonder and hate
@@ -2298,6 +2312,7 @@ editor	in		the only row describes place or time; the most frequent use, marking 
 editor	inkipsakna		suspected misprint for in kipsakna in Exodus 29:22
 editor	inling		suspected misprint for in ling in Genesis 3:18
 editor	inmi		suspected misprint for in mi in Genesis 6:3
+editor	inn		inn.2: no sentence uses inn for an institution; both stored examples show a house of God, a temple, so the sense looks wrong
 editor	inn		the main sense house or building has no row of its own; the second row has only the term institution and no verse clearly supports it
 editor	inn		the term institution is not shown by the verses; the examples of that row are the house of a god, a temple
 editor	innhikpi		Leviticus 11:29 is the only verse; NIV has great lizard, KJV tortoise; chameleon is not shown
@@ -2364,6 +2379,7 @@ editor	kansak		two words: dry up, a variant of kangsak, Joshua 4:23 has both spe
 editor	kansakna		belongs to the dry up sense of kansak, a variant of kangsak
 editor	kantanin		"covering" not shown in any verse
 editor	kantanin		"fly" is leeng in Gen 1:20 (vantung kan tanin ... leeng); kantanin itself is "across, crossing"
+editor	kantanin		kantanin.3: no sentence shows kantanin as fly; in Genesis 1.20 it means across the sky and the flying is leeng, so the sense may be wrong
 editor	kantanin		prep row: 'covering' is not a meaning shown by the text; 1 Kings 6:21 means stretched across the front, and Psalms 84:6 kantanin is passing through (the English 'cover' there renders another word)
 editor	kantanin		row 6881, type prep with w covering: the only verse found, 1 Kings 6:21, has chains stretched across the front of the inner sanctuary; across fits better than covering
 editor	kantanin		row 6882, type v with w fly: in Genesis 1:20 the flying is expressed by leeng; kantanin there means across the sky, the same sense as the adv row
@@ -2396,6 +2412,7 @@ editor	kelmul		Tedim reads goat hair where NIV has eagle feathers
 editor	kem		row with w:store/place: no verse shows kem as place; the verses show keep in store, keep in one's charge
 editor	kem		second row, store or place: no verse found with the plain sense store; the examples added show keep by one and have in charge
 editor	ken		besides I in Amos 8:2 the verses have ken hawm, hole in the ground, in Hebrews 11:38, mo-ken, bridal gift, in Genesis 30:20 and a ken’ uh, what they brought along, in Exodus 12:39, which have no rows
+editor	keng		keng.2: the sense has no gloss and its stored example is the negative keng of keng.3, so it looks like a duplicate of keng.3
 editor	kepte		pearls, Revelation 18:12 and 18:16; not from kep keep, so no base is given
 editor	keuhkeuh		ideophone after a verb, seen with taak and liingsak only; the wording of d is a guess
 editor	keute		cups sense rests on Jeremiah 35:5 and Isaiah 22:24 only; a singular keu meaning cup is not confirmed, so no base given for that row
@@ -2421,6 +2438,7 @@ editor	khakna		mangpha khakna in Genesis 31:28 looks like a different khak, bid 
 editor	khaknelh		Job 6:16 nin a khaknelh vuk, snow blocked or darkened with dirt, not covered by the row
 editor	khaksate		Ephesians 3:3 khak seems to be send, a different word from khak shut in khaksa of Revelation 3:7; b left out.
 editor	khal		zawn’khal in 2 Corinthians 6:4, hardship, is a compound not covered by the row
+editor	khalai		khalai.2: the only sentence showing mid-month, zd:20518 and its duplicate zd:20543, is already stored
 editor	khalhnelh		probably a misprint of khaknelh: Job 6:16 reads khaknelh in the other Tedim text
 editor	khalna		zawn' khalna in 2 Corinthians 8:2 and 12:8 belongs with zawngkhal, be destitute, not with khal, discipline; in 12:8 it stands for the thorn, hardship
 editor	khalsidoni		transliteration of chalcedony; NIV has agate in the same verse.
@@ -2462,6 +2480,7 @@ editor	khawh		besides farm and cultivate, khawh is also a verb meaning thrust or
 editor	khawhcip		from khawh, thrust a spear, a homograph of the existing khawh, farm; b left out for that reason
 editor	khawhin		khawh here is throw or thrust, a homograph of khawh farm; b left out. Same khawh in khawhkha and khawhcip.
 editor	khawl		confirmed term accompany is not supported by the verses: in all occurrences checked khawl means stop, rest or stay, as in Genesis 19:17, Numbers 10:12, 2 Kings 5:9; row left unchanged, no examples added
+editor	khawl		khawl.1: the sense accompany looks wrong; every sentence shows khawl.2, stop or rest
 editor	khawl		the verses show khawl as stop, rest or stay; accompany is not found as a meaning, so no example was added
 editor	khawl		w is accompany, but the verses use khawl as stop, rest
 editor	khawlcip		base khawl has only the row accompany; the verses show khawl as stop, rest, so the base row needs that sense
@@ -2492,6 +2511,7 @@ editor	khiakhin		khia here is the verb put in, drop in; the existing khia rows a
 editor	khiakik		the parallel text of 30.7.8 has khiamkik; khiakik may be a misprint of it
 editor	khiasuk		base khia is used as a verb let go or drop; the existing rows for khia only have the adverbs out and away
 editor	khiathei		khia here is the form of khiat, interpret a dream, not khia, out, so no b set
+editor	khiatna		khiatna.2: the sense looks wrong, an adjective glossed definition; the sentences show khiatna.1, meaning
 editor	khiatna		the row of type adj with w definition looks like a noun sense, the same word as the n row meaning; type to be checked
 editor	khiatna		typed adj with w definition, a noun
 editor	khiatsak		first row is khiat interpret plus sak; b left out because the existing khiat rows only give out, away and drop
@@ -2517,6 +2537,7 @@ editor	khongin		base khong not given because khong alone may be a different part
 editor	khongkhai		only in khongkhai siamte and khongkhai theite, astrologers or enchanters; the art itself is not clear
 editor	khongkhakah		same verse has kongkhak for door; khongkhak looks like a spelling variant or misprint of kongkhak
 editor	khopa		both confirmed rows describe a marker or particle, but in every verse khopa is kho, farm, with pa, the man who: lo khopa is a farmer, Genesis 4:2, Proverbs 28:19; the example a kipat khopa is not found in the text
+editor	khopa		khopa.2: the sense looks wrong; the verses have lo khopa, ploughman, from kho, plough, and pa, man, not a past-tense particle
 editor	khopa		no verse supports a past tense particle; the example a kipat khopa is not in the Bible text
 editor	khopa		verses show lo khopa as the one who works the land, farmer or tiller, kho plus pa, not a postpositional marker
 editor	khote		Proverbs 23:30 a tut khote, those who linger over wine, looks like a different kho, firm or lasting; sense left out
@@ -2667,6 +2688,7 @@ editor	kikhuang		stretch oneself out on, 2 Kings 4:34-35; unrelated to khuang, d
 editor	kikhung		base khung has no described row and its meaning is unclear, b left out; the army sense, draw up in line, rests on 1 Samuel 17:2 only
 editor	kikinah		may be kik with in-ah rather than kikin with ah; meaning again is clear from both verses
 editor	kikingkalh		left as todo
+editor	kikni		kikni.2: no sentence shows a meaning day again; every sentence has kik with ending ni, let us, so the sense looks wrong
 editor	kikoihdak		koihdak has no row; Haggai 1:9 has koihdakna of the temple left in ruins, so the sense left or neglected is inferred
 editor	kikokona-in		typed n but the keyword carries the suffix in and is used adverbially, by or from crying out
 editor	kikpa		kik with pa after a verb, a puah kikpa; may be better treated as two suffixes than as a headword
@@ -2846,6 +2868,7 @@ editor	kithukkim		Isaiah 27:8 only; NIV does not match the Tedim wording, meanin
 editor	kito		three verses, three uses: dressed stone, hills made low, chariots in Nahum 2.4; the Nahum row may instead be jostle or clash, compare kitotna
 editor	kitom		verb sense writhe or struggle rests on two verses; in Leviticus 11:22 kauphe kitom is a kind of locust, exact species unknown
 editor	kitomsakin		Lamentations 5:13; not the same word as kitomsak be shortened, sense of tom here not confirmed
+editor	kitu		kitu.2: no sentence clearly shows fighting; Ak kitu may as well be a hen sitting on eggs, so the sense itself is doubtful
 editor	kituah		Ezekiel 19:13 "leenggui kituah hi" is rendered "planted" in the NIV; possibly a misprint for kituh, or a third sense not drafted
 editor	kituahmang		the verse 24.50.37 reads kituahmang sak hen; the row has the form without sak
 editor	kituak		the verses also use kituak for meet, come upon, with tawh, 2.5.20, 9.9.11, 41.14.13; no row carries that sense
@@ -2860,6 +2883,7 @@ editor	kitung		three unrelated uses in five verses: arrive as far as, Jeremiah 4
 editor	kitut		read as the causative of tung arrive, be brought or delivered; not from tut sit, so b left out
 editor	kiuhkeuh		Song of Solomon 5:13 thawlsan kiuhkeuh and Psalms 92:14 tui kiuhkeuh-in are not covered well by thoroughly; possibly full or brimming
 editor	kiukiau		Ezekiel 1:22; unclear whether it describes the shine or the arched shape
+editor	kiukiau		kiukiau.1: Ezekiel 1:22, already stored, is the only sentence; elsewhere kiukiau means a little, so sparkling is doubtful
 editor	kivak		no b given: the feeding verb is written vaak in Leviticus 25:35, existing vak rows are "light" and "open"; kivak also occurs as "be lit, burn" of a lamp in Leviticus 24:2, sense left out
 editor	kiveei		appears to be a spelling variant of kivei in Psalms 18.7 of the other text, not a separate word
 editor	kivei		b not given: the existing vei row is the noun time, not the verb wave
@@ -2972,6 +2996,8 @@ editor	lamdangsakna		confirmed w spectacle fits Nahum 3:6 only loosely; the vers
 editor	lamdung		meaning along the road, street taken from Proverbs 7 and 8 only; the align data is weak
 editor	lamen		lamet looks like the form of lamen used before leh, loh, ding and na, but the lamet row carries no b
 editor	lamkhial		in 19.101.3 used of people who go astray, NIV faithless; rows misroute and veer left without reference
+editor	lamkhial		lamkhial.2: no sentence shows a sense distinct from lamkhial.1 take the wrong road; looks like a duplicate
+editor	lamkhial		lamkhial.3: no sentence shows veer as distinct from lamkhial.1 take the wrong road; looks like a duplicate
 editor	lamkhial		lowercase form found in no verse; the only verse, Psalms 101:3, has Lamkhial or Lam khial, and the confirmed terms misroute and veer have no verse support
 editor	lamlah		drafted as verb; also used as a noun, guidance, in 1 Chronicles 10:13
 editor	lamna		dancing sense belongs to laam, dance, written lamna in Exodus 32:19; b given only on the building row
@@ -3010,6 +3036,7 @@ editor	lawnna		b:lawn points to the throw and touch forms alike; the sense here 
 editor	lawtkhia		b is set to lawt, which has no described row yet; the meaning of lawt alone was not checked
 editor	lazo		b points to la, whose only existing row is the marker, not the verb la, take
 editor	le-tongte		only the tail of the hyphenated word zia-le-tongte, ways and manners; a redirect row to the full word may be better
+editor	lecin		lecin.2: the sense looks wrong; the stored example and every sentence show lecin.1, if, not an emphatic particle
 editor	lecin		row of type part: every Bible occurrence is the conditional if you, the sense of the conj row; no verse shows a separate emphatic particle, so no example was added
 editor	lecin		the part row has no reference; in the verses lecin is always the conditional if you, and the example nasem lecin hoih ding hi also reads as a condition
 editor	leeggahzu		occurs once, 2 Chronicles 31.5, and looks like a misprint of leenggahzu rather than a separate word
@@ -3024,9 +3051,11 @@ editor	lehbuk		suspected misprint: leh buk written as one word in Exodus 39:40
 editor	lehna		suspected misprint: leh na written as one word in Isaiah 47:10
 editor	leibatna		occurs only in leibatna pa or leibatna-pa, creditor; gloss of the bare noun is inferred
 editor	leihawmpi		confirmed sense corruption, r 19.16.10: the verse and Psalms 49:8 and Jonah 2:6 have the capitalised Leihawmpi, the Pit or grave where the body decays; the NIV word decay is a free rendering, so corruption may not be the meaning of the word itself
+editor	leihawmpi		leihawmpi.2: the remaining verses, Psalms 16:10 and 49:8, show the sense corruption; the split between the two senses is doubtful
 editor	leihawmpi		written with a capital, Leihawmpi, in the text and means the Pit or decay, 19.16.10
 editor	leilakah		confirmed as n the ground, but the form is leilak with the place marker ah, on the ground; type adv or phrase may fit better
 editor	leina		b points to lei buy; the existing lei rows only give land and soil
+editor	leinuai		leinuai.2: no sentence uses leinuai as a noun for a subway; it means underground, and the sense looks doubtful
 editor	leinuai		the row of type n with w subway has no Bible verse to support it; the Bible noun use is the capitalised Leinuai, realm of the dead
 editor	leinuai		w subway is not found in the Bible text
 editor	leinuaite		confirmed as adv underground, but its only verse, 5.32.22, has Leinuaite’ gam, a noun with the possessive, the land of those below; duplicates the draft row Leinuaite
@@ -3078,6 +3107,7 @@ editor	linlian		meaning not clear: Revelation 21:16 a pang kikim linlian, laid o
 editor	liuliau		existing example reads Kisuanna nei hetloin om ~ inla, which is in neither Bible text of Proverbs 4:25; the texts have Kisuan’na nei loin om liuliau in la
 editor	lo-ruhamah		proper name Lo-Ruhamah, female, Hosea 1:8; the keyword came in lowercase so a name row fails E17; a row Lo-ruhamah already exists, this keyword should be merged into it
 editor	lokhawh		confirmed as type part, particle prefixed to form nouns; in Luke 20:16, lokhawh lawhte, and in lokhawhna it is the verb lokhawh, work the fields, so the type looks wrong
+editor	lokhawh		lokhawh.1: the sense particle prefixed to form nouns looks wrong; lokhawh is the noun farming, sense 2
 editor	lokhawh		occurs once, 42.20.16 lokhawh lawhte, tenants; looks like a verb stem of lokho rather than a particle
 editor	lokhopa		the one-word form does not occur in the Bible text; Isaiah 28:24 writes Lo khopa as two words
 editor	long		Exodus 28:34 only, kham long rendered as gold bell from the NIV; the word itself is not confirmed
@@ -3090,6 +3120,7 @@ editor	luai		three uses that may be separate words: palanquin in Song of Solomon
 editor	luak		b:lua on the noun vomit follows the existing lua row vomit; the verb luak khia, scoop out ashes, in Numbers 4:13 may be a separate word
 editor	luakkhiat		base is given as luakkhia, whose row means remove or scoop out ashes; the verses of luakkhiat mean vomit out, so the base may rather be luakhia or luak, vomit
 editor	luang		the two confirmed rows cover only the verb flow, stream; the verses also show luang as a noun, body or corpse, as in Zeisu’ luang a ngen hi, Luke 23:52 and 24:3, which has no row
+editor	luangin		luangin.2: every sentence has luangin as flowing, of tears or blood; none shows on behalf of, and the sense looks doubtful for the word
 editor	luangluangin		bai luangluangin is limping; unrelated to the existing row luangluang keep flowing, so b not set
 editor	luangsakgawp		NIV line of Zechariah 9:15 does not match the Tedim wording; sense taken from the Tedim text alone
 editor	luangte		the bodies sense is from luang, dead body, which has no row yet; existing rows of luang cover only flow
@@ -3178,6 +3209,7 @@ editor	mangsa		b omitted: existing row for mang is only obey; mang needs a sense
 editor	mangsak		base is mang vanish, be lost, which has no row yet, the existing mang row is obey; b left out
 editor	mangte		a further sense has no row: a mangte, the lost ones, of sheep, in 26.34.4 and 26.34.16
 editor	mangza-ah		mangza has no row; the phrase is authority with the place marker ah
+editor	manin		manin.2: sense looks wrong; every sentence shows manin as because, after a clause, and none shows as of
 editor	manin		row with w as of has no example or reference and the sense could not be found in the verses; a manin in 11.15.11 and 26.34.16 means rightly, from man true
 editor	manin		the row with only the term as of has no verse showing that meaning; in the verses manin is the conjunction because, or man seize or true with in
 editor	mankhawm		built on man seize, a sense missing from the existing man rows; the Tedim verse treats Obededom as a person seized, unlike the NIV
@@ -3203,6 +3235,7 @@ editor	mawhbaang		found only with lo in the verses, mawhbaang lo innocent; the m
 editor	mawhkha		Tedim wording of Proverbs 5:16 differs from the NIV; sense taken from the parts mawh and kha
 editor	mawhnei		row with w wrongdoer, 1 Samuel 15:18: mawhnei stands before Amalekte like an adjective, sinful Amalekites; type n may need review
 editor	mawhneite		confirmed row with w wickedness, Job 34:26: the Tedim text says God punishes mawhneite, sinners; wickedness comes from the NIV wording, not from the word
+editor	mawhneite		mawhneite.1: the sense wickedness looks wrong; mawhneite is sinners, the plural of mawhnei, as in every sentence and in the stored example
 editor	mawhneite		w:wickedness is not a meaning of the keyword; mawhneite are the sinners or wicked people, NIV only rewords Job 34:26 as for their wickedness, and in Proverbs 13:6 wickedness translates gitlohna
 editor	mawhneite		wickedness comes only from the NIV wording of Job 34:26; the Tedim word means sinners there
 editor	mawkte		type doubtful: mawk with plural te closing a clause, those who do so idly; listed as n
@@ -3218,6 +3251,7 @@ editor	meikang		Psalms 118:12 lingkung meikang, burning thorns, differs from the
 editor	meikang		the existing example of the noun row has the keyword twice and reads tang ding where the verse has tangding
 editor	meikuang		confirmed row of type v, flame: in the verses meikuang is a noun, flame or fire, or stands before a noun as in meikuang namsau; no clear verb use found
 editor	meite		most verses show mei as tail, the existing mei row is only fire; mei needs a tail sense
+editor	meltheih		meltheih.2: the sentences pair meltheih with tanau, relatives, so meltheih itself means acquaintance, sense 1; relative looks wrong
 editor	meltheih		row with w familiarity: the only other verse, 48.4.9, uses meltheih as a verb, know, be known; row with w relative has no supporting verse
 editor	mengin		meng here is sprout, not the adverb quickly of the existing row; b left out. The row for meng lacks this sense
 editor	mengkhia		meng sprout with khia; existing meng row has only quickly, b left out
@@ -3235,10 +3269,12 @@ editor	mikhialte		confirmed as falsehoods, but in Psalms 26:4 the word names peo
 editor	miminthang		type adj with the noun term celebrity; type n or the term famous may be meant; not in the Bible text
 editor	minam		confirmed rows have w:native and w:ethics; verses use minam for nation or tribe, so no row could be used as synonym of mipawl
 editor	minam		ethics is not shown by any verse; the keyword means nation, tribe or people
+editor	minam		minam.2: no sentence uses minam to mean ethics; the sense looks wrong for the word
 editor	minam		the two confirmed rows give native and ethics; in the verses minam is nation, people or tribe, as in Efraim minam, the tribe of Ephraim, and minam tampite, many nations; a row for that sense is missing and ethics may be meant as ethnic group
 editor	minam		w is ethics; possibly ethnic intended, the verses show nation and tribe
 editor	minamdang		confirmed as foreigner and immigrant; in Deuteronomy 4:34 and Zechariah 12:3 it means another nation, other nations; no example added for that reason
 editor	minamdang		immigrant is not shown by any verse; the keyword is used for another nation or foreign people
+editor	minamdang		minamdang.2: no sentence shows immigrant; minamdang means a person of another people or nation, sense 3, so this sense looks doubtful
 editor	minamin		existing base rows for minam are native and ethics; the verses show nation, people
 editor	mininte		not from minin by name; it is mi with nin unclean, b left out
 editor	minphat		Psalms 105:1 reads ama min phat un in sense, praise his name; keyword may be a joined spelling of min phat
@@ -3282,6 +3318,7 @@ editor	mupi		exact bird not certain: vulture in Leviticus 11:13, kite in Deutero
 editor	musane		species uncertain: English versions give vulture, osprey, pelican, desert owl
 editor	muu		NIV has raven; the word may name a hawk or kite, speaker to confirm
 editor	nading		as a verb, dedicate is not a meaning of nading: in 2 Chronicles 2:4 dedicate renders ap, and nading is only the purpose marker of the prep row
+editor	nading		nading.1: sense looks wrong; every sentence shows nading as for or in order to, after a verb, and none as dedicate
 editor	nading		no verse shows a verb "dedicate"; nading marks purpose, "for, in order to" (row 302); "dedicate" in 2 Chr 2:4 NIV renders "ap"
 editor	nading		the confirmed verb row dedicate has no example and no verse with that sense was found; nading occurs only as the purpose marker
 editor	nai		confirmed noun row watch has no verse; meaning taken as a timepiece, not a guard watch
@@ -3303,6 +3340,7 @@ editor	namin		two unrelated formations: nam kiss + -in, and the second half of n
 editor	namkim		adv fully/wholly: no verse shows an adverbial use; in the text namkim follows a noun and means all kinds of or the complete set, as in galvan namkim, the full armor
 editor	namsak		b points to nam, but the base is nam kiss, which has no row yet; the existing nam rows are kind, type
 editor	namun		form unclear in Joshua 7:14, perhaps a misprint of namnamin or nam with un
+editor	namun		namun.1: the only verse is already stored; the article sentences show na mun, place; the reading by tribe looks doubtful
 editor	nan		always written with an apostrophe in the text, nan' before zawh and nading, and nan'na for a support or ledge; a separate noun row for nan'na may be wanted
 editor	nang		confirmed verb row gives only prop up, support; the Bible text uses nang zo for be able to withstand, 12.10.4, 41.14.38, a sense with no row of its own
 editor	nanna		2 Chronicles 32:10 na nanna ding uh taken as withstanding, from nan resist, separate low confidence row
@@ -3327,6 +3365,7 @@ editor	nawhkeek		same verse and sense as nawhkek, the two Bible texts spell it d
 editor	nawk		confirmed rows give only collide and bump/bang, but in most of its verses nawk means pass through or pass by a land or place, as in Numbers 20:18 and Exodus 12:12; that sense has no row
 editor	nawk		the Bible text mostly uses nawk for pass through, a sense with no row; collide is supported only by Luke 6:49
 editor	nawkna		coming over and turning are not shown; in Acts 15:3 a nawkna uh is the passing through of Phoenicia, from nawk pass through
+editor	nawkna		nawkna.1: the gloss coming over or turning looks wrong; in 44.15.3 and in zd:6800 and zd:9159 the word means passing through a place
 editor	nawksak		b points to nawk, but the existing nawk rows are collide, bump; the sense pass through has no row yet
 editor	nawlkhin		b missing on nawlkhinzia and unclear base; nawlkhin may be nawl with khin, compare nolh reject
 editor	nawn		confirmed adv row has w long and example hid ~ lo ding; the word means any longer or again and stands before lo or kei; hid looks like a typo
@@ -3352,6 +3391,7 @@ editor	netniamna		base netniam occurs once, 1932 text only; given as base by reg
 editor	neu		row with w mini, as in products: no Bible verse supports this sense, so no example or reference could be added
 editor	neu		row with w tiny has no verse of its own; the example added from Exodus 30:36 is neu mahmahin, very fine
 editor	neu		sloping is not shown as a meaning of neu; the only verse offered, Ezekiel 40:16, has tawlet neu, small windows, and sloping comes from the wording of one English version
+editor	nga		nga.3: no sentence uses nga for a bird, the word for bird is vasa; the stored nga bang leng may mean like a fish, so the sense may be wrong
 editor	ngahte		second row uses Proverbs 8.19, a verse outside the chunk evidence
 editor	ngahzawh		form of ngahzo, be able to get, before nading; the suggested base ngahzaw does not fit, so no b given; ngahzo would be the right base
 editor	ngaihbaan'na		meaning uncertain; NIV has breasts, row gives loveliness from ngaih baang
@@ -3375,6 +3415,7 @@ editor	ngate		w fishs is a typo for fish or fishes; every Bible occurrence means
 editor	ngawg		suspected misprint for ngawng neck
 editor	ngawn		emphatic word seen in only five verses; 4.14.45 writes na ngawn for nangawn
 editor	ngawngin		the Tedim text of 1 Samuel 17:35 says by the neck, while the NIV has by its hair; meaning kept as in the Tedim text
+editor	ngeen		ngeen.2: every sentence shows ngeen as a net; no sentence shows ask for or require, and the sense looks doubtful
 editor	ngeen		spelling variant of ngen, net
 editor	ngei		culture/tradition is the meaning of ngeina; ngei by itself does not occur with that meaning in the verses, the only example is ngei with the suffix na
 editor	ngei		the second row, culture or tradition, is typed part and its example shows ngeina, which has its own noun row; no verse found with ngei alone in this sense
@@ -3388,6 +3429,8 @@ editor	ngiingei		intensifying adverb inferred from three verses; needs a speaker
 editor	ngiingei		same word as ngingei in another spelling, same verses 18.16.7, 18.16.9, 19.75.8; candidate for one row with v
 editor	ngimsa		typed v with b ngim; parallel geelsa is typed adj
 editor	ngitngetna		confirmed adv rows with w just/only, deliberately, separately; all verses show ngitnget, always, with the suffix na after a verb, the fact of being or doing so continually (1.6.5, 21.6.9, 15.4.19, 19.48.8, 17.9.28); no verse supports deliberately or separately
+editor	ngitngetna		ngitngetna.2: no sentence shows deliberately; the word means constancy, continually doing, so the sense looks wrong
+editor	ngitngetna		ngitngetna.3: no sentence shows separately; the word means constancy, continually doing, so the sense looks wrong
 editor	ngitngetna		w "deliberately" is not a meaning shown by any verse; the verses show continually, always
 editor	ngitngetna		w "just/only" is not shown; in Gen 6:5, Eccl 6:9 and Ezra 4:19 it is ngitnget with na: being so continually, all the time
 editor	ngitngetna		w "separately" is not a meaning shown by any verse; the verses show continually, always
@@ -3422,6 +3465,7 @@ editor	nu'ng		read as first person plural let us; possibly a contraction of ni u
 editor	nuaigawp		no b set: the sense oppress may come from a verb nuai, press or crush, not from nuai under.
 editor	nuama		third row covers the second part of the hyphenated thu-nuama, fellowship offering
 editor	nuamin		confirmed w is contrary, but the verses show nuam with in: wanting to, as in khah nuamin, and gladly, as in nuamin diang; type looks like v or adv rather than adj
+editor	nuamin		nuamin.1: no sentence shows contrary; the uses are wanting to, sense 2, or gladly, sense 3, and the sense looks wrong for the word
 editor	nuamin		verses show wanting, desiring; contrary is not supported
 editor	nuamin		w has contrary, but in the verses nuamin is nuam with in: wanting to, as in ze-et nuamin, wanting to test, or gladly, as in nuamin diang, leap for joy; no verse shows contrary
 editor	nulepa		confirmed as couple, but every verse uses it in nulepa mawhna, nulepa khialhna or nulepa paktatna, adultery or sexual immorality; a sense row for that phrase may be wanted
@@ -3440,6 +3484,7 @@ editor	nutsiat		looks like a spelling variant of nusiat; b not offered for it
 editor	oh		3 of 5 occurrences are the exclamation Oh in Exodus 4; Mark 1:6 has it only as the second part of the hyphenated word kala-oh, camel
 editor	oh		the lowercase form occurs only inside kala-oh; the exclamation is written Oh, capitalised, in Exodus 4.10 and 4.13
 editor	ol		the sense slow rests on Exodus 4.10 and 2 Peter 2.3 only, where ol lo stands beside zekai lo; meaning needs a speaker to confirm
+editor	om		om.3: sense looks wrong; om ding hi is there is to be, om.1, and make is only the English wording of the verse
 editor	om		row with w make: no verse shows om meaning make; om ding hi, there is to be, only stands where the English says make, as in Exodus 26:17
 editor	om		row with w:make: om ding hi means there is to be; make is the wording of the English instruction, not a meaning of om
 editor	omlam		typed det with w that; in the verses it is om with lam, the fact that someone or something is there, used as a verbal noun before verbs of knowing, seeing and hearing
@@ -3448,6 +3493,7 @@ editor	omna		type is v but the form is a noun in -na, place where something is, 
 editor	omna		typed v with w locate/find; in the verses it is a noun, om with na: the place where someone or something is, presence
 editor	omnasa		b given as om; omna also exists but its only row is the verb locate
 editor	ompah		base is om with pah, at once; the suggested base ompa does not fit.
+editor	omte		omte.2: omte is om with the plural te, those who are or are present; no sentence shows it meaning have, and the sense looks wrong
 editor	omte		row typed part with d particle used in making a comparison: its own example sunga omte khempeuh, Genesis 2:1, means all that are in it; no comparison use found
 editor	omte		row with w have has no example or reference and no verse found that shows this sense
 editor	omte		the row with w:have has no support; in every verse omte means those who are or live in a place, never have
@@ -3566,6 +3612,7 @@ editor	phehlehna		Job 1:7 and 2:2 have pheklekna in the other text; phehlehna lo
 editor	phekleh		same word as pheklek, the two Bible texts spell it differently
 editor	phelh		Acts 7:26, amaute a phelh dingin kipanin, uses phelh for parting two men who fight, reconcile; this sense has no row
 editor	phelh		base? offered phel, untie or take apart, but phelh quench is a different word, so no b given
+editor	phelkhiat		phelkhiat.1: the only other sentence is a duplicate of one already used
 editor	pheng		2 Samuel 6:19 also spells the counting word pheeng in the same verse
 editor	phetun		the confirmed adv row, immediately, Genesis 3:7, shows the same use as the conj row, as soon as, after khit with a plural subject; the two rows may be one sense
 editor	phial		three uses drafted: concessive particle, kibang phial almost, and phial gawp throw into confusion in 2.14.24; the last may be a separate verb and needs a speaker
@@ -3630,6 +3677,7 @@ editor	puanpaak		every verse is white clothing, puan paak, not garment in genera
 editor	puansawp		description has clothe, probably clothes
 editor	puansawp		the description after the attributes reads of clothe, probably meant of clothes
 editor	puansawpna		confirmed w is gatekeepers, but the word is built from puansawp, wash clothes, and na, and does not occur in the Bible text; the meaning looks wrong, probably laundering or washing place
+editor	puansawpna		puansawpna.1: sense gatekeepers looks wrong; every sentence shows laundry or washing, sense 2
 editor	puansawpna		w gatekeepers does not fit a word built on puansawp, wash clothes
 editor	puansilh		w is loincloth; verses show clothing, garment or cloak in general, e.g. 54.6.8
 editor	puanzaak		Tedim has sail where the NIV has sea anchor
@@ -3646,6 +3694,7 @@ editor	putekte		has no b although puteekte has b:puteek; the base would be putek
 editor	sa		the sense animal occurs in the text only inside compounds, gamsa, innsa; the example gam~ is written joined
 editor	saang		looks like a spelling variant of sang, accept or receive
 editor	sabakthani		Aramaic word in the cry from the cross, not a Zolai word; typed phrase for want of a better type
+editor	sabawl		sabawl.2: the sentences do not tell it apart from sabawl.1, meat steward of the household; it looks like a duplicate of that sense
 editor	sabbatth		probably a misprint of sabbath in Leviticus 25:2
 editor	sabet		second part bet is unexplained; meaning taken from the verses only
 editor	sagihin		both rows are typed v but the word is adverbial, sevenfold or seven times; it also occurs as seh sagihin, into seven parts, Joshua 18.5
@@ -3717,6 +3766,8 @@ editor	sasempa		1 Samuel 3:9 is the only occurrence and looks like a misprint of
 editor	sasial		English typo in description: uncook, should be uncooked
 editor	sathak		meat and muscle are not shown: both verses with the word, Deuteronomy 14:5 and Psalms 104:18, mean wild goat
 editor	sathak		rows with w meat and w muscle have no verse support; the word occurs only as wild goat in Deuteronomy 14:5 and Psalms 104:18
+editor	sathak		sathak.2: no sentence shows meat; every sentence means wild goat, and the sense looks doubtful for the word
+editor	sathak		sathak.3: no sentence shows muscle; every sentence means wild goat, and the sense looks doubtful for the word
 editor	satpiang		verses align with soap; in Jeremiah 2:22 lye is rather vuttui
 editor	satsak		Isaiah 5:11 inflame is probably sa hot + sak, a different word from sat beat + sak
 editor	savokphual		Leviticus 11:29 is the only verse; NIV and KJV have weasel there, not mole
@@ -3738,6 +3789,7 @@ editor	seelloin		thu seelloin, not talking back: seel here looks like a spelling
 editor	seelna		Job 33:5 na hong seelna ding matches NIV argue your case; second row assumes a separate verb seel, dispute; needs a speaker
 editor	seem		2 Corinthians 4:12 na hong seem hi looks like a spelling of sem, work, the same verse has na hong sem hi; possible misprint
 editor	sehsak		confirmed row of type n with w divide has no verse support; the verses show only the verb, appoint or assign for someone
+editor	sehsak		sehsak.2: the sense, divide as a noun, looks wrong for the word; every sentence shows sehsak.1 appoint or allot
 editor	sehsak		the noun row with w divide is not shown by any verse: the keyword occurs only as the verb appoint or assign for someone
 editor	sehsak		type is n but w divide is a verb; no verse found for this sense
 editor	sehsawm		occurs in the fixed phrase sehsawm suah sehkhat, one tenth; may be better listed as a phrase
@@ -3762,9 +3814,11 @@ editor	siamang		Isaiah 34:5 has the sword as subject of a siamang ding, where NI
 editor	siamin		Judges 16:14 siamin is siam the web on the loom, a noun not yet in the rows for siam
 editor	siamin		row 19348, type n: in 7.16.14 siamin gan is more likely siam, the web on the loom, with the ending in, than a noun siamin
 editor	siampi		row 19356, confirmed with w:prophet: every verse found uses siampi for priest, and prophet is kamsang, as in 11.1.8 siampi Zadok beside kamsang Nathan; no example supports the sense prophet
+editor	siampi		siampi.1: siampi is priest, siampi.2; every sentence means priest, and 43.11.51 speaks of the high priest who prophesied, so prophet looks wrong for the word
 editor	siampi		the row with w:prophet has no support: siampi is priest in every verse, prophet is kamsang; the English prophet in those verses translates kamsang
 editor	siampi		w is prophet; every verse and the alignment show priest (prophet is kamsang, 2 Kings 19:2)
 editor	siampite		row 19365, confirmed with w:prophets: the verses use siampite for priests and kamsangte for prophets, both side by side in 25.4.13 and 24.2.26; the term should probably be priests
+editor	siampite		siampite.1: siampite is priests, siampite.2; the prophets are kamsangte, which every sentence names beside siampite, so the sense prophets looks wrong
 editor	siampite		the row with w:prophets has no support: siampite is priests, prophets is kamsangte
 editor	siampite		w is prophets; the verses show priests (Lamentations 4:13 has kamsangte for prophets)
 editor	siampte		apparently a misprint of siampite in Malachi 1:6
@@ -3809,6 +3863,7 @@ editor	simthama		the NIV line shown is verse 2; the Tedim text also covers Isaia
 editor	simthamin		Matthew 23:38 "mi omlo gam simthamin kinusia" (left desolate) given as a separate low-confidence row
 editor	simun		sim here is every or each time, after a verb; existing sim rows have only read, count and attack, so no b given
 editor	singkuang		confirmed w is tree, but every verse found uses singkuang for a chest or the ark, as in tecipan'na singkuang and thuciamna singkuang; no verse shows the sense tree
+editor	singkuang		singkuang.1: every sentence uses singkuang as box or ark, under singkuang.2; the sense tree looks wrong for the word
 editor	singkuang		the verses show ark or wooden chest, as in tecipan’na singkuang, not tree
 editor	singkuang		w is tree, but every verse uses it for ark or chest, e.g. 2.25.10, 9.6.11
 editor	singkuangte		existing row singkuang = tree looks wrong; Hebrews 9:4 uses singkuang for the ark, a wooden chest
@@ -3886,6 +3941,8 @@ editor	sungin		typo in d: thah, and to indicating
 editor	sungkhia		b points to sung, whose existing rows are prepositions; the base meant here is the verb sung, pour
 editor	sungnungah		type n, but the form is sungnung with the place marker ah and is used adverbially, in or into the inner part
 editor	sungpa		sung here is the wife’s family, not the existing sung in or during; no base given
+editor	sungpi		sungpi.3: no sentence shows the wife's family; this sense seems to duplicate sungpi.4 and sungpi.2
+editor	sungpi		sungpi.4: no sentence shows the head of the wife's family; seems a duplicate of sungpi.3
 editor	sungte		plural of sung used as a noun, the insides or rooms; type and English terms doubtful
 editor	sungthu		Genesis 39.6 amau nupa sungthu lobuang differs from the NIV, the food he ate; sense there taken as private matters of the couple
 editor	sunin		confirmed as n likeness from 1.1.26 only; in the other verses, 7.6.27, 19.55.17, 1.43.25, sunin is sun with in, by day or at noon, a sense that has no row
@@ -3948,6 +4005,7 @@ editor	tangte		Isaiah 28:27 kummin tangte is a different word, cumin seeds; sal 
 editor	tangte		two unrelated uses, both only inside fixed pairs: guh le tangte, bones, and sal tangte, exiles; neither is the existing tang, seed
 editor	tangthu		the four confirmed rows overlap: story and generation both rest on the Genesis formula hihte in ... tangthu ahi hi, the account of a family line
 editor	tangun		two uses inside fixed phrases: a hing tangun, alive, and a beh tangun, by their clans; type and base are doubtful
+editor	tangval		tangval.2: no sentence uses tangval as an adjective good boy; the sense looks wrong for the word
 editor	tangval		the adj row with w good boy is not shown by any verse; in 1 Samuel 17:42 tangval is the noun boy, youth
 editor	tangval		the confirmed adj row good boy has no verse support as an adjective; the confirmed n row gentleman and tangvalte gentleman are young man, young men in every verse
 editor	tangvalpa		the description of unmarried adult man does not fit Genesis 21, where it is the boy Ishmael
@@ -3958,6 +4016,10 @@ editor	tankhia		base tan exists only with the senses fast and as far as; the red
 editor	tankhiasak		base tankhia has only the sense redeem; here it is cut off, so b was left out
 editor	tanna		a third sense without a row: an tanna, fasting, a fast, Ezra 8:21 and Joel 2:15
 editor	tanna		from tan cut, but the existing tan rows are fast and as far as; the verb tan cut has no row yet, so no b given
+editor	tanupi		tanupi.2: no sentence shows the household role; senses 2 to 5 look like duplicates of one sense and should be merged
+editor	tanupi		tanupi.3: no sentence shows the household role; zd:6453 has it only inside brackets; duplicates tanupi.2, .4, .5
+editor	tanupi		tanupi.4: no sentence shows the household role; duplicates tanupi.2, .3, .5
+editor	tanupi		tanupi.5: no sentence shows the household role; duplicates tanupi.2, .3, .4
 editor	tapkual		2 Corinthians 10:1 tapkual han means bold; sense of tapkual alone is a guess from tap, hearth
 editor	tasak		Ezekiel 29:15 minam dang khat beek tasak zo lo ding has a sense, rule over or lord over, that fits neither row; left out
 editor	tase		Isaiah 16:14 om tase leh; may be two words ta se, type doubtful
@@ -4065,6 +4127,7 @@ editor	theithei		Lamentations 3:13 a thuk tum theithei dingin seems to be thei a
 editor	theithekgah		NIV line shown is 28:3 but the ctd text matches 28:4, the early fig before harvest
 editor	then		then with apostrophe in 21.12.2, of clouds clearing, is a verb and a different word from the number ten thousand
 editor	thenkhat		only Revelation 7 evidence (thenkhat leh tulnih = 12,000); everyday meaning "some, a part" not shown in these verses
+editor	thenkhat		thenkhat.2: the verses show thenkhat as ten thousand, thenkhat leh tulnih being twelve thousand in Rev 7; the sense one million looks doubtful
 editor	thopi		built on tho fly, which has no row yet, only tho rise; b left out. Ecclesiastes 10.20 has thopi where English has bird
 editor	thopi		in Ecclesiastes 10.20 Thopi stands where English versions have a bird carrying the words, so fly or large fly may not be the whole meaning
 editor	thosak		several occurrences are the second half of sian' thosak, siangthosak split by an apostrophe, not the word raise
@@ -4244,6 +4307,7 @@ editor	tuuhon		description: sheeps should be sheep
 editor	tuuvun		Numbers 4:25 uses tuuvun where NIV has durable leather and KJV badgers' skins
 editor	tuzawh		afterwards: the verses show tuzawh only heading a span counted from now, as in tuzawh ni nih, never standing alone as afterwards
 editor	tuzawh		in the verses tuzawh counts time from now, as in tuzawh ni nih, two days from now, and tuzawh kha kua, nine months from now; the rows afterwards, later as adj and following as prep have no verse support
+editor	tuzawh		tuzawh.2: no sentence uses tuzawh as a conjunction afterwards; it stands before a time span, from now, hence, which .4 and .5 already cover; the senses of tuzawh look like near duplicates
 editor	uap		Matthew 25:1 NIV has went out to meet the bridegroom; row gives accompany, attend from Judges 14:11
 editor	uh		confirmed d says objective case marker, but in the verses uh marks a plural subject or possessor after the verb or noun, as in a ne uh a, na sam uh
 editor	uh		verses show uh as the plural marker of the verb (a ne uh a = they ate), not an objective case marker
@@ -4334,6 +4398,7 @@ editor	vomte		two homographs: bears, 1 Samuel 17:36, and black ones, Zechariah 6
 editor	vu		ashes; elsewhere vut, possible misprint
 editor	vuak		b set to vua, which has no described row yet; taken as the second form of vua strike
 editor	vuhsak		pierce in Exodus 21:6, while vuh is cover in Ezekiel 24:7; perhaps a variant of vut pierce
+editor	vuisak		vuisak.2: every sentence shows let bury, sense 1; the sense grind looks wrong for the word, as <vui> here is bury
 editor	vuite		two words: vui dust or powder with -te, and vui bury with -te; the existing vui row covers only bury, so the dust row has no b
 editor	vum		vum venvan taken together as piled high; share of each word not certain
 editor	vumah		typed n, but it is vum with the locative ah, on top of; adv or prep may fit better
@@ -4397,6 +4462,8 @@ editor	zing		adj cloudy: only Job 3:5 meiipi zing hen fits; the align list shows
 editor	zing		the row t:n w:dwell shares its example with the adj row and shows a verb sense, of cloud settling; the noun zing, morning or tomorrow as in zing ciangin, has no row
 editor	zing		type n with w dwell, a verb; appears taken from KJV Job 3:5, let a cloud dwell upon it
 editor	zinga		not a word of its own here: second part of kong zing, street, with a; base zing cloudy does not apply
+editor	zinkhak		zinkhak.1: duplicates zinkhak.2, the same household position; examples given there
+editor	zinkhak		zinkhak.3: duplicates zinkhak.2, the same household position; examples given there
 editor	zinliingte		b:zinliing may have no row; zin and liing are separate words in other verses
 editor	zinlin		zinling with the final g dropped before an apostrophe: zinlin' ma, zinlin'na; could be a variant of zinling
 editor	zinte		in Acts 10.10 a zinte are the hosts preparing the meal, not guests; sense not covered
