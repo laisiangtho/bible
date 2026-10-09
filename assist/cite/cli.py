@@ -9,7 +9,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Callable, List
 
-from assist.cite import check, config as configuration, credits, examples, importer, markup, pull, query, render, tables
+from assist.cite import check, config as configuration, credits, importer, index, markup, pull, query, render, tables
 from assist.cite.config import CiteError, Config
 
 EXIT_OK = 0
@@ -46,10 +46,11 @@ def register(groups: argparse._SubParsersAction) -> None:
     parser.add_argument("--output", default="", help="file name in the inbox folder (default: the first word)")
     writing(parser, "the file in the inbox folder")
 
-    parser = command("lookup", run_lookup, "Show the senses of a Zolai word or of a term of another language.")
-    parser.add_argument("query", nargs="+", help="word, or term with --term")
-    parser.add_argument("--term", action="store_true", help="look up a term of a gloss language")
-    parser.add_argument("--language", default="", help="gloss language of the term (default: the first one)")
+    parser = command("lookup", run_lookup, "Show the senses of a Zolai word or phrase; without one, of a term of any other language.")
+    parser.add_argument("query", nargs="+", help="word or phrase")
+    for code, entry in _languages().items():
+        parser.add_argument(f"--{code}", action="append_const", const=code, dest="languages",
+                            help=f"look up a term of {entry['name']} only")
     parser.add_argument("--examples", type=int, default=5, help="examples per sense, 0 for all (default: 5)")
     parser.add_argument("--json", action="store_true", help="print JSON, with every example")
 
@@ -70,12 +71,12 @@ def register(groups: argparse._SubParsersAction) -> None:
     parser.add_argument("--source", default="", help="translation id to search (default: configured sources)")
     parser.add_argument("--limit", type=int, default=10, help="verses to show, 0 for all (default: 10)")
 
-    parser = command("todo", run_todo, "List the most frequent words of the Bible text that the lexicon lacks.")
-    parser.add_argument("--limit", type=int, default=50, help="words to show, 0 for all (default: 50)")
-
-    parser = command("examples", run_examples, "Report the senses whose examples do not yet show every term.")
+    parser = command("next", run_next, "List the senses to work on next, the most frequent words first.")
+    parser.add_argument("--kind", choices=NEXT_KINDS, action="append", help="one kind of gap only; may be repeated")
     parser.add_argument("--set", default="", help="one set only, e.g. core")
-    parser.add_argument("--limit", type=int, default=50, help="senses to show, 0 for all (default: 50)")
+    parser.add_argument("--limit", type=int, default=20, help="senses to show, 0 for all (default: 20)")
+    parser.add_argument("--output", default="next", help="file name in the inbox folder for --apply (default: next)")
+    writing(parser, "the words of the listed senses as a markup file in the inbox folder")
 
     parser = command("credits", run_credits, "Generate CREDITS.md from the source list.")
     writing(parser, "the file")
@@ -178,12 +179,16 @@ def run_import(args: argparse.Namespace) -> int:
 def run_pull(args: argparse.Namespace) -> int:
     config = configuration.load()
     lexicon = check.load(config)
-    text = pull.text(lexicon, [markup.collapse(word) for word in args.word], related=args.related)
-    if not args.apply:
+    name = args.output or markup.collapse(args.word[0]).replace(" ", "-")
+    return _write_pull(config, lexicon, [markup.collapse(word) for word in args.word], name, args.related, args.apply)
+
+
+def _write_pull(config: Config, lexicon, spellings: List[str], name: str, related: bool, apply: bool) -> int:
+    text = pull.text(lexicon, spellings, related=related)
+    if not apply:
         print(text, end="")
         print(f"\n{DRY_RUN}", file=sys.stderr)
         return EXIT_OK
-    name = args.output or markup.collapse(args.word[0]).replace(" ", "-")
     if "/" in name or "\\" in name:
         raise CiteError("--output is a file name, without a folder")
     path = _markup_file(config, name)
@@ -198,65 +203,97 @@ def run_pull(args: argparse.Namespace) -> int:
     return EXIT_OK
 
 
+def _languages():
+    """Gloss languages of the configuration, for the options of lookup."""
+    return configuration.load().raw["language"]["gloss"]
+
+
+def _rebuilding() -> None:
+    print("the tables changed; building the index once ...", file=sys.stderr)
+
+
+def _open() -> "index.Index":
+    return index.open_index(configuration.load(), _rebuilding)
+
+
 def run_lookup(args: argparse.Namespace) -> int:
     config = configuration.load()
-    lexicon = check.load(config)
+    found = _open()
     limit = _limit(args, "examples")
     text = " ".join(args.query)
-    note = ""
-    if not args.term:
-        found = [
-            sense_id for word_id in query.words_for(lexicon, text)
-            for sense_id in lexicon.senses_of.get(word_id, []) if lexicon.active(sense_id)
-        ]
-        blocks = [query.describe_word(lexicon, word_id, limit) for word_id in query.words_for(lexicon, text)]
-    else:
-        language = args.language or config.languages[0]
-        if language not in config.languages:
-            raise CiteError(f"'{language}' is not a gloss language; known: {', '.join(config.languages)}")
-        found = query.senses_for_term(lexicon, text, language)
-        if not found:
-            link = query.linked(lexicon, text, language)
-            if link:
-                remark, found = link
-                note = f"no sense has the term '{text}'; closest senses" + (f" ({remark})" if remark else "") + ":\n"
-        blocks = [query.describe(lexicon, sense_id, limit) for sense_id in found]
+    names = config.raw["language"]["gloss"]
+    blocks: List[str] = []
+    senses: List[str] = []
+    if not args.languages:
+        words = found.words_for(text)
+        if words:
+            model = found.subset(words)
+            blocks = [query.describe_word(model, word_id, limit) for word_id in words]
+            senses = [s for w in words for s in model.senses_of.get(w, []) if model.active(s)]
+            other = found.senses_for_term(text, config.languages)
+            hint = [f"--{code}" for code in other]
+            if hint and not args.json:
+                blocks.append(f"also a term of {', '.join(names[c]['name'] for c in other)}: add {' or '.join(hint)}")
+            return _print_lookup(args, model, senses, blocks)
+    languages = args.languages or list(config.languages)
+    by_language = found.senses_for_term(text, languages)
+    if by_language:
+        model = found.subset(sense_ids=[s for ids in by_language.values() for s in ids])
+        for code, ids in by_language.items():
+            blocks.append(f"{names[code]['name']} '{text}':")
+            blocks.extend(query.describe(model, sense_id, limit) for sense_id in ids)
+            senses.extend(ids)
+        return _print_lookup(args, model, senses, blocks)
+    links = found.linked(text, languages)
+    if links:
+        ids = [s for _, _, found_ids in links.values() for s in found_ids]
+        model = found.subset(sense_ids=ids)
+        for code, (status, note, found_ids) in links.items():
+            remark = render.status_value(model, status, note)
+            blocks.append(f"no sense has the {names[code]['name']} term '{text}'; closest senses" + (f" ({remark})" if remark else "") + ":")
+            blocks.extend(query.describe(model, sense_id, limit) for sense_id in found_ids if model.active(sense_id))
+            senses.extend(found_ids)
+        return _print_lookup(args, model, senses, blocks)
+    where = "a Zolai word or a term" if not args.languages else "a term of " + ", ".join(names[c]["name"] for c in languages)
+    print(f"'{text}' is not {where} of the lexicon", file=sys.stderr)
+    return EXIT_FOUND
+
+
+def _print_lookup(args: argparse.Namespace, model, senses: List[str], blocks: List[str]) -> int:
     if args.json:
-        print(json.dumps([query.record(lexicon, sense_id) for sense_id in found], ensure_ascii=False, indent=2))
-        return EXIT_OK if found else EXIT_FOUND
-    if not blocks:
-        print(f"nothing for {'the term' if args.term else 'the word'} '{text}'", file=sys.stderr)
-        return EXIT_FOUND
-    print(note + "\n\n".join(blocks))
+        print(json.dumps([query.record(model, sense_id) for sense_id in dict.fromkeys(senses)], ensure_ascii=False, indent=2))
+    else:
+        print("\n\n".join(blocks))
     return EXIT_OK
 
 
 def run_show(args: argparse.Namespace) -> int:
-    config = configuration.load()
-    lexicon = check.load(config)
+    found = _open()
     for target in args.target:
-        if target in lexicon.words:
-            word = lexicon.words[target]
-            print(f"# word {word.id} '{word.spelling}', {config.word_status[word.status]}")
-            print("\n".join(render.word_lines(lexicon, target)))
-            continue
-        sense_id = target if target in lexicon.senses else lexicon.sense_by_key(target)
-        if sense_id:
-            print(f"# sense {sense_id}, set {lexicon.senses[sense_id].set}")
-            print(render.sense_line(lexicon, sense_id))
-            for example, _ in lexicon.examples_of(sense_id):
-                print(render.example_line(lexicon, example.id, sense_id))
-        elif target in lexicon.examples:
-            for sense_id in lexicon.usages.get(target, {}):
-                print(render.example_line(lexicon, target, sense_id))
+        kind = index.known(found, target)
+        sense_id = target if kind == "sense" else index.sense_by_key(found, target) if not kind else None
+        if kind == "word":
+            model = found.subset([target])
+            word = model.words[target]
+            print(f"# word {word.id} '{word.spelling}', {model.config.word_status[word.status]}")
+            print("\n".join(render.word_lines(model, target)))
+        elif sense_id:
+            model = found.subset(sense_ids=[sense_id])
+            print(f"# sense {sense_id}, set {model.senses[sense_id].set}")
+            print(render.sense_line(model, sense_id))
+            for example, _ in model.examples_of(sense_id):
+                print(render.example_line(model, example.id, sense_id))
+        elif kind == "example":
+            model = found.subset(example_ids=[target])
+            for sense_id in model.usages.get(target, {}):
+                print(render.example_line(model, target, sense_id))
         else:
             raise CiteError(f"'{target}' is not an id and not a sense key")
     return EXIT_OK
 
 
 def run_find(args: argparse.Namespace) -> int:
-    config = configuration.load()
-    found = query.find(check.load(config), " ".join(args.query), _limit(args))
+    found = _open().find(" ".join(args.query), _limit(args))
     for kind, lines in found.items():
         if lines:
             print(f"{kind}:")
@@ -299,60 +336,56 @@ def run_search(args: argparse.Namespace) -> int:
     return EXIT_OK
 
 
-def _percent(part: int, whole: int) -> str:
-    return f"{100 * part / whole:.1f}%" if whole else "0.0%"
+NEXT_KINDS = ("low", "examples", "todo")
+EXAMPLES_WANTED = 3
 
 
-def run_todo(args: argparse.Namespace) -> int:
-    config = configuration.load()
-    limit = _limit(args)
-    result = query.coverage(check.load(config))
-    print(
-        f"forms that are a word of the lexicon: {result.forms_covered} of {result.forms} "
-        f"({_percent(result.forms_covered, result.forms)})"
-    )
-    print(
-        f"running text covered: {result.occurrences_covered} of {result.occurrences} words "
-        f"({_percent(result.occurrences_covered, result.occurrences)})"
-    )
-    shown = result.missing if limit == 0 else result.missing[:limit]
-    if shown:
-        print(f"\nmost frequent words that the lexicon lacks ({len(shown)} of {len(result.missing)}):")
-        width = max(len(form) for form, _, _ in shown)
-        for form, number, reference in shown:
-            print(f"  {form:<{width}}  {number:>7}  {reference}")
-    return EXIT_OK
-
-
-def run_examples(args: argparse.Namespace) -> int:
+def run_next(args: argparse.Namespace) -> int:
     config = configuration.load()
     limit = _limit(args)
     if args.set and args.set not in config.sets:
         raise CiteError(f"'{args.set}' is not a set; known: {', '.join(config.sets)}")
-    lexicon = check.load(config)
-    measured = [
-        examples.measure(lexicon, sense_id) for sense_id, sense in lexicon.senses.items()
-        if (not args.set or sense.set == args.set) and examples.measurable(lexicon, sense_id)
-    ]
-    short = [entry for entry in measured if not entry.complete]
-    terms = Counter(min(count, examples.PER_TERM) for entry in measured for _, count in entry.terms)
-    total = sum(terms.values())
-    print(f"senses expected to carry examples: {len(measured)}")
-    print(f"senses with {examples.PER_TERM} examples for every term: {len(measured) - len(short)} "
-          f"({_percent(len(measured) - len(short), len(measured))})")
-    for count in range(examples.PER_TERM, -1, -1):
-        label = f"{count} or more" if count == examples.PER_TERM else str(count)
-        print(f"terms shown by {label} example{'' if count == 1 else 's'}: {terms[count]} ({_percent(terms[count], total)})")
-    shown = short if limit == 0 else short[:limit]
-    if shown:
-        print(f"\nsenses to complete ({len(shown)} of {len(short)}):")
-        for entry in shown:
-            if entry.terms:
-                detail = ", ".join(f"{term} {count}/{examples.PER_TERM}" for term, count in entry.short)
-            else:
-                detail = f"{entry.examples}/{examples.PER_TERM} examples"
-            print(f"  {entry.sense}  {lexicon.key(entry.sense)}  {detail}")
-    return EXIT_OK
+    found = _open()
+    low = config.status_code("sense", "low")
+    wanted = args.kind or list(NEXT_KINDS)
+    rows = []
+    counts = {kind: 0 for kind in NEXT_KINDS}
+    for sense_id, key, word_id, type_code, set_code, status, examples, frequency, terms in found.queue():
+        if args.set and set_code != args.set:
+            continue
+        kinds = []
+        if status == low:
+            kinds.append("low")
+        if config.has_meaning(type_code) and type_code != "name" and examples < EXAMPLES_WANTED:
+            kinds.append("examples")
+        if type_code == "todo":
+            kinds.append("todo")
+        for kind in kinds:
+            counts[kind] += 1
+        kinds = [kind for kind in kinds if kind in wanted]
+        if kinds:
+            rows.append((-frequency, key, sense_id, word_id, kinds, examples, frequency, terms))
+    rows.sort()
+    print("senses to work on" + (f" in the set {args.set}" if args.set else "") + ":")
+    for kind, text in (
+        ("low", "status low: the meaning rests on thin evidence"),
+        ("examples", f"fewer than {EXAMPLES_WANTED} examples"),
+        ("todo", "type todo: the meaning is not yet known"),
+    ):
+        print(f"  {kind:<9}{counts[kind]:>7}  {text}")
+    shown = rows if limit == 0 else rows[:limit]
+    if not shown:
+        return EXIT_OK
+    print(f"\nthe most frequent words first ({len(shown)} of {len(rows)}); frequency counts the Bible text and the examples:")
+    width = max(len(row[1]) for row in shown)
+    for _, key, sense_id, _, kinds, examples, frequency, terms in shown:
+        print(f"  {key:<{width}}  {sense_id:<7}  {'/'.join(kinds):<13} examples {examples}  frequency {frequency:<6}  {terms[:40]}")
+    if not args.apply:
+        print(f"\nadd --apply to write their words to {args.output}{config.markup_extension} in the inbox folder", file=sys.stderr)
+        return EXIT_OK
+    words = list(dict.fromkeys(found.rows("select spelling from word where id = ?", [row[3]])[0][0] for row in shown))
+    print()
+    return _write_pull(config, check.load(config), words, args.output, False, True)
 
 
 def run_credits(args: argparse.Namespace) -> int:

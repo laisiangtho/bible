@@ -74,6 +74,7 @@ class Config:
     list_separator: str
     shard: str
     inbox: Path
+    cache: Path
     markup_extension: str
     keyword: Pattern[str]
     reference: Pattern[str]
@@ -210,9 +211,12 @@ def load(path: Optional[Path] = None) -> Config:
         raise CiteError(f"configuration: format.shard is not a template with {{block}}: {error}") from error
     if len(separator) != 1 or not extension.startswith("."):
         raise CiteError("configuration: format: 'list' is one character and 'extension' starts with a dot")
-    inbox = Path(_need(form, "inbox", str, "format"))
-    if inbox.is_absolute() or ".." in inbox.parts or not inbox.parts:
-        raise CiteError("configuration: format.inbox is a folder inside the cite directory")
+    folders = {}
+    for key in ("inbox", "cache"):
+        folder = Path(_need(form, key, str, "format"))
+        if folder.is_absolute() or ".." in folder.parts or not folder.parts:
+            raise CiteError(f"configuration: format.{key} is a folder inside the cite directory")
+        folders[key] = path.parent / folder
 
     languages = tuple(_need(_need(raw, "language", dict, "top level"), "gloss", dict, "language"))
     for code in languages:
@@ -310,7 +314,8 @@ def load(path: Optional[Path] = None) -> Config:
         extension=extension,
         list_separator=separator,
         shard=shard,
-        inbox=path.parent / inbox,
+        inbox=folders["inbox"],
+        cache=folders["cache"],
         markup_extension=_need(form, "markup", str, "format"),
         keyword=_compile(_need(raw["keyword"], "pattern", str, "keyword"), "keyword"),
         reference=_compile(_need(raw, "reference", str, "top level"), "reference"),

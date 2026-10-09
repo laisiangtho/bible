@@ -25,8 +25,8 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
-    args = build_parser().parse_args(argv)
     try:
+        args = build_parser().parse_args(argv)
         return args.run(args)
     except CiteError as error:
         print(f"error: {error}", file=sys.stderr)

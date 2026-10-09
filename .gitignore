@@ -33,3 +33,6 @@ __pycache__/
 
 # Markup files being typed or pulled for an import
 cite/inbox/
+
+# Local index of the tables, rebuilt by the tooling
+cite/.cache/

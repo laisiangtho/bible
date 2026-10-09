@@ -1,72 +1,14 @@
-"""Questions asked of the data: lookup of entries, text search, verse search, missing words."""
+"""Display of senses as text and as data, and the verse search of the Bible texts."""
 
 from __future__ import annotations
 
 import re
 from dataclasses import dataclass
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Tuple
 
-from assist.cite import bible, markup, render, words
+from assist.cite import bible, markup, render
 from assist.cite.config import CiteError, Config
 from assist.cite.lexicon import Lexicon
-
-
-def squash(text: str) -> str:
-    """Comparison key that ignores case, hyphens, spaces and apostrophes."""
-    return "".join(character for character in text.casefold() if character not in " -'’")
-
-
-def _closest(query: str, candidates: Dict[str, List[str]], inside: bool = False) -> List[str]:
-    """Values of the candidates that match best: exact, then without case, then squashed, then as a whole word."""
-    folded, squashed = query.casefold(), squash(query)
-    tests = [
-        lambda name: name == query,
-        lambda name: name.casefold() == folded,
-        lambda name: squash(name) == squashed,
-    ]
-    if inside:
-        word = re.compile(rf"(?<!\w){re.escape(folded)}(?!\w)")
-        tests.append(lambda name: word.search(name.casefold()) is not None)
-    for test in tests:
-        found = [value for name, values in candidates.items() if test(name) for value in values]
-        if found:
-            return list(dict.fromkeys(found))
-    return []
-
-
-def words_for(lexicon: Lexicon, query: str) -> List[str]:
-    """Word ids for a Zolai spelling.
-
-    An exact match is preferred. Without one, the comparison ignores case,
-    then also hyphens, spaces and apostrophes, so that ``ze-et`` is found as
-    ``zeet`` or ``ze et``.
-    """
-    query = markup.collapse(query)
-    if not query:
-        raise CiteError("the query is empty")
-    return _closest(query, {spelling: [word] for spelling, word in lexicon.spelling.items()})
-
-
-def senses_for_term(lexicon: Lexicon, query: str, language: str) -> List[str]:
-    """Sense ids that have the term in the language; a whole-word match inside a term is tried last."""
-    query = markup.collapse(query)
-    if not query:
-        raise CiteError("the query is empty")
-    terms: Dict[str, List[str]] = {}
-    for sense_id, gloss in lexicon.gloss.get(language, {}).items():
-        if lexicon.active(sense_id):
-            for term in markup.split_list(gloss.terms):
-                terms.setdefault(term, []).append(sense_id)
-    return _closest(query, terms, inside=True)
-
-
-def linked(lexicon: Lexicon, query: str, language: str) -> Optional[Tuple[str, List[str]]]:
-    """Remark and senses of the link row of a word of the language."""
-    link = lexicon.links.get(language, {}).get(markup.collapse(query).casefold())
-    if link is None:
-        return None
-    senses = [sense_id for sense_id in markup.split_list(link.senses) if lexicon.active(sense_id)]
-    return render.status_value(lexicon, link.status, link.note), senses
 
 
 def record(lexicon: Lexicon, sense_id: str) -> Dict[str, Any]:
@@ -179,37 +121,6 @@ def describe_word(lexicon: Lexicon, word_id: str, examples: int = 0) -> str:
     return "\n\n".join(blocks)
 
 
-def find(lexicon: Lexicon, query: str, limit: int = 20) -> Dict[str, List[str]]:
-    """Lines of the data that contain the text, without regard to case: spellings, glosses, examples."""
-    query = markup.collapse(query).casefold()
-    if not query:
-        raise CiteError("the query is empty")
-    found: Dict[str, List[str]] = {"word": [], "gloss": [], "example": []}
-    counts = dict.fromkeys(found, 0)
-
-    def hit(kind: str, line: str) -> None:
-        counts[kind] += 1
-        if not limit or len(found[kind]) < limit:
-            found[kind].append(line)
-
-    for word in lexicon.words.values():
-        if query in word.spelling.casefold():
-            hit("word", f"{word.id}  {word.spelling}")
-    for language, glosses in lexicon.gloss.items():
-        for sense_id, gloss in glosses.items():
-            if query in f"{gloss.terms}\t{gloss.definition}\t{gloss.text}".casefold():
-                hit("gloss", f"{sense_id}  {lexicon.key(sense_id)}  [{language}]  {gloss.terms}  {gloss.definition}".rstrip())
-    for example in lexicon.examples.values():
-        shown = [found_in.get(example.id, "") for found_in in lexicon.translations.values()]
-        if query in example.text.casefold() or any(query in text.casefold() for text in shown):
-            senses = ", ".join(lexicon.key(sense_id) for sense_id in lexicon.usages.get(example.id, {}))
-            hit("example", f"{example.id}  {example.text} | {' | '.join(shown)}  [{senses}]")
-    for kind, total in counts.items():
-        if total > len(found[kind]):
-            found[kind].append(f"and {total - len(found[kind])} more")
-    return found
-
-
 @dataclass(frozen=True)
 class Hit:
     book: int
@@ -253,28 +164,3 @@ def search(config: Config, query: str, source: str = "", limit: int = 10) -> Tup
             hits.append(Hit(book, chapter, verse, bible.book_name(data, book), tuple(texts)))
         return identify, len(matches), hits
     return sources[0], 0, []
-
-
-@dataclass(frozen=True)
-class Coverage:
-    forms: int
-    forms_covered: int
-    occurrences: int
-    occurrences_covered: int
-    missing: List[Tuple[str, int, str]]
-
-
-def coverage(lexicon: Lexicon) -> Coverage:
-    """How much of the running text of the source translations is a word of the lexicon."""
-    retired = lexicon.config.status_code("word", "retired")
-    known = {word.spelling for word in lexicon.words.values() if word.status != retired}
-    counted = words.count(lexicon.config)
-    missing = [entry for entry in counted if entry[0] not in known]
-    total = sum(number for _, number, _ in counted)
-    return Coverage(
-        forms=len(counted),
-        forms_covered=len(counted) - len(missing),
-        occurrences=total,
-        occurrences_covered=total - sum(number for _, number, _ in missing),
-        missing=missing,
-    )
