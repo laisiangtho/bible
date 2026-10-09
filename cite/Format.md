@@ -31,6 +31,7 @@ cite/
   sequence.tsv
   CREDITS.md                 generated
   inbox/                     markup files, not part of the repository
+  .cache/index.sqlite        local index for the reading commands, not part of the repository
 ```
 
 - A table file is UTF-8 text without a byte order mark. Lines end with a single line feed, and the file ends with exactly one.
@@ -39,7 +40,7 @@ cite/
 - A list inside one value is separated by `/`.
 - The rows of a file are sorted by their columns from left to right, an id by its number, and no row occurs twice.
 - A sharded table keeps a row in the file named by the block of the id in its first column: the number divided by the block size, written with four digits. `s4100` is in `sense/0002.tsv`.
-- Nothing generated is stored except `CREDITS.md`. Indexes are built in memory by the command that needs them.
+- Nothing generated is stored in the repository except `CREDITS.md`. The reading commands keep a local SQLite index in the folder named under `format.cache` in `configuration.json`, rebuilt whenever a file it is built from changes.
 
 ## Ids
 

@@ -13,7 +13,7 @@ import unittest
 from pathlib import Path
 from typing import List
 
-from assist.cite import check, cli, config as configuration, credits, importer, lexicon, markup, pull, query, render, tables
+from assist.cite import check, cli, config as configuration, credits, importer, index, lexicon, markup, pull, query, render, tables
 from assist.cite.config import CiteError
 
 ROWS = """
@@ -394,23 +394,42 @@ class CheckTest(Fixture):
 
 
 class QueryTest(Fixture):
+    def index(self):
+        found = index.open_index(self.config)
+        self.addCleanup(found.close)
+        return found
+
     def test_lookup(self) -> None:
-        model = self.model()
-        self.assertEqual(query.words_for(model, "beersheba"), [model.spelling["Be-ersheba"]])
-        self.assertEqual(query.words_for(model, "KHUT"), [model.spelling["khut"]])
-        self.assertEqual(query.words_for(model, "nowhere"), [])
-        self.assertEqual(query.senses_for_term(model, "Hand", "eng"), [model.sense_by_key("khut.1")])
-        self.assertEqual(query.senses_for_term(model, "marker", "eng"), [model.sense_by_key("te.1")])
-        self.assertIn("see          Be-ersheba", query.describe_word(model, model.spelling["ersheba"]))
-        self.assertIn("ka ~ tawh kong gelh hi | I write to you with my own hand  [46.16.21]", query.describe_word(model, model.spelling["khut"]))
+        model, found = self.model(), self.index()
+        self.assertEqual(found.words_for("beersheba"), [model.spelling["Be-ersheba"]])
+        self.assertEqual(found.words_for("KHUT"), [model.spelling["khut"]])
+        self.assertEqual(found.words_for("nowhere"), [])
+        self.assertEqual(found.senses_for_term("Hand", ["eng"]), {"eng": [model.sense_by_key("khut.1")]})
+        self.assertEqual(found.senses_for_term("marker", ["eng"]), {"eng": [model.sense_by_key("te.1")]})
+        self.assertEqual(found.senses_for_term("hand", ["mya"]), {})
+        part = found.subset(found.words_for("ersheba"))
+        self.assertIn("see          Be-ersheba", query.describe_word(part, part.spelling["ersheba"]))
+        part = found.subset([model.spelling["khut"]])
+        self.assertIn("ka ~ tawh kong gelh hi | I write to you with my own hand  [46.16.21]", query.describe_word(part, part.spelling["khut"]))
 
     def test_record_and_find(self) -> None:
-        model = self.model()
-        data = query.record(model, model.sense_by_key("amaute.1"))
+        model, found = self.model(), self.index()
+        part = found.subset(sense_ids=[model.sense_by_key("amaute.1")])
+        data = query.record(part, model.sense_by_key("amaute.1"))
         self.assertEqual(data["relation"], {"b": ["amau"]})
         self.assertEqual(data["example"][0]["start"], [1])
-        found = query.find(model, "WASH")
-        self.assertEqual((found["word"], len(found["example"])), ([], 1))
+        lines = found.find("WASH", 20)
+        self.assertEqual((lines["word"], len(lines["example"])), ([], 1))
+
+    def test_index_follows_the_tables(self) -> None:
+        self.assertEqual(self.index().words_for("sil"), [])
+        self.apply(["sil = (t:v) (w:wash)"])
+        found = self.index()
+        self.assertEqual(len(found.words_for("sil")), 1)
+        self.assertEqual(index.sense_by_key(found, "sil.1"), "s6")
+        self.assertEqual(index.known(found, "e1"), "example")
+        queue = {row[1]: row for row in found.queue()}
+        self.assertEqual((queue["sil.1"][6], queue["khut.1"][6]), (0, 2))
 
 
 class CommandTest(unittest.TestCase):

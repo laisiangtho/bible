@@ -18,6 +18,7 @@ Data of the Zolai–English dictionary, format 3. A word is stored once, each of
 | `sequence.tsv` | The highest id given out for words, senses and examples. |
 | `CREDITS.md` | Generated credits: sources and Bible texts. |
 | `inbox/` | Markup files being typed or pulled. Not part of the repository. |
+| `.cache/` | Local index for the reading commands. Not part of the repository. |
 
 A table file is tab-separated text with a header line. A large table is split into files of a few hundred kilobytes, named by the block of ids they hold. No index or export is stored: every command reads the tables directly.
 
@@ -25,13 +26,16 @@ A table file is tab-separated text with a header line. A large table is split in
 
 Python 3.9 or newer, standard library only. Every command runs from the repository root and reads `cite/configuration.json`. A command that writes files is a dry run unless `--apply` is given.
 
+The reading commands (`lookup`, `find`, `show`, `next`) answer from a local SQLite index in `cite/.cache/`, which is not part of the repository. The index is rebuilt by itself, in about ten seconds, the first time a reading command runs after a table, the configuration or a counted Bible text has changed; afterwards a lookup takes a fraction of a second. The commands that change the tables (`import`, `set`, `pull`, `check`) read the tables themselves.
+
 ```shell
 python3 -m assist cite check                  # every broken rule
 python3 -m assist cite check --summary        # counts per rule
 python3 -m assist cite lookup vantung         # senses of a Zolai word, with examples
 python3 -m assist cite lookup beersheba       # hyphens, spaces and capitals are ignored: finds Be-ersheba
-python3 -m assist cite lookup --term heaven   # senses that have an English term
-python3 -m assist cite lookup --term mom      # no sense has the term: shows the closest senses of link/eng.tsv
+python3 -m assist cite lookup hand           # not a Zolai word: the senses with the term, in every gloss language
+python3 -m assist cite lookup --eng man       # a term of English only, although man is also a Zolai word
+python3 -m assist cite lookup mom             # no sense has the term: the closest senses of link/eng.tsv
 python3 -m assist cite lookup khut --json     # the same as data
 python3 -m assist cite find "wash"            # a text anywhere: spellings, glosses, examples, translations
 python3 -m assist cite show s19435 e12061     # the rows behind ids or sense keys, as markup
@@ -42,8 +46,9 @@ python3 -m assist cite import khut --apply    # change the tables, mark the rows
 python3 -m assist cite import ./notes/new.cite
 python3 -m assist cite set core khut.2 --apply # move senses to another set
 python3 -m assist cite search kipat cil       # Bible verses with the word, and parallel verses
-python3 -m assist cite todo --limit 100       # most frequent words of the Bible text that the lexicon lacks
-python3 -m assist cite examples               # senses whose examples do not yet show every English term
+python3 -m assist cite next                   # the senses to work on, the most frequent words first
+python3 -m assist cite next --kind low --set core --limit 50
+python3 -m assist cite next --limit 30 --apply  # write the words of the listed senses to inbox/next.cite
 python3 -m assist cite credits --apply        # regenerate CREDITS.md from the source list
 python3 -m unittest discover -s assist/tests -t .
 ```
@@ -54,7 +59,7 @@ Exit status: `0` success, `1` findings or nothing found, `2` a condition that st
 
 Entries are typed as markup, one row per sense or example, and imported. The tables are not edited by hand: one new sense with an example touches up to eight files and needs new ids.
 
-1. `todo` lists the most frequent words of the Tedim Bible text that the lexicon lacks; `search` shows a word in its verses, next to the same verses in the reference translations.
+1. `next` lists the senses to work on: status `low`, fewer than three examples, or type `todo`, the most frequent words first, where frequency counts the Tedim Bible text and the stored examples. `search` shows a word in its verses, next to the same verses in the reference translations.
 2. New rows are typed into a file in `inbox/`, following `Format.md`. To change what is stored, `pull WORD --apply` writes the rows of the word into `inbox/WORD.cite` with their ids and with comments that say what else names the word.
 3. `import FILE` reports what each row would do: `inserted`, `replaced`, `unchanged` or `removed`, with the ids. A row that cannot be imported is reported with its line, and nothing is written.
 4. `import FILE --apply` writes the tables and turns every imported row of the file into a comment starting `# done`, so a second run does nothing.
@@ -80,7 +85,7 @@ khut = (i:1) (t:n) (w:hand) (d:the hand of a person) (r:46.16.21) (q:reviewed)
 - Every sense is a draft until it is reviewed: status `draft`, or `low` where the evidence is thin. A sense drafted from one source and then found with the same meaning in the dictionary data of the zolai-ai project, which names it in `source` as `zai:` and the English headword, is `reviewed`; a sense that the dictionary data alone gave is not. The conversion from format 2 kept `low` and made every other sense `draft`, including those that had no remark. The status codes are listed under `status` in `configuration.json`; a sense becomes `confirmed` only when a speaker of the language confirms it.
 - A sense belongs to one set: `core` for general vocabulary, `bible` for vocabulary drawn from the Bible text, `name` for the lists of months, days, clans, places, persons and books.
 - `source` names where a sense or an example is attested: a Bible verse or a listed source. An example taken from the Bible text is an exact fragment of the verse it names.
-- Every English term of a sense is meant to be shown by three examples whose translation uses that term; `examples` lists the senses that fall short. A word that is rare in the texts stays short until a speaker adds examples.
+- A sense is meant to carry at least three examples; `next --kind examples` lists the senses that fall short. A word that is rare in the texts stays short until a speaker adds examples.
 - A sense drafted from dictionary data names its source, as in `zai:money`. The same code on any other sense says that an English to Zolai word list of the zolai-ai project gives the word for that English headword: the sense is confirmed by a second source, and where its status was `low` it was raised to `draft`. Synonyms were linked where the list gives two words together under two headwords or the two senses share two English terms; opposites where the list confirms a sense for each word of a common English pair of opposites.
 - `link/eng.tsv` links common English words that are not a term of any sense to the closest senses, found through the Moby Thesaurus and judged one by one. `note/open.tsv` lists the common words for which no sense is close enough.
 - A sense drafted from the news articles of Zomi Daily and Tongsan names the articles, as in `zd:20522`, and its examples are exact fragments of sentences of those articles. Its meaning was worked out from the sentences and from dictionary data without a parallel English text. The articles themselves are not part of this repository.

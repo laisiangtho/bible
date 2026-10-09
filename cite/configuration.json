@@ -33,6 +33,7 @@
     "list": "/",
     "shard": "{block:04d}",
     "inbox": "inbox",
+    "cache": ".cache",
     "markup": ".cite"
   },
   "id": {

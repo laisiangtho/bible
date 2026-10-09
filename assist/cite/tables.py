@@ -52,9 +52,10 @@ def _location(config: Config, table: Table, name: str) -> Path:
 def shard_of(config: Config, value: str) -> int:
     """Number of the shard that holds rows whose first column is this id."""
     for kind in ID_KINDS:
-        number = config.id_number(kind, value)
-        if number is not None:
-            return number // config.block[kind]
+        if value.startswith(config.prefix[kind]):
+            number = config.id_number(kind, value)
+            if number is not None:
+                return number // config.block[kind]
     raise CiteError(f"'{value}' is not an id: {', '.join(config.prefix.values())} followed by a number")
 
 
@@ -182,7 +183,9 @@ def read(config: Config, name: str, problems: Optional[List[str]] = None) -> Lis
         if path.suffix != config.extension or not path.is_file():
             raise CiteError(f"{where}: not a file of the table {name}")
         found = _read_file(config, path, table, problems)
-        for first in {row[0] for row in found}:
+        # Every row is placed by the full check; any other reader trusts the first and the last.
+        firsts = {row[0] for row in found} if problems is not None else {row[0] for row in found[:1] + found[-1:]}
+        for first in firsts:
             expected = f"{config.shard.format(block=shard_of(config, first))}{config.extension}"
             if path.name != expected:
                 raise CiteError(f"{where}: the row of {first} belongs in {expected}")
