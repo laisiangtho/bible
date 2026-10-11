@@ -370,6 +370,25 @@ class CheckTest(Fixture):
     def test_sound(self) -> None:
         self.assertEqual(self.rules(lambda data: None), [])
 
+    def test_patterns(self) -> None:
+        self.apply(["na = (t:suffix) (w:-ness) (d:makes a noun of a state)"])
+        good = [("stem", "lo", "loh", "na", "lo becomes loh before na"), ("double", "v", "", "", "ongoing action"),
+                ("letter", "q", "", "", "not in native words")]
+        self.assertEqual(self.rules(lambda data: data["pattern"].extend(good)), [])
+        self.assertEqual(self.rules(lambda data: data["pattern"].append(("stem", "lo", "loh", "te", "x"))), ["E22"])
+        self.assertEqual(self.rules(lambda data: data["pattern"].append(("double", "noun", "", "", "x"))), ["E22"])
+        self.assertEqual(self.rules(lambda data: data["pattern"].append(("letter", "qq", "", "", ""))), ["E22"])
+        self.assertEqual(self.rules(lambda data: data["pattern"].append(("rule", "q", "", "", "x"))), ["E05"])
+
+    def test_grade_relation(self) -> None:
+        self.apply([
+            "kengkeng = (t:adv) (w:toddling) (g:kangkang)",
+            "kangkang = (t:adv) (w:rigidly) (g:kengkeng)",
+        ])
+        model = self.model()
+        self.assertEqual(model.relation_items(model.sense_by_key("kengkeng.1"), "g"), ["kangkang"])
+        self.assertIn("(g:kengkeng)", render.sense_line(model, model.sense_by_key("kangkang.1")))
+
     def test_structure(self) -> None:
         self.assertEqual(self.rules(lambda data: data["usage"].append(("e9", "s1", "1", "1"))), ["E04"])
         self.assertEqual(self.rules(lambda data: data["word"].append(("w9", "x", "1"))), ["E03"])

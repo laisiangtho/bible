@@ -19,6 +19,7 @@ GAPS = {
     "noterm": "no term in the first gloss language",
     "nogloss": "no definition in the first gloss language",
     "doubtful": "an editor note names the sense as doubtful",
+    "letter": "spelled with a letter native words do not use, and no origin given",
 }
 DIMENSIONS = ("type", "status", "set", "field", "category", "source")
 SORTS = ("frequency", "key", "random")
@@ -45,6 +46,7 @@ class Fact:
     terms: str
     definition: str
     doubtful: bool
+    foreign: bool
 
     def values(self, dimension: str) -> Tuple[str, ...]:
         """The codes of the sense for one dimension; a sense without a code counts as '-'."""
@@ -73,6 +75,7 @@ def facts(index, config: Config) -> List[Fact]:
     """Every active sense of the index."""
     language = config.languages[0]
     separator = config.list_separator
+    letters = {form for (form,) in index.rows("select form from pattern where kind = 'letter'")}
     doubted: Dict[str, set] = {}
     for subject, text in index.rows("select subject, text from note where kind = 'editor'"):
         match = NOTE_KEY.match(text or "")
@@ -83,19 +86,20 @@ def facts(index, config: Config) -> List[Fact]:
         "select s.id, w.spelling, s.number, w.id, s.type, s.\"set\", s.status, s.field, s.category, s.source, "
         "(select count(*) from usage u where u.sense = s.id), "
         "coalesce(f.bible, 0) + coalesce(f.examples, 0), "
-        "coalesce(g.terms, ''), coalesce(g.definition, '') "
+        "coalesce(g.terms, ''), coalesce(g.definition, ''), coalesce(s.origin, '') "
         "from sense s join word w on w.id = s.word left join frequency f on f.fold = w.fold "
         "left join gloss g on g.sense = s.id and g.language = ? where s.status != ?",
         [language, index.retired],
     ):
         (sense_id, spelling, number, word_id, type_code, set_code, status, field, category, source,
-         examples, frequency, terms, definition) = row
+         examples, frequency, terms, definition, origin) = row
         key = markup.sense_key(spelling, number)
         notes = doubted.get(spelling, set())
         result.append(Fact(
             sense_id, key, spelling, word_id, type_code, set_code, status,
             _codes(field or "", separator), _codes(category or "", separator), source_codes(source or "", separator),
             examples, frequency, terms, definition, key in notes,
+            not origin and type_code not in ("name", "see", "todo") and bool(letters & set(spelling.lower())),
         ))
     return result
 
@@ -116,6 +120,8 @@ def gaps(fact: Fact, config: Config) -> List[str]:
         found.append("nogloss")
     if fact.doubtful:
         found.append("doubtful")
+    if fact.foreign:
+        found.append("letter")
     return found
 
 

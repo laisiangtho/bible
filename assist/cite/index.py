@@ -36,6 +36,7 @@ create table usage (example text not null, sense text not null, start text not n
 create table translation (language text not null, example text not null, text text not null);
 create table link (language text not null, term text not null, senses text, source text, status text, note text);
 create table note (kind text, subject text, source text, text text);
+create table pattern (kind text, form text, result text, context text, note text);
 create table frequency (fold text primary key, bible integer not null, examples integer not null);
 """
 INDEXES = """
@@ -127,6 +128,7 @@ def build(config: Config, target: Path) -> None:
                 (language, l.term, l.senses, l.source, l.status, l.note) for l in links.values()
             ))
         insert("insert into note values (?, ?, ?, ?)", lexicon.notes)
+        insert("insert into pattern values (?, ?, ?, ?, ?)", lexicon.patterns)
         in_examples: Dict[str, int] = {}
         for example in lexicon.examples.values():
             for token in {token.casefold() for token in WORD.findall(example.text)}:
@@ -311,6 +313,7 @@ class Index:
             "example": example_rows,
             "usage": usage_rows,
             self.config.tables["note"].path: [],
+            self.config.tables["pattern"].path: [],
             "sequence": [(kind, value) for kind, value in (
                 (key.split()[1], value) for key, value in self.rows("select key, value from meta where key like 'last %'")
             )],

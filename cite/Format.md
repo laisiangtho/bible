@@ -9,10 +9,11 @@ Every closed list named in this document is stored in `configuration.json`: tabl
 - A **word** is one written form. Case is significant: `Pasian` and `pasian` are different words.
 - A **sense** is one meaning of a word. It carries what does not depend on a language: type, category, field, set, status, origin and source.
 - A **gloss** gives the terms and the definition of a sense in one language.
-- A **relation** links a sense to another word or sense: synonym, antonym, base, join, variant. A redirect links a word to a word.
+- A **relation** links a sense to another word or sense: synonym, antonym, base, join, variant, grade. A redirect links a word to a word.
 - An **example** is a sentence or fragment in Zolai, stored once. A **usage** says which sense the example shows and where the keyword stands in it; one example may show several senses. A **translation** gives the example in one language.
 - A **link** sends a word of another language that is not a term of any sense to the closest senses.
 - A **note** is an open point for an editor.
+- A **pattern** describes how words are built or spelled: a stem that changes before an affix, a word written twice, a letter that native words do not use. The tools apply the patterns to analyse a word that is not in the lexicon; `Grammar.md` describes them in prose.
 
 The Zolai lexicon is stored in the cite directory itself. What belongs to another language, glosses, translations and links, is stored in the folder of that language, named by its code, inside `lang/`. A language folder holds the same file names for every language; a file that a language does not have yet is simply absent.
 
@@ -30,6 +31,7 @@ cite/
   example.tsv
   usage.tsv
   note.tsv
+  pattern.tsv
   sequence.tsv
   lang/
     eng/                     one folder per language code of the configuration
@@ -107,13 +109,14 @@ A sense of a type that carries a meaning has a term or a definition in at least 
 | Column | Content |
 | --- | --- |
 | `from` | Sense id; for the kind `see`, a word id. |
-| `kind` | `s` synonym, `a` antonym, `b` base, `j` join, `v` variant, `see` redirect. |
+| `kind` | `s` synonym, `a` antonym, `b` base, `j` join, `v` variant, `g` grade, `see` redirect. |
 | `to` | Word id, or a sense id when one meaning of the target is meant. |
 | `order` | Position among the targets of the same kind, from 1. |
 
 - `b`: the keyword is a plural, suffixed or prefixed form of the target.
 - `j` with several targets: separate words written as one, in their order, as `aom` joins `a` and `om`. With one target: the same word in another spelling.
 - `v`: the target is another spelling of the keyword. It is a word with the status variant and has no sense of its own.
+- `g`: the target is a form of the same expressive set with another vowel grade, as `kengkeng`, `kengkang` and `kangkang` share the frame `k_ng`.
 - `see`: the word occurs only as one part of the target, as `ersheba` in `Be-ersheba`.
 
 ### example, usage, lang/{language}/translation
@@ -132,7 +135,7 @@ A sense of a type that carries a meaning has a term or a definition in at least 
 
 Two examples may share text and source when their translations differ. An example that no sense uses is removed.
 
-### lang/{language}/link, note, sequence
+### lang/{language}/link, note, pattern, sequence
 
 | Table | Column | Content |
 | --- | --- | --- |
@@ -144,6 +147,11 @@ Two examples may share text and source when their translations differ. An exampl
 | note | `subject` | The concept or word. |
 | note | `source` | Where it was met. |
 | note | `text` | What was found. |
+| pattern | `kind` | `stem`, `double` or `letter`. |
+| pattern | `form` | For `stem` the ending of the stem, for `double` a type code, for `letter` the letter. |
+| pattern | `result` | For `stem` the ending it becomes; empty otherwise. |
+| pattern | `context` | For `stem` the affixes before which the stem changes, as keywords; empty otherwise. |
+| pattern | `note` | What the pattern does, with an example. |
 | sequence | `table` | `word`, `sense` or `example`. |
 | sequence | `last` | Highest number given out. |
 
@@ -195,6 +203,7 @@ Entries are typed and shown as markup. A markup file is plain text with any name
 | `b` | base | no | The keyword this form is built from. | `(b:vantung)` |
 | `j` | joins | yes | The keywords this written form joins or respells. | `(j:a/om)` |
 | `v` | variant | yes | Other spellings of the keyword. A word with the status variant is made for each. | `(v:Shoute)` |
+| `g` | grade | yes | Other forms of the same expressive set, with another vowel grade. | `(g:kengkang/kangkang)` |
 | `o` | origin | no | Language the keyword comes from, optionally a comma and the source word. | `(o:Hebrew, kerub)` |
 | `r` | source | yes | Where the sense is attested. | `(r:1.1.1/zai:market)` |
 | `q` | status | no | Name of the status, optionally a comma and a remark. Absent: draft. | `(q:low, inferred from one sentence)` |
@@ -209,9 +218,9 @@ ersheba = (t:see) <Be-ersheba>
 
 - **No `i`**: a new sense. The word is added when it is not yet stored. The sense gets the next number of its word and the next sense id. Its set is `bible` when every source is a Bible verse and `core` otherwise; `set` moves it.
 - **A duplicate is refused.** A row without `i` whose word already has an active sense of the same type that shares a term, or has the same definition when there is no term, is not imported. The message names that sense: `(i:1)` replaces it, `(i:+)` adds a further sense.
-- **`(i:2)` or `(i:s19435)`**: the row replaces that sense as a whole. Type, category, field, origin, source, status, note, the English gloss and the relations `s`, `a`, `b`, `j` and `v` become what the row says; an attribute that is left out is removed. The id, the number, the set and the examples stay.
+- **`(i:2)` or `(i:s19435)`**: the row replaces that sense as a whole. Type, category, field, origin, source, status, note, the English gloss and the relations `s`, `a`, `b`, `j`, `v` and `g` become what the row says; an attribute that is left out is removed. The id, the number, the set and the examples stay.
 - **No `q` is a draft**, also on a replacing row. A pulled row carries its `q`, so a status other than draft survives an edit unless it is changed.
-- A keyword or sense key named in `s`, `a`, `b` or `j` is a word or sense of the lexicon or of the same file.
+- A keyword or sense key named in `s`, `a`, `b`, `j` or `g` is a word or sense of the lexicon or of the same file.
 - **`- khut = (i:2)`** retires the sense: status retired. The row, its number and its examples stay. A sense that an active sense still names in a relation or links in its prose is not retired until those are changed.
 - A sense is given once in a file. A sense without a number, of type `todo`, is named by its id: `(i:s2764)`.
 - **`- ersheba = (t:see) <Be-ersheba>`** removes the redirect.
@@ -289,6 +298,7 @@ amaute.1 = ~ in mawtaw khat nei uh hi | they have a car (r:pk:67) (e:e4270)
 | `E19` | duplicate sense | Two senses of one word do not share type, category, terms and definition. |
 | `E20` | note | A note has a subject. |
 | `E21` | credits | CREDITS.md is generated from the source list and the Bible texts and is up to date. |
+| `E22` | pattern | A pattern has a note. A stem pattern has a form, a different result, and affixes in its context that are words with an active prefix or suffix sense; a double pattern names a type; a letter pattern is one lowercase letter. |
 
 ## Conversion from format 2
 

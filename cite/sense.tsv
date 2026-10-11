@@ -5579,7 +5579,7 @@ s5577	w5366	1	v		everyday/social	core	2		zd:12072/zd:11990
 s5578	w5367	1	v			bible	2			
 s5579	w5368	1	v			bible	2			
 s5580	w5369	1	v			bible	2			
-s5581	w5370	1	n		media/everyday	core	2		zd:23022/zd:20730/zd:12370	
+s5581	w5370	1	n		media/everyday	core	2	Burmese, ဘောလုံး	zd:23022/zd:20730/zd:12370/gr:1	
 s5582	w5371	1	v		everyday	core	2		zd:12869/zd:14568	
 s5583	w5372	1	v			bible	2			
 s5584	w5373	1	v			bible	2			
@@ -5730,7 +5730,7 @@ s5728	w5509	1	v			bible	2
 s5729	w5510	1	v		everyday/work	core	2		zd:16442/zd:23066	
 s5730	w5511	1	v			bible	2			
 s5731	w5512	1	v		everyday/work	core	2		zd:20545/zd:19166	
-s5732	w5513	1	n			bible	3		zai:ball	
+s5732	w5513	1	n			bible	3	Burmese, ဘောလုံး	zai:ball/gr:1	
 s5733	w5513	2	n		media/everyday	core	3		zd:24119/zd:26660/zd:20486/zai:football	
 s5734	w5514	1	n		media	core	2		pk:154	
 s5735	w5515	1	v		everyday	core	2		zd:11990/zd:21518	
@@ -18724,7 +18724,7 @@ s18722	w17641	1	part			bible	2
 s18723	w17642	1	v			bible	2			
 s18724	w17643	1	v			bible	2		19.88.4	
 s18725	w17643	2	adj			bible	2			
-s18726	w17643	3	part			bible	2			
+s18726	w17643	3	suffix			bible	2		gr:3	
 s18727	w17644	1	n			bible	2			
 s18728	w17645	1	v		everyday/time	core	2		zd:23252/zd:20912/ts:6014	
 s18729	w17646	1	v		time	core	2		zd:20912/ts:1636/zd:24651	
@@ -19534,7 +19534,7 @@ s19532	w18366	1	v		religion/body	core	2		zd:22159
 s19533	w18367	1	name	male		bible	2			
 s19534	w18369	1	v			bible	1			
 s19535	w18370	1	n			bible	2		19.98.6	
-s19536	w18370	2	part			bible	2		4.18.14	
+s19536	w18370	2	prefix			bible	2		4.18.14/gr:3	
 s19537	w18371	1	phrase		work	core	2		zd:17021/zd:17327/zd:12552	
 s19538	w18372	1	v		work	core	2		zd:20033/zd:17217	
 s19539	w18373	1	v		travel/media	core	2		zd:15613/zd:12967	
@@ -26676,7 +26676,7 @@ s26674	w24829	1	name	khua		name	2
 s26675	w24830	1	v		everyday/body	core	2		zd:20944/zd:12021	
 s26676	w24831	1	n			bible	1			
 s26677	w24832	1	v		everyday	core	1		zd:13350/zd:20624	
-s26678	w24833	1	n		social	core	2		20.18.16	
+s26678	w24833	1	n		social	core	2	Burmese, လက်ဆောင်	20.18.16/gr:1	
 s26679	w24834	1	adv			bible	2			
 s26680	w24835	1	n			bible	2		11.15.15	
 s26681	w24836	1	v		everyday	core	1		pk:112	
@@ -28667,7 +28667,7 @@ s28665	w26684	1	name	people	politics/religion	core	2		zd:25099
 s28666	w26685	1	name	land		bible	2		1.35.27/1.18.1	?
 s28667	w26686	1	v			bible	3		zai:smooth	
 s28668	w26687	1	v			bible	2			
-s28669	w26688	1	adj		everyday	core	3		zai:right	
+s28669	w26688	1	adj		everyday	core	3	Burmese, မှန်	zai:right/gr:1	
 s28670	w26688	2	v		everyday/time	core	3		zai:finish	
 s28671	w26688	3	n		work	core	3		zai:cost/zai:fee	
 s28672	w26688	4	v			bible	3		14.23.15/zai:arrest/zai:catch/zai:seize/zai:Nab/zai:apprehend/zai:grasp	
@@ -35017,7 +35017,7 @@ s35015	w32588	1	name	male		bible	2		12.23.36
 s35016	w32589	1	name	land		bible	2		1.28.2/1.35.26	
 s35017	w32590	1	name	land		bible	2		1.28.2/1.35.26	
 s35018	w32591	1	name	male		bible	2		1.25.20/1.31.18	
-s35019	w32592	1	n		home	core	2	Burmese	zd:17495	
+s35019	w32592	1	n		home	core	2	Burmese, ပြတင်းပေါက်	zd:17495/gr:1	
 s35020	w32593	1	n		home	core	2	Burmese	zd:12901	
 s35021	w32594	1	name	male		bible	2		15.2.44/16.7.47	
 s35022	w32595	1	name	city		bible	2		44.13.6	
@@ -36894,11 +36894,11 @@ s36892	w34284	1	n		education	core	3	English	zd:15845/zd:22556/zai:physics
 s36893	w34285	1	name	khua	travel	core	1	Burmese	zd:17202	
 s36894	w34286	1	n			bible	2		1.6.15	
 s36895	w34286	2	n		family	core	3		zai:grandma/zai:granny	
-s36896	w34286	3	part			bible	1			
+s36896	w34286	3	suffix			bible	1		gr:3/gr:4	
 s36897	w34286	4	n		social	core	2		ts:3168/zd:24806	
 s36898	w34286	5	conj		everyday	core	2		zd:22019/zd:22495	
 s36899	w34286	6	v		family/social	core	1		pk:7	
-s36900	w34286	7	part		education	core	2		pk:101	
+s36900	w34286	7	prefix		education	core	2		pk:101	
 s36901	w34286	8	n	animal	nature	core	2		pk:163	
 s36902	w34286	9	n	animal	nature	core	2		pk:168	
 s36903	w34287	1	n		education/everyday	core	2		pk:152	
@@ -42929,7 +42929,7 @@ s42927	w39838	1	n			bible	1
 s42928	w39839	1	conj			bible	2		44.8.36	
 s42929	w39840	1	n			bible	2		4.4.12	
 s42930	w39840	2	n			bible	3		zai:forehead	
-s42931	w39840	3	adj			bible	2			
+s42931	w39840	3	suffix			bible	2		gr:4	
 s42932	w39841	1	name	khua		name	2			
 s42933	w39842	1	name	place	education	core	1		zd:10717/zd:21906	
 s42934	w39843	1	n			bible	2			
@@ -43794,7 +43794,7 @@ s43792	w40588	1	phrase		family	core	2		zd:12470/zd:11540
 s43793	w40589	1	n		health	core	2	English	zd:12752/zd:14740	
 s43794	w40590	1	name		religion	core	2		zd:24595/zd:24068	
 s43795	w40591	1	name		religion	core	1		zd:25240/zd:12039	
-s43796	w40592	1	part			bible	2			
+s43796	w40592	1	suffix			bible	2		gr:3	
 s43797	w40592	2	ppm			bible	2			
 s43798	w40593	1	ppm		everyday	core	2		pk:54	
 s43799	w40594	1	ppm		everyday	core	2		pk:43/pk:44	
@@ -55133,7 +55133,7 @@ s55131	w50987	1	n		media/it	core	2		zai:camera/zd:9420/zd:9890/zd:9421
 s55132	w50988	1	n		media/it	core	2		zai:camera	
 s55133	w50989	1	n		travel	core	2		zai:camion/zai:truck	
 s55134	w50990	1	n		everyday/politics	core	2		zai:cancellation/zai:eradication/zd:17760	
-s55135	w50991	1	n		food	core	2		zai:chocolate/zai:candy/zd:6677/zd:3230	
+s55135	w50991	1	n		food	core	2	English, chocolate	zai:chocolate/zai:candy/zd:6677/zd:3230/gr:1	
 s55136	w50992	1	n		nature	core	2		zai:cane	
 s55137	w50993	1	n		nature	core	2		zai:weevil/zai:canker	
 s55138	w50994	1	n		politics	core	2		zai:cannon	
@@ -59574,3 +59574,63 @@ s59572	w55341	1	n		social	core	2		zai:youngster
 s59573	w55342	1	n		home	core	1		zai:zephyr	read from its parts and the fabric sense of zephyr
 s59574	w55343	1	adv		everyday	core	2		zai:zigzag	
 s59575	w55344	1	n		everyday	core	1		zai:zoometry	given only in an explanation of zoometry
+s59576	w12538	3	prefix			core	2		gr:3	
+s59577	w4	8	prefix			core	2		gr:3	
+s59578	w40953	7	suffix			core	2		gr:3	
+s59579	w32531	7	suffix			core	2		gr:3/gr:4	
+s59580	w31729	6	suffix			core	2		gr:3/gr:4	
+s59581	w39475	4	suffix			core	1		gr:3	the book reads paita as going now, the texts mostly as has come or has gone
+s59582	w17617	3	suffix			core	2		gr:3	
+s59583	w35625	7	suffix			core	2		gr:3	
+s59584	w41585	2	suffix			core	2		gr:3	
+s59585	w46261	3	suffix			core	2		gr:3	
+s59586	w29139	6	suffix			core	2		gr:5	
+s59587	w29552	1	n		body	core	2		gr:2	
+s59588	w34692	3	n		family	core	2		gr:2	
+s59589	w55345	1	n		family	core	2		gr:2	
+s59590	w7773	3	v		health	core	1		gr:2	the texts mostly use damdam for slowly, sense 2
+s59591	w24737	3	adv			core	2		gr:6	
+s59592	w23929	2	adv			core	2		gr:6	
+s59593	w48323	2	adv			core	2		gr:6	
+s59594	w55346	1	adv			core	2		gr:6	
+s59595	w55347	1	adv			core	2		gr:6/gr:7	
+s59596	w48134	2	adv			core	2		gr:6	
+s59597	w55348	1	adv			core	2		gr:6	
+s59598	w55349	1	adv			core	2		gr:6	
+s59599	w55350	1	adv			core	2		gr:6	
+s59600	w55351	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59601	w37921	2	adv			core	2		gr:6	
+s59602	w38984	3	adv			core	2		gr:6	
+s59603	w55352	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59604	w55353	1	adv			core	2		gr:6	
+s59605	w55354	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59606	w55355	1	adv			core	2		gr:6	
+s59607	w55356	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59608	w55357	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59609	w55358	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59610	w45205	2	adv			core	2		gr:6	
+s59611	w7184	2	adv			core	2		gr:6	
+s59612	w55359	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59613	w55360	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59614	w55361	1	adv			core	1		gr:7	given by Grammar.md; not found in the texts
+s59615	w33002	2	adv			core	2		gr:6	
+s59616	w55362	1	adv			core	2		gr:6	
+s59617	w55363	1	adv			core	2		gr:6	
+s59618	w42803	2	adv			core	1		gr:6	given by Grammar.md; the meaning not yet found in the texts
+s59619	w40084	2	adv			core	1		gr:6	given by Grammar.md; the meaning not yet found in the texts
+s59620	w55364	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59621	w55365	1	adv			core	1		gr:6	given by Grammar.md; the meaning not yet found in the texts
+s59622	w8510	2	adv			core	1		gr:6	given by Grammar.md; the meaning not yet found in the texts
+s59623	w7773	4	adv			core	1		gr:6	given by Grammar.md; the meaning not yet found in the texts
+s59624	w55366	1	adv			core	2		gr:6	
+s59625	w23996	3	adv			core	1		gr:6	given by Grammar.md; the meaning not yet found in the texts
+s59626	w55367	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59627	w55368	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59628	w55369	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59629	w55370	1	adv			core	1		gr:6	given by Grammar.md; not found in the texts
+s59630	w7303	5	part			core	2		gr:7	
+s59631	w6768	3	part			core	2		gr:7	
+s59632	w23531	5	part			core	2		gr:7	
+s59633	w55371	1	part			core	2		gr:7	
+s59634	w55372	1	conj			core	2		gr:7	
+s59635	w55373	1	conj			core	2		gr:7	

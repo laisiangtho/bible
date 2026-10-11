@@ -13,6 +13,7 @@ Data of the Zolai–English dictionary, format 4. A word is stored once, each of
 | `example.tsv` | Every example sentence or fragment, once. |
 | `usage.tsv` | Which sense an example shows and where the keyword stands in it. |
 | `note.tsv` | Open points: concepts without a keyword, words whose meaning is not settled, notes for the editor. |
+| `pattern.tsv` | Patterns of word building and spelling that the analysis of an unknown word applies: stems that change before an affix, doubled words, letters that native words do not use. |
 | `lang/eng/gloss.tsv` | Terms and definition of a sense in English. A further language is a further folder in `lang/`. |
 | `lang/eng/translation.tsv` | English translation of each example. |
 | `lang/eng/link.tsv` | Common English words that are not a term of any sense, each sent to the closest senses. |

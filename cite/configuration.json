@@ -143,6 +143,17 @@
         "text": "What was found."
       }
     },
+    "pattern": {
+      "description": "Patterns of word building and spelling that the tools apply to analyse a word: a stem that changes before an affix, a word written twice, a letter that native words do not use. Grammar.md describes the same patterns in prose.",
+      "path": "pattern",
+      "columns": {
+        "kind": "Code of the pattern list.",
+        "form": "What the pattern applies to: for stem, the ending of the stem; for double, a type code; for letter, the letter.",
+        "result": "For stem, the ending it becomes; empty otherwise.",
+        "context": "For stem, the affixes before which the stem changes, as keywords; empty otherwise.",
+        "note": "What the pattern does, with an example."
+      }
+    },
     "sequence": {
       "description": "The highest id number given out, per kind of id.",
       "path": "sequence",
@@ -220,6 +231,10 @@
       "name": "variant",
       "description": "The target is another spelling of the keyword and has no sense of its own."
     },
+    "g": {
+      "name": "grade",
+      "description": "The target is a form of the same expressive set with another vowel grade: kengkeng, kengkang and kangkang share the frame k_ng."
+    },
     "see": {
       "name": "redirect",
       "description": "From a word to a word: the form occurs only as part of the target."
@@ -259,6 +274,20 @@
     "editor": {
       "name": "Note for the editor",
       "description": "A remark on a keyword of the Bible lexicon."
+    }
+  },
+  "pattern": {
+    "stem": {
+      "name": "stem change",
+      "description": "The ending of a stem changes before the affixes named in the context: lo becomes loh before na, as in hoihlohna."
+    },
+    "double": {
+      "name": "doubling",
+      "description": "A word of the type named in the form, written twice, has the meaning given in the note: a verb written twice describes an ongoing action."
+    },
+    "letter": {
+      "name": "foreign letter",
+      "description": "A letter that native Zolai words do not use. A keyword with such a letter is a loanword, a name or a foreign spelling, and its sense names its origin."
     }
   },
   "keyword": {
@@ -348,6 +377,12 @@
       "list": true,
       "example": "(v:Shoute)"
     },
+    "g": {
+      "name": "grade",
+      "description": "Other forms of the same expressive set, with another vowel grade: light (e, i), mixed, or heavy (a, o, u).",
+      "list": true,
+      "example": "(g:kengkang/kangkang)"
+    },
     "o": {
       "name": "origin",
       "description": "Language the keyword comes from, optionally followed by a comma and the source word.",
@@ -413,7 +448,15 @@
     },
     "part": {
       "name": "particle",
-      "description": "Particle: a prefix, suffix or sentence-final word with a grammatical function."
+      "description": "Particle: a sentence-final or other word with a grammatical function, written apart from the word it belongs to."
+    },
+    "prefix": {
+      "name": "prefix",
+      "description": "Bound form written joined before a word, as ki in kiit, love one another. Analysed words are split on prefixes."
+    },
+    "suffix": {
+      "name": "suffix",
+      "description": "Bound form written joined after a word, as zaw in hoihzaw, better. Analysed words are split on suffixes."
     },
     "ppm": {
       "name": "postpositional marker",
@@ -645,6 +688,13 @@
       "owner": "Sia Cin Sian Pau; set again by Lia Cingsen, 2008",
       "credit": "Words, word pairs, sayings and examples from Paunam Khenna leh Kampau Luanzia by Sia Cin Sian Pau",
       "permission": "Not yet asked. Only single words, word pairs, sayings and short fragments of sentences are quoted; the text of the book is not stored."
+    },
+    "gr": {
+      "name": "Zolai grammar notes",
+      "description": "Grammar.md in this directory: patterns of Zolai words and sentences, with example sentences, written by a native speaker. The locator is the number of the section.",
+      "owner": "Khen Solomon Lethil",
+      "credit": "Patterns and example sentences from the Zolai grammar notes (Grammar.md) by Khen Solomon Lethil",
+      "license": "MIT, as the repository"
     }
   },
   "bible": {
@@ -766,6 +816,11 @@
       "id": "E21",
       "name": "credits",
       "description": "CREDITS.md is generated from the source list and the Bible texts and is up to date."
+    },
+    {
+      "id": "E22",
+      "name": "pattern",
+      "description": "A pattern has a note. A stem pattern has a form, a different result, and affixes in its context that are words with an active prefix or suffix sense; a double pattern names a type; a letter pattern is one lowercase letter."
     }
   ]
 }

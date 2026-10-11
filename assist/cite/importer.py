@@ -17,7 +17,7 @@ from assist.cite.lexicon import Example, Gloss, Lexicon, Relation, Sense, Usage
 
 STAMP = re.compile(r"^# pulled (?P<word>.+) version (?P<version>[0-9a-f]{12})$")
 STAMP_START = "# pulled "
-SENSE_KEYS = ("i", "t", "c", "f", "w", "d", "s", "a", "b", "j", "v", "o", "r", "q")
+SENSE_KEYS = ("i", "t", "c", "f", "w", "d", "s", "a", "b", "j", "v", "g", "o", "r", "q")
 EXAMPLE_KEYS = ("r", "e")
 OLD_LOW = "low confidence"
 
@@ -312,7 +312,7 @@ class _Import:
         type_code = values.get("t", "")
         if type_code not in config.types:
             raise _Problem(f"(t:{type_code}) is not a type" if type_code else "(t:) is missing")
-        lists = {key: markup.split_list(values.get(key, "")) for key in ("c", "f", "w", "s", "a", "b", "j", "v", "r")}
+        lists = {key: markup.split_list(values.get(key, "")) for key in ("c", "f", "w", "s", "a", "b", "j", "v", "g", "r")}
         for key, items in lists.items():
             if any(not item for item in items):
                 raise _Problem(f"({key}:{values[key]}) has an empty item")

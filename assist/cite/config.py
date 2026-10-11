@@ -13,18 +13,20 @@ CONFIG_PATH = ROOT / "cite" / "configuration.json"
 SUPPORTED_VERSION = 4
 
 REQUIRED_KEYS = (
-    "version", "language", "format", "id", "table", "status", "relation", "set", "note",
+    "version", "language", "format", "id", "table", "status", "relation", "set", "note", "pattern",
     "keyword", "markup", "attribute", "reference", "type", "category", "field", "source",
     "bible", "rule",
 )
 ID_KINDS = ("word", "sense", "example")
 TABLES = (
-    "word", "sense", "gloss", "relation", "example", "usage", "translation", "link", "note", "sequence",
+    "word", "sense", "gloss", "relation", "example", "usage", "translation", "link", "note", "pattern", "sequence",
 )
-ATTRIBUTES = ("i", "t", "c", "f", "w", "d", "s", "a", "b", "j", "v", "o", "r", "q", "e")
-RELATIONS = ("s", "a", "b", "j", "v", "see")
+ATTRIBUTES = ("i", "t", "c", "f", "w", "d", "s", "a", "b", "j", "v", "g", "o", "r", "q", "e")
+SENSE_RELATIONS = ("s", "a", "b", "j", "v", "g")
+RELATIONS = SENSE_RELATIONS + ("see",)
 SENSE_STATUS = ("retired", "low", "draft", "reviewed", "confirmed", "disputed")
 WORD_STATUS = ("retired", "standard", "variant", "nonstandard")
+PATTERNS = ("stem", "double", "letter")
 SOURCE_KEYS = ("name", "description", "owner", "credit", "license", "permission", "url")
 LANGUAGE = "{language}"
 
@@ -86,6 +88,7 @@ class Config:
     relations: Dict[str, Dict[str, Any]]
     sets: Dict[str, Dict[str, Any]]
     notes: Dict[str, Dict[str, Any]]
+    patterns: Dict[str, Dict[str, Any]]
     types: Dict[str, Dict[str, Any]]
     categories: Dict[str, Dict[str, Any]]
     fields: Dict[str, Dict[str, Any]]
@@ -254,8 +257,11 @@ def load(path: Optional[Path] = None) -> Config:
     relations = _named(raw, "relation")
     if sorted(relations) != sorted(RELATIONS):
         raise CiteError(f"configuration: relation: the tooling needs exactly the kinds {', '.join(RELATIONS)}")
+    patterns = _named(raw, "pattern")
+    if sorted(patterns) != sorted(PATTERNS):
+        raise CiteError(f"configuration: pattern: the tooling needs exactly the kinds {', '.join(PATTERNS)}")
     types = _named(raw, "type")
-    for code in ("see", "todo", "name"):
+    for code in ("see", "todo", "name", "prefix", "suffix"):
         if code not in types:
             raise CiteError(f"configuration: type '{code}' is required by the tooling")
     sets = _named(raw, "set")
@@ -327,6 +333,7 @@ def load(path: Optional[Path] = None) -> Config:
         relations=relations,
         sets=sets,
         notes=_named(raw, "note"),
+        patterns=patterns,
         types=types,
         categories=_named(raw, "category"),
         fields=_named(raw, "field"),

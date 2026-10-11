@@ -87,6 +87,7 @@ class Lexicon:
     translations: Dict[str, Dict[str, str]] = field(default_factory=dict)
     links: Dict[str, Dict[str, Link]] = field(default_factory=dict)
     notes: List[Row] = field(default_factory=list)
+    patterns: List[Row] = field(default_factory=list)
     last: Dict[str, int] = field(default_factory=dict)
     # Derived indexes, kept by the methods below.
     spelling: Dict[str, str] = field(default_factory=dict)
@@ -197,6 +198,7 @@ class Lexicon:
                 for example, found in self.usages.items() for sense, usage in found.items()
             ],
             stored["note"]: list(self.notes),
+            stored["pattern"]: list(self.patterns),
             stored["sequence"]: [(kind, str(self.last[kind])) for kind in ID_KINDS],
         }
         for language, glosses in self.gloss.items():
@@ -249,5 +251,6 @@ def build(config: Config, data: Tables) -> Lexicon:
         if language:
             lexicon.links[language] = {row[0]: Link(*row) for row in rows}
     lexicon.notes = list(data[stored["note"]])
+    lexicon.patterns = list(data[stored["pattern"]])
     lexicon.last = {kind: int(last) for kind, last in data[stored["sequence"]]}
     return lexicon

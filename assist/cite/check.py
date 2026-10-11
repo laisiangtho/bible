@@ -13,14 +13,13 @@ from dataclasses import dataclass
 from typing import Dict, List, Optional, Set, Tuple
 
 from assist.cite import credits, lexicon as model, markup, tables
-from assist.cite.config import ID_KINDS, CiteError, Config
+from assist.cite.config import ID_KINDS, SENSE_RELATIONS, CiteError, Config
 from assist.cite.lexicon import Lexicon
 from assist.cite.tables import Tables
 
 LINK_TERM = re.compile(r"^[a-z]+(?:[ '-][a-z]+)*$")
 NUMBER = re.compile(r"^[1-9][0-9]*$")
 UNTYPABLE = ("(", ")", markup.PLACEHOLDER, markup.TRANSLATION)
-SENSE_RELATIONS = ("s", "a", "b", "j", "v")
 
 
 @dataclass(frozen=True)
@@ -135,6 +134,8 @@ def structure(config: Config, data: Tables, problems: Optional[List[str]] = None
         unique(name, [(row[0],) for row in data[name]], "term")
     for kind, subject, _, _ in data[stored["note"]]:
         coded(stored["note"], subject, "kind", kind, config.notes)
+    for kind, form, _, _, _ in data[stored["pattern"]]:
+        coded(stored["pattern"], form, "kind", kind, config.patterns)
     return found
 
 
@@ -375,6 +376,29 @@ def content(config: Config, lexicon: Lexicon) -> List[Finding]:
     for kind, subject, source, text in lexicon.notes:
         if not subject:
             add("note", kind, "E20", f"no subject: '{_short(text)}'")
+
+    # Patterns of word building and spelling.
+    affixes = {
+        lexicon.word_of(sense_id).spelling for sense_id, sense in lexicon.senses.items()
+        if sense.type in ("prefix", "suffix") and lexicon.active(sense_id)
+    }
+    for kind, form, result, context, note in lexicon.patterns:
+        def wrong(detail: str) -> None:
+            add("pattern", f"{kind} {form}", "E22", detail)
+        if not note:
+            wrong("a pattern says in its note what it does")
+        if kind == "stem":
+            if not (form and result and context) or form == result:
+                wrong("a stem pattern has a form, a different result and the affix it stands before")
+            for affix in markup.split_list(context):
+                if affix not in affixes:
+                    wrong(f"'{affix}' is not a word with an active prefix or suffix sense")
+        elif kind == "double":
+            if form not in config.types or result or context:
+                wrong("a double pattern names a type code as its form, and has no result or context")
+        elif kind == "letter":
+            if not re.fullmatch(r"[a-z]", form) or result or context:
+                wrong("a letter pattern is one lowercase letter, with no result or context")
     return found
 
 
