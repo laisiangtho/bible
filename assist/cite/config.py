@@ -10,7 +10,7 @@ from typing import Any, Dict, List, Optional, Pattern, Tuple
 
 ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = ROOT / "cite" / "configuration.json"
-SUPPORTED_VERSION = 3
+SUPPORTED_VERSION = 4
 
 REQUIRED_KEYS = (
     "version", "language", "format", "id", "table", "status", "relation", "set", "note",
@@ -38,13 +38,13 @@ class Table:
     """One table of the configuration.
 
     ``path`` is relative to the cite directory and has no extension. A table
-    whose path holds ``{language}`` exists once per language.
+    whose path holds ``{language}`` exists once per language, in the folder
+    of that language.
     """
 
     name: str
     path: str
     columns: Tuple[str, ...]
-    sharded: bool
 
     @property
     def per_language(self) -> bool:
@@ -72,16 +72,15 @@ class Config:
     raw: Dict[str, Any]
     extension: str
     list_separator: str
-    shard: str
     inbox: Path
     cache: Path
+    language_folder: str
     markup_extension: str
     keyword: Pattern[str]
     reference: Pattern[str]
     tables: Dict[str, Table]
     languages: Tuple[str, ...]
     prefix: Dict[str, str]
-    block: Dict[str, int]
     sense_status: Dict[str, str]
     word_status: Dict[str, str]
     relations: Dict[str, Dict[str, Any]]
@@ -204,14 +203,12 @@ def load(path: Optional[Path] = None) -> Config:
             raise CiteError(f"configuration: format.{key}: the tooling supports {expected!r} only")
     extension = _need(form, "extension", str, "format")
     separator = _need(form, "list", str, "format")
-    shard = _need(form, "shard", str, "format")
-    try:
-        shard.format(block=0)
-    except (KeyError, IndexError, ValueError) as error:
-        raise CiteError(f"configuration: format.shard is not a template with {{block}}: {error}") from error
     if len(separator) != 1 or not extension.startswith("."):
         raise CiteError("configuration: format: 'list' is one character and 'extension' starts with a dot")
     folders = {}
+    language_folder = _need(form, "language", str, "format")
+    if not re.fullmatch(r"[a-z]+", language_folder):
+        raise CiteError("configuration: format.language is the name of one folder inside the cite directory")
     for key in ("inbox", "cache"):
         folder = Path(_need(form, key, str, "format"))
         if folder.is_absolute() or ".." in folder.parts or not folder.parts:
@@ -224,13 +221,11 @@ def load(path: Optional[Path] = None) -> Config:
             raise CiteError(f"configuration: language code '{code}' is not three lowercase letters")
 
     prefix: Dict[str, str] = {}
-    block: Dict[str, int] = {}
     for kind in ID_KINDS:
         entry = _need(raw["id"], kind, dict, "id")
         prefix[kind] = _need(entry, "prefix", str, f"id {kind}")
-        block[kind] = _need(entry, "block", int, f"id {kind}")
-        if not re.fullmatch(r"[a-z]", prefix[kind]) or block[kind] < 1:
-            raise CiteError(f"configuration: id {kind}: a prefix is one lowercase letter, a block is positive")
+        if not re.fullmatch(r"[a-z]", prefix[kind]):
+            raise CiteError(f"configuration: id {kind}: a prefix is one lowercase letter")
     if len(set(prefix.values())) != len(prefix):
         raise CiteError("configuration: id: two kinds share one prefix")
 
@@ -238,15 +233,20 @@ def load(path: Optional[Path] = None) -> Config:
     for name in TABLES:
         entry = _need(raw["table"], name, dict, "table")
         columns = tuple(_need(entry, "columns", dict, f"table {name}"))
-        tables[name] = Table(
-            name, _need(entry, "path", str, f"table {name}"), columns, _need(entry, "shard", bool, f"table {name}")
-        )
+        tables[name] = Table(name, _need(entry, "path", str, f"table {name}"), columns)
         _need(entry, "description", str, f"table {name}")
         if not columns:
             raise CiteError(f"configuration: table {name} has no column")
     unknown = sorted(set(raw["table"]) - set(TABLES))
     if unknown:
         raise CiteError(f"configuration: table: unknown table {', '.join(unknown)}")
+    for table in tables.values():
+        pattern = rf"{language_folder}/\{{language\}}/[a-z]+" if table.per_language else r"[a-z]+"
+        if not re.fullmatch(pattern, table.path):
+            raise CiteError(
+                f"configuration: table {table.name}: the path '{table.path}' is a file in the cite directory, "
+                f"or {language_folder}/{LANGUAGE}/<file> for a table of every language"
+            )
     paths = [table.path for table in tables.values()]
     if len(set(paths)) != len(paths):
         raise CiteError("configuration: table: two tables share one path")
@@ -313,16 +313,15 @@ def load(path: Optional[Path] = None) -> Config:
         raw=raw,
         extension=extension,
         list_separator=separator,
-        shard=shard,
         inbox=folders["inbox"],
         cache=folders["cache"],
+        language_folder=language_folder,
         markup_extension=_need(form, "markup", str, "format"),
         keyword=_compile(_need(raw["keyword"], "pattern", str, "keyword"), "keyword"),
         reference=_compile(_need(raw, "reference", str, "top level"), "reference"),
         tables=tables,
         languages=languages,
         prefix=prefix,
-        block=block,
         sense_status=_status(raw, "sense", SENSE_STATUS),
         word_status=_status(raw, "word", WORD_STATUS),
         relations=relations,

@@ -1,8 +1,8 @@
 {
   "name": "cite",
   "title": "Zolai–English dictionary source",
-  "description": "Configuration of the cite data, format 3: the tables that hold the lexicon, the ids that link them, the markup in which entries are typed and shown, and every closed list. The file is the single source for both tooling and readers; Format.md explains the same rules in prose. Every list below is closed: a value that is not listed is an error.",
-  "version": 3,
+  "description": "Configuration of the cite data, format 4: the tables that hold the lexicon, the ids that link them, the markup in which entries are typed and shown, and every closed list. The file is the single source for both tooling and readers; Format.md explains the same rules in prose. Every list below is closed: a value that is not listed is an error.",
+  "version": 4,
   "language": {
     "keyword": {
       "code": "ctd",
@@ -25,37 +25,33 @@
     }
   },
   "format": {
-    "description": "Physical rules of a table file. The first line names the columns. A value never holds a tab or a line break; an absent value is empty. Rows are sorted by their columns, an id by its number.",
+    "description": "Physical rules of a table file. Every table is one file. A table of the Zolai lexicon is a file in the cite directory; a table of another language is a file in the folder of that language, named by its code, inside the language folder. The first line names the columns. A value never holds a tab or a line break; an absent value is empty. Rows are sorted by their columns, an id by its number.",
     "encoding": "utf-8",
     "newline": "\n",
     "separator": "\t",
     "extension": ".tsv",
     "list": "/",
-    "shard": "{block:04d}",
+    "language": "lang",
     "inbox": "inbox",
     "cache": ".cache",
     "markup": ".cite"
   },
   "id": {
-    "description": "An id is a letter and a number. A number is given once and never reused. A sharded table keeps a row in the file named by the block of its first column: the number divided by the block size.",
+    "description": "An id is a letter and a number. A number is given once and never reused.",
     "word": {
-      "prefix": "w",
-      "block": 5000
+      "prefix": "w"
     },
     "sense": {
-      "prefix": "s",
-      "block": 2000
+      "prefix": "s"
     },
     "example": {
-      "prefix": "e",
-      "block": 5000
+      "prefix": "e"
     }
   },
   "table": {
     "word": {
       "description": "Every written form. A word without a sense is a form that only points at other words through a relation.",
       "path": "word",
-      "shard": true,
       "columns": {
         "id": "Word id.",
         "spelling": "The word as written. Case is significant. Unique.",
@@ -65,7 +61,6 @@
     "sense": {
       "description": "Every meaning of a word.",
       "path": "sense",
-      "shard": true,
       "columns": {
         "id": "Sense id.",
         "word": "Word id.",
@@ -81,9 +76,8 @@
       }
     },
     "gloss": {
-      "description": "Terms and definition of a sense in one language. One folder per language code.",
-      "path": "gloss/{language}",
-      "shard": true,
+      "description": "Terms and definition of a sense in one language. One file in the folder of each language.",
+      "path": "lang/{language}/gloss",
       "columns": {
         "sense": "Sense id.",
         "terms": "Words of that language with the meaning of the sense, the best first.",
@@ -94,7 +88,6 @@
     "relation": {
       "description": "Links between senses and words. The kinds are in the relation list.",
       "path": "relation",
-      "shard": true,
       "columns": {
         "from": "Sense id; for the kind see, a word id.",
         "kind": "Code of the relation list.",
@@ -105,7 +98,6 @@
     "example": {
       "description": "Every example sentence or fragment, stored once.",
       "path": "example",
-      "shard": true,
       "columns": {
         "id": "Example id.",
         "source": "Where the text comes from: a Bible verse or a code of the source list with a locator. May be empty.",
@@ -115,7 +107,6 @@
     "usage": {
       "description": "Which sense an example shows, and where in the text the keyword stands.",
       "path": "usage",
-      "shard": true,
       "columns": {
         "example": "Example id.",
         "sense": "Sense id.",
@@ -124,18 +115,16 @@
       }
     },
     "translation": {
-      "description": "Translation of an example in one language. One folder per language code.",
-      "path": "translation/{language}",
-      "shard": true,
+      "description": "Translation of an example in one language. One file in the folder of each language.",
+      "path": "lang/{language}/translation",
       "columns": {
         "example": "Example id.",
         "text": "The translation."
       }
     },
     "link": {
-      "description": "Words of a language that are not a term of any sense, each sent to the closest senses. One file per language code. A link does not state that the meanings are equal.",
-      "path": "link/{language}",
-      "shard": false,
+      "description": "Words of a language that are not a term of any sense, each sent to the closest senses. One file in the folder of each language. A link does not state that the meanings are equal.",
+      "path": "lang/{language}/link",
       "columns": {
         "term": "The word, in lowercase.",
         "senses": "Sense ids, the closest first.",
@@ -146,8 +135,7 @@
     },
     "note": {
       "description": "Open points for an editor: concepts without a keyword, words whose meaning is not settled.",
-      "path": "note/open",
-      "shard": false,
+      "path": "note",
       "columns": {
         "kind": "Code of the note list.",
         "subject": "The concept or word.",
@@ -158,7 +146,6 @@
     "sequence": {
       "description": "The highest id number given out, per kind of id.",
       "path": "sequence",
-      "shard": false,
       "columns": {
         "table": "word, sense or example.",
         "last": "Highest number given out."

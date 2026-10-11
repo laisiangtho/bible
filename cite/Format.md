@@ -1,6 +1,6 @@
 # Cite Format
 
-Version 3. The tables of the Zolai–English dictionary data in this directory, the ids that link them, and the markup in which entries are typed and shown.
+Version 4. The tables of the Zolai–English dictionary data in this directory, the ids that link them, and the markup in which entries are typed and shown.
 
 Every closed list named in this document is stored in `configuration.json`: tables and columns, status codes, relation kinds, sets, note kinds, attributes, types, categories, fields, sources and rules. When the two differ, `configuration.json` is authoritative.
 
@@ -14,22 +14,27 @@ Every closed list named in this document is stored in `configuration.json`: tabl
 - A **link** sends a word of another language that is not a term of any sense to the closest senses.
 - A **note** is an open point for an editor.
 
+The Zolai lexicon is stored in the cite directory itself. What belongs to another language, glosses, translations and links, is stored in the folder of that language, named by its code, inside `lang/`. A language folder holds the same file names for every language; a file that a language does not have yet is simply absent.
+
 ## Files
 
 ```text
 cite/
   configuration.json
-  word/0000.tsv              one file per block of 5000 word ids
-  sense/0000.tsv             one file per block of 2000 sense ids
-  gloss/eng/0000.tsv         by the sense id; one folder per language
-  relation/0000.tsv          by the id the relation starts from
-  example/0000.tsv           one file per block of 5000 example ids
-  usage/0000.tsv             by the example id
-  translation/eng/0000.tsv   by the example id; one folder per language
-  link/eng.tsv               one file per language
-  note/open.tsv
-  sequence.tsv
+  Readme.md  Format.md  Grammar.md  TODO.md
   CREDITS.md                 generated
+  word.tsv
+  sense.tsv
+  relation.tsv
+  example.tsv
+  usage.tsv
+  note.tsv
+  sequence.tsv
+  lang/
+    eng/                     one folder per language code of the configuration
+      gloss.tsv
+      translation.tsv
+      link.tsv
   inbox/                     markup files, not part of the repository
   .cache/index.sqlite        local index for the reading commands, not part of the repository
 ```
@@ -39,7 +44,7 @@ cite/
 - A value never holds a tab or a line break. An absent value is empty.
 - A list inside one value is separated by `/`.
 - The rows of a file are sorted by their columns from left to right, an id by its number, and no row occurs twice.
-- A sharded table keeps a row in the file named by the block of the id in its first column: the number divided by the block size, written with four digits. `s4100` is in `sense/0002.tsv`.
+- Every table is one file. A folder or file in `lang/` that is not a listed language or one of its tables is an error.
 - Nothing generated is stored in the repository except `CREDITS.md`. The reading commands keep a local SQLite index in the folder named under `format.cache` in `configuration.json`, rebuilt whenever a file it is built from changes.
 
 ## Ids
@@ -85,7 +90,7 @@ A word is written with the letters A to Z and a to z, the digits, and between it
 | confirmed | Confirmed by a speaker of the language. |
 | disputed | Reviewers disagree, or a fault was reported and is not yet resolved. |
 
-### gloss/{language}
+### lang/{language}/gloss
 
 | Column | Content |
 | --- | --- |
@@ -110,7 +115,7 @@ A sense of a type that carries a meaning has a term or a definition in at least 
 - `v`: the target is another spelling of the keyword. It is a word with the status variant and has no sense of its own.
 - `see`: the word occurs only as one part of the target, as `ersheba` in `Be-ersheba`.
 
-### example, usage, translation/{language}
+### example, usage, lang/{language}/translation
 
 | Table | Column | Content |
 | --- | --- | --- |
@@ -126,7 +131,7 @@ A sense of a type that carries a meaning has a term or a definition in at least 
 
 Two examples may share text and source when their translations differ. An example that no sense uses is removed.
 
-### link/{language}, note/open, sequence
+### lang/{language}/link, note, sequence
 
 | Table | Column | Content |
 | --- | --- | --- |
@@ -292,3 +297,7 @@ Format 2 kept one row per sense in `ctd-*.cite` files and one row per example an
 - A sentence that several senses used was stored once per sense and is now stored once.
 
 The data files of format 2 became sets: `core`, `draft` and `digit-number` became `core`, `bible` and `bible`, and the `noun-*` files became `name`.
+
+## Conversion from format 3
+
+Format 3 split each large table into files of one block of ids, in a folder per table, and kept the tables of another language in a folder per table with a subfolder per language. Format 4 keeps every table in one file and gathers the tables of another language in the folder of that language: `gloss/eng/` became `lang/eng/gloss.tsv`, `translation/eng/` became `lang/eng/translation.tsv`, `link/eng.tsv` became `lang/eng/link.tsv` and `note/open.tsv` became `note.tsv`. The conversion was verified by reading every table before and after: every row was equal. `name.json`, a list of Bible names outside the format, was removed.

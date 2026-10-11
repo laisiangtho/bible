@@ -1,26 +1,27 @@
 # Cite
 
-Data of the Zolai–English dictionary, format 3. A word is stored once, each of its meanings is a sense, and every example sentence is stored once and linked to the senses it shows. Rows are linked by ids.
+Data of the Zolai–English dictionary, format 4. A word is stored once, each of its meanings is a sense, and every example sentence is stored once and linked to the senses it shows. Rows are linked by ids.
 
 | Path | Content |
 | --- | --- |
 | `Format.md` | The tables, the ids, the markup in which entries are typed, and the rules. |
+| `Grammar.md` | How Zolai words and sentences are built: loanwords, reduplication, prefixes and suffixes, spelling rules, expressive adjectives, particles. |
 | `configuration.json` | Every table, column and closed list the format refers to: status codes, relation kinds, sets, types, categories, fields, sources, rules. Read by the tooling and by readers. |
-| `word/` | Every written form. |
-| `sense/` | Every meaning of a word: type, category, field, set, status, origin, source. |
-| `gloss/eng/` | Terms and definition of a sense in English. A further language is a further folder. |
-| `relation/` | Synonyms, antonyms, bases, joined forms, variants and redirects. |
-| `example/` | Every example sentence or fragment, once. |
-| `usage/` | Which sense an example shows and where the keyword stands in it. |
-| `translation/eng/` | English translation of each example. |
-| `link/eng.tsv` | Common English words that are not a term of any sense, each sent to the closest senses. |
-| `note/open.tsv` | Open points: concepts without a keyword, words whose meaning is not settled, notes for the editor. |
+| `word.tsv` | Every written form. |
+| `sense.tsv` | Every meaning of a word: type, category, field, set, status, origin, source. |
+| `relation.tsv` | Synonyms, antonyms, bases, joined forms, variants and redirects. |
+| `example.tsv` | Every example sentence or fragment, once. |
+| `usage.tsv` | Which sense an example shows and where the keyword stands in it. |
+| `note.tsv` | Open points: concepts without a keyword, words whose meaning is not settled, notes for the editor. |
+| `lang/eng/gloss.tsv` | Terms and definition of a sense in English. A further language is a further folder in `lang/`. |
+| `lang/eng/translation.tsv` | English translation of each example. |
+| `lang/eng/link.tsv` | Common English words that are not a term of any sense, each sent to the closest senses. |
 | `sequence.tsv` | The highest id given out for words, senses and examples. |
 | `CREDITS.md` | Generated credits: sources and Bible texts. |
 | `inbox/` | Markup files being typed or pulled. Not part of the repository. |
 | `.cache/` | Local index for the reading commands. Not part of the repository. |
 
-A table file is tab-separated text with a header line. A large table is split into files of a few hundred kilobytes, named by the block of ids they hold. No index or export is stored: every command reads the tables directly.
+A table file is tab-separated text with a header line, one file per table. The Zolai lexicon is in this directory; everything in another language is in the folder of that language in `lang/`.
 
 ## Commands
 
@@ -35,7 +36,7 @@ python3 -m assist cite lookup vantung         # senses of a Zolai word, with exa
 python3 -m assist cite lookup beersheba       # hyphens, spaces and capitals are ignored: finds Be-ersheba
 python3 -m assist cite lookup hand           # not a Zolai word: the senses with the term, in every gloss language
 python3 -m assist cite lookup --eng man       # a term of English only, although man is also a Zolai word
-python3 -m assist cite lookup mom             # no sense has the term: the closest senses of link/eng.tsv
+python3 -m assist cite lookup mom             # no sense has the term: the closest senses of lang/eng/link.tsv
 python3 -m assist cite lookup khut --json     # the same as data
 python3 -m assist cite find "wash"            # a text anywhere: spellings, glosses, examples, translations
 python3 -m assist cite show s19435 e12061     # the rows behind ids or sense keys, as markup
@@ -87,7 +88,7 @@ khut = (i:1) (t:n) (w:hand) (d:the hand of a person) (r:46.16.21) (q:reviewed)
 - `source` names where a sense or an example is attested: a Bible verse or a listed source. An example taken from the Bible text is an exact fragment of the verse it names.
 - A sense is meant to carry at least three examples; `next --kind examples` lists the senses that fall short. A word that is rare in the texts stays short until a speaker adds examples.
 - A sense drafted from dictionary data names its source, as in `zai:money`. The same code on any other sense says that an English to Zolai word list of the zolai-ai project gives the word for that English headword: the sense is confirmed by a second source, and where its status was `low` it was raised to `draft`. Synonyms were linked where the list gives two words together under two headwords or the two senses share two English terms; opposites where the list confirms a sense for each word of a common English pair of opposites.
-- `link/eng.tsv` links common English words that are not a term of any sense to the closest senses, found through the Moby Thesaurus and judged one by one. `note/open.tsv` lists the common words for which no sense is close enough.
+- `lang/eng/link.tsv` links common English words that are not a term of any sense to the closest senses, found through the Moby Thesaurus and judged one by one. `note.tsv` lists the common words for which no sense is close enough.
 - A sense drafted from the news articles of Zomi Daily and Tongsan names the articles, as in `zd:20522`, and its examples are exact fragments of sentences of those articles. Its meaning was worked out from the sentences and from dictionary data without a parallel English text. The articles themselves are not part of this repository.
 - A sense drafted from the articles of Zomipedia names the article, as in `zp:3272`. Names of clans and villages taken from the tags of those articles alone have the status `low` and no example. The articles themselves are not part of this repository.
 - A sense drawn from the grammar book Paunam Khenna leh Kampau Luanzia names the page, as in `pk:165`. The book states many meanings, opposites and equivalents itself; where the meaning is inferred the status is `low`. The book itself is not part of this repository.

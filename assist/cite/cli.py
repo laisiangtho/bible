@@ -127,11 +127,8 @@ def _store(config: Config, lexicon, apply: bool) -> None:
             _report(config, new, summary=False)
             raise CiteError(f"the change breaks {len(new)} rules; nothing is written")
         print(f"note: the tables had {len(found)} findings before the change; see: python3 -m assist cite check")
-    write, remove = tables.changes(config, data)
-    for path in write:
+    for path in tables.changes(config, data):
         print(f"  {'written' if apply else 'to write'}: {_relative(config, path)}")
-    for path in remove:
-        print(f"  {'removed' if apply else 'to remove'}: {_relative(config, path)}")
     if apply:
         tables.write_all(config, data)
 

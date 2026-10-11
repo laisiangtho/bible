@@ -66,10 +66,7 @@ def path(config: Config) -> Path:
 def _sources(config: Config) -> List[Path]:
     """Every file the index is built from."""
     found = [config.directory / "configuration.json", Path(__file__)]
-    for name in tables.stored(config):
-        table = tables.definition(config, name)
-        location = tables._location(config, table, name)
-        found.extend(sorted(location.glob(f"*{config.extension}")) if table.sharded else [location])
+    found.extend(tables.location(config, name) for name in tables.stored(config))
     found.extend(config.bible_path(identify) for identify in config.raw["bible"]["source"])
     return found
 
