@@ -44,10 +44,9 @@ class Fixture(unittest.TestCase):
         for identify in bible["source"] + bible["reference"]:
             text = json.dumps({"info": {"name": identify}, "book": {}})
             self.config.bible_path(identify).write_text(text, encoding="utf-8")
-        for name, table in self.config.tables.items():
-            if table.sharded and not table.per_language:
-                (self.config.directory / table.path).mkdir()
-        tables.write_all(self.config, {"note/open": [], "sequence": [("word", "0"), ("sense", "0"), ("example", "0")]})
+        empty = {table.path: [] for table in self.config.tables.values() if not table.per_language}
+        empty["sequence"] = [("word", "0"), ("sense", "0"), ("example", "0")]
+        tables.write_all(self.config, empty)
         tables.write_text(credits.path(self.config), credits.build(self.config))
         self.apply(ROWS)
 
@@ -102,18 +101,21 @@ class MarkupTest(unittest.TestCase):
 
 
 class TableTest(Fixture):
-    def test_shard_and_round_trip(self) -> None:
+    def test_one_file_sorted(self) -> None:
         rows = [("w5000", "b", "1"), ("w2", "a", "1"), ("w10", "c", "1")]
         files = tables.render(self.config, "word", rows)
-        self.assertEqual([path.name for path in files], ["0000.tsv", "0001.tsv"])
-        self.assertEqual(files[self.config.directory / "word" / "0000.tsv"], "id\tspelling\tstatus\nw2\ta\t1\nw10\tc\t1\n")
+        self.assertEqual(
+            files, {self.config.directory / "word.tsv": "id\tspelling\tstatus\nw2\ta\t1\nw10\tc\t1\nw5000\tb\t1\n"}
+        )
+        self.assertEqual(
+            tables.location(self.config, "lang/eng/gloss"), self.config.directory / "lang" / "eng" / "gloss.tsv"
+        )
 
     def test_write_only_what_differs(self) -> None:
         model = self.model()
-        self.assertEqual(tables.changes(self.config, model.tables()), ({}, []))
+        self.assertEqual(tables.changes(self.config, model.tables()), {})
         model.words[model.spelling["khut"]].status = "3"
-        write, remove = tables.changes(self.config, model.tables())
-        self.assertEqual(([path.name for path in write], remove), (["0000.tsv"], []))
+        self.assertEqual([path.name for path in tables.changes(self.config, model.tables())], ["word.tsv"])
 
     def test_rejects_bad_values(self) -> None:
         with self.assertRaises(CiteError):
@@ -124,7 +126,7 @@ class TableTest(Fixture):
             tables.render(self.config, "word", [("w1", "a")])
 
     def test_read_defects(self) -> None:
-        path = self.config.directory / "word" / "0000.tsv"
+        path = self.config.directory / "word.tsv"
         text = path.read_text(encoding="utf-8")
         lines = text.split("\n")
         path.write_text("\n".join([lines[0], lines[2], lines[1]] + lines[3:]), encoding="utf-8")
@@ -140,12 +142,15 @@ class TableTest(Fixture):
         with self.assertRaises(CiteError):
             tables.read_all(self.config)
         path.write_text(text, encoding="utf-8")
-        (self.config.directory / "word" / "0001.tsv").write_text("id\tspelling\tstatus\nw1\tx\t1\n", encoding="utf-8")
+        tables.read_all(self.config)
+
+    def test_unknown_language_folder_or_file(self) -> None:
+        folder = self.config.directory / "lang"
+        (folder / "xxx").mkdir()
         with self.assertRaises(CiteError):
             tables.read_all(self.config)
-
-    def test_unknown_language_folder(self) -> None:
-        (self.config.directory / "gloss" / "xxx").mkdir()
+        (folder / "xxx").rmdir()
+        (folder / "eng" / "notes.tsv").write_text("a\n", encoding="utf-8")
         with self.assertRaises(CiteError):
             tables.read_all(self.config)
 
@@ -333,7 +338,7 @@ class PullTest(Fixture):
         self.assertIn("ersheba = (t:see) <Be-ersheba>", lines)
         result = self.apply(lines)
         self.assertEqual({action.verb for action in result.actions}, {"unchanged"})
-        self.assertEqual(tables.changes(self.config, self.model().tables()), ({}, []))
+        self.assertEqual(tables.changes(self.config, self.model().tables()), {})
         marked = importer.mark_done(lines, result)
         self.assertFalse(any(markup.is_row(line) or importer.STAMP.match(line) for line in marked))
 
@@ -376,10 +381,10 @@ class CheckTest(Fixture):
 
         self.assertEqual(self.rules(usage), ["E15"])
         self.assertEqual(self.rules(lambda data: data["word"].append(("w6", "khut", "1"))), ["E02"])
-        self.assertEqual(self.rules(lambda data: data["gloss/eng"].append(("s3", "plural (marker)", "", ""))), ["E02"])
+        self.assertEqual(self.rules(lambda data: data["lang/eng/gloss"].append(("s3", "plural (marker)", "", ""))), ["E02"])
 
         def paren(data) -> None:
-            data["gloss/eng"] = [(s, t.replace("hand", "hand (limb)"), d, x) for s, t, d, x in data["gloss/eng"]]
+            data["lang/eng/gloss"] = [(s, t.replace("hand", "hand (limb)"), d, x) for s, t, d, x in data["lang/eng/gloss"]]
 
         self.assertEqual(self.rules(paren), ["E09"])
 
@@ -461,7 +466,7 @@ class RepositoryTest(unittest.TestCase):
 
     def test_model_stores_what_it_read(self) -> None:
         model = lexicon.build(self.config, self.data)
-        self.assertEqual(tables.changes(self.config, model.tables()), ({}, []))
+        self.assertEqual(tables.changes(self.config, model.tables()), {})
 
     def test_pulled_words_import_unchanged(self) -> None:
         model = lexicon.build(self.config, self.data)
@@ -469,7 +474,7 @@ class RepositoryTest(unittest.TestCase):
         result = importer.plan(self.config, model, lines)
         self.assertEqual(result.errors, [])
         self.assertEqual({action.verb for action in result.actions}, {"unchanged"})
-        self.assertEqual(tables.changes(self.config, model.tables()), ({}, []))
+        self.assertEqual(tables.changes(self.config, model.tables()), {})
 
 
 if __name__ == "__main__":
