@@ -15,7 +15,7 @@ import sqlite3
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 
-from assist.cite import check, lexicon as model, markup, tables, words
+from assist.cite import check, english, lexicon as model, markup, tables, words
 from assist.cite.config import ID_KINDS, CiteError, Config
 from assist.cite.lexicon import Lexicon
 
@@ -36,6 +36,12 @@ create table usage (example text not null, sense text not null, start text not n
 create table translation (language text not null, example text not null, text text not null);
 create table link (language text not null, term text not null, senses text, source text, status text, note text);
 create table note (kind text, subject text, source text, text text);
+create table pattern (kind text, form text, result text, context text, note text);
+create table concept (language text not null, id text not null, type text, field text, definition text, origin text);
+create table lexeme (language text not null, word text not null, fold text not null, concept text not null, ord integer);
+create table lexrelation (language text not null, source text not null, kind text not null, target text not null);
+create table form (language text not null, fold text not null, word text not null);
+create table equivalent (language text not null, sense text not null, concept text not null, status text, source text);
 create table frequency (fold text primary key, bible integer not null, examples integer not null);
 """
 INDEXES = """
@@ -51,6 +57,13 @@ create index usage_sense on usage (sense);
 create index usage_example on usage (example);
 create index translation_example on translation (example);
 create index link_term on link (term);
+create index concept_id on concept (id);
+create index lexeme_fold on lexeme (fold);
+create index lexeme_concept on lexeme (concept);
+create index lexrelation_source on lexrelation (source);
+create index form_fold on form (fold);
+create index equivalent_concept on equivalent (concept);
+create index equivalent_sense on equivalent (sense);
 """
 
 
@@ -127,6 +140,19 @@ def build(config: Config, target: Path) -> None:
                 (language, l.term, l.senses, l.source, l.status, l.note) for l in links.values()
             ))
         insert("insert into note values (?, ?, ?, ?)", lexicon.notes)
+        insert("insert into pattern values (?, ?, ?, ?, ?)", lexicon.patterns)
+        for language in config.languages:
+            name = {key: config.tables[key].instance(language) for key in ("concept", "lang_sense", "lang_relation", "form", "equivalent")}
+            extra = lexicon.extra
+            insert("insert into concept values (?, ?, ?, ?, ?, ?)", ((language,) + row for row in extra.get(name["concept"], [])))
+            insert("insert into lexeme values (?, ?, ?, ?, ?)", (
+                (language, word, word.casefold(), concept, int(order)) for word, concept, order in extra.get(name["lang_sense"], [])
+            ))
+            insert("insert into lexrelation values (?, ?, ?, ?)", ((language,) + row for row in extra.get(name["lang_relation"], [])))
+            insert("insert into form values (?, ?, ?)", (
+                (language, form.casefold(), word) for form, word in extra.get(name["form"], [])
+            ))
+            insert("insert into equivalent values (?, ?, ?, ?, ?)", ((language,) + row for row in extra.get(name["equivalent"], [])))
         in_examples: Dict[str, int] = {}
         for example in lexicon.examples.values():
             for token in {token.casefold() for token in WORD.findall(example.text)}:
@@ -245,6 +271,52 @@ class Index:
             found[language] = (status, note, markup.split_list(senses))
         return found
 
+    def concepts_for(self, query: str, language: str) -> Tuple[str, List[Tuple]]:
+        """The word of the lexicon of a language that the query is or is a form of, and its concepts.
+
+        Concepts are (id, type, definition, words) in the order of the word. An
+        inflected form is reduced by the irregular forms, then by the regular
+        endings.
+        """
+        folded = markup.collapse(query).casefold()
+        candidates = [row[0] for row in self.rows("select word from form where language = ? and fold = ?", [language, folded])]
+        candidates += english.bases(folded)
+        for word in dict.fromkeys(candidates):
+            rows = self.rows(
+                "select l.concept, c.type, c.definition from lexeme l join concept c on c.id = l.concept and c.language = l.language "
+                "where l.language = ? and l.fold = ? order by l.ord",
+                [language, word.casefold()],
+            )
+            if rows:
+                found = []
+                for concept, type_code, definition in dict.fromkeys(rows):
+                    members = [m[0] for m in self.rows(
+                        "select word from lexeme where language = ? and concept = ? order by word", [language, concept]
+                    )]
+                    found.append((concept, type_code, definition, members))
+                return word, found
+        return "", []
+
+    def equivalents(self, concepts: Sequence[str], language: str) -> Dict[str, List[str]]:
+        """Active Zolai senses equivalent to each concept."""
+        found: Dict[str, List[str]] = {}
+        for concept, sense in self._in(
+            "select e.concept, e.sense from equivalent e join sense s on s.id = e.sense "
+            "where e.concept in ({}) and e.language = ? and s.status != ?", concepts, [language, self.retired]
+        ):
+            found.setdefault(concept, []).append(sense)
+        return found
+
+    def related_words(self, word: str, language: str) -> Dict[str, List[str]]:
+        """Words of the lexicon related to a word, by kind: derived, antonym, pertains to."""
+        found: Dict[str, List[str]] = {}
+        for kind, target in self.rows(
+            "select kind, target from lexrelation where language = ? and source = ? and kind in ('derivation', 'antonym', 'pertains')",
+            [language, word],
+        ):
+            found.setdefault(kind, []).append(target)
+        return found
+
     def find(self, query: str, limit: int) -> Dict[str, List[str]]:
         """Lines that hold the text, without regard to case: spellings, glosses, examples and translations."""
         like = f"%{markup.collapse(query)}%"
@@ -311,6 +383,7 @@ class Index:
             "example": example_rows,
             "usage": usage_rows,
             self.config.tables["note"].path: [],
+            self.config.tables["pattern"].path: [],
             "sequence": [(kind, value) for kind, value in (
                 (key.split()[1], value) for key, value in self.rows("select key, value from meta where key like 'last %'")
             )],

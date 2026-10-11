@@ -13,7 +13,9 @@ import unittest
 from pathlib import Path
 from typing import List
 
-from assist.cite import check, cli, config as configuration, credits, importer, index, lexicon, markup, pull, query, render, tables
+from assist.cite import (
+    analyse, check, english, cli, config as configuration, credits, importer, index, lexicon, markup, pull, query, render, tables, work,
+)
 from assist.cite.config import CiteError
 
 ROWS = """
@@ -368,6 +370,25 @@ class CheckTest(Fixture):
     def test_sound(self) -> None:
         self.assertEqual(self.rules(lambda data: None), [])
 
+    def test_patterns(self) -> None:
+        self.apply(["na = (t:suffix) (w:-ness) (d:makes a noun of a state)"])
+        good = [("stem", "lo", "loh", "na", "lo becomes loh before na"), ("double", "v", "", "", "ongoing action"),
+                ("letter", "q", "", "", "not in native words")]
+        self.assertEqual(self.rules(lambda data: data["pattern"].extend(good)), [])
+        self.assertEqual(self.rules(lambda data: data["pattern"].append(("stem", "lo", "loh", "te", "x"))), ["E22"])
+        self.assertEqual(self.rules(lambda data: data["pattern"].append(("double", "noun", "", "", "x"))), ["E22"])
+        self.assertEqual(self.rules(lambda data: data["pattern"].append(("letter", "qq", "", "", ""))), ["E22"])
+        self.assertEqual(self.rules(lambda data: data["pattern"].append(("rule", "q", "", "", "x"))), ["E05"])
+
+    def test_grade_relation(self) -> None:
+        self.apply([
+            "kengkeng = (t:adv) (w:toddling) (g:kangkang)",
+            "kangkang = (t:adv) (w:rigidly) (g:kengkeng)",
+        ])
+        model = self.model()
+        self.assertEqual(model.relation_items(model.sense_by_key("kengkeng.1"), "g"), ["kangkang"])
+        self.assertIn("(g:kengkeng)", render.sense_line(model, model.sense_by_key("kangkang.1")))
+
     def test_structure(self) -> None:
         self.assertEqual(self.rules(lambda data: data["usage"].append(("e9", "s1", "1", "1"))), ["E04"])
         self.assertEqual(self.rules(lambda data: data["word"].append(("w9", "x", "1"))), ["E03"])
@@ -444,6 +465,170 @@ class CommandTest(unittest.TestCase):
         self.assertEqual(cli._markup_file(config, "new.txt"), config.directory / "inbox" / "new.txt")
         self.assertEqual(cli._markup_file(config, "./new.cite"), Path("new.cite"))
         self.assertEqual(cli._markup_file(config, "notes/new.cite"), Path("notes/new.cite"))
+
+
+class WorkTest(Fixture):
+    def facts(self):
+        found = index.open_index(self.config)
+        self.addCleanup(found.close)
+        return {fact.key: fact for fact in work.facts(found, self.config)}, found
+
+    def test_gaps(self) -> None:
+        self.apply(["amau = (i:1) (t:pron) (w:they/them) (d:Third person plural pronoun.) (q:low, one list only)"])
+        facts, _ = self.facts()
+        self.assertEqual(work.gaps(facts["khut.1"], self.config), ["examples"])
+        self.assertEqual(work.gaps(facts["te.1"], self.config), ["examples", "nogloss"])
+        self.assertEqual(work.gaps(facts["amau.1"], self.config), ["low", "examples"])
+        self.assertEqual(work.gaps(facts["Be-ersheba.1"], self.config), [])
+        self.assertEqual((facts["khut.1"].sources, facts["Be-ersheba.1"].sources), ((), ("bible",)))
+
+    def test_doubtful_needs_the_sense_key(self) -> None:
+        model = self.model()
+        model.notes.append(("editor", "khut", "", "khut.1: the sense looks wrong"))
+        model.notes.append(("editor", "amau", "", "a remark on the word"))
+        tables.write_all(self.config, model.tables())
+        facts, _ = self.facts()
+        self.assertEqual([key for key, fact in facts.items() if fact.doubtful], ["khut.1"])
+
+    def test_filter_and_queue(self) -> None:
+        facts, _ = self.facts()
+        chosen = work.Filter(type="n")
+        chosen.validate(self.config)
+        self.assertEqual([f.key for f in facts.values() if chosen.holds(f, self.config)], ["khut.1"])
+        with self.assertRaises(CiteError):
+            work.Filter(type="noun").validate(self.config)
+        rows, counts = work.queue(facts.values(), self.config, ["nogloss"], "key")
+        self.assertEqual([fact.key for fact, _ in rows], ["te.1"])
+        self.assertEqual(counts["examples"], 4)
+
+    def test_counts(self) -> None:
+        facts, found = self.facts()
+        self.assertEqual(work.counts(facts.values(), "type"), {"pron": 2, "n": 1, "name": 1, "part": 1})
+        self.assertEqual(work.crossed(facts.values(), "set", "type")["bible"], {"name": 1})
+        rest = work.overview(found, self.config, list(facts.values()))
+        self.assertEqual(rest["examples"], 3)
+        self.assertEqual(rest["languages"]["eng"]["translations"], 3)
+
+
+class AnalyseTest(unittest.TestCase):
+    WORDS = {
+        "hoih": [("s1", "hoih.1", "adj", "good")],
+        "lo": [("s2", "lo.1", "adv", "not")],
+        "na": [("s3", "na.1", "suffix", "-ness"), ("s4", "na.2", "v", "hurt")],
+        "zaw": [("s5", "zaw.1", "suffix", "more")],
+        "kap": [("s6", "kap.1", "v", "cry")],
+        "ki": [("s7", "ki.1", "prefix", "each other")],
+        "it": [("s8", "it.1", "v", "love")],
+    }
+    PATTERNS = analyse.Patterns.of(
+        [("stem", "lo", "loh", "na", "lo becomes loh before na"), ("double", "v", "", "", "ongoing action")], "/"
+    )
+
+    def readings(self, word: str):
+        lookup = lambda piece: [analyse.Meaning(*row) for row in self.WORDS.get(piece, [])]
+        return analyse.analyse(word, lookup, self.PATTERNS)
+
+    def test_affixes_and_stem(self) -> None:
+        first = self.readings("hoihlohna")[0]
+        self.assertEqual([(p.keyword, p.role) for p in first.parts], [("hoih", "base"), ("lo", "base"), ("na", "suffix")])
+        self.assertEqual(first.parts[1].pattern, "lo becomes loh before na")
+        self.assertEqual(self.readings("hoihzaw")[0].plan, "hoih + zaw")
+        self.assertEqual([p.role for p in self.readings("kiit")[0].parts], ["prefix", "base"])
+
+    def test_unchanged_stem_is_remarked(self) -> None:
+        part = self.readings("hoihlona")[0].parts[1]
+        self.assertEqual((part.keyword, part.pattern), ("lo", "before na this is written loh"))
+
+    def test_double_and_nothing(self) -> None:
+        self.assertEqual([(p.keyword, p.role) for p in self.readings("kapkap")[0].parts], [("kap", "double")])
+        self.assertEqual(self.readings("xyz"), [])
+        self.assertEqual(self.readings("hoih"), [])
+
+
+RELEASE = """<?xml version="1.0" encoding="UTF-8"?>
+<LexicalResource>
+  <Lexicon id="oewn" label="Open English Wordnet" language="en" version="2099">
+    <LexicalEntry id="oewn-hand-n">
+      <Lemma writtenForm="hand" partOfSpeech="n"/>
+      <Sense id="oewn-hand__1" synset="oewn-001-n"><SenseRelation relType="derivation" target="oewn-handy__1"/></Sense>
+    </LexicalEntry>
+    <LexicalEntry id="oewn-handy-a">
+      <Lemma writtenForm="handy" partOfSpeech="a"/>
+      <Sense id="oewn-handy__1" synset="oewn-002-a"/>
+    </LexicalEntry>
+    <LexicalEntry id="oewn-mouse-n">
+      <Lemma writtenForm="mouse" partOfSpeech="n"/>
+      <Form writtenForm="mice"/>
+      <Sense id="oewn-mouse__1" synset="oewn-003-n"/>
+    </LexicalEntry>
+    <Synset id="oewn-001-n" ili="i1" members="oewn-hand-n" partOfSpeech="n" lexfile="noun.body">
+      <Definition>the end of the arm of a person</Definition>
+      <SynsetRelation relType="hypernym" target="oewn-003-n"/>
+    </Synset>
+    <Synset id="oewn-002-a" members="oewn-handy-a" partOfSpeech="a" lexfile="adj.all">
+      <Definition>easy to use</Definition>
+    </Synset>
+    <Synset id="oewn-003-n" members="oewn-mouse-n" partOfSpeech="n" lexfile="noun.animal">
+      <Definition>a small rodent</Definition>
+    </Synset>
+  </Lexicon>
+</LexicalResource>
+"""
+
+
+class EnglishTest(Fixture):
+    def release(self):
+        path = Path(self.folder.name) / "release.xml"
+        path.write_text(RELEASE, encoding="utf-8")
+        return english.read_release(path)
+
+    def test_read_and_update(self) -> None:
+        release = self.release()
+        self.assertEqual(release.label, "oewn 2099")
+        self.assertEqual(sorted(release.senses), [("hand", "oewn-001-n", "1"), ("handy", "oewn-002-a", "1"), ("mouse", "oewn-003-n", "1")])
+        self.assertIn(("oewn-001-n", "broader", "oewn-003-n"), release.relations)
+        self.assertIn(("hand", "derivation", "handy"), release.relations)
+        self.assertEqual(release.forms, {("mice", "mouse")})
+        table = english.names(self.config, "eng")
+        local = {table["concept"]: [("local-1-n", "n", "", "a local meaning", "local")],
+                 table["lang_sense"]: [("palm", "local-1-n", "1")]}
+        result = english.update(local, release, table)
+        self.assertEqual(len(result.rows[table["concept"]]), 4)
+        self.assertIn(("palm", "local-1-n", "1"), result.rows[table["lang_sense"]])
+        model = self.model()
+        model.extra.update(result.rows)
+        model.extra[table["equivalent"]] = [(model.sense_by_key("khut.1"), "oewn-001-n", "1", "terms")]
+        self.assertEqual(check.run(self.config, model.tables()), [])
+        model.extra[table["equivalent"]].append(("s99", "oewn-009-n", "9", "terms"))
+        self.assertEqual({f.rule for f in check.run(self.config, model.tables())}, {"E23"})
+
+    def test_bases_and_propose(self) -> None:
+        self.assertEqual(english.bases("comparatives")[:2], ["comparatives", "comparative"])
+        self.assertIn("run", english.bases("running"))
+        members = {"hand": [("c1", "1", "hand"), ("c2", "2", "hand")], "palm": [("c1", "1", "palm")],
+                   "tyre": [("c3", "1", "tyre")]}
+        concepts = {"c1": ("n", "hand/palm", "the end of the arm"), "c2": ("v", "hand", "give with the hand"),
+                    "c3": ("n", "tyre", "hoop that covers a wheel")}
+        matches, counts = english.propose(
+            [("s1", "n", "hand/palm", "the hand of a person"), ("s2", "name", "Tyre", "an ancient city")], members, concepts
+        )
+        self.assertEqual([(m.sense, m.concept) for m in matches], [("s1", "c1")])
+        self.assertEqual(counts["no concept"], 1)
+
+    def test_lookup_of_an_english_word(self) -> None:
+        release = self.release()
+        table = english.names(self.config, "eng")
+        model = self.model()
+        model.extra.update(english.update({}, release, table).rows)
+        model.extra[table["equivalent"]] = [(model.sense_by_key("khut.1"), "oewn-001-n", "1", "terms")]
+        tables.write_all(self.config, model.tables())
+        found = index.open_index(self.config)
+        self.addCleanup(found.close)
+        self.assertEqual(found.concepts_for("mice", "eng")[0], "mouse")
+        word, concepts = found.concepts_for("hands", "eng")
+        self.assertEqual((word, [c[0] for c in concepts]), ("hand", ["oewn-001-n"]))
+        self.assertEqual(found.equivalents(["oewn-001-n"], "eng"), {"oewn-001-n": [model.sense_by_key("khut.1")]})
+        self.assertEqual(found.related_words("hand", "eng"), {"derivation": ["handy"]})
 
 
 class RepositoryTest(unittest.TestCase):

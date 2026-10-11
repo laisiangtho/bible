@@ -9,10 +9,14 @@ Every closed list named in this document is stored in `configuration.json`: tabl
 - A **word** is one written form. Case is significant: `Pasian` and `pasian` are different words.
 - A **sense** is one meaning of a word. It carries what does not depend on a language: type, category, field, set, status, origin and source.
 - A **gloss** gives the terms and the definition of a sense in one language.
-- A **relation** links a sense to another word or sense: synonym, antonym, base, join, variant. A redirect links a word to a word.
+- A **relation** links a sense to another word or sense: synonym, antonym, base, join, variant, grade. A redirect links a word to a word.
 - An **example** is a sentence or fragment in Zolai, stored once. A **usage** says which sense the example shows and where the keyword stands in it; one example may show several senses. A **translation** gives the example in one language.
 - A **link** sends a word of another language that is not a term of any sense to the closest senses.
+- The **lexicon of another language** holds **concepts**, the words that express them, their relations and irregular forms, and **equivalences** between Zolai senses and concepts. The English lexicon is imported from Open English WordNet.
 - A **note** is an open point for an editor.
+- A **pattern** describes how words are built or spelled: a stem that changes before an affix, a word written twice, a letter that native words do not use. The tools apply the patterns to analyse a word that is not in the lexicon; `Grammar.md` describes them in prose.
+
+A Zolai word that `lookup` does not find is read as parts that are words of the lexicon: a prefix at the start, suffixes at the end, bases between them, a stem restored by a stem pattern, or a word written twice. Up to three readings are shown, the fewest parts first. An analysis is shown, never stored.
 
 The Zolai lexicon is stored in the cite directory itself. What belongs to another language, glosses, translations and links, is stored in the folder of that language, named by its code, inside `lang/`. A language folder holds the same file names for every language; a file that a language does not have yet is simply absent.
 
@@ -23,18 +27,25 @@ cite/
   configuration.json
   Readme.md  Format.md  Grammar.md  TODO.md
   CREDITS.md                 generated
+  STATS.md                   generated, refreshed by hand
   word.tsv
   sense.tsv
   relation.tsv
   example.tsv
   usage.tsv
   note.tsv
+  pattern.tsv
   sequence.tsv
   lang/
     eng/                     one folder per language code of the configuration
       gloss.tsv
       translation.tsv
       link.tsv
+      concept.tsv            the lexicon of the language
+      sense.tsv
+      relation.tsv
+      form.tsv
+      equivalent.tsv
   inbox/                     markup files, not part of the repository
   .cache/index.sqlite        local index for the reading commands, not part of the repository
 ```
@@ -45,7 +56,7 @@ cite/
 - A list inside one value is separated by `/`.
 - The rows of a file are sorted by their columns from left to right, an id by its number, and no row occurs twice.
 - Every table is one file. A folder or file in `lang/` that is not a listed language or one of its tables is an error.
-- Nothing generated is stored in the repository except `CREDITS.md`. The reading commands keep a local SQLite index in the folder named under `format.cache` in `configuration.json`, rebuilt whenever a file it is built from changes.
+- Nothing generated is stored in the repository except `CREDITS.md`, which `check` keeps up to date, and `STATS.md`, a snapshot of the counts refreshed by hand. The reading commands keep a local SQLite index in the folder named under `format.cache` in `configuration.json`, rebuilt whenever a file it is built from changes.
 
 ## Ids
 
@@ -106,13 +117,14 @@ A sense of a type that carries a meaning has a term or a definition in at least 
 | Column | Content |
 | --- | --- |
 | `from` | Sense id; for the kind `see`, a word id. |
-| `kind` | `s` synonym, `a` antonym, `b` base, `j` join, `v` variant, `see` redirect. |
+| `kind` | `s` synonym, `a` antonym, `b` base, `j` join, `v` variant, `g` grade, `see` redirect. |
 | `to` | Word id, or a sense id when one meaning of the target is meant. |
 | `order` | Position among the targets of the same kind, from 1. |
 
 - `b`: the keyword is a plural, suffixed or prefixed form of the target.
 - `j` with several targets: separate words written as one, in their order, as `aom` joins `a` and `om`. With one target: the same word in another spelling.
 - `v`: the target is another spelling of the keyword. It is a word with the status variant and has no sense of its own.
+- `g`: the target is a form of the same expressive set with another vowel grade, as `kengkeng`, `kengkang` and `kangkang` share the frame `k_ng`.
 - `see`: the word occurs only as one part of the target, as `ersheba` in `Be-ersheba`.
 
 ### example, usage, lang/{language}/translation
@@ -131,7 +143,7 @@ A sense of a type that carries a meaning has a term or a definition in at least 
 
 Two examples may share text and source when their translations differ. An example that no sense uses is removed.
 
-### lang/{language}/link, note, sequence
+### lang/{language}/link, note, pattern, sequence
 
 | Table | Column | Content |
 | --- | --- | --- |
@@ -143,8 +155,37 @@ Two examples may share text and source when their translations differ. An exampl
 | note | `subject` | The concept or word. |
 | note | `source` | Where it was met. |
 | note | `text` | What was found. |
+| pattern | `kind` | `stem`, `double` or `letter`. |
+| pattern | `form` | For `stem` the ending of the stem, for `double` a type code, for `letter` the letter. |
+| pattern | `result` | For `stem` the ending it becomes; empty otherwise. |
+| pattern | `context` | For `stem` the affixes before which the stem changes, as keywords; empty otherwise. |
+| pattern | `note` | What the pattern does, with an example. |
 | sequence | `table` | `word`, `sense` or `example`. |
 | sequence | `last` | Highest number given out. |
+
+### lang/{language}/concept, sense, relation, form, equivalent
+
+| Table | Column | Content |
+| --- | --- | --- |
+| concept | `id` | The id of the release, such as `oewn-02474924-n`; a local concept is `local-` with a number and the part of speech. |
+| concept | `type` | `n` noun, `v` verb, `a` adjective, `s` satellite adjective, `r` adverb. |
+| concept | `field` | Group of the release, such as `noun.animal`. |
+| concept | `definition` | Explanation of the meaning, in the language. |
+| concept | `origin` | The release, such as `oewn 2025`, or `local`. |
+| sense | `word` | A word of the language as written. |
+| sense | `concept` | Concept id. |
+| sense | `order` | Position of the concept among the concepts of the word, the most common first. |
+| relation | `from`, `to` | Concept ids; for `antonym`, `derivation` and `pertains`, words. |
+| relation | `kind` | `broader`, `similar`, `also`, `part`, `member`, `substance`, `topic`, `entails`, `causes`, `antonym`, `derivation`, `pertains`. |
+| form | `form`, `word` | An inflected form that does not follow the regular endings, and its base word. |
+| equivalent | `sense` | Sense id of the Zolai lexicon. |
+| equivalent | `concept` | Concept id. |
+| equivalent | `status`, `source` | As for a sense; how the equivalence was found. |
+
+- `python3 -m assist cite english FILE --apply` imports a release of Open English WordNet, WN-LMF XML, plain or gzip. Every row whose origin is a release is replaced by the new release, so the next release updates the lexicon in one step. A row whose origin is `local` belongs to this lexicon: it is never replaced, and a local concept whose id the release changed is reported as a conflict and stops the import.
+- The rows of the release are the release's: concepts and definitions, the words of each concept, the relations listed above and the irregular forms. Examples and pronunciations of the release are not imported.
+- `python3 -m assist cite equivalents --apply` adds equivalences found through the English terms of the Zolai senses, with the status `low` and the source `terms`. A sense gets a concept only when one concept of the right part of speech holds one of its terms, written with a capital for a name and without one otherwise, and is confirmed by a word of the definition or a further term, or when one concept clearly scores best among several. A sample judged by hand found 81% the same meaning, 16% a near meaning and 3% wrong. Senses that already have an equivalence are left as they are.
+- `lookup` reduces an English word to its base form by the irregular forms and the regular endings, `comparatives` to `comparative`, `ran` to `run`. When no Zolai sense has the word or its base form as a term, it shows the concepts of the English lexicon, with the Zolai senses equivalent to each.
 
 ## Sources
 
@@ -194,6 +235,7 @@ Entries are typed and shown as markup. A markup file is plain text with any name
 | `b` | base | no | The keyword this form is built from. | `(b:vantung)` |
 | `j` | joins | yes | The keywords this written form joins or respells. | `(j:a/om)` |
 | `v` | variant | yes | Other spellings of the keyword. A word with the status variant is made for each. | `(v:Shoute)` |
+| `g` | grade | yes | Other forms of the same expressive set, with another vowel grade. | `(g:kengkang/kangkang)` |
 | `o` | origin | no | Language the keyword comes from, optionally a comma and the source word. | `(o:Hebrew, kerub)` |
 | `r` | source | yes | Where the sense is attested. | `(r:1.1.1/zai:market)` |
 | `q` | status | no | Name of the status, optionally a comma and a remark. Absent: draft. | `(q:low, inferred from one sentence)` |
@@ -208,9 +250,9 @@ ersheba = (t:see) <Be-ersheba>
 
 - **No `i`**: a new sense. The word is added when it is not yet stored. The sense gets the next number of its word and the next sense id. Its set is `bible` when every source is a Bible verse and `core` otherwise; `set` moves it.
 - **A duplicate is refused.** A row without `i` whose word already has an active sense of the same type that shares a term, or has the same definition when there is no term, is not imported. The message names that sense: `(i:1)` replaces it, `(i:+)` adds a further sense.
-- **`(i:2)` or `(i:s19435)`**: the row replaces that sense as a whole. Type, category, field, origin, source, status, note, the English gloss and the relations `s`, `a`, `b`, `j` and `v` become what the row says; an attribute that is left out is removed. The id, the number, the set and the examples stay.
+- **`(i:2)` or `(i:s19435)`**: the row replaces that sense as a whole. Type, category, field, origin, source, status, note, the English gloss and the relations `s`, `a`, `b`, `j`, `v` and `g` become what the row says; an attribute that is left out is removed. The id, the number, the set and the examples stay.
 - **No `q` is a draft**, also on a replacing row. A pulled row carries its `q`, so a status other than draft survives an edit unless it is changed.
-- A keyword or sense key named in `s`, `a`, `b` or `j` is a word or sense of the lexicon or of the same file.
+- A keyword or sense key named in `s`, `a`, `b`, `j` or `g` is a word or sense of the lexicon or of the same file.
 - **`- khut = (i:2)`** retires the sense: status retired. The row, its number and its examples stay. A sense that an active sense still names in a relation or links in its prose is not retired until those are changed.
 - A sense is given once in a file. A sense without a number, of type `todo`, is named by its id: `(i:s2764)`.
 - **`- ersheba = (t:see) <Be-ersheba>`** removes the redirect.
@@ -288,6 +330,8 @@ amaute.1 = ~ in mawtaw khat nei uh hi | they have a car (r:pk:67) (e:e4270)
 | `E19` | duplicate sense | Two senses of one word do not share type, category, terms and definition. |
 | `E20` | note | A note has a subject. |
 | `E21` | credits | CREDITS.md is generated from the source list and the Bible texts and is up to date. |
+| `E22` | pattern | A pattern has a note. A stem pattern has a form, a different result, and affixes in its context that are words with an active prefix or suffix sense; a double pattern names a type; a letter pattern is one lowercase letter. |
+| `E23` | lexicon of a language | A concept id occurs once and its type is listed; a sense, relation, form and equivalence name existing concepts and words; a relation kind is listed; an equivalence names an active Zolai sense and a listed status. |
 
 ## Conversion from format 2
 

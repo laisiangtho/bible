@@ -87,6 +87,9 @@ class Lexicon:
     translations: Dict[str, Dict[str, str]] = field(default_factory=dict)
     links: Dict[str, Dict[str, Link]] = field(default_factory=dict)
     notes: List[Row] = field(default_factory=list)
+    patterns: List[Row] = field(default_factory=list)
+    # Tables this model does not interpret, such as the lexicon of another language: kept as read.
+    extra: Dict[str, List[Row]] = field(default_factory=dict)
     last: Dict[str, int] = field(default_factory=dict)
     # Derived indexes, kept by the methods below.
     spelling: Dict[str, str] = field(default_factory=dict)
@@ -197,6 +200,7 @@ class Lexicon:
                 for example, found in self.usages.items() for sense, usage in found.items()
             ],
             stored["note"]: list(self.notes),
+            stored["pattern"]: list(self.patterns),
             stored["sequence"]: [(kind, str(self.last[kind])) for kind in ID_KINDS],
         }
         for language, glosses in self.gloss.items():
@@ -205,6 +209,8 @@ class Lexicon:
             ]
         for language, translations in self.translations.items():
             result[config.tables["translation"].instance(language)] = list(translations.items())
+        for name, rows in self.extra.items():
+            result[name] = list(rows)
         for language, links in self.links.items():
             result[config.tables["link"].instance(language)] = [
                 (l.term, l.senses, l.source, l.status, l.note) for l in links.values()
@@ -242,12 +248,18 @@ def build(config: Config, data: Tables) -> Lexicon:
         language = _language(config, "gloss", name)
         if language:
             lexicon.gloss[language] = {row[0]: Gloss(*row[1:]) for row in rows}
+            continue
         language = _language(config, "translation", name)
         if language:
             lexicon.translations[language] = dict(rows)
+            continue
         language = _language(config, "link", name)
         if language:
             lexicon.links[language] = {row[0]: Link(*row) for row in rows}
+            continue
+        if name not in stored.values():
+            lexicon.extra[name] = list(rows)
     lexicon.notes = list(data[stored["note"]])
+    lexicon.patterns = list(data[stored["pattern"]])
     lexicon.last = {kind: int(last) for kind, last in data[stored["sequence"]]}
     return lexicon

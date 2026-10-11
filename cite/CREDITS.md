@@ -59,6 +59,23 @@ Zolai grammar and composition book, written in Zolai, with lessons, word lists, 
 - Credit line: Words, word pairs, sayings and examples from Paunam Khenna leh Kampau Luanzia by Sia Cin Sian Pau
 - Permission: Not yet asked. Only single words, word pairs, sayings and short fragments of sentences are quoted; the text of the book is not stored.
 
+### `gr`: Zolai grammar notes
+
+Grammar.md in this directory: patterns of Zolai words and sentences, with example sentences, written by a native speaker. The locator is the number of the section.
+
+- Owner: Khen Solomon Lethil
+- Credit line: Patterns and example sentences from the Zolai grammar notes (Grammar.md) by Khen Solomon Lethil
+- Licence: MIT, as the repository
+
+### `oewn`: Open English WordNet
+
+The English lexicon in lang/eng/: concepts, definitions, words, forms and relations, from the release named in the origin column.
+
+- Owner: The Open English WordNet team, building on Princeton WordNet
+- Credit line: English concepts, definitions and relations from Open English WordNet, licensed under CC BY 4.0
+- Licence: CC BY 4.0, https://creativecommons.org/licenses/by/4.0
+- Link: https://github.com/globalwordnet/english-wordnet
+
 ## Bible texts
 
 A reference written `book.chapter.verse` names a verse of the Zolai texts. The other texts are read for comparison only.

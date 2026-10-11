@@ -6,10 +6,11 @@ import hashlib
 from typing import Dict, List, Tuple
 
 from assist.cite import markup
+from assist.cite.config import SENSE_RELATIONS
 from assist.cite.lexicon import Lexicon
 
-RELATION_KEYS = ("s", "a", "b", "j", "v")
-SENSE_ORDER = ("i", "t", "c", "f", "w", "d", "s", "a", "b", "j", "v", "o", "r", "q")
+RELATION_KEYS = SENSE_RELATIONS
+SENSE_ORDER = ("i", "t", "c", "f", "w", "d", "s", "a", "b", "j", "v", "g", "o", "r", "q")
 
 
 def status_value(lexicon: Lexicon, status: str, note: str) -> str:

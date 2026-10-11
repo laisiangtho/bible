@@ -13,11 +13,15 @@ Data of the Zolai–English dictionary, format 4. A word is stored once, each of
 | `example.tsv` | Every example sentence or fragment, once. |
 | `usage.tsv` | Which sense an example shows and where the keyword stands in it. |
 | `note.tsv` | Open points: concepts without a keyword, words whose meaning is not settled, notes for the editor. |
+| `pattern.tsv` | Patterns of word building and spelling that the analysis of an unknown word applies: stems that change before an affix, doubled words, letters that native words do not use. |
 | `lang/eng/gloss.tsv` | Terms and definition of a sense in English. A further language is a further folder in `lang/`. |
 | `lang/eng/translation.tsv` | English translation of each example. |
 | `lang/eng/link.tsv` | Common English words that are not a term of any sense, each sent to the closest senses. |
+| `lang/eng/concept.tsv`, `sense.tsv`, `relation.tsv`, `form.tsv` | The English lexicon: concepts with definitions, the words that express them, their relations and irregular forms, from Open English WordNet (CC BY 4.0). |
+| `lang/eng/equivalent.tsv` | Zolai senses and the English concepts with the same meaning. |
 | `sequence.tsv` | The highest id given out for words, senses and examples. |
 | `CREDITS.md` | Generated credits: sources and Bible texts. |
+| `STATS.md` | Generated counts of words, senses, examples and languages. Refreshed by hand with `stats --markdown --apply`, so it can lag behind the tables. |
 | `inbox/` | Markup files being typed or pulled. Not part of the repository. |
 | `.cache/` | Local index for the reading commands. Not part of the repository. |
 
@@ -27,16 +31,19 @@ A table file is tab-separated text with a header line, one file per table. The Z
 
 Python 3.9 or newer, standard library only. Every command runs from the repository root and reads `cite/configuration.json`. A command that writes files is a dry run unless `--apply` is given.
 
-The reading commands (`lookup`, `find`, `show`, `next`) answer from a local SQLite index in `cite/.cache/`, which is not part of the repository. The index is rebuilt by itself, in about ten seconds, the first time a reading command runs after a table, the configuration or a counted Bible text has changed; afterwards a lookup takes a fraction of a second. The commands that change the tables (`import`, `set`, `pull`, `check`) read the tables themselves.
+The reading commands (`lookup`, `find`, `show`, `next`, `stats`) answer from a local SQLite index in `cite/.cache/`, which is not part of the repository. The index is rebuilt by itself, in about ten seconds, the first time a reading command runs after a table, the configuration or a counted Bible text has changed; afterwards a lookup takes a fraction of a second. The commands that change the tables (`import`, `set`, `pull`, `check`) read the tables themselves.
 
 ```shell
 python3 -m assist cite check                  # every broken rule
 python3 -m assist cite check --summary        # counts per rule
 python3 -m assist cite lookup vantung         # senses of a Zolai word, with examples
 python3 -m assist cite lookup beersheba       # hyphens, spaces and capitals are ignored: finds Be-ersheba
+python3 -m assist cite lookup lianzawna      # not in the lexicon: read as parts that are, lian + zaw + na
 python3 -m assist cite lookup hand           # not a Zolai word: the senses with the term, in every gloss language
 python3 -m assist cite lookup --eng man       # a term of English only, although man is also a Zolai word
 python3 -m assist cite lookup mom             # no sense has the term: the closest senses of lang/eng/link.tsv
+python3 -m assist cite lookup comparatives    # reduced to the base form comparative
+python3 -m assist cite lookup syntactically   # no Zolai sense: the English concepts, with any equivalent Zolai senses
 python3 -m assist cite lookup khut --json     # the same as data
 python3 -m assist cite find "wash"            # a text anywhere: spellings, glosses, examples, translations
 python3 -m assist cite show s19435 e12061     # the rows behind ids or sense keys, as markup
@@ -49,8 +56,18 @@ python3 -m assist cite set core khut.2 --apply # move senses to another set
 python3 -m assist cite search kipat cil       # Bible verses with the word, and parallel verses
 python3 -m assist cite next                   # the senses to work on, the most frequent words first
 python3 -m assist cite next --kind low --set core --limit 50
+python3 -m assist cite next --kind noterm --type ppm   # postpositional markers without an English term
+python3 -m assist cite next --word hi          # every gap of one word
+python3 -m assist cite next --sort random --limit 10   # a sample, for spot checks
+python3 -m assist cite next --offset 20        # the next page
+python3 -m assist cite next --count --source zd  # only the counts, for the senses attested in Zomi Daily
 python3 -m assist cite next --limit 30 --apply  # write the words of the listed senses to inbox/next.cite
+python3 -m assist cite stats                  # counts of words, senses, examples and languages
+python3 -m assist cite stats --by type,status --set core   # senses of the core set by type and status
+python3 -m assist cite stats --markdown --apply  # refresh STATS.md
 python3 -m assist cite credits --apply        # regenerate CREDITS.md from the source list
+python3 -m assist cite english english-wordnet-2025.xml.gz --apply  # import or update the English lexicon
+python3 -m assist cite equivalents --apply    # find English concepts for Zolai senses through their terms
 python3 -m unittest discover -s assist/tests -t .
 ```
 
@@ -60,7 +77,7 @@ Exit status: `0` success, `1` findings or nothing found, `2` a condition that st
 
 Entries are typed as markup, one row per sense or example, and imported. The tables are not edited by hand: one new sense with an example touches up to eight files and needs new ids.
 
-1. `next` lists the senses to work on: status `low`, fewer than three examples, or type `todo`, the most frequent words first, where frequency counts the Tedim Bible text and the stored examples. `search` shows a word in its verses, next to the same verses in the reference translations.
+1. `next` lists the senses to work on, the most frequent words first, where frequency counts the Tedim Bible text and the stored examples. The kinds of gap are `low` (status low), `examples` (fewer than three), `todo` (meaning not yet known), `noterm` and `nogloss` (no term or no definition in English), and `doubtful` (an editor note that starts with the sense key, such as `khut.2: …`). `--type`, `--set`, `--status`, `--field`, `--source`, `--word` and `--min-frequency` narrow the list; `stats` takes the same options. `search` shows a word in its verses, next to the same verses in the reference translations.
 2. New rows are typed into a file in `inbox/`, following `Format.md`. To change what is stored, `pull WORD --apply` writes the rows of the word into `inbox/WORD.cite` with their ids and with comments that say what else names the word.
 3. `import FILE` reports what each row would do: `inserted`, `replaced`, `unchanged` or `removed`, with the ids. A row that cannot be imported is reported with its line, and nothing is written.
 4. `import FILE --apply` writes the tables and turns every imported row of the file into a comment starting `# done`, so a second run does nothing.
@@ -179,3 +196,7 @@ Bitexts can markedly increase student reading and comprehension in a second lang
 Bitexts have long been a mainstay of second-language education for European languages, and are equally valuable for students of English and Southeast Asian languages.
 
 Bitext in kammal/laimal dangte simna leh teihna dingin hong kangto sak hi. Tua ahihmanin laigual a simnate hang tampitak khangtosak hi, sangnaupangte pen khangto mahmah uh a, laimalte a sim uh ciangin, amaute laimal leh grammer gualdang pen theihna leh muhna kihong khia hi.
+
+## Licence
+
+The data of this directory is under the licence of the repository, MIT, with one exception: the English lexicon in `lang/eng/concept.tsv`, `lang/eng/sense.tsv`, `lang/eng/relation.tsv` and `lang/eng/form.tsv` comes from Open English WordNet and stays under its licence, CC BY 4.0, which asks for the credit given in `CREDITS.md`. Equivalences in `lang/eng/equivalent.tsv` are this project's own.
