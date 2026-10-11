@@ -1667,6 +1667,7 @@ editor	To		occurs only as the first part of the hyphenated name To-i, To-u, NIV 
 editor	Toi		NIV reads Tou, KJV Toi; w set to Tou
 editor	Tolef		Deuteronomy 1.1 has Tofel in the other text; Tolef looks like a transposed spelling of Tofel and could be a variant of that row
 editor	Topaz		Topaz.1: the capitalised form occurs only in 18.28.19, already stored; the lowercase verses belong to topaz.1, which duplicates this sense
+editor	Tuakna		Tuakna.1: the sense looks doubtful; in the verse tuakna belongs to kideih tuakna, mutual desire, and the articles use tuakna for agreement or for meeting an event such as death
 editor	Tuakna		part of a section heading run into the end of Song of Solomon 7:5, not verse text
 editor	Tuani		typed n, that day; the existing lowercase row tuani is typed pron
 editor	Tuipeekpa		common noun, swimmer, capitalised only at the start of the sentence in Isaiah 25:11
@@ -1734,6 +1735,7 @@ editor	Zoans		spelling variant of Zoan (Isa 30:4)
 editor	Zoar		confirmed c is land, but Zoar is a small town near the Dead Sea; city was added beside land
 editor	Zobebah		the other text of 1 Chronicles 4.8 has Zobehah, row at line 4338; NIV has Hazzobebah
 editor	Zobehah		appears to be a misspelling of Zobebah, 1 Chronicles 4:8, NIV Hazzobebah; may belong in v of Zobebah
+editor	Zolapi		Zolapi.1: the sentences use Zolapi as a kind of traditional song, as Zolapi dawng khat, one Zolapi, and Zolapi te, the Zolapi songs, not a single anthem; the gloss looks wrong
 editor	Zorah		confirmed c is land, but Zorah is a town in the lowland of Judah; city was added beside land
 editor	Zozabad		looks like a misprint of Jozabad in the 1932 text of Nehemiah 11:16; w set to Jozabad from NIV
 editor	Zubeel		type n keyword with a capital only because it starts a sentence in Jeremiah 13:12; no lowercase zubeel row exists
@@ -1766,6 +1768,7 @@ editor	ak		second row, raven: ak occurs there only as part of va-ak; a see row t
 editor	akisa		sense be about to does not match existing rows of kisa; no base set
 editor	al		also occurs as the second part of hyphenated names, Ga-al and Elpa-al, not covered
 editor	ala		verse 16.7.58 has ala only as part of the name Ja-ala, not the interjection
+editor	alakik		alakik.1: the remaining sentences are stored already or a duplicate article of one, and zd:2303 has {aphu alakik}, take revenge, a different meaning
 editor	alh		the base al listed for it is the row for salty; here alh is said of fire, mei-am alh, so b was left out; meaning taken from the NIV blazes
 editor	aloses		probably a misprint of aloes in Song of Solomon 4:14
 editor	am		in 20.26.21 mei am ding and 19.120.4 hol am the word may be a verb, glow, rather than the noun coal
@@ -1781,6 +1784,7 @@ editor	amin		the second occurrence, Jeremiah 49:3, is the end of the hyphenated 
 editor	amin		the second verse found, Jeremiah 49.3, has lung-amin, a different word; only 1 Samuel 25.25 supports this row
 editor	amnin		occurs in ahih amnin, Genesis 27:41; probably a misprint of manin
 editor	amsakin		the base am listed for it is the row for coal or ember; here am seems to be a different word, dazed or drunk, so b was left out and the row is low confidence
+editor	anaak		anaak.2: no sentence shows source or spring; the uses read as a degree or intensity, as in anaak-hoih and anaak thupiit, so the sense looks wrong
 editor	anath		lowercase only as second part of Beth-anath; capitalised Anath, Judges 5.6, is a personal name; left as todo because a lowercase keyword cannot be type name
 editor	aniam		in the Bible text the keyword occurs only as the name Aniam, 1 Chronicles 7.19; no verse for the sense low
 editor	aniam		no verse has lowercase aniam; the only occurrence is the name Aniam in 1 Chronicles 7:19
@@ -2121,6 +2125,7 @@ editor	gel		the verb row, write, rests on Proverbs 22:20 only, where the other T
 editor	gelkhia		base gel in the data means both or write; here a different verb, slip away, so no b given
 editor	gelna		spelled gelna in Jeremiah 49:20 and 49:30 for geelna, plan; b left out because the existing gel rows are the unrelated words both and write
 editor	genbelin		occurs only in genbelin nei; base genbel has no row and its meaning is inferred
+editor	gensiatsak		gensiatsak.1: every sentence uses it as speak ill of, disparage, with the doer as subject, also 1 Tim 6:1; the causative gloss cause to be slandered looks wrong
 editor	genthaang		likely the same word as genthang with a long vowel spelling
 editor	gi		Matthew 22:10 "a gi, a gilote" and Daniel 9:5 "ka gi kei uh" show gi as good, upright; the other occurrences are gi-suang boundary stone and the place name Gi-ah
 editor	giahphualah		typed n with w camp, but it is giahphual with the place ending ah, in or to the camp
@@ -3332,6 +3337,7 @@ editor	nakah		Isaiah 7:18 has Egypt luite’ nakah a om, where the English has t
 editor	nakah		at 23.7.18 Egypt luite’ nakah is a different sense, the sources or mouths of the rivers, not in the nose
 editor	nakngeek		meaning taken from the NIV nostrils only; the 1977 text spells it nakngek
 editor	nakpheh		Job has it as the part of the nose a cord goes through, 2 Kings 19:28 as the hook put in the nose, nak; speaker to confirm which is basic
+editor	nalam		nalam.2: every new sentence has na lam, direction or way, sense 1; the sense build looks doubtful for the word
 editor	nalamgdang		probably a misprint of nalamdang in Deuteronomy 4:34
 editor	nam		no row for the verb kiss, as in Jakob in Rachel nam a at 1.29.11, nor for the sense tribe or nation, as in nam khat panin at 4.31.4
 editor	naman		the part na before man is not explained; sense taken from the contrast with sum taktak
@@ -3665,6 +3671,7 @@ editor	pite		definition quotes a pu a pite, but 1 Timothy 5:4 in the 1977 text r
 editor	poding		base guess po with ding is wrong; plant name, no b given
 editor	pokhia		the adj row "sprung" rests on Genesis 2:5, where the word is used as a verb, pokhia lo hi
 editor	pokhiasak		noun sense "growth" not found; the only occurrence, Genesis 3:18, is a verb
+editor	pokhiasak		pokhiasak.2: the sense looks wrong for the word; every sentence uses pokhiasak as the verb of pokhiasak.1, none as a noun growth
 editor	pokhiasak		the noun row with w "growth" has no verse; the only occurrence, Genesis 3:18, is the verb
 editor	pokhiasak		the noun row with w growth has no support: the only verse (Genesis 3:18) uses the word as a verb, produce or make grow
 editor	posak		confirmed w "be sprout" is not natural English; all verses show the causative sense, make grow or cause to sprout
@@ -3938,6 +3945,8 @@ editor	sumkuangte		which bird is not certain from the verse
 editor	summgo		probably a misprint of sumngo, bronze, in 11.7.14
 editor	sumpi		covers collection, liberal gift, treasury and stewardship in the verses; general term chosen is fund or money, needs speaker check
 editor	sumzuak sumlei		exchange, of currency, is not shown by the text: the only verse, Mark 11:15, means selling and buying; no example given for that row
+editor	sunghpi		sunghpi.1: duplicates sunghpi.2, the wife's family as a household position; examples belong there
+editor	sunghpi		sunghpi.3: duplicates sunghpi.2; the only other sentence, zd:6455, is a terse list of meat dues
 editor	sungin		the confirmed d of the part row has typing errors, to indicating a time or period thah
 editor	sungin		typo in d: thah, and to indicating
 editor	sungkhia		b points to sung, whose existing rows are prepositions; the base meant here is the verb sung, pour
