@@ -23,6 +23,7 @@ cite/
   configuration.json
   Readme.md  Format.md  Grammar.md  TODO.md
   CREDITS.md                 generated
+  STATS.md                   generated, refreshed by hand
   word.tsv
   sense.tsv
   relation.tsv
@@ -45,7 +46,7 @@ cite/
 - A list inside one value is separated by `/`.
 - The rows of a file are sorted by their columns from left to right, an id by its number, and no row occurs twice.
 - Every table is one file. A folder or file in `lang/` that is not a listed language or one of its tables is an error.
-- Nothing generated is stored in the repository except `CREDITS.md`. The reading commands keep a local SQLite index in the folder named under `format.cache` in `configuration.json`, rebuilt whenever a file it is built from changes.
+- Nothing generated is stored in the repository except `CREDITS.md`, which `check` keeps up to date, and `STATS.md`, a snapshot of the counts refreshed by hand. The reading commands keep a local SQLite index in the folder named under `format.cache` in `configuration.json`, rebuilt whenever a file it is built from changes.
 
 ## Ids
 

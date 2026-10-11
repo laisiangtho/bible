@@ -9,7 +9,9 @@ from collections import Counter
 from pathlib import Path
 from typing import Callable, List
 
-from assist.cite import check, config as configuration, credits, importer, index, markup, pull, query, render, tables
+from assist.cite import (
+    check, config as configuration, credits, importer, index, markup, pull, query, render, tables, work,
+)
 from assist.cite.config import CiteError, Config
 
 EXIT_OK = 0
@@ -71,12 +73,30 @@ def register(groups: argparse._SubParsersAction) -> None:
     parser.add_argument("--source", default="", help="translation id to search (default: configured sources)")
     parser.add_argument("--limit", type=int, default=10, help="verses to show, 0 for all (default: 10)")
 
-    parser = command("next", run_next, "List the senses to work on next, the most frequent words first.")
-    parser.add_argument("--kind", choices=NEXT_KINDS, action="append", help="one kind of gap only; may be repeated")
-    parser.add_argument("--set", default="", help="one set only, e.g. core")
+    def filters(parser: argparse.ArgumentParser) -> None:
+        parser.add_argument("--set", default="", help="one set only, e.g. core")
+        parser.add_argument("--type", default="", help="one type only, e.g. ppm")
+        parser.add_argument("--status", default="", help="one sense status only, e.g. low")
+        parser.add_argument("--field", default="", help="one field only, e.g. everyday")
+        parser.add_argument("--source", default="", help="senses attested in one source, e.g. zd, or bible")
+        parser.add_argument("--word", default="", help="the senses of one word, as spelled")
+        parser.add_argument("--min-frequency", type=int, default=0, help="words counted at least this often")
+
+    parser = command("next", run_next, "List the senses to work on next.")
+    parser.add_argument("--kind", choices=tuple(work.GAPS), action="append", help="one kind of gap only; may be repeated")
+    filters(parser)
+    parser.add_argument("--sort", choices=work.SORTS, default="frequency", help="order of the list (default: frequency)")
     parser.add_argument("--limit", type=int, default=20, help="senses to show, 0 for all (default: 20)")
+    parser.add_argument("--offset", type=int, default=0, help="senses to skip, for the next page (default: 0)")
+    parser.add_argument("--count", action="store_true", help="print only the counts of each kind of gap")
     parser.add_argument("--output", default="next", help="file name in the inbox folder for --apply (default: next)")
     writing(parser, "the words of the listed senses as a markup file in the inbox folder")
+
+    parser = command("stats", run_stats, "Count words, senses, examples and languages.")
+    filters(parser)
+    parser.add_argument("--by", default="", help=f"one dimension, or two separated by a comma, of: {', '.join(work.DIMENSIONS)}")
+    parser.add_argument("--markdown", action="store_true", help=f"the counts as {work.STATS}; --apply writes the file")
+    parser.add_argument("--apply", action="store_true", help="with --markdown, write the file (default: print it)")
 
     parser = command("credits", run_credits, "Generate CREDITS.md from the source list.")
     writing(parser, "the file")
@@ -333,56 +353,153 @@ def run_search(args: argparse.Namespace) -> int:
     return EXIT_OK
 
 
-NEXT_KINDS = ("low", "examples", "todo")
-EXAMPLES_WANTED = 3
+def _filter(args: argparse.Namespace, config: Config) -> "work.Filter":
+    chosen = work.Filter(
+        args.set, args.type, args.status, args.field, args.source, args.word, args.min_frequency
+    )
+    chosen.validate(config)
+    if args.min_frequency < 0:
+        raise CiteError("--min-frequency is zero or more")
+    return chosen
 
 
 def run_next(args: argparse.Namespace) -> int:
     config = configuration.load()
     limit = _limit(args)
-    if args.set and args.set not in config.sets:
-        raise CiteError(f"'{args.set}' is not a set; known: {', '.join(config.sets)}")
+    if args.offset < 0:
+        raise CiteError("--offset is zero or more")
+    chosen = _filter(args, config)
     found = _open()
-    low = config.status_code("sense", "low")
-    wanted = args.kind or list(NEXT_KINDS)
-    rows = []
-    counts = {kind: 0 for kind in NEXT_KINDS}
-    for sense_id, key, word_id, type_code, set_code, status, examples, frequency, terms in found.queue():
-        if args.set and set_code != args.set:
-            continue
-        kinds = []
-        if status == low:
-            kinds.append("low")
-        if config.has_meaning(type_code) and type_code != "name" and examples < EXAMPLES_WANTED:
-            kinds.append("examples")
-        if type_code == "todo":
-            kinds.append("todo")
-        for kind in kinds:
-            counts[kind] += 1
-        kinds = [kind for kind in kinds if kind in wanted]
-        if kinds:
-            rows.append((-frequency, key, sense_id, word_id, kinds, examples, frequency, terms))
-    rows.sort()
-    print("senses to work on" + (f" in the set {args.set}" if args.set else "") + ":")
-    for kind, text in (
-        ("low", "status low: the meaning rests on thin evidence"),
-        ("examples", f"fewer than {EXAMPLES_WANTED} examples"),
-        ("todo", "type todo: the meaning is not yet known"),
-    ):
-        print(f"  {kind:<9}{counts[kind]:>7}  {text}")
-    shown = rows if limit == 0 else rows[:limit]
-    if not shown:
+    facts = [fact for fact in work.facts(found, config) if chosen.holds(fact, config)]
+    if args.word and not facts:
+        raise CiteError(f"'{args.word}' has no active sense; check the spelling with: python3 -m assist cite lookup {args.word}")
+    wanted = args.kind or list(work.GAPS)
+    rows, counts = work.queue(facts, config, wanted, args.sort)
+    scope = chosen.describe()
+    print("senses to work on" + (f" ({scope})" if scope else "") + f", of {len(facts):,}:")
+    for kind, text in work.GAPS.items():
+        print(f"  {kind:<9}{counts[kind]:>7,}  {text}")
+    shown = rows[args.offset:] if limit == 0 else rows[args.offset:args.offset + limit]
+    if args.count or not shown:
         return EXIT_OK
-    print(f"\nthe most frequent words first ({len(shown)} of {len(rows)}); frequency counts the Bible text and the examples:")
-    width = max(len(row[1]) for row in shown)
-    for _, key, sense_id, _, kinds, examples, frequency, terms in shown:
-        print(f"  {key:<{width}}  {sense_id:<7}  {'/'.join(kinds):<13} examples {examples}  frequency {frequency:<6}  {terms[:40]}")
+    order = {"frequency": "the most frequent words first", "key": "by keyword", "random": "in random order"}[args.sort]
+    print(f"\n{order}, {args.offset + 1} to {args.offset + len(shown)} of {len(rows)}; frequency counts the Bible text and the examples:")
+    width = max(len(fact.key) for fact, _ in shown)
+    for fact, kinds in shown:
+        print(
+            f"  {fact.key:<{width}}  {fact.id:<7}  {'/'.join(kinds):<22} examples {fact.examples}  "
+            f"frequency {fact.frequency:<6}  {fact.terms[:40]}"
+        )
+    if len(rows) > args.offset + len(shown):
+        print(f"\nnext page: --offset {args.offset + len(shown)}", file=sys.stderr)
     if not args.apply:
-        print(f"\nadd --apply to write their words to {args.output}{config.markup_extension} in the inbox folder", file=sys.stderr)
+        print(f"add --apply to write their words to {args.output}{config.markup_extension} in the inbox folder", file=sys.stderr)
         return EXIT_OK
-    words = list(dict.fromkeys(found.rows("select spelling from word where id = ?", [row[3]])[0][0] for row in shown))
+    words = list(dict.fromkeys(fact.word for fact, _ in shown))
     print()
     return _write_pull(config, check.load(config), words, args.output, False, True)
+
+
+def _stats_lines(config: Config, found: "index.Index", facts: List["work.Fact"], by: List[str], scope: str, markdown: bool) -> List[str]:
+    """The counts as lines of text, or of Markdown for the stats file."""
+    lines: List[str] = []
+
+    def heading(text: str) -> None:
+        lines.extend(["", f"## {text}", ""] if markdown else ["", f"{text}:"])
+
+    def table(header: List[str], body: List[List[str]]) -> None:
+        if markdown:
+            lines.append("| " + " | ".join(header) + " |")
+            lines.append("| " + " | ".join(["---"] + ["---:"] * (len(header) - 1)) + " |")
+            lines.extend("| " + " | ".join(row) + " |" for row in body)
+            return
+        widths = [max(len(row[i]) for row in [header] + body) for i in range(len(header))]
+        numeric = [i > 0 and all(row[i].replace(",", "").isdigit() for row in body) for i in range(len(header))]
+        for row in [header] + body:
+            cells = [v.rjust(w) if numeric[i] else v.ljust(w) for i, (v, w) in enumerate(zip(row, widths))]
+            lines.append(("  " + "  ".join(cells)).rstrip())
+
+    number = "{:,}".format
+    if markdown:
+        lines += ["# Statistics", "", f"Counts of the cite data, generated by `python3 -m assist cite stats --markdown --apply`. Refreshed by hand, so it can lag behind the tables."]
+    else:
+        lines.append(f"senses{f' ({scope})' if scope else ''}: {number(len(facts))}")
+    if by:
+        if len(by) == 1:
+            heading(f"Senses by {by[0]}")
+            table([by[0], "senses"], [[_name(config, by[0], code), number(n)] for code, n in work.counts(facts, by[0]).items()])
+        else:
+            grid = work.crossed(facts, by[0], by[1])
+            columns = list(work.counts(facts, by[1]))
+            heading(f"Senses by {by[0]} and {by[1]}")
+            table(
+                [f"{by[0]} \\ {by[1]}"] + [_name(config, by[1], code) for code in columns] + ["all"],
+                [
+                    [_name(config, by[0], code)] + [number(grid[code].get(c, 0)) for c in columns]
+                    + [number(n)]
+                    for code, n in work.counts(facts, by[0]).items()
+                ],
+            )
+        return lines
+    facts_all = facts
+    rest = work.overview(found, config, facts_all)
+    if markdown:
+        heading("Totals")
+        table(["", "count"], [["words", number(sum(rest["words"].values()))], ["senses", number(len(facts))], ["examples", number(rest["examples"])]])
+        heading("Words by status")
+    else:
+        lines.append(f"words: {number(sum(rest['words'].values()))}   examples: {number(rest['examples'])}")
+        heading("words by status")
+    table(["status", "words"], [[name, number(n)] for name, n in rest["words"].items()])
+    for dimension in ("status", "type", "set", "field", "source"):
+        heading(f"Senses by {dimension}" if markdown else f"senses by {dimension}")
+        table([dimension, "senses"], [[_name(config, dimension, code), number(n)] for code, n in work.counts(facts, dimension).items()])
+    heading("Examples by source" if markdown else "examples by source")
+    table(["source", "examples"], [[_name(config, "source", code), number(n)] for code, n in rest["examples by source"].items()])
+    heading("Languages" if markdown else "languages")
+    table(
+        ["language", "terms", "definitions", "translations", "links"],
+        [
+            [f"{config.raw['language']['gloss'][code]['name']} ({code})"] + [number(v) for v in values.values()]
+            for code, values in rest["languages"].items()
+        ],
+    )
+    heading("Work to do" if markdown else "work to do")
+    _, gaps = work.queue(facts, config, list(work.GAPS), "key")
+    table(["gap", "senses", "meaning"], [[kind, number(gaps[kind]), text] for kind, text in work.GAPS.items()])
+    return lines
+
+
+def _name(config: Config, dimension: str, code: str) -> str:
+    name = work.label(config, dimension, code)
+    return code if name == code else f"{name} ({code})"
+
+
+def run_stats(args: argparse.Namespace) -> int:
+    config = configuration.load()
+    chosen = _filter(args, config)
+    by = [part.strip() for part in args.by.split(",")] if args.by else []
+    if len(by) > 2 or any(part not in work.DIMENSIONS for part in by):
+        raise CiteError(f"--by takes one dimension, or two separated by a comma, of: {', '.join(work.DIMENSIONS)}")
+    if args.apply and not args.markdown:
+        raise CiteError("--apply writes the Markdown file; add --markdown")
+    if args.markdown and (by or chosen.describe()):
+        raise CiteError(f"--markdown writes {work.STATS} for the whole data; leave out --by and the filters")
+    found = _open()
+    facts = [fact for fact in work.facts(found, config) if chosen.holds(fact, config)]
+    lines = _stats_lines(config, found, facts, by, chosen.describe(), args.markdown)
+    text = "\n".join(lines).strip("\n") + "\n"
+    if not args.markdown or not args.apply:
+        print(text, end="")
+        if args.markdown:
+            print(f"\n{DRY_RUN}", file=sys.stderr)
+        return EXIT_OK
+    target = config.directory / work.STATS
+    unchanged = target.is_file() and target.read_text(encoding="utf-8") == text
+    if not unchanged:
+        tables.write_text(target, text)
+    print(f"{_relative(config, target)}: {'unchanged' if unchanged else 'written'}")
+    return EXIT_OK
 
 
 def run_credits(args: argparse.Namespace) -> int:

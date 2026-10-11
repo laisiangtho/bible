@@ -13,7 +13,9 @@ import unittest
 from pathlib import Path
 from typing import List
 
-from assist.cite import check, cli, config as configuration, credits, importer, index, lexicon, markup, pull, query, render, tables
+from assist.cite import (
+    check, cli, config as configuration, credits, importer, index, lexicon, markup, pull, query, render, tables, work,
+)
 from assist.cite.config import CiteError
 
 ROWS = """
@@ -444,6 +446,49 @@ class CommandTest(unittest.TestCase):
         self.assertEqual(cli._markup_file(config, "new.txt"), config.directory / "inbox" / "new.txt")
         self.assertEqual(cli._markup_file(config, "./new.cite"), Path("new.cite"))
         self.assertEqual(cli._markup_file(config, "notes/new.cite"), Path("notes/new.cite"))
+
+
+class WorkTest(Fixture):
+    def facts(self):
+        found = index.open_index(self.config)
+        self.addCleanup(found.close)
+        return {fact.key: fact for fact in work.facts(found, self.config)}, found
+
+    def test_gaps(self) -> None:
+        self.apply(["amau = (i:1) (t:pron) (w:they/them) (d:Third person plural pronoun.) (q:low, one list only)"])
+        facts, _ = self.facts()
+        self.assertEqual(work.gaps(facts["khut.1"], self.config), ["examples"])
+        self.assertEqual(work.gaps(facts["te.1"], self.config), ["examples", "nogloss"])
+        self.assertEqual(work.gaps(facts["amau.1"], self.config), ["low", "examples"])
+        self.assertEqual(work.gaps(facts["Be-ersheba.1"], self.config), [])
+        self.assertEqual((facts["khut.1"].sources, facts["Be-ersheba.1"].sources), ((), ("bible",)))
+
+    def test_doubtful_needs_the_sense_key(self) -> None:
+        model = self.model()
+        model.notes.append(("editor", "khut", "", "khut.1: the sense looks wrong"))
+        model.notes.append(("editor", "amau", "", "a remark on the word"))
+        tables.write_all(self.config, model.tables())
+        facts, _ = self.facts()
+        self.assertEqual([key for key, fact in facts.items() if fact.doubtful], ["khut.1"])
+
+    def test_filter_and_queue(self) -> None:
+        facts, _ = self.facts()
+        chosen = work.Filter(type="n")
+        chosen.validate(self.config)
+        self.assertEqual([f.key for f in facts.values() if chosen.holds(f, self.config)], ["khut.1"])
+        with self.assertRaises(CiteError):
+            work.Filter(type="noun").validate(self.config)
+        rows, counts = work.queue(facts.values(), self.config, ["nogloss"], "key")
+        self.assertEqual([fact.key for fact, _ in rows], ["te.1"])
+        self.assertEqual(counts["examples"], 4)
+
+    def test_counts(self) -> None:
+        facts, found = self.facts()
+        self.assertEqual(work.counts(facts.values(), "type"), {"pron": 2, "n": 1, "name": 1, "part": 1})
+        self.assertEqual(work.crossed(facts.values(), "set", "type")["bible"], {"name": 1})
+        rest = work.overview(found, self.config, list(facts.values()))
+        self.assertEqual(rest["examples"], 3)
+        self.assertEqual(rest["languages"]["eng"]["translations"], 3)
 
 
 class RepositoryTest(unittest.TestCase):
