@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import List
 
 from assist.cite import (
-    analyse, check, cli, config as configuration, credits, importer, index, lexicon, markup, pull, query, render, tables, work,
+    analyse, check, english, cli, config as configuration, credits, importer, index, lexicon, markup, pull, query, render, tables, work,
 )
 from assist.cite.config import CiteError
 
@@ -543,6 +543,92 @@ class AnalyseTest(unittest.TestCase):
         self.assertEqual([(p.keyword, p.role) for p in self.readings("kapkap")[0].parts], [("kap", "double")])
         self.assertEqual(self.readings("xyz"), [])
         self.assertEqual(self.readings("hoih"), [])
+
+
+RELEASE = """<?xml version="1.0" encoding="UTF-8"?>
+<LexicalResource>
+  <Lexicon id="oewn" label="Open English Wordnet" language="en" version="2099">
+    <LexicalEntry id="oewn-hand-n">
+      <Lemma writtenForm="hand" partOfSpeech="n"/>
+      <Sense id="oewn-hand__1" synset="oewn-001-n"><SenseRelation relType="derivation" target="oewn-handy__1"/></Sense>
+    </LexicalEntry>
+    <LexicalEntry id="oewn-handy-a">
+      <Lemma writtenForm="handy" partOfSpeech="a"/>
+      <Sense id="oewn-handy__1" synset="oewn-002-a"/>
+    </LexicalEntry>
+    <LexicalEntry id="oewn-mouse-n">
+      <Lemma writtenForm="mouse" partOfSpeech="n"/>
+      <Form writtenForm="mice"/>
+      <Sense id="oewn-mouse__1" synset="oewn-003-n"/>
+    </LexicalEntry>
+    <Synset id="oewn-001-n" ili="i1" members="oewn-hand-n" partOfSpeech="n" lexfile="noun.body">
+      <Definition>the end of the arm of a person</Definition>
+      <SynsetRelation relType="hypernym" target="oewn-003-n"/>
+    </Synset>
+    <Synset id="oewn-002-a" members="oewn-handy-a" partOfSpeech="a" lexfile="adj.all">
+      <Definition>easy to use</Definition>
+    </Synset>
+    <Synset id="oewn-003-n" members="oewn-mouse-n" partOfSpeech="n" lexfile="noun.animal">
+      <Definition>a small rodent</Definition>
+    </Synset>
+  </Lexicon>
+</LexicalResource>
+"""
+
+
+class EnglishTest(Fixture):
+    def release(self):
+        path = Path(self.folder.name) / "release.xml"
+        path.write_text(RELEASE, encoding="utf-8")
+        return english.read_release(path)
+
+    def test_read_and_update(self) -> None:
+        release = self.release()
+        self.assertEqual(release.label, "oewn 2099")
+        self.assertEqual(sorted(release.senses), [("hand", "oewn-001-n", "1"), ("handy", "oewn-002-a", "1"), ("mouse", "oewn-003-n", "1")])
+        self.assertIn(("oewn-001-n", "broader", "oewn-003-n"), release.relations)
+        self.assertIn(("hand", "derivation", "handy"), release.relations)
+        self.assertEqual(release.forms, {("mice", "mouse")})
+        table = english.names(self.config, "eng")
+        local = {table["concept"]: [("local-1-n", "n", "", "a local meaning", "local")],
+                 table["lang_sense"]: [("palm", "local-1-n", "1")]}
+        result = english.update(local, release, table)
+        self.assertEqual(len(result.rows[table["concept"]]), 4)
+        self.assertIn(("palm", "local-1-n", "1"), result.rows[table["lang_sense"]])
+        model = self.model()
+        model.extra.update(result.rows)
+        model.extra[table["equivalent"]] = [(model.sense_by_key("khut.1"), "oewn-001-n", "1", "terms")]
+        self.assertEqual(check.run(self.config, model.tables()), [])
+        model.extra[table["equivalent"]].append(("s99", "oewn-009-n", "9", "terms"))
+        self.assertEqual({f.rule for f in check.run(self.config, model.tables())}, {"E23"})
+
+    def test_bases_and_propose(self) -> None:
+        self.assertEqual(english.bases("comparatives")[:2], ["comparatives", "comparative"])
+        self.assertIn("run", english.bases("running"))
+        members = {"hand": [("c1", "1", "hand"), ("c2", "2", "hand")], "palm": [("c1", "1", "palm")],
+                   "tyre": [("c3", "1", "tyre")]}
+        concepts = {"c1": ("n", "hand/palm", "the end of the arm"), "c2": ("v", "hand", "give with the hand"),
+                    "c3": ("n", "tyre", "hoop that covers a wheel")}
+        matches, counts = english.propose(
+            [("s1", "n", "hand/palm", "the hand of a person"), ("s2", "name", "Tyre", "an ancient city")], members, concepts
+        )
+        self.assertEqual([(m.sense, m.concept) for m in matches], [("s1", "c1")])
+        self.assertEqual(counts["no concept"], 1)
+
+    def test_lookup_of_an_english_word(self) -> None:
+        release = self.release()
+        table = english.names(self.config, "eng")
+        model = self.model()
+        model.extra.update(english.update({}, release, table).rows)
+        model.extra[table["equivalent"]] = [(model.sense_by_key("khut.1"), "oewn-001-n", "1", "terms")]
+        tables.write_all(self.config, model.tables())
+        found = index.open_index(self.config)
+        self.addCleanup(found.close)
+        self.assertEqual(found.concepts_for("mice", "eng")[0], "mouse")
+        word, concepts = found.concepts_for("hands", "eng")
+        self.assertEqual((word, [c[0] for c in concepts]), ("hand", ["oewn-001-n"]))
+        self.assertEqual(found.equivalents(["oewn-001-n"], "eng"), {"oewn-001-n": [model.sense_by_key("khut.1")]})
+        self.assertEqual(found.related_words("hand", "eng"), {"derivation": ["handy"]})
 
 
 class RepositoryTest(unittest.TestCase):

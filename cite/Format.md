@@ -12,6 +12,7 @@ Every closed list named in this document is stored in `configuration.json`: tabl
 - A **relation** links a sense to another word or sense: synonym, antonym, base, join, variant, grade. A redirect links a word to a word.
 - An **example** is a sentence or fragment in Zolai, stored once. A **usage** says which sense the example shows and where the keyword stands in it; one example may show several senses. A **translation** gives the example in one language.
 - A **link** sends a word of another language that is not a term of any sense to the closest senses.
+- The **lexicon of another language** holds **concepts**, the words that express them, their relations and irregular forms, and **equivalences** between Zolai senses and concepts. The English lexicon is imported from Open English WordNet.
 - A **note** is an open point for an editor.
 - A **pattern** describes how words are built or spelled: a stem that changes before an affix, a word written twice, a letter that native words do not use. The tools apply the patterns to analyse a word that is not in the lexicon; `Grammar.md` describes them in prose.
 
@@ -40,6 +41,11 @@ cite/
       gloss.tsv
       translation.tsv
       link.tsv
+      concept.tsv            the lexicon of the language
+      sense.tsv
+      relation.tsv
+      form.tsv
+      equivalent.tsv
   inbox/                     markup files, not part of the repository
   .cache/index.sqlite        local index for the reading commands, not part of the repository
 ```
@@ -156,6 +162,30 @@ Two examples may share text and source when their translations differ. An exampl
 | pattern | `note` | What the pattern does, with an example. |
 | sequence | `table` | `word`, `sense` or `example`. |
 | sequence | `last` | Highest number given out. |
+
+### lang/{language}/concept, sense, relation, form, equivalent
+
+| Table | Column | Content |
+| --- | --- | --- |
+| concept | `id` | The id of the release, such as `oewn-02474924-n`; a local concept is `local-` with a number and the part of speech. |
+| concept | `type` | `n` noun, `v` verb, `a` adjective, `s` satellite adjective, `r` adverb. |
+| concept | `field` | Group of the release, such as `noun.animal`. |
+| concept | `definition` | Explanation of the meaning, in the language. |
+| concept | `origin` | The release, such as `oewn 2025`, or `local`. |
+| sense | `word` | A word of the language as written. |
+| sense | `concept` | Concept id. |
+| sense | `order` | Position of the concept among the concepts of the word, the most common first. |
+| relation | `from`, `to` | Concept ids; for `antonym`, `derivation` and `pertains`, words. |
+| relation | `kind` | `broader`, `similar`, `also`, `part`, `member`, `substance`, `topic`, `entails`, `causes`, `antonym`, `derivation`, `pertains`. |
+| form | `form`, `word` | An inflected form that does not follow the regular endings, and its base word. |
+| equivalent | `sense` | Sense id of the Zolai lexicon. |
+| equivalent | `concept` | Concept id. |
+| equivalent | `status`, `source` | As for a sense; how the equivalence was found. |
+
+- `python3 -m assist cite english FILE --apply` imports a release of Open English WordNet, WN-LMF XML, plain or gzip. Every row whose origin is a release is replaced by the new release, so the next release updates the lexicon in one step. A row whose origin is `local` belongs to this lexicon: it is never replaced, and a local concept whose id the release changed is reported as a conflict and stops the import.
+- The rows of the release are the release's: concepts and definitions, the words of each concept, the relations listed above and the irregular forms. Examples and pronunciations of the release are not imported.
+- `python3 -m assist cite equivalents --apply` adds equivalences found through the English terms of the Zolai senses, with the status `low` and the source `terms`. A sense gets a concept only when one concept of the right part of speech holds one of its terms, written with a capital for a name and without one otherwise, and is confirmed by a word of the definition or a further term, or when one concept clearly scores best among several. A sample judged by hand found 81% the same meaning, 16% a near meaning and 3% wrong. Senses that already have an equivalence are left as they are.
+- `lookup` reduces an English word to its base form by the irregular forms and the regular endings, `comparatives` to `comparative`, `ran` to `run`. When no Zolai sense has the word or its base form as a term, it shows the concepts of the English lexicon, with the Zolai senses equivalent to each.
 
 ## Sources
 
@@ -301,6 +331,7 @@ amaute.1 = ~ in mawtaw khat nei uh hi | they have a car (r:pk:67) (e:e4270)
 | `E20` | note | A note has a subject. |
 | `E21` | credits | CREDITS.md is generated from the source list and the Bible texts and is up to date. |
 | `E22` | pattern | A pattern has a note. A stem pattern has a form, a different result, and affixes in its context that are words with an active prefix or suffix sense; a double pattern names a type; a letter pattern is one lowercase letter. |
+| `E23` | lexicon of a language | A concept id occurs once and its type is listed; a sense, relation, form and equivalence name existing concepts and words; a relation kind is listed; an equivalence names an active Zolai sense and a listed status. |
 
 ## Conversion from format 2
 

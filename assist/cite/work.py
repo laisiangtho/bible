@@ -242,7 +242,12 @@ def overview(index, config: Config, found: List[Fact]) -> Dict[str, object]:
                 definitions += bool(definition)
         translations = index.rows("select count(*) from translation where language = ?", [language])[0][0]
         links = index.rows("select count(*) from link where language = ?", [language])[0][0]
-        languages[language] = {"terms": terms, "definitions": definitions, "translations": translations, "links": links}
+        concepts = index.rows("select count(*) from concept where language = ?", [language])[0][0]
+        equivalents = index.rows("select count(distinct sense) from equivalent where language = ?", [language])[0][0]
+        languages[language] = {
+            "terms": terms, "definitions": definitions, "translations": translations, "links": links,
+            "concepts": concepts, "senses with an equivalent": equivalents,
+        }
     return {
         "words": {config.word_status.get(code, code): number for code, number in sorted(words.items())},
         "examples": examples,

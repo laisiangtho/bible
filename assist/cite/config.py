@@ -13,13 +13,14 @@ CONFIG_PATH = ROOT / "cite" / "configuration.json"
 SUPPORTED_VERSION = 4
 
 REQUIRED_KEYS = (
-    "version", "language", "format", "id", "table", "status", "relation", "set", "note", "pattern",
+    "version", "language", "format", "id", "table", "status", "relation", "set", "note", "pattern", "lexicon",
     "keyword", "markup", "attribute", "reference", "type", "category", "field", "source",
     "bible", "rule",
 )
 ID_KINDS = ("word", "sense", "example")
 TABLES = (
-    "word", "sense", "gloss", "relation", "example", "usage", "translation", "link", "note", "pattern", "sequence",
+    "word", "sense", "gloss", "relation", "example", "usage", "translation", "link", "concept", "lang_sense",
+    "lang_relation", "form", "equivalent", "note", "pattern", "sequence",
 )
 ATTRIBUTES = ("i", "t", "c", "f", "w", "d", "s", "a", "b", "j", "v", "g", "o", "r", "q", "e")
 SENSE_RELATIONS = ("s", "a", "b", "j", "v", "g")
@@ -89,6 +90,8 @@ class Config:
     sets: Dict[str, Dict[str, Any]]
     notes: Dict[str, Dict[str, Any]]
     patterns: Dict[str, Dict[str, Any]]
+    lexicon_types: Dict[str, Dict[str, Any]]
+    lexicon_relations: Dict[str, Dict[str, Any]]
     types: Dict[str, Dict[str, Any]]
     categories: Dict[str, Dict[str, Any]]
     fields: Dict[str, Dict[str, Any]]
@@ -260,6 +263,8 @@ def load(path: Optional[Path] = None) -> Config:
     patterns = _named(raw, "pattern")
     if sorted(patterns) != sorted(PATTERNS):
         raise CiteError(f"configuration: pattern: the tooling needs exactly the kinds {', '.join(PATTERNS)}")
+    lexicon = _need(raw, "lexicon", dict, "top level")
+    lexicon_lists = {key: _named(lexicon, key) for key in ("type", "relation")}
     types = _named(raw, "type")
     for code in ("see", "todo", "name", "prefix", "suffix"):
         if code not in types:
@@ -334,6 +339,8 @@ def load(path: Optional[Path] = None) -> Config:
         sets=sets,
         notes=_named(raw, "note"),
         patterns=patterns,
+        lexicon_types=lexicon_lists["type"],
+        lexicon_relations=lexicon_lists["relation"],
         types=types,
         categories=_named(raw, "category"),
         fields=_named(raw, "field"),

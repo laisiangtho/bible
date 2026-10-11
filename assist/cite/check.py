@@ -377,6 +377,8 @@ def content(config: Config, lexicon: Lexicon) -> List[Finding]:
         if not subject:
             add("note", kind, "E20", f"no subject: '{_short(text)}'")
 
+    found.extend(language_lexicons(config, lexicon))
+
     # Patterns of word building and spelling.
     affixes = {
         lexicon.word_of(sense_id).spelling for sense_id, sense in lexicon.senses.items()
@@ -399,6 +401,55 @@ def content(config: Config, lexicon: Lexicon) -> List[Finding]:
         elif kind == "letter":
             if not re.fullmatch(r"[a-z]", form) or result or context:
                 wrong("a letter pattern is one lowercase letter, with no result or context")
+    return found
+
+
+def language_lexicons(config: Config, lexicon: Lexicon) -> List[Finding]:
+    """Findings on the lexicon of each language in its folder."""
+    found: List[Finding] = []
+    for language in config.languages:
+        name = {table: config.tables[table].instance(language) for table in ("concept", "lang_sense", "lang_relation", "form", "equivalent")}
+        if not any(table in lexicon.extra for table in name.values()):
+            continue
+
+        def add(table: str, subject: str, detail: str) -> None:
+            found.append(Finding(name[table], subject, "E23", detail))
+
+        concepts: Dict[str, str] = {}
+        for concept, type_code, _, definition, origin in lexicon.extra.get(name["concept"], []):
+            if concept in concepts:
+                add("concept", concept, "the id occurs twice")
+            concepts[concept] = type_code
+            if type_code not in config.lexicon_types:
+                add("concept", concept, f"'{type_code}' is not a part of speech of the lexicon")
+            if not origin:
+                add("concept", concept, "no origin: the release, or local")
+        words: Set[str] = set()
+        for word, concept, order in lexicon.extra.get(name["lang_sense"], []):
+            words.add(word)
+            if concept not in concepts:
+                add("lang_sense", f"{word} {concept}", "names no concept")
+            if not NUMBER.match(order):
+                add("lang_sense", f"{word} {concept}", f"order '{order}' is not a positive whole number")
+        for source, kind, target in lexicon.extra.get(name["lang_relation"], []):
+            if kind not in config.lexicon_relations:
+                add("lang_relation", f"{source} {kind}", f"'{kind}' is not a relation of the lexicon")
+                continue
+            ends = words if kind in ("antonym", "derivation", "pertains") else concepts
+            for end in (source, target):
+                if end not in ends:
+                    add("lang_relation", f"{source} {kind} {target}", f"'{end}' is not a {'word' if ends is words else 'concept'} of the lexicon")
+        for form, word in lexicon.extra.get(name["form"], []):
+            if word not in words:
+                add("form", form, f"'{word}' is not a word of the lexicon")
+        for sense, concept, status, _ in lexicon.extra.get(name["equivalent"], []):
+            subject = f"{sense} {concept}"
+            if sense not in lexicon.senses or not lexicon.active(sense):
+                add("equivalent", subject, "names no active Zolai sense")
+            if concept not in concepts:
+                add("equivalent", subject, "names no concept")
+            if status not in config.sense_status:
+                add("equivalent", subject, f"'{status}' is not a sense status")
     return found
 
 

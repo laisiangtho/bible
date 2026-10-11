@@ -7,10 +7,10 @@ import json
 import sys
 from collections import Counter
 from pathlib import Path
-from typing import Callable, List
+from typing import Callable, Dict, List, Tuple
 
 from assist.cite import (
-    analyse, check, config as configuration, credits, importer, index, markup, pull, query, render, tables, work,
+    analyse, check, english, config as configuration, credits, importer, index, markup, pull, query, render, tables, work,
 )
 from assist.cite.config import CiteError, Config
 
@@ -97,6 +97,14 @@ def register(groups: argparse._SubParsersAction) -> None:
     parser.add_argument("--by", default="", help=f"one dimension, or two separated by a comma, of: {', '.join(work.DIMENSIONS)}")
     parser.add_argument("--markdown", action="store_true", help=f"the counts as {work.STATS}; --apply writes the file")
     parser.add_argument("--apply", action="store_true", help="with --markdown, write the file (default: print it)")
+
+    parser = command("english", run_english, "Import or update the English lexicon in lang/eng from a wordnet release (WN-LMF XML).")
+    parser.add_argument("file", help="the release, .xml or .xml.gz, such as english-wordnet-2025.xml.gz")
+    writing(parser, "the tables")
+
+    parser = command("equivalents", run_equivalents, "Find English concepts for Zolai senses through their English terms.")
+    parser.add_argument("--limit", type=int, default=20, help="proposals to show, 0 for all (default: 20)")
+    writing(parser, "the new equivalences, with the status low")
 
     parser = command("credits", run_credits, "Generate CREDITS.md from the source list.")
     writing(parser, "the file")
@@ -252,9 +260,9 @@ def run_lookup(args: argparse.Namespace) -> int:
             if hint and not args.json:
                 blocks.append(f"also a term of {', '.join(names[c]['name'] for c in other)}: add {' or '.join(hint)}")
             return _print_lookup(args, model, senses, blocks)
-        readings = analyse.analyse_with_index(found, text) if " " not in text.strip() else []
+        other = found.senses_for_term(text, config.languages)
+        readings = analyse.analyse_with_index(found, text) if " " not in text.strip() and not other else []
         if readings:
-            other = found.senses_for_term(text, config.languages)
             if args.json:
                 print(json.dumps({"analysis": [analyse.record(r) for r in readings]}, ensure_ascii=False, indent=2))
                 return EXIT_OK
@@ -266,10 +274,20 @@ def run_lookup(args: argparse.Namespace) -> int:
             return EXIT_OK
     languages = args.languages or list(config.languages)
     by_language = found.senses_for_term(text, languages)
+    shown_as = text
+    if not by_language and "eng" in languages:
+        reduced, _ = found.concepts_for(text, "eng")
+        for base in [reduced] + english.bases(text)[1:]:
+            if base and base.casefold() != text.casefold():
+                by_language = found.senses_for_term(base, ["eng"])
+                if by_language:
+                    shown_as = base
+                    break
     if by_language:
         model = found.subset(sense_ids=[s for ids in by_language.values() for s in ids])
         for code, ids in by_language.items():
-            blocks.append(f"{names[code]['name']} '{text}':")
+            reduced_note = f" (base form of '{text}')" if shown_as != text else ""
+            blocks.append(f"{names[code]['name']} '{shown_as}'{reduced_note}:")
             blocks.extend(query.describe(model, sense_id, limit) for sense_id in ids)
             senses.extend(ids)
         return _print_lookup(args, model, senses, blocks)
@@ -283,9 +301,46 @@ def run_lookup(args: argparse.Namespace) -> int:
             blocks.extend(query.describe(model, sense_id, limit) for sense_id in found_ids if model.active(sense_id))
             senses.extend(found_ids)
         return _print_lookup(args, model, senses, blocks)
+    if "eng" in languages:
+        word, concepts = found.concepts_for(text, "eng")
+        if concepts:
+            return _print_concepts(args, found, text, word, concepts, limit)
     where = "a Zolai word or a term" if not args.languages else "a term of " + ", ".join(names[c]["name"] for c in languages)
     print(f"'{text}' is not {where} of the lexicon", file=sys.stderr)
     return EXIT_FOUND
+
+
+def _print_concepts(args: argparse.Namespace, found, text: str, word: str, concepts: List[Tuple], limit: int) -> int:
+    """English concepts of a word that no Zolai sense has as a term, with the Zolai senses linked to them."""
+    equivalents = found.equivalents([concept[0] for concept in concepts], "eng")
+    model = found.subset(sense_ids=[s for ids in equivalents.values() for s in ids])
+    related = found.related_words(word, "eng")
+    glosses = model.gloss.get("eng", {})
+    if args.json:
+        print(json.dumps({"english": {
+            "query": text, "word": word, "related": related,
+            "concepts": [
+                {"id": c, "type": t, "definition": d, "words": m,
+                 "zolai": [{"id": s, "key": model.key(s), "terms": glosses[s].terms if s in glosses else ""}
+                           for s in equivalents.get(c, [])]}
+                for c, t, d, m in concepts
+            ],
+        }}, ensure_ascii=False, indent=2))
+        return EXIT_OK
+    base = f", the base form of '{text}'" if word.casefold() != text.casefold() else ""
+    print(f"no Zolai sense has the term '{text}'; English '{word}'{base} in Open English WordNet:")
+    shown = concepts if limit == 0 else concepts[:max(limit, 1) * 2]
+    for concept, type_code, definition, members in shown:
+        others = [m for m in members if m.casefold() != word.casefold()]
+        print(f"  {type_code}  {definition}" + (f"  ({', '.join(others[:6])})" if others else ""))
+        for sense in equivalents.get(concept, []):
+            terms = glosses[sense].terms if sense in glosses else ""
+            print(f"       Zolai: {model.key(sense)}  {terms}")
+    if len(shown) < len(concepts):
+        print(f"  and {len(concepts) - len(shown)} more concepts; add --examples 0 for all")
+    for kind, words_found in related.items():
+        print(f"  {kind}: {', '.join(sorted(set(words_found))[:10])}")
+    return EXIT_OK
 
 
 def _print_lookup(args: argparse.Namespace, model, senses: List[str], blocks: List[str]) -> int:
@@ -470,7 +525,7 @@ def _stats_lines(config: Config, found: "index.Index", facts: List["work.Fact"],
     table(["source", "examples"], [[_name(config, "source", code), number(n)] for code, n in rest["examples by source"].items()])
     heading("Languages" if markdown else "languages")
     table(
-        ["language", "terms", "definitions", "translations", "links"],
+        ["language", "terms", "definitions", "translations", "links", "concepts", "equivalents"],
         [
             [f"{config.raw['language']['gloss'][code]['name']} ({code})"] + [number(v) for v in values.values()]
             for code, values in rest["languages"].items()
@@ -511,6 +566,75 @@ def run_stats(args: argparse.Namespace) -> int:
     if not unchanged:
         tables.write_text(target, text)
     print(f"{_relative(config, target)}: {'unchanged' if unchanged else 'written'}")
+    return EXIT_OK
+
+
+def run_english(args: argparse.Namespace) -> int:
+    config = configuration.load()
+    language = "eng"
+    if language not in config.languages:
+        raise CiteError(f"'{language}' is not a language of the configuration")
+    release = english.read_release(Path(args.file))
+    lexicon = check.load(config)
+    table = english.names(config, language)
+    result = english.update(lexicon.extra, release, table)
+    print(f"release {release.label}: {len(release.concepts):,} concepts, {len(release.senses):,} senses, "
+          f"{len(release.relations):,} relations, {len(release.forms):,} forms")
+    for key in ("concept", "lang_sense", "lang_relation", "form"):
+        name = table[key]
+        print(f"  {name}: {len(result.rows[name]):,} rows, {result.added[name]:,} added, {result.removed[name]:,} removed")
+    print(f"  local concepts kept: {result.kept_local:,}")
+    for conflict in result.conflicts:
+        print(f"  conflict: {conflict}")
+    if result.conflicts:
+        raise CiteError(f"{len(result.conflicts)} local concepts differ from the release; resolve them first")
+    lexicon.extra.update(result.rows)
+    _store(config, lexicon, args.apply)
+    if not args.apply:
+        print(DRY_RUN)
+    return EXIT_OK
+
+
+def run_equivalents(args: argparse.Namespace) -> int:
+    config = configuration.load()
+    limit = _limit(args)
+    language = config.languages[0]
+    table = english.names(config, language)
+    lexicon = check.load(config)
+    concepts_rows = lexicon.extra.get(table["concept"], [])
+    if not concepts_rows:
+        raise CiteError(f"{table['concept']} is empty; import a release first: python3 -m assist cite english FILE")
+    members: Dict[str, List[Tuple[str, str, str]]] = {}
+    joined: Dict[str, List[str]] = {}
+    for word, concept, order in lexicon.extra.get(table["lang_sense"], []):
+        members.setdefault(word.casefold(), []).append((concept, order, word))
+        joined.setdefault(concept, []).append(word.casefold())
+    concepts = {row[0]: (row[1], "/".join(joined.get(row[0], [])), row[3]) for row in concepts_rows}
+    for found in members.values():
+        found.sort(key=lambda item: int(item[1]))
+    stored = lexicon.extra.get(table["equivalent"], [])
+    done = {row[0] for row in stored}
+    glosses = lexicon.gloss.get(language, {})
+    senses = [
+        (sense_id, sense.type, glosses[sense_id].terms, glosses[sense_id].definition)
+        for sense_id, sense in lexicon.senses.items()
+        if lexicon.active(sense_id) and sense_id not in done and sense_id in glosses
+    ]
+    matches, counts = english.propose(senses, members, concepts)
+    print(f"Zolai senses without an equivalence: {len(senses):,}")
+    for key, number in counts.items():
+        print(f"  {key:<11}{number:>8,}")
+    shown = matches if limit == 0 else matches[:limit]
+    for match in shown:
+        print(f"  {lexicon.key(match.sense):<20} {match.concept:<18} {concepts[match.concept][2][:70]}")
+    if not args.apply:
+        print(DRY_RUN)
+        return EXIT_OK
+    low = config.status_code("sense", "low")
+    lexicon.extra[table["equivalent"]] = sorted(
+        set(stored) | {(m.sense, m.concept, low, "terms") for m in matches}
+    )
+    _store(config, lexicon, True)
     return EXIT_OK
 
 

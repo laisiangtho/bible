@@ -133,6 +133,53 @@
         "note": "Remark that belongs to the status."
       }
     },
+    "concept": {
+      "description": "Concepts of the lexicon of a language: one meaning with its definition, whatever words express it. Imported from a release of a wordnet or added locally.",
+      "path": "lang/{language}/concept",
+      "columns": {
+        "id": "Concept id: the id of the release, or local- followed by a number and the part of speech for a local concept.",
+        "type": "Code of the part-of-speech list of the lexicon.",
+        "field": "Group of the release the concept belongs to, such as noun.animal.",
+        "definition": "Explanation of the meaning, in the language.",
+        "origin": "The release the row comes from, or local. A row of a release is replaced by the next release; a local row is never replaced."
+      }
+    },
+    "lang_sense": {
+      "description": "Which words of the language express which concept.",
+      "path": "lang/{language}/sense",
+      "columns": {
+        "word": "The word as written.",
+        "concept": "Concept id.",
+        "order": "Position of the concept among the concepts of the word, the most common first."
+      }
+    },
+    "lang_relation": {
+      "description": "Relations between concepts, and between words of the language. The kinds are in the relation list of the lexicon.",
+      "path": "lang/{language}/relation",
+      "columns": {
+        "from": "Concept id, or a word for a relation between words.",
+        "kind": "Code of the relation list of the lexicon.",
+        "to": "Concept id, or a word for a relation between words."
+      }
+    },
+    "form": {
+      "description": "Inflected forms that do not follow the regular endings, each sent to its base word.",
+      "path": "lang/{language}/form",
+      "columns": {
+        "form": "The inflected form, such as ran.",
+        "word": "The base word, such as run."
+      }
+    },
+    "equivalent": {
+      "description": "Zolai senses and the concepts of the language with the same meaning.",
+      "path": "lang/{language}/equivalent",
+      "columns": {
+        "sense": "Sense id of the Zolai lexicon.",
+        "concept": "Concept id.",
+        "status": "Code of the sense status list.",
+        "source": "How the equivalence was found."
+      }
+    },
     "note": {
       "description": "Open points for an editor: concepts without a keyword, words whose meaning is not settled.",
       "path": "note",
@@ -288,6 +335,81 @@
     "letter": {
       "name": "foreign letter",
       "description": "A letter that native Zolai words do not use. A keyword with such a letter is a loanword, a name or a foreign spelling, and its sense names its origin."
+    }
+  },
+  "lexicon": {
+    "description": "Closed lists of the lexicon of another language, in lang/{language}/.",
+    "type": {
+      "n": {
+        "name": "noun",
+        "description": "Noun."
+      },
+      "v": {
+        "name": "verb",
+        "description": "Verb."
+      },
+      "a": {
+        "name": "adjective",
+        "description": "Adjective."
+      },
+      "s": {
+        "name": "satellite adjective",
+        "description": "Adjective that stands in a cluster around a central adjective."
+      },
+      "r": {
+        "name": "adverb",
+        "description": "Adverb."
+      }
+    },
+    "relation": {
+      "broader": {
+        "name": "broader",
+        "description": "From a concept to a more general one: dog to canine."
+      },
+      "similar": {
+        "name": "similar",
+        "description": "Between concepts of nearly the same meaning."
+      },
+      "also": {
+        "name": "see also",
+        "description": "From a concept to a related one worth seeing."
+      },
+      "part": {
+        "name": "part of",
+        "description": "From a concept to the whole it is a part of."
+      },
+      "member": {
+        "name": "member of",
+        "description": "From a concept to the group it is a member of."
+      },
+      "substance": {
+        "name": "substance of",
+        "description": "From a concept to what it is the substance of."
+      },
+      "topic": {
+        "name": "topic",
+        "description": "From a concept to the domain it belongs to."
+      },
+      "entails": {
+        "name": "entails",
+        "description": "From an action to an action it implies: snore entails sleep."
+      },
+      "causes": {
+        "name": "causes",
+        "description": "From an action to the action it brings about."
+      },
+      "antonym": {
+        "name": "antonym",
+        "description": "Between words of opposite meaning."
+      },
+      "derivation": {
+        "name": "derived",
+        "description": "Between words built on one another: compare and comparative."
+      },
+      "pertains": {
+        "name": "pertains to",
+        "description": "From an adjective to the word it relates to: comparative to comparison."
+      }
     }
   },
   "keyword": {
@@ -695,6 +817,14 @@
       "owner": "Khen Solomon Lethil",
       "credit": "Patterns and example sentences from the Zolai grammar notes (Grammar.md) by Khen Solomon Lethil",
       "license": "MIT, as the repository"
+    },
+    "oewn": {
+      "name": "Open English WordNet",
+      "description": "The English lexicon in lang/eng/: concepts, definitions, words, forms and relations, from the release named in the origin column.",
+      "owner": "The Open English WordNet team, building on Princeton WordNet",
+      "url": "https://github.com/globalwordnet/english-wordnet",
+      "credit": "English concepts, definitions and relations from Open English WordNet, licensed under CC BY 4.0",
+      "license": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0"
     }
   },
   "bible": {
@@ -821,6 +951,11 @@
       "id": "E22",
       "name": "pattern",
       "description": "A pattern has a note. A stem pattern has a form, a different result, and affixes in its context that are words with an active prefix or suffix sense; a double pattern names a type; a letter pattern is one lowercase letter."
+    },
+    {
+      "id": "E23",
+      "name": "lexicon of a language",
+      "description": "A concept id occurs once and its type is listed; a sense, relation, form and equivalence name existing concepts and words; a relation kind is listed; an equivalence names an active Zolai sense and a listed status."
     }
   ]
 }

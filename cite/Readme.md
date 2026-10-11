@@ -17,6 +17,8 @@ Data of the Zolai–English dictionary, format 4. A word is stored once, each of
 | `lang/eng/gloss.tsv` | Terms and definition of a sense in English. A further language is a further folder in `lang/`. |
 | `lang/eng/translation.tsv` | English translation of each example. |
 | `lang/eng/link.tsv` | Common English words that are not a term of any sense, each sent to the closest senses. |
+| `lang/eng/concept.tsv`, `sense.tsv`, `relation.tsv`, `form.tsv` | The English lexicon: concepts with definitions, the words that express them, their relations and irregular forms, from Open English WordNet (CC BY 4.0). |
+| `lang/eng/equivalent.tsv` | Zolai senses and the English concepts with the same meaning. |
 | `sequence.tsv` | The highest id given out for words, senses and examples. |
 | `CREDITS.md` | Generated credits: sources and Bible texts. |
 | `STATS.md` | Generated counts of words, senses, examples and languages. Refreshed by hand with `stats --markdown --apply`, so it can lag behind the tables. |
@@ -40,6 +42,8 @@ python3 -m assist cite lookup lianzawna      # not in the lexicon: read as parts
 python3 -m assist cite lookup hand           # not a Zolai word: the senses with the term, in every gloss language
 python3 -m assist cite lookup --eng man       # a term of English only, although man is also a Zolai word
 python3 -m assist cite lookup mom             # no sense has the term: the closest senses of lang/eng/link.tsv
+python3 -m assist cite lookup comparatives    # reduced to the base form comparative
+python3 -m assist cite lookup syntactically   # no Zolai sense: the English concepts, with any equivalent Zolai senses
 python3 -m assist cite lookup khut --json     # the same as data
 python3 -m assist cite find "wash"            # a text anywhere: spellings, glosses, examples, translations
 python3 -m assist cite show s19435 e12061     # the rows behind ids or sense keys, as markup
@@ -62,6 +66,8 @@ python3 -m assist cite stats                  # counts of words, senses, example
 python3 -m assist cite stats --by type,status --set core   # senses of the core set by type and status
 python3 -m assist cite stats --markdown --apply  # refresh STATS.md
 python3 -m assist cite credits --apply        # regenerate CREDITS.md from the source list
+python3 -m assist cite english english-wordnet-2025.xml.gz --apply  # import or update the English lexicon
+python3 -m assist cite equivalents --apply    # find English concepts for Zolai senses through their terms
 python3 -m unittest discover -s assist/tests -t .
 ```
 
@@ -190,3 +196,7 @@ Bitexts can markedly increase student reading and comprehension in a second lang
 Bitexts have long been a mainstay of second-language education for European languages, and are equally valuable for students of English and Southeast Asian languages.
 
 Bitext in kammal/laimal dangte simna leh teihna dingin hong kangto sak hi. Tua ahihmanin laigual a simnate hang tampitak khangtosak hi, sangnaupangte pen khangto mahmah uh a, laimalte a sim uh ciangin, amaute laimal leh grammer gualdang pen theihna leh muhna kihong khia hi.
+
+## Licence
+
+The data of this directory is under the licence of the repository, MIT, with one exception: the English lexicon in `lang/eng/concept.tsv`, `lang/eng/sense.tsv`, `lang/eng/relation.tsv` and `lang/eng/form.tsv` comes from Open English WordNet and stays under its licence, CC BY 4.0, which asks for the credit given in `CREDITS.md`. Equivalences in `lang/eng/equivalent.tsv` are this project's own.
