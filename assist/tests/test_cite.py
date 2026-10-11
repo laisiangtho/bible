@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import List
 
 from assist.cite import (
-    check, cli, config as configuration, credits, importer, index, lexicon, markup, pull, query, render, tables, work,
+    analyse, check, cli, config as configuration, credits, importer, index, lexicon, markup, pull, query, render, tables, work,
 )
 from assist.cite.config import CiteError
 
@@ -508,6 +508,41 @@ class WorkTest(Fixture):
         rest = work.overview(found, self.config, list(facts.values()))
         self.assertEqual(rest["examples"], 3)
         self.assertEqual(rest["languages"]["eng"]["translations"], 3)
+
+
+class AnalyseTest(unittest.TestCase):
+    WORDS = {
+        "hoih": [("s1", "hoih.1", "adj", "good")],
+        "lo": [("s2", "lo.1", "adv", "not")],
+        "na": [("s3", "na.1", "suffix", "-ness"), ("s4", "na.2", "v", "hurt")],
+        "zaw": [("s5", "zaw.1", "suffix", "more")],
+        "kap": [("s6", "kap.1", "v", "cry")],
+        "ki": [("s7", "ki.1", "prefix", "each other")],
+        "it": [("s8", "it.1", "v", "love")],
+    }
+    PATTERNS = analyse.Patterns.of(
+        [("stem", "lo", "loh", "na", "lo becomes loh before na"), ("double", "v", "", "", "ongoing action")], "/"
+    )
+
+    def readings(self, word: str):
+        lookup = lambda piece: [analyse.Meaning(*row) for row in self.WORDS.get(piece, [])]
+        return analyse.analyse(word, lookup, self.PATTERNS)
+
+    def test_affixes_and_stem(self) -> None:
+        first = self.readings("hoihlohna")[0]
+        self.assertEqual([(p.keyword, p.role) for p in first.parts], [("hoih", "base"), ("lo", "base"), ("na", "suffix")])
+        self.assertEqual(first.parts[1].pattern, "lo becomes loh before na")
+        self.assertEqual(self.readings("hoihzaw")[0].plan, "hoih + zaw")
+        self.assertEqual([p.role for p in self.readings("kiit")[0].parts], ["prefix", "base"])
+
+    def test_unchanged_stem_is_remarked(self) -> None:
+        part = self.readings("hoihlona")[0].parts[1]
+        self.assertEqual((part.keyword, part.pattern), ("lo", "before na this is written loh"))
+
+    def test_double_and_nothing(self) -> None:
+        self.assertEqual([(p.keyword, p.role) for p in self.readings("kapkap")[0].parts], [("kap", "double")])
+        self.assertEqual(self.readings("xyz"), [])
+        self.assertEqual(self.readings("hoih"), [])
 
 
 class RepositoryTest(unittest.TestCase):

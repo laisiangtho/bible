@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Callable, List
 
 from assist.cite import (
-    check, config as configuration, credits, importer, index, markup, pull, query, render, tables, work,
+    analyse, check, config as configuration, credits, importer, index, markup, pull, query, render, tables, work,
 )
 from assist.cite.config import CiteError, Config
 
@@ -252,6 +252,18 @@ def run_lookup(args: argparse.Namespace) -> int:
             if hint and not args.json:
                 blocks.append(f"also a term of {', '.join(names[c]['name'] for c in other)}: add {' or '.join(hint)}")
             return _print_lookup(args, model, senses, blocks)
+        readings = analyse.analyse_with_index(found, text) if " " not in text.strip() else []
+        if readings:
+            other = found.senses_for_term(text, config.languages)
+            if args.json:
+                print(json.dumps({"analysis": [analyse.record(r) for r in readings]}, ensure_ascii=False, indent=2))
+                return EXIT_OK
+            print(f"'{text}' is not in the lexicon; read as parts that are (an analysis, not a stored entry):")
+            print("\n".join(analyse.describe(reading) for reading in readings))
+            if other:
+                hint = " or ".join(f"--{code}" for code in other)
+                print(f"also a term of {', '.join(names[c]['name'] for c in other)}: add {hint}")
+            return EXIT_OK
     languages = args.languages or list(config.languages)
     by_language = found.senses_for_term(text, languages)
     if by_language:

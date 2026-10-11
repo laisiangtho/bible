@@ -36,6 +36,7 @@ python3 -m assist cite check                  # every broken rule
 python3 -m assist cite check --summary        # counts per rule
 python3 -m assist cite lookup vantung         # senses of a Zolai word, with examples
 python3 -m assist cite lookup beersheba       # hyphens, spaces and capitals are ignored: finds Be-ersheba
+python3 -m assist cite lookup lianzawna      # not in the lexicon: read as parts that are, lian + zaw + na
 python3 -m assist cite lookup hand           # not a Zolai word: the senses with the term, in every gloss language
 python3 -m assist cite lookup --eng man       # a term of English only, although man is also a Zolai word
 python3 -m assist cite lookup mom             # no sense has the term: the closest senses of lang/eng/link.tsv

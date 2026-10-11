@@ -15,6 +15,8 @@ Every closed list named in this document is stored in `configuration.json`: tabl
 - A **note** is an open point for an editor.
 - A **pattern** describes how words are built or spelled: a stem that changes before an affix, a word written twice, a letter that native words do not use. The tools apply the patterns to analyse a word that is not in the lexicon; `Grammar.md` describes them in prose.
 
+A Zolai word that `lookup` does not find is read as parts that are words of the lexicon: a prefix at the start, suffixes at the end, bases between them, a stem restored by a stem pattern, or a word written twice. Up to three readings are shown, the fewest parts first. An analysis is shown, never stored.
+
 The Zolai lexicon is stored in the cite directory itself. What belongs to another language, glosses, translations and links, is stored in the folder of that language, named by its code, inside `lang/`. A language folder holds the same file names for every language; a file that a language does not have yet is simply absent.
 
 ## Files
