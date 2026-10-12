@@ -1395,6 +1395,7 @@ editor	Naungekte		common word, infants, plural of naungek, capitalised at the st
 editor	Naungekte		typed name with w Naungekte, but it is the common noun naungekte, infants, capitalised at the start of a sentence or quotation, 2 Kings 19:3 and Matthew 21:16
 editor	Nazereth		misspelling of Nazareth; in Matt 2:23 Nazereth mi renders Nazarene
 editor	Nazir		type name; Nazir is a title, Nazirite, rather than a proper name; may fit n better
+editor	Nazong		Nazong.1: every sentence has nazong as na zong, search or also, not a month; the sense Nayon looks wrong for this spelling
 editor	Ne-i		fragment of the place name Ne-i-el, Neiel, in Joshua 19:27; the full name has no keyword of its own
 editor	Nebaioth		c is female but 13.1.29 says Ishmael's firstborn son; male
 editor	Nebaioth		c is female, but Nebaioth is the firstborn son of Ishmael, 1 Chronicles 1:29; should be male
@@ -1759,6 +1760,7 @@ editor	adang		confirmed as prep "for" with example kanu adang, but in all Bible 
 editor	adang		in the Bible text adang means other or another; no verse shows the meaning for
 editor	adang		w is for, but the verses use adang as other, another
 editor	adei		Jeremiah 36.10 adei tungnunga matches NIV upper courtyard, so adei may mean court rather than room
+editor	adt		adt.2: the same meaning as adt.1, and etc. and and so on are one sense; the two senses look like duplicates to merge
 editor	agel		agel.1: is <a> plus <geel> written together, not a separate word
 editor	ahi		ahi.1: the same as ahi.2, is
 editor	ahia		part row: the keyword does not occur in the Bible text, no example could be added
@@ -2213,6 +2215,8 @@ editor	golpite		no verse found for the sense large as in objects; all occurrence
 editor	golpite		the confirmed row large, as in objects, has no verse: all three occurrences of golpite describe creatures
 editor	golpite		the objects row, large, has no example: both verses with the keyword are about birds and belong to the creatures row
 editor	gongbakte		occurs only in thawl gongbakte; meaning of gongbak alone not known
+editor	gtn		gtn.1: same meaning as gtn.2 and gtn.3, the abbreviation for example, e.g.; the three senses look like duplicates
+editor	gtn		gtn.3: duplicate of gtn.2, the abbreviation used as e.g.
 editor	guahciin		second part ciin not confirmed; meaning from the NIV, dripping of a leaky roof
 editor	guak		as a verb, uncover, is not shown by the verses; guak there is the adjective naked or bare, a guak tangin om in 2 Samuel 6:20 is being uncovered, a state
 editor	guak		guak.1: the single example is the naked sense of guak.6, not a verb uncover
@@ -2395,6 +2399,7 @@ editor	hupipa		follows the sense mighty defender of Israel; the NIV wording char
 editor	hut		b points to hu, whose only existing row is breath; the base sense is hu protect, defend, which has no row yet. Habakkuk 3:17 thei gahte hut khin, fig tree does not bud, looks like a different word and is not covered
 editor	hute		hu help has no row, the existing hu is breath; b left out
 editor	huumhaam		huumhaam.1: the source gives nicker, which no sentence supports; the Zolai explanation in zd:569 describes loud complaining in pain or anger, close to humham
+editor	huutna		huutna.1: every sentence shows protection, sense 2, or hoarseness of the voice; none shows infertility, and the sense may be wrong for this spelling
 editor	huzo		base is the verb hu, protect or save; the existing row for hu is only breath, so b was left out
 editor	i-ada		fragment of the name Beel-i-ada, not a word; the full name needs the row
 editor	i-arib		not a word: tail of the hyphenated name Jo-i-arib, Joiarib; row left as todo, a redirect to Jo-i-arib may be wanted
@@ -3052,6 +3057,7 @@ editor	kizo		b points to zo; the sense be finished relies on zo, finish, which h
 editor	kizolsak		Isaiah 34:6 sense, smeared with fat, may be a different word from zol entice
 editor	kizong		base zong has only adverb rows, also; the verb sense seek or search that kizong derives from has no row
 editor	ko		also occurs as a verb, cry out to, report, express, as in 2.8.12 Topa' tungah ko hi, 44.24.8 ci-in a ko hi and 14.7.3 lungdamna ko-in; there is no verb row for it
+editor	ko a		ko a.1: no sentence shows ours; every ko a is ko, we, or ko, call, followed by a, as in ko a khial gamtat kha, we who acted wrongly; the sense looks wrong for the pair
 editor	koh		Looks like a form of ko, report or call out, which has no row yet; the existing ko row is only the pronoun we, so no b was given.
 editor	koih		koih.1: hardly differs from koih.2, place
 editor	koih		the four confirmed rows put, place, deposit, lay down had examples on two rows only; examples were divided by English sense and should be checked
@@ -3303,6 +3309,7 @@ editor	luhinna		not luhin raid plus na; paired with nuntakna, NIV supply and sup
 editor	lui		the verb sense set food before someone, serve, has no row: a mai-ah a lui hi in 1.18.8, 9.28.25, 12.4.44; luisak in 9.28.22 is built on it
 editor	luimu		NIV has black vulture and falcon, KJV ospray; lui plus mu suggests osprey, river hawk; species needs a speaker
 editor	luite		also occurs as the plural of lui old, hun luite the former days in 19.77.5 and 19.143.5, and siampi luite the senior priests in 12.19.2; no row for that sense
+editor	lumlo		lumlo.1: both sentences show lum, lie down or sleep, with lo: not sleep, not not warm; the sense looks wrong for these uses
 editor	lumneu		the 1977 and 1932 texts of 2 Chronicles 14:8 assign lumneu to different tribes; the first agrees with the NIV small shields
 editor	lumte		in Psalms 74:4 amau lumte renders standards or ensigns, not shields
 editor	luna		has base lu, head, but occurs only in the pair cina, luna; the base and meaning are doubtful
@@ -3541,6 +3548,7 @@ editor	namkim		adv fully/wholly: no verse shows an adverbial use; in the text na
 editor	namkim		namkim.2: the same use as namkim.1 with {a}, all kinds of them; not a separate pronoun
 editor	namkim		namkim.3: the examples show the meaning of namkim.1, not fully or wholly
 editor	namsak		b points to nam, but the base is nam kiss, which has no row yet; the existing nam rows are kind, type
+editor	namta		namta.1: the only sentence is an article title, Zogam nuntak gim namta, where gim namta is figurative and may be a compound; the gloss, smelt, also looks doubtful
 editor	namun		form unclear in Joshua 7:14, perhaps a misprint of namnamin or nam with un
 editor	namun		namun.1: the only verse is already stored; the article sentences show na mun, place; the reading by tribe looks doubtful
 editor	nan		always written with an apostrophe in the text, nan' before zawh and nading, and nan'na for a support or ledge; a separate noun row for nan'na may be wanted
@@ -4020,6 +4028,7 @@ editor	sapi		base sa is used in the sense animal; the existing rows for sa only 
 editor	sapipi		conj but/however/although is not shown: the only verse, Genesis 3:16, has na a sapipi-in, with great pain; the but of that verse is Ahi zongin
 editor	sapipi		conj sense "but/however/although" not found; the only occurrence is na a sapipi-in, "with great pain", Genesis 3:16
 editor	sapipi		sapipi.2: no example shows a conjunction; in Gen 3:16 the contrast is {Ahi zongin}, and {sapipi} there is sapipi.1, in great pain
+editor	sapipi		sapipi.2: the sense looks wrong, sapipi is not a conjunction of contrast; every sentence has the meaning of sapipi.1
 editor	sapipi		the confirmed particle row and the conj row but/however are not supported by Genesis 3:16, where na a sapipi-in reads as sa, feel, with pipi, greatly: with great pain; no verse shows a conjunction
 editor	sapna		Romans 12:13 a sapna bangun, according to their need; may belong to kisapna, need, rather than sap, call
 editor	sasa		base sa here is the verb sing; the existing rows of sa only have meat, flesh, animal and hot
@@ -4027,6 +4036,7 @@ editor	sasak		existing rows for sa lack the senses feel and sing, so no base was
 editor	sasempa		1 Samuel 3:9 "na sasempa in za hi": probably a misprint for nasempa, servant
 editor	sasempa		1 Samuel 3:9 is the only occurrence and looks like a misprint of nasempa
 editor	sasial		English typo in description: uncook, should be uncooked
+editor	satang		satang.1: no sentence shows abstaining from meat; every one has satang as something burnt, in satang hal and satang kang, so the sense looks wrong
 editor	sathak		meat and muscle are not shown: both verses with the word, Deuteronomy 14:5 and Psalms 104:18, mean wild goat
 editor	sathak		rows with w meat and w muscle have no verse support; the word occurs only as wild goat in Deuteronomy 14:5 and Psalms 104:18
 editor	sathak		sathak.2: no sentence shows meat; every sentence means wild goat, and the sense looks doubtful for the word
@@ -4254,6 +4264,7 @@ editor	taaksak		blood poured or drained out in Leviticus and Ezekiel, throat lef
 editor	taaksing		pine in the definition comes from general knowledge of taak; the verses show juniper, fir and cypress
 editor	taan		two homographs: taan’ shine, and taan lose or be deprived of, Jeremiah 5:25 and Joshua 19:47
 editor	taang		a further sense is not covered: taang loin is without moving, standing still, in Exodus 15.16, Joshua 3.8 and 1 Samuel 12.16
+editor	taang a		taang a.1: every sentence shows taang, shine or of old, followed by the particle a, never a possessive his; the sense looks doubtful
 editor	taangin		relation word in place of, instead of; unrelated to the existing rows of taang shine, wheat; probably the same word as tangin
 editor	taangkhiasak		the sense put forth the hand, 1 Samuel 22.17 and 26.23, differs from shine out; may be a separate word
 editor	taanna		Revelation 8.12 uses a taanna uh for the shining of sun, moon and stars, taan shine with na; the row covers only the sense loss
@@ -4261,6 +4272,7 @@ editor	taaubeelin		typed n but is taaubeel, bronze pot, with the marker in; no r
 editor	tah		row covers Deuteronomy 16:9 only; in Ezekiel 23:43 hi tah a looks like a sentence-final particle and is not described
 editor	tahtah		which of pressed down, shaken together it matches in Luke 6:38 is not certain
 editor	taigawp		tai here means rebuke, compare kitai; the existing tai row is run or flee, so b is omitted and tai lacks a rebuke row
+editor	taihna		taihna.1: the other sentences show taih as ironing {puan taihna} or practising {la taihna}, not hitting; the sense is doubtful beyond {damiah taihna}
 editor	taii		other uses left out: Isaiah 30:28 a taii tuikhang, rushing torrent; Isaiah 43:24 taii sak, satisfy or lavish; the adj sense cheerful rests on Proverbs 17:22 mai taii-na only
 editor	taii		the adj row rests only on mai taii-na in Proverbs 17.22, where the word is part of a noun; the sense cheerful may belong under a noun row
 editor	taiisak		Isaiah 43.24, sa thaute tawh nong taiisak nai kei, NIV lavished on me the fat: not covered by the row, sense unclear
@@ -4572,6 +4584,7 @@ editor	tuipuak		confirmed rows give the senses dine and well, but the only verse
 editor	tuipuak		tuipuak.2: only two article sentences, carrying water and watering plants are not clearly told apart
 editor	tuipuak		w is dine; the only occurrence, Luke 14:2, is tuipuak natna, dropsy
 editor	tuipuak		w is well; not supported by the only occurrence, Luke 14:2
+editor	tuitaak		tuitaak.2: duplicates tuitaak.1; no sentence shows the libation-based naming, all go to tuitaak.1
 editor	tuithuk		two words: vinegar and deep water
 editor	tuk		noun row: the verses point to autumn, the harvest and late-rain season (Proverbs 20:4, Jude 1:12, James 5:7), which season exactly needs a speaker
 editor	tukik		b not set: tu has only the row "this"; the sense come down on, sit is missing there
@@ -4653,6 +4666,7 @@ editor	un		the row of type v with the term let is the plural imperative or exhor
 editor	unla		d says nominative case marker; in the verses it ends a plural imperative followed by and, hehpih unla
 editor	unla		defined as a nominative marker, but in every verse it is the plural imperative un with la, and, linking two commands
 editor	unla		unla.1: duplicates unla.2
+editor	unn		unn.1: the sense bass looks wrong; in the only sentences unn means monopolize
 editor	upadi		Burmese origin stated in d from general knowledge
 editor	ut		the three rows are typed n, yet in most verses ut is a verb, want or wish, as in ka ut hi; noun use is seen in na ut bangin and nomau’ ut
 editor	ut		ut.2: duplicates ut.1 and ut.3; the examples show the verb want
@@ -4794,6 +4808,7 @@ editor	zepin		zep here is fold the hands; the existing zep row is decorate; no b
 editor	zeza		expressive intensifier after mam straight and san red; no English term given
 editor	zialin		sense of zial after dak, look, is unclear; base zial roll does not obviously fit
 editor	zialin		zialin.1: only one Bible verse; in an article sentence {Phek-hual sungah zialin a pua} it reads as <zial>, roll up, with {-in}, carried rolled up in a mat
+editor	zialin		zialin.1: the only other sentence, zd:7226 Phek-hual sungah zialin a pua, shows rolled up or wrapped, not peering; the sense peering looks doubtful, zial roll may be meant in 22.2.9 as well
 editor	zialzial		ideophone-like adverb with two uses, flashing after tee and going about freely after pai; meanings inferred from context only
 editor	ziau		adverb after a verb, quick single movement; sense inferred from la ziau, botsat ziau, paikhia ziau
 editor	ziik		long-vowel spelling of zik in the 1932 text; same doubt as the zik row
