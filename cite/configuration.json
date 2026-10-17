@@ -764,14 +764,6 @@
     }
   },
   "source": {
-    "zai": {
-      "name": "zolai-ai merged dictionary",
-      "description": "English to Zolai dictionary data of the zolai-ai project, merged there from the dictionaries of Thang Khan Dal, Dal Lian Haokip, Mang Cin Pau Gualnam and the ZomiDictionary application, and the English to Zolai word list of the same project. The locator is the English headword.",
-      "owner": "Peter Lianpi and the Zolai Project Contributors",
-      "credit": "Dictionary data from the zolai-ai project, github.com/peterlianpi/zolai-ai",
-      "license": "MIT",
-      "url": "https://github.com/peterlianpi/zolai-ai"
-    },
     "moby": {
       "name": "Moby Thesaurus",
       "description": "Moby Thesaurus by Grady Ward, public domain. Relates an English word to English words of similar meaning. The locator is the English term of a sense through which the linked word was found.",
@@ -795,6 +787,14 @@
       "credit": "Examples from Tongsan, tongsan.org",
       "permission": "Requested by the editor in October 2026; the wording of the credit is not yet received. Only single words and short fragments of sentences are quoted.",
       "url": "https://tongsan.org"
+    },
+    "zai": {
+      "name": "zolai-ai merged dictionary",
+      "description": "English to Zolai dictionary data of the zolai-ai project, merged there from the dictionaries of Thang Khan Dal, Dal Lian Haokip, Mang Cin Pau Gualnam and the ZomiDictionary application, and the English to Zolai word list of the same project. The locator is the English headword.",
+      "owner": "Peter Lianpi and the Zolai Project Contributors",
+      "credit": "Dictionary data from the zolai-ai project, github.com/peterlianpi/zolai-ai",
+      "license": "MIT",
+      "url": "https://github.com/peterlianpi/zolai-ai"
     },
     "zp": {
       "name": "Zomipedia",
